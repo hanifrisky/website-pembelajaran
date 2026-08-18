@@ -794,23 +794,111 @@
               <p id="custText">"Halo @DearMeBeauty, barang saya sampai pecah berantakan gini! Gimana sih pengemasan dan tanggung jawabnya? Kapok belanja di sini!"</p>
             </div>
             
-            <div style="margin-bottom: 12px; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--lime-400);">Pilih Respons Customer Service:</div>
-            <button class="option-btn" id="optA" onclick="selectOption('A')">Respons A: "Itu kan salah ekspedisi kurirnya! Kami kirim dalam kondisi baik!"</button>
-            <button class="option-btn" id="optB" onclick="selectOption('B')">Respons B: "Mohon maaf atas ketidaknyamanannya. Keluhan Anda akan kami teruskan."</button>
-            <button class="option-btn" id="optC" onclick="selectOption('C')">Respons C: "Hai Kak, maaf sekali ya. Kami siap ganti rugi. Yuk lanjut di DM."</button>
-          </div>
-
-          <div class="outcome-box" id="outcomeBox">
-            <!-- Populated dynamically -->
+            <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 15px;">
+              <div style="display: flex; flex-direction: column; gap: 6px;">
+                <label for="teamNameInput" style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--lime-400);">Nama Kelompok / Tim:</label>
+                <input type="text" id="teamNameInput" placeholder="Contoh: Kelompok 1 / Tim A..." style="font-family: var(--font-body); font-size: 13px; padding: 10px 14px; border-radius: 8px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); color: white; outline: none;">
+              </div>
+              
+              <div style="display: flex; flex-direction: column; gap: 6px;">
+                <label for="teamResponseInput" style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--lime-400);">Draf Respons Klarifikasi Tim:</label>
+                <textarea id="teamResponseInput" placeholder="Tuliskan draf pernyataan tanggapan resmi kelompok Anda yang empati, jujur, transparan, dan solutif..." rows="4" style="font-family: var(--font-body); font-size: 13px; padding: 10px 14px; border-radius: 8px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); color: white; outline: none; resize: none;"></textarea>
+              </div>
+              
+              <button class="btn btn-primary" onclick="submitTeamAnswer()" style="width: 100%; margin-top: 5px; font-family: var(--font-display); font-weight: 700; background: var(--lime-400); color: #000000; border: none; padding: 10px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">🚀 Kirim Klarifikasi Tim</button>
+              <div id="sim-status-msg" style="display: none; font-size: 13px; text-align: center; margin-top: 5px; font-weight: 700;"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SLIDE 12: PENUTUP & TUGAS -->
+  </section>
+
+  <!-- SLIDE 12: PEER REVIEW -->
+  <section class="slide paper" data-duration="15">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Aktivitas Kelas — Peer Review</div>
+    <h2>Penilaian Draf Respons Kelompok</h2>
+    <p class="lead">Pilih skenario krisis dan kelompok yang ingin dinilai. Klik <strong>Muat Ulang</strong> untuk mengambil kiriman draf terbaru.</p>
+    
+    <div class="scroll-frame" style="max-height: 60vh;">
+      <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 24px; margin-top: 5px; align-items: start;">
+        <!-- Left Column: Selection and Answer Display -->
+        <div style="background: white; border-radius: 16px; border: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; gap: 10px; align-items: flex-end;">
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 4px;">
+              <label for="reviewScenarioSelect" style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--emerald-600);">Pilih Skenario:</label>
+              <select id="reviewScenarioSelect" onchange="onReviewScenarioChanged()" style="font-family: var(--font-body); font-size: 13px; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--mint-050);">
+                <option value="Pelanggan Twitter (@Santi_Lokal)">📦 Skenario 1: Paket Rusak (Twitter)</option>
+                <option value="Pelanggan WhatsApp (Budi Hartono)">⏱ Skenario 2: Respons Lambat (WhatsApp)</option>
+                <option value="Komentar Instagram (@Kritik_Medsos)">⚠️ Skenario 3: Blunder Iklan Hype (Instagram)</option>
+              </select>
+            </div>
+            <button class="btn btn-primary" onclick="loadSubmittedResponses()" style="padding: 9px 14px; background: var(--emerald-600); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 12px; display: flex; align-items: center; gap: 6px; font-family: var(--font-display); font-weight: 700;">🔄 Muat Ulang</button>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <label for="reviewTeamSelect" style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--emerald-600);">Pilih Kelompok:</label>
+            <select id="reviewTeamSelect" onchange="displaySelectedTeamResponse()" style="font-family: var(--font-body); font-size: 13px; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--mint-050);">
+              <option value="">-- Belum ada tim pengirim --</option>
+            </select>
+          </div>
+
+          <div style="background: var(--mint-050); border: 1px solid var(--line); border-radius: 12px; padding: 16px; min-height: 120px;">
+            <h4 style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--forest-950); margin-bottom: 6px;">Draft Klarifikasi Kelompok:</h4>
+            <p id="reviewResponseDisplay" style="font-size: 13px; line-height: 1.5; color: var(--ink); font-style: italic;">Silakan pilih kelompok terlebih dahulu.</p>
+          </div>
+        </div>
+
+        <!-- Right Column: Anonymous Grading Form -->
+        <div style="background: var(--forest-900); border-radius: 16px; border: 1px solid rgba(255,255,255,0.06); padding: 20px; color: var(--mint-100);">
+          <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--lime-400); margin-bottom: 15px; text-transform: uppercase; letter-spacing: 0.05em;">Panel Penilaian Anonim</h3>
+          
+            <div style="display: flex; flex-direction: column; gap: 14px;">
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="display: flex; justify-content: space-between; font-size: 12px; font-weight: 700;">
+                  <span>Empati &amp; Pengakuan:</span>
+                  <span id="scoreValEmpati" style="color: var(--lime-400);">80</span>
+                </div>
+                <input type="range" id="scoreEmpati" min="0" max="100" value="80" oninput="calculateLiveScore()" style="width: 100%; accent-color: var(--lime-400);">
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="display: flex; justify-content: space-between; font-size: 12px; font-weight: 700;">
+                  <span>Transparansi &amp; Kejujuran:</span>
+                  <span id="scoreValTransparansi" style="color: var(--lime-400);">80</span>
+                </div>
+                <input type="range" id="scoreTransparansi" min="0" max="100" value="80" oninput="calculateLiveScore()" style="width: 100%; accent-color: var(--lime-400);">
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="display: flex; justify-content: space-between; font-size: 12px; font-weight: 700;">
+                  <span>Kelayakan Solusi:</span>
+                  <span id="scoreValSolusi" style="color: var(--lime-400);">80</span>
+                </div>
+                <input type="range" id="scoreSolusi" min="0" max="100" value="80" oninput="calculateLiveScore()" style="width: 100%; accent-color: var(--lime-400);">
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="display: flex; justify-content: space-between; font-size: 12px; font-weight: 700;">
+                  <span>Netiket &amp; Kerapian:</span>
+                  <span id="scoreValNetiket" style="color: var(--lime-400);">80</span>
+                </div>
+                <input type="range" id="scoreNetiket" min="0" max="100" value="80" oninput="calculateLiveScore()" style="width: 100%; accent-color: var(--lime-400);">
+              </div>
+
+            <button class="btn btn-primary" onclick="submitPeerReview()" style="width: 100%; margin-top: 5px; font-family: var(--font-display); font-weight: 700; background: var(--lime-400); color: #000000; border: none; padding: 10px; border-radius: 8px; cursor: pointer;">🚀 Kirim Penilaian Anonim</button>
+            <div id="review-status-msg" style="display: none; font-size: 13px; text-align: center; margin-top: 5px; font-weight: 700;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 13: PENUTUP & TUGAS -->
   <section class="slide dark" data-duration="5">
-    <div class="hero-num">12</div>
+    <div class="hero-num">13</div>
     <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Terima Kasih</div>
     <h1>Etika Menjaga<br>Keberlanjutan <span class="accent">Bisnis</span></h1>
     <div class="grid cols-2" style="margin-top: 30px; max-width: 900px;">
@@ -872,6 +960,7 @@
     slides[prev].scrollIntoView({behavior:'smooth'});
   });
   window.addEventListener('keydown', (e)=>{
+    if(e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
     if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){ e.preventDefault(); document.getElementById('nextBtn').click(); }
     if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){ e.preventDefault(); document.getElementById('prevBtn').click(); }
   });
@@ -942,7 +1031,12 @@
     renderSlideTimer();
   });
 
-  function onSlideChanged(idx){ loadSlideTimer(idx); }
+  function onSlideChanged(idx){
+    loadSlideTimer(idx);
+    if(idx === 11) {
+      loadSubmittedResponses();
+    }
+  }
 
   // ---------- TIMER TOTAL (sisa waktu keseluruhan) ----------
   const TOTAL_MINUTES = 90;
@@ -1082,34 +1176,190 @@
     const data = simulatorData[idx];
     document.getElementById('custName').textContent = data.custName;
     document.getElementById('custText').textContent = data.custText;
-    document.getElementById('optA').textContent = data.optA;
-    document.getElementById('optB').textContent = data.optB;
-    document.getElementById('optC').textContent = data.optC;
 
-    // Reset options styling and hide outcome box
-    const optBtns = document.querySelectorAll('.option-btn');
-    optBtns.forEach(btn => btn.classList.remove('selected'));
-    
-    const outcomeBox = document.getElementById('outcomeBox');
-    outcomeBox.style.display = 'none';
+    // Reset response field and hide status msg
+    document.getElementById('teamResponseInput').value = '';
+    const statusMsg = document.getElementById('sim-status-msg');
+    statusMsg.style.display = 'none';
   }
 
-  function selectOption(opt) {
-    // Highlight selected button
-    const optBtns = document.querySelectorAll('.option-btn');
-    optBtns.forEach(btn => btn.classList.remove('selected'));
+  async function submitTeamAnswer() {
+    const teamName = document.getElementById('teamNameInput').value.trim();
+    const teamResponse = document.getElementById('teamResponseInput').value.trim();
+    const statusMsg = document.getElementById('sim-status-msg');
     
-    const selectedBtn = document.getElementById('opt' + opt);
-    selectedBtn.classList.add('selected');
+    if (!teamName || !teamResponse) {
+      statusMsg.style.color = '#f87171'; // red
+      statusMsg.textContent = '⚠️ Nama Tim dan Draf Respons wajib diisi!';
+      statusMsg.style.display = 'block';
+      return;
+    }
+    
+    const scenarioTitle = simulatorData[currentScenarioIdx].custName;
+    const payload = {
+      nama_tim: teamName,
+      skenario: scenarioTitle,
+      respons: teamResponse
+    };
+    
+    try {
+      statusMsg.style.color = '#fff';
+      statusMsg.textContent = 'Sedang mengirim...';
+      statusMsg.style.display = 'block';
+      
+      const response = await fetch('../save_team.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+      
+      const result = await response.json();
+      if (result.status === 'success') {
+        statusMsg.style.color = '#C9F13B'; // lime neon
+        statusMsg.textContent = '✅ Draf respons tim berhasil terkirim ke server!';
+        document.getElementById('teamResponseInput').value = '';
+      } else {
+        statusMsg.style.color = '#f87171';
+        statusMsg.textContent = '❌ Gagal: ' + result.message;
+      }
+    } catch (e) {
+      statusMsg.style.color = '#f87171';
+      statusMsg.textContent = '❌ Terjadi kesalahan jaringan.';
+    }
+  }
 
-    // Show outcome
-    const data = simulatorData[currentScenarioIdx];
-    const outcome = data.outcomes[opt];
+  // ---------- PEER REVIEW LOGIC ----------
+  let allSubmittedResponses = [];
+
+  async function loadSubmittedResponses() {
+    const statusMsg = document.getElementById('review-status-msg');
+    try {
+      const response = await fetch('../get_responses.php');
+      const result = await response.json();
+      if (result.status === 'success') {
+        allSubmittedResponses = result.data;
+        onReviewScenarioChanged();
+      } else {
+        console.error("Gagal memuat draf respons dari server.");
+      }
+    } catch (e) {
+      console.error("Kesalahan jaringan saat memuat draf respons.");
+    }
+  }
+
+  function onReviewScenarioChanged() {
+    const scenarioSelect = document.getElementById('reviewScenarioSelect');
+    const teamSelect = document.getElementById('reviewTeamSelect');
+    const selectedScenario = scenarioSelect.value;
     
-    const outcomeBox = document.getElementById('outcomeBox');
-    outcomeBox.className = 'outcome-box ' + outcome.type;
-    outcomeBox.innerHTML = outcome.text;
-    outcomeBox.style.display = 'block';
+    // Clear team select options
+    teamSelect.innerHTML = '';
+    
+    // Filter responses by scenario
+    const filtered = allSubmittedResponses.filter(r => r.skenario === selectedScenario);
+    
+    if (filtered.length === 0) {
+      const opt = document.createElement('option');
+      opt.value = "";
+      opt.textContent = "-- Belum ada tim pengirim --";
+      teamSelect.appendChild(opt);
+      document.getElementById('reviewResponseDisplay').textContent = "Belum ada kelompok yang mengirimkan jawaban untuk skenario ini.";
+      return;
+    }
+    
+    filtered.forEach(r => {
+      const opt = document.createElement('option');
+      opt.value = r.nama_tim;
+      opt.textContent = r.nama_tim;
+      teamSelect.appendChild(opt);
+    });
+    
+    displaySelectedTeamResponse();
+  }
+
+  function displaySelectedTeamResponse() {
+    const scenarioSelect = document.getElementById('reviewScenarioSelect').value;
+    const teamSelect = document.getElementById('reviewTeamSelect').value;
+    const displayEl = document.getElementById('reviewResponseDisplay');
+    
+    if (!teamSelect) {
+      displayEl.textContent = "Silakan pilih kelompok terlebih dahulu.";
+      return;
+    }
+    
+    const found = allSubmittedResponses.find(r => r.skenario === scenarioSelect && r.nama_tim === teamSelect);
+    if (found) {
+      displayEl.textContent = found.respons;
+    } else {
+      displayEl.textContent = "Draf respons tidak ditemukan.";
+    }
+  }
+
+  function calculateLiveScore() {
+    const empati = parseInt(document.getElementById('scoreEmpati').value) || 0;
+    const transparansi = parseInt(document.getElementById('scoreTransparansi').value) || 0;
+    const solusi = parseInt(document.getElementById('scoreSolusi').value) || 0;
+    const netiket = parseInt(document.getElementById('scoreNetiket').value) || 0;
+    
+    document.getElementById('scoreValEmpati').textContent = empati;
+    document.getElementById('scoreValTransparansi').textContent = transparansi;
+    document.getElementById('scoreValSolusi').textContent = solusi;
+    document.getElementById('scoreValNetiket').textContent = netiket;
+  }
+
+  async function submitPeerReview() {
+    const scenario = document.getElementById('reviewScenarioSelect').value;
+    const teamName = document.getElementById('reviewTeamSelect').value;
+    const statusMsg = document.getElementById('review-status-msg');
+    
+    if (!teamName) {
+      statusMsg.style.color = '#f87171';
+      statusMsg.textContent = '⚠️ Silakan pilih kelompok yang ingin dinilai!';
+      statusMsg.style.display = 'block';
+      return;
+    }
+    
+    const empati = parseInt(document.getElementById('scoreEmpati').value) || 0;
+    const transparansi = parseInt(document.getElementById('scoreTransparansi').value) || 0;
+    const solusi = parseInt(document.getElementById('scoreSolusi').value) || 0;
+    const netiket = parseInt(document.getElementById('scoreNetiket').value) || 0;
+    
+    const payload = {
+      nama_tim: teamName,
+      skenario: scenario,
+      empati: empati,
+      transparansi: transparansi,
+      solusi: solusi,
+      netiket: netiket
+    };
+    
+    try {
+      statusMsg.style.color = '#fff';
+      statusMsg.textContent = 'Mengirim penilaian...';
+      statusMsg.style.display = 'block';
+      
+      const response = await fetch('../save_grade.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+      
+      const result = await response.json();
+      if (result.status === 'success') {
+        statusMsg.style.color = '#C9F13B'; // lime neon
+        statusMsg.textContent = '✅ Penilaian berhasil terkirim secara anonim!';
+      } else {
+        statusMsg.style.color = '#f87171';
+        statusMsg.textContent = '❌ Gagal: ' + result.message;
+      }
+    } catch (e) {
+      statusMsg.style.color = '#f87171';
+      statusMsg.textContent = '❌ Terjadi kesalahan jaringan.';
+    }
   }
 
   // Load first scenario on init
