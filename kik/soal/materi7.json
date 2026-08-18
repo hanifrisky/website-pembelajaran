@@ -1,0 +1,1207 @@
+{
+  "materi": "Digitalisasi dan Teknologi Bisnis",
+  "deskripsi": "Pemanfaatan platform e-commerce, integrasi gerbang pembayaran digital (payment gateway), cloud scaling, dan otomasi layanan berbasis AI.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Sinergi Tech mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 2,
+      "question": "Dalam rangka melakukan digitalisasi bisnis layanan digital mobile, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 3,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Karya Agung mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 4,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Lestari Hijau mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 5,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Batik Digital mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 6,
+      "question": "Dalam rangka melakukan digitalisasi bisnis manufaktur pakaian berkelanjutan, tim teknologi di Tani Jaya mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 7,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Kreatif Studio mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 8,
+      "question": "Dalam rangka melakukan digitalisasi bisnis layanan digital mobile, tim teknologi di Artha Mulia mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 9,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Cipta Karya mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 10,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Nusantara Food mengimplementasikan solusi 'E-Commerce Integration'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun toko online mandiri yang terintegrasi dengan sistem persediaan otomatis dan analytics data pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memajang katalog foto produk di website statis tanpa ada tombol keranjang belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengandalkan penjualan lewat pesan instan manual 24 jam tanpa ada sistem otomatis yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "10ceca1d"
+    },
+    {
+      "no": 11,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 12,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Karya Agung mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 13,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Lestari Hijau mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 14,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Batik Digital mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 15,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Tani Jaya mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 16,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Kreatif Studio mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 17,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Artha Mulia mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 18,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Cipta Karya mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 19,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Nusantara Food mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 20,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Sinergi Tech mengimplementasikan solusi 'Payment Gateway'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan API gerbang pembayaran resmi yang mendukung transfer bank, dompet digital, dan kartu kredit secara aman demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk mewajibkan pelanggan mengirim foto bukti transfer kertas melalui pos fisik untuk verifikasi yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyediakan metode pembayaran transfer langsung ke rekening pribadi direktur tanpa audit kas yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "96d223f6"
+    },
+    {
+      "no": 21,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Karya Agung mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 22,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Lestari Hijau mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 23,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Batik Digital mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 24,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Tani Jaya mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 25,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Kreatif Studio mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 26,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Artha Mulia mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 27,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Cipta Karya mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 28,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Nusantara Food mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 29,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Sinergi Tech mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 30,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'Cloud Auto-Scaling'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan arsitektur server awan yang otomatis menambah kapasitas bandwidth saat terjadi lonjakan trafik pengunjung demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membeli sepuluh unit komputer server fisik tambahan untuk diletakkan di dalam kantor operasional yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk membatasi jumlah pengunjung website maksimal 100 orang per jam untuk menghindari crash yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "f7f4d81b"
+    },
+    {
+      "no": 31,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Lestari Hijau mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 32,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Batik Digital mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 33,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Tani Jaya mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 34,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Kreatif Studio mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 35,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Artha Mulia mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 36,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Cipta Karya mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 37,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Nusantara Food mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 38,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Sinergi Tech mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 39,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 40,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Karya Agung mengimplementasikan solusi 'Data Analytics'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menganalisis pola perilaku belanja konsumen untuk merekomendasikan produk relevan secara personal (personalization) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menjual data pribadi riwayat transaksi konsumen kepada broker iklan pihak ketiga secara ilegal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengumpulkan miliaran data mentah pengunjung tanpa pernah mengolahnya menjadi informasi berguna yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "b1da497"
+    },
+    {
+      "no": 41,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Batik Digital mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 42,
+      "question": "Dalam rangka melakukan digitalisasi bisnis manufaktur pakaian berkelanjutan, tim teknologi di Tani Jaya mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 43,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Kreatif Studio mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 44,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Artha Mulia mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 45,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Cipta Karya mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 46,
+      "question": "Dalam rangka melakukan digitalisasi bisnis layanan digital mobile, tim teknologi di Nusantara Food mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 47,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Sinergi Tech mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 48,
+      "question": "Dalam rangka melakukan digitalisasi bisnis manufaktur pakaian berkelanjutan, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 49,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Karya Agung mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 50,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Lestari Hijau mengimplementasikan solusi 'Otomasi Chatbot AI'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan chatbot pintar berbasis NLP untuk melayani keluhan pelanggan skala ringan secara instan 24 jam demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menyewa staf call center harian dalam jumlah besar untuk membalas chat template manual yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mematikan fitur live chat pelanggan di luar jam kerja kantor agar staf tidak lelah yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "95aaae2e"
+    },
+    {
+      "no": 51,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Tani Jaya mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 52,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Kreatif Studio mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 53,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Artha Mulia mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 54,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Cipta Karya mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 55,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Nusantara Food mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 56,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Sinergi Tech mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 57,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 58,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Karya Agung mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 59,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Lestari Hijau mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 60,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Batik Digital mengimplementasikan solusi 'ERP System'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk mengintegrasikan sistem ERP untuk menghubungkan data produksi gudang, penjualan ritel, dan laporan keuangan secara terpadu demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk memisahkan pencatatan data di setiap departemen menggunakan buku kas kertas terpisah yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menggunakan file dokumen teks biasa tanpa pengamanan sandi untuk menyimpan data transaksi yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "8097562"
+    },
+    {
+      "no": 61,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Kreatif Studio mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 62,
+      "question": "Dalam rangka melakukan digitalisasi bisnis layanan digital mobile, tim teknologi di Artha Mulia mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 63,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Cipta Karya mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 64,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Nusantara Food mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 65,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Sinergi Tech mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 66,
+      "question": "Dalam rangka melakukan digitalisasi bisnis manufaktur pakaian berkelanjutan, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 67,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Karya Agung mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 68,
+      "question": "Dalam rangka melakukan digitalisasi bisnis layanan digital mobile, tim teknologi di Lestari Hijau mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 69,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Batik Digital mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 70,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Tani Jaya mengimplementasikan solusi 'IoT Inventory Tracking'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk memasang stiker RFID/sensor IoT pada setiap dus barang untuk memantau pergerakan logistik secara real-time demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menghitung jumlah barang di gudang secara manual menggunakan papan tulis kapur setiap malam yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mengurangi frekuensi stok opname menjadi setahun sekali saja untuk menghemat tenaga kerja yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "ba078c05"
+    },
+    {
+      "no": 71,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Artha Mulia mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 72,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Cipta Karya mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 73,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Nusantara Food mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 74,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Sinergi Tech mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 75,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 76,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Karya Agung mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 77,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Lestari Hijau mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 78,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Batik Digital mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 79,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Tani Jaya mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 80,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Kreatif Studio mengimplementasikan solusi 'Mobile App Prioritization'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk membangun aplikasi mobile berukuran ringan yang responsif dan hemat konsumsi baterai hp pengguna demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk membuat aplikasi mobile dengan grafis 3D berat yang memakan memori penyimpanan ponsel yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk mewajibkan pengguna mengunduh file update aplikasi secara manual setiap hari melalui tautan luar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "91db032f"
+    },
+    {
+      "no": 81,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Cipta Karya mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 82,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Nusantara Food mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 83,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Sinergi Tech mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 84,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 85,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Karya Agung mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 86,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Lestari Hijau mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 87,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Batik Digital mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 88,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Tani Jaya mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 89,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Kreatif Studio mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 90,
+      "question": "Dalam rangka melakukan digitalisasi bisnis jasa agribisnis perkotaan, tim teknologi di Artha Mulia mengimplementasikan solusi 'Security Protocols'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menerapkan sertifikat SSL/HTTPS, autentikasi berlapis, dan enkripsi database sensitif (AES-256) demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menonaktifkan enkripsi data transaksi demi mempercepat durasi waktu pemrosesan checkout belanja yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk menyimpan database username dan sandi pengguna dalam bentuk file teks polos (plaintext) yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "c53cd317"
+    },
+    {
+      "no": 91,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Nusantara Food mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 92,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Sinergi Tech mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 93,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Lokal Mandiri mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 94,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Karya Agung mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 95,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Lestari Hijau mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 96,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Batik Digital mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 97,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Tani Jaya mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 98,
+      "question": "Dalam rangka melakukan digitalisasi bisnis aplikasi edukasi online, tim teknologi di Kreatif Studio mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 99,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kerajinan tangan daur ulang, tim teknologi di Artha Mulia mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    },
+    {
+      "no": 100,
+      "question": "Dalam rangka melakukan digitalisasi bisnis kuliner tradisional, tim teknologi di Cipta Karya mengimplementasikan solusi 'AI Predictive Supply Chain'. Langkah desain teknis paling tepat agar sistem berjalan efisien adalah...",
+      "options": {
+        "A": "Merancang sistem untuk menggunakan algoritma machine learning untuk memprediksi volume permintaan pasar di bulan berikutnya berdasarkan tren historis demi memastikan keamanan transaksi dan kenyamanan berbelanja pengguna",
+        "B": "Memilih alternatif untuk menebak jumlah stok barang yang harus diproduksi berdasarkan ramalan cuaca musiman secara informal yang tidak efisien secara waktu dan biaya",
+        "C": "Memutuskan untuk selalu memproduksi barang dalam kapasitas maksimal terlepas dari kondisi sepi atau ramainya pasar yang rentan terhadap kebocoran data sensitif",
+        "D": "Membatasi akses situs e-commerce hanya untuk pengguna perangkat komputer berspesifikasi tinggi",
+        "E": "Menghapus seluruh fitur riwayat belanja konsumen demi menyederhanakan antarmuka menu"
+      },
+      "answer_hash": "9bcfa462"
+    }
+  ]
+}

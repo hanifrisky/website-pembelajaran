@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentasi: Kewirausahaan, Kepemimpinan, dan Etika (KIK)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --forest-950: #040d08;
+      --forest-900: #071a10;
+      --forest-800: #0b2c1b;
+      --emerald-600: #10b981;
+      --emerald-500: #34d399;
+      --mint-100: #e6f4ea;
+      --mint-050: #f4faf5;
+      --lime-400: #34d399;
+      --lime-300: #a7f3d0;
+      --ink: #040d08;
+      --paper: #fcfdfd;
+      --line: rgba(52, 211, 153, 0.15);
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      color: var(--mint-050);
+      background: var(--forest-950);
+      overflow: hidden;
+    }
+
+    /* ---------- Slide scaffolding ---------- */
+    .deck {
+      scroll-snap-type: x mandatory;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+      width: 100vw;
+      scrollbar-width: none;
+    }
+    .deck::-webkit-scrollbar { display: none; }
+    
+    .slide {
+      scroll-snap-align: start;
+      min-width: 100vw;
+      max-width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      padding: 6vh 8vw;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .slide.dark { background: var(--forest-950); color: var(--mint-050); }
+    .slide.mid { background: var(--forest-800); color: var(--mint-050); }
+    .slide.light { background: var(--mint-100); color: var(--ink); }
+    .slide.paper { background: var(--paper); color: var(--ink); }
+
+    .slide::before {
+      content: "";
+      position: absolute; inset: 0;
+      background-image: radial-gradient(currentColor 1px, transparent 1px);
+      background-size: 28px 28px;
+      opacity: 0.05;
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      font-family: var(--font-body);
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: clamp(11px, 1.1vw, 13px);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      opacity: 0.85;
+    }
+    .eyebrow .bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }
+    .eyebrow .bars span { display: block; width: 3px; background: currentColor; border-radius: 1px; }
+    .eyebrow .bars span:nth-child(1) { height: 40%; }
+    .eyebrow .bars span:nth-child(2) { height: 70%; }
+    .eyebrow .bars span:nth-child(3) { height: 100%; }
+
+    h1 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      line-height: 1.02;
+      letter-spacing: -0.01em;
+      font-size: clamp(34px, 5.5vw, 68px);
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      line-height: 1.05;
+      font-size: clamp(26px, 3.8vw, 44px);
+      margin-bottom: 24px;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: clamp(18px, 1.8vw, 22px);
+      margin-bottom: 12px;
+    }
+    p { font-size: clamp(14px, 1.2vw, 17px); line-height: 1.6; }
+    .lead { font-size: clamp(16px, 1.4vw, 20px); line-height: 1.5; max-width: 760px; opacity: 0.92; }
+
+    .accent { color: var(--emerald-500); }
+    .tag {
+      display: inline-block;
+      font-family: var(--font-body); font-weight: 700; font-size: 11px; letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: var(--emerald-600);
+      color: #ffffff;
+      margin-top: 10px;
+    }
+    .tag.outline {
+      background: transparent;
+      border: 1.5px solid var(--emerald-600);
+      color: var(--emerald-500);
+    }
+
+    /* ---------- Nav ---------- */
+    .nav {
+      position: fixed;
+      bottom: 24px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: row; gap: 8px;
+      z-index: 50;
+      background: rgba(4, 13, 8, 0.4);
+      padding: 10px 14px;
+      border-radius: 999px;
+      backdrop-filter: blur(6px);
+      border: 1px solid var(--line);
+    }
+    .nav button {
+      width: 10px; height: 10px; border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.4);
+      background: transparent;
+      cursor: pointer;
+      padding: 0;
+      transition: all .25s ease;
+    }
+    .nav button.active { background: var(--emerald-600); border-color: var(--emerald-600); width: 20px; border-radius: 5px; }
+
+    .progress-label {
+      position: fixed; left: 26px; top: 24px;
+      font-family: var(--font-display); font-weight: 600;
+      color: rgba(255,255,255,0.85);
+      font-size: 13px; letter-spacing: 0.05em;
+      z-index: 50;
+      background: rgba(4, 13, 8, 0.4);
+      padding: 6px 12px; border-radius: 999px;
+      backdrop-filter: blur(6px);
+      border: 1px solid var(--line);
+    }
+
+    .arrows {
+      position: fixed; right: 26px; bottom: 24px; z-index: 50;
+      display: flex; flex-direction: row; gap: 10px;
+    }
+    .arrows button {
+      width: 44px; height: 44px; border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.05);
+      color: white; cursor: pointer;
+      font-size: 18px; display: flex; align-items: center; justify-content: center;
+      transition: all .2s ease;
+    }
+    .arrows button:hover { background: var(--emerald-600); color: white; border-color: var(--emerald-600); box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); }
+
+    .hero-num {
+      font-family: var(--font-display); font-weight: 700;
+      font-size: clamp(80px, 12vw, 160px);
+      position: absolute; right: 6vw; top: 8vh;
+      color: rgba(52, 211, 153, 0.04);
+      line-height: 1;
+    }
+
+    .grid { display: grid; gap: 20px; margin-top: 24px; }
+    .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+    .grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 24px;
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      background: rgba(16, 185, 129, 0.05);
+      border-color: rgba(16, 185, 129, 0.25);
+      transform: translateY(-2px);
+    }
+    .card h3 { color: #ffffff; margin-bottom: 8px;}
+    .card-meta { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--emerald-500); margin-bottom: 8px; }
+
+    /* Timer Widget */
+    .timer-widget {
+      position: fixed; right: 26px; top: 24px; z-index: 50;
+      background: rgba(4, 13, 8, 0.4);
+      border: 1px solid var(--line);
+      padding: 10px 18px; border-radius: 999px;
+      backdrop-filter: blur(6px);
+      display: flex; align-items: center; gap: 12px;
+      font-family: var(--font-display); font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    .timer-widget button {
+      background: transparent; border: none; color: white; cursor: pointer; font-size: 14px;
+    }
+    .timer-display { font-size: 14px; letter-spacing: 0.05em; }
+
+    /* ---------- SYNERGY TRIANGLE DIAGRAM ---------- */
+    .triangle-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      position: relative;
+      height: 250px;
+    }
+    .triangle-node {
+      position: absolute;
+      width: 160px;
+      padding: 14px;
+      text-align: center;
+      border-radius: 12px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1.5px solid var(--emerald-600);
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.15);
+      z-index: 2;
+    }
+    .triangle-node strong { display: block; font-family: var(--font-display); color: #ffffff; font-size: 15px; }
+    .triangle-node span { font-size: 11px; color: var(--lime-300); }
+    .node-top { top: 0; left: 50%; transform: translateX(-50%); }
+    .node-left { bottom: 10px; left: 15%; }
+    .node-right { bottom: 10px; right: 15%; }
+
+    /* Connecting Lines */
+    .svg-overlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    }
+    .svg-line {
+      stroke: var(--emerald-600);
+      stroke-width: 2;
+      stroke-dasharray: 6 4;
+      opacity: 0.6;
+    }
+
+    /* ---------- GAME INTERACTIVE GRID ---------- */
+    .game-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .game-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 24px;
+      height: 380px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .game-scenario-title {
+      font-size: 15px; font-weight: 700; color: var(--emerald-500); text-transform: uppercase; margin-bottom: 8px;
+    }
+    .game-scenario-text {
+      font-size: 14px; line-height: 1.6; color: #ffffff; margin-bottom: 20px; min-height: 90px;
+    }
+    .game-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .game-opt-btn {
+      padding: 12px 16px; text-align: left; background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #ffffff;
+      font-family: var(--font-body); font-size: 13px; cursor: pointer; transition: all 0.2s;
+    }
+    .game-opt-btn:hover:not(:disabled) {
+      background: rgba(16, 185, 129, 0.1);
+      border-color: var(--emerald-600);
+    }
+    .game-opt-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    /* Consequence meters */
+    .meter-section {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .meter-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .meter-lbl { font-size: 12px; font-weight: 700; display: flex; justify-content: space-between; }
+    .meter-container { height: 10px; background: rgba(255, 255, 255, 0.05); border-radius: 99px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); }
+    .meter-fill { height: 100%; width: 50%; border-radius: 99px; transition: width 0.4s ease; }
+    .meter-fill.profit { background: var(--emerald-600); }
+    .meter-fill.people { background: #fbbf24; }
+    .meter-fill.trust { background: #60a5fa; }
+
+    /* Scoreboard */
+    .scoreboard-wrap {
+      margin-top: 15px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 10px;
+      padding: 14px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .scoreboard-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      text-align: center;
+    }
+    .score-box {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.05);
+      border-radius: 8px;
+      padding: 8px;
+    }
+    .score-lbl { font-size: 11px; font-weight: 700; color: var(--text-secondary); margin-bottom: 4px; }
+    .score-num { font-family: var(--font-display); font-size: 18px; font-weight: 700; color: #ffffff; }
+    .score-ctrls { display: flex; justify-content: center; gap: 8px; margin-top: 4px; }
+    .score-ctrls button {
+      width: 22px; height: 22px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2);
+      background: transparent; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 12px;
+    }
+    .score-ctrls button:hover { background: var(--emerald-600); border-color: var(--emerald-600); }
+
+    .btn-action {
+      padding: 10px 16px; border-radius: var(--border-radius-sm); border: none; cursor: pointer;
+      font-family: var(--font-body); font-weight: 700; font-size: 13px;
+    }
+    .btn-action-primary { background: var(--emerald-600); color: white; }
+    .btn-action-secondary { background: rgba(255,255,255,0.08); color: white; border: 1px solid rgba(255,255,255,0.15); }
+    .btn-action-primary:hover { background: var(--emerald-500); }
+  </style>
+</head>
+<body>
+  <!-- Floating Exit Button to List of Materials -->
+  <a href="index.html" style="position: fixed; left: 26px; bottom: 24px; z-index: 50; background: rgba(4, 13, 8, 0.5); border: 1px solid var(--line); padding: 10px 18px; border-radius: 999px; backdrop-filter: blur(6px); color: white; text-decoration: none; font-family: var(--font-display); font-weight: 600; font-size: 13px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s;" onmouseover="this.style.background='var(--emerald-600)';" onmouseout="this.style.background='rgba(4, 13, 8, 0.5)';">
+    📋 Daftar Materi
+  </a>
+
+
+  <!-- Slide Progression Label (Top Left) -->
+  <div id="progressLabel" class="progress-label">Materi KIK - Slide 1 dari 9</div>
+
+  <!-- Slide Timer (Top Right) -->
+  <div id="slideTimerWidget" class="timer-widget">
+    <span>⏱ Slide Timer</span>
+    <div id="slideTimerDisplay" class="timer-display">00:00</div>
+    <button id="slidePlayPauseBtn">⏸</button>
+  </div>
+
+  <!-- Navigation Dots (Bottom Center) -->
+  <nav class="nav" id="dotsNav">
+    <!-- Rendered dynamically -->
+  </nav>
+
+  <!-- Navigation Arrows (Bottom Right) -->
+  <div class="arrows">
+    <button id="prevBtn" title="Slide Sebelumnya">←</button>
+    <button id="nextBtn" title="Slide Selanjutnya">→</button>
+  </div>
+
+  <!-- Slides Deck Container -->
+  <div class="deck" id="slideDeck">
+
+    <!-- SLIDE 1: Cover -->
+    <section class="slide dark" data-duration="2">
+      <div class="hero-num">01</div>
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Kreativitas & Kewirausahaan</div>
+      <h1>Kewirausahaan, Kepemimpinan, dan Etika</h1>
+      <p class="lead">Membedah pondasi mentalitas wirausaha, gaya kepemimpinan tim, serta kompas moral etika bisnis dalam unit rintisan kreatif.</p>
+      
+      <div style="margin-top: 40px; display: flex; gap: 36px; flex-wrap: wrap;">
+        <div><strong>Topik 1</strong>Kewirausahaan (Mindset & Pilar)</div>
+        <div><strong>Topik 2</strong>Kepemimpinan (Leadership & Gaya)</div>
+        <div><strong>Topik 3</strong>Etika Bisnis (Prinsip & CSR)</div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: Kewirausahaan -->
+    <section class="slide paper" data-duration="4">
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Topik 1</div>
+      <h2>Konsep Kewirausahaan (Entrepreneurship)</h2>
+      <p class="lead" style="color: rgba(0,0,0,0.8); margin-bottom: 20px;">
+        Kewirausahaan bukan sekadar membuka usaha dagang, melainkan sebuah **pola pikir (mindset)** untuk mengidentifikasi peluang, mengambil risiko terukur, dan menciptakan nilai tambah melalui inovasi.
+      </p>
+
+      <div class="grid cols-4">
+        <div class="card">
+          <div class="card-meta">1. Inovasi</div>
+          <p style="font-size:13px; margin-top:6px; color:rgba(0,0,0,0.75);">Kemampuan menghadirkan solusi baru atas permasalahan nyata di tengah masyarakat.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">2. Risk-Taking</div>
+          <p style="font-size:13px; margin-top:6px; color:rgba(0,0,0,0.75);">Keberanian melangkah menghadapi ketidakpastian dengan perhitungan matang (calculated risk).</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">3. Adaptabilitas</div>
+          <p style="font-size:13px; margin-top:6px; color:rgba(0,0,0,0.75);">Fleksibel dan lincah dalam merespon pergeseran selera pasar atau kemajuan tren teknologi.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">4. Value Creation</div>
+          <p style="font-size:13px; margin-top:6px; color:rgba(0,0,0,0.75);">Berfokus memberikan kebermanfaatan jangka panjang bagi pelanggan, bukan sekadar profit instan.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: Kepemimpinan -->
+    <section class="slide dark" data-duration="4">
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Topik 2</div>
+      <h2>Kepemimpinan (Leadership)</h2>
+      <p class="lead" style="margin-bottom: 20px;">
+        Kepemimpinan dalam wirausaha adalah kemampuan untuk mengarahkan, menginspirasi, dan memberdayakan anggota tim untuk mencapai visi bersama.
+      </p>
+
+      <div class="grid cols-3">
+        <div class="card">
+          <div class="card-meta">Gaya Transformasional</div>
+          <p style="font-size:13px; margin-top:6px;">Menginspirasi tim melalui visi masa depan yang kuat, menantang status quo, dan memicu inovasi mandiri setiap anggota.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">Gaya Servant (Melayani)</div>
+          <p style="font-size:13px; margin-top:6px;">Berfokus mendengarkan dan memfasilitasi kebutuhan logistik/teknis tim agar mereka dapat bekerja secara optimal.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">Gaya Situasional</div>
+          <p style="font-size:13px; margin-top:6px;">Mengadaptasi gaya memimpin (mengatur vs mendukung) secara fleksibel sesuai tingkat kompetensi anggota tim.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4: Kompetensi Kunci Pemimpin -->
+    <section class="slide paper" data-duration="3">
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Topik 2</div>
+      <h2>Kompetensi Kunci Pemimpin Bisnis</h2>
+      <p style="margin-bottom: 20px;">Tiga kemampuan inti yang harus dikuasai oleh pemimpin unit usaha kreatif:</p>
+
+      <div class="grid cols-3">
+        <div class="card">
+          <div class="card-meta">Visi Strategis yang Jelas</div>
+          <p style="font-size:13px; margin-top:6px; color:rgba(0,0,0,0.75);">Kemampuan melihat gambaran masa depan pasar dan merumuskan langkah taktis jangka panjang untuk mencapainya.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">Kecerdasan Emosional (EQ)</div>
+          <p style="font-size:13px; margin-top:6px; color:rgba(0,0,0,0.75);">Kemampuan mengendalikan emosi diri, berkomunikasi secara efektif, berempati, dan menyelesaikan konflik internal tim.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">Keputusan Cepat</div>
+          <p style="font-size:13px; margin-top:6px; color:rgba(0,0,0,0.75);">Ketangkasan mengambil keputusan penting secara rasional di tengah krisis atau kondisi ketidakpastian pasar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5: Etika Bisnis -->
+    <section class="slide dark" data-duration="4">
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Topik 3</div>
+      <h2>Etika Bisnis (Business Ethics)</h2>
+      <p class="lead" style="margin-bottom: 20px;">
+        Etika adalah kompas moral yang memandu bagaimana keputusan bisnis diambil. Tanpa etika, reputasi bisnis akan runtuh akibat krisis kepercayaan pasar.
+      </p>
+
+      <div class="grid cols-4">
+        <div class="card">
+          <div class="card-meta">Integritas & Kejujuran</div>
+          <p style="font-size:12px; margin-top:6px;">Transparansi penuh dalam pelaporan kas keuangan, promosi jujur tanpa bohong, dan kualitas bahan baku.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">Keadilan (Fairness)</div>
+          <p style="font-size:12px; margin-top:6px;">Perlakuan setara, objektif, dan adil bagi seluruh karyawan, pemasok barang, serta konsumen.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">Tanggung Jawab (CSR)</div>
+          <p style="font-size:12px; margin-top:6px;">Kontribusi nyata dalam bentuk aksi sosial dan kelestarian ekologi alam sekitar area operasional pabrik.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta">Akuntabilitas</div>
+          <p style="font-size:12px; margin-top:6px;">Keberanian menanggung segala risiko hukum dan kerugian finansial atas setiap tindakan operasional bisnis.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6: Segitiga Sinergi -->
+    <section class="slide dark" data-duration="4">
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Konsep Sinergi</div>
+      <h2>Segitiga Sinergi KIK</h2>
+      <p style="margin-bottom: 10px;">Ketiga pilar utama harus berjalan secara seimbang demi keberlanjutan bisnis rintisan:</p>
+
+      <!-- SVG Synergy Triangle Diagram -->
+      <div class="triangle-container">
+        <svg class="svg-overlay">
+          <line x1="50%" y1="20px" x2="23%" y2="200px" class="svg-line"></line>
+          <line x1="50%" y1="20px" x2="77%" y2="200px" class="svg-line"></line>
+          <line x1="23%" y1="200px" x2="77%" y2="200px" class="svg-line"></line>
+        </svg>
+
+        <div class="triangle-node node-top">
+          <strong>KEWIRAUSAHAAN</strong>
+          <span>Motor / Inovasi & Nilai</span>
+        </div>
+
+        <div class="triangle-node node-left">
+          <strong>KEPEMIMPINAN</strong>
+          <span>Kemudi / Arah & Tim</span>
+        </div>
+
+        <div class="triangle-node node-right">
+          <strong>ETIKA BISNIS</strong>
+          <span>Rem & Jalur / Moral</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7: Dampak Ketidakseimbangan -->
+    <section class="slide dark" data-duration="4">
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Analisis Risiko</div>
+      <h2>Dampak Ketidakseimbangan Sinergi</h2>
+      <p style="margin-bottom: 24px;">Apa yang terjadi jika salah satu pilar KIK melemah dalam operasional?</p>
+
+      <div class="grid cols-3">
+        <div class="card">
+          <div class="card-meta" style="color: var(--danger);">Wirausaha tanpa Etika</div>
+          <p style="font-size:13px; margin-top:6px;">Berpotensi melahirkan manipulasi pasar, penipuan klaim produk, eksploitasi karyawan, atau pencemaran limbah demi profit jangka pendek.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta" style="color: var(--danger);">Kepemimpinan tanpa Wirausaha</div>
+          <p style="font-size:13px; margin-top:6px;">Organisasi berjalan sangat tertib secara administratif namun stagnan, kaku, dan mudah tergilas oleh kompetitor karena nihil inovasi baru.</p>
+        </div>
+        <div class="card">
+          <div class="card-meta" style="color: var(--danger);">Wirausaha tanpa Kepemimpinan</div>
+          <p style="font-size:13px; margin-top:6px;">Memiliki gudang ide kreatif inovatif, namun berujung kegagalan eksekusi karena tidak ada pembagian tugas kerja tim yang terarah.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8: Game Kelas "Ethical Crisis Manager" -->
+    <section class="slide paper" data-duration="8">
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Aktivitas Kelas</div>
+      <h2>Game Kelas: Ethical Crisis Manager</h2>
+      
+      <div class="game-layout">
+        <!-- Scenario Container -->
+        <div class="game-card">
+          <div>
+            <div id="gameScenarioTitle" class="game-scenario-title">Kasus 1: Celah Keamanan (Bug)</div>
+            <p id="gameScenarioText" class="game-scenario-text">
+              Tim IT Anda mendeteksi bug database yang berpotensi membocorkan data pengguna. Rencana menambal bug memerlukan biaya besar dan menunda peluncuran fitur baru yang sudah dinanti investor. Apa tindakan Anda?
+            </p>
+          </div>
+
+          <div id="gameOptionsContainer" class="game-options">
+            <button class="game-opt-btn" onclick="makeChoice(1, 'A')"><strong>Opsi A:</strong> Rilis fitur baru tepat waktu, abaikan celah keamanan demi menjaga valuasi saham saham.</button>
+            <button class="game-opt-btn" onclick="makeChoice(1, 'B')"><strong>Opsi B:</strong> Tunda peluncuran, sampaikan secara terbuka kepada investor, dan perbaiki bug.</button>
+            <button class="game-opt-btn" onclick="makeChoice(1, 'C')"><strong>Opsi C:</strong> Rilis fitur dan coba perbaiki bug secara paralel tanpa memberi tahu siapa pun.</button>
+          </div>
+        </div>
+
+        <!-- Consequence & Scoreboard Container -->
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <!-- Meters -->
+          <div class="meter-section">
+            <div class="meter-item">
+              <div class="meter-lbl"><span>💰 Keuangan (Profit)</span><span id="valProfit">50%</span></div>
+              <div class="meter-container"><div id="barProfit" class="meter-fill profit" style="width: 50%;"></div></div>
+            </div>
+            <div class="meter-item">
+              <div class="meter-lbl"><span>👥 Citra Sosial (People)</span><span id="valPeople">50%</span></div>
+              <div class="meter-container"><div id="barPeople" class="meter-fill people" style="width: 50%;"></div></div>
+            </div>
+            <div class="meter-item">
+              <div class="meter-lbl"><span>🛡️ Kepercayaan (Ethics)</span><span id="valTrust">50%</span></div>
+              <div class="meter-container"><div id="barTrust" class="meter-fill trust" style="width: 50%;"></div></div>
+            </div>
+          </div>
+
+          <!-- Team Scoreboard -->
+          <div class="scoreboard-wrap">
+            <div class="score-lbl" style="text-align: center; font-size:12px; margin-bottom: 8px;">PAPAN SKOR DISKUSI KELOMPOK</div>
+            <div class="scoreboard-grid">
+              <div class="score-box">
+                <div class="score-lbl">Tim A</div>
+                <div id="scoreA" class="score-num">0</div>
+                <div class="score-ctrls">
+                  <button onclick="changeScore('A', -5)">−</button>
+                  <button onclick="changeScore('A', 5)">+</button>
+                </div>
+              </div>
+              <div class="score-box">
+                <div class="score-lbl">Tim B</div>
+                <div id="scoreB" class="score-num">0</div>
+                <div class="score-ctrls">
+                  <button onclick="changeScore('B', -5)">−</button>
+                  <button onclick="changeScore('B', 5)">+</button>
+                </div>
+              </div>
+              <div class="score-box">
+                <div class="score-lbl">Tim C</div>
+                <div id="scoreC" class="score-num">0</div>
+                <div class="score-ctrls">
+                  <button onclick="changeScore('C', -5)">−</button>
+                  <button onclick="changeScore('C', 5)">+</button>
+                </div>
+              </div>
+              <div class="score-box">
+                <div class="score-lbl">Tim D</div>
+                <div id="scoreD" class="score-num">0</div>
+                <div class="score-ctrls">
+                  <button onclick="changeScore('D', -5)">−</button>
+                  <button onclick="changeScore('D', 5)">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9: Studi Kasus & Penutup -->
+    <section class="slide dark" data-duration="3">
+      <div class="hero-num">09</div>
+      <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Rangkuman</div>
+      <h1>Mulai Pembelajaran KIK</h1>
+      <p class="lead">Inovasi yang bermakna lahir dari kewirausahaan yang tangguh, diarahkan oleh kepemimpinan yang solid, dan dijaga oleh etika moral yang luhur.</p>
+      
+      <div style="margin-top: 40px; display: flex; gap: 20px;">
+        <a href="../soal/index.html" class="btn btn-primary">✍️ Kerjakan Kuis 50 Soal HOTS</a>
+        <a href="index.html" class="btn btn-secondary">📋 Daftar Materi</a>
+      </div>
+    </section>
+
+  </div>
+
+  <script>
+    // ---------- PRESENTATION NAV CONTROLLER ----------
+    const slideDeck = document.getElementById('slideDeck');
+    const slides = document.querySelectorAll('.slide');
+    const dotsNav = document.getElementById('dotsNav');
+    const progressLabel = document.getElementById('progressLabel');
+    let currentSlideIdx = 0;
+
+    // Generate Dots Nav
+    slides.forEach((slide, idx) => {
+      const btn = document.createElement('button');
+      if (idx === 0) btn.className = 'active';
+      btn.title = `Slide ${idx + 1}`;
+      btn.addEventListener('click', () => {
+        slides[idx].scrollIntoView({ behavior: 'smooth' });
+      });
+      dotsNav.appendChild(btn);
+    });
+
+    const dots = dotsNav.querySelectorAll('button');
+
+    // Observer
+    const observerOptions = {
+      root: slideDeck,
+      threshold: 0.5
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const idx = Array.from(slides).indexOf(entry.target);
+          currentSlideIdx = idx;
+          
+          dots.forEach((dot, dIdx) => {
+            if (dIdx === idx) dot.classList.add('active');
+            else dot.classList.remove('active');
+          });
+
+          progressLabel.textContent = `Materi KIK - Slide ${idx + 1} dari ${slides.length}`;
+          onSlideChanged(idx);
+        }
+      });
+    }, observerOptions);
+
+    slides.forEach(slide => observer.observe(slide));
+
+    // Nav Arrows
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      const next = Math.min(currentSlideIdx + 1, slides.length - 1);
+      slides[next].scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      const prev = Math.max(currentSlideIdx - 1, 0);
+      slides[prev].scrollIntoView({ behavior: 'smooth' });
+    });
+
+    // Keyboard bindings
+    window.addEventListener('keydown', (e) => {
+      if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) {
+        e.preventDefault();
+        document.getElementById('nextBtn').click();
+      }
+      if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) {
+        e.preventDefault();
+        document.getElementById('prevBtn').click();
+      }
+    });
+
+    // ---------- SLIDE TIMER ----------
+    const slideTimerDisplay = document.getElementById('slideTimerDisplay');
+    const slidePlayPauseBtn = document.getElementById('slidePlayPauseBtn');
+    let slideSecondsLeft = 0;
+    let slideDuration = 0;
+    let slideInterval = null;
+    let slideRunning = false;
+
+    function formatMMSS(totalSeconds) {
+      const m = Math.floor(totalSeconds / 60);
+      const s = totalSeconds % 60;
+      return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+    }
+
+    function slideTick() {
+      if (slideSecondsLeft > 0) {
+        slideSecondsLeft--;
+        slideTimerDisplay.textContent = formatMMSS(slideSecondsLeft);
+      } else {
+        clearInterval(slideInterval);
+        slideInterval = null;
+        slideRunning = false;
+        slidePlayPauseBtn.textContent = '▶';
+      }
+    }
+
+    function loadSlideTimer(idx) {
+      const mins = parseFloat(slides[idx].dataset.duration) || 0;
+      slideDuration = Math.round(mins * 60);
+      slideSecondsLeft = slideDuration;
+      
+      clearInterval(slideInterval);
+      slideInterval = null;
+      slideRunning = false;
+      slidePlayPauseBtn.textContent = '▶';
+      
+      slideTimerDisplay.textContent = formatMMSS(slideSecondsLeft);
+      
+      if (slideDuration > 0) {
+        slideInterval = setInterval(slideTick, 1000);
+        slideRunning = true;
+        slidePlayPauseBtn.textContent = '⏸';
+      }
+    }
+
+    slidePlayPauseBtn.addEventListener('click', () => {
+      if (slideRunning) {
+        clearInterval(slideInterval);
+        slideInterval = null;
+        slideRunning = false;
+        slidePlayPauseBtn.textContent = '▶';
+      } else if (slideSecondsLeft > 0) {
+        slideInterval = setInterval(slideTick, 1000);
+        slideRunning = true;
+        slidePlayPauseBtn.textContent = '⏸';
+      }
+    });
+
+    function onSlideChanged(idx) {
+      loadSlideTimer(idx);
+    }
+
+    // ---------- CRISIS MANAGER GAME LOGIC ----------
+    let profitScore = 50;
+    let peopleScore = 50;
+    let trustScore = 50;
+    let currentScenario = 1;
+
+    const scenarios = {
+      1: {
+        title: "Kasus 1: Celah Keamanan (Bug)",
+        text: "Tim IT Anda mendeteksi bug database yang berpotensi membocorkan data pengguna. Rencana menambal bug memerlukan biaya besar dan menunda peluncuran fitur baru yang sudah dinanti investor. Apa tindakan Anda?",
+        options: {
+          A: { text: "Opsi A: Rilis fitur baru tepat waktu, abaikan celah keamanan demi menjaga valuasi saham.", dProfit: 20, dPeople: -30, dTrust: -40 },
+          B: { text: "Opsi B: Tunda peluncuran, sampaikan secara terbuka kepada investor, dan perbaiki bug.", dProfit: -10, dPeople: 20, dTrust: 30 },
+          C: { text: "Opsi C: Rilis fitur dan coba perbaiki bug secara paralel tanpa memberi tahu siapa pun.", dProfit: 10, dPeople: -10, dTrust: -15 }
+        }
+      },
+      2: {
+        title: "Kasus 2: Penyuapan Supplier",
+        text: "Supplier utama menawarkan potongan harga bahan baku sebesar 30% dengan syarat transaksi diselesaikan tanpa kuitansi resmi demi mengelabui pajak.",
+        options: {
+          A: { text: "Opsi A: Terima tawaran tersebut demi menekan biaya produksi dan menaikkan profit.", dProfit: 30, dPeople: -20, dTrust: -30 },
+          B: { text: "Opsi B: Tolak tawaran tersebut secara tegas dan cari supplier yang bersih.", dProfit: -10, dPeople: 10, dTrust: 20 },
+          C: { text: "Opsi C: Gunakan diskon tersebut namun laporkan sebagian transaksi ke perpajakan.", dProfit: 10, dPeople: -5, dTrust: -10 }
+        }
+      },
+      3: {
+        title: "Kasus 3: Baterai Drone Cepat Panas",
+        text: "Unit perakitan merakit drone berdaya baterai impor murah yang cepat panas di suhu terik ekstrem Indonesia. Drone sudah terlanjur diproduksi 100 unit.",
+        options: {
+          A: { text: "Opsi A: Tetap jual seluruh drone tersebut tanpa memberikan label peringatan.", dProfit: 40, dPeople: -40, dTrust: -50 },
+          B: { text: "Opsi B: Tarik kembali, pasang peredam panas tambahan, dan jelaskan cara pakai aman.", dProfit: -20, dPeople: 30, dTrust: 40 },
+          C: { text: "Opsi C: Jual produk dengan diskon besar tanpa memberi tahu alasannya.", dProfit: 15, dPeople: -25, dTrust: -30 }
+        }
+      }
+    };
+
+    function updateMeters() {
+      // Clamp values between 0 and 100
+      profitScore = Math.max(0, Math.min(100, profitScore));
+      peopleScore = Math.max(0, Math.min(100, peopleScore));
+      trustScore = Math.max(0, Math.min(100, trustScore));
+
+      document.getElementById('valProfit').textContent = `${profitScore}%`;
+      document.getElementById('barProfit').style.width = `${profitScore}%`;
+
+      document.getElementById('valPeople').textContent = `${peopleScore}%`;
+      document.getElementById('barPeople').style.width = `${peopleScore}%`;
+
+      document.getElementById('valTrust').textContent = `${trustScore}%`;
+      document.getElementById('barTrust').style.width = `${trustScore}%`;
+    }
+
+    function makeChoice(scenarioId, optionKey) {
+      const choice = scenarios[scenarioId].options[optionKey];
+      
+      // Add consequences
+      profitScore += choice.dProfit;
+      peopleScore += choice.dPeople;
+      trustScore += choice.dTrust;
+      
+      updateMeters();
+
+      // Advancing scenario
+      if (currentScenario < 3) {
+        currentScenario++;
+        renderScenario(currentScenario);
+      } else {
+        // Game completed
+        document.getElementById('gameScenarioTitle').innerHTML = "Simulasi Selesai! 🎉";
+        document.getElementById('gameScenarioText').innerHTML = `
+          Selamat! Sesi simulasi krisis etika kelas telah selesai.<br>
+          Hasil Akhir Perusahaan Anda:<br>
+          <strong>Keuangan (Profit)</strong>: ${profitScore}%<br>
+          <strong>Citra Sosial (People)</strong>: ${peopleScore}%<br>
+          <strong>Kepercayaan (Ethics)</strong>: ${trustScore}%<br>
+          Mari bandingkan poin antar kelompok di papan skor!
+        `;
+        document.getElementById('gameOptionsContainer').innerHTML = `
+          <button class="game-opt-btn" onclick="resetGame()" style="text-align:center; background: var(--emerald-600);">🔄 Ulangi Simulasi Game</button>
+        `;
+      }
+    }
+
+    function renderScenario(id) {
+      const sc = scenarios[id];
+      document.getElementById('gameScenarioTitle').textContent = sc.title;
+      document.getElementById('gameScenarioText').textContent = sc.text;
+      
+      const container = document.getElementById('gameOptionsContainer');
+      container.innerHTML = '';
+      
+      Object.keys(sc.options).forEach(key => {
+        const opt = sc.options[key];
+        const btn = document.createElement('button');
+        btn.className = 'game-opt-btn';
+        btn.innerHTML = `<strong>Opsi ${key}:</strong> ${opt.text}`;
+        btn.addEventListener('click', () => makeChoice(id, key));
+        container.appendChild(btn);
+      });
+    }
+
+    function resetGame() {
+      profitScore = 50;
+      peopleScore = 50;
+      trustScore = 50;
+      currentScenario = 1;
+      updateMeters();
+      renderScenario(1);
+    }
+
+    // ---------- TEAM SCOREBOARD LOGIC ----------
+    const scores = { A: 0, B: 0, C: 0, D: 0 };
+    function changeScore(team, val) {
+      scores[team] = Math.max(0, scores[team] + val);
+      document.getElementById(`score${team}`).textContent = scores[team];
+    }
+
+    // Initialize first slide timer on page load
+    currentSlideIdx = 0;
+    onSlideChanged(0);
+  </script>
+</body>
+</html>

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peluang Usaha, Perencanaan, dan Model Bisnis (BMC)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- MathJax for rendering equations -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+
+    :root {
+      --forest-950: #040d08;
+      --forest-900: #071a10;
+      --forest-800: #0b2c1b;
+      --emerald-600: #10b981;
+      --emerald-500: #34d399;
+      --mint-100: #e6f4ea;
+      --mint-050: #f4faf5;
+      --lime-400: #34d399;
+      --lime-300: #a7f3d0;
+      --ink: #040d08;
+      --paper: #fcfdfd;
+      --line: rgba(52, 211, 153, 0.15);
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      color: var(--mint-050);
+      background: var(--forest-950);
+      overflow: hidden;
+    }
+
+    .deck {
+      scroll-snap-type: x mandatory;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+      width: 100vw;
+      scrollbar-width: none;
+    }
+    .deck::-webkit-scrollbar { display: none; }
+    
+    .slide {
+      scroll-snap-align: start;
+      min-width: 100vw;
+      max-width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      padding: 6vh 8vw;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .slide.dark { background: var(--forest-950); color: var(--mint-050); }
+    .slide.mid { background: var(--forest-800); color: var(--mint-050); }
+    .slide.light { background: var(--mint-100); color: var(--ink); }
+    .slide.paper { background: var(--paper); color: var(--ink); }
+
+    .slide::before {
+      content: "";
+      position: absolute; inset: 0;
+      background-image: radial-gradient(currentColor 1px, transparent 1px);
+      background-size: 28px 28px;
+      opacity: 0.05;
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      font-family: var(--font-body);
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: clamp(11px, 1.1vw, 13px);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      opacity: 0.85;
+    }
+    .eyebrow .bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }
+    .eyebrow .bars span { display: block; width: 3px; background: currentColor; border-radius: 1px; }
+    .eyebrow .bars span:nth-child(1) { height: 40%; }
+    .eyebrow .bars span:nth-child(2) { height: 70%; }
+    .eyebrow .bars span:nth-child(3) { height: 100%; }
+
+    h1 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      line-height: 1.02;
+      letter-spacing: -0.01em;
+      font-size: clamp(34px, 5vw, 68px);
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      line-height: 1.05;
+      font-size: clamp(26px, 3.5vw, 44px);
+      margin-bottom: 24px;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: clamp(18px, 1.8vw, 22px);
+      margin-bottom: 12px;
+    }
+    p { font-size: clamp(14px, 1.2vw, 17px); line-height: 1.6; }
+    .lead { font-size: clamp(16px, 1.4vw, 20px); line-height: 1.5; max-width: 760px; opacity: 0.92; }
+
+    .accent { color: var(--emerald-500); }
+    .tag {
+      display: inline-block;
+      font-family: var(--font-body); font-weight: 700; font-size: 11px; letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: var(--emerald-600);
+      color: #ffffff;
+    }
+
+    /* ---------- Nav ---------- */
+    .nav {
+      position: fixed;
+      bottom: 24px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: row; gap: 8px;
+      z-index: 50;
+      background: rgba(4, 13, 8, 0.4);
+      padding: 10px 14px;
+      border-radius: 999px;
+      backdrop-filter: blur(6px);
+      border: 1px solid var(--line);
+    }
+    .nav button {
+      width: 10px; height: 10px; border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.4);
+      background: transparent;
+      cursor: pointer;
+      padding: 0;
+      transition: all .25s ease;
+    }
+    .nav button.active { background: var(--emerald-600); border-color: var(--emerald-600); width: 20px; border-radius: 5px; }
+
+    .progress-label {
+      position: fixed; left: 26px; top: 24px;
+      font-family: var(--font-display); font-weight: 600;
+      color: rgba(255,255,255,0.85);
+      font-size: 13px; letter-spacing: 0.05em;
+      z-index: 50;
+      background: rgba(4, 13, 8, 0.4);
+      padding: 6px 12px; border-radius: 999px;
+      backdrop-filter: blur(6px);
+      border: 1px solid var(--line);
+    }
+    .slide.light .progress-label, .slide.paper .progress-label { color: rgba(4,13,8,0.7); background: rgba(255,255,255,0.6); }
+
+    .arrows {
+      position: fixed; right: 26px; bottom: 24px; z-index: 50;
+      display: flex; flex-direction: row; gap: 10px;
+    }
+    .arrows button {
+      width: 44px; height: 44px; border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.05);
+      color: white; cursor: pointer;
+      font-size: 18px; display: flex; align-items: center; justify-content: center;
+      transition: all .2s ease;
+    }
+    .arrows button:hover { background: var(--emerald-600); color: white; border-color: var(--emerald-600); box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); }
+
+    .hero-num {
+      font-family: var(--font-display); font-weight: 700;
+      font-size: clamp(80px, 12vw, 160px);
+      position: absolute; right: 6vw; top: 8vh;
+      color: rgba(52, 211, 153, 0.04);
+      line-height: 1;
+    }
+
+    .grid { display: grid; gap: 20px; margin-top: 24px; }
+    .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+    .grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 24px;
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      background: rgba(16, 185, 129, 0.05);
+      border-color: rgba(16, 185, 129, 0.25);
+      transform: translateY(-2px);
+    }
+    .slide.light .card { background: rgba(0,0,0,0.02); border-color: rgba(0,0,0,0.08); }
+    .slide.light .card:hover { background: rgba(16,185,129,0.06); border-color: rgba(16,185,129,0.25); }
+
+    .card h3 { color: #ffffff; }
+    .slide.light .card h3 { color: var(--ink); }
+    .card-meta { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--emerald-500); margin-bottom: 8px; }
+
+    .timer-widget {
+      position: fixed; right: 26px; top: 24px; z-index: 50;
+      background: rgba(4, 13, 8, 0.4);
+      border: 1px solid var(--line);
+      padding: 10px 18px; border-radius: 999px;
+      backdrop-filter: blur(6px);
+      display: flex; align-items: center; gap: 12px;
+      font-family: var(--font-display); font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    .timer-widget button {
+      background: transparent; border: none; color: white; cursor: pointer; font-size: 14px;
+    }
+    .timer-widget.minimized {
+      padding: 6px 12px;
+    }
+    .timer-widget.minimized .timer-controls { display: none; }
+    .timer-widget.minimized button.toggle { font-size: 13px; }
+    .timer-display { font-size: 14px; letter-spacing: 0.05em; }
+    .timer-widget.slide-warn { border-color: #f59e0b; box-shadow: 0 0 10px rgba(245, 158, 11, 0.2); }
+    .timer-widget.slide-danger { border-color: #ef4444; box-shadow: 0 0 10px rgba(239, 68, 68, 0.3); }
+
+    /* Interactive components styling */
+    .calc-container {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    .calc-inputs { display: flex; flex-direction: column; gap: 12px; }
+    .calc-input-group { display: flex; flex-direction: column; gap: 4px; }
+    .calc-input-group label { font-size: 13px; font-weight: 600; color: var(--lime-300); }
+    .calc-input-group input {
+      padding: 10px; border-radius: 6px; border: 1.5px solid rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.3); color: white; font-family: var(--font-body); outline: none;
+    }
+    .calc-results {
+      background: rgba(16, 185, 129, 0.05);
+      border: 1.5px dashed rgba(16, 185, 129, 0.2);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 12px;
+    }
+    .calc-res-val { font-family: var(--font-display); font-weight: 700; color: #ffffff; font-size: 18px; }
+    
+  </style>
+</head>
+<body>
+  <!-- Floating Exit Button to List of Materials -->
+  <a href="index.html" style="position: fixed; left: 26px; bottom: 24px; z-index: 50; background: rgba(4, 13, 8, 0.5); border: 1px solid var(--line); padding: 10px 18px; border-radius: 999px; backdrop-filter: blur(6px); color: white; text-decoration: none; font-family: var(--font-display); font-weight: 600; font-size: 13px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s;" onmouseover="this.style.background='var(--emerald-600)';" onmouseout="this.style.background='rgba(4, 13, 8, 0.5)';">
+    📋 Daftar Materi
+  </a>
+
+
+  <!-- Slide Progression Label (Top Left) -->
+  <div id="progressLabel" class="progress-label">Peluang Usaha, Perencanaan, dan Model Bisnis (BMC)</div>
+
+  <!-- Slide Timer (Top Right) -->
+  <div id="slideTimerWidget" class="timer-widget">
+    <button id="slideTimerToggle" class="toggle">⏱ Slide Timer</button>
+    <div id="slideTimerDisplay" class="timer-display">00:00</div>
+    <div class="timer-controls">
+      <button id="slidePlayPauseBtn">⏸</button>
+      <button id="slideResetBtn">🔄</button>
+    </div>
+  </div>
+
+  <!-- Navigation Dots (Bottom Center) -->
+  <nav class="nav" id="dotsNav">
+    <!-- Generated dynamically -->
+  </nav>
+
+  <!-- Navigation Arrows (Bottom Right) -->
+  <div class="arrows">
+    <button id="prevBtn" title="Slide Sebelumnya">←</button>
+    <button id="nextBtn" title="Slide Selanjutnya">→</button>
+  </div>
+
+  <!-- Slides Deck Container -->
+  <div class="deck" id="slideDeck">
+
+      <section class="slide dark" data-duration="2">
+        <div class="hero-num">01</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h1>Peluang Usaha & Model Bisnis Canvas</h1>
+        <p class="lead">Menganalisis celah pasar (Market Gap), melakukan studi kelayakan bisnis, dan merancang kerangka model bisnis BMC.</p>
+        <div style="margin-top: 30px;" class="tag outline">Modul 02 - Perencanaan Usaha</div>
+        
+      </section>
+      
+      <section class="slide paper" data-duration="4">
+        <div class="hero-num">02</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Sumber Penemuan Peluang Usaha</h2>
+        <p>Peluang bisnis emas lahir dari pengamatan jeli terhadap perubahan di lingkungan sekitar:</p>
+        <div class="grid cols-3">
+          <div class="card">
+            <div class="card-meta">Customer Pain Points</div>
+            <p style="font-size:13px; margin-top:6px;">Masalah, keluhan, kesulitan, atau kebutuhan yang belum terpecahkan secara optimal oleh produk yang ada di pasar.</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Kemajuan Teknologi</div>
+            <p style="font-size:13px; margin-top:6px;">Kecerdasan buatan (AI), layanan komputasi awan, QRIS, e-wallet, dan Internet of Things (IoT).</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Perubahan Regulasi</div>
+            <p style="font-size:13px; margin-top:6px;">Kebijakan baru seperti pembatasan kantong plastik melahirkan peluang kemasan ramah lingkungan.</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="slide dark" data-duration="4">
+        <div class="hero-num">03</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Studi Kelayakan Usaha (Feasibility Study)</h2>
+        <p>Sebelum mengeksekusi ide, lakukan analisis kelayakan pada tiga pilar utama berikut:</p>
+        <div class="grid cols-3">
+          <div class="card">
+            <div class="card-meta">1. Kelayakan Pasar</div>
+            <p style="font-size:13px; margin-top:6px;">Apakah ada konsumen yang berniat membeli produk? Seberapa besar ukuran pasar potensial (Market Size)?</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">2. Kelayakan Teknis</div>
+            <p style="font-size:13px; margin-top:6px;">Apakah tim kita memiliki keahlian operasional, mesin, serta bahan baku yang cukup untuk memproduksi?</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">3. Kelayakan Finansial</div>
+            <p style="font-size:13px; margin-top:6px;">Apakah modal awal mencukupi? Kapan bisnis akan mencapai Break Even Point (balik modal)?</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="slide paper" data-duration="4">
+        <div class="hero-num">04</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Business Model Canvas (BMC)</h2>
+        <p class="lead">BMC adalah diagram satu halaman yang memetakan secara visual bagaimana organisasi menciptakan, mengantarkan, dan menangkap nilai bisnis.</p>
+        <div class="grid cols-2" style="margin-top: 15px;">
+          <div class="card">
+            <div class="card-meta">Mengapa Menggunakan BMC?</div>
+            <p style="font-size:13px; margin-top:6px;">Lebih dinamis dan fleksibel dibanding dokumen business plan konvensional yang tebal. Memudahkan tim berdiskusi dan mengubah model bisnis dengan cepat saat masa validasi ide.</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Struktur BMC</div>
+            <p style="font-size:13px; margin-top:6px;">Terdiri atas 9 elemen penting yang saling terhubung erat, memetakan pilar Pelanggan, Nilai Tambah, Operasional, serta Keuangan usaha.</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="slide dark" data-duration="4">
+        <div class="hero-num">05</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Blok 1 & 2: Segmen Pelanggan & Value Proposition</h2>
+        <div class="grid cols-2" style="margin-top: 15px;">
+          <div class="card">
+            <div class="card-meta">Customer Segments (Segmen Pelanggan)</div>
+            <p style="font-size:14px; margin-top:6px;">Kelompok spesifik konsumen yang dibidik. Bisa berupa Niche Market (pasar ceruk spesifik), Mass Market (pasar massal), B2C (langsung ke pengguna), atau B2B (ke perusahaan lain).</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Value Propositions (Proposisi Nilai)</div>
+            <p style="font-size:14px; margin-top:6px;">Alasan mengapa produk kita bernilai di mata konsumen. Nilai tambah ini bisa berupa harga lebih murah, kinerja lebih cepat (performance), kenyamanan pakai, atau desain estetik.</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="slide paper" data-duration="4">
+        <div class="hero-num">06</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Blok 3 & 4: Channels & Customer Relationships</h2>
+        <div class="grid cols-2" style="margin-top: 15px;">
+          <div class="card">
+            <div class="card-meta">Channels (Saluran Distribusi)</div>
+            <p style="font-size:14px; margin-top:6px;">Cara produk kita sampai ke tangan pelanggan. Terbagi atas Direct Channels (sales force, website pribadi) dan Indirect Channels (reseller, ritel pihak ketiga, e-commerce besar).</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Customer Relationships (Hubungan Pelanggan)</div>
+            <p style="font-size:14px; margin-top:6px;">Bagaimana kita menjalin ikatan komunikasi dengan pelanggan. Contoh: Automated services (chatbot), Co-Creation (kustomisasi bareng), atau Personal Assistance.</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="slide dark" data-duration="4">
+        <div class="hero-num">07</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Blok 5 & 6: Revenue Streams & Key Resources</h2>
+        <div class="grid cols-2" style="margin-top: 15px;">
+          <div class="card">
+            <div class="card-meta">Revenue Streams (Aliran Pendapatan)</div>
+            <p style="font-size:14px; margin-top:6px;">Sumber-sumber keuntungan bisnis. Bisa berupa penjualan putus produk (asset sale), biaya langganan bulanan (subscription fee), atau biaya sewa (renting).</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Key Resources (Sumber Daya Kunci)</div>
+            <p style="font-size:14px; margin-top:6px;">Aset penting untuk menjalankan bisnis. Meliputi Fisik (mesin, pabrik), Intelektual (merek, hak paten), Manusia (ahli IT, desainer), atau Finansial (saham, kas).</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="slide paper" data-duration="4">
+        <div class="hero-num">08</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Blok 7, 8 & 9: Aktivitas, Kemitraan, & Biaya</h2>
+        <div class="grid cols-3" style="margin-top: 15px;">
+          <div class="card">
+            <div class="card-meta">Key Activities</div>
+            <p style="font-size:13px; margin-top:6px;">Kegiatan operasional utama yang wajib dikerjakan sehari-hari demi memproduksi Value Proposition bisnis.</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Key Partners</div>
+            <p style="font-size:13px; margin-top:6px;">Aliansi bisnis dengan pihak luar (supplier bahan mentah, kurir ekspedisi logistik) untuk meminimalkan risiko usaha.</p>
+          </div>
+          <div class="card">
+            <div class="card-meta">Cost Structure</div>
+            <p style="font-size:13px; margin-top:6px;">Semua biaya pengeluaran operasional bisnis. Dapat bertipe Cost-Driven (fokus hemat) atau Value-Driven (kualitas premium).</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="slide dark" data-duration="4">
+        <div class="hero-num">09</div>
+        <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02</div>
+        
+        <h2>Business Plan Terstruktur</h2>
+        <p class="lead">Setelah model bisnis tervalidasi menggunakan BMC, wirausahawan menyusun dokumen Perencanaan Bisnis (Business Plan) yang matang.</p>
+        <div style="background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 12px; padding: 20px; margin-top: 15px;">
+          <h3 style="color:#ffffff; font-size:15px; margin-bottom:8px;">Komponen Utama Dokumen Perencanaan Bisnis:</h3>
+          <p style="font-size:13px; line-height:1.6; color: var(--lime-300);">
+            1. Ringkasan Eksekutif (Executive Summary)<br>
+            2. Deskripsi Perusahaan & Analisis SWOT Kompetitor<br>
+            3. Rencana Operasional Produksi & Standardisasi SOP Kerja<br>
+            4. Strategi Pemasaran & Target Penetrasi Pasar (Marketing Plan)<br>
+            5. Proyeksi Keuangan, Anggaran Kas, Titik Impas (BEP), dan Kebutuhan Modal Kerja
+          </p>
+        </div>
+        
+      </section>
+      
+  </div>
+
+  <script>
+    // Navigation
+    const slideDeck = document.getElementById('slideDeck');
+    const slides = document.querySelectorAll('.slide');
+    const dotsNav = document.getElementById('dotsNav');
+    const progressLabel = document.getElementById('progressLabel');
+    let currentSlideIdx = 0;
+
+    // Generate Dots Nav
+    slides.forEach((slide, idx) => {
+      const btn = document.createElement('button');
+      if (idx === 0) btn.className = 'active';
+      btn.title = `Slide ${idx + 1}`;
+      btn.addEventListener('click', () => {
+        slides[idx].scrollIntoView({ behavior: 'smooth' });
+      });
+      dotsNav.appendChild(btn);
+    });
+
+    const dots = dotsNav.querySelectorAll('button');
+
+    // Observer
+    const observerOptions = {
+      root: slideDeck,
+      threshold: 0.5
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const idx = Array.from(slides).indexOf(entry.target);
+          currentSlideIdx = idx;
+          
+          dots.forEach((dot, dIdx) => {
+            if (dIdx === idx) dot.classList.add('active');
+            else dot.classList.remove('active');
+          });
+
+          progressLabel.textContent = `Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) - Slide ${idx + 1} dari ${slides.length}`;
+          onSlideChanged(idx);
+        }
+      });
+    }, observerOptions);
+
+    slides.forEach(slide => observer.observe(slide));
+
+    // Nav Arrows
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      const next = Math.min(currentSlideIdx + 1, slides.length - 1);
+      slides[next].scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      const prev = Math.max(currentSlideIdx - 1, 0);
+      slides[prev].scrollIntoView({ behavior: 'smooth' });
+    });
+
+    // Keyboard bindings
+    window.addEventListener('keydown', (e) => {
+      if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) {
+        e.preventDefault();
+        document.getElementById('nextBtn').click();
+      }
+      if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) {
+        e.preventDefault();
+        document.getElementById('prevBtn').click();
+      }
+    });
+
+    // Slide Timer
+    const slideTimerWidget = document.getElementById('slideTimerWidget');
+    const slideTimerDisplay = document.getElementById('slideTimerDisplay');
+    const slidePlayPauseBtn = document.getElementById('slidePlayPauseBtn');
+    let slideSecondsLeft = 0;
+    let slideDuration = 0;
+    let slideInterval = null;
+    let slideRunning = false;
+
+    function formatMMSS(totalSeconds) {
+      const m = Math.floor(totalSeconds / 60);
+      const s = totalSeconds % 60;
+      return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+    }
+
+    function renderSlideTimer() {
+      slideTimerDisplay.textContent = formatMMSS(slideSecondsLeft);
+      slideTimerWidget.classList.remove('slide-warn', 'slide-danger');
+      if (slideSecondsLeft <= 30 && slideSecondsLeft > 10) slideTimerWidget.classList.add('slide-warn');
+      else if (slideSecondsLeft <= 10) slideTimerWidget.classList.add('slide-danger');
+      if (slideTimerWidget.classList.contains('minimized')) {
+        document.getElementById('slideTimerToggle').textContent = '⏱ ' + formatMMSS(slideSecondsLeft);
+      } else {
+        document.getElementById('slideTimerToggle').textContent = '⏱ Slide Timer';
+      }
+    }
+
+    function slideTick() {
+      if (slideSecondsLeft > 0) {
+        slideSecondsLeft--;
+        renderSlideTimer();
+      } else {
+        pauseSlideTimer();
+      }
+    }
+
+    function startSlideTimer() {
+      if (slideInterval || slideSecondsLeft <= 0) return;
+      slideInterval = setInterval(slideTick, 1000);
+      slideRunning = true;
+      slidePlayPauseBtn.textContent = '⏸';
+    }
+
+    function pauseSlideTimer() {
+      clearInterval(slideInterval);
+      slideInterval = null;
+      slideRunning = false;
+      slidePlayPauseBtn.textContent = '▶';
+    }
+
+    function resetSlideTimer() {
+      pauseSlideTimer();
+      slideSecondsLeft = slideDuration;
+      renderSlideTimer();
+    }
+
+    function loadSlideTimer(idx) {
+      const mins = parseFloat(slides[idx].dataset.duration) || 0;
+      slideDuration = Math.round(mins * 60);
+      slideSecondsLeft = slideDuration;
+      pauseSlideTimer();
+      renderSlideTimer();
+      if (slideDuration > 0) startSlideTimer();
+    }
+
+    slidePlayPauseBtn.addEventListener('click', () => {
+      if (slideRunning) pauseSlideTimer();
+      else startSlideTimer();
+    });
+    document.getElementById('slideResetBtn').addEventListener('click', resetSlideTimer);
+    document.getElementById('slideTimerToggle').addEventListener('click', () => {
+      slideTimerWidget.classList.toggle('minimized');
+      renderSlideTimer();
+    });
+
+    function onSlideChanged(idx) {
+      loadSlideTimer(idx);
+    }
+
+    
+
+    onSlideChanged(0);
+  </script>
+</body>
+</html>\n

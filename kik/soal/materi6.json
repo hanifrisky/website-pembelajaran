@@ -1,0 +1,1207 @@
+{
+  "materi": "Manajemen Risiko Bisnis",
+  "deskripsi": "Mengidentifikasi risiko operasional, kepatuhan, hukum, finansial, serta menyusun skema mitigasi krisis dalam keberlanjutan bisnis.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 2,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri layanan digital mobile sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 3,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 4,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 5,
+      "question": "Perusahaan Batik Digital yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 6,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri manufaktur pakaian berkelanjutan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 7,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 8,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri layanan digital mobile sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 9,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 10,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Finansial', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membangun dana cadangan darurat kas setara 6 bulan biaya operasional dan menghindari utang jangka pendek berbunga mengambang agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk meminjam uang dari platform pinjaman online ilegal untuk ekspansi cepat yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyimpan seluruh keuntungan kas dalam bentuk investasi mata uang kripto yang volatil tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "92f1c0cd"
+    },
+    {
+      "no": 11,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 12,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 13,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 14,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 15,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 16,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 17,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 18,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 19,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 20,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Mitigasi Krisis', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menyusun Rencana Kelangsungan Bisnis (Business Continuity Plan) yang menetapkan jalur komunikasi darurat dan tim respons cepat agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menghentikan seluruh operasional kantor secara total dan memecat karyawan tanpa pemberitahuan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyangkal adanya krisis kepada media massa untuk menjaga reputasi harga saham tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "8d7528da"
+    },
+    {
+      "no": 21,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 22,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 23,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 24,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 25,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 26,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 27,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 28,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 29,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 30,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Resiliensi Rantai Pasok', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk memiliki daftar pemasok cadangan terverifikasi di berbagai wilayah geografis berbeda untuk mencegah kelangkaan bahan baku agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk membeli bahan baku hanya dari satu pemasok tunggal termurah tanpa ada alternatif kontrak yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menimbun stok produk jadi di gudang kantor hingga memenuhi kapasitas ruang kerja staf tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "2be9d0fd"
+    },
+    {
+      "no": 31,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 32,
+      "question": "Perusahaan Batik Digital yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 33,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 34,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 35,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 36,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 37,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 38,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 39,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 40,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Volatilitas Harga', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menggunakan kontrak pembelian berjangka (forward contract) untuk mengunci harga bahan baku dengan pemasok selama satu tahun agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengubah harga jual produk ke konsumen setiap hari mengikuti fluktuasi harga bahan mentah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengurangi kualitas bahan baku secara drastis saat harga pasar melambung tinggi tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "828a55d"
+    },
+    {
+      "no": 41,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 42,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri manufaktur pakaian berkelanjutan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 43,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 44,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 45,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 46,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri layanan digital mobile sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 47,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 48,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri manufaktur pakaian berkelanjutan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 49,
+      "question": "Perusahaan Karya Agung yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 50,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Risiko Siber (Cybersecurity)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan enkripsi data transaksi end-to-end, audit keamanan server berkala, dan pelatihan anti-phishing untuk staf agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menulis sandi akses database server pada selebaran kertas yang ditempel di dinding kantor yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menonaktifkan sistem otentikasi dua faktor (2FA) demi mempercepat login admin tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "3125d8"
+    },
+    {
+      "no": 51,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 52,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 53,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 54,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 55,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 56,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 57,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 58,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 59,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 60,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Asuransi Operasional', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk membayar premi asuransi aset pabrik terhadap risiko kebakaran, banjir, dan kecelakaan kerja secara tertib agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menolak membeli polis asuransi karena dinilai sebagai pengeluaran finansial yang sia-sia yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengasuransikan aset pribadi milik direktur menggunakan dana kas operasional kantor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "a91064df"
+    },
+    {
+      "no": 61,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 62,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri layanan digital mobile sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 63,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 64,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 65,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 66,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri manufaktur pakaian berkelanjutan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 67,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 68,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri layanan digital mobile sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 69,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 70,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Contingency Planning', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk merancang skema cadangan (Plan B) fungsional yang siap dijalankan seketika jika skenario utama bisnis gagal agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menunggu kegagalan terjadi terlebih dahulu sebelum memikirkan jalan keluar pemecahan masalah yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk mengikuti arahan dari ramalan tren pasar informal tanpa menyusun rencana mitigasi tertulis tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "6c74b596"
+    },
+    {
+      "no": 71,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 72,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 73,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 74,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 75,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 76,
+      "question": "Perusahaan Karya Agung yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 77,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 78,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 79,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 80,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kegagalan Kualitas', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk menerapkan batas toleransi cacat produksi (TQM) dan langsung menarik produk cacat dari pasar secara sukarela demi merek agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menjual produk cacat tersebut dengan label diskon besar tanpa memberitahukan kekurangannya yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyalahkan kurir logistik eksternal atas kerusakan fisik barang yang dikirim tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "f0301650"
+    },
+    {
+      "no": 81,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 82,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 83,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 84,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 85,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 86,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 87,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 88,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 89,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 90,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri jasa agribisnis perkotaan sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Ancaman Kompetitif', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk terus berinovasi meningkatkan nilai tambah (value-add) produk dan memperkuat loyalitas hubungan pelanggan agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk menurunkan harga produk secara ekstrem untuk memicu perang harga yang saling merugikan yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk meluncurkan kampanye iklan negatif yang menjelek-jelekkan reputasi produk kompetitor tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "9fd1cf7c"
+    },
+    {
+      "no": 91,
+      "question": "Perusahaan Nusantara Food yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 92,
+      "question": "Perusahaan Sinergi Tech yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 93,
+      "question": "Perusahaan Lokal Mandiri yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 94,
+      "question": "Perusahaan Karya Agung yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 95,
+      "question": "Perusahaan Lestari Hijau yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 96,
+      "question": "Perusahaan Batik Digital yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 97,
+      "question": "Perusahaan Tani Jaya yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 98,
+      "question": "Perusahaan Kreatif Studio yang bergerak di industri aplikasi edukasi online sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 99,
+      "question": "Perusahaan Artha Mulia yang bergerak di industri kerajinan tangan daur ulang sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    },
+    {
+      "no": 100,
+      "question": "Perusahaan Cipta Karya yang bergerak di industri kuliner tradisional sedang memetakan risiko bisnis. Ketika mereka menghadapi potensi bahaya berupa 'Kepatuhan Hukum (Compliance)', tindakan mitigasi paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan strategi untuk melakukan audit legalitas perizinan usaha dan standar ketenagakerjaan secara berkala dengan ahli hukum terpercaya agar bisnis memiliki daya tahan (resilience) yang kokoh terhadap guncangan pasar",
+        "B": "Memilih opsi untuk mengabaikan peraturan izin pembuangan limbah industri demi menghemat biaya operasional yang justru berisiko memperparah dampak kerugian operasional",
+        "C": "Memutuskan untuk menyuap petugas pemeriksa izin usaha agar proses verifikasi kelayakan dipercepat tanpa memperhitungkan regulasi kepatuhan hukum",
+        "D": "Membatalkan seluruh rencana peluncuran produk baru dan mengamankan kas di bank pribadi",
+        "E": "Menaikkan volume produksi barang secara massal di tengah menurunnya permintaan pasar"
+      },
+      "answer_hash": "46ab1b71"
+    }
+  ]
+}

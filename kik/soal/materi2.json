@@ -1,0 +1,1207 @@
+{
+  "materi": "Peluang Usaha, Perencanaan, dan Model Bisnis (BMC)",
+  "deskripsi": "Menganalisis segmentasi pasar, keunikan nilai produk (value proposition), saluran distribusi, dan validasi model bisnis menggunakan Business Model Canvas (BMC).",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 2,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 3,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 4,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 5,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 6,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 7,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 8,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 9,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 10,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Value Proposition Canvas'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mencocokkan profil kebutuhan spesifik konsumen dengan keunggulan fungsional produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memperbanyak pilihan warna kemasan produk secara acak tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk mencegah kegagalan server database sistem secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "3b301160"
+    },
+    {
+      "no": 11,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 12,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 13,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 14,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 15,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 16,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 17,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 18,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 19,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 20,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Customer Segments'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memfokuskan upaya pemasaran pada kelompok demografis yang memiliki masalah paling akut yang bisa disembuhkan produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengirimkan brosur promosi kertas ke seluruh penduduk kota tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan biaya pendaftaran keanggotaan premium secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "da2ff614"
+    },
+    {
+      "no": 21,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 22,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 23,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 24,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 25,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 26,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 27,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 28,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 29,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 30,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Channels'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memilih kombinasi media sosial aktif dan jasa kurir instan lokal untuk memangkas waktu tunggu pengiriman produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membangun sepuluh gedung kantor cabang fisik baru tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk meningkatkan kuota memori ram server online secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "c9a02298"
+    },
+    {
+      "no": 31,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 32,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 33,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 34,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 35,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 36,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 37,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 38,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 39,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 40,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Revenue Streams'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk menggabungkan penjualan produk langsung dengan sistem langganan bulanan untuk menjaga stabilitas arus kas agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mewajibkan konsumen melakukan deposit dana tunai di awal tahun tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menaikkan bunga pinjaman kredit usaha mikro secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "bc250892"
+    },
+    {
+      "no": 41,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 42,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 43,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 44,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 45,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 46,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 47,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 48,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 49,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 50,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Cost Structure'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengurangi biaya tetap dengan menyewa ruang kerja bersama (coworking space) alih-alih membangun kantor fisik agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk memotong anggaran gaji pokok buruh pabrik terendah tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menghapus sistem garansi pengembalian produk rusak secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "9c40d9de"
+    },
+    {
+      "no": 51,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 52,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 53,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 54,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 55,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 56,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 57,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 58,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 59,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 60,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Key Activities'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk memprioritaskan kontrol kualitas produksi dan riset kepuasan pengguna daripada promosi iklan berbayar agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengadakan pesta perilisan produk yang mewah di hotel bintang lima tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menulis ribuan halaman buku panduan pemakaian produk secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "2aeada38"
+    },
+    {
+      "no": 61,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 62,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 63,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 64,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 65,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 66,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 67,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 68,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 69,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 70,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Key Resources'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengamankan hak kekayaan intelektual (paten/merek) dari resep/fitur utama produk agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk membeli mesin cetak label stiker otomatis beresolusi super tinggi tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk menyimpan tumpukan dokumen cetak transaksi di gudang kertas secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "a87a63b7"
+    },
+    {
+      "no": 71,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 72,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 73,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 74,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 75,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 76,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 77,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 78,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 79,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 80,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Key Partnerships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk bekerja sama dengan komunitas lokal sebagai penyuplai bahan baku mentah guna menjamin ketersediaan barang agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mengontrak artis terkenal internasional sebagai duta merek tunggal tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk membeli seluruh saham perusahaan kompetitor sejenis secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "f4f6ddd0"
+    },
+    {
+      "no": 81,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 82,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 83,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 84,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 85,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 86,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 87,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 88,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 89,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 90,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Customer Relationships'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk membangun komunitas pengguna online aktif untuk sesi diskusi umpan balik dan pelayanan keluhan cepat agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk mematikan saluran telepon komplain pelanggan demi efisiensi kerja tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memberikan hadiah voucer belanja acak tanpa data analitik secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "1fe092b7"
+    },
+    {
+      "no": 91,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Nusantara Food, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 92,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Sinergi Tech, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 93,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lokal Mandiri, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 94,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Karya Agung, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 95,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Lestari Hijau, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 96,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Batik Digital, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 97,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Tani Jaya, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 98,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Kreatif Studio, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 99,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Artha Mulia, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    },
+    {
+      "no": 100,
+      "question": "Dalam menyusun dokumen BMC (Business Model Canvas) untuk Peluang Usaha, Perencanaan, dan Model Bisnis (BMC) pada perusahaan Cipta Karya, tim perencana memfokuskan analisis pada elemen 'Pivot'. Keputusan taktis yang paling tepat adalah...",
+      "options": {
+        "A": "Merancang strategi untuk mengubah strategi model bisnis ke sektor jasa pendampingan setelah melihat penjualan produk fisik menurun tajam agar bisnis memiliki keunggulan kompetitif yang kokoh",
+        "B": "Memfokuskan anggaran keuangan untuk meminjam modal tambahan ke bank untuk meneruskan produksi barang yang tidak laku tanpa data survei rill",
+        "C": "Mengabaikan aspek pasar dan memilih untuk memecat tim desainer produk dan memotong biaya riset secara sepihak",
+        "D": "Mendapatkan slot iklan komersial gratis di televisi nasional",
+        "E": "Mewajibkan semua konsumen memiliki kartu keanggotaan berbayar tahunan"
+      },
+      "answer_hash": "97814233"
+    }
+  ]
+}
