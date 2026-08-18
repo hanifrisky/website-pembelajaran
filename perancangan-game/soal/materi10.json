@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain Keseimbangan Gim",
+  "deskripsi": "Mengatur keseimbangan gim (balancing) secara statistik, model Rock-Paper-Scissors (transitif vs intransitif), game pacing, symmetric vs asymmetric balancing, serta variabel progresi matematika.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam game design, apa definisi dari kondisi game RPG Fantasi buatan Nusantara Game yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 2,
+      "question": "Dalam game design, apa definisi dari kondisi game Shooter Taktis buatan Majapahit Games yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 3,
+      "question": "Dalam game design, apa definisi dari kondisi game Platformer 2D buatan Garuda Studio yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 4,
+      "question": "Dalam game design, apa definisi dari kondisi game Simulasi Bisnis buatan Siliwangi Digital yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 5,
+      "question": "Dalam game design, apa definisi dari kondisi game Horror Survival buatan Lontar Media yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 6,
+      "question": "Dalam game design, apa definisi dari kondisi game Strategi Real-Time buatan Bhinneka Games yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 7,
+      "question": "Dalam game design, apa definisi dari kondisi game Balap Arkade buatan Merdeka Play yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 8,
+      "question": "Dalam game design, apa definisi dari kondisi game Puzzle Teka-Teki buatan Khatulistiwa Interactive yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 9,
+      "question": "Dalam game design, apa definisi dari kondisi game Roguelike Aksi buatan Adiwiyata Games yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 10,
+      "question": "Dalam game design, apa definisi dari kondisi game Metroidvania buatan Piksel Kreasi yang 'Balanced' (Seimbang)?",
+      "options": {
+        "A": "Tidak ada satu faksi/senjata yang memiliki strategi dominan mutlak (overpowered) yang meniadakan kelayakan pilihan taktis lainnya",
+        "B": "Seluruh karakter memiliki nama, warna pakaian, dan animasi serangan yang persis sama",
+        "C": "Game dapat dijalankan secara lancar tanpa ada fluktuasi fps di komputer berspesifikasi RAM 2KB",
+        "D": "Harga beli seluruh item senjata di toko belanja virtual bernilai gratis koin emas",
+        "E": "Proses rendering model lingkungan 3D selesai diproses GPU dalam waktu kurang dari satu detik"
+      },
+      "answer_hash": "8ac8712d"
+    },
+    {
+      "no": 11,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game RPG Fantasi karya Majapahit Games menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 12,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Platformer 2D karya Garuda Studio menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 13,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Horror Survival karya Siliwangi Digital menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 14,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Balap Arkade karya Lontar Media menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 15,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Roguelike Aksi karya Bhinneka Games menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 16,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game RPG Fantasi karya Merdeka Play menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 17,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Platformer 2D karya Khatulistiwa Interactive menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 18,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Horror Survival karya Adiwiyata Games menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 19,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Balap Arkade karya Piksel Kreasi menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 20,
+      "question": "Model keseimbangan melingkar di mana elemen A mengalahkan B, B mengalahkan C, dan C mengalahkan A (seperti Batu Gunting Kertas) pada game Roguelike Aksi karya Nusantara Game menerapkan model...",
+      "options": {
+        "A": "Intransitif / Non-transitif",
+        "B": "Transitif linear",
+        "C": "Asymmetrical Balance",
+        "D": "Perfect Symmetry",
+        "E": "Power Creep progression"
+      },
+      "answer_hash": "dfc68c1c"
+    },
+    {
+      "no": 21,
+      "question": "Di game RPG Fantasi karya Garuda Studio, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 22,
+      "question": "Di game Simulasi Bisnis karya Siliwangi Digital, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 23,
+      "question": "Di game Balap Arkade karya Lontar Media, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 24,
+      "question": "Di game Metroidvania karya Bhinneka Games, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 25,
+      "question": "Di game Platformer 2D karya Merdeka Play, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 26,
+      "question": "Di game Strategi Real-Time karya Khatulistiwa Interactive, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 27,
+      "question": "Di game Roguelike Aksi karya Adiwiyata Games, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 28,
+      "question": "Di game Shooter Taktis karya Piksel Kreasi, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 29,
+      "question": "Di game Horror Survival karya Nusantara Game, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 30,
+      "question": "Di game Puzzle Teka-Teki karya Majapahit Games, teridentifikasi adanya 'Dominant Strategy' (Strategi Dominan). Dampak buruk fenomena ini pada kualitas game balancing adalah...",
+      "options": {
+        "A": "Permainan menjadi monoton karena pemain selalu memilih faksi/senjata tersebut demi kemenangan mudah, mengabaikan opsi taktis lain",
+        "B": "Game engine otomatis memicu pembersihan file save data pemain secara acak",
+        "C": "Game mengalami lag jaringan internet akibat penumpukan data senjata di database server",
+        "D": "Meniadakan kebutuhan tim programmer untuk mendesain animasi musuh di level atas",
+        "E": "Harga jual game di toko distribusi digital turun drastis karena dinilai tidak seru"
+      },
+      "answer_hash": "f0988467"
+    },
+    {
+      "no": 31,
+      "question": "Studio Siliwangi Digital merancang game MOBA RPG Fantasi. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 32,
+      "question": "Studio Lontar Media merancang game MOBA Horror Survival. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 33,
+      "question": "Studio Bhinneka Games merancang game MOBA Roguelike Aksi. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 34,
+      "question": "Studio Merdeka Play merancang game MOBA Platformer 2D. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 35,
+      "question": "Studio Khatulistiwa Interactive merancang game MOBA Balap Arkade. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 36,
+      "question": "Studio Adiwiyata Games merancang game MOBA RPG Fantasi. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 37,
+      "question": "Studio Piksel Kreasi merancang game MOBA Horror Survival. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 38,
+      "question": "Studio Nusantara Game merancang game MOBA Roguelike Aksi. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 39,
+      "question": "Studio Majapahit Games merancang game MOBA Platformer 2D. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 40,
+      "question": "Studio Garuda Studio merancang game MOBA Balap Arkade. Mereka menerapkan 'Asymmetric Balance' (Keseimbangan Asimetris) pada hero-hero game. Strategi implementasi yang benar adalah...",
+      "options": {
+        "A": "Setiap hero memiliki kemampuan, stat, dan cara bermain yang berbeda, namun nilai keseluruhan potensi menang tetap setara",
+        "B": "Semua hero memulai pertandingan dengan memegang jenis senjata dan jumlah HP yang persis sama",
+        "C": "Membuat hero buatan developer sendiri selalu memiliki stat serang sepuluh kali lipat lebih kuat dibanding hero lain",
+        "D": "Mengacak stat kekuatan hero secara dinamis di setiap menit pertandingan berlangsung",
+        "E": "Menyembunyikan stat detail hero dari layar menu agar pemain tidak bisa membandingkan"
+      },
+      "answer_hash": "ccac467f"
+    },
+    {
+      "no": 41,
+      "question": "Dalam proses update berkala game online RPG Fantasi di Lontar Media, tim desainer melakukan aksi 'Buff' pada hero pemanah angin. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Menaikkan stat kekuatan atau efektivitas atribut hero tersebut karena dinilai terlalu lemah (underpowered)",
+        "B": "Menurunkan kecepatan lari hero tersebut agar lebih mudah ditangkap musuh",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "99525547"
+    },
+    {
+      "no": 42,
+      "question": "Dalam proses update berkala game online Strategi Real-Time di Bhinneka Games, tim desainer melakukan aksi 'Nerf' pada pedang elemen api. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Menurunkan tingkat kerusakan (damage) atau efektivitas pedang tersebut karena dinilai terlalu kuat (overpowered)",
+        "B": "Meningkatkan jangkauan tebasan pedang tersebut agar serangannya mengenai lebih banyak musuh",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "c929e245"
+    },
+    {
+      "no": 43,
+      "question": "Dalam proses update berkala game online RPG Fantasi di Merdeka Play, tim desainer melakukan aksi 'Buff' pada jurus tameng tanah. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Menaikkan durasi pertahanan atau kapasitas penyerapan tameng tersebut karena jarang dipilih pemain",
+        "B": "Meningkatkan biaya pemakaian mana jurus tameng agar tidak disalahgunakan",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "3ac60a3a"
+    },
+    {
+      "no": 44,
+      "question": "Dalam proses update berkala game online Strategi Real-Time di Khatulistiwa Interactive, tim desainer melakukan aksi 'Nerf' pada kecepatan lari ksatria berkuda. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Menurunkan kecepatan gerak ksatria berkuda demi menjaga keseimbangan taktis pertempuran perebutan bendera",
+        "B": "Meningkatkan pertahanan zirah besi kuda agar lebih kebal peluru",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "4dba382e"
+    },
+    {
+      "no": 45,
+      "question": "Dalam proses update berkala game online RPG Fantasi di Adiwiyata Games, tim desainer melakukan aksi 'Buff' pada ramuan pemulih mana. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Meningkatkan persentase pemulihan mana per detik ramuan agar laku dibeli pemain di toko NPC",
+        "B": "Menaikkan harga jual ramuan di toko ramuan agar koin terserap",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "75d17cda"
+    },
+    {
+      "no": 46,
+      "question": "Dalam proses update berkala game online Strategi Real-Time di Piksel Kreasi, tim desainer melakukan aksi 'Nerf' pada jarak tembak meriam batu. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Mengurangi jangkauan tembakan maksimum meriam agar base pertahanan tidak terlalu mudah dihancurkan dari luar",
+        "B": "Meningkatkan berat fisik meriam sehingga tidak bisa dipindahkan sama sekali",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "2414621e"
+    },
+    {
+      "no": 47,
+      "question": "Dalam proses update berkala game online RPG Fantasi di Nusantara Game, tim desainer melakukan aksi 'Buff' pada kecepatan reload pistol. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Mengecilkan durasi detik pengisian peluru pistol agar senjata cadangan ini lebih berguna di pertempuran jarak dekat",
+        "B": "Menaikkan damage pistol setara dengan damage senapan laras panjang",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "34a7b8cb"
+    },
+    {
+      "no": 48,
+      "question": "Dalam proses update berkala game online Strategi Real-Time di Majapahit Games, tim desainer melakukan aksi 'Nerf' pada jurus ilusi bayangan. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Menaikkan cooldown jurus atau mengurangi jumlah bayangan yang diciptakan agar tidak memicu kekacauan visual",
+        "B": "Menghapus animasi guncangan layar saat jurus bayangan aktif",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "85b19cc4"
+    },
+    {
+      "no": 49,
+      "question": "Dalam proses update berkala game online RPG Fantasi di Garuda Studio, tim desainer melakukan aksi 'Buff' pada batu ajaib magnet koin. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Meningkatkan radius area penarikan koin otomatis agar item ini lebih bernilai dikoleksi pemain",
+        "B": "Menurunkan tingkat kelangkaan batu tersebut saat drop dari peti kayu",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "5b55ce56"
+    },
+    {
+      "no": 50,
+      "question": "Dalam proses update berkala game online Strategi Real-Time di Siliwangi Digital, tim desainer melakukan aksi 'Nerf' pada efek racun belati gelap. Keputusan balancing ini berarti...",
+      "options": {
+        "A": "Mengurangi persentase damage per detik efek racun agar pemain korban memiliki waktu untuk menggunakan obat penyembuh",
+        "B": "Menghilangkan efek visual racun hijau dari belati gelap",
+        "C": "Menghapus item/karakter tersebut sepenuhnya dari kode pemrograman game",
+        "D": "Mengubah kosmetik skin visual item/karakter tersebut menjadi berbayar uang nyata",
+        "E": "Membatasi waktu pakai item/karakter tersebut hanya di level tertentu saja"
+      },
+      "answer_hash": "689e864d"
+    },
+    {
+      "no": 51,
+      "question": "Dalam game strategi RPG Fantasi buatan Bhinneka Games, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 52,
+      "question": "Dalam game strategi Balap Arkade buatan Merdeka Play, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 53,
+      "question": "Dalam game strategi Platformer 2D buatan Khatulistiwa Interactive, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 54,
+      "question": "Dalam game strategi Roguelike Aksi buatan Adiwiyata Games, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 55,
+      "question": "Dalam game strategi Horror Survival buatan Piksel Kreasi, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 56,
+      "question": "Dalam game strategi RPG Fantasi buatan Nusantara Game, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 57,
+      "question": "Dalam game strategi Balap Arkade buatan Majapahit Games, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 58,
+      "question": "Dalam game strategi Platformer 2D buatan Garuda Studio, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 59,
+      "question": "Dalam game strategi Roguelike Aksi buatan Siliwangi Digital, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 60,
+      "question": "Dalam game strategi Horror Survival buatan Lontar Media, unit meriam raksasa sangat mematikan bagi prajurit infantri. Untuk mencapai balancing, desainer merancang unit ksatria berkuda cepat yang kebal tembakan area namun lemah terhadap tombak infantri. Taktik balancing ini menerapkan...",
+      "options": {
+        "A": "Counter-Play (menyediakan opsi taktis/tandingan khusus untuk mematahkan taktik dominan musuh)",
+        "B": "Symmetric Balancing (menyamakan stat kemampuan semua unit faksi secara konstan)",
+        "C": "Power Creep (lonjakan kekuatan ekstrem yang meniadakan fungsi unit level bawah)",
+        "D": "Rubber Banding (menyesuaikan kecepatan gerak unit AI secara otomatis)",
+        "E": "Random Number Generation (penentuan pemenang pertempuran berdasarkan angka keberuntungan acak)"
+      },
+      "answer_hash": "8eccadcf"
+    },
+    {
+      "no": 61,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG RPG Fantasi di Merdeka Play, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 62,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Puzzle Teka-Teki di Khatulistiwa Interactive, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 63,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Horror Survival di Adiwiyata Games, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 64,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Shooter Taktis di Piksel Kreasi, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 65,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Roguelike Aksi di Nusantara Game, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 66,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Strategi Real-Time di Majapahit Games, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 67,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Platformer 2D di Garuda Studio, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 68,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Metroidvania di Siliwangi Digital, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 69,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Balap Arkade di Lontar Media, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 70,
+      "question": "Dalam perilisan update ekspansi tahunan game RPG Simulasi Bisnis di Bhinneka Games, senjata baru level 50 memiliki damage 10.000 sedangkan senjata terkuat versi sebelumnya hanya ber-damage 200. Masalah balancing yang terjadi akibat lonjakan ekstrem ini adalah...",
+      "options": {
+        "A": "Power Creep (membuat konten/item lama menjadi tidak berguna seketika karena kalah bersaing dengan item baru)",
+        "B": "Diminishing Returns (penurunan manfaat tambahan pertahanan seiring tingginya stat)",
+        "C": "Perfect Balance (keseimbangan sempurna antara item baru dan lama)",
+        "D": "Asymmetrical Balancing (perbedaan gaya bermain faksi secara dinamis)",
+        "E": "Intransitive Balancing (model keseimbangan Batu-Gunting-Kertas melingkar)"
+      },
+      "answer_hash": "25ef5e34"
+    },
+    {
+      "no": 71,
+      "question": "Mengapa game designer di Khatulistiwa Interactive wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game RPG Fantasi mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 72,
+      "question": "Mengapa game designer di Adiwiyata Games wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Roguelike Aksi mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 73,
+      "question": "Mengapa game designer di Piksel Kreasi wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Balap Arkade mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 74,
+      "question": "Mengapa game designer di Nusantara Game wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Horror Survival mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 75,
+      "question": "Mengapa game designer di Majapahit Games wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Platformer 2D mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 76,
+      "question": "Mengapa game designer di Garuda Studio wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game RPG Fantasi mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 77,
+      "question": "Mengapa game designer di Siliwangi Digital wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Roguelike Aksi mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 78,
+      "question": "Mengapa game designer di Lontar Media wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Balap Arkade mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 79,
+      "question": "Mengapa game designer di Bhinneka Games wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Horror Survival mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 80,
+      "question": "Mengapa game designer di Merdeka Play wajib menggunakan Balancing Spreadsheet (seperti Microsoft Excel/Google Sheets) saat menyeimbangkan game Platformer 2D mereka?",
+      "options": {
+        "A": "Untuk mensimulasikan perhitungan matematika damage, TTK (Time to Kill), dan progresi statistik ribuan item sebelum diuji coba",
+        "B": "Sebagai lembar menulis dialog naskah cerita dan percakapan NPC desa",
+        "C": "Untuk merender grafis visual model 3D karakter game secara online",
+        "D": "Mengurangi beban kerja server lokal dalam menyimpan database akun online pemain",
+        "E": "Untuk mencetak slip slip gaji bulanan bagi seluruh anggota staf pengembang"
+      },
+      "answer_hash": "8375816f"
+    },
+    {
+      "no": 81,
+      "question": "Dalam game balap arkade RPG Fantasi buatan Adiwiyata Games, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 82,
+      "question": "Dalam game balap arkade Metroidvania buatan Piksel Kreasi, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 83,
+      "question": "Dalam game balap arkade Roguelike Aksi buatan Nusantara Game, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 84,
+      "question": "Dalam game balap arkade Puzzle Teka-Teki buatan Majapahit Games, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 85,
+      "question": "Dalam game balap arkade Balap Arkade buatan Garuda Studio, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 86,
+      "question": "Dalam game balap arkade Strategi Real-Time buatan Siliwangi Digital, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 87,
+      "question": "Dalam game balap arkade Horror Survival buatan Lontar Media, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 88,
+      "question": "Dalam game balap arkade Simulasi Bisnis buatan Bhinneka Games, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 89,
+      "question": "Dalam game balap arkade Platformer 2D buatan Merdeka Play, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 90,
+      "question": "Dalam game balap arkade Shooter Taktis buatan Khatulistiwa Interactive, diterapkan sistem 'Rubber Banding' di mana mobil musuh AI akan bertambah kecepatannya jika berada jauh di belakang pemain utama, dan melambat jika menyalip terlalu jauh. Alasan penerapan sistem ini adalah...",
+      "options": {
+        "A": "Menjaga tensi kompetisi balapan agar tetap menantang sepanjang permainan tanpa membiarkan pemain menang terlalu mudah",
+        "B": "Menstimulasi roda karet mobil balap agar terlihat meregang realistis di jalan aspal miring",
+        "C": "Mengurangi pemakaian bahan bakar bensin virtual mobil balap selama kompetisi",
+        "D": "Mengurangi pemakaian RAM server lokal saat memproses data jaringan internet game online",
+        "E": "Membatasi frame rate per detik (FPS) layar monitor komputer pada angka konstan 30"
+      },
+      "answer_hash": "b9909677"
+    },
+    {
+      "no": 91,
+      "question": "Mengapa tim desainer Piksel Kreasi harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 92,
+      "question": "Mengapa tim desainer Nusantara Game harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 93,
+      "question": "Mengapa tim desainer Majapahit Games harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 94,
+      "question": "Mengapa tim desainer Garuda Studio harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 95,
+      "question": "Mengapa tim desainer Siliwangi Digital harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 96,
+      "question": "Mengapa tim desainer Lontar Media harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 97,
+      "question": "Mengapa tim desainer Bhinneka Games harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 98,
+      "question": "Mengapa tim desainer Merdeka Play harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 99,
+      "question": "Mengapa tim desainer Khatulistiwa Interactive harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    },
+    {
+      "no": 100,
+      "question": "Mengapa tim desainer Adiwiyata Games harus terus memantau data permainan secara langsung setelah game RPG Fantasi dirilis ke pasar global (live-service game balancing)?",
+      "options": {
+        "A": "Untuk mendeteksi munculnya strategi dominan baru (meta game broken) dari analisis jutaan pertandingan pemain yang tidak terdeteksi saat uji coba internal",
+        "B": "Untuk mengganti nama judul game secara otomatis di toko digital agar terlihat segar",
+        "C": "Untuk mencatat kata sandi rahasia akun pemain guna keperluan sistem keamanan",
+        "D": "Menghapus secara paksa instalasi game dari komputer pemain yang memberikan ulasan buruk",
+        "E": "Untuk mengunduh versi update patch software game engine secara gratis dari internet"
+      },
+      "answer_hash": "1b753377"
+    }
+  ]
+}

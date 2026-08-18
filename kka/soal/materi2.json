@@ -1,0 +1,1207 @@
+{
+  "materi": "Literasi Digital",
+  "deskripsi": "Keamanan informasi, identifikasi phishing, penanganan hoaks, privasi data, jejak digital profesional, serta etika komunikasi daring.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 2,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 3,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 4,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 5,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 6,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 7,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 8,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 9,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 10,
+      "question": "Dalam rangka meningkatkan kompetensi 'Identifikasi Hoaks' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk melakukan verifikasi silang (crosscheck) ke situs berita resmi terakreditasi dan memeriksa kredibilitas penulis artikel agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membagikan langsung berita tersebut ke seluruh grup obrolan media sosial agar viral yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengabaikan tanggal publikasi berita dan langsung mempercayai judul klikbait yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "d74021f2"
+    },
+    {
+      "no": 11,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 12,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 13,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 14,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 15,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 16,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 17,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 18,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 19,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 20,
+      "question": "Dalam rangka meningkatkan kompetensi 'Phishing Safety' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa keaslian nama domain email pengirim (seperti mengecek typo halus) dan tidak mengklik tautan mencurigakan agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memasukkan username dan sandi perbankan pada halaman login yang dikirim via pesan SMS yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengunduh file lampiran format exe yang dikirim oleh alamat email tidak dikenal yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "72f845fd"
+    },
+    {
+      "no": 21,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 22,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 23,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 24,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 25,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 26,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 27,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 28,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 29,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 30,
+      "question": "Dalam rangka meningkatkan kompetensi 'Jejak Digital' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menghindari unggahan opini ofensif/informasi sensitif dan mempublikasikan karya prestasi ilmiah secara profesional agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menghapus seluruh akun media sosial secara permanen dan menolak berkomunikasi secara online yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan nama palsu untuk menulis komentar negatif di forum diskusi publik yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "7c6f0c62"
+    },
+    {
+      "no": 31,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 32,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 33,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 34,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 35,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 36,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 37,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 38,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 39,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 40,
+      "question": "Dalam rangka meningkatkan kompetensi 'Cyberbullying Response' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memblokir akun pelaku perundungan, menyimpan bukti tangkapan layar (screenshot), dan melaporkannya ke admin platform resmi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan membalas perundungan tersebut dengan kata-kata kasar yang lebih menyakitkan di kolom komentar yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menghapus file instalasi sistem operasi komputer untuk menghindari rasa takut yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "f29298d5"
+    },
+    {
+      "no": 41,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 42,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 43,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 44,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 45,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 46,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 47,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 48,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 49,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 50,
+      "question": "Dalam rangka meningkatkan kompetensi 'Lisensi Hak Cipta' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih menggunakan aset gambar berlisensi Creative Commons (CC-BY) dengan menyertakan atribusi nama pencipta asli agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengambil gambar dari Google Images secara bebas dan menggunakannya untuk tujuan komersial bisnis yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menempelkan logo merek terkenal pada produk buatan sendiri tanpa izin kontrak resmi yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "8bc49605"
+    },
+    {
+      "no": 51,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 52,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 53,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 54,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 55,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 56,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 57,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 58,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 59,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 60,
+      "question": "Dalam rangka meningkatkan kompetensi 'Netiket Komunikasi' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan bahasa yang sopan, menghindari huruf kapital berlebih (berteriak), dan menghargai waktu tanggapan orang lain agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan mengirimkan pesan promosi spam berulang kali ke nomor kontak pribadi klien di tengah malam yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan singkatan kata gaul ekstrem yang tidak dipahami oleh rekan kerja kantor yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e3aa9bc5"
+    },
+    {
+      "no": 61,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 62,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 63,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 64,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 65,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 66,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 67,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 68,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 69,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 70,
+      "question": "Dalam rangka meningkatkan kompetensi 'Privasi Data' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengaktifkan setelan autentikasi dua faktor (2FA) dan membatasi izin akses aplikasi pihak ketiga terhadap data kontak/lokasi agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menuliskan nomor KIK dan foto kartu identitas diri di postingan media sosial terbuka yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menggunakan kata sandi yang sama (seperti 123456) untuk seluruh akun email penting yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "e0f6283"
+    },
+    {
+      "no": 71,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 72,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 73,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 74,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 75,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 76,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 77,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 78,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 79,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 80,
+      "question": "Dalam rangka meningkatkan kompetensi '2FA Implementation' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mewajibkan verifikasi kode unik sekali pakai (OTP) yang dikirim lewat aplikasi authentikator khusus saat login agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan file backup kode OTP di dalam folder Google Drive yang dapat diakses publik yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menolak menggunakan 2FA karena dinilai memperlambat proses masuk halaman menu utama yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ec10e2c4"
+    },
+    {
+      "no": 81,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 82,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 83,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 84,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 85,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 86,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 87,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 88,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 89,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 90,
+      "question": "Dalam rangka meningkatkan kompetensi 'Evaluasi Kredibilitas Sumber' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memeriksa kelayakan metodologi riset yang digunakan penulis dan keberadaan daftar pustaka rujukan ilmiah agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan memilih artikel berdasarkan jumlah tombol like dan komentar pujian terbanyak dari netizen yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk mengutip artikel dari blog pribadi anonim yang tidak mencantumkan data pendukung rill yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "ea3c8c50"
+    },
+    {
+      "no": 91,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Adit dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 92,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Budi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 93,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Citra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 94,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Dewi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 95,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Eko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 96,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Fahmi dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 97,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Gita dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 98,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Hendra dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 99,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Indah dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    },
+    {
+      "no": 100,
+      "question": "Dalam rangka meningkatkan kompetensi 'Backup Strategis' di era digital, Joko dihadapkan pada skenario nyata. Langkah paling bijak dan aman yang harus diambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menerapkan aturan pencadangan 3-2-1 (3 salinan data, di 2 jenis media berbeda, dengan 1 salinan di lokasi cloud terpisah) agar terhindar dari ancaman siber dan penyebaran misinformasi",
+        "B": "Mengambil risiko dengan menyimpan seluruh file cadangan di dalam satu flashdisk fisik yang sama dengan komputer utama yang membahayakan keamanan identitas digital pribadi",
+        "C": "Memilih untuk menunda proses pencadangan data hingga komputer mengalami crash sistem operasi pertama kali yang tidak memberikan solusi perlindungan jangka panjang",
+        "D": "Membeli perangkat lunak antivirus termahal tanpa memahami cara memperbarui database virus",
+        "E": "Menghapus seluruh file dokumen pekerjaan lama dari ruang penyimpanan komputer harian"
+      },
+      "answer_hash": "85dda3a7"
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain Level Gim",
+  "deskripsi": "Prinsip level design, leading the player (visual cues, lighting, landmark), penataan flow level, greyboxing/blockout, pacing rintangan, dan navigasi arsitektur level.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam merancang level game RPG Fantasi di Nusantara Game, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 2,
+      "question": "Dalam merancang level game Shooter Taktis di Majapahit Games, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 3,
+      "question": "Dalam merancang level game Platformer 2D di Garuda Studio, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 4,
+      "question": "Dalam merancang level game Simulasi Bisnis di Siliwangi Digital, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 5,
+      "question": "Dalam merancang level game Horror Survival di Lontar Media, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 6,
+      "question": "Dalam merancang level game Strategi Real-Time di Bhinneka Games, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 7,
+      "question": "Dalam merancang level game Balap Arkade di Merdeka Play, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 8,
+      "question": "Dalam merancang level game Puzzle Teka-Teki di Khatulistiwa Interactive, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 9,
+      "question": "Dalam merancang level game Roguelike Aksi di Adiwiyata Games, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 10,
+      "question": "Dalam merancang level game Metroidvania di Piksel Kreasi, desainer level melakukan proses 'Grayboxing'. Mengapa proses ini diletakkan di tahap awal pembuatan level?",
+      "options": {
+        "A": "Untuk menguji navigasi pergerakan karakter, ukuran lompatan, dan keseruan flow level secara cepat menggunakan geometri sederhana 3D sebelum diganti aset visual final",
+        "B": "Menghasilkan warna abu-abu artistik yang disukai oleh para juri pameran game indie internasional",
+        "C": "Mengurangi durasi waktu pemrosesan render bayangan pada komputer desainer level",
+        "D": "Mencegah peretas mencuri aset gambar lingkungan karena level hanya berisi kotak abu-abu polos",
+        "E": "Memastikan game engine tidak memproses perhitungan hukum fisika gravitasi pada level tersebut"
+      },
+      "answer_hash": "4e4357ec"
+    },
+    {
+      "no": 11,
+      "question": "Di game petualangan RPG Fantasi karya Majapahit Games, diletakkan objek menara jam menyala kuning di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 12,
+      "question": "Di game petualangan Platformer 2D karya Garuda Studio, diletakkan objek gunung berapi aktif menyemburkan lahar merah di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 13,
+      "question": "Di game petualangan Horror Survival karya Siliwangi Digital, diletakkan objek pohon raksasa bersinar biru di puncak bukit di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 14,
+      "question": "Di game petualangan Balap Arkade karya Lontar Media, diletakkan objek patung ksatria zirah emas setinggi 100 meter di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 15,
+      "question": "Di game petualangan Roguelike Aksi karya Bhinneka Games, diletakkan objek kastil batu di tebing bersalju putih di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 16,
+      "question": "Di game petualangan RPG Fantasi karya Merdeka Play, diletakkan objek katedral kuno dengan menara kembar bercahaya di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 17,
+      "question": "Di game petualangan Platformer 2D karya Khatulistiwa Interactive, diletakkan objek turbin angin raksasa berputar lambat di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 18,
+      "question": "Di game petualangan Horror Survival karya Adiwiyata Games, diletakkan objek balon udara terapung bertuliskan stasiun radio di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 19,
+      "question": "Di game petualangan Balap Arkade karya Piksel Kreasi, diletakkan objek mercusuar pantai berputar cahayanya di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 20,
+      "question": "Di game petualangan Roguelike Aksi karya Nusantara Game, diletakkan objek piramida pasir bersinar hijau di tengah gurun di kejauhan yang terlihat mencolok dari berbagai sudut area peta. Penggunaan objek ini berfungsi sebagai...",
+      "options": {
+        "A": "Landmark (tengara visual) yang membantu pemain berorientasi arah gerak (navigasi) secara instan tanpa perlu sering membuka menu peta",
+        "B": "Area rahasia tersembunyi yang hanya bisa dimasuki jika pemain membeli kunci gerbang premium",
+        "C": "Lokasi koordinat spawn awal musuh monster bos raksasa di level malam",
+        "D": "Alat iklan promosi produk sponsor komersial pihak ketiga dalam dunia game",
+        "E": "Bayangan statis buatan untuk menutupi bug lubang pada model lingkungan 3D"
+      },
+      "answer_hash": "75c8c13a"
+    },
+    {
+      "no": 21,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game RPG Fantasi karya Garuda Studio (seperti susunan koin emas berkilauan menyusuri tebing) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 22,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Simulasi Bisnis karya Siliwangi Digital (seperti susunan lilin menyala remang-remang di lorong gelap) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 23,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Balap Arkade karya Lontar Media (seperti susunan jamur menyala biru di dalam gua basah) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 24,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Metroidvania karya Bhinneka Games (seperti susunan jejak kaki berlumpur mengarah ke pintu gerbang) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 25,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Platformer 2D karya Merdeka Play (seperti susunan kelopak bunga sakura merah di jalan setapak) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 26,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Strategi Real-Time karya Khatulistiwa Interactive (seperti susunan kabel tembaga bercahaya di lantai laboratorium) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 27,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Roguelike Aksi karya Adiwiyata Games (seperti susunan kristal mana kecil di sepanjang jalan jembatan) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 28,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Shooter Taktis karya Piksel Kreasi (seperti susunan kancing baju merah berceceran di tanah) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 29,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Horror Survival karya Nusantara Game (seperti susunan anak panah kayu tertancap di pohon secara teratur) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 30,
+      "question": "Penggunaan jejak objek kecil bernilai secara berurutan di game Puzzle Teka-Teki karya Majapahit Games (seperti susunan tabung oksigen kecil di lorong kapal selam) untuk menuntun arah pergerakan pemain menerapkan teknik...",
+      "options": {
+        "A": "Breadcrumbs (remah roti) yang membimbing navigasi pemain secara halus ke jalur level yang benar tanpa membatasi rasa kebebasan",
+        "B": "Loot Distribution yang membagi rata koin emas virtual ke seluruh pemain online",
+        "C": "Chokepoints yang menyumbat jalur pergerakan pemain di area sempit terperangkap",
+        "D": "Invisible Walls yang menghalangi pemain keluar dari koordinat batas peta",
+        "E": "Fog of War yang menggelapkan area peta yang belum dilewati karakter"
+      },
+      "answer_hash": "55a241a1"
+    },
+    {
+      "no": 31,
+      "question": "Dalam level game shooter taktis RPG Fantasi buatan Siliwangi Digital, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 32,
+      "question": "Dalam level game shooter taktis Horror Survival buatan Lontar Media, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 33,
+      "question": "Dalam level game shooter taktis Roguelike Aksi buatan Bhinneka Games, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 34,
+      "question": "Dalam level game shooter taktis Platformer 2D buatan Merdeka Play, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 35,
+      "question": "Dalam level game shooter taktis Balap Arkade buatan Khatulistiwa Interactive, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 36,
+      "question": "Dalam level game shooter taktis RPG Fantasi buatan Adiwiyata Games, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 37,
+      "question": "Dalam level game shooter taktis Horror Survival buatan Piksel Kreasi, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 38,
+      "question": "Dalam level game shooter taktis Roguelike Aksi buatan Nusantara Game, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 39,
+      "question": "Dalam level game shooter taktis Platformer 2D buatan Majapahit Games, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 40,
+      "question": "Dalam level game shooter taktis Balap Arkade buatan Garuda Studio, desainer level meletakkan area koridor sempit di antara dua gedung besar. Fungsi area ini secara level design adalah...",
+      "options": {
+        "A": "Chokepoint (titik sumbat) untuk memicu konflik intensif antar faksi bertarung karena pergerakan terbatasi di ruang sempit",
+        "B": "Safe Zone di mana pemain dapat memulihkan darah dan membeli amunisi senjata",
+        "C": "Area spawn point awal musuh yang tidak bisa dimasuki oleh pemain utama",
+        "D": "Lokasi penyimpanan otomatis (autosave) sebelum game ditutup pemain",
+        "E": "Trik untuk menghemat memori kartu grafis komputer saat memproses render area luar"
+      },
+      "answer_hash": "a18f180c"
+    },
+    {
+      "no": 41,
+      "question": "Di game horror gua gelap RPG Fantasi karya Lontar Media, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 42,
+      "question": "Di game horror gua gelap Strategi Real-Time karya Bhinneka Games, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 43,
+      "question": "Di game horror gua gelap RPG Fantasi karya Merdeka Play, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 44,
+      "question": "Di game horror gua gelap Strategi Real-Time karya Khatulistiwa Interactive, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 45,
+      "question": "Di game horror gua gelap RPG Fantasi karya Adiwiyata Games, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 46,
+      "question": "Di game horror gua gelap Strategi Real-Time karya Piksel Kreasi, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 47,
+      "question": "Di game horror gua gelap RPG Fantasi karya Nusantara Game, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 48,
+      "question": "Di game horror gua gelap Strategi Real-Time karya Majapahit Games, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 49,
+      "question": "Di game horror gua gelap RPG Fantasi karya Garuda Studio, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 50,
+      "question": "Di game horror gua gelap Strategi Real-Time karya Siliwangi Digital, desainer meletakkan obor menyala di atas sebuah celah sempit di ujung lorong buntu. Metode leading the player ini mengandalkan kecenderungan psikologis pemain untuk...",
+      "options": {
+        "A": "Berjalan menuju titik terang (cahaya) di tengah kegelapan lingkungan secara natural",
+        "B": "Menghindari sumber cahaya karena takut diserang monster musuh",
+        "C": "Menghancurkan obor tersebut menggunakan pukulan pedang untuk mendapat koin emas",
+        "D": "Keluar dari game karena mengira terjadi bug lampu layar monitor",
+        "E": "Menunggu obor tersebut padam secara otomatis sebelum berjalan maju"
+      },
+      "answer_hash": "cb8c37e7"
+    },
+    {
+      "no": 51,
+      "question": "Di game platformer RPG Fantasi karya Bhinneka Games, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 52,
+      "question": "Di game platformer Balap Arkade karya Merdeka Play, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 53,
+      "question": "Di game platformer Platformer 2D karya Khatulistiwa Interactive, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 54,
+      "question": "Di game platformer Roguelike Aksi karya Adiwiyata Games, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 55,
+      "question": "Di game platformer Horror Survival karya Piksel Kreasi, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 56,
+      "question": "Di game platformer RPG Fantasi karya Nusantara Game, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 57,
+      "question": "Di game platformer Balap Arkade karya Majapahit Games, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 58,
+      "question": "Di game platformer Platformer 2D karya Garuda Studio, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 59,
+      "question": "Di game platformer Roguelike Aksi karya Siliwangi Digital, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 60,
+      "question": "Di game platformer Horror Survival karya Lontar Media, rintangan pertama berupa batu rendah yang menghalangi jalan setapak dan tidak bisa dilewati kecuali dengan melompat. Desain level ini menerapkan prinsip...",
+      "options": {
+        "A": "Organic Tutorial (mengajarkan mekanik melompat secara paksa tapi natural tanpa memunculkan teks petunjuk yang membosankan)",
+        "B": "Unfair Game Design yang menyulitkan pemain pemula sejak detik pertama",
+        "C": "Feature Creep yang menumpuk fitur aksi melompat di luar rencana awal GDD",
+        "D": "Pay-to-Win yang memaksa pemain membeli item pembuka jalan menggunakan uang nyata",
+        "E": "Procedural Generation yang merancang rintangan batu secara acak di peta"
+      },
+      "answer_hash": "36b536dc"
+    },
+    {
+      "no": 61,
+      "question": "Kurva ketegangan level (level pacing) game aksi RPG Fantasi buatan Merdeka Play diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 62,
+      "question": "Kurva ketegangan level (level pacing) game aksi Puzzle Teka-Teki buatan Khatulistiwa Interactive diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 63,
+      "question": "Kurva ketegangan level (level pacing) game aksi Horror Survival buatan Adiwiyata Games diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 64,
+      "question": "Kurva ketegangan level (level pacing) game aksi Shooter Taktis buatan Piksel Kreasi diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 65,
+      "question": "Kurva ketegangan level (level pacing) game aksi Roguelike Aksi buatan Nusantara Game diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 66,
+      "question": "Kurva ketegangan level (level pacing) game aksi Strategi Real-Time buatan Majapahit Games diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 67,
+      "question": "Kurva ketegangan level (level pacing) game aksi Platformer 2D buatan Garuda Studio diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 68,
+      "question": "Kurva ketegangan level (level pacing) game aksi Metroidvania buatan Siliwangi Digital diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 69,
+      "question": "Kurva ketegangan level (level pacing) game aksi Balap Arkade buatan Lontar Media diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 70,
+      "question": "Kurva ketegangan level (level pacing) game aksi Simulasi Bisnis buatan Bhinneka Games diatur dengan menaruh ruangan kosong tanpa musuh tepat setelah pemain menyelesaikan pertempuran bos yang sengit. Ruangan kosong ini berfungsi untuk...",
+      "options": {
+        "A": "Release (merilekskan emosi pemain sebelum kembali dihadapkan pada ketegangan tantangan berikutnya)",
+        "B": "Menghukum pemain dengan membiarkan mereka tersesat di ruangan tanpa petunjuk",
+        "C": "Menyembunyikan ketiadaan aset musuh biasa karena keterbatasan ram kartu grafis",
+        "D": "Memaksa game melakukan penyimpanan otomatis (autosave) yang memakan waktu lama",
+        "E": "Mengevaluasi kecepatan berjalan karakter utama di ruang kosong"
+      },
+      "answer_hash": "6305c021"
+    },
+    {
+      "no": 71,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Khatulistiwa Interactive) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 72,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Adiwiyata Games) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 73,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Piksel Kreasi) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 74,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Nusantara Game) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 75,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Majapahit Games) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 76,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Garuda Studio) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 77,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Siliwangi Digital) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 78,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Lontar Media) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 79,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Bhinneka Games) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 80,
+      "question": "Dalam level design, istilah 'Weenie' (istilah buatan Walt Disney yang diadaptasi ke game oleh Merdeka Play) merujuk pada...",
+      "options": {
+        "A": "Objek visual raksasa yang diletakkan di ujung pandangan jalan level untuk memicu rasa ingin tahu pemain dan menarik mereka berjalan ke sana",
+        "B": "Karakter asisten kecil yang melayang memandu jalannya karakter utama",
+        "C": "Jebakan kabel berduri yang diletakkan secara tersembunyi di tanah level",
+        "D": "Tombol pintas keyboard untuk membuka peta dunia berukuran penuh",
+        "E": "Efek suara gema guncangan kamera saat musuh bos memukul tanah"
+      },
+      "answer_hash": "2b64695e"
+    },
+    {
+      "no": 81,
+      "question": "Mengapa peta level game strategi multiplayer RPG Fantasi buatan Adiwiyata Games didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 82,
+      "question": "Mengapa peta level game strategi multiplayer Metroidvania buatan Piksel Kreasi didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 83,
+      "question": "Mengapa peta level game strategi multiplayer Roguelike Aksi buatan Nusantara Game didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 84,
+      "question": "Mengapa peta level game strategi multiplayer Puzzle Teka-Teki buatan Majapahit Games didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 85,
+      "question": "Mengapa peta level game strategi multiplayer Balap Arkade buatan Garuda Studio didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 86,
+      "question": "Mengapa peta level game strategi multiplayer Strategi Real-Time buatan Siliwangi Digital didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 87,
+      "question": "Mengapa peta level game strategi multiplayer Horror Survival buatan Lontar Media didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 88,
+      "question": "Mengapa peta level game strategi multiplayer Simulasi Bisnis buatan Bhinneka Games didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 89,
+      "question": "Mengapa peta level game strategi multiplayer Platformer 2D buatan Merdeka Play didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 90,
+      "question": "Mengapa peta level game strategi multiplayer Shooter Taktis buatan Khatulistiwa Interactive didesain secara simetris sempurna di sisi faksi A dan faksi B?",
+      "options": {
+        "A": "Untuk menjamin keadilan taktis (balance) sehingga tidak ada faksi yang diuntungkan oleh keunggulan bentuk lingkungan",
+        "B": "Mengurangi beban tim artis 3D karena tinggal menduplikasi setengah bagian peta",
+        "C": "Mencegah pemain tersesat di peta karena kedua sisi jalan terlihat persis sama",
+        "D": "Menghemat kapasitas penyimpanan RAM database server game online",
+        "E": "Mengunci posisi kamera game agar tidak dapat diputar ke mode rotasi bebas"
+      },
+      "answer_hash": "a946b40a"
+    },
+    {
+      "no": 91,
+      "question": "Dalam level game RPG Fantasi karya Piksel Kreasi, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 92,
+      "question": "Dalam level game RPG Fantasi karya Nusantara Game, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 93,
+      "question": "Dalam level game RPG Fantasi karya Majapahit Games, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 94,
+      "question": "Dalam level game RPG Fantasi karya Garuda Studio, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 95,
+      "question": "Dalam level game RPG Fantasi karya Siliwangi Digital, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 96,
+      "question": "Dalam level game RPG Fantasi karya Lontar Media, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 97,
+      "question": "Dalam level game RPG Fantasi karya Bhinneka Games, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 98,
+      "question": "Dalam level game RPG Fantasi karya Merdeka Play, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 99,
+      "question": "Dalam level game RPG Fantasi karya Khatulistiwa Interactive, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    },
+    {
+      "no": 100,
+      "question": "Dalam level game RPG Fantasi karya Adiwiyata Games, susunan tiang jembatan, lekukan dinding gua, dan pipa pabrik diarahkan secara sejajar mengarah ke pintu laboratorium rahasia. Teknik level design ini memanfaatkan...",
+      "options": {
+        "A": "Leading Lines (garis penunjuk alami arsitektur) untuk menuntun pandangan mata pemain ke arah target tujuan secara intuitif",
+        "B": "Invisible Walls untuk menghalangi pemain agar tidak memanjat pipa pabrik",
+        "C": "Occlusion Culling untuk menyembunyikan pintu laboratorium sebelum didekati",
+        "D": "Ray Tracing shadows untuk memperindah visual pencahayaan di dalam pabrik",
+        "E": "Aim Assist guna mempermudah bidikan senjata ke pintu gerbang"
+      },
+      "answer_hash": "65b70b69"
+    }
+  ]
+}

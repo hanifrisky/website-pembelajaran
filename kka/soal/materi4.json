@@ -1,0 +1,1207 @@
+{
+  "materi": "Analisis Data",
+  "deskripsi": "Pembersihan data kotor, visualisasi data, interpretasi statistik (mean, median, outliers), SQL database query, serta dasar pemodelan prediktif.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 2,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 3,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 4,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 5,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 6,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 7,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 8,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 9,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 10,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Data Cleaning'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk mengidentifikasi baris kosong (null), memperbaiki penulisan tidak konsisten, dan melakukan imputasi rata-rata pada data hilang agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menghapus seluruh baris data yang memiliki nilai kolom kosong untuk menghemat waktu analisis yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengisi semua kolom kosong dengan angka nol tanpa memperhatikan tipe data atribut terkait yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "68226cba"
+    },
+    {
+      "no": 11,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 12,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 13,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 14,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 15,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 16,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 17,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 18,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 19,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 20,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Visualization Selection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan grafik tebar (scatter plot) untuk melihat korelasi antara dua variabel numerik kontinu agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan grafik lingkaran (pie chart) untuk membandingkan seratus kategori data yang berbeda yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan grafik garis (line chart) untuk menampilkan data kategori tanpa urutan kronologis yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "b149cf24"
+    },
+    {
+      "no": 21,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 22,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 23,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 24,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 25,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 26,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 27,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 28,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 29,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 30,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Statistik Interpretasi'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk median lebih tangguh terhadap pencilan ekstrem (outliers) dibandingkan rata-rata (mean) yang mudah bergeser nilainya agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk rata-rata selalu bernilai sama dengan median dalam seluruh jenis distribusi dataset rill yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk nilai modus hanya bisa dihitung jika data masukan berupa angka desimal berkoma yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "f85aa682"
+    },
+    {
+      "no": 31,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 32,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 33,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 34,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 35,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 36,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 37,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 38,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 39,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 40,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Korelasi vs Kausalitas'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk korelasi menunjukkan adanya hubungan statistik antar variabel, namun tidak membuktikan bahwa variabel satu menyebabkan perubahan variabel lain agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk korelasi positif di atas angka nol koma delapan membuktikan adanya hubungan sebab akibat yang mutlak yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk kedua istilah memiliki definisi dan rumus matematika yang sama persis di statistik yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "51437117"
+    },
+    {
+      "no": 41,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 42,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 43,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 44,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 45,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 46,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 47,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 48,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 49,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 50,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'SQL Query'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk SELECT nama, nilai FROM hasil_latihan WHERE nilai > 80 ORDER BY nilai DESC; agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk GET nama, nilai FROM hasil_latihan IF nilai > 80 SORT BY nilai; yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk FIND nama AND nilai IN hasil_latihan WHERE nilai GREATER THAN 80; yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "d489daa8"
+    },
+    {
+      "no": 51,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 52,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 53,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 54,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 55,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 56,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 57,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 58,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 59,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 60,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Big Data 3Vs'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk Volume (ukuran data masukan raksasa), Velocity (kecepatan pertumbuhan data), dan Variety (keanekaragaman format data) agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk Vapor (kerapuhan penyimpanan data), Virtual (ilusi representasi data), dan Value (harga jual database) yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk Validity (keabsahan lisensi data), Velocity (kecepatan internet), dan Volume (kapasitas RAM komputer) yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "c499e94b"
+    },
+    {
+      "no": 61,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 62,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 63,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 64,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 65,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 66,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 67,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 68,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 69,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 70,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Outliers Detection'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan batas nilai metode Interquartile Range (IQR): di luar rentang `Q1 - 1.5*IQR` hingga `Q3 + 1.5*IQR` agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk membuang angka terbesar dan terkecil secara acak dari tabel data sebelum dihitung yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk melihat visualisasi bar chart dan menghapus balok data yang paling pendek tinggi grafisnya yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "dab268e0"
+    },
+    {
+      "no": 71,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 72,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 73,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 74,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 75,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 76,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 77,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 78,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 79,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 80,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Predictive Modeling'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menggunakan regresi linear untuk memprediksi angka kontinu, dan klasifikasi logistik untuk memprediksi kelas label kategori agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menggunakan klasifikasi untuk memprediksi angka cuaca besok, dan regresi untuk mengelompokkan spam yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menggunakan algoritma sorting data untuk mengurutkan tingkat prioritas pemrosesan database yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "877a999b"
+    },
+    {
+      "no": 81,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 82,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 83,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 84,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 85,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 86,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 87,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 88,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 89,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 90,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Data Anonymization'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk menghapus atau menyamarkan kolom informasi pribadi sensitif (seperti NIK, nama lengkap, alamat email) menggunakan metode hashing agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menyimpan database pengguna di dalam folder Google Drive terbuka yang bisa diakses siapa saja yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk mengganti nama kolom database menggunakan kode singkatan bahasa asing rahasia yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "ccb307bc"
+    },
+    {
+      "no": 91,
+      "question": "Dalam proyek analisis dataset hasil belajar, Adit dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 92,
+      "question": "Dalam proyek analisis dataset hasil belajar, Budi dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 93,
+      "question": "Dalam proyek analisis dataset hasil belajar, Citra dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 94,
+      "question": "Dalam proyek analisis dataset hasil belajar, Dewi dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 95,
+      "question": "Dalam proyek analisis dataset hasil belajar, Eko dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 96,
+      "question": "Dalam proyek analisis dataset hasil belajar, Fahmi dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 97,
+      "question": "Dalam proyek analisis dataset hasil belajar, Gita dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 98,
+      "question": "Dalam proyek analisis dataset hasil belajar, Hendra dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 99,
+      "question": "Dalam proyek analisis dataset hasil belajar, Indah dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    },
+    {
+      "no": 100,
+      "question": "Dalam proyek analisis dataset hasil belajar, Joko dihadapkan pada tantangan 'Feature Engineering'. Solusi analisis data paling tepat berdasarkan teori sains data adalah...",
+      "options": {
+        "A": "Menerapkan metode untuk membuat kolom variabel baru yang bernilai relevan (misal 'usia') yang diekstrak dari data mentah tanggal lahir agar informasi yang ditarik dari dataset akurat dan bebas bias",
+        "B": "Menggunakan pendekatan untuk menambah kapasitas baris data baru secara acak menggunakan metode duplikasi baris tabel yang merusak integritas representasi data sebenarnya",
+        "C": "Memilih untuk menghapus kolom-kolom penting yang memilik korelasi tinggi dengan target prediksi model yang memicu kesalahan interpretasi hasil statistik",
+        "D": "Membatalkan seluruh proses analisis data dan mengandalkan tebakan persentase manual",
+        "E": "Membatasi kapasitas baris tabel maksimal seratus baris saja demi kecepatan loading excel"
+      },
+      "answer_hash": "63e09fdd"
+    }
+  ]
+}

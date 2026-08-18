@@ -1,0 +1,1207 @@
+{
+  "materi": "Ide Konsep Gim",
+  "deskripsi": "Mengembangkan ide konsep awal gim menggunakan metode brainstorming (SCAMPER & Crazy Eights), menentukan Unique Selling Proposition (USP), mengidentifikasi target pemain, serta merancang core loop permainan.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Studio Nusantara Game sedang merancang game RPG Fantasi. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika menembak peluru dengan teka-teki gravitasi. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan menembak peluru untuk mengaktifkan efek teka-teki gravitasi secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "661c15f9"
+    },
+    {
+      "no": 2,
+      "question": "Studio Majapahit Games sedang merancang game Shooter Taktis. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika berlari cepat dengan manipulasi waktu. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan berlari cepat untuk mengaktifkan efek manipulasi waktu secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "380f9a80"
+    },
+    {
+      "no": 3,
+      "question": "Studio Garuda Studio sedang merancang game Platformer 2D. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika lompatan ganda dengan serangan rantai besi. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan lompatan ganda untuk mengaktifkan efek serangan rantai besi secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "a39ba01b"
+    },
+    {
+      "no": 4,
+      "question": "Studio Siliwangi Digital sedang merancang game Simulasi Bisnis. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika konstruksi balok dengan pertempuran kartu. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan konstruksi balok untuk mengaktifkan efek pertempuran kartu secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "a7aaaf53"
+    },
+    {
+      "no": 5,
+      "question": "Studio Lontar Media sedang merancang game Horror Survival. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika berenang di air dengan ilusi bayangan. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan berenang di air untuk mengaktifkan efek ilusi bayangan secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "a71743c5"
+    },
+    {
+      "no": 6,
+      "question": "Studio Bhinneka Games sedang merancang game Strategi Real-Time. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika terbang dengan sayap dengan tembakan angin magnet. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan terbang dengan sayap untuk mengaktifkan efek tembakan angin magnet secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "5aa4768d"
+    },
+    {
+      "no": 7,
+      "question": "Studio Merdeka Play sedang merancang game Balap Arkade. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika menunggangi hewan dengan lemparan bom waktu. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan menunggangi hewan untuk mengaktifkan efek lemparan bom waktu secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "475cdb50"
+    },
+    {
+      "no": 8,
+      "question": "Studio Khatulistiwa Interactive sedang merancang game Puzzle Teka-Teki. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika merayap di dinding dengan pemindaian radar infra-merah. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan merayap di dinding untuk mengaktifkan efek pemindaian radar infra-merah secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "af5e2d56"
+    },
+    {
+      "no": 9,
+      "question": "Studio Adiwiyata Games sedang merancang game Roguelike Aksi. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika teleportasi jarak pendek dengan serangan pedang elemen api. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan teleportasi jarak pendek untuk mengaktifkan efek serangan pedang elemen api secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "61614a2d"
+    },
+    {
+      "no": 10,
+      "question": "Studio Piksel Kreasi sedang merancang game Metroidvania. Mereka menerapkan metode SCAMPER 'Combine' dengan menggabungkan mekanika penyamaran siluman dengan jebakan ranjau kabel listrik. Hasil gameplay yang paling inovatif dari keputusan ini adalah...",
+      "options": {
+        "A": "Pemain dapat menggunakan penyamaran siluman untuk mengaktifkan efek jebakan ranjau kabel listrik secara simultan demi memecahkan tantangan baru",
+        "B": "Game akan membagi layar menjadi dua bagian terpisah untuk memisahkan kedua mekanika tersebut",
+        "C": "Menghapus salah satu mekanika secara acak di tengah permainan untuk meningkatkan kesulitan",
+        "D": "Meningkatkan harga jual game di toko digital karena kompleksitas fitur yang digabung",
+        "E": "Membatasi pergerakan karakter utama agar tidak bisa menggunakan kedua mekanika bersamaan"
+      },
+      "answer_hash": "4d0e9966"
+    },
+    {
+      "no": 11,
+      "question": "Dalam merancang game RPG Fantasi, tim Majapahit Games memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti pedang besi biasa dengan pedang laser magnetik penarik benda. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena pedang laser magnetik penarik benda mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "d163a4dc"
+    },
+    {
+      "no": 12,
+      "question": "Dalam merancang game Platformer 2D, tim Garuda Studio memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti kunci gerbang fisik dengan pemecahan kode teka-teki logika biner. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena pemecahan kode teka-teki logika biner mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "dbbac22d"
+    },
+    {
+      "no": 13,
+      "question": "Dalam merancang game Horror Survival, tim Siliwangi Digital memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti nyawa berupa angka dengan nyawa berupa lilin menyala yang memendek. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena nyawa berupa lilin menyala yang memendek mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "17255db5"
+    },
+    {
+      "no": 14,
+      "question": "Dalam merancang game Balap Arkade, tim Lontar Media memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti mobil balap konvensional dengan papan luncur bertenaga roket angin. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena papan luncur bertenaga roket angin mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "99dfd1a6"
+    },
+    {
+      "no": 15,
+      "question": "Dalam merancang game Roguelike Aksi, tim Bhinneka Games memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti senjata api jarak jauh dengan alat pembuat portal dimensi ruang. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena alat pembuat portal dimensi ruang mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "5ad0b52a"
+    },
+    {
+      "no": 16,
+      "question": "Dalam merancang game RPG Fantasi, tim Merdeka Play memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti radar peta kompas dengan suara bisikan gaib arah jalan musuh. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena suara bisikan gaib arah jalan musuh mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "c14d3d06"
+    },
+    {
+      "no": 17,
+      "question": "Dalam merancang game Platformer 2D, tim Khatulistiwa Interactive memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti koin emas biasa dengan kristal energi yang tidak stabil dan mudah meledak. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena kristal energi yang tidak stabil dan mudah meledak mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "39cd7fa6"
+    },
+    {
+      "no": 18,
+      "question": "Dalam merancang game Horror Survival, tim Adiwiyata Games memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti tangga panjat kayu dengan tanaman merambat yang tumbuh saat disiram air. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena tanaman merambat yang tumbuh saat disiram air mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "5d375b3d"
+    },
+    {
+      "no": 19,
+      "question": "Dalam merancang game Balap Arkade, tim Piksel Kreasi memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti musuh zombie lambat dengan robot pemburu yang bisa meniru jurus pemain. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena robot pemburu yang bisa meniru jurus pemain mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "99884e59"
+    },
+    {
+      "no": 20,
+      "question": "Dalam merancang game Roguelike Aksi, tim Nusantara Game memutuskan menggunakan langkah SCAMPER 'Substitute' dengan mengganti obat penyembuh HP dengan sistem meditasi di area berbahaya. Dampak langsung pada pengalaman bermain (game feel) adalah...",
+      "options": {
+        "A": "Pemain merasakan nuansa bermain yang unik karena sistem meditasi di area berbahaya mengubah taktik navigasi dan interaksi dasar game",
+        "B": "Ukuran file instalasi game otomatis mengecil karena pengurangan jumlah poligon model 3D",
+        "C": "Program game otomatis terbebas dari kesalahan logika (bug) sistem kecerdasan buatan",
+        "D": "Pemain merasa bosan karena penggantian ini tidak memberikan variasi gameplay apa pun",
+        "E": "Game hanya bisa dijalankan pada komputer dengan spesifikasi kartu grafis berseri tertinggi"
+      },
+      "answer_hash": "e839042c"
+    },
+    {
+      "no": 21,
+      "question": "Seorang game designer di Garuda Studio ingin memodifikasi game RPG Fantasi dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen tampilan HUD kompas penunjuk arah. Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada eksplorasi alami menggunakan landmark lingkungan",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "1809767d"
+    },
+    {
+      "no": 22,
+      "question": "Seorang game designer di Siliwangi Digital ingin memodifikasi game Simulasi Bisnis dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen fitur pengisian ulang peluru (reload). Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada aksi tembak-menembak yang intens tanpa jeda",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "fd8e6a9"
+    },
+    {
+      "no": 23,
+      "question": "Seorang game designer di Lontar Media ingin memodifikasi game Balap Arkade dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen sistem leveling karakter RPG. Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada keterampilan refleks murni pemain dalam bertarung",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "be8b54cf"
+    },
+    {
+      "no": 24,
+      "question": "Seorang game designer di Bhinneka Games ingin memodifikasi game Metroidvania dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen opsi tombol lompat manual. Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada navigasi meluncur dinamis mengikuti bentuk tanah",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "42d97dc"
+    },
+    {
+      "no": 25,
+      "question": "Seorang game designer di Merdeka Play ingin memodifikasi game Platformer 2D dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen fitur peta mini (minimap). Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada kepekaan audio pemain dalam mendengar detak jantung musuh",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "4b439066"
+    },
+    {
+      "no": 26,
+      "question": "Seorang game designer di Khatulistiwa Interactive ingin memodifikasi game Strategi Real-Time dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen kustomisasi warna pakaian karakter. Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada penghayatan cerita emosional karakter utama",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "565f55f4"
+    },
+    {
+      "no": 27,
+      "question": "Seorang game designer di Adiwiyata Games ingin memodifikasi game Roguelike Aksi dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen sistem jual beli item (shop). Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada mekanisme bertahan hidup dengan merakit item sendiri",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "6c1efbe8"
+    },
+    {
+      "no": 28,
+      "question": "Seorang game designer di Piksel Kreasi ingin memodifikasi game Shooter Taktis dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen fitur game over/kematian permanen. Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada kebebasan bereksperimen memecahkan teka-teki rumit",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "9656289a"
+    },
+    {
+      "no": 29,
+      "question": "Seorang game designer di Nusantara Game ingin memodifikasi game Horror Survival dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen suara musik latar belakang (BGM). Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada atmosfer kesunyian yang mencekam dalam lingkungan horor",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "d2968957"
+    },
+    {
+      "no": 30,
+      "question": "Seorang game designer di Majapahit Games ingin memodifikasi game Puzzle Teka-Teki dengan menerapkan metode SCAMPER 'Eliminate'. Ia menghilangkan elemen pilihan kelas karakter di awal. Tujuan desain utama dari langkah eliminasi ini adalah...",
+      "options": {
+        "A": "Menghilangkan gangguan visual atau kompleksitas berlebih agar pemain fokus pada kebebasan merancang build stat secara dinamis",
+        "B": "Mencurangi pemain agar durasi permainan menjadi lebih lambat dan sulit ditamatkan",
+        "C": "Menurunkan gaji tim programmer karena tidak perlu memprogram elemen tersebut",
+        "D": "Mendapatkan lisensi gratis dari mesin pengembang gim (game engine)",
+        "E": "Mencegah game agar tidak bisa dimainkan secara online multipemain"
+      },
+      "answer_hash": "8180c180"
+    },
+    {
+      "no": 31,
+      "question": "Tim pengembang di Siliwangi Digital merancang game RPG Fantasi dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional balapan di mana mobil tercepat menang. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus mengemudi selambat mungkin tanpa berhenti untuk menang untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "7a155376"
+    },
+    {
+      "no": 32,
+      "question": "Tim pengembang di Lontar Media merancang game Horror Survival dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional pertempuran di mana mengurangi HP musuh adalah tujuan. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus menyembuhkan penyakit musuh untuk menjadikannya teman untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "90fee9a8"
+    },
+    {
+      "no": 33,
+      "question": "Tim pengembang di Bhinneka Games merancang game Roguelike Aksi dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game teka-teki di mana menumpuk balok adalah tujuan. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus meruntuhkan bangunan balok secara seimbang tanpa merusak fondasi untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "bc8542f1"
+    },
+    {
+      "no": 34,
+      "question": "Tim pengembang di Merdeka Play merancang game Platformer 2D dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game horor di mana pemain lari dari monster. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus menjadi monster yang menakut-nakuti penjelajah gua untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "b3ca2453"
+    },
+    {
+      "no": 35,
+      "question": "Tim pengembang di Khatulistiwa Interactive merancang game Balap Arkade dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game pertahanan di mana menahan musuh adalah tujuan. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus mengawal musuh agar sampai ke gerbang keluar dengan selamat untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "767616d9"
+    },
+    {
+      "no": 36,
+      "question": "Tim pengembang di Adiwiyata Games merancang game RPG Fantasi dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game RPG di mana membunuh monster menambah level. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus menghindari pembunuhan monster untuk menjaga keseimbangan alam untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "847b58f2"
+    },
+    {
+      "no": 37,
+      "question": "Tim pengembang di Piksel Kreasi merancang game Horror Survival dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game aksi di mana menyerang musuh mengumpulkan koin. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus memberikan koin emas kepada gelandangan untuk mendapat berkah energi untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "305875d7"
+    },
+    {
+      "no": 38,
+      "question": "Tim pengembang di Nusantara Game merancang game Roguelike Aksi dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game platformer di mana melompat ke atas adalah tujuan. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus menggali tanah sedalam-dalamnya menghindari gas beracun untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "cb323823"
+    },
+    {
+      "no": 39,
+      "question": "Tim pengembang di Majapahit Games merancang game Platformer 2D dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game petualangan di mana mencari harta adalah tujuan. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus menyembunyikan harta karun agar tidak dicuri arkeolog lain untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "c38b0a4"
+    },
+    {
+      "no": 40,
+      "question": "Tim pengembang di Garuda Studio merancang game Balap Arkade dengan konsep SCAMPER 'Reverse' (Pembalikan). Mereka membalik aturan tradisional game memasak di mana menyajikan makanan lezat adalah tujuan. Mekanisme permainan baru yang tercipta adalah...",
+      "options": {
+        "A": "Pemain harus membuat racikan rasa ekstrem untuk menguji ketahanan lidah juri untuk memenangkan permainan",
+        "B": "Game otomatis berjalan mundur dari layar akhir ke layar menu utama",
+        "C": "Mengharuskan pemain memegang kontrol gamepad secara terbalik",
+        "D": "Mengurangi resolusi grafis game dari HD menjadi piksel hitam putih",
+        "E": "Membatasi durasi bermain harian secara paksa lewat server game"
+      },
+      "answer_hash": "1901725a"
+    },
+    {
+      "no": 41,
+      "question": "Saat mendesain game RPG Fantasi, studio Lontar Media mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 42,
+      "question": "Saat mendesain game Strategi Real-Time, studio Bhinneka Games mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 43,
+      "question": "Saat mendesain game RPG Fantasi, studio Merdeka Play mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 44,
+      "question": "Saat mendesain game Strategi Real-Time, studio Khatulistiwa Interactive mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 45,
+      "question": "Saat mendesain game RPG Fantasi, studio Adiwiyata Games mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 46,
+      "question": "Saat mendesain game Strategi Real-Time, studio Piksel Kreasi mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 47,
+      "question": "Saat mendesain game RPG Fantasi, studio Nusantara Game mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 48,
+      "question": "Saat mendesain game Strategi Real-Time, studio Majapahit Games mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 49,
+      "question": "Saat mendesain game RPG Fantasi, studio Garuda Studio mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 50,
+      "question": "Saat mendesain game Strategi Real-Time, studio Siliwangi Digital mengadakan sesi Crazy Eights. Mengapa batasan waktu 8 menit untuk menghasilkan 8 ide visual sangat ditekankan?",
+      "options": {
+        "A": "Memaksa otak melompati sensor logika rasional (hambatan mental) untuk melahirkan ide-ide liar secara cepat tanpa sempat ragu",
+        "B": "Memastikan semua kode pemrograman dasar selesai ditulis sebelum jam istirahat kantor",
+        "C": "Mengurangi beban penggunaan kertas sketsa agar lingkungan tetap ramah lingkungan",
+        "D": "Menyeleksi anggota tim yang memiliki kemampuan menggambar secepat ilustrator komik profesional",
+        "E": "Mencegah terjadinya pencurian ide karena proses brainstorming dilakukan sangat cepat"
+      },
+      "answer_hash": "5a3b37b9"
+    },
+    {
+      "no": 51,
+      "question": "Gim RPG Fantasi buatan Bhinneka Games memiliki USP berupa 'gameplay yang dikontrol menggunakan sensor detak jantung asli pemain'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 52,
+      "question": "Gim Balap Arkade buatan Merdeka Play memiliki USP berupa 'mekanika manipulasi gravitasi level secara real-time oleh dua pemain sekaligus'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 53,
+      "question": "Gim Platformer 2D buatan Khatulistiwa Interactive memiliki USP berupa 'sistem narasi di mana setiap keputusan dialog diubah menjadi musik simfoni khusus'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 54,
+      "question": "Gim Roguelike Aksi buatan Adiwiyata Games memiliki USP berupa 'grafis piksel 2D yang digambar menggunakan cat air asli di atas kertas kanvas'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 55,
+      "question": "Gim Horror Survival buatan Piksel Kreasi memiliki USP berupa 'mekanika pertarungan di mana pemain harus bernyanyi melalui mikrofon'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 56,
+      "question": "Gim RPG Fantasi buatan Nusantara Game memiliki USP berupa 'ekonomi game yang berfluktuasi mengikuti pasar saham dunia rill secara real-time'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 57,
+      "question": "Gim Balap Arkade buatan Majapahit Games memiliki USP berupa 'game teka-teki yang tingkat kesulitannya menyesuaikan gelombang otak pemain via EEG'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 58,
+      "question": "Gim Platformer 2D buatan Garuda Studio memiliki USP berupa 'game horor yang mendeteksi arah pandangan mata pemain menggunakan kamera web'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 59,
+      "question": "Gim Roguelike Aksi buatan Siliwangi Digital memiliki USP berupa 'sistem perakitan senjata dengan miliaran kombinasi komponen mekanis rill'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 60,
+      "question": "Gim Horror Survival buatan Lontar Media memiliki USP berupa 'game strategi di mana pemain mengendalikan pasukan semut menggunakan koordinat GPS rill'. Strategi USP ini paling efektif digunakan untuk...",
+      "options": {
+        "A": "Membedakan gim secara mencolok di tengah pasar yang jenuh sehingga menarik minat target pemain spesifik",
+        "B": "Menurunkan biaya lisensi tahunan mesin pengembang gim Unity atau Unreal",
+        "C": "Mempercepat durasi rendering visual 3D pada tahap ekspor build game",
+        "D": "Mendapatkan slot iklan gratis di majalah teknologi game internasional",
+        "E": "Menghilangkan semua celah bug pemrograman pada sistem multipemain online"
+      },
+      "answer_hash": "81c79a08"
+    },
+    {
+      "no": 61,
+      "question": "Dalam game RPG Fantasi karya Merdeka Play, core loop yang dirancang adalah 'Eksplorasi gua -> Kumpulkan mineral langka -> Upgrade bor pertambangan -> Eksplorasi gua lebih dalam'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 62,
+      "question": "Dalam game Puzzle Teka-Teki karya Khatulistiwa Interactive, core loop yang dirancang adalah 'Sewa koki -> Masak makanan pesanan -> Kumpulkan koin kepuasan -> Buka resep baru'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 63,
+      "question": "Dalam game Horror Survival karya Adiwiyata Games, core loop yang dirancang adalah 'Tembak musuh -> Ambil kepingan robot -> Rakit senjata kustom -> Hadapi bos robot'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 64,
+      "question": "Dalam game Shooter Taktis karya Piksel Kreasi, core loop yang dirancang adalah 'Lompat melintasi platform -> Kumpulkan kunci portal -> Buka kunci stage -> Lanjut ke stage berikutnya'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 65,
+      "question": "Dalam game Roguelike Aksi karya Nusantara Game, core loop yang dirancang adalah 'Tanam benih sayur -> Siram & panen -> Jual hasil tani -> Beli benih eksotis baru'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 66,
+      "question": "Dalam game Strategi Real-Time karya Majapahit Games, core loop yang dirancang adalah 'Cari bukti pembunuhan -> Wawancarai saksi NPC -> Susun hipotesis kejahatan -> Tangkap tersangka'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 67,
+      "question": "Dalam game Platformer 2D karya Garuda Studio, core loop yang dirancang adalah 'Susun baris pertahanan -> Tahan gempuran musuh -> Upgrade menara panah -> Panggil gelombang musuh baru'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 68,
+      "question": "Dalam game Metroidvania karya Siliwangi Digital, core loop yang dirancang adalah 'Balapan liar di kota -> Menangkan taruhan uang -> Modifikasi mesin mobil -> Ikuti balapan tingkat tinggi'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 69,
+      "question": "Dalam game Balap Arkade karya Lontar Media, core loop yang dirancang adalah 'Tukar kartu perang -> Kalahkan dek musuh -> Dapatkan pack kartu langka -> Susun dek tempur baru'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 70,
+      "question": "Dalam game Simulasi Bisnis karya Bhinneka Games, core loop yang dirancang adalah 'Sembunyikan diri dari monster -> Cari tabung oksigen -> Nyalakan generator listrik -> Buka gerbang pelarian'. Mengapa core loop ini harus diuji kegembiraannya terlebih dahulu pada fase awal prototype?",
+      "options": {
+        "A": "Karena core loop adalah fondasi aktivitas yang dilakukan berulang kali oleh pemain; jika core loop tidak menyenangkan, metagame di atasnya tidak akan berhasil",
+        "B": "Untuk memastikan server database game online tidak overload saat peluncuran",
+        "C": "Agar tim artistik dapat menentukan warna palet yang cocok untuk menu utama",
+        "D": "Untuk mendaftarkan hak paten mekanik game sebelum ditiru oleh kompetitor",
+        "E": "Untuk menghemat kuota internet tim developer saat mengunduh aset tambahan"
+      },
+      "answer_hash": "fef62313"
+    },
+    {
+      "no": 71,
+      "question": "Seorang game designer di Khatulistiwa Interactive mengidentifikasi bahwa target pemain gim RPG Fantasi miliknya didominasi oleh tipe 'Explorer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan wilayah rahasia tersembunyi, lore dunia yang luas, dan teka-teki misteri lingkungan",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "12676af"
+    },
+    {
+      "no": 72,
+      "question": "Seorang game designer di Adiwiyata Games mengidentifikasi bahwa target pemain gim Roguelike Aksi miliknya didominasi oleh tipe 'Achiever' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan papan peringkat (leaderboards), medali pencapaian (achievements), dan tantangan berhadiah lencana khusus",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "7acb2c7f"
+    },
+    {
+      "no": 73,
+      "question": "Seorang game designer di Piksel Kreasi mengidentifikasi bahwa target pemain gim Balap Arkade miliknya didominasi oleh tipe 'Socializer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan fitur guild, obrolan kelompok (chat room), dan mode permainan kooperatif khusus tim",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "139db4dc"
+    },
+    {
+      "no": 74,
+      "question": "Seorang game designer di Nusantara Game mengidentifikasi bahwa target pemain gim Horror Survival miliknya didominasi oleh tipe 'Killer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan turnamen PVP berkala, sistem rampasan item musuh yang dikalahkan, dan ajang dominasi teritori faksi",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "58304d86"
+    },
+    {
+      "no": 75,
+      "question": "Seorang game designer di Majapahit Games mengidentifikasi bahwa target pemain gim Platformer 2D miliknya didominasi oleh tipe 'Explorer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan variasi kondisi cuaca dinamis, jalur alternatif tersembunyi di peta, dan flora fauna eksotis",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "bc8e5198"
+    },
+    {
+      "no": 76,
+      "question": "Seorang game designer di Garuda Studio mengidentifikasi bahwa target pemain gim RPG Fantasi miliknya didominasi oleh tipe 'Achiever' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan sistem gelar (titles) unik, statistik performa bermain yang lengkap, dan persentase penyelesaian game (100% completion)",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "c3498c7a"
+    },
+    {
+      "no": 77,
+      "question": "Seorang game designer di Siliwangi Digital mengidentifikasi bahwa target pemain gim Roguelike Aksi miliknya didominasi oleh tipe 'Socializer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan sistem ruang berkumpul (social hub) bebas bertarung, fitur bertukar hadiah item, dan emoji interaktif",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "9e5f7bf7"
+    },
+    {
+      "no": 78,
+      "question": "Seorang game designer di Lontar Media mengidentifikasi bahwa target pemain gim Balap Arkade miliknya didominasi oleh tipe 'Killer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan sistem bounty (buronan) antar pemain aktif, papan peringkat eliminasi musuh terbanyak, dan taunting animasi khusus",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "813e0d8c"
+    },
+    {
+      "no": 79,
+      "question": "Seorang game designer di Bhinneka Games mengidentifikasi bahwa target pemain gim Horror Survival miliknya didominasi oleh tipe 'Explorer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan buku catatan eksplorasi yang mencatat otomatis setiap wilayah baru, artefak kuno, dan rahasia terpendam",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "a3cb190e"
+    },
+    {
+      "no": 80,
+      "question": "Seorang game designer di Merdeka Play mengidentifikasi bahwa target pemain gim Platformer 2D miliknya didominasi oleh tipe 'Socializer' (berdasarkan Bartle Taxonomy). Elemen gameplay apa yang paling tepat diprioritaskan?",
+      "options": {
+        "A": "Penyediaan sistem perumahan (housing) bersama di mana pemain bisa mendekorasi desa faksi secara kooperatif",
+        "B": "Sistem peringkat global yang kompetitif dengan mode PVP 1v1",
+        "C": "Kustomisasi kosmetik pakaian karakter yang sangat mendetail",
+        "D": "Dialog cerita interaktif dengan ribuan baris teks naratif",
+        "E": "Mekanisme mikrotransaksi untuk membeli item instan berbayar"
+      },
+      "answer_hash": "fd87e276"
+    },
+    {
+      "no": 81,
+      "question": "Tim Adiwiyata Games sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game RPG Fantasi mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana pemain memecahkan misteri pembunuhan detektif menggunakan kemampuan mendengar gema suara masa lalu.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "ca5b59b5"
+    },
+    {
+      "no": 82,
+      "question": "Tim Piksel Kreasi sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Metroidvania mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana pemain mengemudikan stasiun luar angkasa dengan tombol fisik retro yang berfluktuasi suhunya.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "d31f0d58"
+    },
+    {
+      "no": 83,
+      "question": "Tim Nusantara Game sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Roguelike Aksi mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana setiap kali pemain melompat, bentuk dan gravitasi level berubah warna mengikuti ritme musik latar.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "4c1bdc16"
+    },
+    {
+      "no": 84,
+      "question": "Tim Majapahit Games sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Puzzle Teka-Teki mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana pemain harus bertahan hidup di pulau terasing dengan bernegosiasi dagang dengan suku semut raksasa.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "b82d708f"
+    },
+    {
+      "no": 85,
+      "question": "Tim Garuda Studio sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Balap Arkade mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana pemain mengendalikan bayangan karakter untuk menembus tembok rintangan fisik di level 3D.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "1870c436"
+    },
+    {
+      "no": 86,
+      "question": "Tim Siliwangi Digital sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Strategi Real-Time mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana kematian karakter di game justru membuka portal rahasia untuk menyelesaikan misi utama.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "e8f08476"
+    },
+    {
+      "no": 87,
+      "question": "Tim Lontar Media sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Horror Survival mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana pemain merakit ekonomi desa abad pertengahan dengan berdagang ramuan ajaib rasa emosi manusia.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "c239d9af"
+    },
+    {
+      "no": 88,
+      "question": "Tim Bhinneka Games sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Simulasi Bisnis mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana pemain memprogram kecerdasan buatan robot peliharaan menggunakan balok kode visual visual.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "b175d147"
+    },
+    {
+      "no": 89,
+      "question": "Tim Merdeka Play sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Platformer 2D mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana satu-satunya senjata pemain adalah kamera ajaib yang bisa mengubah objek 3D menjadi gambar foto 2D statis.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "f9d90200"
+    },
+    {
+      "no": 90,
+      "question": "Tim Khatulistiwa Interactive sedang mempersiapkan pitch elevator berdurasi 30 detik untuk game Shooter Taktis mereka. Manakah kalimat pembuka yang paling merepresentasikan esensi game design profesional?",
+      "options": {
+        "A": "Bayangkan sebuah gim di mana pemain menjelajah labirin mimpi buruk di mana bentuk dinding bergeser sesuai arah pandangan mata rill.",
+        "B": "Kami membuat gim dengan 10.000 baris kode program tanpa bug dan grafis 3D resolusi super tinggi",
+        "C": "Gim ini sangat menyenangkan karena dibuat oleh tim alumni sekolah kejuruan berprestasi",
+        "D": "Kami menargetkan gim ini terjual satu juta kopi di bulan pertama rilis global",
+        "E": "Gim ini menggunakan musik latar belakang yang direkam langsung dari alat musik tradisional"
+      },
+      "answer_hash": "94b6f141"
+    },
+    {
+      "no": 91,
+      "question": "Studio Piksel Kreasi melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 92,
+      "question": "Studio Nusantara Game melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 93,
+      "question": "Studio Majapahit Games melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 94,
+      "question": "Studio Garuda Studio melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 95,
+      "question": "Studio Siliwangi Digital melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 96,
+      "question": "Studio Lontar Media melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 97,
+      "question": "Studio Bhinneka Games melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 98,
+      "question": "Studio Merdeka Play melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 99,
+      "question": "Studio Khatulistiwa Interactive melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    },
+    {
+      "no": 100,
+      "question": "Studio Adiwiyata Games melihat pasar game RPG Fantasi saat ini sangat jenuh oleh judul-judul besar. Langkah desain taktis apa yang paling disarankan untuk memastikan produk mereka tetap kompetitif?",
+      "options": {
+        "A": "Mencari 'Niche Market' dengan menyuntikkan mekanika hibrida unik (misalnya menggabungkan genre tersebut dengan teka-teki catur)",
+        "B": "Meniru persis gameplay game terpopuler saat ini dan menjualnya dengan harga setengah kali lipat murah",
+        "C": "Menghapus seluruh elemen cerita agar ukuran file game menjadi lebih ringan saat diunduh",
+        "D": "Menunda perilisan game hingga sepuluh tahun ke depan menunggu tren pasar berubah sendiri",
+        "E": "Mewajibkan pemain membeli item kosmetik mahal agar game dinilai premium oleh media"
+      },
+      "answer_hash": "51d0e5b2"
+    }
+  ]
+}

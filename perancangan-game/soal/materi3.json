@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain Mekanik Gim",
+  "deskripsi": "Merancang interaksi inti game (core vs secondary mechanics), loop mekanika, movement physics (lompat, gravitasi, friksi), serta implementasi feedback loop.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam game platformer RPG Fantasi buatan Nusantara Game, aktivitas melompati jurang rintangan tergolong sebagai 'Core Mechanic', sedangkan melempar batu untuk mengecoh perhatian penjaga tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 2,
+      "question": "Dalam game platformer Shooter Taktis buatan Majapahit Games, aktivitas berlari menghindari kejaran batu raksasa tergolong sebagai 'Core Mechanic', sedangkan mengganti warna baju karakter utama secara kosmetik tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 3,
+      "question": "Dalam game platformer Platformer 2D buatan Garuda Studio, aktivitas mengayunkan pedang menebas musuh tergolong sebagai 'Core Mechanic', sedangkan membuka peti kayu berisi ramuan pemulih HP tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 4,
+      "question": "Dalam game platformer Simulasi Bisnis buatan Siliwangi Digital, aktivitas menembak sasaran tembak bergerak tergolong sebagai 'Core Mechanic', sedangkan mengisi ulang peluru senjata (reload) tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 5,
+      "question": "Dalam game platformer Horror Survival buatan Lontar Media, aktivitas mencocokkan baris warna balok jatuh tergolong sebagai 'Core Mechanic', sedangkan menyimpan balok tertentu untuk digunakan nanti (hold) tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 6,
+      "question": "Dalam game platformer Strategi Real-Time buatan Bhinneka Games, aktivitas mengemudikan mobil balap di tikungan tajam tergolong sebagai 'Core Mechanic', sedangkan membunyikan klakson mobil sebagai animasi hiburan tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 7,
+      "question": "Dalam game platformer Balap Arkade buatan Merdeka Play, aktivitas meletakkan kartu prajurit di arena tergolong sebagai 'Core Mechanic', sedangkan mengubah tampilan belakang kartu (card sleeve) tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 8,
+      "question": "Dalam game platformer Puzzle Teka-Teki buatan Khatulistiwa Interactive, aktivitas menyelinap di balik bayangan dinding tergolong sebagai 'Core Mechanic', sedangkan bersiul memanggil anjing peliharaan tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 9,
+      "question": "Dalam game platformer Roguelike Aksi buatan Adiwiyata Games, aktivitas mengarahkan bidikan busur panah tergolong sebagai 'Core Mechanic', sedangkan merakit tali panah menggunakan serat tumbuhan tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 10,
+      "question": "Dalam game platformer Metroidvania buatan Piksel Kreasi, aktivitas menggali tanah mencari pipa besi tergolong sebagai 'Core Mechanic', sedangkan menyalakan radio saku pemutar musik lagu jazz tergolong sebagai 'Secondary Mechanic'. Perbedaan mendasar keduanya adalah...",
+      "options": {
+        "A": "Core mechanic adalah aktivitas inti detik-ke-detik yang paling sering diulang pemain, sedangkan secondary mechanic mendukung navigasi atau variasi interaksi",
+        "B": "Core mechanic diprogram dalam file exe utama, sedangkan secondary mechanic diprogram dalam file dll tambahan",
+        "C": "Core mechanic memicu konsumsi RAM komputer sangat besar, sedangkan secondary mechanic diproses langsung di kartu grafis",
+        "D": "Core mechanic wajib dimainkan menggunakan mouse, sedangkan secondary mechanic khusus menggunakan tombol keyboard spasi",
+        "E": "Core mechanic dirancang oleh pimpinan studio, sedangkan secondary mechanic dirancang oleh programmer junior saja"
+      },
+      "answer_hash": "230f576e"
+    },
+    {
+      "no": 11,
+      "question": "Seorang programmer fisika gim di Majapahit Games sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game RPG Fantasi. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 12,
+      "question": "Seorang programmer fisika gim di Garuda Studio sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Platformer 2D. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 13,
+      "question": "Seorang programmer fisika gim di Siliwangi Digital sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Horror Survival. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 14,
+      "question": "Seorang programmer fisika gim di Lontar Media sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Balap Arkade. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 15,
+      "question": "Seorang programmer fisika gim di Bhinneka Games sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Roguelike Aksi. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 16,
+      "question": "Seorang programmer fisika gim di Merdeka Play sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game RPG Fantasi. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 17,
+      "question": "Seorang programmer fisika gim di Khatulistiwa Interactive sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Platformer 2D. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 18,
+      "question": "Seorang programmer fisika gim di Adiwiyata Games sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Horror Survival. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 19,
+      "question": "Seorang programmer fisika gim di Piksel Kreasi sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Balap Arkade. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 20,
+      "question": "Seorang programmer fisika gim di Nusantara Game sedang menyetel nilai parameter 'Friction' (Gesekan) tanah pada game Roguelike Aksi. Jika nilai gesekan tanah disetel mendekati nol, dampak langsung pada pergerakan karakter utama adalah...",
+      "options": {
+        "A": "Karakter akan terus meluncur (slipping/sliding) dan butuh waktu lama untuk berhenti setelah tombol arah dilepas",
+        "B": "Karakter akan melompat sangat tinggi melompati puncak gunung di peta",
+        "C": "Karakter langsung mati seketika saat menabrak dinding rintangan fisik",
+        "D": "Kecepatan animasi berjalan karakter otomatis melambat menjadi setengah kali lipat",
+        "E": "Game mengalami lag berat karena beban perhitungan fisika gesekan bertambah"
+      },
+      "answer_hash": "91ee3d6f"
+    },
+    {
+      "no": 21,
+      "question": "Dalam game platformer RPG Fantasi buatan Garuda Studio, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 22,
+      "question": "Dalam game platformer Simulasi Bisnis buatan Siliwangi Digital, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 23,
+      "question": "Dalam game platformer Balap Arkade buatan Lontar Media, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 24,
+      "question": "Dalam game platformer Metroidvania buatan Bhinneka Games, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 25,
+      "question": "Dalam game platformer Platformer 2D buatan Merdeka Play, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 26,
+      "question": "Dalam game platformer Strategi Real-Time buatan Khatulistiwa Interactive, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 27,
+      "question": "Dalam game platformer Roguelike Aksi buatan Adiwiyata Games, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 28,
+      "question": "Dalam game platformer Shooter Taktis buatan Piksel Kreasi, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 29,
+      "question": "Dalam game platformer Horror Survival buatan Nusantara Game, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 30,
+      "question": "Dalam game platformer Puzzle Teka-Teki buatan Majapahit Games, desainer game mengintegrasikan fitur 'Coyote Time'. Mengapa fitur ini dinilai sangat membantu kenyamanan bermain (game feel) pemain?",
+      "options": {
+        "A": "Mencegah rasa tidak adil akibat karakter jatuh dari pinggiran platform karena keterlambatan refleks menekan tombol lompat beberapa milidetik",
+        "B": "Membuat karakter utama dapat berubah wujud menjadi hewan serigala yang lari cepat saat malam tiba",
+        "C": "Secara otomatis memutar suara raungan serigala saat darah karakter utama dalam kondisi kritis",
+        "D": "Mengurangi beban transfer data internet saat game dimainkan pada mode multipemain online",
+        "E": "Menghilangkan kebutuhan akan aset model 3D platform lingkungan game"
+      },
+      "answer_hash": "9acbb65d"
+    },
+    {
+      "no": 31,
+      "question": "Dalam game strategi RPG Fantasi karya Siliwangi Digital, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 32,
+      "question": "Dalam game strategi Horror Survival karya Lontar Media, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 33,
+      "question": "Dalam game strategi Roguelike Aksi karya Bhinneka Games, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 34,
+      "question": "Dalam game strategi Platformer 2D karya Merdeka Play, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 35,
+      "question": "Dalam game strategi Balap Arkade karya Khatulistiwa Interactive, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 36,
+      "question": "Dalam game strategi RPG Fantasi karya Adiwiyata Games, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 37,
+      "question": "Dalam game strategi Horror Survival karya Piksel Kreasi, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 38,
+      "question": "Dalam game strategi Roguelike Aksi karya Nusantara Game, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 39,
+      "question": "Dalam game strategi Platformer 2D karya Majapahit Games, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 40,
+      "question": "Dalam game strategi Balap Arkade karya Garuda Studio, pemain yang berhasil menduduki benteng musuh otomatis mendapatkan pasokan emas tambahan setiap menit yang mempercepat pembuatan tentara super. Mekanisme ini menerapkan...",
+      "options": {
+        "A": "Feedback Loop Positif (membuat pihak yang menang semakin unggul/snowballing effect)",
+        "B": "Feedback Loop Negatif (memberikan bantuan otomatis bagi pihak yang kalah agar permainan tetap seimbang)",
+        "C": "Dynamic Difficulty Adjustment (penyesuaian kesulitan kecerdasan buatan musuh secara dinamis)",
+        "D": "Ludonarrative Dissonance (ketidakselarasan cerita dengan gameplay akibat kesalahan koding)",
+        "E": "Input Buffering System (penyimpanan antrean input perintah tombol gamepad)"
+      },
+      "answer_hash": "e867d197"
+    },
+    {
+      "no": 41,
+      "question": "Mengapa tim developer Lontar Media mengimplementasikan 'Input Buffering' pada tombol aksi game RPG Fantasi mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 42,
+      "question": "Mengapa tim developer Bhinneka Games mengimplementasikan 'Input Buffering' pada tombol aksi game Strategi Real-Time mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 43,
+      "question": "Mengapa tim developer Merdeka Play mengimplementasikan 'Input Buffering' pada tombol aksi game RPG Fantasi mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 44,
+      "question": "Mengapa tim developer Khatulistiwa Interactive mengimplementasikan 'Input Buffering' pada tombol aksi game Strategi Real-Time mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 45,
+      "question": "Mengapa tim developer Adiwiyata Games mengimplementasikan 'Input Buffering' pada tombol aksi game RPG Fantasi mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 46,
+      "question": "Mengapa tim developer Piksel Kreasi mengimplementasikan 'Input Buffering' pada tombol aksi game Strategi Real-Time mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 47,
+      "question": "Mengapa tim developer Nusantara Game mengimplementasikan 'Input Buffering' pada tombol aksi game RPG Fantasi mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 48,
+      "question": "Mengapa tim developer Majapahit Games mengimplementasikan 'Input Buffering' pada tombol aksi game Strategi Real-Time mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 49,
+      "question": "Mengapa tim developer Garuda Studio mengimplementasikan 'Input Buffering' pada tombol aksi game RPG Fantasi mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 50,
+      "question": "Mengapa tim developer Siliwangi Digital mengimplementasikan 'Input Buffering' pada tombol aksi game Strategi Real-Time mereka?",
+      "options": {
+        "A": "Agar aksi/jurus berikutnya tetap keluar dengan mulus meskipun tombol ditekan sedikit lebih awal saat animasi aksi sebelumnya belum selesai",
+        "B": "Untuk membatasi jumlah klik tombol per detik guna menghemat daya tahan baterai gamepad pemain",
+        "C": "Untuk menahan koneksi data internet agar game online terbebas dari masalah lag jaringan",
+        "D": "Agar visual game terlihat lebih berkilau menggunakan shader grafis dinamis",
+        "E": "Mencegah pemain menekan kombinasi tombol curang (cheat code) di tengah permainan"
+      },
+      "answer_hash": "83b1a456"
+    },
+    {
+      "no": 51,
+      "question": "Dalam game shooter RPG Fantasi buatan Bhinneka Games, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 52,
+      "question": "Dalam game shooter Balap Arkade buatan Merdeka Play, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 53,
+      "question": "Dalam game shooter Platformer 2D buatan Khatulistiwa Interactive, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 54,
+      "question": "Dalam game shooter Roguelike Aksi buatan Adiwiyata Games, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 55,
+      "question": "Dalam game shooter Horror Survival buatan Piksel Kreasi, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 56,
+      "question": "Dalam game shooter RPG Fantasi buatan Nusantara Game, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 57,
+      "question": "Dalam game shooter Balap Arkade buatan Majapahit Games, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 58,
+      "question": "Dalam game shooter Platformer 2D buatan Garuda Studio, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 59,
+      "question": "Dalam game shooter Roguelike Aksi buatan Siliwangi Digital, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 60,
+      "question": "Dalam game shooter Horror Survival buatan Lontar Media, desainer mengaktifkan fitur 'Aim Assist' saat game dimainkan menggunakan controller/gamepad. Mengapa fitur ini penting?",
+      "options": {
+        "A": "Membantu kenyamanan membidik musuh karena analog stick gamepad memiliki presisi pergerakan jempol yang lebih terbatas dibanding mouse komputer",
+        "B": "Secara otomatis memicu tembakan peluru senjata tanpa perlu menekan tombol trigger fisik pada gamepad",
+        "C": "Menampilkan garis lurus laser berwarna merah tebal di layar untuk membongkar posisi sembunyi semua musuh",
+        "D": "Mendemonstrasikan kestabilan sistem deteksi tabrakan fisik game engine",
+        "E": "Mengunci pergerakan kamera agar selalu menghadap ke atas langit level"
+      },
+      "answer_hash": "8b706977"
+    },
+    {
+      "no": 61,
+      "question": "Dalam game bertarung aksi RPG Fantasi buatan Merdeka Play, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 62,
+      "question": "Dalam game bertarung aksi Puzzle Teka-Teki buatan Khatulistiwa Interactive, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 63,
+      "question": "Dalam game bertarung aksi Horror Survival buatan Adiwiyata Games, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 64,
+      "question": "Dalam game bertarung aksi Shooter Taktis buatan Piksel Kreasi, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 65,
+      "question": "Dalam game bertarung aksi Roguelike Aksi buatan Nusantara Game, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 66,
+      "question": "Dalam game bertarung aksi Strategi Real-Time buatan Majapahit Games, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 67,
+      "question": "Dalam game bertarung aksi Platformer 2D buatan Garuda Studio, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 68,
+      "question": "Dalam game bertarung aksi Metroidvania buatan Siliwangi Digital, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 69,
+      "question": "Dalam game bertarung aksi Balap Arkade buatan Lontar Media, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 70,
+      "question": "Dalam game bertarung aksi Simulasi Bisnis buatan Bhinneka Games, apa perbedaan fungsi utama antara 'Hitbox' dan 'Hurtbox' pada model karakter?",
+      "options": {
+        "A": "Hitbox mendeteksi area serangan aktif yang dilancarkan karakter, sedangkan hurtbox mendeteksi area tubuh karakter yang rentan terkena serangan musuh",
+        "B": "Hitbox diproses langsung oleh kartu suara untuk efek SFX, sedangkan hurtbox merender visual luka berdarah di layar",
+        "C": "Hitbox digunakan khusus untuk game online, sedangkan hurtbox khusus untuk mode offline singleplayer",
+        "D": "Hitbox bernilai konstan statis sepanjang game, sedangkan hurtbox berubah ukuran secara acak di setiap frame",
+        "E": "Tidak ada perbedaan, keduanya memiliki istilah dan fungsi pemrograman yang sama persis"
+      },
+      "answer_hash": "53fa3065"
+    },
+    {
+      "no": 71,
+      "question": "Seorang game designer di Khatulistiwa Interactive menerapkan mekanika 'Variable Jump Height' pada game RPG Fantasi. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 72,
+      "question": "Seorang game designer di Adiwiyata Games menerapkan mekanika 'Variable Jump Height' pada game Roguelike Aksi. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 73,
+      "question": "Seorang game designer di Piksel Kreasi menerapkan mekanika 'Variable Jump Height' pada game Balap Arkade. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 74,
+      "question": "Seorang game designer di Nusantara Game menerapkan mekanika 'Variable Jump Height' pada game Horror Survival. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 75,
+      "question": "Seorang game designer di Majapahit Games menerapkan mekanika 'Variable Jump Height' pada game Platformer 2D. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 76,
+      "question": "Seorang game designer di Garuda Studio menerapkan mekanika 'Variable Jump Height' pada game RPG Fantasi. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 77,
+      "question": "Seorang game designer di Siliwangi Digital menerapkan mekanika 'Variable Jump Height' pada game Roguelike Aksi. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 78,
+      "question": "Seorang game designer di Lontar Media menerapkan mekanika 'Variable Jump Height' pada game Balap Arkade. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 79,
+      "question": "Seorang game designer di Bhinneka Games menerapkan mekanika 'Variable Jump Height' pada game Horror Survival. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 80,
+      "question": "Seorang game designer di Merdeka Play menerapkan mekanika 'Variable Jump Height' pada game Platformer 2D. Implementasi kontrol input yang paling logis untuk mekanika ini adalah...",
+      "options": {
+        "A": "Tinggi lompatan karakter sebanding dengan durasi penekanan tombol lompat oleh pemain (tekan lama melompat lebih tinggi)",
+        "B": "Tinggi lompatan ditentukan oleh angka keberuntungan acak yang dihitung sistem program utama",
+        "C": "Lompatan otomatis terjadi saat kursor mouse digeser mendekati batas atas layar monitor",
+        "D": "Tinggi lompatan karakter berkurang secara permanen setiap kali karakter membawa koin emas di tas",
+        "E": "Karakter melompat lebih tinggi hanya jika game dimainkan saat malam hari secara real-time"
+      },
+      "answer_hash": "39e4d83a"
+    },
+    {
+      "no": 81,
+      "question": "Dalam game MOBA/RPG RPG Fantasi karya Adiwiyata Games, desainer menyertakan 'Cooldown' selama 10 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 82,
+      "question": "Dalam game MOBA/RPG Metroidvania karya Piksel Kreasi, desainer menyertakan 'Cooldown' selama 15 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 83,
+      "question": "Dalam game MOBA/RPG Roguelike Aksi karya Nusantara Game, desainer menyertakan 'Cooldown' selama 20 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 84,
+      "question": "Dalam game MOBA/RPG Puzzle Teka-Teki karya Majapahit Games, desainer menyertakan 'Cooldown' selama 30 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 85,
+      "question": "Dalam game MOBA/RPG Balap Arkade karya Garuda Studio, desainer menyertakan 'Cooldown' selama 45 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 86,
+      "question": "Dalam game MOBA/RPG Strategi Real-Time karya Siliwangi Digital, desainer menyertakan 'Cooldown' selama 60 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 87,
+      "question": "Dalam game MOBA/RPG Horror Survival karya Lontar Media, desainer menyertakan 'Cooldown' selama 80 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 88,
+      "question": "Dalam game MOBA/RPG Simulasi Bisnis karya Bhinneka Games, desainer menyertakan 'Cooldown' selama 90 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 89,
+      "question": "Dalam game MOBA/RPG Platformer 2D karya Merdeka Play, desainer menyertakan 'Cooldown' selama 120 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 90,
+      "question": "Dalam game MOBA/RPG Shooter Taktis karya Khatulistiwa Interactive, desainer menyertakan 'Cooldown' selama 180 detik pada jurus terkuat karakter. Alasan utama penerapan sistem cooldown ini adalah...",
+      "options": {
+        "A": "Membatasi spamming kemampuan kuat demi menjaga keseimbangan taktis dan memaksa pemain menyusun strategi variasi serangan",
+        "B": "Mencegah agar suhu prosesor komputer pemain tidak panas akibat pemrosesan grafis efek jurus",
+        "C": "Mengharuskan pemain membayar koin mikrotransaksi emas untuk mempercepat selesainya waktu tunggu jurus",
+        "D": "Mengurangi volume suara efek sound effect (SFX) agar tidak mengganggu pendengaran pemain",
+        "E": "Menurunkan kapasitas transfer memori ram saat game dimainkan pada mode multipemain online"
+      },
+      "answer_hash": "b6aa58d1"
+    },
+    {
+      "no": 91,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Piksel Kreasi, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 92,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Nusantara Game, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 93,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Majapahit Games, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 94,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Garuda Studio, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 95,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Siliwangi Digital, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 96,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Lontar Media, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 97,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Bhinneka Games, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 98,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Merdeka Play, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 99,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Khatulistiwa Interactive, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    },
+    {
+      "no": 100,
+      "question": "Untuk menciptakan sensasi melompat yang memuaskan dan dinamis (juicy jump feel) di game platformer RPG Fantasi buatan Adiwiyata Games, desainer game sebaiknya mendesain kurva gravitasi di mana...",
+      "options": {
+        "A": "Gravitasi saat jatuh turun disetel lebih berat daripada gravitasi saat melompat naik (kecepatan turun lebih cepat)",
+        "B": "Kecepatan lompat naik dan kecepatan jatuh turun dibuat konstan sama cepatnya tanpa percepatan",
+        "C": "Karakter melayang di udara selama 5 detik penuh tanpa terpengaruh gaya gravitasi bumi",
+        "D": "Tinggi lompatan berubah secara acak tergantung total sisa memori ram kartu grafis komputer",
+        "E": "Tombol lompat dinonaktifkan sepenuhnya saat karakter sedang berada di posisi tanah miring"
+      },
+      "answer_hash": "c9f3c1f6"
+    }
+  ]
+}

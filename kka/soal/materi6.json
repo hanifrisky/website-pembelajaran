@@ -1,0 +1,1207 @@
+{
+  "materi": "Pemanfaatan dan Pengembangan Kecerdasan Artifisial",
+  "deskripsi": "Konsep Machine Learning (Supervised, Unsupervised, Reinforcement), arsitektur Neural Network, NLP tokenization, prompt engineering, dan evaluasi performa model.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 2,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 3,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 4,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 5,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 6,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 7,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 8,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 9,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 10,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Supervised Learning', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menggunakan data berlabel (seperti foto kucing berlabel 'kucing') untuk melatih model melakukan prediksi klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengelompokkan dataset transaksi tanpa label menggunakan algoritma kluster K-Means yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk membiarkan model AI belajar mandiri melalui interaksi simulasi hukuman dan hadiah di game yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "c6efe5a8"
+    },
+    {
+      "no": 11,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 12,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 13,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 14,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 15,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 16,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 17,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 18,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 19,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 20,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Neural Networks', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari lapisan input, lapisan tersembunyi (hidden layers) untuk ekstraksi fitur, dan lapisan output untuk hasil klasifikasi demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk hanya terdiri dari satu baris kode kondisional if-else tersarang yang panjang yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk memproses seluruh rendering grafis 3D menggunakan memori kartu suara eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "7713c7f0"
+    },
+    {
+      "no": 21,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 22,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 23,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 24,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 25,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 26,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 27,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 28,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 29,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 30,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'NLP Tokenization', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk memecah kalimat teks panjang menjadi potongan kata/sub-kata kecil (tokens) agar dapat diproses oleh algoritma numerik model demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk mengubah format file dokumen teks menjadi format database SQL terenkripsi secara otomatis yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus semua tanda baca dari naskah teks cerita tanpa melakukan penyaringan kata yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "a213d74e"
+    },
+    {
+      "no": 31,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 32,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 33,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 34,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 35,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 36,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 37,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 38,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 39,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 40,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Computer Vision (CNN)', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Convolutional Neural Network menggunakan filter spasial untuk mengekstrak fitur gambar seperti tepi, garis, dan tekstur objek demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk model AI membaca baris piksel gambar secara linear satu per satu dari atas ke bawah yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menaikkan kontras warna gambar secara ekstrem agar resolusi piksel meningkat secara fiktif yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e39c0700"
+    },
+    {
+      "no": 41,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 42,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 43,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 44,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 45,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 46,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 47,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 48,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 49,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 50,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Collaborative Filtering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merekomendasikan item kepada pengguna berdasarkan kesamaan pola pilihan dengan pengguna lain yang memiliki riwayat belanja serupa demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk merekomendasikan item terlaris di toko online secara konstan kepada seluruh pengunjung baru yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengacak daftar barang rekomendasi di halaman utama setiap kali halaman dimuat ulang yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "440f3a2c"
+    },
+    {
+      "no": 51,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 52,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 53,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 54,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 55,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 56,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 57,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 58,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 59,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 60,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Overfitting Prevention', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menerapkan teknik regularisasi (dropout, L1/L2) atau menambah jumlah variasi data latih (data augmentation) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk melatih model menggunakan data latih yang sama berulang kali selama sepuluh hari nonstop yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus setengah jumlah neuron di lapisan input model AI secara acak yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "ddf315ee"
+    },
+    {
+      "no": 61,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 62,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 63,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 64,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 65,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 66,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 67,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 68,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 69,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 70,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Generative Adversarial Network', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk terdiri dari Generator yang membuat gambar sintetis tiruan, dan Discriminator yang bertugas membedakan gambar tiruan dengan gambar asli demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menggunakan database gambar statis yang diunggah secara berkala oleh staf admin kantor yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk algoritma pencarian kata kunci otomatis untuk menyaring konten hoaks di internet yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "20d8f779"
+    },
+    {
+      "no": 71,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 72,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 73,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 74,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 75,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 76,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 77,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 78,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 79,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 80,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Prompt Engineering', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk merancang instruksi teks masukan (prompt) secara detail dengan konteks, format output, dan batasan peran yang jelas untuk LLM demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menulis instruksi masukan sependek mungkin agar kecerdasan model LLM menebak sendiri maksudnya yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk menghapus seluruh tanda baca dan spasi dari baris kalimat masukan instruksi yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "851c441f"
+    },
+    {
+      "no": 81,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 82,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 83,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 84,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 85,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 86,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 87,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 88,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 89,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 90,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Model Evaluation Metrics', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk Precision (ketepatan prediksi positif), Recall (sensitivitas deteksi positif rill), dan F1-Score (rata-rata harmonik keduanya) demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk persentase kapasitas daya baterai ponsel yang dihabiskan saat memproses satu baris data prediksi yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk total jumlah baris kode program C++ yang digunakan untuk merancang arsitektur model yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "6c12f66b"
+    },
+    {
+      "no": 91,
+      "question": "Perusahaan Nusantara Food memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 92,
+      "question": "Perusahaan Sinergi Tech memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 93,
+      "question": "Perusahaan Lokal Mandiri memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 94,
+      "question": "Perusahaan Karya Agung memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 95,
+      "question": "Perusahaan Lestari Hijau memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 96,
+      "question": "Perusahaan Batik Digital memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 97,
+      "question": "Perusahaan Tani Jaya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 98,
+      "question": "Perusahaan Kreatif Studio memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 99,
+      "question": "Perusahaan Artha Mulia memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    },
+    {
+      "no": 100,
+      "question": "Perusahaan Cipta Karya memanfaatkan teknologi kecerdasan artifisial, khususnya konsep 'Automated Decision Systems', untuk memecahkan kasus bisnis. Langkah implementasi teknis yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konfigurasi untuk menyertakan pengawasan manusia (human-in-the-loop) untuk keputusan kritis yang berdampak langsung pada hak-hak warga negara demi tercapainya akurasi prediksi model yang optimal dan tepercaya",
+        "B": "Menggunakan metode untuk menyerahkan penuh keputusan penerimaan karyawan baru kepada hasil prediksi skor model AI yang memicu terjadinya bias performa dan ketidakstabilan sistem AI",
+        "C": "Memilih alternatif untuk mengunci server AI dari segala bentuk audit teknis oleh lembaga pengawas eksternal yang dapat menurunkan keandalan pengambilan keputusan otomatis",
+        "D": "Menjalankan kompilasi model AI langsung di memori GPU tanpa penyaringan data kotor",
+        "E": "Menghapus seluruh pustaka (library) machine learning dan menulis algoritma matematis manual dari awal"
+      },
+      "answer_hash": "e8a82812"
+    }
+  ]
+}

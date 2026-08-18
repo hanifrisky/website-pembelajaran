@@ -1,0 +1,1207 @@
+{
+  "materi": "Literasi dan Etika Kecerdasan Artifisial",
+  "deskripsi": "Memahami bias algoritmik, hak cipta karya kecerdasan buatan, privasi data latih (training sets), transparansi model, serta dampak sosial otomatisasi AI.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 2,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 3,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 4,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 5,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 6,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 7,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 8,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 9,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 10,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'Algorithmic Bias'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk melakukan audit keragaman data latih (training data) untuk memastikan representasi adil dari berbagai kelompok demografis demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang program menggunakan variabel statis dalam perhitungan logika klasifikasi yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menghapus seluruh model kecerdasan buatan dan kembali menggunakan sistem manual kaku yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "588e13cb"
+    },
+    {
+      "no": 11,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 12,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 13,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 14,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 15,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 16,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 17,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 18,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 19,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 20,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'AI Alignment/Safety'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang fungsi tujuan (reward function) model AI agar selaras dengan nilai keselamatan, hak asasi, dan hukum manusia demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk membatasi konsumsi daya listrik server komputer pengembang AI secara berkala yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk mewajibkan model AI lulus ujian kuis pilihan ganda sekolah dasar terlebih dahulu yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "a30d41b5"
+    },
+    {
+      "no": 21,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 22,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 23,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 24,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 25,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 26,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 27,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 28,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 29,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 30,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'Deepfakes Legal Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk mewajibkan penempelan tanda air digital (watermark) tak terlihat pada video buatan AI dan regulasi larangan manipulasi tanpa konsen demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang total seluruh penelitian bidang computer vision di tingkat universitas yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menuntut secara hukum produsen kartu grafis GPU yang digunakan untuk merender video yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "824eb377"
+    },
+    {
+      "no": 31,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 32,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 33,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 34,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 35,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 36,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 37,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 38,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 39,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 40,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'Job Displacement'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk merancang program pelatihan ulang (reskilling) keterampilan staf ke arah manajemen AI, analisis data, dan peran kreatif interpersonal demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk melarang keras penggunaan alat otomatisasi kecerdasan buatan (AI) di seluruh divisi kantor yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk memotong upah harian staf secara massal untuk menyeimbangkan pengeluaran lisensi software AI yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "47fa587f"
+    },
+    {
+      "no": 41,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 42,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 43,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 44,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 45,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 46,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 47,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 48,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 49,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 50,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'Training Data Privacy'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan dataset latih bersertifikat open-source, mendapatkan persetujuan lisensi kreator asli, dan menerapkan privasi diferensial demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk mengunduh (scraping) seluruh foto karya seni orisinal dari portofolio seniman independen tanpa izin yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk membeli database kontak email dari peretas eksternal untuk memperkaya variabel data latih yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "999ab7c7"
+    },
+    {
+      "no": 51,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 52,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 53,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 54,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 55,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 56,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 57,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 58,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 59,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 60,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'Explainable AI (XAI)'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk menggunakan model keputusan terstruktur (seperti decision tree) atau visualisasi kontribusi atribut (SHAP/LIME) agar logika AI dapat dipahami demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk menyembunyikan baris kode program utama kecerdasan buatan di balik sandi enkripsi server yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk menyatakan bahwa hasil keputusan AI adalah kebenaran mutlak yang tidak perlu diperdebatkan yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "573396db"
+    },
+    {
+      "no": 61,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 62,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 63,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 64,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 65,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 66,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 67,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 68,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 69,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 70,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'AI Copyright Issues'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk karya seni generatif AI murni tidak memiliki hak cipta sendiri karena ketiadaan kontribusi kepengarangan manusia rill (human authorship) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk model generatif AI berhak menuntut royalti kepada pengguna yang mengunduh gambar hasil generate yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk seluruh gambar hasil generate AI otomatis menjadi milik pemerintah departemen hukum yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "3ac7de25"
+    },
+    {
+      "no": 71,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 72,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 73,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 74,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 75,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 76,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 77,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 78,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 79,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 80,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'Autonomous Weapons'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk ketiadaan penilaian moral subjektif manusia saat penentuan target serangan dapat memicu pelanggaran hukum perang internasional demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk kecepatan kalkulasi sensor infra-merah AI dinilai lambat dalam mendeteksi musuh yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk harga pembuatan perangkat keras drone tempur AI dinilai terlalu mahal untuk anggaran militer yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "4c7d2779"
+    },
+    {
+      "no": 81,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 82,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 83,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 84,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 85,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 86,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 87,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 88,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 89,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 90,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'AI Social Scoring'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk pengawasan massal berkelanjutan (surveillance) yang membatasi kebebasan individu secara sistematis berdasarkan angka kepatuhan demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk perhitungan matematika skor sosial dinilai lambat karena kapasitas database server meluap yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tidak adanya fitur kustomisasi warna antarmuka menu dashboard bagi petugas admin yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "7f9b49fb"
+    },
+    {
+      "no": 91,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Nusantara Food dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 92,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Sinergi Tech dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 93,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lokal Mandiri dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 94,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Karya Agung dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 95,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Lestari Hijau dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 96,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Batik Digital dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 97,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Tani Jaya dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 98,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Kreatif Studio dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 99,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Artha Mulia dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    },
+    {
+      "no": 100,
+      "question": "Ketika merancang atau menerapkan sistem kecerdasan artifisial, tim teknologi di Cipta Karya dihadapkan pada dilema etika terkait 'Accountability in AI'. Keputusan terbaik yang sesuai dengan asas etika teknologi global adalah...",
+      "options": {
+        "A": "Mengambil kebijakan untuk tanggung jawab hukum tetap berada di tangan developer/organisasi pengguna yang menerapkan sistem AI tersebut (manusia) demi menegakkan nilai transparansi, keadilan, dan keselamatan kemanusiaan",
+        "B": "Memilih alternatif untuk tanggung jawab hukum sepenuhnya dilimpahkan kepada kode program AI itu sendiri di pengadilan yang melanggar hak privasi dan memicu bias sosial ekstrem",
+        "C": "Memutuskan untuk tanggung jawab hukum dialihkan kepada produsen komputer penyedia server fisik cloud yang mengabaikan aspek tanggung jawab hukum legal",
+        "D": "Menjual model AI ke pasar gelap sebelum regulasi undang-undang teknologi disahkan pemerintah",
+        "E": "Membatasi wilayah pemasaran produk AI hanya di kota besar berpenduduk padat saja"
+      },
+      "answer_hash": "debed965"
+    }
+  ]
+}

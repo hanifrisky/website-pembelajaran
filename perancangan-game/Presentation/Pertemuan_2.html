@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2: Desain Narasi Gim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        
+:root {
+    --neon-yellow: #FFE500;
+    --neon-yellow-glow: rgba(255, 229, 0, 0.35);
+    --bg-dark: #090a0f;
+    --bg-dark-secondary: #12141d;
+    --bg-card: #181b26;
+    --border-color: #2b2e3d;
+    --text-primary: #f4f4f5;
+    --text-secondary: #a1a1aa;
+    --font-gaming: 'Orbitron', 'Space Grotesk', sans-serif;
+    --font-body: 'Manrope', 'Inter', sans-serif;
+    --line: rgba(255, 229, 0, 0.12);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-primary);
+    background: var(--bg-dark);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Background animated pixel/dot grid */
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: 
+        radial-gradient(var(--neon-yellow) 1px, transparent 1px),
+        linear-gradient(rgba(255, 229, 0, 0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* HUD elements */
+.hud-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: rgba(9, 10, 15, 0.85);
+    border-bottom: 2px solid var(--neon-yellow);
+    box-shadow: 0 2px 15px var(--neon-yellow-glow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.hud-title {
+    font-family: var(--font-gaming);
+    font-weight: 700;
+    font-size: clamp(12px, 1.4vw, 16px);
+    color: var(--neon-yellow);
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hud-title span.badge {
+    background: var(--neon-yellow);
+    color: #000;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.hud-menu-btn {
+    font-family: var(--font-gaming);
+    font-size: 12px;
+    color: var(--text-primary);
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+    border-radius: 999px;
+    transition: all 0.2s ease;
+}
+
+.hud-menu-btn:hover {
+    background: var(--neon-yellow);
+    color: #000;
+    border-color: var(--neon-yellow);
+    box-shadow: 0 0 10px var(--neon-yellow-glow);
+}
+
+/* Slide scaffolding */
+.deck {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    position: relative;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.deck::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    scroll-snap-align: start;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    padding: 85px 8vw 70px 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.slide::after {
+    content: "";
+    position: absolute;
+    right: -10vw;
+    bottom: -10vh;
+    width: 60vw;
+    height: 60vh;
+    background: radial-gradient(circle, rgba(255, 229, 0, 0.04) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Typography */
+h1 {
+    font-family: var(--font-gaming);
+    font-weight: 900;
+    line-height: 1.05;
+    font-size: clamp(34px, 5.5vw, 68px);
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+h1 span.accent {
+    color: var(--neon-yellow);
+    text-shadow: 0 0 15px var(--neon-yellow-glow);
+}
+
+h2 {
+    font-family: var(--font-gaming);
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: clamp(26px, 3.5vw, 42px);
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+h2 span.accent {
+    color: var(--neon-yellow);
+}
+
+p.lead {
+    font-size: clamp(15px, 1.4vw, 20px);
+    line-height: 1.5;
+    color: var(--text-secondary);
+    max-width: 720px;
+}
+
+/* Layouts */
+.split-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 860px) {
+    .split-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .hud-header {
+        padding: 0 15px;
+    }
+    .slide {
+        padding: 80px 20px 80px 20px;
+    }
+}
+
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    border-color: var(--neon-yellow);
+    box-shadow: 0 4px 20px rgba(255, 229, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 4px; height: 100%;
+    background: var(--neon-yellow);
+    opacity: 0.7;
+}
+
+.card .num {
+    font-family: var(--font-gaming);
+    font-weight: 700;
+    color: var(--neon-yellow);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-family: var(--font-gaming);
+    font-size: clamp(16px, 1.8vw, 22px);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: clamp(13px, 1.1vw, 15px);
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Interactive Codex / datapad on Slide 5 */
+.codex-layout {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 30px;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.codex-nodes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.codex-node-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 12px 16px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.codex-node-btn::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0; width: 3px;
+    background: var(--neon-yellow);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.codex-node-btn:hover {
+    border-color: rgba(255, 229, 0, 0.4);
+}
+
+.codex-node-btn.active {
+    border-color: var(--neon-yellow);
+    box-shadow: 0 0 10px var(--neon-yellow-glow);
+    background: rgba(255, 229, 0, 0.03);
+}
+
+.codex-node-btn.active::before {
+    opacity: 1;
+}
+
+.codex-node-btn .node-num {
+    font-family: var(--font-gaming);
+    font-size: 8px;
+    color: var(--neon-yellow);
+    letter-spacing: 0.05em;
+    margin-bottom: 3px;
+}
+
+.codex-node-btn .node-title {
+    font-family: var(--font-gaming);
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.codex-display-screen {
+    background: rgba(0,0,0,0.3);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 240px;
+}
+
+.codex-display-screen::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 3px;
+    background: var(--neon-yellow);
+    opacity: 0.4;
+}
+
+.codex-display-screen .screen-hdr {
+    font-family: var(--font-gaming);
+    font-size: 9px;
+    color: var(--text-secondary);
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.codex-display-screen h3 {
+    font-family: var(--font-gaming);
+    font-size: 18px;
+    color: var(--neon-yellow);
+    margin-bottom: 12px;
+    text-shadow: 0 0 10px var(--neon-yellow-glow);
+    transition: opacity 0.15s ease;
+}
+
+.codex-display-screen p {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--text-primary);
+    transition: opacity 0.15s ease;
+}
+
+@media (max-width: 860px) {
+    .codex-layout {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .codex-nodes-list {
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: 8px;
+    }
+    .codex-node-btn {
+        min-width: 150px;
+        flex-shrink: 0;
+    }
+    .codex-node-btn::before {
+        left: 0; top: auto; bottom: 0; right: 0; width: 100%; height: 3px;
+    }
+}
+
+/* Buttons */
+.btn {
+    font-family: var(--font-gaming);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn-primary {
+    background: var(--neon-yellow);
+    color: #000;
+    box-shadow: 0 2px 10px var(--neon-yellow-glow);
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-ghost {
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.btn-ghost:hover {
+    color: var(--neon-yellow);
+    border-color: var(--neon-yellow);
+}
+
+/* Timer Widget HUD */
+.timer-panel {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.timer-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    padding: 4px 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+}
+
+.timer-box.warn {
+    border-color: #ffb700;
+    color: #ffb700;
+}
+
+.timer-box.danger {
+    border-color: #ff3333;
+    color: #ff3333;
+    animation: flash-red 1s infinite alternate;
+}
+
+@keyframes flash-red {
+    from { box-shadow: 0 0 2px #ff3333; }
+    to { box-shadow: 0 0 10px #ff3333; }
+}
+
+.timer-lbl {
+    font-size: 8px;
+    font-family: var(--font-gaming);
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.timer-val {
+    font-family: var(--font-gaming);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Bottom HUD navigation */
+.hud-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgba(9, 10, 15, 0.9);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    z-index: 100;
+}
+
+.hud-footer .controls {
+    display: flex;
+    gap: 15px;
+}
+
+.hud-footer .controls button {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hud-footer .controls button:hover {
+    background: var(--neon-yellow);
+    border-color: var(--neon-yellow);
+    color: #000;
+    box-shadow: 0 0 10px var(--neon-yellow-glow);
+}
+
+.xp-bar-wrap {
+    flex: 1;
+    margin: 0 40px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.xp-bar-fill {
+    height: 100%;
+    width: 12.5%;
+    background: var(--neon-yellow);
+    box-shadow: 0 0 8px var(--neon-yellow-glow);
+    border-radius: 999px;
+    transition: width 0.3s cubic-bezier(0.1, 0.8, 0.3, 1);
+}
+
+.xp-label {
+    font-family: var(--font-gaming);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    min-width: 60px;
+    text-align: right;
+}
+
+/* Floating teacher notes panel */
+.teacher-notes-trigger {
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+    z-index: 90;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg-card);
+    border: 2px solid var(--neon-yellow);
+    color: var(--neon-yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease;
+}
+
+.teacher-notes-trigger:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 12px var(--neon-yellow-glow);
+}
+
+.teacher-notes-panel {
+    position: fixed;
+    right: 20px;
+    bottom: 125px;
+    width: 320px;
+    background: var(--bg-card);
+    border: 2px solid var(--neon-yellow);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+    z-index: 95;
+    display: none;
+    animation: slideUp 0.25s ease;
+}
+
+.teacher-notes-panel.active {
+    display: block;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.teacher-notes-panel h4 {
+    font-family: var(--font-gaming);
+    font-size: 12px;
+    color: var(--neon-yellow);
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 6px;
+}
+
+.teacher-notes-panel p {
+    font-size: 12px;
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+/* Grids */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+@media (max-width: 860px) {
+    .grid-3, .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mini games */
+.game-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 30px;
+    align-items: stretch;
+    width: 100%;
+}
+
+@media (max-width: 860px) {
+    .game-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.game-panel-main {
+    background: rgba(0,0,0,0.2);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 320px;
+    position: relative;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.game-instructions {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    line-height: 1.5;
+    max-width: 480px;
+}
+
+.game-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Quest Board */
+.quest-board {
+    background: #0d0f17;
+    border: 2px solid var(--neon-yellow);
+    box-shadow: 0 0 15px var(--neon-yellow-glow);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.quest-title {
+    font-family: var(--font-gaming);
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--neon-yellow);
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quest-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+}
+
+.quest-goals-title {
+    font-family: var(--font-gaming);
+    font-size: 11px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+
+.quest-goal-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+}
+
+.quest-goal-item input[type="checkbox"] {
+    margin-top: 3px;
+    accent-color: var(--neon-yellow);
+}
+
+.concept-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: var(--font-gaming);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: rgba(255, 229, 0, 0.12);
+    color: var(--neon-yellow);
+    border: 1px solid rgba(255, 229, 0, 0.25);
+    margin-bottom: 12px;
+}
+
+.glow-btn {
+    border: 2px solid var(--neon-yellow);
+    box-shadow: 0 0 10px var(--neon-yellow-glow);
+    animation: glow-pulse 2s infinite alternate;
+}
+
+@keyframes glow-pulse {
+    from { box-shadow: 0 0 5px var(--neon-yellow-glow); }
+    to { box-shadow: 0 0 20px rgba(255, 229, 0, 0.6); }
+}
+
+.keyboard-shortcut {
+    display: inline-block;
+    padding: 2px 6px;
+    background: #2b2e3d;
+    border-bottom: 3px solid #1c1d26;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 10px;
+    color: var(--text-primary);
+    margin: 0 2px;
+}
+
+.mech-layout {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 24px;
+    width: 100%;
+    align-items: stretch;
+    margin-top: 5px;
+}
+
+.mech-grid-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.mech-node-btn {
+    padding: 10px 14px;
+    text-align: left;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.mech-node-btn::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0; width: 3px;
+    background: var(--neon-yellow);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.mech-node-btn:hover {
+    border-color: rgba(255, 229, 0, 0.4);
+}
+
+.mech-node-btn.active {
+    border-color: var(--neon-yellow);
+    box-shadow: 0 0 10px var(--neon-yellow-glow);
+    background: rgba(255, 229, 0, 0.03);
+}
+
+.mech-node-btn.active::before {
+    opacity: 1;
+}
+
+@media (max-width: 860px) {
+    .mech-layout {
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+    }
+    .mech-grid-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+        max-height: 160px;
+        overflow-y: auto;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- HUD TOP PANEL -->
+    <header class="hud-header">
+        <div class="hud-title">
+            <span class="badge">LEVEL 02</span>
+            <span>DESAIN NARASI GIM</span>
+        </div>
+        <div class="timer-panel">
+            <div class="timer-box" id="hudSlideTimer">
+                <span class="timer-lbl">Slide Time</span>
+                <span class="timer-val" id="hudSlideTimeVal">05:00</span>
+            </div>
+            <div class="timer-box" id="hudGlobalTimer">
+                <span class="timer-lbl">Total Time</span>
+                <span class="timer-val" id="hudGlobalTimeVal">90:00</span>
+            </div>
+        </div>
+        <a href="index.html" class="hud-menu-btn">🚪 LOBBY</a>
+    </header>
+
+    <!-- FLOATING TEACHER NOTES -->
+    <button class="teacher-notes-trigger" id="btnNotesToggle" title="Catatan Aktivitas Guru">💡</button>
+    <div class="teacher-notes-panel" id="notesPanel">
+        <h4>📝 CATATAN AKTIVITAS GURU</h4>
+        <p id="notesContent">Guru menyapa siswa dengan ramah and penuh energi (Menggembirakan).</p>
+    </div>
+
+    <!-- MAIN SCROLL DECK -->
+    <div class="deck" id="mainDeck">
+        
+        
+    <!-- SLIDE 1: WELCOME SCREEN -->
+    <section class="slide" data-duration="5">
+        <div style="position: absolute; right: 6vw; top: 8vh; font-family: var(--font-gaming); font-size: clamp(80px, 14vw, 150px); font-weight: 900; color: rgba(255,229,0,0.03); line-height: 1; user-select: none;">02</div>
+        <div class="concept-tag">STAGE 01 — START SCREEN</div>
+        <h1>Melangkah ke Dunia Game Design:<br><span class="accent">Desain Narasi Gim</span></h1>
+        <p class="lead" style="margin-top: 15px; max-width:650px;">Menjadi Game Designer Profesional</p>
+        
+        <div style="margin-top: 40px; display: flex; gap: 15px;">
+            <button class="btn btn-primary glow-btn" id="btnStartDeck">▶ PLAY PRESENTATION</button>
+            <a href="index.html" class="btn btn-secondary">🏠 MAIN MENU</a>
+        </div>
+        
+        <div style="margin-top: 50px; display: flex; gap: 30px; border-top: 1px solid var(--border-color); padding-top: 20px; max-width: 600px;">
+            <div>
+                <span style="display:block; font-size:10px; color:var(--text-secondary); text-transform:uppercase;">Durasi</span>
+                <strong style="font-family:var(--font-gaming); color:var(--neon-yellow); font-size:16px;">2 JP (90 Mins)</strong>
+            </div>
+            <div>
+                <span style="display:block; font-size:10px; color:var(--text-secondary); text-transform:uppercase;">Tipe Misi</span>
+                <strong style="font-family:var(--font-gaming); color:var(--neon-yellow); font-size:16px;">Main Campaign</strong>
+            </div>
+            <div>
+                <span style="display:block; font-size:10px; color:var(--text-secondary); text-transform:uppercase;">Quest Rewards</span>
+                <strong style="font-family:var(--font-gaming); color:var(--neon-yellow); font-size:16px;">+100 XP &amp; Knowledge</strong>
+            </div>
+        </div>
+    </section>
+    
+        
+    <!-- SLIDE 2: INTERACTIVE MINI-GAME -->
+    <section class="slide" data-duration="15">
+        <div class="concept-tag">STAGE 02 — ICE BREAKING MISSION</div>
+        <h2>🕹️ Mini-Game: <span class="accent">Lanjutkan Ceritanya!</span></h2>
+        
+        <div class="game-layout">
+            <div class="game-panel-main">
+                
+        <div class="game-container">
+            <div class="game-instructions">Tekan tombol generator untuk mendapatkan kalimat pembuka cerita RPG fantasi. Secara estafet, siswa menambahkan kalimat lanjutan berikutnya pada kolom di bawah!</div>
+            <div class="story-box" style="background:#090b10; border:2px solid var(--neon-yellow); border-radius:8px; padding:15px; width:100%; max-width:500px; height:200px; overflow-y:auto; font-family:'Courier New', monospace; color:#33ff33; line-height:1.4; text-align:left; margin-bottom:15px;">
+                <p id="storyContent">[Klik Generator Kalimat Pembuka untuk memulai cerita...]</p>
+            </div>
+            <div style="width:100%; max-width:500px; display:flex; gap:10px; margin-bottom:15px;">
+                <input type="text" id="storyInput" placeholder="Ketik kalimat lanjutan di sini..." style="flex:1; background:#1b1d26; border:1px solid var(--border-color); border-radius:6px; color:#fff; padding:10px; font-family:var(--font-body);">
+                <button class="btn btn-primary" id="btnAddSentence" style="padding:10px 20px;">Tambah ➕</button>
+            </div>
+            <div class="game-controls">
+                <button class="btn btn-secondary" id="btnGenOpening">🎲 Generator Kalimat Pembuka</button>
+                <button class="btn btn-ghost" id="btnResetStory" style="color:#ff5555; border-color:#ff5555;">💥 Reset Cerita</button>
+            </div>
+        </div>
+        <script>
+            (function() {
+                const storyContent = document.getElementById('storyContent');
+                const storyInput = document.getElementById('storyInput');
+                const btnAddSentence = document.getElementById('btnAddSentence');
+                const btnGenOpening = document.getElementById('btnGenOpening');
+                const btnResetStory = document.getElementById('btnResetStory');
+                
+                const openings = [
+                    "Di reruntuhan kuno Kastil Aethelgard yang diselimuti kabut abadi, sebuah peti batu bercahaya kuning keemasan perlahan terbuka...",
+                    "Sebagai programmer AI di koloni Mars tahun 2145, kamu baru menyadari bahwa kode NPC di simulator pertanian mulai menulis log kepribadian sendiri...",
+                    "Tepat jam 12 malam, layar mesin arcade tua di pojok kantin SMK tiba-tiba menyala sendiri, memunculkan prompt bertuliskan: 'Masukkan Jiwa Anda'...",
+                    "Karakter utamamu terbangun di tengah hutan pixel art, tanpa memori, hanya memegang secarik kertas bertuliskan 'Jangan ikuti kelinci mekanik'..."
+                ];
+                
+                let sentences = [];
+                
+                function updateStory() {
+                    if (sentences.length === 0) {
+                        storyContent.textContent = "[Klik Generator Kalimat Pembuka untuk memulai cerita...]";
+                    } else {
+                        storyContent.innerHTML = sentences.map((s, i) => `<span style="color:${i===0?'#ffcc00':'#33ff33'}">${s}</span>`).join(" ");
+                    }
+                }
+                
+                btnGenOpening.addEventListener('click', () => {
+                    const r = Math.floor(Math.random() * openings.length);
+                    sentences = [openings[r]];
+                    updateStory();
+                });
+                
+                btnAddSentence.addEventListener('click', () => {
+                    const txt = storyInput.value.strip ? storyInput.value.strip() : storyInput.value.trim();
+                    if (!txt) return;
+                    if (sentences.length === 0) {
+                        sentences.push(txt);
+                    } else {
+                        sentences.push(txt);
+                    }
+                    storyInput.value = "";
+                    updateStory();
+                    // Scroll to bottom
+                    const box = document.querySelector('.story-box');
+                    box.scrollTop = box.scrollHeight;
+                });
+                
+                storyInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') btnAddSentence.click();
+                });
+                
+                btnResetStory.addEventListener('click', () => {
+                    sentences = [];
+                    updateStory();
+                });
+            })();
+        </script>
+        
+            </div>
+            
+            <div class="card" style="display:flex; flex-direction:column; justify-content:space-between; height:100%;">
+                <div>
+                    <div class="num">MISSION BRIEFING</div>
+                    <h3 style="font-size:16px; margin-bottom:10px;">Aturan Permainan</h3>
+                    <p style="font-size:13px; line-height:1.6; margin-bottom:15px;">Guru memulai satu kalimat pembuka game fantasi, siswa secara estafet menambahkan kalimat berikutnya bergantian untuk membentuk alur cerita unik dan tidak terduga.</p>
+                </div>
+                <div style="background:rgba(255,229,0,0.05); border:1px solid rgba(255,229,0,0.15); border-radius:8px; padding:12px; margin-top:15px;">
+                    <div style="font-family:var(--font-gaming); font-size:10px; color:var(--neon-yellow); font-weight:700; margin-bottom:4px;">GURU NOTES:</div>
+                    <p style="font-size:11px; color:#ccc; line-height:1.4;">Beri skor kecil (+5 XP) pada tim yang berhasil menebak atau berpartisipasi aktif!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        
+    <!-- SLIDE 3: BERKESADARAN (MINDFUL) -->
+    <section class="slide" data-duration="5">
+        <div class="concept-tag">STAGE 03 — MIND TRIVIA LOADING</div>
+        <div class="split-layout">
+            <div>
+                <div style="font-family:var(--font-gaming); font-size:13px; color:var(--neon-yellow); font-weight:700; margin-bottom:8px; letter-spacing:0.05em;">PERTANYAAN PEMANTIK:</div>
+                <h2 style="font-size:clamp(22px, 3vw, 36px); line-height:1.2; text-shadow:0 0 10px rgba(255,255,255,0.05);">Mengapa kita harus mempelajari Desain Narasi Gim?</h2>
+            </div>
+            
+            <div class="card" style="padding:30px;">
+                <div class="num">LOADING TRIVIA INFO</div>
+                <h3 style="color:var(--neon-yellow); margin-bottom:12px;">Ideation Mode</h3>
+                <p style="font-size:14.5px; line-height:1.6; color:var(--text-primary);">Mengapa Gim Butuh Cerita? Menjelaskan bahwa narasi yang kuat adalah alasan mengapa pemain terus memainkan game RPG/petualangan selama ratusan jam dan rela membeli skin karakter kesayangan mereka.</p>
+            </div>
+        </div>
+    </section>
+    
+        
+    <!-- SLIDE 4: BERMAKNA (MEANINGFUL) -->
+    <section class="slide" data-duration="6">
+        <div class="concept-tag">STAGE 04 — REAL WORLD QUEST LOG</div>
+        <div class="split-layout">
+            <div>
+                <div style="font-family:var(--font-gaming); font-size:13px; color:var(--neon-yellow); font-weight:700; margin-bottom:8px; letter-spacing:0.05em;">KONEKSI DUNIA NYATA:</div>
+                <h2>Koneksi Dunia Nyata</h2>
+                <p class="lead" style="font-size:15.5px; line-height:1.6; margin-top:15px;">Menghubungkan teori perancangan dengan game populer yang kalian mainkan sehari-hari agar lebih bermakna.</p>
+            </div>
+            
+            <div class="card" style="padding:30px; border-color:rgba(255,229,0,0.25);">
+                <div class="num" style="display:flex; justify-content:space-between;"><span>LOG ENTRY #04</span> <span style="background:var(--neon-yellow); color:#000; padding:1px 6px; border-radius:4px; font-size:10px;">LORE DISCOVERY</span></div>
+                <h3 style="color:#fff; margin-bottom:12px; font-size:18px;">💡 Bercerita Tanpa Bicara</h3>
+                <p style="font-size:14px; line-height:1.6; color:var(--text-secondary);">Menunjukkan contoh environmental storytelling pada Minecraft (ruins, temple) dan Dark Souls untuk memperlihatkan bahwa cerita game disampaikan melalui gameplay dan lingkungan.</p>
+            </div>
+        </div>
+    </section>
+    
+        
+    <!-- SLIDE 5: TEORI UTAMA (MEMAHAMI) - INTERACTIVE CODEX -->
+    <section class="slide" data-duration="10">
+        <div class="concept-tag">STAGE 05 — CORE MODULE / CODEX</div>
+        <h2 style="margin-bottom:8px;">📚 Konsep Dasar & Teori</h2>
+        <p style="color:var(--text-secondary); font-size:13px; margin-bottom:10px; max-width:700px;">
+            Pilih dan klik node materi di sebelah kiri untuk membuka penjelasan lengkap mengenai materi perancangan gim hari ini:
+        </p>
+        
+        <div class="codex-layout">
+            <div class="codex-nodes-list">
+                
+        <button class="codex-node-btn active" data-idx="0">
+            <span class="node-num">NODE 01</span>
+            <span class="node-title">Struktur Narasi</span>
+        </button>
+        
+        <button class="codex-node-btn " data-idx="1">
+            <span class="node-num">NODE 02</span>
+            <span class="node-title">Character Development Sheet</span>
+        </button>
+        
+        <button class="codex-node-btn " data-idx="2">
+            <span class="node-num">NODE 03</span>
+            <span class="node-title">World-building & Lore</span>
+        </button>
+        
+        <button class="codex-node-btn " data-idx="3">
+            <span class="node-num">NODE 04</span>
+            <span class="node-title">Quest Tree Bercabang</span>
+        </button>
+        
+            </div>
+            
+            <div class="codex-display-screen" id="codexScreen">
+                <div class="screen-hdr">[ DATAPAD: DECODED CONTENT ]</div>
+                <h3 id="codexTitle">Struktur Narasi (Linear vs Non-Linear)</h3>
+                <p id="codexDesc"><strong>Narasi Linear</strong> memiliki satu jalur cerita tetap dari awal hingga akhir tanpa adanya pilihan dari pemain (contoh: game petualangan klasik). <strong>Narasi Non-Linear</strong> memberikan kebebasan kepada pemain untuk membuat keputusan yang akan memengaruhi alur cerita, membuka side-quest berbeda, dan menentukan ending cerita (contoh: game RPG modern).</p>
+            </div>
+        </div>
+    </section>
+    
+        
+    <!-- SLIDE 6: AKTIVITAS KELOMPOK (MENGAPLIKASIKAN) -->
+    <section class="slide" data-duration="45">
+        <div class="concept-tag">STAGE 06 — CO-OP QUEST (MAIN QUEST)</div>
+        <div class="split-layout">
+            <div class="quest-board">
+                <div class="quest-title">🛡️ MAIN QUEST: Lembar Kerja Praktik Kelompok</div>
+                <p class="quest-desc">🚀 Membuat Character Sheet untuk tokoh utama game kelompok, menulis sinopsis latar dunia, dan merancang Quest Tree bercabang sederhana untuk side-quest sampingan.</p>
+                
+                <div class="quest-goals-title">🎯 Quest Objectives (Kriteria Sukses):</div>
+                <div style="margin-bottom:20px;">
+                    
+        <label class="quest-goal-item">
+            <input type="checkbox"> <span>Membuat lembar profil (Character Sheet) tokoh utama</span>
+        </label>
+        
+        <label class="quest-goal-item">
+            <input type="checkbox"> <span>Menuliskan lore/sinopsis latar belakang dunia game</span>
+        </label>
+        
+        <label class="quest-goal-item">
+            <input type="checkbox"> <span>Menggambar Quest Tree bercabang lengkap dengan aksi-konsekuensi</span>
+        </label>
+        
+                </div>
+            </div>
+            
+            <div class="card" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+                <div class="num">QUEST COUNTDOWN</div>
+                <div id="questTimerVal" style="font-family:var(--font-gaming); font-size:56px; font-weight:900; color:var(--neon-yellow); margin:15px 0;">45:00</div>
+                <div style="display:flex; gap:10px; width:100%; max-width:320px;">
+                    <button class="btn btn-primary" id="btnStartQuest" style="flex:1;">▶ START</button>
+                    <button class="btn btn-secondary" id="btnResetQuest">↺ RESET</button>
+                </div>
+                <button class="btn btn-ghost" id="btnShowExample" style="width:100%; max-width:320px; margin-top:10px;">🔍 LIHAT CONTOH HASIL</button>
+                <p style="font-size:11px; color:var(--text-secondary); margin-top:12px;">Tekan tombol di atas untuk memulai hitung mundur pengerjaan kelompok 45 menit.</p>
+            </div>
+        </div>
+    </section>
+    
+        
+    <!-- SLIDE 7: REVIEW & FEEDBACK (MEREFLEKSIKAN) -->
+    <section class="slide" data-duration="10">
+        <div class="concept-tag">STAGE 07 — BOSS BATTLE FEEDBACK</div>
+        <div class="split-layout">
+            <div>
+                <div class="concept-tag" style="background:#ff3333; color:#fff; border-color:#ff3333; margin-bottom:10px;">CO-OP ASSESSMENT</div>
+                <h2>📢 Peer Review: Sesi Umpan Balik Rekan (Peer Feedback)</h2>
+                <p class="lead" style="font-size:14px; line-height:1.6; margin-top:15px;">💬 Simulasi 'Pilih Petualanganmu': Kelompok lain mencoba menelusuri Quest Tree yang dirancang untuk menguji kelogisan alur cerita dan konsekuensi pilihan pemain.</p>
+                <p style="font-size:12px; color:var(--text-secondary); margin-top:15px; border-left:3px solid var(--neon-yellow); padding-left:12px;">Siswa mempresentasikan hasil karyanya di depan kelas. Kelompok penilai bertindak sebagai kritikus/investor game.</p>
+            </div>
+            
+            <div class="card" style="padding:24px;">
+                <div class="num">EVALUATION METRICS</div>
+                <h3 style="font-size:15px; margin-bottom:12px;">Tabel Skor Umpan Balik:</h3>
+                
+                <div style="display:flex; flex-direction:column; gap:6px;">
+                    
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding:8px 0; font-size:12.5px;">
+            <span>⭐ Kejelasan & Penyampaian (Max 2 Menit)</span>
+            <div class="stars-rating" style="color:var(--neon-yellow); font-size:14px; cursor:pointer;">⭐⭐⭐⭐⭐</div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding:8px 0; font-size:12.5px;">
+            <span>⭐ Kelogisan Desain & Alur Mekanik</span>
+            <div class="stars-rating" style="color:var(--neon-yellow); font-size:14px; cursor:pointer;">⭐⭐⭐⭐⭐</div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding:8px 0; font-size:12.5px;">
+            <span>⭐ Kreativitas Solusi / Keunikan Ide</span>
+            <div class="stars-rating" style="color:var(--neon-yellow); font-size:14px; cursor:pointer;">⭐⭐⭐⭐⭐</div>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding:8px 0; font-size:12.5px;">
+            <span>⭐ Kualitas Umpan Balik konstruktif dari Penilai</span>
+            <div class="stars-rating" style="color:var(--neon-yellow); font-size:14px; cursor:pointer;">⭐⭐⭐⭐⭐</div>
+        </div>
+        
+                </div>
+                
+                <div style="margin-top:15px; background:rgba(0,0,0,0.2); border-radius:6px; padding:10px; border:1px solid var(--border-color); display:flex; gap:10px; align-items:center;">
+                    <span style="font-family:var(--font-gaming); font-size:10px; color:var(--neon-yellow);">TOTAL:</span>
+                    <input type="text" placeholder="Masukkan Catatan Evaluasi..." style="flex:1; background:transparent; border:none; color:#fff; font-size:11px; outline:none;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        
+    <!-- SLIDE 8: REFLEKSI & PENUTUP (VICTORY SCREEN) -->
+    <section class="slide" data-duration="5">
+        <div class="concept-tag">STAGE 08 — VICTORY SCREEN / SAVE GAME</div>
+        <div class="split-layout">
+            <div>
+                <h1 style="font-size:52px;"><span class="accent">🏆 QUEST COMPLETE!</span></h1>
+                <h2 style="font-size:24px; margin-top:10px;">Apa yang Kita Pelajari Hari Ini?</h2>
+                <div style="font-family:var(--font-gaming); color:#10B981; font-size:18px; margin:20px 0; font-weight:700;">EXP GAINED: +100 XP (LEVEL UP!)</div>
+                
+                <div style="margin-top:10px;">
+                    <span style="font-family:var(--font-gaming); font-size:11px; color:var(--text-secondary); display:block; margin-bottom:5px;">QUEST LOG (POIN REFLEKSI):</span>
+                    <ul>
+                        
+        <li style="margin-bottom:10px; font-size:14px; color:var(--text-primary); list-style-type:square; margin-left:20px;">3 hal baru yang dipahami</li>
+        
+        <li style="margin-bottom:10px; font-size:14px; color:var(--text-primary); list-style-type:square; margin-left:20px;">1 hal yang ingin dieksplorasi lebih lanjut.</li>
+        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="card" style="border-color:#10B981; background:rgba(16,185,129,0.02); display:flex; flex-direction:column; justify-content:space-between; height:100%; min-height:220px;">
+                <div>
+                    <div class="num" style="color:#10B981;">NEXT LEVEL UNLOCKED 🔓</div>
+                    <h3 style="font-size:18px; margin-bottom:10px;">Pertemuan Selanjutnya:</h3>
+                    <p style="font-size:14px; line-height:1.5; color:var(--text-secondary);">Materi pembelajaran minggu depan.</p>
+                </div>
+                
+                <div style="border-top:1px solid rgba(16,185,129,0.15); padding-top:15px; display:flex; gap:10px;">
+                    <a href="index.html" class="btn btn-primary" style="background:#10B981; color:#000; box-shadow:0 0 10px rgba(16,185,129,0.3); flex:1;">🎮 KEMBALI KE LOBBY</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        
+    </div>
+
+    <!-- HUD FOOTER NAVIGATION -->
+    <footer class="hud-footer">
+        <div class="controls">
+            <button id="btnPrev" title="Kembali (Panah Kiri)">◀</button>
+            <button id="btnNext" title="Lanjut (Panah Kanan / Spasi)">▶</button>
+        </div>
+        <div class="xp-bar-wrap">
+            <div class="xp-bar-fill" id="xpBar"></div>
+        </div>
+        <div class="xp-label" id="xpLabel">XP 1 / 8</div>
+    </footer>
+
+    <!-- EXAMPLE MODAL OVERLAY -->
+    <div class="modal-overlay" id="exampleModalOverlay">
+        <div class="modal-box" style="max-width: 600px; text-align: left;">
+            <button class="modal-close" id="btnExampleClose" aria-label="Tutup">✕</button>
+            <div style="font-family: var(--font-gaming); font-size: 9px; color: var(--neon-yellow); margin-bottom: 8px; text-transform: uppercase;">[ DATABASE REFERENCE: EXPECTED WORK OUTPUT ]</div>
+            <h3 style="font-family: var(--font-gaming); font-size: 18px; color: #fff; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px;" id="exampleModalTitle">Contoh Hasil Pengerjaan</h3>
+            <div style="font-size: 13px; line-height: 1.5; color: var(--text-primary); max-height: 380px; overflow-y: auto;" id="exampleModalContent">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- INTERACTIVE SCRIPTS -->
+    <script>
+        const deck = document.getElementById('mainDeck');
+        const slides = Array.from(document.querySelectorAll('.slide'));
+        const xpBar = document.getElementById('xpBar');
+        const xpLabel = document.getElementById('xpLabel');
+        const prevBtn = document.getElementById('btnPrev');
+        const nextBtn = document.getElementById('btnNext');
+        const btnStart = document.getElementById('btnStartDeck');
+        
+        const teacherNotes = ["Guru menyapa siswa dengan ramah dan penuh energi (Menggembirakan). Guru memotivasi siswa tentang peran game designer sebagai pencipta dunia virtual.", "Siswa berpartisipasi aktif secara individu/kelompok dalam mini game (Menggembirakan). Guru memberikan skor bonus kecil sebagai apresiasi keaktifan.", "Guru memicu pemikiran reflektif siswa dengan pertanyaan pemantik (Berkesadaran). Siswa menyadari relevansi materi ini bagi kesuksesan karir masa depan mereka.", "Guru mengaitkan materi abstrak dengan game populer yang dimainkan siswa sehari-hari (Bermakna). Siswa berbagi pengalaman saat bermain game tersebut.", "Guru menjelaskan teori dasar secara interaktif (Fase 1: Memahami). Guru membuka sesi tanya jawab cepat untuk memastikan pemahaman dasar siswa.", "Guru membagi kelompok dan memandu lembar kerja praktik (Fase 2: Mengaplikasikan). Guru berkeliling lab untuk membimbing dan memberikan bantuan teknis (Menggembirakan).", "Setiap kelompok menyajikan karyanya secara singkat. Kelompok lain memberikan masukan konstruktif (Fase 3: Merefleksikan). Guru memandu jalannya review.", "Guru mengajak siswa merenungkan pembelajaran hari ini (Berkesadaran). Guru menutup kelas dengan apresiasi atas kerja keras semua siswa dan salam penutup."];
+        const notesPanel = document.getElementById('notesPanel');
+        const notesContent = document.getElementById('notesContent');
+        const notesToggle = document.getElementById('btnNotesToggle');
+        
+        let curSlideIdx = 0;
+        
+        // Horizontal snapping navigation
+        function updateActiveSlide() {
+            let minVal = Infinity;
+            let idx = 0;
+            slides.forEach((s, i) => {
+                const dist = Math.abs(s.getBoundingClientRect().left);
+                if (dist < minVal) {
+                    minVal = dist;
+                    idx = i;
+                }
+            });
+            
+            if (idx !== curSlideIdx) {
+                curSlideIdx = idx;
+                onSlideChanged(idx);
+            }
+        }
+        
+        function onSlideChanged(idx) {
+            const progress = ((idx + 1) / slides.length) * 100;
+            xpBar.style.width = progress + '%';
+            xpLabel.textContent = `XP ${idx + 1} / ${slides.length}`;
+            
+            notesContent.textContent = teacherNotes[idx] || "Tidak ada catatan aktivitas spesifik.";
+            
+            loadSlideTimer(idx);
+        }
+        
+        deck.addEventListener('scroll', () => {
+            requestAnimationFrame(updateActiveSlide);
+        });
+        
+        function scrollToSlide(idx) {
+            slides[idx].scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        prevBtn.addEventListener('click', () => {
+            const nextIdx = Math.max(0, curSlideIdx - 1);
+            scrollToSlide(nextIdx);
+        });
+        
+        nextBtn.addEventListener('click', () => {
+            const nextIdx = Math.min(slides.length - 1, curSlideIdx + 1);
+            scrollToSlide(nextIdx);
+        });
+        
+        if (btnStart) {
+            btnStart.addEventListener('click', () => scrollToSlide(1));
+        }
+        
+        window.addEventListener('keydown', (e) => {
+            if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                nextBtn.click();
+            }
+            if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                prevBtn.click();
+            }
+        });
+        
+        notesToggle.addEventListener('click', () => {
+            notesPanel.classList.toggle('active');
+        });
+        
+        window.addEventListener('click', (e) => {
+            if (e.target !== notesToggle && !notesPanel.contains(e.target)) {
+                notesPanel.classList.remove('active');
+            }
+        });
+        
+        // ---------- TIMERS (Slide & Global) ----------
+        let slideSeconds = 0;
+        let slideInterval = null;
+        const slideTimerVal = document.getElementById('hudSlideTimeVal');
+        const slideTimerBox = document.getElementById('hudSlideTimer');
+        
+        function loadSlideTimer(idx) {
+            clearInterval(slideInterval);
+            slideTimerBox.className = "timer-box";
+            
+            const mins = parseFloat(slides[idx].dataset.duration) || 5;
+            slideSeconds = Math.round(mins * 60);
+            renderSlideTimer();
+            
+            slideInterval = setInterval(() => {
+                if (slideSeconds > 0) {
+                    slideSeconds--;
+                    renderSlideTimer();
+                } else {
+                    clearInterval(slideInterval);
+                }
+            }, 1000);
+        }
+        
+        function renderSlideTimer() {
+            const m = Math.floor(slideSeconds / 60);
+            const s = slideSeconds % 60;
+            const str = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+            slideTimerVal.textContent = str;
+            
+            if (slideSeconds <= 30 && slideSeconds > 10) {
+                slideTimerBox.classList.add('warn');
+            } else if (slideSeconds <= 10) {
+                slideTimerBox.classList.remove('warn');
+                slideTimerBox.classList.add('danger');
+            }
+        }
+        
+        let globalSeconds = 90 * 60;
+        const globalTimerVal = document.getElementById('hudGlobalTimeVal');
+        const globalTimerBox = document.getElementById('hudGlobalTimer');
+        
+        const globalInterval = setInterval(() => {
+            if (globalSeconds > 0) {
+                globalSeconds--;
+                const m = Math.floor(globalSeconds / 60);
+                const s = globalSeconds % 60;
+                globalTimerVal.textContent = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+                
+                if (globalSeconds <= 600 && globalSeconds > 300) {
+                    globalTimerBox.classList.add('warn');
+                } else if (globalSeconds <= 300) {
+                    globalTimerBox.classList.remove('warn');
+                    globalTimerBox.classList.add('danger');
+                }
+            } else {
+                clearInterval(globalInterval);
+            }
+        }, 1000);
+        
+        // ---------- QUEST BOARD TIMER (Slide 6) ----------
+        let questSeconds = 45 * 60;
+        let questInterval = null;
+        const questTimerVal = document.getElementById('questTimerVal');
+        const btnStartQuest = document.getElementById('btnStartQuest');
+        const btnResetQuest = document.getElementById('btnResetQuest');
+        
+        function renderQuestTimer() {
+            const m = Math.floor(questSeconds / 60);
+            const s = questSeconds % 60;
+            questTimerVal.textContent = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+        }
+        
+        if (btnStartQuest) {
+            btnStartQuest.addEventListener('click', () => {
+                if (questInterval) {
+                    clearInterval(questInterval);
+                    questInterval = null;
+                    btnStartQuest.textContent = "▶ RESUME MISSION";
+                    btnStartQuest.style.background = "var(--neon-yellow)";
+                } else {
+                    btnStartQuest.textContent = "⏸ PAUSE MISSION";
+                    btnStartQuest.style.background = "#ffb700";
+                    questInterval = setInterval(() => {
+                        if (questSeconds > 0) {
+                            questSeconds--;
+                            renderQuestTimer();
+                        } else {
+                            clearInterval(questInterval);
+                            questInterval = null;
+                            alert("⌛ MISSION TIME LIMIT EXCEEDED!");
+                        }
+                    }, 1000);
+                }
+            });
+        }
+        
+        if (btnResetQuest) {
+            btnResetQuest.addEventListener('click', () => {
+                clearInterval(questInterval);
+                questInterval = null;
+                questSeconds = 45 * 60;
+                renderQuestTimer();
+                if (btnStartQuest) {
+                    btnStartQuest.textContent = "▶ START MISSION";
+                    btnStartQuest.style.background = "var(--neon-yellow)";
+                }
+            });
+        }
+        
+        // Interactive stars peer rating
+        document.querySelectorAll('.stars-rating').forEach(el => {
+            el.addEventListener('click', (e) => {
+                const rect = el.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const starWidth = rect.width / 5;
+                const rating = Math.ceil(clickX / starWidth);
+                el.textContent = '⭐'.repeat(rating) + '☆'.repeat(5 - rating);
+            });
+        });
+        
+        // ---------- CODEX INTERACTION (Slide 5) ----------
+        const codexData = [{"title": "Struktur Narasi (Linear vs Non-Linear)", "desc": "<strong>Narasi Linear</strong> memiliki satu jalur cerita tetap dari awal hingga akhir tanpa adanya pilihan dari pemain (contoh: game petualangan klasik). <strong>Narasi Non-Linear</strong> memberikan kebebasan kepada pemain untuk membuat keputusan yang akan memengaruhi alur cerita, membuka side-quest berbeda, dan menentukan ending cerita (contoh: game RPG modern)."}, {"title": "Character Development Sheet", "desc": "Lembar perancangan karakter agar terasa hidup. Elemen wajibnya meliputi: <strong>Motivasi</strong> (tujuan utama karakter bertualang), <strong>Kelemahan/Flaw</strong> (sifat buruk atau keterbatasan fisik agar karakter terasa manusiawi dan berkembang), serta <strong>Archetype</strong> (peran psikologis karakter, misal: Sang Pahlawan, Mentor bijak, atau Trickster jenaka)."}, {"title": "World-building & Lore", "desc": "World-building adalah perancangan sejarah, budaya, geografi, dan hukum fisika/sihir yang berlaku di dunia game Anda. <strong>Lore</strong> adalah sejarah latar belakang dunia tersebut yang bisa disampaikan secara eksplisit melalui dialog/buku harian, maupun implisit melalui <em>environmental storytelling</em> (misal: reruntuhan bangunan yang menceritakan perang masa lalu)."}, {"title": "Quest Tree Bercabang", "desc": "Diagram pohon untuk memetakan alur misi game. Quest Tree membantu desainer memvisualisasikan bagaimana pilihan dialog atau aksi pemain akan mencabangkan alur cerita, misi sampingan apa saja yang terbuka, serta memastikan tidak ada alur misi yang buntu atau tidak logis."}];
+        const codexScreen = document.getElementById('codexScreen');
+        const codexTitle = document.getElementById('codexTitle');
+        const codexDesc = document.getElementById('codexDesc');
+        const nodeButtons = document.querySelectorAll('.codex-node-btn');
+        
+        nodeButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                nodeButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const idx = parseInt(btn.dataset.idx);
+                const data = codexData[idx];
+                
+                codexTitle.style.opacity = 0;
+                codexDesc.style.opacity = 0;
+                
+                setTimeout(() => {
+                    codexTitle.innerHTML = data.title;
+                    codexDesc.innerHTML = data.desc;
+                    
+                    codexTitle.style.opacity = 1;
+                    codexDesc.style.opacity = 1;
+                }, 150);
+            });
+        });
+
+        // ---------- SPECIAL MECHANICS CATALOG (Pertemuan 3 Slide 6) ----------
+        const mechButtons = document.querySelectorAll('.mech-node-btn');
+        if (mechButtons.length > 0) {
+            const mechData = [
+                {"title": "Movement Mechanics", "desc": "Mengatur bagaimana pemain bergerak dalam dunia game.<br><strong>Contoh aksi:</strong> Berjalan, berlari, melompat, memanjat, meluncur (dashing), berenang, terbang.<br><strong>Contoh game:</strong> <em>Celeste</em> (mekanik dash udara), <em>Assassin's Creed</em> (pergerakan parkour)."},
+                {"title": "Combat Mechanics", "desc": "Mengatur aksi pertempuran dan interaksi ofensif/defensif antar-karakter.<br><strong>Contoh aksi:</strong> Menyerang (tebasan pedang/menembak), menangkis (parrying), bertahan (blocking), kombo serangan, efek status (stun/freeze).<br><strong>Contoh game:</strong> <em>Dark Souls</em> (mekanik parry waktu kritis), <em>Devil May Cry</em> (style combat combo)."},
+                {"title": "Content Design", "desc": "Mengatur bagaimana pemain berinteraksi dengan konten, cerita, dan dunia game.<br><strong>Contoh aksi:</strong> Memilih dialog dengan NPC, menjelajahi percabangan cerita, memicu quest tersembunyi.<br><strong>Contoh game:</strong> <em>The Witcher 3</em> (percabangan cerita moral), <em>Detroit: Become Human</em> (interaksi narasi bercabang)."},
+                {"title": "Resource Management", "desc": "Mengatur bagaimana pemain mengumpulkan, menyimpan, dan menggunakan sumber daya.<br><strong>Contoh aksi:</strong> Mengelola amunisi (ammo), persediaan HP/Mana potion, berat barang bawaan (inventory grid).<br><strong>Contoh game:</strong> <em>Resident Evil 4</em> (manajemen koper inventory grid), <em>Minecraft</em> (sumber daya material)."},
+                {"title": "Progression Mechanics", "desc": "Mengatur peningkatan kekuatan, status, dan kemampuan karakter seiring waktu.<br><strong>Contoh aksi:</strong> Akumulasi XP, naik level, membuka pohon bakat (Skill Tree), peningkatan statistik dasar (Damage/HP).<br><strong>Contoh game:</strong> <em>Final Fantasy</em> (Sphere Grid progresi), <em>Diablo</em> (Skill Tree bakat)."},
+                {"title": "Puzzle Mechanics", "desc": "Mengatur tantangan pemecahan masalah berbasis logika untuk membuka jalan/misteri.<br><strong>Contoh aksi:</strong> Menggeser balok rintangan, mencocokkan warna/pola, mengaktifkan sakelar berurutan.<br><strong>Contoh game:</strong> <em>Portal</em> (puzzle fisika portal), <em>Tetris</em> (puzzle mencocokkan bentuk balok jatuh)."},
+                {"title": "Social Mechanics", "desc": "Mengatur interaksi dan komunikasi sosial antar-pemain dalam game multiplayer.<br><strong>Contoh aksi:</strong> Obrolan suara/teks, perdagangan item (trading), pembentukan clan/aliansi, PvP, dan Co-op.<br><strong>Contoh game:</strong> <em>Among Us</em> (mekanik diskusi sosial & voting), <em>Clash of Clans</em> (sistem clan & perang aliansi)."},
+                {"title": "Other Mechanics (Crafting & Stealth)", "desc": "Kategori mekanik pendukung lainnya:<br>• <strong>Crafting Mechanics:</strong> Menggabungkan bahan mentah untuk membuat item baru (Contoh: <em>Minecraft</em>).<br>• <strong>Stealth Mechanics:</strong> Menghindari deteksi visual/audio musuh (Contoh: <em>Metal Gear Solid</em>)."}
+            ];
+            const mechTitle = document.getElementById('mechTitle');
+            const mechDesc = document.getElementById('mechDesc');
+            
+            mechButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    mechButtons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    const idx = parseInt(btn.dataset.idx);
+                    const data = mechData[idx];
+                    
+                    mechTitle.style.opacity = 0;
+                    mechDesc.style.opacity = 0;
+                    
+                    setTimeout(() => {
+                        mechTitle.innerHTML = data.title;
+                        mechDesc.innerHTML = data.desc;
+                        
+                        mechTitle.style.opacity = 1;
+                        mechDesc.style.opacity = 1;
+                    }, 150);
+                });
+            });
+        }
+
+        // ---------- EXAMPLE MODAL INTERACTION (Slide 6) ----------
+        const exampleData = {"title": "Contoh Lembar Karakter &amp; Quest Tree Bercabang", "html": "\n        <div style=\"background:rgba(0,0,0,0.2); padding:15px; border-radius:8px; border:1px solid var(--border-color); margin-bottom:15px;\">\n            <strong style=\"color:var(--neon-yellow); display:block; margin-bottom:6px;\">1. Character Sheet Tokoh Utama</strong>\n            <p>• <strong>Nama:</strong> Leo, Mantan Ksatria Kerajaan.</p>\n            <p>• <strong>Motivasi:</strong> Menyelamatkan putrinya yang diculik naga penjaga gerbang utara.</p>\n            <p>• <strong>Kelemahan (Flaw):</strong> Takut pada kegelapan gulita (fobia) yang mengurangi akurasi serangan malam hari sebesar 50%.</p>\n        </div>\n        <div style=\"background:rgba(0,0,0,0.2); padding:15px; border-radius:8px; border:1px solid var(--border-color);\">\n            <strong style=\"color:var(--neon-yellow); display:block; margin-bottom:6px;\">2. Quest Tree: Misi Memasuki Hutan Hitam</strong>\n            <p>• <strong>Pilihan A (Lewat Rawa Beracun):</strong> Musuh lemah tapi terkena efek poison konstan (menguji kecepatan lari pemain).</p>\n            <p>• <strong>Pilihan B (Lewat Gua Sunyi):</strong> Tidak ada racun tapi gelap gulita (menguji kesiapan pemain membeli obor untuk fobia karakter Leo).</p>\n        </div>\n        "};
+        const exampleOverlay = document.getElementById('exampleModalOverlay');
+        const exampleTitle = document.getElementById('exampleModalTitle');
+        const exampleContent = document.getElementById('exampleModalContent');
+        const btnShowExample = document.getElementById('btnShowExample');
+        const btnExampleClose = document.getElementById('btnExampleClose');
+        
+        if (btnShowExample) {
+            btnShowExample.addEventListener('click', () => {
+                exampleTitle.innerHTML = exampleData.title;
+                exampleContent.innerHTML = exampleData.html;
+                exampleOverlay.classList.add('active');
+            });
+        }
+        
+        function closeExampleModal() {
+            exampleOverlay.classList.remove('active');
+        }
+        
+        if (btnExampleClose) {
+            btnExampleClose.addEventListener('click', closeExampleModal);
+        }
+        
+        exampleOverlay.addEventListener('click', (e) => {
+            if (e.target === exampleOverlay) closeExampleModal();
+        });
+        
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeExampleModal();
+            }
+        });
+    </script>
+</body>
+</html>

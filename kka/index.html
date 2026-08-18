@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Latihan Soal KKA - SMK Telkom Malang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #8b5cf6;
+      --primary-hover: #7c3aed;
+      --bg-dark: #07050f;
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --border-glass-focus: rgba(139, 92, 246, 0.4);
+      --text-main: #f3f4f6;
+      --text-secondary: #c7d2fe;
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', sans-serif;
+      --border-radius-lg: 20px;
+      --border-radius-md: 14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background-image: radial-gradient(rgba(139, 92, 246, 0.04) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 50px;
+    }
+    header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    header h1 span { color: var(--primary); }
+    header p {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Portal Grid */
+    .portal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .portal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--border-radius-lg);
+      padding: 35px 25px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+    .portal-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--border-glass-focus);
+      box-shadow: 0 12px 40px rgba(139, 92, 246, 0.15);
+    }
+
+    .card-icon {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+    .portal-card h2 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+    }
+    .portal-card p {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 30px;
+      flex-grow: 1;
+    }
+
+    .btn {
+      padding: 14px 24px;
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 0.95rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      text-align: center;
+      display: block;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(139, 92, 246, 0.3);
+    }
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-glass);
+      color: #ffffff;
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    footer {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.3);
+      border-top: 1px solid var(--border-glass);
+      padding-top: 24px;
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div style="text-align: left; margin-bottom: 30px;">
+      <a href="../index.html" style="display: inline-flex; align-items: center; gap: 8px; color: var(--primary); text-decoration: none; font-weight: 700; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.05em; transition: opacity 0.2s;" onmouseover="this.style.opacity=0.8" onmouseout="this.style.opacity=1;">
+        🏠 KEMBALI KE HUB UTAMA
+      </a>
+    </div>
+    <header class="fade-in">
+      <div style="font-size: 0.85rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: var(--primary); margin-bottom: 10px;">SMK Telkom Malang</div>
+      <h1>Ruang Latihan <span>KKA</span></h1>
+      <p>Portal Ujian Mandiri & Evaluasi Kompetensi Koding dan Kecerdasan Artifisial (HOTS).</p>
+    </header>
+
+    <div class="portal-grid">
+      
+      <!-- 1. QUIZ CARD -->
+      <div class="portal-card fade-in" style="animation-delay: 0.1s;">
+        <div>
+          <span class="card-icon">✍️</span>
+          <h2>Kuis Latihan Soal</h2>
+          <p>Uji pemahaman mandiri Anda melalui kuis latihan pemrograman & konsep AI berlevel HOTS (analisis logika & skenario kasus). Terlindungi dari inspect element kunci jawaban.</p>
+        </div>
+        <a href="soal/index.html" class="btn btn-primary">🎯 Mulai Ujian Kuis</a>
+      </div>
+
+      <!-- 2. DASHBOARD CARD -->
+      <div class="portal-card fade-in" style="animation-delay: 0.2s;">
+        <div>
+          <span class="card-icon">📊</span>
+          <h2>Dashboard Hasil</h2>
+          <p>Fitur khusus Guru untuk memantau rekapitulasi perolehan nilai latihan koding dan AI siswa secara real-time. Dilengkapi statistik ringkas dan ekspor data CSV.</p>
+        </div>
+        <a href="hasil.php" class="btn btn-secondary">📈 Pantau Nilai Siswa</a>
+      </div>
+
+    </div>
+
+    <footer class="fade-in" style="animation-delay: 0.3s;">
+      <p>© 2026 Tim Pembelajaran Koding & Kecerdasan Artifisial - SMK Telkom Malang</p>
+    </footer>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain Narasi Gim",
+  "deskripsi": "Merancang cerita, penulisan lore, struktur dialog, percabangan cerita, character arc, player agency, dan environmental storytelling dalam game design.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Studio Nusantara Game merancang game petualangan RPG Fantasi. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 2,
+      "question": "Studio Majapahit Games merancang game petualangan Shooter Taktis. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 3,
+      "question": "Studio Garuda Studio merancang game petualangan Platformer 2D. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 4,
+      "question": "Studio Siliwangi Digital merancang game petualangan Simulasi Bisnis. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 5,
+      "question": "Studio Lontar Media merancang game petualangan Horror Survival. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 6,
+      "question": "Studio Bhinneka Games merancang game petualangan Strategi Real-Time. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 7,
+      "question": "Studio Merdeka Play merancang game petualangan Balap Arkade. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 8,
+      "question": "Studio Khatulistiwa Interactive merancang game petualangan Puzzle Teka-Teki. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 9,
+      "question": "Studio Adiwiyata Games merancang game petualangan Roguelike Aksi. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 10,
+      "question": "Studio Piksel Kreasi merancang game petualangan Metroidvania. Mereka ingin menerapkan struktur narasi 'Linear'. Konsekuensi utama dari struktur narasi ini pada gameplay adalah...",
+      "options": {
+        "A": "Semua pemain akan mengalami urutan peristiwa cerita dan akhir yang sama persis tanpa ada cabang pilihan keputusan",
+        "B": "Peta level game otomatis terbentuk secara acak setiap kali pemain memulai sesi permainan baru",
+        "C": "Pemain bebas memilih faksi musuh mana yang ingin dijadikan rekan sekutu di tengah cerita",
+        "D": "Game tidak memerlukan pengisi suara (voice actor) karena tidak ada dialog sama sekali",
+        "E": "Pemain dapat menamatkan game hanya dalam waktu kurang dari lima menit sejak awal permainan"
+      },
+      "answer_hash": "bc7daaa4"
+    },
+    {
+      "no": 11,
+      "question": "Dalam game RPG Fantasi buatan Majapahit Games, pemain menjelajahi area pangkalan laboratorium terbengkalai. Tim naratif meletakkan detail visual berupa cangkir kopi berjamur di samping komputer yang masih menyala menampilkan log error sistem. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 12,
+      "question": "Dalam game Platformer 2D buatan Garuda Studio, pemain menjelajahi area kamar anak di rumah hantu. Tim naratif meletakkan detail visual berupa gambar sketsa monster bermata merah di bawah tempat tidur dengan coretan krayon 'dia selalu memperhatikan'. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 13,
+      "question": "Dalam game Horror Survival buatan Siliwangi Digital, pemain menjelajahi area benteng pertahanan perang abad pertengahan. Tim naratif meletakkan detail visual berupa tameng ksatria yang retak tertembus panah kayu raksasa yang tertancap di dinding batu. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 14,
+      "question": "Dalam game Balap Arkade buatan Lontar Media, pemain menjelajahi area stasiun luar angkasa sunyi. Tim naratif meletakkan detail visual berupa jejak tangan berlumpur hijau di jendela kaca yang retak menghadap ke luar angkasa gelap. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 15,
+      "question": "Dalam game Roguelike Aksi buatan Bhinneka Games, pemain menjelajahi area desa pertambangan yang kosong. Tim naratif meletakkan detail visual berupa gerobak emas terbalik yang tumpah berisi tulang belulang manusia memeluk bongkahan batu hitam. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 16,
+      "question": "Dalam game RPG Fantasi buatan Merdeka Play, pemain menjelajahi area perpustakaan kastil tua yang hancur. Tim naratif meletakkan detail visual berupa buku sejarah terbuka yang halaman pentingnya sengaja dirobek dan dibakar sebagian. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 17,
+      "question": "Dalam game Platformer 2D buatan Khatulistiwa Interactive, pemain menjelajahi area ruang makan bangsawan mewah. Tim naratif meletakkan detail visual berupa meja makan dengan makanan mewah yang membusuk, serta kursi raja yang terbalik jauh ke belakang. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 18,
+      "question": "Dalam game Horror Survival buatan Adiwiyata Games, pemain menjelajahi area penjara bawah tanah (dungeon). Tim naratif meletakkan detail visual berupa goresan garis perhitungan hari di dinding batu dekat borgol besi yang telah berkarat parah. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 19,
+      "question": "Dalam game Balap Arkade buatan Piksel Kreasi, pemain menjelajahi area pesawat tempur yang jatuh di hutan. Tim naratif meletakkan detail visual berupa parasut yang tersangkut di dahan pohon tinggi dengan tas medis kosong yang robek. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 20,
+      "question": "Dalam game Roguelike Aksi buatan Nusantara Game, pemain menjelajahi area pos penjaga perbatasan salju. Tim naratif meletakkan detail visual berupa api unggun yang sudah padam dengan gitar kayu yang patah tergeletak di samping selimut tebal. Teknik environmental storytelling ini bertujuan untuk menyampaikan...",
+      "options": {
+        "A": "Latar belakang peristiwa kelam di masa lalu area tersebut secara implisit tanpa menggunakan dialog teks yang membosankan",
+        "B": "Instruksi tombol keyboard yang harus ditekan pemain untuk memanjat dinding terdekat",
+        "C": "Informasi spesifikasi perangkat keras minimum untuk merender grafis area tersebut",
+        "D": "Harga promosi item kosmetik baju pelindung karakter di toko menu utama",
+        "E": "Tingkat frame rate per detik (fps) komputer saat memproses bayangan di area tersebut"
+      },
+      "answer_hash": "cf474001"
+    },
+    {
+      "no": 21,
+      "question": "Saat mendesain game RPG Fantasi, tim Garuda Studio ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 22,
+      "question": "Saat mendesain game Simulasi Bisnis, tim Siliwangi Digital ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 23,
+      "question": "Saat mendesain game Balap Arkade, tim Lontar Media ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 24,
+      "question": "Saat mendesain game Metroidvania, tim Bhinneka Games ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 25,
+      "question": "Saat mendesain game Platformer 2D, tim Merdeka Play ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 26,
+      "question": "Saat mendesain game Strategi Real-Time, tim Khatulistiwa Interactive ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 27,
+      "question": "Saat mendesain game Roguelike Aksi, tim Adiwiyata Games ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 28,
+      "question": "Saat mendesain game Shooter Taktis, tim Piksel Kreasi ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 29,
+      "question": "Saat mendesain game Horror Survival, tim Nusantara Game ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 30,
+      "question": "Saat mendesain game Puzzle Teka-Teki, tim Majapahit Games ingin memperkuat 'Player Agency'. Manakah fitur yang paling tepat diimplementasikan?",
+      "options": {
+        "A": "Pilihan dialog interaktif yang memiliki dampak permanen pada alur politik dunia gim dan nasib karakter non-pemain (NPC)",
+        "B": "Menyediakan fitur pembelian koin emas instan menggunakan metode pembayaran kartu kredit asli",
+        "C": "Membuat kontrol karakter utama otomatis berjalan mengikuti garis rute navigasi di peta mini",
+        "D": "Mengharuskan pemain menonton video cutscene cerita sepanjang 10 menit tanpa bisa dilewati",
+        "E": "Menyembunyikan kunci jawaban kuis di balik sandi enkripsi server yang tidak bisa ditembus"
+      },
+      "answer_hash": "ca9e3b0d"
+    },
+    {
+      "no": 31,
+      "question": "Gim RPG Fantasi karya Siliwangi Digital bercerita tentang protagonis yang sosok biarawan cinta damai dan menolak segala bentuk kekerasan fisik. Namun dalam gameplay, pemain diharuskan membantai gerombolan serigala hutan secara massal demi koin untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 32,
+      "question": "Gim Horror Survival karya Lontar Media bercerita tentang protagonis yang detektif miskin yang terlilit utang besar dan kelaparan. Namun dalam gameplay, pemain diharuskan membeli pakaian kosmetik mewah seharga ribuan koin emas di menu toko untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 33,
+      "question": "Gim Roguelike Aksi karya Bhinneka Games bercerita tentang protagonis yang prajurit tangguh pelindung kerajaan dari serangan luar. Namun dalam gameplay, pemain diharuskan berlari menghindari pertempuran dan mencuri ayam warga desa untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 34,
+      "question": "Gim Platformer 2D karya Merdeka Play bercerita tentang protagonis yang seorang pelari cepat yang diburu waktu untuk menyelamatkan anaknya dalam 1 jam. Namun dalam gameplay, pemain diharuskan menghabiskan waktu berhari-hari memancing ikan di danau samping desa untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 35,
+      "question": "Gim Balap Arkade karya Khatulistiwa Interactive bercerita tentang protagonis yang guru bijaksana yang mengajarkan pentingnya kelestarian alam. Namun dalam gameplay, pemain diharuskan menebang seluruh pohon di hutan untuk membangun istana megahnya untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 36,
+      "question": "Gim RPG Fantasi karya Adiwiyata Games bercerita tentang protagonis yang pencuri bayangan legendaris yang bergerak sunyi tanpa terdeteksi. Namun dalam gameplay, pemain diharuskan menggunakan bazoka berisik untuk meledakkan pos penjaga gerbang untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 37,
+      "question": "Gim Horror Survival karya Piksel Kreasi bercerita tentang protagonis yang arkeolog yang berkomitmen melindungi artefak sejarah dari kehancuran. Namun dalam gameplay, pemain diharuskan menghancurkan kuil kuno menggunakan bom dinamit demi jalan pintas untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 38,
+      "question": "Gim Roguelike Aksi karya Nusantara Game bercerita tentang protagonis yang alien ramah yang ingin berteman dengan manusia bumi. Namun dalam gameplay, pemain diharuskan menghancurkan mobil dan gedung kota menggunakan laser penghancur untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 39,
+      "question": "Gim Platformer 2D karya Majapahit Games bercerita tentang protagonis yang penderita fobia kegelapan yang gemetar saat mati lampu. Namun dalam gameplay, pemain diharuskan menjelajahi gua bawah tanah yang gulita tanpa membawa obor penyala untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 40,
+      "question": "Gim Balap Arkade karya Garuda Studio bercerita tentang protagonis yang anak kecil lemah yang tidak kuat membawa beban senjata berat. Namun dalam gameplay, pemain diharuskan mengayunkan palu besi raksasa seberat 50 kg untuk memukul musuh untuk mendapatkan sumber daya. Fenomena ini memicu terjadinya...",
+      "options": {
+        "A": "Ludonarrative Dissonance (Ketidakselarasan cerita dan gameplay) yang dapat merusak imersi mendalam pemain",
+        "B": "Ludonarrative Resonance (Keselarasan cerita) yang memperkuat empati emosional pemain pada karakter",
+        "C": "Dynamic Difficulty Balancing yang menyeimbangkan tingkat tantangan pertempuran secara otomatis",
+        "D": "Immersion Enhancement yang meningkatkan sensasi kenyataan visual di dalam dunia gim",
+        "E": "Character Consistency yang menjaga kestabilan sifat kepribadian karakter protagonis"
+      },
+      "answer_hash": "19e03933"
+    },
+    {
+      "no": 41,
+      "question": "Dalam game RPG Fantasi karya Lontar Media, desainer naratif menunjukkan character arc protagonis dari seorang budak penakut yang tidak bisa bertarung menjadi pemimpin pemberontak bersenjata yang tangguh. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 42,
+      "question": "Dalam game Strategi Real-Time karya Bhinneka Games, desainer naratif menunjukkan character arc protagonis dari ksatria sombong berpakaian zirah emas mengkilap menjadi petualang bijaksana berpakaian jubah lusuh pengembara. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 43,
+      "question": "Dalam game RPG Fantasi karya Merdeka Play, desainer naratif menunjukkan character arc protagonis dari robot pekerja tambang yang patuh aturan program menjadi entitas cerdas buatan yang memiliki empati moral kemanusiaan. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 44,
+      "question": "Dalam game Strategi Real-Time karya Khatulistiwa Interactive, desainer naratif menunjukkan character arc protagonis dari seorang pertapa tua yang berjalan lambat menggunakan tongkat menjadi penyihir elemen angin yang mampu melayang bebas di udara. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 45,
+      "question": "Dalam game RPG Fantasi karya Adiwiyata Games, desainer naratif menunjukkan character arc protagonis dari anak yatim piatu yang bertahan hidup dengan bersembunyi menjadi pemburu monster profesional pembawa busur panah es. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 46,
+      "question": "Dalam game Strategi Real-Time karya Piksel Kreasi, desainer naratif menunjukkan character arc protagonis dari ilmuwan arogan yang meremehkan kekuatan magis kuno menjadi spiritualis pelindung segel gerbang dimensi fantasi. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 47,
+      "question": "Dalam game RPG Fantasi karya Nusantara Game, desainer naratif menunjukkan character arc protagonis dari pilot pesawat yang panik saat jatuh di hutan liar menjadi ahli bertahan hidup penyusun jebakan jerat tali. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 48,
+      "question": "Dalam game Strategi Real-Time karya Majapahit Games, desainer naratif menunjukkan character arc protagonis dari penjaga gerbang kastil yang bosan dengan rutinitas menjadi ksatria pengelana pembawa pedang raksasa pemecah perisai. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 49,
+      "question": "Dalam game RPG Fantasi karya Garuda Studio, desainer naratif menunjukkan character arc protagonis dari gadis cilik yang sering tersesat di labirin mimpi menjadi penguasa dimensi mimpi pembawa lentera pengusir monster. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 50,
+      "question": "Dalam game Strategi Real-Time karya Siliwangi Digital, desainer naratif menunjukkan character arc protagonis dari pangeran manja yang selalu dilindungi pengawal menjadi petarung jalanan legendaris yang mengandalkan pukulan fisik murni. Manakah metode penyampaian lewat gameplay yang paling dinamis?",
+      "options": {
+        "A": "Mekanika pergerakan dan jurus bertarung yang awalnya terasa berat, kaku, dan lemah berubah menjadi lincah, responsif, dan kuat seiring progresi cerita",
+        "B": "Menulis biodata lengkap karakter di selebaran kertas PDF yang dilampirkan dalam folder instalasi game",
+        "C": "Menyuruh pemain membaca teks deskripsi panjang pada layar menu loading screen",
+        "D": "Mengubah warna rambut karakter secara acak setiap kali pemain kalah bertarung melawan musuh",
+        "E": "Menaikkan angka damage serangan karakter secara instan tanpa ada perubahan animasi pergerakan karakter"
+      },
+      "answer_hash": "6c457882"
+    },
+    {
+      "no": 51,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game RPG Fantasi, studio Bhinneka Games ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 52,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Balap Arkade, studio Merdeka Play ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 53,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Platformer 2D, studio Khatulistiwa Interactive ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 54,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Roguelike Aksi, studio Adiwiyata Games ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 55,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Horror Survival, studio Piksel Kreasi ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 56,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game RPG Fantasi, studio Nusantara Game ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 57,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Balap Arkade, studio Majapahit Games ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 58,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Platformer 2D, studio Garuda Studio ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 59,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Roguelike Aksi, studio Siliwangi Digital ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 60,
+      "question": "Saat merancang dialogue tree (pohon dialog) untuk NPC di game Horror Survival, studio Lontar Media ingin mengunci opsi dialog kunci di balik stat kepribadian pemain. Tujuan dari pembatasan desain ini adalah...",
+      "options": {
+        "A": "Mendorong pemain untuk bermain peran (role-playing) dan menyelaraskan progresi kemampuan karakter dengan pilihan cerita mereka",
+        "B": "Mempercepat waktu penyelesaian koding sistem percakapan bagi programmer junior",
+        "C": "Menghemat kapasitas memori ram server karena tidak perlu memuat teks dialog yang terkunci",
+        "D": "Menghukum pemain yang malas menaikkan stat kepribadian tertentu secara acak",
+        "E": "Menyembunyikan jalan cerita utama karena tim penulis belum selesai menulis naskah dialog"
+      },
+      "answer_hash": "a7631e24"
+    },
+    {
+      "no": 61,
+      "question": "Struktur narasi game RPG Fantasi buatan Merdeka Play menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 62,
+      "question": "Struktur narasi game Puzzle Teka-Teki buatan Khatulistiwa Interactive menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 63,
+      "question": "Struktur narasi game Horror Survival buatan Adiwiyata Games menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 64,
+      "question": "Struktur narasi game Shooter Taktis buatan Piksel Kreasi menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 65,
+      "question": "Struktur narasi game Roguelike Aksi buatan Nusantara Game menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 66,
+      "question": "Struktur narasi game Strategi Real-Time buatan Majapahit Games menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 67,
+      "question": "Struktur narasi game Platformer 2D buatan Garuda Studio menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 68,
+      "question": "Struktur narasi game Metroidvania buatan Siliwangi Digital menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 69,
+      "question": "Struktur narasi game Balap Arkade buatan Lontar Media menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 70,
+      "question": "Struktur narasi game Simulasi Bisnis buatan Bhinneka Games menggunakan pola 'String of Pearls'. Ciri utama dari pola narasi ini adalah...",
+      "options": {
+        "A": "Pemain bebas menjelajah dan mengambil misi sampingan (spokes), tetapi alur cerita utama akan selalu ditarik kembali ke titik peristiwa kunci yang sama (pearls)",
+        "B": "Cerita game bercabang secara eksponensial dari menit pertama dan tidak pernah bertemu kembali hingga akhir game",
+        "C": "Pemain dipaksa berjalan lurus tanpa ada kebebasan eksplorasi area kiri atau kanan jalan level",
+        "D": "Seluruh percakapan karakter disampaikan menggunakan bahasa simbol grafis berbentuk mutiara warna-warni",
+        "E": "Game otomatis berakhir (game over) jika pemain tidak berhasil mengumpulkan item mutiara laut"
+      },
+      "answer_hash": "41b9b676"
+    },
+    {
+      "no": 71,
+      "question": "Game RPG Fantasi sandbox buatan Khatulistiwa Interactive tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 72,
+      "question": "Game Roguelike Aksi sandbox buatan Adiwiyata Games tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 73,
+      "question": "Game Balap Arkade sandbox buatan Piksel Kreasi tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 74,
+      "question": "Game Horror Survival sandbox buatan Nusantara Game tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 75,
+      "question": "Game Platformer 2D sandbox buatan Majapahit Games tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 76,
+      "question": "Game RPG Fantasi sandbox buatan Garuda Studio tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 77,
+      "question": "Game Roguelike Aksi sandbox buatan Siliwangi Digital tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 78,
+      "question": "Game Balap Arkade sandbox buatan Lontar Media tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 79,
+      "question": "Game Horror Survival sandbox buatan Bhinneka Games tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 80,
+      "question": "Game Platformer 2D sandbox buatan Merdeka Play tidak memiliki skenario cerita tertulis di awal. Namun, pemain menceritakan petualangan epik mereka di media sosial saat dikejar serigala saat membangun rumah kayu. Hal ini merupakan contoh dari...",
+      "options": {
+        "A": "Emergent Narrative (Narasi yang muncul secara alami dari interaksi mekanik game oleh pemain)",
+        "B": "Linear Narrative (Narasi garis lurus yang telah diprogram kaku oleh tim penulis)",
+        "C": "Interactive Movie (Film interaktif di mana pemain hanya menekan tombol pilihan dialog)",
+        "D": "Static Backstory (Cerita latar belakang statis yang dibaca lewat menu codex)",
+        "E": "Ludonarrative Dissonance (Ketidakselarasan cerita dengan gameplay akibat kesalahan desain)"
+      },
+      "answer_hash": "e2ba2544"
+    },
+    {
+      "no": 81,
+      "question": "Bagaimanakah desainer narasi di Adiwiyata Games menyajikan 'Lore' sejarah dunia gim RPG Fantasi secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 82,
+      "question": "Bagaimanakah desainer narasi di Piksel Kreasi menyajikan 'Lore' sejarah dunia gim Metroidvania secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 83,
+      "question": "Bagaimanakah desainer narasi di Nusantara Game menyajikan 'Lore' sejarah dunia gim Roguelike Aksi secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 84,
+      "question": "Bagaimanakah desainer narasi di Majapahit Games menyajikan 'Lore' sejarah dunia gim Puzzle Teka-Teki secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 85,
+      "question": "Bagaimanakah desainer narasi di Garuda Studio menyajikan 'Lore' sejarah dunia gim Balap Arkade secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 86,
+      "question": "Bagaimanakah desainer narasi di Siliwangi Digital menyajikan 'Lore' sejarah dunia gim Strategi Real-Time secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 87,
+      "question": "Bagaimanakah desainer narasi di Lontar Media menyajikan 'Lore' sejarah dunia gim Horror Survival secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 88,
+      "question": "Bagaimanakah desainer narasi di Bhinneka Games menyajikan 'Lore' sejarah dunia gim Simulasi Bisnis secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 89,
+      "question": "Bagaimanakah desainer narasi di Merdeka Play menyajikan 'Lore' sejarah dunia gim Platformer 2D secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 90,
+      "question": "Bagaimanakah desainer narasi di Khatulistiwa Interactive menyajikan 'Lore' sejarah dunia gim Shooter Taktis secara elegan tanpa mengganggu alur gameplay aksi cepat pemain?",
+      "options": {
+        "A": "Menyebarkannya sebagai item koleksi opsional (seperti buku harian kuno, artefak sejarah, prasasti) yang dapat dibaca pemain kapan saja lewat menu log khusus",
+        "B": "Memunculkan pop-up jendela dialog besar berisi 5 halaman teks sejarah di tengah pertempuran sengit melawan musuh",
+        "C": "Mengharuskan pemain mengunjungi situs web eksternal studio untuk membaca sejarah lengkap dunia gim",
+        "D": "Menghapus semua unsur sejarah dunia gim agar pemain fokus penuh pada menembak musuh di layar",
+        "E": "Menampilkan seluruh teks sejarah dunia gim di baris pojok kanan bawah layar menggunakan huruf ukuran 6 piksel"
+      },
+      "answer_hash": "f3435e34"
+    },
+    {
+      "no": 91,
+      "question": "Dalam game horror RPG Fantasi karya Piksel Kreasi, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan area aman yang tenang, terang, dan diiringi musik piano lembut tempat pemain menyimpan data game. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 92,
+      "question": "Dalam game horror RPG Fantasi karya Nusantara Game, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan dialog santai penuh lelucon komedi di antara dua karakter saat berjalan di hutan yang indah. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 93,
+      "question": "Dalam game horror RPG Fantasi karya Majapahit Games, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan level teka-teki logika menyusun pipa air tanpa adanya ancaman monster musuh. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 94,
+      "question": "Dalam game horror RPG Fantasi karya Garuda Studio, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan cutscene sinematik pendek memperlihatkan desa kartun yang damai di masa lalu protagonis. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 95,
+      "question": "Dalam game horror RPG Fantasi karya Siliwangi Digital, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan misi mengantar surat cinta NPC pos penjaga kastil yang aman tanpa rintangan musuh. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 96,
+      "question": "Dalam game horror RPG Fantasi karya Lontar Media, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan mini-game berkebun tomat di pekarangan rumah peristirahatan faksi. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 97,
+      "question": "Dalam game horror RPG Fantasi karya Bhinneka Games, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan area pasar dagang bawah tanah tempat berkumpulnya pedagang NPC yang bersahabat. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 98,
+      "question": "Dalam game horror RPG Fantasi karya Merdeka Play, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan percakapan radio santai dengan operator pangkalan tentang resep makanan favorit. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 99,
+      "question": "Dalam game horror RPG Fantasi karya Khatulistiwa Interactive, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan ruangan museum seni kastil yang memamerkan lukisan cat minyak yang indah dan terang. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    },
+    {
+      "no": 100,
+      "question": "Dalam game horror RPG Fantasi karya Adiwiyata Games, desainer naratif mengatur kurva ketegangan (tension curve) dengan selingan misi melatih anjing peliharaan desa memburu tikus sawah tanpa adanya suasana seram. Tujuan dari penataan pacing narasi ini adalah...",
+      "options": {
+        "A": "Mencegah keletihan emosional pemain (fatigue) sehingga sensasi kejutan horor berikutnya terasa lebih berdampak dan menakutkan",
+        "B": "Menyediakan waktu bagi game engine untuk memproses pembersihan memori ram perangkat komputer",
+        "C": "Memaksa pemain membeli paket item perlindungan instan menggunakan uang asli di toko online",
+        "D": "Menurunkan kualitas visual lingkungan agar frame rate per detik (fps) game tetap stabil di area luas",
+        "E": "Memberi kesempatan bagi pengisi suara karakter untuk beristirahat di tengah proses perekaman audio"
+      },
+      "answer_hash": "814139fd"
+    }
+  ]
+}

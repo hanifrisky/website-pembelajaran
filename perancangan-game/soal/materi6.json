@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain Teknik Gim",
+  "deskripsi": "Pemilihan game engine (Unity, Unreal, Godot), optimasi aset visual, memahami batasan spesifikasi hardware (memori, draw calls), serta arsitektur teknis pengembangan game.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Tim developer Nusantara Game memilih Unity Engine sebagai landasan teknis pembuatan game RPG Fantasi mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 2,
+      "question": "Tim developer Majapahit Games memilih Unity Engine sebagai landasan teknis pembuatan game Shooter Taktis mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 3,
+      "question": "Tim developer Garuda Studio memilih Unity Engine sebagai landasan teknis pembuatan game Platformer 2D mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 4,
+      "question": "Tim developer Siliwangi Digital memilih Unity Engine sebagai landasan teknis pembuatan game Simulasi Bisnis mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 5,
+      "question": "Tim developer Lontar Media memilih Unity Engine sebagai landasan teknis pembuatan game Horror Survival mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 6,
+      "question": "Tim developer Bhinneka Games memilih Unity Engine sebagai landasan teknis pembuatan game Strategi Real-Time mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 7,
+      "question": "Tim developer Merdeka Play memilih Unity Engine sebagai landasan teknis pembuatan game Balap Arkade mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 8,
+      "question": "Tim developer Khatulistiwa Interactive memilih Unity Engine sebagai landasan teknis pembuatan game Puzzle Teka-Teki mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 9,
+      "question": "Tim developer Adiwiyata Games memilih Unity Engine sebagai landasan teknis pembuatan game Roguelike Aksi mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 10,
+      "question": "Tim developer Piksel Kreasi memilih Unity Engine sebagai landasan teknis pembuatan game Metroidvania mereka. Keunggulan utama Unity yang mendukung keputusan ini adalah...",
+      "options": {
+        "A": "Sistem kompilasi multiplatform yang sangat matang untuk mobile, PC, dan konsol serta bahasa C# yang ramah developer",
+        "B": "Ketiadaan kebutuhan untuk menulis baris kode program sama sekali karena sistem automasi visual penuh",
+        "C": "Lisensi lisensi open-source gratis tanpa ada pembagian biaya royalti hasil penjualan game",
+        "D": "Dukungan render visual ray tracing murni yang paling ringan untuk komputer spesifikasi rendah",
+        "E": "Kemampuan game engine untuk membenarkan kesalahan logika baris kode secara mandiri"
+      },
+      "answer_hash": "3fd79c2f"
+    },
+    {
+      "no": 11,
+      "question": "Studio Majapahit Games memilih Unreal Engine untuk game RPG Fantasi kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 12,
+      "question": "Studio Garuda Studio memilih Unreal Engine untuk game Platformer 2D kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 13,
+      "question": "Studio Siliwangi Digital memilih Unreal Engine untuk game Horror Survival kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 14,
+      "question": "Studio Lontar Media memilih Unreal Engine untuk game Balap Arkade kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 15,
+      "question": "Studio Bhinneka Games memilih Unreal Engine untuk game Roguelike Aksi kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 16,
+      "question": "Studio Merdeka Play memilih Unreal Engine untuk game RPG Fantasi kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 17,
+      "question": "Studio Khatulistiwa Interactive memilih Unreal Engine untuk game Platformer 2D kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 18,
+      "question": "Studio Adiwiyata Games memilih Unreal Engine untuk game Horror Survival kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 19,
+      "question": "Studio Piksel Kreasi memilih Unreal Engine untuk game Balap Arkade kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 20,
+      "question": "Studio Nusantara Game memilih Unreal Engine untuk game Roguelike Aksi kualitas AAA mereka. Fitur teknis bawaan Unreal yang sangat menunjang kualitas visual tingkat tinggi adalah...",
+      "options": {
+        "A": "Nanite (virtualized geometry) dan Lumen (global illumination) yang merender jutaan polygon dan pencahayaan dinamis secara efisien",
+        "B": "Sistem kompresi memori RAM yang memperkecil file instalasi game menjadi di bawah 10 megabyte",
+        "C": "Mesin penerjemah naskah dialog ke berbagai bahasa asing secara otomatis menggunakan AI",
+        "D": "Dukungan coding murni menggunakan bahasa scripting visual GDScript",
+        "E": "Ketersediaan aset grafis 3D gratis tanpa perlu menyewa artis 3D di studio"
+      },
+      "answer_hash": "31f65c9f"
+    },
+    {
+      "no": 21,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Garuda Studio untuk mengembangkan game RPG Fantasi berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 22,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Siliwangi Digital untuk mengembangkan game Simulasi Bisnis berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 23,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Lontar Media untuk mengembangkan game Balap Arkade berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 24,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Bhinneka Games untuk mengembangkan game Metroidvania berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 25,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Merdeka Play untuk mengembangkan game Platformer 2D berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 26,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Khatulistiwa Interactive untuk mengembangkan game Strategi Real-Time berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 27,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Adiwiyata Games untuk mengembangkan game Roguelike Aksi berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 28,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Piksel Kreasi untuk mengembangkan game Shooter Taktis berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 29,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Nusantara Game untuk mengembangkan game Horror Survival berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 30,
+      "question": "Mengapa Godot Engine dinilai sangat cocok oleh Majapahit Games untuk mengembangkan game Puzzle Teka-Teki berdimensi 2D?",
+      "options": {
+        "A": "Karena memiliki node-system khusus 2D murni yang sangat ringan, open-source tanpa royalti, dan cepat dalam proses kompilasi",
+        "B": "Karena secara otomatis mengunggah game yang selesai dibuat ke toko aplikasi Google Play Store gratis",
+        "C": "Karena tidak memerlukan kartu grafis eksternal (GPU) melainkan hanya berjalan di RAM komputer saja",
+        "D": "Karena didukung oleh ribuan template game bergenre serupa siap pakai tanpa perlu coding",
+        "E": "Karena memiliki lisensi berbayar bulanan yang menjamin perlindungan server dari peretasan hacker"
+      },
+      "answer_hash": "76070005"
+    },
+    {
+      "no": 31,
+      "question": "Saat mengoptimalkan aset game RPG Fantasi 2D di Siliwangi Digital, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 32,
+      "question": "Saat mengoptimalkan aset game Horror Survival 2D di Lontar Media, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 33,
+      "question": "Saat mengoptimalkan aset game Roguelike Aksi 2D di Bhinneka Games, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 34,
+      "question": "Saat mengoptimalkan aset game Platformer 2D 2D di Merdeka Play, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 35,
+      "question": "Saat mengoptimalkan aset game Balap Arkade 2D di Khatulistiwa Interactive, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 36,
+      "question": "Saat mengoptimalkan aset game RPG Fantasi 2D di Adiwiyata Games, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 37,
+      "question": "Saat mengoptimalkan aset game Horror Survival 2D di Piksel Kreasi, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 38,
+      "question": "Saat mengoptimalkan aset game Roguelike Aksi 2D di Nusantara Game, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 39,
+      "question": "Saat mengoptimalkan aset game Platformer 2D 2D di Majapahit Games, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 40,
+      "question": "Saat mengoptimalkan aset game Balap Arkade 2D di Garuda Studio, artis grafis menyatukan ratusan gambar karakter kecil ke dalam satu lembar gambar besar (Sprite Sheet/Texture Atlas). Dampak teknis positifnya adalah...",
+      "options": {
+        "A": "Mengurangi jumlah perintah rendering (Draw Calls) dari CPU ke GPU sehingga meningkatkan kelancaran frame rate (FPS) game",
+        "B": "Mengubah warna visual sprite karakter secara dinamis mengikuti arah hadap kamera utama",
+        "C": "Menghilangkan kebutuhan akan proses kompilasi kode program C# saat ekspor build",
+        "D": "Meningkatkan resolusi tajam gambar karakter hingga setara kualitas rendering 3D",
+        "E": "Secara otomatis memprogram animasi berjalan karakter tanpa campur tangan animator"
+      },
+      "answer_hash": "90b2afc8"
+    },
+    {
+      "no": 41,
+      "question": "Dalam game RPG Fantasi 3D open-world buatan Lontar Media, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 42,
+      "question": "Dalam game Strategi Real-Time 3D open-world buatan Bhinneka Games, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 43,
+      "question": "Dalam game RPG Fantasi 3D open-world buatan Merdeka Play, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 44,
+      "question": "Dalam game Strategi Real-Time 3D open-world buatan Khatulistiwa Interactive, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 45,
+      "question": "Dalam game RPG Fantasi 3D open-world buatan Adiwiyata Games, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 46,
+      "question": "Dalam game Strategi Real-Time 3D open-world buatan Piksel Kreasi, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 47,
+      "question": "Dalam game RPG Fantasi 3D open-world buatan Nusantara Game, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 48,
+      "question": "Dalam game Strategi Real-Time 3D open-world buatan Majapahit Games, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 49,
+      "question": "Dalam game RPG Fantasi 3D open-world buatan Garuda Studio, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 50,
+      "question": "Dalam game Strategi Real-Time 3D open-world buatan Siliwangi Digital, sistem LOD (Level of Detail) diterapkan pada aset pohon dan bangunan. Cara kerja teknis LOD ini adalah...",
+      "options": {
+        "A": "Menurunkan jumlah polygon (tingkat detail) objek secara bertahap saat jarak kamera dengan objek semakin jauh untuk menghemat kerja GPU",
+        "B": "Secara otomatis menghapus objek di belakang karakter utama saat pemain berlari kencang",
+        "C": "Mengubah resolusi tekstur gambar model 3D menjadi piksel hitam putih saat kondisi hujan deras",
+        "D": "Memperkecil ukuran memori ram yang digunakan untuk menyimpan efek suara soundtrack lagu",
+        "E": "Membatasi kecepatan rendering frame rate pada angka konstan 30 frame per detik saja"
+      },
+      "answer_hash": "e384fc6b"
+    },
+    {
+      "no": 51,
+      "question": "Untuk meningkatkan performa game RPG Fantasi di Bhinneka Games, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 52,
+      "question": "Untuk meningkatkan performa game Balap Arkade di Merdeka Play, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 53,
+      "question": "Untuk meningkatkan performa game Platformer 2D di Khatulistiwa Interactive, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 54,
+      "question": "Untuk meningkatkan performa game Roguelike Aksi di Adiwiyata Games, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 55,
+      "question": "Untuk meningkatkan performa game Horror Survival di Piksel Kreasi, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 56,
+      "question": "Untuk meningkatkan performa game RPG Fantasi di Nusantara Game, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 57,
+      "question": "Untuk meningkatkan performa game Balap Arkade di Majapahit Games, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 58,
+      "question": "Untuk meningkatkan performa game Platformer 2D di Garuda Studio, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 59,
+      "question": "Untuk meningkatkan performa game Roguelike Aksi di Siliwangi Digital, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 60,
+      "question": "Untuk meningkatkan performa game Horror Survival di Lontar Media, programmer mengaktifkan fitur 'Occlusion Culling'. Fitur ini bekerja dengan cara...",
+      "options": {
+        "A": "Menonaktifkan rendering objek-objek yang posisinya terhalang secara visual oleh objek besar lain di depan kamera",
+        "B": "Mendeteksi secara otomatis baris kode program yang memicu error memori komputer",
+        "C": "Menyaring kata-kata kasar (sensor) di dalam obrolan obrolan multipemain online",
+        "D": "Mengunci arah gerak kamera agar selalu mengikuti sumbu vertikal karakter utama",
+        "E": "Memindahkan data penyimpanan koin pemain dari client lokal ke database online"
+      },
+      "answer_hash": "5328aae"
+    },
+    {
+      "no": 61,
+      "question": "Dalam game RPG Fantasi karya Merdeka Play, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 62,
+      "question": "Dalam game Puzzle Teka-Teki karya Khatulistiwa Interactive, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 63,
+      "question": "Dalam game Horror Survival karya Adiwiyata Games, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 64,
+      "question": "Dalam game Shooter Taktis karya Piksel Kreasi, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 65,
+      "question": "Dalam game Roguelike Aksi karya Nusantara Game, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 66,
+      "question": "Dalam game Strategi Real-Time karya Majapahit Games, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 67,
+      "question": "Dalam game Platformer 2D karya Garuda Studio, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 68,
+      "question": "Dalam game Metroidvania karya Siliwangi Digital, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 69,
+      "question": "Dalam game Balap Arkade karya Lontar Media, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 70,
+      "question": "Dalam game Simulasi Bisnis karya Bhinneka Games, desainer teknik memilih opsi 'Light Baking' untuk pencahayaan di dalam ruangan kastil static. Keuntungan utama dari teknik Light Baking ini adalah...",
+      "options": {
+        "A": "Menghilangkan beban kalkulasi bayangan dinamis secara real-time pada GPU dengan menyimpan cahaya statis sebagai tekstur visual",
+        "B": "Membuat bayangan musuh bergerak dinamis mengikuti posisi arah gerak matahari rill",
+        "C": "Meniadakan kebutuhan akan tim artis pencahayaan dalam studio pengembang game",
+        "D": "Mempercepat durasi waktu pengunggahan data installer game ke platform digital",
+        "E": "Mengaktifkan lampu senter otomatis pada karakter utama saat malam tiba"
+      },
+      "answer_hash": "b5f5df46"
+    },
+    {
+      "no": 71,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 72,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 73,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 74,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 75,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 76,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 77,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 78,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 79,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 80,
+      "question": "Sejarah teknik game klasik mencatat bahwa batasan memori video RAM konsol NES (1985) sangat ketat. Strategi penulisan data yang diterapkan pengembang zaman itu untuk memproduksi game seperti Super Mario Bros adalah...",
+      "options": {
+        "A": "Palette Swapping (menggunakan kembali gambar aset yang sama dengan mengganti palet warna untuk objek berbeda seperti awan dan rumput)",
+        "B": "Menghapus musik latar belakang game dan menggantinya dengan sunyi total",
+        "C": "Mengurangi jumlah level permainan menjadi hanya satu kali main saja",
+        "D": "Membeli lisensi kartu memori tambahan dari produsen komputer eksternal",
+        "E": "Menampilkan seluruh teks percakapan menggunakan bahasa isyarat visual murni"
+      },
+      "answer_hash": "daf2f28"
+    },
+    {
+      "no": 81,
+      "question": "Dalam alur pembuatan karakter 3D game RPG Fantasi di Adiwiyata Games, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 82,
+      "question": "Dalam alur pembuatan karakter 3D game Metroidvania di Piksel Kreasi, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 83,
+      "question": "Dalam alur pembuatan karakter 3D game Roguelike Aksi di Nusantara Game, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 84,
+      "question": "Dalam alur pembuatan karakter 3D game Puzzle Teka-Teki di Majapahit Games, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 85,
+      "question": "Dalam alur pembuatan karakter 3D game Balap Arkade di Garuda Studio, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 86,
+      "question": "Dalam alur pembuatan karakter 3D game Strategi Real-Time di Siliwangi Digital, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 87,
+      "question": "Dalam alur pembuatan karakter 3D game Horror Survival di Lontar Media, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 88,
+      "question": "Dalam alur pembuatan karakter 3D game Simulasi Bisnis di Bhinneka Games, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 89,
+      "question": "Dalam alur pembuatan karakter 3D game Platformer 2D di Merdeka Play, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 90,
+      "question": "Dalam alur pembuatan karakter 3D game Shooter Taktis di Khatulistiwa Interactive, proses 'Rigging' didefinisikan sebagai...",
+      "options": {
+        "A": "Membuat struktur tulang virtual (skeleton) dan persendian pada model 3D agar dapat digerakkan oleh animator",
+        "B": "Mewarnai permukaan luar model 3D dengan tekstur kulit, pakaian, dan rambut",
+        "C": "Mengurangi kerapatan titik sudut (vertex) pada model 3D agar lebih ringan saat dirender",
+        "D": "Menghubungkan komputer desainer dengan server jaringan lokal studio game",
+        "E": "Mengekspor file aset 3D ke format gambar gif bergerak beresolusi rendah"
+      },
+      "answer_hash": "cd548710"
+    },
+    {
+      "no": 91,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Piksel Kreasi menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 92,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Nusantara Game menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 93,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Majapahit Games menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 94,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Garuda Studio menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 95,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Siliwangi Digital menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 96,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Lontar Media menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 97,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Bhinneka Games menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 98,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Merdeka Play menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 99,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Khatulistiwa Interactive menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    },
+    {
+      "no": 100,
+      "question": "Sebelum memulai produksi game RPG Fantasi untuk platform mobile, tim teknik Adiwiyata Games menetapkan 'Memory Budget' (alokasi memori). Tujuan penting langkah alokasi ini adalah...",
+      "options": {
+        "A": "Membatasi pemakaian kapasitas RAM secara kaku untuk setiap departemen (audio, tekstur, program) agar game terhindar dari error crash akibat kehabisan memori",
+        "B": "Menentukan besaran anggaran pengeluaran finansial bulanan untuk iklan media sosial",
+        "C": "Menghitung kapasitas memori harddisk kantor pengembang game untuk instalasi Windows",
+        "D": "Membatasi waktu bermain harian siswa sekolah agar tidak terjadi kecanduan bermain game",
+        "E": "Memaksa game agar tidak bisa dijalankan secara offline tanpa jaringan internet"
+      },
+      "answer_hash": "fcd39dff"
+    }
+  ]
+}

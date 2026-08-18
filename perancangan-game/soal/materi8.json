@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain Purwarupa Gim",
+  "deskripsi": "Pembuatan prototipe gim (purwarupa) secara fisik (paper prototype) maupun digital, tujuan prototyping, validasi ide mekanika, serta iterasi pengembangan.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam siklus produksi game RPG Fantasi di studio Nusantara Game, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 2,
+      "question": "Dalam siklus produksi game Shooter Taktis di studio Majapahit Games, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 3,
+      "question": "Dalam siklus produksi game Platformer 2D di studio Garuda Studio, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 4,
+      "question": "Dalam siklus produksi game Simulasi Bisnis di studio Siliwangi Digital, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 5,
+      "question": "Dalam siklus produksi game Horror Survival di studio Lontar Media, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 6,
+      "question": "Dalam siklus produksi game Strategi Real-Time di studio Bhinneka Games, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 7,
+      "question": "Dalam siklus produksi game Balap Arkade di studio Merdeka Play, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 8,
+      "question": "Dalam siklus produksi game Puzzle Teka-Teki di studio Khatulistiwa Interactive, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 9,
+      "question": "Dalam siklus produksi game Roguelike Aksi di studio Adiwiyata Games, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 10,
+      "question": "Dalam siklus produksi game Metroidvania di studio Piksel Kreasi, pembuatan prototipe (purwarupa) diposisikan untuk...",
+      "options": {
+        "A": "Menguji kelayakan dan keseruan ide mekanika dasar secepat mungkin dengan biaya seminimal mungkin sebelum masuk fase produksi penuh",
+        "B": "Mendaftarkan hak kekayaan intelektual (HAKI) merek dagang judul gim ke kementerian hukum",
+        "C": "Membuat paket installer game siap jual yang dikemas rapi dalam keping CD fisik",
+        "D": "Menyusun anggaran finansial komisi bulanan untuk tim pemasaran studio",
+        "E": "Mengurangi kapasitas penggunaan RAM GPU komputer saat proses rendering animasi"
+      },
+      "answer_hash": "d2dace4c"
+    },
+    {
+      "no": 11,
+      "question": "Studio Majapahit Games merancang game strategi RPG Fantasi menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 12,
+      "question": "Studio Garuda Studio merancang game strategi Platformer 2D menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 13,
+      "question": "Studio Siliwangi Digital merancang game strategi Horror Survival menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 14,
+      "question": "Studio Lontar Media merancang game strategi Balap Arkade menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 15,
+      "question": "Studio Bhinneka Games merancang game strategi Roguelike Aksi menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 16,
+      "question": "Studio Merdeka Play merancang game strategi RPG Fantasi menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 17,
+      "question": "Studio Khatulistiwa Interactive merancang game strategi Platformer 2D menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 18,
+      "question": "Studio Adiwiyata Games merancang game strategi Horror Survival menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 19,
+      "question": "Studio Piksel Kreasi merancang game strategi Balap Arkade menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 20,
+      "question": "Studio Nusantara Game merancang game strategi Roguelike Aksi menggunakan Paper Prototype (prototipe kertas) di sela sesi rapat pra-produksi. Keunggulan utama dari Paper Prototyping ini adalah...",
+      "options": {
+        "A": "Mengevaluasi logika aturan main, sirkulasi ekonomi, dan interaksi sistem secara instan dan murah tanpa menulis sebaris kode pemrograman pun",
+        "B": "Menguji responsivitas analog stick gamepad waktu nyata saat karakter menembak musuh",
+        "C": "Mendapatkan lisensi gratis penggunaan mesin game Unity atau Unreal secara resmi",
+        "D": "Mengurangi limbah sampah plastik perkantoran karena beralih memakai bahan kertas",
+        "E": "Mencegah peretas mencuri kode program game online karena prototipe hanya berbentuk kertas fisik"
+      },
+      "answer_hash": "b738ca46"
+    },
+    {
+      "no": 21,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game RPG Fantasi oleh Garuda Studio menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 22,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Simulasi Bisnis oleh Siliwangi Digital menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 23,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Balap Arkade oleh Lontar Media menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 24,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Metroidvania oleh Bhinneka Games menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 25,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Platformer 2D oleh Merdeka Play menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 26,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Strategi Real-Time oleh Khatulistiwa Interactive menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 27,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Roguelike Aksi oleh Adiwiyata Games menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 28,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Shooter Taktis oleh Piksel Kreasi menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 29,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Horror Survival oleh Nusantara Game menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 30,
+      "question": "Filosofi 'Fail Fast, Learn Fast' dalam pengembangan prototipe game Puzzle Teka-Teki oleh Majapahit Games menekankan pentingnya...",
+      "options": {
+        "A": "Menemukan kelemahan konsep gameplay sedini mungkin saat biaya perbaikan masih murah dibandingkan setelah game selesai diproduksi",
+        "B": "Mendesain tingkat kesulitan game yang sangat ekstrem agar pemain kalah berulang kali di awal permainan",
+        "C": "Menyelesaikan proses pembuatan game dalam waktu kurang dari satu minggu demi menekan upah harian staf",
+        "D": "Mengabaikan kualitas kontrol karakter asalkan game dapat rilis tepat sesuai tanggal kontrak kerja",
+        "E": "Menghapus semua file baris kode program secara acak jika program mengalami error kompilasi"
+      },
+      "answer_hash": "7605a4db"
+    },
+    {
+      "no": 31,
+      "question": "Saat membuat prototipe digital game RPG Fantasi, tim artistik Siliwangi Digital sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 32,
+      "question": "Saat membuat prototipe digital game Horror Survival, tim artistik Lontar Media sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 33,
+      "question": "Saat membuat prototipe digital game Roguelike Aksi, tim artistik Bhinneka Games sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 34,
+      "question": "Saat membuat prototipe digital game Platformer 2D, tim artistik Merdeka Play sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 35,
+      "question": "Saat membuat prototipe digital game Balap Arkade, tim artistik Khatulistiwa Interactive sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 36,
+      "question": "Saat membuat prototipe digital game RPG Fantasi, tim artistik Adiwiyata Games sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 37,
+      "question": "Saat membuat prototipe digital game Horror Survival, tim artistik Piksel Kreasi sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 38,
+      "question": "Saat membuat prototipe digital game Roguelike Aksi, tim artistik Nusantara Game sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 39,
+      "question": "Saat membuat prototipe digital game Platformer 2D, tim artistik Majapahit Games sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 40,
+      "question": "Saat membuat prototipe digital game Balap Arkade, tim artistik Garuda Studio sengaja menggunakan aset gambar 'Placeholder' (seperti kotak abu-abu polos sebagai karakter musuh). Alasan teknik ini adalah...",
+      "options": {
+        "A": "Menjaga fokus pengujian tetap pada fungsionalitas mekanika permainan dan bukan terdistraksi oleh kualitas keindahan gambar visual",
+        "B": "Menghindari tagihan pajak royalti penggunaan model karakter 3D berlisensi mahal di tahap awal",
+        "C": "Mengecilkan ukuran file installer game agar muat dikirimkan melalui lampiran surat email kantor",
+        "D": "Menghukum desainer karakter yang belum selesai menyelesaikan tugas menggambar konsep seni",
+        "E": "Mencuri gambar aset dari game populer lain tanpa memicu tuntutan hukum dari pemilik lisensi asli"
+      },
+      "answer_hash": "cd4e3d6d"
+    },
+    {
+      "no": 41,
+      "question": "Dalam pengembangan game RPG Fantasi di Lontar Media, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 42,
+      "question": "Dalam pengembangan game Strategi Real-Time di Bhinneka Games, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 43,
+      "question": "Dalam pengembangan game RPG Fantasi di Merdeka Play, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 44,
+      "question": "Dalam pengembangan game Strategi Real-Time di Khatulistiwa Interactive, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 45,
+      "question": "Dalam pengembangan game RPG Fantasi di Adiwiyata Games, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 46,
+      "question": "Dalam pengembangan game Strategi Real-Time di Piksel Kreasi, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 47,
+      "question": "Dalam pengembangan game RPG Fantasi di Nusantara Game, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 48,
+      "question": "Dalam pengembangan game Strategi Real-Time di Majapahit Games, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 49,
+      "question": "Dalam pengembangan game RPG Fantasi di Garuda Studio, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 50,
+      "question": "Dalam pengembangan game Strategi Real-Time di Siliwangi Digital, berkas MVP (Minimum Viable Product) didefinisikan sebagai...",
+      "options": {
+        "A": "Versi game paling minimal dengan fitur fungsional inti yang sudah bisa dimainkan untuk mendapatkan masukan awal dari penguji luar",
+        "B": "Gim dengan spesifikasi visual terendah khusus untuk komputer jadul",
+        "C": "Pemain terbaik (Most Valuable Player) dalam kompetisi internal tim developer",
+        "D": "Baris kode pemrograman dengan jumlah error crash paling sedikit",
+        "E": "Rencana anggaran bulanan terkecil untuk operasional sewa gedung studio"
+      },
+      "answer_hash": "3684ac1"
+    },
+    {
+      "no": 51,
+      "question": "Manakah di bawah ini aspek gameplay game RPG Fantasi buatan Bhinneka Games yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 52,
+      "question": "Manakah di bawah ini aspek gameplay game Balap Arkade buatan Merdeka Play yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 53,
+      "question": "Manakah di bawah ini aspek gameplay game Platformer 2D buatan Khatulistiwa Interactive yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 54,
+      "question": "Manakah di bawah ini aspek gameplay game Roguelike Aksi buatan Adiwiyata Games yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 55,
+      "question": "Manakah di bawah ini aspek gameplay game Horror Survival buatan Piksel Kreasi yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 56,
+      "question": "Manakah di bawah ini aspek gameplay game RPG Fantasi buatan Nusantara Game yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 57,
+      "question": "Manakah di bawah ini aspek gameplay game Balap Arkade buatan Majapahit Games yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 58,
+      "question": "Manakah di bawah ini aspek gameplay game Platformer 2D buatan Garuda Studio yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 59,
+      "question": "Manakah di bawah ini aspek gameplay game Roguelike Aksi buatan Siliwangi Digital yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 60,
+      "question": "Manakah di bawah ini aspek gameplay game Horror Survival buatan Lontar Media yang TIDAK BISA dievaluasi menggunakan Paper Prototype?",
+      "options": {
+        "A": "Sensasi kelancaran respons pergerakan analog stick dan refleks waktu-nyata (game feel/reflexes)",
+        "B": "Logika urutan penyerangan kartu monster berbasis giliran (turn-based queue)",
+        "C": "Sirkulasi pertukaran sumber daya koin dan bahan tambang di pasar desa",
+        "D": "Aturan keseimbangan melingkar model batu-gunting-kertas pada hero tempur",
+        "E": "Tingkat pemahaman pemain pemula terhadap buku aturan main fisik game"
+      },
+      "answer_hash": "f7967d9f"
+    },
+    {
+      "no": 61,
+      "question": "Setelah menguji prototipe game RPG Fantasi kepada pengguna luar, studio Merdeka Play menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 62,
+      "question": "Setelah menguji prototipe game Puzzle Teka-Teki kepada pengguna luar, studio Khatulistiwa Interactive menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 63,
+      "question": "Setelah menguji prototipe game Horror Survival kepada pengguna luar, studio Adiwiyata Games menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 64,
+      "question": "Setelah menguji prototipe game Shooter Taktis kepada pengguna luar, studio Piksel Kreasi menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 65,
+      "question": "Setelah menguji prototipe game Roguelike Aksi kepada pengguna luar, studio Nusantara Game menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 66,
+      "question": "Setelah menguji prototipe game Strategi Real-Time kepada pengguna luar, studio Majapahit Games menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 67,
+      "question": "Setelah menguji prototipe game Platformer 2D kepada pengguna luar, studio Garuda Studio menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 68,
+      "question": "Setelah menguji prototipe game Metroidvania kepada pengguna luar, studio Siliwangi Digital menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 69,
+      "question": "Setelah menguji prototipe game Balap Arkade kepada pengguna luar, studio Lontar Media menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 70,
+      "question": "Setelah menguji prototipe game Simulasi Bisnis kepada pengguna luar, studio Bhinneka Games menyadari bahwa kontrol game terasa kaku. Langkah iterasi apa yang paling tepat dilakukan selanjutnya?",
+      "options": {
+        "A": "Menganalisis masukan penguji, memodifikasi kode pergerakan kontrol, lalu mengujinya kembali hingga kontrol terasa responsif",
+        "B": "Meluncurkan game tersebut ke pasar komersial dan menyalahkan refleks bermain para pemain",
+        "C": "Menghapus seluruh fitur navigasi pergerakan karakter utama dari naskah GDD",
+        "D": "Menaikkan resolusi gambar tekstur model 3D agar menutupi kekakuan gerakan kontrol",
+        "E": "Memecat tim programmer kontrol dan beralih mengembangkan game bergenre teka-teki statis"
+      },
+      "answer_hash": "2685f8b3"
+    },
+    {
+      "no": 71,
+      "question": "Dalam mendesain game aksi petualangan RPG Fantasi, studio Khatulistiwa Interactive menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 72,
+      "question": "Dalam mendesain game aksi petualangan Roguelike Aksi, studio Adiwiyata Games menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 73,
+      "question": "Dalam mendesain game aksi petualangan Balap Arkade, studio Piksel Kreasi menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 74,
+      "question": "Dalam mendesain game aksi petualangan Horror Survival, studio Nusantara Game menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 75,
+      "question": "Dalam mendesain game aksi petualangan Platformer 2D, studio Majapahit Games menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 76,
+      "question": "Dalam mendesain game aksi petualangan RPG Fantasi, studio Garuda Studio menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 77,
+      "question": "Dalam mendesain game aksi petualangan Roguelike Aksi, studio Siliwangi Digital menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 78,
+      "question": "Dalam mendesain game aksi petualangan Balap Arkade, studio Lontar Media menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 79,
+      "question": "Dalam mendesain game aksi petualangan Horror Survival, studio Bhinneka Games menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 80,
+      "question": "Dalam mendesain game aksi petualangan Platformer 2D, studio Merdeka Play menyusun 'Digital Greybox Prototype'. Fokus utama dari purwarupa digital abu-abu ini adalah...",
+      "options": {
+        "A": "Menguji alur level, jarak lompatan, dan penempatan rintangan fisik tanpa dipengaruhi oleh estetika visual grafis",
+        "B": "Mengevaluasi kecocokan musik soundtrack lagu instrumental dengan warna menu utama",
+        "C": "Mengukur total daya tahan baterai hp saat menjalankan shader bayangan kompleks",
+        "D": "Mengunci area peta level rahasia di balik sistem pembayaran langganan premium",
+        "E": "Menyaring secara otomatis komentar negatif pemain dalam menu obrolan multiplayer"
+      },
+      "answer_hash": "343d65b8"
+    },
+    {
+      "no": 81,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game RPG Fantasi di Adiwiyata Games?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 82,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Metroidvania di Piksel Kreasi?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 83,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Roguelike Aksi di Nusantara Game?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 84,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Puzzle Teka-Teki di Majapahit Games?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 85,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Balap Arkade di Garuda Studio?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 86,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Strategi Real-Time di Siliwangi Digital?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 87,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Horror Survival di Lontar Media?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 88,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Simulasi Bisnis di Bhinneka Games?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 89,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Platformer 2D di Merdeka Play?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 90,
+      "question": "Mengapa penggunaan konsep 'Throwaway Code' (menulis baris kode pemrograman secara cepat dan kotor) diperbolehkan pada pembuatan prototipe game Shooter Taktis di Khatulistiwa Interactive?",
+      "options": {
+        "A": "Karena tujuan utama adalah memvalidasi kelayakan ide mekanika dengan cepat; kode tersebut akan ditulis ulang dari awal saat masuk tahap produksi penuh",
+        "B": "Karena kode program yang ditulis secara kotor otomatis berjalan lebih cepat di kartu grafis",
+        "C": "Agar kode program game tersebut sulit dibaca dan diretas oleh hacker kompetitor luar",
+        "D": "Mencegah compiler game engine memunculkan pesan error saat kompilasi game",
+        "E": "Memenuhi syarat baku standarisasi penulisan kode program industri game internasional"
+      },
+      "answer_hash": "92195e66"
+    },
+    {
+      "no": 91,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Piksel Kreasi membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 92,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Nusantara Game membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 93,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Majapahit Games membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 94,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Garuda Studio membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 95,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Siliwangi Digital membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 96,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Lontar Media membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 97,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Bhinneka Games membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 98,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Merdeka Play membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 99,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Khatulistiwa Interactive membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    },
+    {
+      "no": 100,
+      "question": "Sebelum memulai produksi game horror multiplayer RPG Fantasi, studio Adiwiyata Games membuat prototipe PoC (Proof of Concept) khusus untuk menguji koneksi delay server 100 pemain aktif. Tujuan dari prototipe PoC ini adalah...",
+      "options": {
+        "A": "Membuktikan kelayakan teknis dari ide arsitektur server yang direncanakan sebelum menghabiskan anggaran untuk pengembangan game penuh",
+        "B": "Menghasilkan video trailer promosi game berdurasi 3 menit berkualitas CG sinematik",
+        "C": "Mengevaluasi keasyikan emosional alur cerita narasi utama game di level awal",
+        "D": "Menghitung persentase komisi keuangan yang akan disetor ke platform toko digital",
+        "E": "Mengunci data save game pemain agar tidak bisa dipindahkan secara ilegal"
+      },
+      "answer_hash": "6dafdeda"
+    }
+  ]
+}

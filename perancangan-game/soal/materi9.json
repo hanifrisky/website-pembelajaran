@@ -1,0 +1,1207 @@
+{
+  "materi": "Riset Pengguna Gim",
+  "deskripsi": "Metode riset pengguna (playtesting, survei, wawancara), menganalisis umpan balik pemain, filosofi 'You are not your player', serta evaluasi data telemetri kualitatif & kuantitatif.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam pengembangan game RPG Fantasi di Nusantara Game, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 2,
+      "question": "Dalam pengembangan game Shooter Taktis di Majapahit Games, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 3,
+      "question": "Dalam pengembangan game Platformer 2D di Garuda Studio, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 4,
+      "question": "Dalam pengembangan game Simulasi Bisnis di Siliwangi Digital, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 5,
+      "question": "Dalam pengembangan game Horror Survival di Lontar Media, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 6,
+      "question": "Dalam pengembangan game Strategi Real-Time di Bhinneka Games, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 7,
+      "question": "Dalam pengembangan game Balap Arkade di Merdeka Play, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 8,
+      "question": "Dalam pengembangan game Puzzle Teka-Teki di Khatulistiwa Interactive, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 9,
+      "question": "Dalam pengembangan game Roguelike Aksi di Adiwiyata Games, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 10,
+      "question": "Dalam pengembangan game Metroidvania di Piksel Kreasi, kegiatan 'Playtesting' didefinisikan sebagai...",
+      "options": {
+        "A": "Proses mengamati pemain asing memainkan versi game Anda untuk menganalisis perilaku, kesulitan navigasi, dan tingkat kesenangan bermain secara riil",
+        "B": "Menguji baris kode program untuk mendeteksi adanya error compiler di sistem operasi",
+        "C": "Mengirimkan file build game ke media berita untuk mendapatkan skor ulasan komersial",
+        "D": "Memainkan game ciptaan sendiri secara berulang-ulang hingga berhasil mencapai skor tertinggi",
+        "E": "Mengumpulkan alamat IP pemain aktif untuk keperluan verifikasi keamanan akun online"
+      },
+      "answer_hash": "9597425f"
+    },
+    {
+      "no": 11,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Majapahit Games saat menguji game RPG Fantasi mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 12,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Garuda Studio saat menguji game Platformer 2D mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 13,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Siliwangi Digital saat menguji game Horror Survival mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 14,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Lontar Media saat menguji game Balap Arkade mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 15,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Bhinneka Games saat menguji game Roguelike Aksi mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 16,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Merdeka Play saat menguji game RPG Fantasi mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 17,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Khatulistiwa Interactive saat menguji game Platformer 2D mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 18,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Adiwiyata Games saat menguji game Horror Survival mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 19,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Piksel Kreasi saat menguji game Balap Arkade mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 20,
+      "question": "Filosofi game user research 'You are not your player' yang dipegang teguh oleh tim Nusantara Game saat menguji game Roguelike Aksi mengingatkan desainer agar...",
+      "options": {
+        "A": "Tidak berasumsi bahwa pemain memiliki selera bermain, refleks kontrol, dan pemahaman logika yang sama dengan tim pembuat game itu sendiri",
+        "B": "Dilarang keras memainkan game ciptaan sendiri demi menjaga keobjektifan penilaian review",
+        "C": "Wajib menyewa jasa pemain profesional (e-sports player) untuk menamatkan game pra-rilis",
+        "D": "Selalu menuruti semua keluhan dan keinginan pemain tanpa melakukan analisis kritis terlebih dahulu",
+        "E": "Menggunakan akun samaran (anonim) saat membalas kritik pemain di forum komunitas steam"
+      },
+      "answer_hash": "bf510385"
+    },
+    {
+      "no": 21,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game RPG Fantasi karya Garuda Studio (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 22,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Simulasi Bisnis karya Siliwangi Digital (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 23,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Balap Arkade karya Lontar Media (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 24,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Metroidvania karya Bhinneka Games (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 25,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Platformer 2D karya Merdeka Play (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 26,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Strategi Real-Time karya Khatulistiwa Interactive (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 27,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Roguelike Aksi karya Adiwiyata Games (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 28,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Shooter Taktis karya Piksel Kreasi (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 29,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Horror Survival karya Nusantara Game (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 30,
+      "question": "Data kuantitatif yang direkam otomatis oleh sistem program game Puzzle Teka-Teki karya Majapahit Games (seperti persentase area mana yang paling sering memicu kematian pemain) disebut data...",
+      "options": {
+        "A": "Telemetry (Telemetri)",
+        "B": "Feedback Kualitatif",
+        "C": "Transkrip wawancara subjektif",
+        "D": "Catatan referensi seni visual",
+        "E": "Log error crash kartu grafis"
+      },
+      "answer_hash": "3f88216d"
+    },
+    {
+      "no": 31,
+      "question": "Studio Siliwangi Digital merancang game RPG Fantasi dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 32,
+      "question": "Studio Lontar Media merancang game Horror Survival dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 33,
+      "question": "Studio Bhinneka Games merancang game Roguelike Aksi dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 34,
+      "question": "Studio Merdeka Play merancang game Platformer 2D dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 35,
+      "question": "Studio Khatulistiwa Interactive merancang game Balap Arkade dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 36,
+      "question": "Studio Adiwiyata Games merancang game RPG Fantasi dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 37,
+      "question": "Studio Piksel Kreasi merancang game Horror Survival dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 38,
+      "question": "Studio Nusantara Game merancang game Roguelike Aksi dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 39,
+      "question": "Studio Majapahit Games merancang game Platformer 2D dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 40,
+      "question": "Studio Garuda Studio merancang game Balap Arkade dan mengadakan sesi 'Blind Playtest'. Prosedur pelaksanaan blind playtest yang benar adalah...",
+      "options": {
+        "A": "Pemain diberikan versi build game tanpa ada panduan lisan dari tim pengembang dan dibiarkan memainkannya secara mandiri dari awal",
+        "B": "Playtester ditutup matanya menggunakan kain hitam dan hanya menebak game lewat efek suara SFX saja",
+        "C": "Tim pengembang memainkan game di hadapan pemain uji coba sambil menerangkan baris kode program",
+        "D": "Pemain diharuskan mematikan lampu ruangan bermain agar suasana terasa menyeramkan",
+        "E": "Menguji game menggunakan emulator komputer tanpa menyalakan monitor layar utama"
+      },
+      "answer_hash": "7d620b8b"
+    },
+    {
+      "no": 41,
+      "question": "Dalam riset pengguna game RPG Fantasi oleh Lontar Media, data kualitatif dikumpulkan melalui sesi wawancara mendalam, sedangkan data kuantitatif dikumpulkan melalui data grafik telemetri game. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 42,
+      "question": "Dalam riset pengguna game Strategi Real-Time oleh Bhinneka Games, data kualitatif dikumpulkan melalui survei deskriptif opini, sedangkan data kuantitatif dikumpulkan melalui kalkulasi deteksi letak koordinat bug. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 43,
+      "question": "Dalam riset pengguna game RPG Fantasi oleh Merdeka Play, data kualitatif dikumpulkan melalui  think-aloud protocol lisan, sedangkan data kuantitatif dikumpulkan melalui angka rata-rata waktu penyelesaian level. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 44,
+      "question": "Dalam riset pengguna game Strategi Real-Time oleh Khatulistiwa Interactive, data kualitatif dikumpulkan melalui catatan pengamatan manual, sedangkan data kuantitatif dikumpulkan melalui jumlah klik mouse per menit pemain. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 45,
+      "question": "Dalam riset pengguna game RPG Fantasi oleh Adiwiyata Games, data kualitatif dikumpulkan melalui rekaman video ekspresi wajah, sedangkan data kuantitatif dikumpulkan melalui data statistik persentase menang/kalah faksi. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 46,
+      "question": "Dalam riset pengguna game Strategi Real-Time oleh Piksel Kreasi, data kualitatif dikumpulkan melalui laporan tertulis kritik forum, sedangkan data kuantitatif dikumpulkan melalui laporan data telemetri heatmaps kematian. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 47,
+      "question": "Dalam riset pengguna game RPG Fantasi oleh Nusantara Game, data kualitatif dikumpulkan melalui diskusi kelompok terfokus (FGD), sedangkan data kuantitatif dikumpulkan melalui jumlah pengunduhan file update patch game. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 48,
+      "question": "Dalam riset pengguna game Strategi Real-Time oleh Majapahit Games, data kualitatif dikumpulkan melalui log kuesioner skala Likert, sedangkan data kuantitatif dikumpulkan melalui data durasi detik waktu menamatkan stage. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 49,
+      "question": "Dalam riset pengguna game RPG Fantasi oleh Garuda Studio, data kualitatif dikumpulkan melalui rekaman audio obrolan tim, sedangkan data kuantitatif dikumpulkan melalui statistik jumlah item belanja di toko NPC. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 50,
+      "question": "Dalam riset pengguna game Strategi Real-Time oleh Siliwangi Digital, data kualitatif dikumpulkan melalui catatan harian pemain, sedangkan data kuantitatif dikumpulkan melalui data komparatif performa frame rate GPU. Keseimbangan kedua jenis data ini penting untuk...",
+      "options": {
+        "A": "Mengidentifikasi letak masalah navigasi/mekanik (kuantitatif) sekaligus memahami mengapa masalah tersebut terjadi dari perspektif psikologis pemain (kualitatif)",
+        "B": "Menghitung total bonus uang lembur yang akan diserahkan kepada tim programmer utama",
+        "C": "Mengurangi kapasitas penyimpanan ram server online game",
+        "D": "Menentukan harga jual optimal game di pasar digital internasional",
+        "E": "Mempercepat proses kompilasi kode pemrograman game engine"
+      },
+      "answer_hash": "4b7806d1"
+    },
+    {
+      "no": 51,
+      "question": "Mengapa penguji riset di Bhinneka Games dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Bukankah pertarungan bos level 3 ini terasa terlalu sulit dan tidak adil?' saat mewawancarai playtester game RPG Fantasi?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 52,
+      "question": "Mengapa penguji riset di Merdeka Play dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Apakah Anda merasa bosan dengan visual gurun pasir di level ini?' saat mewawancarai playtester game Balap Arkade?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 53,
+      "question": "Mengapa penguji riset di Khatulistiwa Interactive dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Jurus pedang api ini sangat keren sekali, bukan?' saat mewawancarai playtester game Platformer 2D?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 54,
+      "question": "Mengapa penguji riset di Adiwiyata Games dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Mengapa Anda memilih lari alih-alih melawan musuh yang lemah itu?' saat mewawancarai playtester game Roguelike Aksi?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 55,
+      "question": "Mengapa penguji riset di Piksel Kreasi dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Apakah Anda setuju jika menu inventory game ini dinilai sangat buruk?' saat mewawancarai playtester game Horror Survival?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 56,
+      "question": "Mengapa penguji riset di Nusantara Game dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Teka-teki di kastil ini membuat Anda pusing, kan?' saat mewawancarai playtester game RPG Fantasi?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 57,
+      "question": "Mengapa penguji riset di Majapahit Games dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Pasti Anda menyukai suara latar belakang hutan ini?' saat mewawancarai playtester game Balap Arkade?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 58,
+      "question": "Mengapa penguji riset di Garuda Studio dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Apakah kontrol karakter yang kaku ini membuat Anda frustrasi?' saat mewawancarai playtester game Platformer 2D?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 59,
+      "question": "Mengapa penguji riset di Siliwangi Digital dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Bukankah dialog NPC di gerbang desa tadi terdengar sangat konyol?' saat mewawancarai playtester game Roguelike Aksi?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 60,
+      "question": "Mengapa penguji riset di Lontar Media dilarang menanyakan pertanyaan menggiring (leading question) seperti 'Apakah Anda merasa harga ramuan HP ini terlalu mahal?' saat mewawancarai playtester game Horror Survival?",
+      "options": {
+        "A": "Karena dapat memengaruhi jawaban pemain secara psikologis (bias) sehingga data yang diperoleh tidak valid mencerminkan opini murni mereka",
+        "B": "Sebab pertanyaan tersebut dapat menyinggung perasaan pribadi pemain uji coba",
+        "C": "Karena melanggar hukum undang-undang perlindungan data pribadi konsumen digital",
+        "D": "Karena membuat durasi waktu wawancara menjadi terlalu lama dari jadwal tertulis",
+        "E": "Menyulitkan pengisian data statistik di dalam program microsoft excel kantor"
+      },
+      "answer_hash": "b1abdcd4"
+    },
+    {
+      "no": 61,
+      "question": "Data telemetri game RPG Fantasi karya Merdeka Play memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 62,
+      "question": "Data telemetri game Puzzle Teka-Teki karya Khatulistiwa Interactive memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 63,
+      "question": "Data telemetri game Horror Survival karya Adiwiyata Games memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 64,
+      "question": "Data telemetri game Shooter Taktis karya Piksel Kreasi memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 65,
+      "question": "Data telemetri game Roguelike Aksi karya Nusantara Game memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 66,
+      "question": "Data telemetri game Strategi Real-Time karya Majapahit Games memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 67,
+      "question": "Data telemetri game Platformer 2D karya Garuda Studio memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 68,
+      "question": "Data telemetri game Metroidvania karya Siliwangi Digital memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 69,
+      "question": "Data telemetri game Balap Arkade karya Lontar Media memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 70,
+      "question": "Data telemetri game Simulasi Bisnis karya Bhinneka Games memperlihatkan terjadi lonjakan tinggi pemain keluar (quit) pada menit ke-3 di level tutorial. Analisis desain taktis yang paling logis dari fenomena ini adalah...",
+      "options": {
+        "A": "Tingkat kesulitan tutorial melompat terlalu ekstrem (onboarding buruk) atau ada bug teknis menghambat jalan pemain",
+        "B": "Pemain tidak menyukai lagu soundtrack latar belakang yang dimainkan di level tersebut",
+        "C": "Kapasitas RAM perangkat hp pemain kepenuhan sehingga game crash otomatis",
+        "D": "Harga pembelian item kosmetik di toko kuis dinilai terlalu mahal oleh pemain",
+        "E": "Pemain sengaja keluar untuk membagikan file rahasia game ke media luar"
+      },
+      "answer_hash": "6860a38d"
+    },
+    {
+      "no": 71,
+      "question": "Dalam sesi riset game RPG Fantasi di Khatulistiwa Interactive, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 72,
+      "question": "Dalam sesi riset game Roguelike Aksi di Adiwiyata Games, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 73,
+      "question": "Dalam sesi riset game Balap Arkade di Piksel Kreasi, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 74,
+      "question": "Dalam sesi riset game Horror Survival di Nusantara Game, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 75,
+      "question": "Dalam sesi riset game Platformer 2D di Majapahit Games, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 76,
+      "question": "Dalam sesi riset game RPG Fantasi di Garuda Studio, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 77,
+      "question": "Dalam sesi riset game Roguelike Aksi di Siliwangi Digital, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 78,
+      "question": "Dalam sesi riset game Balap Arkade di Lontar Media, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 79,
+      "question": "Dalam sesi riset game Horror Survival di Bhinneka Games, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 80,
+      "question": "Dalam sesi riset game Platformer 2D di Merdeka Play, digunakan metode 'Think-Aloud Protocol'. Kelebihan utama metode pengamatan lisan ini adalah...",
+      "options": {
+        "A": "Mendapatkan data langsung tentang proses berpikir, kebingungan, dan respon emosional instan pemain saat berinteraksi dengan game",
+        "B": "Meningkatkan kemampuan berbicara publik (public speaking) dari pemain uji coba",
+        "C": "Mengevaluasi kualitas frekuensi suara efek (SFX) saat tombol ditekan",
+        "D": "Mencegah agar pemain tidak merasa jenuh karena diajak berbicara sepanjang bermain",
+        "E": "Secara otomatis memprogram baris kode navigasi level yang baru"
+      },
+      "answer_hash": "89b18d64"
+    },
+    {
+      "no": 81,
+      "question": "Seorang level designer di Adiwiyata Games mengamati visual grafik 'Heatmap' kematian pemain di game RPG Fantasi garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 82,
+      "question": "Seorang level designer di Piksel Kreasi mengamati visual grafik 'Heatmap' kematian pemain di game Metroidvania garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 83,
+      "question": "Seorang level designer di Nusantara Game mengamati visual grafik 'Heatmap' kematian pemain di game Roguelike Aksi garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 84,
+      "question": "Seorang level designer di Majapahit Games mengamati visual grafik 'Heatmap' kematian pemain di game Puzzle Teka-Teki garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 85,
+      "question": "Seorang level designer di Garuda Studio mengamati visual grafik 'Heatmap' kematian pemain di game Balap Arkade garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 86,
+      "question": "Seorang level designer di Siliwangi Digital mengamati visual grafik 'Heatmap' kematian pemain di game Strategi Real-Time garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 87,
+      "question": "Seorang level designer di Lontar Media mengamati visual grafik 'Heatmap' kematian pemain di game Horror Survival garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 88,
+      "question": "Seorang level designer di Bhinneka Games mengamati visual grafik 'Heatmap' kematian pemain di game Simulasi Bisnis garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 89,
+      "question": "Seorang level designer di Merdeka Play mengamati visual grafik 'Heatmap' kematian pemain di game Platformer 2D garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 90,
+      "question": "Seorang level designer di Khatulistiwa Interactive mengamati visual grafik 'Heatmap' kematian pemain di game Shooter Taktis garapannya. Terlihat titik merah pekat menumpuk di area kolam duri level 1. Langkah desain taktis yang harus diambil adalah...",
+      "options": {
+        "A": "Meninjau ulang lebar kolam duri atau responsivitas lompatan karakter di area tersebut untuk mengurangi frustrasi berlebih pemain",
+        "B": "Menghapus total kolam duri tersebut dari peta level dan menjadikannya jalan datar rata",
+        "C": "Menyalahkan keterampilan bermain penguji dan mengabaikan visual grafik heatmap tersebut",
+        "D": "Mengunci area kolam duri di balik sistem pembelian item lompat berbayar koin nyata",
+        "E": "Menaikkan damage duri agar pemain mati lebih cepat dan menantang"
+      },
+      "answer_hash": "7577fdba"
+    },
+    {
+      "no": 91,
+      "question": "Mengapa studio Piksel Kreasi mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 92,
+      "question": "Mengapa studio Nusantara Game mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 93,
+      "question": "Mengapa studio Majapahit Games mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 94,
+      "question": "Mengapa studio Garuda Studio mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 95,
+      "question": "Mengapa studio Siliwangi Digital mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 96,
+      "question": "Mengapa studio Lontar Media mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 97,
+      "question": "Mengapa studio Bhinneka Games mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 98,
+      "question": "Mengapa studio Merdeka Play mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 99,
+      "question": "Mengapa studio Khatulistiwa Interactive mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    },
+    {
+      "no": 100,
+      "question": "Mengapa studio Adiwiyata Games mewajibkan playtester eksternal game RPG Fantasi menandatangani dokumen NDA sebelum sesi pengujian dimulai?",
+      "options": {
+        "A": "Menjaga kerahasiaan kekayaan intelektual (ide gameplay, visual, kode) agar tidak dibocorkan ke publik sebelum tanggal rilis resmi",
+        "B": "Membebaskan studio dari tuntutan hukum jika komputer playtester rusak akibat game",
+        "C": "Menyatakan secara hukum bahwa nilai kuis yang diraih playtester sepenuhnya milik studio",
+        "D": "Memaksa playtester agar wajib membeli game versi komersial saat rilis di steam nanti",
+        "E": "Menyetujui kesediaan playtester untuk bekerja lembur 12 jam per hari tanpa dibayar uang saku"
+      },
+      "answer_hash": "445f3813"
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "materi": "Algoritma Pemrograman",
+  "deskripsi": "Logika percabangan tersarang, perulangan, manipulasi array/list, kompleksitas waktu algoritma (Big O), rekursi, dan penanganan eksepsi.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 2,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 3,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 4,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 5,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 6,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 7,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 8,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 9,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 10,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Big O Complexity'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk O(N log N) karena membagi array menjadi bagian kecil dan mengurutkannya secara efisien (seperti Quick/Merge Sort) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk O(N^2) karena menggunakan dua perulangan tersarang (nested loop) bubble sort lambat yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan O(1) karena waktu eksekusi selalu konstan terlepas dari ukuran array data masukan yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "9714fa12"
+    },
+    {
+      "no": 11,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 12,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 13,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 14,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 15,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 16,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 17,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 18,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 19,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 20,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Nested Conditionals'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menulis kondisi luar untuk filter utama, kemudian kondisi dalam khusus untuk kriteria detail guna presisi keputusan logika demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menumpuk sepuluh perintah if-else secara linear sejajar tanpa ada hierarki bersarang yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus seluruh percabangan kondisi dan menggantinya dengan variabel boolean acak yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "3342c46a"
+    },
+    {
+      "no": 21,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 22,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 23,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 24,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 25,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 26,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 27,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 28,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 29,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 30,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Loop Control'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan perintah 'break' untuk menghentikan perulangan saat target ditemukan, guna menghemat waktu prosesor demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan perulangan while-true tanpa adanya perintah pengubah kondisi di dalam blok kode yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan meniadakan batas kondisi perulangan agar semua baris data dibaca berulang kali tanpa henti yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "4be1ee3f"
+    },
+    {
+      "no": 31,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 32,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 33,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 34,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 35,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 36,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 37,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 38,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 39,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 40,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Array Manipulation'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggeser indeks elemen tersiar ke posisi kanan satu per satu secara teratur saat memasukkan data baru di tengah demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menghapus seluruh isi array data secara acak setiap kali terjadi penambahan data baru yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan membuat ukuran panjang array bertambah dinamis secara tidak terbatas di memori ram komputer yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "26b021f0"
+    },
+    {
+      "no": 41,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 42,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 43,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 44,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 45,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 46,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 47,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 48,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 49,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 50,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Value Tracing'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membuat tabel jejak (trace table) untuk mencatat perubahan nilai setiap variabel di setiap baris eksekusi kode demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menebak nilai akhir variabel berdasarkan baris kode penutup tanpa menghitung proses iterasi yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menjalankan kode program berulang-ulang tanpa menampilkan output nilai variabel di layar yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "afe2fbfe"
+    },
+    {
+      "no": 51,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 52,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 53,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 54,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 55,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 56,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 57,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 58,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 59,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 60,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Function Scope'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk mendeklarasikan variabel di dalam fungsi (lokal) agar terisolasi dari modifikasi tidak sengaja oleh fungsi luar demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk menggunakan variabel global untuk menyimpan semua nilai perhitungan sementara di program yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghapus semua parameter masukan fungsi dan mengandalkan variabel statis eksternal yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "d7939694"
+    },
+    {
+      "no": 61,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 62,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 63,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 64,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 65,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 66,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 67,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 68,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 69,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 70,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'String Algorithms'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk menggunakan algoritma pencarian substring KMP (Knuth-Morris-Pratt) untuk efisiensi pencarian kata kunci panjang demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membaca karakter string satu per satu secara acak menggunakan angka indeks keberuntungan yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan mengubah string menjadi array karakter lalu mengurutkannya secara bubble sort bergantian yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "ce233d03"
+    },
+    {
+      "no": 71,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 72,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 73,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 74,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 75,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 76,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 77,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 78,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 79,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 80,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Exception Handling'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk membungkus kode rawan error (seperti pembagian nol/koneksi database) dalam blok try-catch untuk penanganan crash yang aman demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk mengabaikan potensi crash program dan membiarkan aplikasi tertutup paksa di depan pengguna yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menonaktifkan seluruh fitur notifikasi error pada compiler game engine yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "434b2137"
+    },
+    {
+      "no": 81,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 82,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 83,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 84,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 85,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 86,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 87,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 88,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 89,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 90,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Recursion Trace'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk memastikan base case tereksekusi dengan benar sebelum memori stack menembus batas maksimal (stack overflow) demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk membuat fungsi rekursif yang memanggil dirinya sendiri dengan parameter nilai yang terus bertambah yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan menghilangkan kondisi pembatas rekursif agar fungsi berjalan tanpa henti di sistem yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "19d444c2"
+    },
+    {
+      "no": 91,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Adit ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 92,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Budi ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 93,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Citra ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 94,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Dewi ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 95,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Eko ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 96,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Fahmi ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 97,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Gita ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 98,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Hendra ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 99,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Indah ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    },
+    {
+      "no": 100,
+      "question": "Saat merancang sistem pemrograman untuk analisis data Joko ingin mengoptimalkan logika 'Sorting Logic'. Solusi penulisan kode program yang paling tepat adalah...",
+      "options": {
+        "A": "Menerapkan konsep untuk Quick Sort dengan memilih pivot yang baik untuk membagi data secara seimbang di setiap iterasi pemisahan demi efisiensi memori stack dan kecepatan waktu eksekusi program",
+        "B": "Menggunakan cara untuk Bubble Sort dengan menukar posisi angka berdampingan secara terus menerus hingga akhir yang tidak efisien dan rentan memicu hang/crash aplikasi",
+        "C": "Memilih jalan pintas dengan Selection Sort dengan mencari angka terkecil secara linear berulang kali di seluruh sisa array yang merusak standarisasi penulisan kode bersih",
+        "D": "Menyerahkan seluruh penulisan algoritma program kepada program generator visual gratisan",
+        "E": "Membatasi panjang variabel nama fungsi maksimal lima karakter saja demi efisiensi file"
+      },
+      "answer_hash": "b41e9b01"
+    }
+  ]
+}

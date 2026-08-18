@@ -1,0 +1,1207 @@
+{
+  "materi": "Dokumen Desain Gim",
+  "deskripsi": "Menyusun Game Design Document (GDD) sebagai cetak biru (blueprint) pengembangan gim. Memahami komponen GDD, perannya sebagai dokumen kolaboratif tim, serta pitching.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam proses produksi game RPG Fantasi di studio Nusantara Game, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 2,
+      "question": "Dalam proses produksi game Shooter Taktis di studio Majapahit Games, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 3,
+      "question": "Dalam proses produksi game Platformer 2D di studio Garuda Studio, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 4,
+      "question": "Dalam proses produksi game Simulasi Bisnis di studio Siliwangi Digital, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 5,
+      "question": "Dalam proses produksi game Horror Survival di studio Lontar Media, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 6,
+      "question": "Dalam proses produksi game Strategi Real-Time di studio Bhinneka Games, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 7,
+      "question": "Dalam proses produksi game Balap Arkade di studio Merdeka Play, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 8,
+      "question": "Dalam proses produksi game Puzzle Teka-Teki di studio Khatulistiwa Interactive, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 9,
+      "question": "Dalam proses produksi game Roguelike Aksi di studio Adiwiyata Games, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 10,
+      "question": "Dalam proses produksi game Metroidvania di studio Piksel Kreasi, dokumen GDD (Game Design Document) diposisikan sebagai...",
+      "options": {
+        "A": "Cetak biru (blueprint) komprehensif yang memandu seluruh tim (artis, programmer, desainer) agar memiliki visi pengembangan yang selaras",
+        "B": "Kontrak kerja hukum tertulis yang mengatur hak royalti keuntungan penjualan game di platform digital",
+        "C": "Laporan pengujian bug pemrograman yang ditulis secara berkala oleh tim Quality Assurance (QA)",
+        "D": "Blog postingan promosi mingguan yang ditulis di media sosial untuk menarik basis calon penggemar",
+        "E": "Tabel database MySQL yang menyimpan koordinat posisi musuh secara online di server utama"
+      },
+      "answer_hash": "e6fd1460"
+    },
+    {
+      "no": 11,
+      "question": "Mengapa GDD game RPG Fantasi milik Majapahit Games disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 12,
+      "question": "Mengapa GDD game Platformer 2D milik Garuda Studio disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 13,
+      "question": "Mengapa GDD game Horror Survival milik Siliwangi Digital disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 14,
+      "question": "Mengapa GDD game Balap Arkade milik Lontar Media disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 15,
+      "question": "Mengapa GDD game Roguelike Aksi milik Bhinneka Games disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 16,
+      "question": "Mengapa GDD game RPG Fantasi milik Merdeka Play disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 17,
+      "question": "Mengapa GDD game Platformer 2D milik Khatulistiwa Interactive disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 18,
+      "question": "Mengapa GDD game Horror Survival milik Adiwiyata Games disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 19,
+      "question": "Mengapa GDD game Balap Arkade milik Piksel Kreasi disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 20,
+      "question": "Mengapa GDD game Roguelike Aksi milik Nusantara Game disebut sebagai 'Living Document' (Dokumen Hidup)?",
+      "options": {
+        "A": "Karena dokumen tersebut harus terus diperbarui secara berkala mengikuti iterasi perubahan desain di tengah produksi game",
+        "B": "Karena dokumen tersebut ditulis secara otomatis oleh program kecerdasan buatan (AI) yang terus berkembang",
+        "C": "Karena dokumen tersebut akan terhapus secara otomatis saat game selesai diekspor menjadi file installer",
+        "D": "Karena dokumen tersebut hanya boleh dibaca oleh pimpinan studio selama jam kerja kantor berlangsung",
+        "E": "Karena dokumen tersebut memuat kode program utama yang dapat dijalankan secara mandiri sebagai mini game"
+      },
+      "answer_hash": "47c5ab3e"
+    },
+    {
+      "no": 21,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game RPG Fantasi karya Garuda Studio, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 22,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Simulasi Bisnis karya Siliwangi Digital, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 23,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Balap Arkade karya Lontar Media, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 24,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Metroidvania karya Bhinneka Games, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 25,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Platformer 2D karya Merdeka Play, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 26,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Strategi Real-Time karya Khatulistiwa Interactive, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 27,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Roguelike Aksi karya Adiwiyata Games, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 28,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Shooter Taktis karya Piksel Kreasi, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 29,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Horror Survival karya Nusantara Game, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 30,
+      "question": "Di bagian awal (Executive Summary) dokumen GDD game Puzzle Teka-Teki karya Majapahit Games, manakah informasi utama yang wajib tercantum?",
+      "options": {
+        "A": "High Concept, Target Player, Genre, Platform, dan Unique Selling Proposition (USP) gim",
+        "B": "Daftar algoritma perhitungan matematika damage fisik dan defense karakter",
+        "C": "Baris kode pemrograman C++ untuk sistem pergerakan kamera dinamis",
+        "D": "Kuitansi pembelian aset visual gambar 2D dari pihak distributor luar",
+        "E": "Jadwal jam kerja lembur harian tim programmer selama masa produksi"
+      },
+      "answer_hash": "ba40cbc0"
+    },
+    {
+      "no": 31,
+      "question": "Dalam dokumen GDD game RPG Fantasi buatan Siliwangi Digital, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 32,
+      "question": "Dalam dokumen GDD game Horror Survival buatan Lontar Media, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 33,
+      "question": "Dalam dokumen GDD game Roguelike Aksi buatan Bhinneka Games, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 34,
+      "question": "Dalam dokumen GDD game Platformer 2D buatan Merdeka Play, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 35,
+      "question": "Dalam dokumen GDD game Balap Arkade buatan Khatulistiwa Interactive, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 36,
+      "question": "Dalam dokumen GDD game RPG Fantasi buatan Adiwiyata Games, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 37,
+      "question": "Dalam dokumen GDD game Horror Survival buatan Piksel Kreasi, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 38,
+      "question": "Dalam dokumen GDD game Roguelike Aksi buatan Nusantara Game, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 39,
+      "question": "Dalam dokumen GDD game Platformer 2D buatan Majapahit Games, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 40,
+      "question": "Dalam dokumen GDD game Balap Arkade buatan Garuda Studio, bagian 'Gameplay & Mechanics' berfokus merinci...",
+      "options": {
+        "A": "Aturan permainan, skema kontrol tombol, core loop, deskripsi mekanika utama, dan interaksi objek",
+        "B": "Palet warna seni visual yang digunakan oleh model desainer 3D",
+        "C": "Naskah dialog dialog penuh antar faksi dari bab 1 s.d. bab 10",
+        "D": "Spesifikasi komputer server fisik lokal untuk menampung data pemain online",
+        "E": "Taktik copywriting promosi iklan media sosial menjelang tanggal perilisan resmi"
+      },
+      "answer_hash": "4a99bd45"
+    },
+    {
+      "no": 41,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game RPG Fantasi karya Lontar Media sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 42,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game Strategi Real-Time karya Bhinneka Games sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 43,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game RPG Fantasi karya Merdeka Play sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 44,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game Strategi Real-Time karya Khatulistiwa Interactive sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 45,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game RPG Fantasi karya Adiwiyata Games sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 46,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game Strategi Real-Time karya Piksel Kreasi sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 47,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game RPG Fantasi karya Nusantara Game sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 48,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game Strategi Real-Time karya Majapahit Games sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 49,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game RPG Fantasi karya Garuda Studio sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 50,
+      "question": "Bagian 'Art Style Guide' dalam dokumen GDD game Strategi Real-Time karya Siliwangi Digital sangat dibutuhkan oleh tim artis visual karena memuat...",
+      "options": {
+        "A": "Panduan gaya visual (misal low-poly, pixel art), palet warna dominan, referensi desain karakter, dan pencahayaan",
+        "B": "Logika matematika algoritma rendering bayangan kartu grafis komputer",
+        "C": "Naskah dialog komparatif antar karakter dalam game",
+        "D": "Daftar distributor ritel keping CD game fisik",
+        "E": "Daftar harga sewa software menggambar digital per bulan"
+      },
+      "answer_hash": "2ef35a3"
+    },
+    {
+      "no": 51,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game RPG Fantasi oleh Bhinneka Games merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 52,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Balap Arkade oleh Merdeka Play merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 53,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Platformer 2D oleh Khatulistiwa Interactive merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 54,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Roguelike Aksi oleh Adiwiyata Games merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 55,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Horror Survival oleh Piksel Kreasi merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 56,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game RPG Fantasi oleh Nusantara Game merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 57,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Balap Arkade oleh Majapahit Games merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 58,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Platformer 2D oleh Garuda Studio merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 59,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Roguelike Aksi oleh Siliwangi Digital merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 60,
+      "question": "Istilah 'Feature Creep' yang sering dihindari dalam pemeliharaan GDD game Horror Survival oleh Lontar Media merujuk pada...",
+      "options": {
+        "A": "Penambahan fitur baru secara terus-menerus tanpa kontrol di tengah produksi yang menunda perilisan dan membengkakkan anggaran",
+        "B": "Bug fatal di mana karakter menembus dinding level secara tidak sengaja",
+        "C": "Penurunan performa grafis saat banyak musuh muncul bersamaan di layar",
+        "D": "Sesi wawancara kerja untuk merekrut programmer baru di studio game",
+        "E": "Kekurangan aset model 3D yang belum dirender oleh GPU komputer"
+      },
+      "answer_hash": "872d6911"
+    },
+    {
+      "no": 61,
+      "question": "Mengapa tim Merdeka Play sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game RPG Fantasi mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 62,
+      "question": "Mengapa tim Khatulistiwa Interactive sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Puzzle Teka-Teki mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 63,
+      "question": "Mengapa tim Adiwiyata Games sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Horror Survival mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 64,
+      "question": "Mengapa tim Piksel Kreasi sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Shooter Taktis mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 65,
+      "question": "Mengapa tim Nusantara Game sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Roguelike Aksi mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 66,
+      "question": "Mengapa tim Majapahit Games sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Strategi Real-Time mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 67,
+      "question": "Mengapa tim Garuda Studio sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Platformer 2D mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 68,
+      "question": "Mengapa tim Siliwangi Digital sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Metroidvania mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 69,
+      "question": "Mengapa tim Lontar Media sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Balap Arkade mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 70,
+      "question": "Mengapa tim Bhinneka Games sebaiknya menyusun 'One-Page Design Document' sebelum menulis GDD tebal untuk game Simulasi Bisnis mereka?",
+      "options": {
+        "A": "Untuk memaparkan dan memvalidasi konsep dasar game secara ringkas dan cepat kepada penerbit atau anggota tim internal",
+        "B": "Menghindari biaya pembelian kertas cetak dokumen yang mahal di masa pra-produksi",
+        "C": "Membuat program game langsung siap diinstal pada ponsel berspesifikasi rendah",
+        "D": "Mencegah peretas mencuri seluruh jalan cerita karena hanya tertulis satu halaman saja",
+        "E": "Menyelesaikan proses pemrograman kecerdasan buatan musuh dalam satu lembar instruksi saja"
+      },
+      "answer_hash": "17a80b4e"
+    },
+    {
+      "no": 71,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game RPG Fantasi buatan Khatulistiwa Interactive?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 72,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Roguelike Aksi buatan Adiwiyata Games?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 73,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Balap Arkade buatan Piksel Kreasi?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 74,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Horror Survival buatan Nusantara Game?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 75,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Platformer 2D buatan Majapahit Games?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 76,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game RPG Fantasi buatan Garuda Studio?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 77,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Roguelike Aksi buatan Siliwangi Digital?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 78,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Balap Arkade buatan Lontar Media?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 79,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Horror Survival buatan Bhinneka Games?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 80,
+      "question": "Informasi apa yang wajib tercantum dalam bagian 'Technical Specifications' pada GDD game Platformer 2D buatan Merdeka Play?",
+      "options": {
+        "A": "Target platform (PC, Mobile, Konsol), game engine yang dipilih, dan batasan teknis perangkat keras target",
+        "B": "Baris teks dialog komparatif lengkap antar faksi dalam game",
+        "C": "Sketsa sketsa kasar konsep warna lingkungan peta stage 1",
+        "D": "Harga promosi item baju pelindung karakter di toko menu utama",
+        "E": "Tabel nama lengkap dan kontak darurat seluruh anggota tim pengembang"
+      },
+      "answer_hash": "913e8e9b"
+    },
+    {
+      "no": 81,
+      "question": "Bagaimanakah GDD game RPG Fantasi membantu tim Quality Assurance (QA) di Adiwiyata Games dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 82,
+      "question": "Bagaimanakah GDD game Metroidvania membantu tim Quality Assurance (QA) di Piksel Kreasi dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 83,
+      "question": "Bagaimanakah GDD game Roguelike Aksi membantu tim Quality Assurance (QA) di Nusantara Game dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 84,
+      "question": "Bagaimanakah GDD game Puzzle Teka-Teki membantu tim Quality Assurance (QA) di Majapahit Games dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 85,
+      "question": "Bagaimanakah GDD game Balap Arkade membantu tim Quality Assurance (QA) di Garuda Studio dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 86,
+      "question": "Bagaimanakah GDD game Strategi Real-Time membantu tim Quality Assurance (QA) di Siliwangi Digital dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 87,
+      "question": "Bagaimanakah GDD game Horror Survival membantu tim Quality Assurance (QA) di Lontar Media dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 88,
+      "question": "Bagaimanakah GDD game Simulasi Bisnis membantu tim Quality Assurance (QA) di Bhinneka Games dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 89,
+      "question": "Bagaimanakah GDD game Platformer 2D membantu tim Quality Assurance (QA) di Merdeka Play dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 90,
+      "question": "Bagaimanakah GDD game Shooter Taktis membantu tim Quality Assurance (QA) di Khatulistiwa Interactive dalam menjalankan tugasnya?",
+      "options": {
+        "A": "Menjadi standar rujukan perilaku game yang seharusnya (intended behavior) untuk mencocokkan jika ada penyimpangan di versi game aktual",
+        "B": "Secara otomatis mendeteksi dan menghapus baris kode program yang salah",
+        "C": "Menyediakan program bot otomatis untuk memainkan game 24 jam nonstop mencari bug",
+        "D": "Menentukan besaran bonus finansial bagi penguji yang berhasil menemukan bug terbanyak",
+        "E": "Menyimpan secara otomatis alamat IP internet pemain yang curang (cheater)"
+      },
+      "answer_hash": "f5a2806e"
+    },
+    {
+      "no": 91,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Piksel Kreasi?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 92,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Nusantara Game?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 93,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Majapahit Games?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 94,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Garuda Studio?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 95,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Siliwangi Digital?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 96,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Lontar Media?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 97,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Bhinneka Games?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 98,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Merdeka Play?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 99,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Khatulistiwa Interactive?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    },
+    {
+      "no": 100,
+      "question": "Mengapa penyertaan 'Version History' (Riwayat Versi) sangat krusial dalam pemeliharaan dokumen GDD game RPG Fantasi oleh Adiwiyata Games?",
+      "options": {
+        "A": "Memungkinkan pelacakan detail perubahan desain, siapa yang mengubahnya, dan alasan perubahan demi transparansi tim",
+        "B": "Mencegah game agar tidak bisa dijalankan di komputer yang belum diperbarui sistem operasinya",
+        "C": "Secara otomatis membatalkan kontrak kerja sama hukum dengan penerbit jika terjadi kesalahan fatal",
+        "D": "Mengurangi ukuran file dokumen GDD agar menghemat kuota internet saat dibagikan",
+        "E": "Memindahkan seluruh data save game pemain lama ke server database baru"
+      },
+      "answer_hash": "d7820b54"
+    }
+  ]
+}

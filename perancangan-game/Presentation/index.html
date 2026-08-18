@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul Ajar Perancangan Gim: Slide Lobby</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --neon-yellow: #FFE500;
+            --neon-yellow-glow: rgba(255, 229, 0, 0.35);
+            --bg-dark: #090a0f;
+            --bg-card: #181b26;
+            --border-color: #2b2e3d;
+            --text-primary: #f4f4f5;
+            --text-secondary: #a1a1aa;
+            --font-gaming: 'Orbitron', 'Space Grotesk', sans-serif;
+            --font-body: 'Manrope', 'Inter', sans-serif;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background: var(--bg-dark);
+            min-height: 100vh;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        body::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: 
+                radial-gradient(var(--neon-yellow) 1px, transparent 1px),
+                linear-gradient(rgba(255, 229, 0, 0.02) 1px, transparent 1px);
+            background-size: 32px 32px;
+            opacity: 0.2;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .lobby-container {
+            max-width: 1050px;
+            width: 100%;
+            z-index: 2;
+            text-align: center;
+        }
+        
+        header {
+            margin-bottom: 40px;
+        }
+        
+        .header-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(255,229,0,0.12);
+            border: 1px solid rgba(255,229,0,0.3);
+            border-radius: 4px;
+            color: var(--neon-yellow);
+            font-family: var(--font-gaming);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        
+        h1 {
+            font-family: var(--font-gaming);
+            font-weight: 900;
+            font-size: clamp(28px, 4.5vw, 54px);
+            letter-spacing: -0.01em;
+            line-height: 1.1;
+            margin-bottom: 10px;
+        }
+        
+        h1 span.accent {
+            color: var(--neon-yellow);
+            text-shadow: 0 0 20px var(--neon-yellow-glow);
+        }
+        
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: clamp(14px, 1.3vw, 17px);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+        
+        .grid-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+            text-align: left;
+        }
+        
+        .menu-item-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+        
+        .menu-item-card:hover {
+            border-color: var(--neon-yellow);
+            box-shadow: 0 4px 25px rgba(255, 229, 0, 0.18);
+            transform: translateY(-4px);
+        }
+        
+        .menu-item-card::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 5px; height: 100%;
+            background: var(--neon-yellow);
+            opacity: 0.8;
+        }
+        
+        .level-badge {
+            font-family: var(--font-gaming);
+            font-size: 11px;
+            font-weight: 800;
+            color: var(--neon-yellow);
+            letter-spacing: 0.05em;
+        }
+        
+        .play-btn {
+            font-family: var(--font-gaming);
+            font-weight: 700;
+            font-size: 12px;
+            color: #000;
+            background: var(--neon-yellow);
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: block;
+            margin-top: auto;
+            box-shadow: 0 2px 8px var(--neon-yellow-glow);
+        }
+        
+        .play-btn:hover {
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(255,255,255,0.25);
+        }
+    </style>
+</head>
+<body>
+    <div class="lobby-container">
+        <header>
+            <div class="header-badge">GAME SELECTION CABINET</div>
+            <h1>PERANCANGAN GIM <span class="accent">PRESENTATION</span></h1>
+            <p class="subtitle">Pilih stage materi pertemuan di bawah untuk membuka slide presentasi interaktif dan memulai sesi pembelajaran.</p>
+        </header>
+        
+        <main class="grid-menu">
+            
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 01</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Ide Konsep Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_1.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 02</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Desain Narasi Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_2.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 03</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Desain Mekanik Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_3.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 04</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Dokumen Desain Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_4.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 05</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Desain Sistem Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_5.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 06</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Desain Teknik Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_6.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 07</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Desain Level Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_7.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 08</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Desain Purwarupa Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_8.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 09</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Riset Pengguna Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_9.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        <div class="menu-item-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span class="level-badge">STAGE 10</span>
+                <span style="font-family:var(--font-gaming); font-size:11px; color:#10B981; font-weight:700;">READY ✔</span>
+            </div>
+            <h3 style="font-family:var(--font-gaming); font-size:18px; font-weight:700; color:#fff; margin-bottom:6px;">Desain Keseimbangan Gim</h3>
+            <p style="font-size:12.5px; color:var(--text-secondary); line-height:1.4; margin-bottom:15px;">Menjadi Game Designer Profesional</p>
+            <a href="Pertemuan_10.html" class="play-btn">▶ PLAY STAGE</a>
+        </div>
+        
+        </main>
+    </div>
+</body>
+</html>

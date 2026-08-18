@@ -1,0 +1,1207 @@
+{
+  "materi": "Berpikir Komputasional",
+  "deskripsi": "Mempelajari pilar berpikir komputasional: Dekomposisi, Pengenalan Pola, Abstraksi, dan Perancangan Algoritma dalam pemecahan masalah kompleks.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 2,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 3,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 4,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 5,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 6,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 7,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 8,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 9,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 10,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Dekomposisi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memecah masalah besar (seperti rute navigasi logistik nasional) menjadi sub-masalah kecil (seperti rute kurir per kecamatan) agar mudah diselesaikan demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menulis ribuan baris kode program secara acak tanpa ada struktur fungsi yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengabaikan detail masalah dan langsung meluncurkan program mentah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "11ed6609"
+    },
+    {
+      "no": 11,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 12,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 13,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 14,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 15,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 16,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 17,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 18,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 19,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 20,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pengenalan Pola'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menganalisis kesamaan karakteristik data penjualan dari tahun ke tahun untuk memprediksi lonjakan stok barang menjelang hari raya demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah warna latar belakang aplikasi di setiap menit secara dinamis yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus semua data transaksi lama agar memori penyimpanan server hemat yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "1cca2f1a"
+    },
+    {
+      "no": 21,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 22,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 23,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 24,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 25,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 26,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 27,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 28,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 29,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 30,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Abstraksi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk fokus pada koordinat utama rute terpendek dan menyembunyikan detail tidak penting seperti warna mobil kurir atau nama jalan pintas kecil demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menampilkan seluruh baris teks petunjuk pemakaian program di layar beranda utama yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengurangi kualitas resolusi gambar ikon menu aplikasi menjadi sangat rendah yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "10e9a501"
+    },
+    {
+      "no": 31,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 32,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 33,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 34,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 35,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 36,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 37,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 38,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 39,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 40,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Perancangan Algoritma'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menyusun langkah-langkah logis berurutan secara terstruktur untuk mengurutkan data pengiriman barang dari yang tercepat demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membiarkan program memilih sendiri tindakan pemecahan masalah secara acak tanpa aturan kaku yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus sistem deteksi error program demi mempercepat waktu ekspor file yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "5e45a02f"
+    },
+    {
+      "no": 41,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 42,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 43,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 44,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 45,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 46,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 47,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 48,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 49,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 50,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Prosedur Optimasi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengurangi langkah pencarian data yang tidak perlu menggunakan metode pencarian biner (binary search) pada data terurut demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menambah kapasitas memori RAM komputer server secara fisik tanpa batas yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk memaksa pengguna mengunduh file update database secara manual setiap hari yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "671320c4"
+    },
+    {
+      "no": 51,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 52,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 53,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 54,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 55,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 56,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 57,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 58,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 59,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 60,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Deduksi Logis'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk mengambil kesimpulan terstruktur berdasarkan premis kebenaran aturan logika kondisional yang terdefinisi demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk menebak hasil keputusan program berdasarkan perasaan subjektif desainer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengubah aturan masukan data secara acak di tengah jalannya proses kalkulasi yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "3554b2b"
+    },
+    {
+      "no": 61,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 62,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 63,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 64,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 65,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 66,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 67,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 68,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 69,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 70,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Rekursi'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk merancang fungsi pemrograman yang memanggil dirinya sendiri dengan parameter yang menyusut hingga mencapai batas kondisi akhir (base case) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membuat perulangan tanpa batas (infinite loop) yang mengunci kinerja komputer yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus baris kode fungsi utama dan memindahkannya ke file library eksternal yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "afed6d45"
+    },
+    {
+      "no": 71,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 72,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 73,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 74,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 75,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 76,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 77,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 78,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 79,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 80,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Divide and Conquer'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk membagi array data besar menjadi dua bagian secara berulang (seperti merge sort), mengurutkannya, lalu menggabungkannya kembali demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengirimkan seluruh data mentah secara langsung ke server tunggal tanpa penyaringan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk mengunci program agar tidak bisa dijalankan secara multiprosesor paralel yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "f14ae911"
+    },
+    {
+      "no": 81,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 82,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 83,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 84,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 85,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 86,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 87,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 88,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 89,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 90,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Pencarian Terstruktur'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk menggunakan indeks pencarian tabel untuk memangkas waktu pencarian data spesifik di dalam jutaan baris database demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk membaca baris data dari awal satu per satu secara linear setiap kali pencarian dijalankan yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menghapus database lama dan menggantinya dengan folder penyimpanan file teks yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "938af8c8"
+    },
+    {
+      "no": 91,
+      "question": "Siswa Adit sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 92,
+      "question": "Siswa Budi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 93,
+      "question": "Siswa Citra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 94,
+      "question": "Siswa Dewi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 95,
+      "question": "Siswa Eko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 96,
+      "question": "Siswa Fahmi sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 97,
+      "question": "Siswa Gita sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 98,
+      "question": "Siswa Hendra sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 99,
+      "question": "Siswa Indah sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    },
+    {
+      "no": 100,
+      "question": "Siswa Joko sedang memecahkan kasus logika pemrograman menggunakan pilar berpikir komputasional, khususnya 'Validasi Flowchart'. Tindakan paling tepat yang mencerminkan pilar tersebut adalah...",
+      "options": {
+        "A": "Melakukan langkah untuk memeriksa jalannya diagram alur menggunakan data uji coba ekstrim untuk memastikan tidak ada kebuntuan logika (deadlock) demi efisiensi algoritma pemecahan masalah",
+        "B": "Memilih alternatif untuk mengubah gambar simbol diagram alur secara kosmetik agar terlihat lebih menarik yang tidak memiliki landasan logika terstruktur",
+        "C": "Mengambil tindakan untuk menolak menggambar diagram alur logika dan langsung menulis kode pemrograman yang dapat memicu error logika sistem",
+        "D": "Meminta bantuan sistem kecerdasan buatan (AI) untuk menulis naskah dialog cerita",
+        "E": "Membatasi waktu tunggu login pengguna pada jam sibuk server online harian"
+      },
+      "answer_hash": "c3b6e647"
+    }
+  ]
+}

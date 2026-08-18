@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hub Pembelajaran Interaktif - SMK Telkom Malang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #06070d;
+      --card-bg: rgba(18, 20, 32, 0.6);
+      --border-glass: rgba(255, 255, 255, 0.05);
+      --text-main: #f4f4f5;
+      --text-secondary: #a1a1aa;
+      --font-display: 'Orbitron', 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', sans-serif;
+      
+      /* App Colors */
+      --color-kik: #10b981; /* Emerald Green */
+      --color-kik-glow: rgba(16, 185, 129, 0.25);
+      --color-kka: #8b5cf6; /* Violet Purple */
+      --color-kka-glow: rgba(139, 92, 246, 0.25);
+      --color-gim: #FFE500; /* Neon Yellow */
+      --color-gim-glow: rgba(255, 229, 0, 0.25);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      position: relative;
+      overflow-x: hidden;
+      transition: background 0.5s ease;
+    }
+
+    /* Ambient Dynamic Glowing Background Blobs */
+    .bg-glows {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .glow-blob {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      filter: blur(120px);
+      opacity: 0.15;
+      transition: all 0.8s ease-in-out;
+    }
+
+    .glow-kik {
+      top: -10%;
+      left: 10%;
+      background: radial-gradient(circle, var(--color-kik) 0%, transparent 70%);
+    }
+
+    .glow-kka {
+      bottom: -10%;
+      right: 10%;
+      background: radial-gradient(circle, var(--color-kka) 0%, transparent 70%);
+    }
+
+    .glow-gim {
+      top: 40%;
+      left: 45%;
+      background: radial-gradient(circle, var(--color-gim) 0%, transparent 70%);
+      opacity: 0.05;
+    }
+
+    /* Cyberpunk Grid Overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: 
+        radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+      background-size: 32px 32px;
+      opacity: 0.25;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      text-align: center;
+      z-index: 3;
+      position: relative;
+    }
+
+    header {
+      margin-bottom: 60px;
+    }
+
+    .header-badge {
+      display: inline-block;
+      padding: 5px 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 4px;
+      color: #ffffff;
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 5vw, 54px);
+      font-weight: 900;
+      color: #ffffff;
+      margin-bottom: 16px;
+      letter-spacing: -0.01em;
+      line-height: 1.1;
+    }
+
+    header h1 span {
+      background: linear-gradient(90deg, #10b981, #8b5cf6, #FFE500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: var(--text-secondary);
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* App Selection Grid */
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+
+    .app-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-glass);
+      border-radius: 20px;
+      padding: 45px 30px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+      text-align: left;
+    }
+
+    /* Left accent borders */
+    .app-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; width: 4px; height: 100%;
+      opacity: 0.3;
+      transition: opacity 0.3s, width 0.3s;
+    }
+
+    .card-kik::before { background: var(--color-kik); }
+    .card-kka::before { background: var(--color-kka); }
+    .card-gim::before { background: var(--color-gim); }
+
+    /* Card Hovers */
+    .app-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+    }
+    .app-card:hover::before {
+      opacity: 1;
+      width: 6px;
+    }
+
+    .card-kik:hover {
+      border-color: var(--color-kik);
+      box-shadow: 0 15px 40px rgba(16, 185, 129, 0.15);
+    }
+    .card-kka:hover {
+      border-color: var(--color-kka);
+      box-shadow: 0 15px 40px rgba(139, 92, 246, 0.15);
+    }
+    .card-gim:hover {
+      border-color: var(--color-gim);
+      box-shadow: 0 15px 40px rgba(255, 229, 0, 0.15);
+    }
+
+    .card-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      border: 1px solid transparent;
+    }
+
+    .card-kik .card-badge {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--color-kik);
+      border-color: rgba(16, 185, 129, 0.2);
+    }
+    .card-kka .card-badge {
+      background: rgba(139, 92, 246, 0.1);
+      color: var(--color-kka);
+      border-color: rgba(139, 92, 246, 0.2);
+    }
+    .card-gim .card-badge {
+      background: rgba(255, 229, 0, 0.1);
+      color: var(--color-gim);
+      border-color: rgba(255, 229, 0, 0.2);
+    }
+
+    .app-card h2 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+    }
+
+    .app-card p {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 35px;
+      flex-grow: 1;
+    }
+
+    .btn {
+      padding: 14px 24px;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      text-align: center;
+      display: block;
+      letter-spacing: 0.05em;
+    }
+
+    .card-kik .btn {
+      background: var(--color-kik);
+      color: #000000;
+      box-shadow: 0 4px 14px var(--color-kik-glow);
+    }
+    .card-kik .btn:hover {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+    }
+
+    .card-kka .btn {
+      background: var(--color-kka);
+      color: #ffffff;
+      box-shadow: 0 4px 14px var(--color-kka-glow);
+    }
+    .card-kka .btn:hover {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+    }
+
+    .card-gim .btn {
+      background: var(--color-gim);
+      color: #000000;
+      box-shadow: 0 4px 14px var(--color-gim-glow);
+    }
+    .card-gim .btn:hover {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+    }
+
+    footer {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.3);
+      border-top: 1px solid var(--border-glass);
+      padding-top: 24px;
+      z-index: 3;
+      position: relative;
+    }
+
+    /* Animations */
+    .fade-in {
+      animation: fadeIn 0.6s ease forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Dynamic Glows -->
+  <div class="bg-glows">
+    <div class="glow-blob glow-kik" id="glow-kik"></div>
+    <div class="glow-blob glow-kka" id="glow-kka"></div>
+    <div class="glow-blob glow-gim" id="glow-gim"></div>
+  </div>
+
+  <div class="container">
+    <header class="fade-in">
+      <div class="header-badge">SMK Telkom Malang</div>
+      <h1>Ruang Belajar <span>Digital Hub</span></h1>
+      <p>Selamat datang di Hub Pembelajaran Interaktif. Pilih portal mata pelajaran di bawah ini untuk mengakses modul presentasi dan melakukan latihan kuis evaluasi mandiri.</p>
+    </header>
+
+    <div class="app-grid">
+      
+      <!-- 1. PORTAL KIK -->
+      <div class="app-card card-kik fade-in" style="animation-delay: 0.1s;" onmouseenter="focusApp('kik')" onmouseleave="resetFocus()">
+        <div>
+          <span class="card-badge">Kreativitas & Bisnis</span>
+          <h2>Portal KIK</h2>
+          <p>Kreativitas, Inovasi, dan Kewirausahaan. Pelajari pilar mentalitas wirausaha, kepemimpinan tim, etika bisnis tingkat tinggi (HOTS), serta game simulasi krisis bisnis.</p>
+        </div>
+        <a href="kik/index.html" class="btn">🌐 Masuk Portal KIK</a>
+      </div>
+
+      <!-- 2. PORTAL KKA -->
+      <div class="app-card card-kka fade-in" style="animation-delay: 0.2s;" onmouseenter="focusApp('kka')" onmouseleave="resetFocus()">
+        <div>
+          <span class="card-badge">Komputer & AI</span>
+          <h2>Portal KKA</h2>
+          <p>Kecerdasan Komputasional & Artifisial. Pelajari metode berpikir komputasional, literasi digital masa kini, analisis data, hingga konsep dan etika AI.</p>
+        </div>
+        <a href="kka/index.html" class="btn">🌐 Masuk Portal KKA</a>
+      </div>
+
+      <!-- 3. PORTAL GAME DESIGN -->
+      <div class="app-card card-gim fade-in" style="animation-delay: 0.3s;" onmouseenter="focusApp('gim')" onmouseleave="resetFocus()">
+        <div>
+          <span class="card-badge">Game Development</span>
+          <h2>Portal Perancangan Gim</h2>
+          <p>Game Design & Development. Pelajari alur ideasi SCAMPER, penulisan cerita interaktif, game loops, penyusunan GDD, ekonomi game, level design, dan balancing.</p>
+        </div>
+        <a href="perancangan-game/index.html" class="btn">🌐 Masuk Portal Gim</a>
+      </div>
+
+    </div>
+
+    <footer class="fade-in" style="animation-delay: 0.4s;">
+      <p>© 2026 Tim Pengembang Modul Ajar Interaktif - SMK Telkom Malang</p>
+    </footer>
+  </div>
+
+  <script>
+    const blobKik = document.getElementById('glow-kik');
+    const blobKka = document.getElementById('glow-kka');
+    const blobGim = document.getElementById('glow-gim');
+
+    function focusApp(app) {
+      if (app === 'kik') {
+        blobKik.style.opacity = '0.35';
+        blobKik.style.transform = 'scale(1.2)';
+        blobKka.style.opacity = '0.05';
+        blobGim.style.opacity = '0.02';
+      } else if (app === 'kka') {
+        blobKka.style.opacity = '0.35';
+        blobKka.style.transform = 'scale(1.2)';
+        blobKik.style.opacity = '0.05';
+        blobGim.style.opacity = '0.02';
+      } else if (app === 'gim') {
+        blobGim.style.opacity = '0.35';
+        blobGim.style.transform = 'scale(1.2)';
+        blobKik.style.opacity = '0.02';
+        blobKka.style.opacity = '0.02';
+      }
+    }
+
+    function resetFocus() {
+      blobKik.style.opacity = '0.15';
+      blobKik.style.transform = 'scale(1)';
+      blobKka.style.opacity = '0.15';
+      blobKka.style.transform = 'scale(1)';
+      blobGim.style.opacity = '0.05';
+      blobGim.style.transform = 'scale(1)';
+    }
+  </script>
+</body>
+</html>

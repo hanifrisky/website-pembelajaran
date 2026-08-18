@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain Sistem Gim",
+  "deskripsi": "Merancang arsitektur sistem gim (kesehatan, inventory, level progres), ekonomi gim (sumber & wadah koin), kurva upgrade, serta formula matematis penyeimbang stat.",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Dalam game RPG Fantasi buatan Nusantara Game, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 2,
+      "question": "Dalam game Shooter Taktis buatan Majapahit Games, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 3,
+      "question": "Dalam game Platformer 2D buatan Garuda Studio, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 4,
+      "question": "Dalam game Simulasi Bisnis buatan Siliwangi Digital, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 5,
+      "question": "Dalam game Horror Survival buatan Lontar Media, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 6,
+      "question": "Dalam game Strategi Real-Time buatan Bhinneka Games, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 7,
+      "question": "Dalam game Balap Arkade buatan Merdeka Play, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 8,
+      "question": "Dalam game Puzzle Teka-Teki buatan Khatulistiwa Interactive, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 9,
+      "question": "Dalam game Roguelike Aksi buatan Adiwiyata Games, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 10,
+      "question": "Dalam game Metroidvania buatan Piksel Kreasi, sistem 'Game Economy' mengatur...",
+      "options": {
+        "A": "Siklus perputaran nilai virtual, meliputi produksi sumber daya, sirkulasi mata uang game, dan pembelian barang belanja",
+        "B": "Harga jual keping CD fisik game di toko ritel kementerian wirausaha",
+        "C": "Biaya pengeluaran studio developer untuk menggaji karyawan per bulan",
+        "D": "Penghematan memori kartu grafis komputer saat memproses tekstur model 3D",
+        "E": "Persentase bagi hasil royalti penjualan game antara studio dan publisher"
+      },
+      "answer_hash": "ee6dbf09"
+    },
+    {
+      "no": 11,
+      "question": "Dalam mendesain ekonomi game RPG Fantasi di Majapahit Games, desainer game mengkategorikan menyelesaikan quest berhadiah koin sebagai 'Faucet' (Kran koin), dan membayar biaya masuk dungeon berbahaya sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 12,
+      "question": "Dalam mendesain ekonomi game Platformer 2D di Garuda Studio, desainer game mengkategorikan membongkar peti harta karun level sebagai 'Faucet' (Kran koin), dan membeli ramuan pemulih HP di toko NPC sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 13,
+      "question": "Dalam mendesain ekonomi game Horror Survival di Siliwangi Digital, desainer game mengkategorikan menjual item sampah hasil buruan monster sebagai 'Faucet' (Kran koin), dan membayar biaya upgrade senjata besi sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 14,
+      "question": "Dalam mendesain ekonomi game Balap Arkade di Lontar Media, desainer game mengkategorikan menambang bijih besi di gua tambang sebagai 'Faucet' (Kran koin), dan membayar pajak sewa tanah pertokoan faksi sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 15,
+      "question": "Dalam mendesain ekonomi game Roguelike Aksi di Bhinneka Games, desainer game mengkategorikan mengalahkan musuh biasa di jalan sebagai 'Faucet' (Kran koin), dan membeli skin kustom pakaian karakter sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 16,
+      "question": "Dalam mendesain ekonomi game RPG Fantasi di Merdeka Play, desainer game mengkategorikan menyelesaikan misi harian papan kota sebagai 'Faucet' (Kran koin), dan menyewa prajurit bayaran bayaran NPC sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 17,
+      "question": "Dalam mendesain ekonomi game Platformer 2D di Khatulistiwa Interactive, desainer game mengkategorikan memanen sayur mayur hasil pertanian sebagai 'Faucet' (Kran koin), dan membeli benih sayur baru yang eksotis sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 18,
+      "question": "Dalam mendesain ekonomi game Horror Survival di Adiwiyata Games, desainer game mengkategorikan menerima uang tip dari pengantaran paket sebagai 'Faucet' (Kran koin), dan membeli bahan bakar roket luar angkasa sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 19,
+      "question": "Dalam mendesain ekonomi game Balap Arkade di Piksel Kreasi, desainer game mengkategorikan memenangkan turnamen arena mingguan sebagai 'Faucet' (Kran koin), dan membayar biaya gacha kartu petarung sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 20,
+      "question": "Dalam mendesain ekonomi game Roguelike Aksi di Nusantara Game, desainer game mengkategorikan membuka segel prasasti batu ajaib sebagai 'Faucet' (Kran koin), dan membeli ramuan pemulih stamina meditasi sebagai 'Sink' (Saluran pembuangan). Tujuan penyeimbangan faucet dan sink ini adalah...",
+      "options": {
+        "A": "Mencegah inflasi nilai mata uang game di tangan pemain agar koin tetap terasa berharga dan progresi game tetap menarik",
+        "B": "Mengatur agar komputer tidak mengalami crash akibat angka penyimpanan data koin meluap",
+        "C": "Menghitung total jam bermain harian siswa sekolah secara otomatis",
+        "D": "Memaksa pemain membeli paket koin instan berbayar uang nyata di toko online",
+        "E": "Mengurangi suara musik latar belakang game saat pemain bertransaksi"
+      },
+      "answer_hash": "f8e8316c"
+    },
+    {
+      "no": 21,
+      "question": "Studio Garuda Studio merancang game RPG RPG Fantasi. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 22,
+      "question": "Studio Siliwangi Digital merancang game RPG Simulasi Bisnis. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 23,
+      "question": "Studio Lontar Media merancang game RPG Balap Arkade. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 24,
+      "question": "Studio Bhinneka Games merancang game RPG Metroidvania. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 25,
+      "question": "Studio Merdeka Play merancang game RPG Platformer 2D. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 26,
+      "question": "Studio Khatulistiwa Interactive merancang game RPG Strategi Real-Time. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 27,
+      "question": "Studio Adiwiyata Games merancang game RPG Roguelike Aksi. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 28,
+      "question": "Studio Piksel Kreasi merancang game RPG Shooter Taktis. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 29,
+      "question": "Studio Nusantara Game merancang game RPG Horror Survival. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 30,
+      "question": "Studio Majapahit Games merancang game RPG Puzzle Teka-Teki. Jika kurva progresi XP yang dibutuhkan pemain untuk naik level dibuat sangat eksponensial di level tinggi, dampak psikologis pada pemain adalah...",
+      "options": {
+        "A": "Pemain merasakan tantangan (grinding) semakin berat di level akhir, memperpanjang durasi game tetapi berisiko membuat frustrasi jika tanpa variasi aktivitas",
+        "B": "Pemain dapat menamatkan game secara instan tanpa perlu bertarung melawan musuh biasa",
+        "C": "Pemain merasa kesal karena level karakter turun otomatis secara acak setiap jam",
+        "D": "Pemain merasa game terlalu kasual dan mudah diselesaikan tanpa berpikir taktis",
+        "E": "Pemain otomatis berhenti bermain karena game engine tidak mampu merender level tinggi"
+      },
+      "answer_hash": "d43c27e"
+    },
+    {
+      "no": 31,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Siliwangi Digital pada game RPG Fantasi lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 32,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Lontar Media pada game Horror Survival lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 33,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Bhinneka Games pada game Roguelike Aksi lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 34,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Merdeka Play pada game Platformer 2D lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 35,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Khatulistiwa Interactive pada game Balap Arkade lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 36,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Adiwiyata Games pada game RPG Fantasi lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 37,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Piksel Kreasi pada game Horror Survival lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 38,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Nusantara Game pada game Roguelike Aksi lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 39,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Majapahit Games pada game Platformer 2D lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 40,
+      "question": "Formula damage fisik: `Final Damage = Attack Power - Defense`. Dibandingkan formula ini, formula perkalian persentase: `Final Damage = Attack Power * (100 / (100 + Defense))` yang digunakan Garuda Studio pada game Balap Arkade lebih unggul karena...",
+      "options": {
+        "A": "Nilai defense yang sangat tinggi tidak akan pernah membuat damage musuh menjadi nol atau negatif (prinsip diminishing returns)",
+        "B": "Perhitungan matematika menjadi jauh lebih mudah dipahami oleh pemain usia sekolah dasar",
+        "C": "Menghilangkan kebutuhan stat attack power dari seluruh senjata pemain",
+        "D": "Mempercepat proses loading screen saat berpindah area level game",
+        "E": "Menurunkan konsumsi baterai hp saat rendering pertarungan"
+      },
+      "answer_hash": "9938f2b4"
+    },
+    {
+      "no": 41,
+      "question": "Dalam game kompetitif online RPG Fantasi buatan Lontar Media, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 42,
+      "question": "Dalam game kompetitif online Strategi Real-Time buatan Bhinneka Games, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 43,
+      "question": "Dalam game kompetitif online RPG Fantasi buatan Merdeka Play, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 44,
+      "question": "Dalam game kompetitif online Strategi Real-Time buatan Khatulistiwa Interactive, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 45,
+      "question": "Dalam game kompetitif online RPG Fantasi buatan Adiwiyata Games, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 46,
+      "question": "Dalam game kompetitif online Strategi Real-Time buatan Piksel Kreasi, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 47,
+      "question": "Dalam game kompetitif online RPG Fantasi buatan Nusantara Game, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 48,
+      "question": "Dalam game kompetitif online Strategi Real-Time buatan Majapahit Games, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 49,
+      "question": "Dalam game kompetitif online RPG Fantasi buatan Garuda Studio, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 50,
+      "question": "Dalam game kompetitif online Strategi Real-Time buatan Siliwangi Digital, sistem MMR (Matchmaking Rating) dirancang untuk...",
+      "options": {
+        "A": "Mempertemukan pemain aktif dengan lawan yang memiliki tingkat keterampilan setara secara otomatis demi menjaga keadilan kompetisi",
+        "B": "Merekam jumlah klik mouse pemain per menit untuk mendeteksi kecurangan bot",
+        "C": "Menampilkan iklan sponsor komersial secara acak di tengah jalannya permainan",
+        "D": "Mengontrol kecepatan putaran kipas kartu grafis komputer agar tidak kepanasan",
+        "E": "Membatasi waktu tunggu login pemain pada jam sibuk server online"
+      },
+      "answer_hash": "d4045c08"
+    },
+    {
+      "no": 51,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game RPG Fantasi karya Bhinneka Games dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 52,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Balap Arkade karya Merdeka Play dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 53,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Platformer 2D karya Khatulistiwa Interactive dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 54,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Roguelike Aksi karya Adiwiyata Games dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 55,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Horror Survival karya Piksel Kreasi dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 56,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game RPG Fantasi karya Nusantara Game dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 57,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Balap Arkade karya Majapahit Games dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 58,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Platformer 2D karya Garuda Studio dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 59,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Roguelike Aksi karya Siliwangi Digital dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 60,
+      "question": "Mekanika sistem inventory yang membatasi slot penyimpanan barang bawaan pemain di game Horror Survival karya Lontar Media dirancang untuk...",
+      "options": {
+        "A": "Memaksa pemain melakukan manajemen sumber daya secara taktis dan membuat keputusan memilih barang yang berharga",
+        "B": "Mencegah pemain menyelesaikan petualangan game dalam sekali bermain",
+        "C": "Meningkatkan kualitas detail gambar tekstur 3D dari ikon barang di tas",
+        "D": "Menghapus barang bawaan pemain secara otomatis saat durasi waktu bermain habis",
+        "E": "Mengurangi beban transfer data jaringan internet client-server"
+      },
+      "answer_hash": "5ba9d3f9"
+    },
+    {
+      "no": 61,
+      "question": "Studio Merdeka Play menerapkan 'Enemy Level Scaling' pada game open-world RPG Fantasi mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 62,
+      "question": "Studio Khatulistiwa Interactive menerapkan 'Enemy Level Scaling' pada game open-world Puzzle Teka-Teki mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 63,
+      "question": "Studio Adiwiyata Games menerapkan 'Enemy Level Scaling' pada game open-world Horror Survival mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 64,
+      "question": "Studio Piksel Kreasi menerapkan 'Enemy Level Scaling' pada game open-world Shooter Taktis mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 65,
+      "question": "Studio Nusantara Game menerapkan 'Enemy Level Scaling' pada game open-world Roguelike Aksi mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 66,
+      "question": "Studio Majapahit Games menerapkan 'Enemy Level Scaling' pada game open-world Strategi Real-Time mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 67,
+      "question": "Studio Garuda Studio menerapkan 'Enemy Level Scaling' pada game open-world Platformer 2D mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 68,
+      "question": "Studio Siliwangi Digital menerapkan 'Enemy Level Scaling' pada game open-world Metroidvania mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 69,
+      "question": "Studio Lontar Media menerapkan 'Enemy Level Scaling' pada game open-world Balap Arkade mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 70,
+      "question": "Studio Bhinneka Games menerapkan 'Enemy Level Scaling' pada game open-world Simulasi Bisnis mereka. Dampak positif dari penerapan sistem ini adalah...",
+      "options": {
+        "A": "Semua area di peta dunia tetap memberikan tantangan yang seimbang bagi pemain meskipun level karakter sudah sangat tinggi",
+        "B": "Meniadakan kebutuhan akan tim programmer untuk mendesain animasi musuh baru",
+        "C": "Mencegah pemain agar tidak bisa menjelajahi area tersiar di awal permainan",
+        "D": "Menurunkan harga jual game di toko distribusi digital karena ketiadaan bos tersiar",
+        "E": "Mempercepat proses ekspor file game saat proses kompilasi akhir"
+      },
+      "answer_hash": "805f65f7"
+    },
+    {
+      "no": 71,
+      "question": "Mengapa game free-to-play mobile RPG Fantasi karya Khatulistiwa Interactive memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 72,
+      "question": "Mengapa game free-to-play mobile Roguelike Aksi karya Adiwiyata Games memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 73,
+      "question": "Mengapa game free-to-play mobile Balap Arkade karya Piksel Kreasi memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 74,
+      "question": "Mengapa game free-to-play mobile Horror Survival karya Nusantara Game memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 75,
+      "question": "Mengapa game free-to-play mobile Platformer 2D karya Majapahit Games memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 76,
+      "question": "Mengapa game free-to-play mobile RPG Fantasi karya Garuda Studio memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 77,
+      "question": "Mengapa game free-to-play mobile Roguelike Aksi karya Siliwangi Digital memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 78,
+      "question": "Mengapa game free-to-play mobile Balap Arkade karya Lontar Media memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 79,
+      "question": "Mengapa game free-to-play mobile Horror Survival karya Bhinneka Games memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 80,
+      "question": "Mengapa game free-to-play mobile Platformer 2D karya Merdeka Play memisahkan mata uang virtual menjadi koin emas biasa (soft currency) dan diamond (premium currency)?",
+      "options": {
+        "A": "Untuk memisahkan sirkulasi ekonomi game gratisan dengan sistem monetisasi barang kosmetik/eksklusif berbayar uang rill",
+        "B": "Mencegah terjadinya penumpukan koin emas virtual di database penyimpanan server",
+        "C": "Membuat pemain bingung sehingga mereka menghabiskan waktu bermain lebih lama",
+        "D": "Mengikuti aturan baku standarisasi pengembangan perangkat lunak kementerian komunikasi",
+        "E": "Agar visual antarmuka (HUD) menu game terlihat lebih berkilau dan menarik perhatian"
+      },
+      "answer_hash": "ddfd29bd"
+    },
+    {
+      "no": 81,
+      "question": "Dalam game RPG RPG Fantasi karya Adiwiyata Games, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 82,
+      "question": "Dalam game RPG Metroidvania karya Piksel Kreasi, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 83,
+      "question": "Dalam game RPG Roguelike Aksi karya Nusantara Game, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 84,
+      "question": "Dalam game RPG Puzzle Teka-Teki karya Majapahit Games, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 85,
+      "question": "Dalam game RPG Balap Arkade karya Garuda Studio, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 86,
+      "question": "Dalam game RPG Strategi Real-Time karya Siliwangi Digital, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 87,
+      "question": "Dalam game RPG Horror Survival karya Lontar Media, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 88,
+      "question": "Dalam game RPG Simulasi Bisnis karya Bhinneka Games, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 89,
+      "question": "Dalam game RPG Platformer 2D karya Merdeka Play, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 90,
+      "question": "Dalam game RPG Shooter Taktis karya Khatulistiwa Interactive, stat 'Dexterity' pemain dikonfigurasi untuk meningkatkan kecepatan serang sekaligus tingkat kritikal secara linear. Hal ini merupakan contoh desain sistem...",
+      "options": {
+        "A": "Attribute Scaling (skala atribut stat) yang mendefinisikan kontribusi setiap poin stat pada performa bertarung karakter",
+        "B": "Random Character Progression yang mengacak perkembangan kekuatan karakter di setiap naik level",
+        "C": "Diminishing Returns yang meminimalkan manfaat poin pertahanan seiring naiknya level",
+        "D": "Asymmetric Balancing yang menyamakan kemampuan serang hero dengan pertahanan monster",
+        "E": "Loot Distribution System yang membagikan peti harta karun secara merata ke seluruh pemain"
+      },
+      "answer_hash": "b3b0b8a6"
+    },
+    {
+      "no": 91,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Piksel Kreasi (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 92,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Nusantara Game (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 93,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Majapahit Games (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 94,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Garuda Studio (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 95,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Siliwangi Digital (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 96,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Lontar Media (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 97,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Bhinneka Games (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 98,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Merdeka Play (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 99,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Khatulistiwa Interactive (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    },
+    {
+      "no": 100,
+      "question": "Mekanika 'Progression Gating' di game petualangan RPG Fantasi karya Adiwiyata Games (seperti mengharuskan pemain mengalahkan bos tertentu untuk membuka peta baru) dirancang untuk...",
+      "options": {
+        "A": "Mengontrol alur pembelajaran pemain (pacing) dan memastikan mereka telah menguasai mekanik dasar sebelum menghadapi tantangan baru",
+        "B": "Menghukum pemain yang tidak pandai bertarung agar mereka menghapus game",
+        "C": "Menutupi kekurangan level baru yang belum selesai diprogram oleh tim artis 3D",
+        "D": "Mengurangi pemakaian memori ram GPU saat merender kota baru di peta",
+        "E": "Meningkatkan frekuensi penayangan video iklan promosi di sela-sela perpindahan stage"
+      },
+      "answer_hash": "c36f11d4"
+    }
+  ]
+}
