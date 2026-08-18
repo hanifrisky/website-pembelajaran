@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pengantar Digital Marketing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --forest-950:#0A2A1C;
+    --forest-800:#124A32;
+    --forest-700:#166241;
+    --emerald-600:#1F8A5F;
+    --emerald-500:#25A16F;
+    --mint-100:#EAF5EC;
+    --mint-050:#F4FAF5;
+    --lime-400:#C9F13B;
+    --lime-300:#DBFA6F;
+    --ink:#0D1F16;
+    --paper:#FBFCFA;
+    --line: rgba(10,42,28,0.12);
+    --font-display:'Space Grotesk', sans-serif;
+    --font-body:'Manrope', sans-serif;
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--forest-950);
+    overflow-x:hidden;
+  }
+
+  /* ---------- Slide scaffolding ---------- */
+  .deck{
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display:flex;
+    flex-direction:row;
+    height: 100vh;
+    width: 100vw;
+  }
+  .slide{
+    scroll-snap-align: start;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    position:relative;
+    padding: 6vh 8vw;
+    overflow:hidden;
+    flex-shrink:0;
+  }
+  .slide.dark{ background: var(--forest-950); color: var(--mint-050); }
+  .slide.mid{ background: var(--forest-800); color: var(--mint-050); }
+  .slide.light{ background: var(--mint-100); color: var(--ink); }
+  .slide.paper{ background: var(--paper); color: var(--ink); }
+
+  /* signature dot-grid texture */
+  .slide::before{
+    content:"";
+    position:absolute; inset:0;
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.05;
+    pointer-events:none;
+  }
+
+  .eyebrow{
+    font-family: var(--font-body);
+    font-weight:800;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    font-size: clamp(11px,1.1vw,13px);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom: 18px;
+    opacity:0.85;
+  }
+  .eyebrow .bars{ display:inline-flex; align-items:flex-end; gap:2px; height:12px;}
+  .eyebrow .bars span{ display:block; width:3px; background:currentColor; border-radius:1px;}
+  .eyebrow .bars span:nth-child(1){height:40%;}
+  .eyebrow .bars span:nth-child(2){height:70%;}
+  .eyebrow .bars span:nth-child(3){height:100%;}
+
+  h1{
+    font-family: var(--font-display);
+    font-weight:700;
+    line-height:1.02;
+    letter-spacing:-0.01em;
+    font-size: clamp(38px, 6vw, 84px);
+  }
+  h2{
+    font-family: var(--font-display);
+    font-weight:700;
+    line-height:1.05;
+    font-size: clamp(30px, 4.2vw, 56px);
+    margin-bottom: 28px;
+  }
+  h3{
+    font-family: var(--font-display);
+    font-weight:600;
+    font-size: clamp(18px, 2vw, 24px);
+  }
+  p{ font-size: clamp(15px, 1.3vw, 19px); line-height:1.55; }
+  .lead{ font-size: clamp(17px, 1.6vw, 22px); line-height:1.5; max-width: 720px; opacity:0.92;}
+
+  .accent{ color: var(--lime-400); }
+  .tag{
+    display:inline-block;
+    font-family:var(--font-body); font-weight:700; font-size:12px; letter-spacing:0.08em;
+    text-transform:uppercase;
+    padding:6px 14px;
+    border-radius:999px;
+    background: var(--lime-400);
+    color: var(--forest-950);
+  }
+  .tag.outline{
+    background:transparent;
+    border:1.5px solid currentColor;
+    color:inherit;
+  }
+
+  /* ---------- Nav ---------- */
+  .nav{
+    position:fixed;
+    bottom: 24px; left:50%; transform:translateX(-50%);
+    display:flex; flex-direction:row; gap:10px;
+    z-index:50;
+    background: rgba(10,42,28,0.35);
+    padding: 10px 14px;
+    border-radius: 999px;
+    backdrop-filter: blur(6px);
+  }
+  .nav button{
+    width:10px; height:10px; border-radius:50%;
+    border:1.5px solid rgba(255,255,255,0.55);
+    background:transparent;
+    cursor:pointer;
+    padding:0;
+    transition: all .25s ease;
+  }
+  .nav button.active{ background: var(--lime-400); border-color: var(--lime-400); width:12px; height:12px;}
+
+  .progress-label{
+    position:fixed; left:26px; top:24px;
+    font-family:var(--font-display); font-weight:600;
+    color: rgba(255,255,255,0.75);
+    font-size:13px; letter-spacing:0.05em;
+    z-index:50;
+    background: rgba(10,42,28,0.35);
+    padding:6px 12px; border-radius:999px;
+    backdrop-filter: blur(6px);
+  }
+  .slide.light .progress-label, .slide.paper .progress-label{ color: rgba(13,31,22,0.65); background: rgba(255,255,255,0.55);}
+
+  .arrows{
+    position:fixed; right:26px; top:50%; transform:translateY(-50%); z-index:50;
+    display:flex; flex-direction:column; gap:10px;
+  }
+  .arrows button{
+    width:38px; height:38px; border-radius:50%;
+    border:1.5px solid rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.08);
+    color:white; cursor:pointer;
+    font-size:16px; display:flex; align-items:center; justify-content:center;
+    transition: background .2s ease;
+  }
+  .arrows button:hover{ background: var(--lime-400); color:var(--forest-950); border-color:var(--lime-400);}
+
+  /* ---------- Slide 1: Hero ---------- */
+  .hero-num{
+    font-family:var(--font-display); font-weight:700;
+    font-size: clamp(80px,14vw,180px);
+    position:absolute; right:6vw; top:8vh;
+    color: rgba(255,255,255,0.05);
+    line-height:1;
+  }
+  .hero-meta{
+    margin-top: 40px;
+    display:flex; gap:36px; flex-wrap:wrap;
+  }
+  .hero-meta div{ font-size:14px; opacity:0.75; }
+  .hero-meta strong{ display:block; font-family:var(--font-display); font-size:18px; font-weight:600; color: var(--lime-400); margin-bottom:2px;}
+
+  /* ---------- Grids / cards ---------- */
+  .grid{ display:grid; gap:20px; margin-top: 32px; }
+  .grid.cols-2{ grid-template-columns: repeat(2,1fr); }
+  .grid.cols-3{ grid-template-columns: repeat(3,1fr); }
+
+  .card{
+    background: rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.14);
+    border-radius:14px;
+    padding: 22px 22px;
+  }
+  .slide.light .card, .slide.paper .card{
+    background: white;
+    border:1px solid var(--line);
+    box-shadow: 0 2px 14px rgba(10,42,28,0.05);
+  }
+  .card .num{
+    font-family:var(--font-display); font-weight:700;
+    color: var(--emerald-500);
+    font-size:13px; letter-spacing:0.08em;
+  }
+  .card h3{ margin: 10px 0 8px; }
+  .card p{ font-size:14.5px; opacity:0.85; }
+
+  /* ---------- timeline ---------- */
+  .timeline{
+    margin-top:40px;
+    display:flex;
+    gap:0;
+    position:relative;
+  }
+  .timeline::before{
+    content:"";
+    position:absolute; left:0; right:0; top:22px;
+    height:2px; background: rgba(255,255,255,0.18);
+  }
+  .t-item{ flex:1; position:relative; padding-right: 18px;}
+  .t-dot{
+    width:14px; height:14px; border-radius:50%;
+    background: var(--lime-400);
+    margin-bottom:20px;
+    position:relative; z-index:2;
+  }
+  .t-item h3{ font-size:16px; margin-bottom:6px; color: var(--lime-400);}
+  .t-item p{ font-size:13.5px; opacity:0.8; }
+
+  /* ---------- profession cards scroll ---------- */
+  .prof-scroll{
+    display:flex; gap:18px; margin-top:32px;
+    overflow-x:auto; padding-bottom:12px;
+  }
+  .prof-card{
+    min-width: 230px;
+    background:white;
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:22px;
+    flex-shrink:0;
+  }
+  .prof-card .icon{
+    width:44px; height:44px; border-radius:12px;
+    background: var(--forest-950);
+    color: var(--lime-400);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-display); font-weight:700; font-size:18px;
+    margin-bottom:14px;
+  }
+  .prof-card h3{ font-size:16.5px; margin-bottom:6px;}
+  .prof-card p{ font-size:13px; opacity:0.75; line-height:1.4;}
+  .prof-card .skill{
+    margin-top:12px; font-size:11px; font-weight:700; letter-spacing:0.05em;
+    text-transform:uppercase; color: var(--emerald-600);
+  }
+
+  /* ---------- Ice breaking emoji ---------- */
+  .emoji-row{
+    display:flex; gap:22px; margin: 36px 0; flex-wrap:wrap;
+  }
+  .emoji-card{
+    background: rgba(255,255,255,0.06);
+    border-radius:20px;
+    width: 140px;
+    padding: 22px 14px 16px;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap: 10px;
+    border:1px solid rgba(255,255,255,0.14);
+    cursor:pointer;
+    transition: transform .18s ease, background .18s ease, border-color .18s ease;
+  }
+  .emoji-card:hover{
+    transform: translateY(-4px);
+    background: rgba(255,255,255,0.1);
+    border-color: var(--lime-400);
+  }
+  .emoji-card .emoji-glyph{ font-size: clamp(38px,5vw,56px); line-height:1; }
+  .emoji-card .emoji-cta{
+    font-size:11px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase;
+    color: var(--lime-400); opacity:0.85;
+  }
+  .instr-box{
+    margin-top:20px;
+    border-left:3px solid var(--lime-400);
+    padding-left:18px;
+  }
+
+  /* ---------- Modal jawaban ---------- */
+  .modal-overlay{
+    position:fixed; inset:0; z-index:300;
+    background: rgba(10,42,28,0.72);
+    backdrop-filter: blur(6px);
+    display:none; align-items:center; justify-content:center;
+    padding: 20px;
+  }
+  .modal-overlay.active{ display:flex; }
+  .modal-box{
+    background: white;
+    border-radius: 22px;
+    padding: 40px 36px;
+    max-width: 420px;
+    width:100%;
+    text-align:center;
+    position:relative;
+    animation: modalPop .22s ease;
+  }
+  @keyframes modalPop{
+    from{ opacity:0; transform: scale(0.92); }
+    to{ opacity:1; transform: scale(1); }
+  }
+  .modal-close{
+    position:absolute; top:16px; right:16px;
+    width:32px; height:32px; border-radius:50%;
+    border:none; background: var(--mint-100);
+    color: var(--forest-950);
+    font-size:14px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .modal-close:hover{ background: var(--lime-400); }
+  .modal-emoji-glyph{ font-size:56px; margin-bottom:18px; }
+  .modal-eyebrow{
+    font-size:11px; font-weight:800; letter-spacing:0.12em; text-transform:uppercase;
+    color: var(--emerald-600); margin-bottom:8px;
+  }
+  .modal-answer{
+    font-family: var(--font-display); font-weight:700;
+    font-size: 28px; color: var(--forest-950); margin-bottom:14px;
+  }
+  .modal-desc{
+    font-size: 14.5px; line-height:1.55; color: var(--ink); opacity:0.78;
+  }
+
+  /* ---------- MINI GAME ---------- */
+  .game-wrap{
+    display:grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 28px;
+    margin-top: 30px;
+    align-items:stretch;
+  }
+  .game-panel{
+    background: white;
+    border-radius:20px;
+    padding: 30px;
+    border:1px solid var(--line);
+  }
+  .card-stage{
+    background: var(--forest-950);
+    border-radius:16px;
+    min-height: 220px;
+    display:flex; align-items:center; justify-content:center;
+    text-align:center;
+    padding: 24px;
+    position:relative;
+    overflow:hidden;
+  }
+  .card-stage::after{
+    content:"";
+    position:absolute; inset:0;
+    background-image: radial-gradient(var(--lime-400) 1px, transparent 1px);
+    background-size: 22px 22px;
+    opacity:0.06;
+  }
+  #wordDisplay{
+    font-family: var(--font-display);
+    font-weight:700;
+    font-size: clamp(26px, 3vw, 40px);
+    color: var(--lime-400);
+    position:relative; z-index:2;
+  }
+  #wordHint{
+    font-family: var(--font-body);
+    font-size:13px;
+    color: rgba(255,255,255,0.55);
+    margin-top:10px;
+    position:relative; z-index:2;
+  }
+  .game-controls{
+    display:flex; gap:12px; margin-top: 20px; flex-wrap:wrap;
+  }
+  .btn{
+    font-family: var(--font-body); font-weight:700; font-size:14px;
+    padding: 12px 20px;
+    border-radius: 999px;
+    border:none;
+    cursor:pointer;
+    transition: transform .15s ease, opacity .15s ease;
+  }
+  .btn:hover{ transform: translateY(-1px); }
+  .btn:active{ transform: translateY(0); }
+  .btn-primary{ background: var(--forest-950); color: var(--lime-400); }
+  .btn-secondary{ background: var(--mint-100); color: var(--forest-950); border:1px solid var(--line); }
+  .btn-ghost{ background:transparent; color: var(--forest-800); border:1px solid var(--line); }
+
+  .timer-row{
+    display:flex; align-items:center; gap:16px; margin-top:24px;
+  }
+  .timer-circle{
+    width:70px; height:70px; border-radius:50%;
+    border: 4px solid var(--mint-100);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-display); font-weight:700; font-size:20px;
+    color: var(--forest-950);
+    transition: border-color .3s ease, color .3s ease;
+  }
+  .timer-circle.warn{ border-color:#E4B94B; color:#B9860A;}
+  .timer-circle.danger{ border-color:#E4574B; color:#C23A2E;}
+  .timer-controls{ display:flex; gap:10px; }
+  .timer-controls .btn{ padding:9px 16px; font-size:13px;}
+
+  .score-panel{
+    background: var(--forest-950);
+    border-radius:20px;
+    padding:26px;
+    color: var(--mint-050);
+    display:flex; flex-direction:column;
+  }
+  .score-panel h3{ color: var(--lime-400); margin-bottom:18px;}
+  .team-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .team-row:last-of-type{ border-bottom:none; }
+  .team-name{ font-weight:700; font-size:15px; display:flex; align-items:center; gap:10px;}
+  .dotcolor{ width:10px; height:10px; border-radius:50%; }
+  .score-controls{ display:flex; align-items:center; gap:10px; }
+  .score-controls button{
+    width:28px; height:28px; border-radius:50%;
+    border:1px solid rgba(255,255,255,0.3);
+    background:transparent; color:white; cursor:pointer;
+    font-size:16px; line-height:1;
+  }
+  .score-controls button:hover{ background: var(--lime-400); color:var(--forest-950); border-color:var(--lime-400);}
+  .score-val{ font-family:var(--font-display); font-weight:700; font-size:20px; min-width:24px; text-align:center;}
+  .reset-scores{ margin-top:18px; align-self:flex-start; }
+
+  .rules-list{ margin-top:18px; }
+  .rules-list li{ font-size:13.5px; margin-bottom:8px; opacity:0.85; padding-left:16px; position:relative;}
+  .rules-list li::before{ content:"—"; position:absolute; left:0; color: var(--emerald-500);}
+
+  /* footer / closing */
+  .closing-cta{
+    margin-top:36px; display:flex; gap:16px; flex-wrap:wrap;
+  }
+
+  @media (max-width: 860px){
+    .grid.cols-2, .grid.cols-3{ grid-template-columns: 1fr; }
+    .game-wrap{ grid-template-columns: 1fr; }
+    .timeline{ flex-direction:column; gap:24px; }
+    .timeline::before{ display:none; }
+    .nav{ display:none; }
+    .timer-widget{ padding:8px 10px; }
+    .timer-widget .timer-label{ display:none; }
+  }
+
+  /* ---------- Timer widgets ---------- */
+  .timer-widget{
+    position:fixed;
+    top:20px;
+    z-index:80;
+    background: rgba(10,42,28,0.62);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 10px 12px;
+    color: white;
+    display:flex; align-items:center; gap:10px;
+    border:1px solid rgba(255,255,255,0.16);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+  }
+  #slideTimerWidget{ left: 50%; transform:translateX(-50%); }
+  #globalTimerWidget{ right: 26px; }
+
+  .timer-toggle{
+    width:30px; height:30px; border-radius:50%;
+    border:none; background: rgba(255,255,255,0.12);
+    color: var(--lime-400);
+    cursor:pointer; font-size:14px;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+  }
+  .timer-toggle:hover{ background: var(--lime-400); color:var(--forest-950); }
+
+  .timer-body{ display:flex; align-items:center; gap:12px; }
+  .timer-widget.minimized .timer-body{ display:none; }
+  .timer-widget.minimized{ gap:0; padding:6px; }
+  .timer-widget.minimized .timer-toggle{ width:auto; height:auto; padding:8px 12px; border-radius:999px; font-family:var(--font-display); font-weight:700; font-size:13px; gap:6px; }
+
+  .timer-info{ display:flex; flex-direction:column; line-height:1.15; }
+  .timer-label{
+    font-size:9.5px; font-weight:800; letter-spacing:0.1em; text-transform:uppercase;
+    color: rgba(255,255,255,0.6);
+  }
+  .timer-display{
+    font-family: var(--font-display); font-weight:700; font-size:19px;
+    color: var(--mint-050);
+  }
+  .timer-widget.slide-warn .timer-display{ color: #E4B94B; }
+  .timer-widget.slide-danger .timer-display{ color: #FF8A7A; }
+  .timer-widget.slide-done .timer-display{ color: rgba(255,255,255,0.4); }
+
+  .timer-btns{ display:flex; gap:6px; }
+  .timer-btns button{
+    width:26px; height:26px; border-radius:50%;
+    border:1px solid rgba(255,255,255,0.25);
+    background:transparent; color:white; cursor:pointer;
+    font-size:11px; display:flex; align-items:center; justify-content:center;
+  }
+  .timer-btns button:hover{ background: var(--lime-400); color:var(--forest-950); border-color:var(--lime-400); }
+</style>
+</head>
+<body>
+
+<div class="nav" id="navDots"></div>
+<div class="progress-label" id="progressLabel">01 / 11</div>
+<div class="arrows">
+  <button id="prevBtn" aria-label="Sebelumnya">←</button>
+  <button id="nextBtn" aria-label="Berikutnya">→</button>
+</div>
+
+<div class="timer-widget" id="slideTimerWidget">
+  <button class="timer-toggle" id="slideTimerToggle" title="Kecilkan / Besarkan">⏱</button>
+  <div class="timer-body">
+    <div class="timer-info">
+      <div class="timer-label">Waktu Slide</div>
+      <div class="timer-display" id="slideTimerDisplay">05:00</div>
+    </div>
+    <div class="timer-btns">
+      <button id="slidePlayPauseBtn" title="Mulai / Jeda">⏸</button>
+      <button id="slideResetBtn" title="Ulangi">↺</button>
+    </div>
+  </div>
+</div>
+
+<div class="timer-widget" id="globalTimerWidget">
+  <button class="timer-toggle" id="globalTimerToggle" title="Kecilkan / Besarkan">⏳</button>
+  <div class="timer-body">
+    <div class="timer-info">
+      <div class="timer-label">Sisa Waktu Total</div>
+      <div class="timer-display" id="globalTimerDisplay">90:00</div>
+    </div>
+    <div class="timer-btns">
+      <button id="globalPlayPauseBtn" title="Mulai / Jeda">▶</button>
+      <button id="globalResetBtn" title="Ulangi">↺</button>
+    </div>
+  </div>
+</div>
+
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1: HERO -->
+  <section class="slide dark" data-duration="5">
+    <div class="hero-num">01</div>
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Materi Pengantar</div>
+    <h1>Pengantar<br><span class="accent">Digital Marketing</span></h1>
+    <p class="lead" style="margin-top:22px;">Mengenal arah perkembangan pemasaran digital dan peluang profesi yang tumbuh bersamanya.</p>
+    <div class="hero-meta">
+      <div><strong>2 JP</strong>Durasi pertemuan</div>
+      <div><strong>90 Menit</strong>Total waktu belajar</div>
+      <div><strong>2 Sub Materi</strong>Tren &amp; Profil Profesi</div>
+    </div>
+  </section>
+
+  <!-- SLIDE 2: TUJUAN -->
+  <section class="slide light" data-duration="3">
+    <div class="eyebrow" style="color:var(--emerald-600)"><span class="bars" style="color:var(--emerald-600)"><span></span><span></span><span></span></span>Tujuan Pembelajaran</div>
+    <h2>Di akhir pertemuan ini,<br>kalian mampu:</h2>
+    <div class="grid cols-2">
+      <div class="card">
+        <div class="num">TP — 01</div>
+        <h3>Mengidentifikasi Tren</h3>
+        <p>Mengenali arah perkembangan digital marketing dari masa ke masa, beserta contoh penerapannya di sekitar kita.</p>
+      </div>
+      <div class="card">
+        <div class="num">TP — 02</div>
+        <h3>Mengenali Peluang Profesi</h3>
+        <p>Memetakan profesi-profesi di bidang digital marketing beserta keterampilan yang dibutuhkan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3: ICE BREAKING -->
+  <section class="slide mid" data-duration="10">
+    <span class="tag">Ice Breaking · 10 Menit</span>
+    <h2 style="margin-top:20px;">Emoji Marketing Story</h2>
+    <p class="lead">Tebak brand atau produk apa yang terlintas di pikiranmu hanya dari rangkaian emoji berikut. Klik "Acak Kartu" untuk mengganti soal.</p>
+    <div class="emoji-row" id="emojiRow"></div>
+    <div class="game-controls" style="margin-top:6px;">
+      <button class="btn btn-primary" id="shuffleEmojiBtn" style="background:var(--lime-400); color:var(--forest-950);">🔀 Acak Kartu</button>
+      <span style="align-self:center; font-size:12.5px; opacity:0.7;">Menampilkan <span id="emojiShownCount">4</span> dari <span id="emojiPoolCount">12</span> kartu</span>
+    </div>
+    <div class="instr-box">
+      <p><strong>Instruksi:</strong> 3–4 peserta maju bergiliran, jelaskan tebakan dan alasannya dalam 20 detik. Klik kartu untuk membuka kunci jawaban.</p>
+    </div>
+  </section>
+
+  <!-- SLIDE 4: EVOLUSI -->
+  <section class="slide dark" data-duration="8">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Sub Materi 1 — Tren &amp; Perkembangan</div>
+    <h2>Evolusi Marketing:<br>dari Billboard ke AI</h2>
+    <div class="timeline">
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <h3>Konvensional</h3>
+        <p>Koran, radio, TV, billboard. Komunikasi satu arah.</p>
+      </div>
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <h3>Internet Awal</h3>
+        <p>Email marketing, banner ads, website statis.</p>
+      </div>
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <h3>Era Media Sosial</h3>
+        <p>Konten interaktif, engagement, influencer.</p>
+      </div>
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <h3>Era AI &amp; Personalisasi</h3>
+        <p>Chatbot, rekomendasi otomatis, live shopping.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 5: TREN GRID -->
+  <section class="slide light" data-duration="10">
+    <div class="eyebrow" style="color:var(--emerald-600)"><span class="bars" style="color:var(--emerald-600)"><span></span><span></span><span></span></span>Sub Materi 1 — Tren Saat Ini</div>
+    <h2>6 Tren Digital Marketing</h2>
+    <div class="grid cols-3">
+      <div class="card"><div class="num">01</div><h3>SEO &amp; SEM</h3><p>Optimasi agar mudah ditemukan di mesin pencari.</p></div>
+      <div class="card"><div class="num">02</div><h3>Social Media Marketing</h3><p>Membangun komunitas dan interaksi di media sosial.</p></div>
+      <div class="card"><div class="num">03</div><h3>Content Marketing</h3><p>Konten bernilai untuk menarik dan mempertahankan audiens.</p></div>
+      <div class="card"><div class="num">04</div><h3>Influencer Marketing</h3><p>Kolaborasi dengan KOL untuk memperluas jangkauan.</p></div>
+      <div class="card"><div class="num">05</div><h3>Email Marketing</h3><p>Komunikasi personal langsung ke inbox pelanggan.</p></div>
+      <div class="card"><div class="num">06</div><h3>AI-based Marketing</h3><p>Chatbot dan personalisasi berbasis kecerdasan buatan.</p></div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: DISKUSI -->
+  <section class="slide mid" data-duration="10">
+    <span class="tag">Diskusi Kelompok · 10 Menit</span>
+    <h2 style="margin-top:20px;">Eksplorasi Bersama Tim</h2>
+    <p class="lead">Berkelompok 3–4 orang, tiap kelompok mendapat 1 tren untuk dibahas.</p>
+    <div class="grid cols-3" style="margin-top:36px;">
+      <div class="card"><h3>Apa itu?</h3><p>Jelaskan definisi tren tersebut dengan bahasa sendiri.</p></div>
+      <div class="card"><h3>Contoh Nyata</h3><p>Sebutkan brand yang menerapkannya.</p></div>
+      <div class="card"><h3>Mengapa Efektif?</h3><p>Alasan tren ini digemari pelaku bisnis.</p></div>
+    </div>
+  </section>
+
+  <!-- SLIDE 7: PROFESI -->
+  <section class="slide paper" data-duration="12">
+    <div class="eyebrow" style="color:var(--emerald-600)"><span class="bars" style="color:var(--emerald-600)"><span></span><span></span><span></span></span>Sub Materi 2 — Profil Profesi</div>
+    <h2>Peluang Karier di Digital Marketing</h2>
+    <div class="prof-scroll">
+      <div class="prof-card"><div class="icon">SM</div><h3>Social Media Specialist</h3><p>Mengelola konten &amp; interaksi akun media sosial brand.</p><div class="skill">Skill: Copywriting, Trend-aware</div></div>
+      <div class="prof-card"><div class="icon">CC</div><h3>Content Creator</h3><p>Memproduksi konten kreatif lintas platform.</p><div class="skill">Skill: Storytelling, Editing</div></div>
+      <div class="prof-card"><div class="icon">SEO</div><h3>SEO Specialist</h3><p>Mengoptimasi website agar mudah ditemukan.</p><div class="skill">Skill: Riset Keyword, Analitik</div></div>
+      <div class="prof-card"><div class="icon">ADS</div><h3>Performance Ads Specialist</h3><p>Mengelola iklan berbayar di Meta &amp; Google Ads.</p><div class="skill">Skill: Budgeting, Targeting</div></div>
+      <div class="prof-card"><div class="icon">AN</div><h3>Digital Marketing Analyst</h3><p>Mengukur dan menganalisis performa kampanye.</p><div class="skill">Skill: Data, Reporting</div></div>
+      <div class="prof-card"><div class="icon">KOL</div><h3>Influencer / KOL</h3><p>Mempromosikan brand lewat personal branding.</p><div class="skill">Skill: Audience Building</div></div>
+      <div class="prof-card"><div class="icon">DM</div><h3>Digital Marketing Manager</h3><p>Merancang strategi pemasaran digital secara menyeluruh.</p><div class="skill">Skill: Leadership, Strategi</div></div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: MINI GAME INTRO -->
+  <section class="slide dark" data-duration="2">
+    <div class="hero-num">08</div>
+    <span class="tag">Mini Game · 20 Menit</span>
+    <h1 style="margin-top:20px; font-size:clamp(34px,5vw,64px);">Tebak Profesi<br><span class="accent">&amp; Tren</span></h1>
+    <p class="lead" style="margin-top:20px;">Satu perwakilan tim menjelaskan istilah di layar tanpa menyebut katanya — tim menebak secepat mungkin!</p>
+    <ul class="rules-list" style="max-width:520px; margin-top:20px;">
+      <li>Bagi kelas menjadi beberapa tim.</li>
+      <li>Klik "Kartu Baru" untuk memunculkan istilah.</li>
+      <li>Nyalakan timer 30 detik, jelaskan tanpa menyebut kata itu.</li>
+      <li>Tim yang menjawab benar dapat +1 poin dari guru.</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 9: MINI GAME LIVE -->
+  <section class="slide light" data-duration="20">
+    <div class="eyebrow" style="color:var(--emerald-600)"><span class="bars" style="color:var(--emerald-600)"><span></span><span></span><span></span></span>Mainkan Sekarang</div>
+    <h2>Papan Permainan</h2>
+    <div class="game-wrap">
+      <div class="game-panel">
+        <div class="card-stage">
+          <div>
+            <div id="wordDisplay">Klik "Kartu Baru"<br>untuk mulai</div>
+            <div id="wordHint">Kartu tersisa: <span id="deckCount">25</span></div>
+          </div>
+        </div>
+        <div class="game-controls">
+          <button class="btn btn-primary" id="newCardBtn">🎴 Kartu Baru</button>
+          <button class="btn btn-secondary" id="skipBtn">⏭ Lewati</button>
+          <button class="btn btn-ghost" id="shuffleBtn">🔄 Reset Dek</button>
+        </div>
+        <div class="timer-row">
+          <div class="timer-circle" id="timerCircle">30</div>
+          <div class="timer-controls">
+            <button class="btn btn-secondary" id="startTimerBtn">▶ Mulai</button>
+            <button class="btn btn-ghost" id="pauseTimerBtn">⏸ Jeda</button>
+            <button class="btn btn-ghost" id="resetTimerBtn">↺ Ulang</button>
+          </div>
+        </div>
+      </div>
+      <div class="score-panel">
+        <h3>Papan Skor</h3>
+        <div id="teamsWrap"></div>
+        <button class="btn btn-ghost reset-scores" id="resetScoreBtn" style="color:var(--mint-050); border-color:rgba(255,255,255,0.3);">Reset Skor</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 10: REFLEKSI -->
+  <section class="slide mid" data-duration="5">
+    <span class="tag">Penutup · 5 Menit</span>
+    <h2 style="margin-top:20px;">Refleksi</h2>
+    <p class="lead">Dari semua tren dan profesi yang kita bahas, mana yang paling ingin kamu pelajari lebih dalam — dan mengapa?</p>
+    <div class="grid cols-3" style="margin-top:36px;">
+      <div class="card"><h3>Tren Terkini</h3><p>Digital marketing terus berevolusi mengikuti teknologi &amp; perilaku konsumen.</p></div>
+      <div class="card"><h3>Peluang Profesi</h3><p>Setiap tren membuka jalur karier baru sesuai minat &amp; keterampilan.</p></div>
+      <div class="card"><h3>Langkah Berikutnya</h3><p>Mulai amati penerapannya dalam keseharianmu.</p></div>
+    </div>
+  </section>
+
+  <!-- SLIDE 11: CLOSING -->
+  <section class="slide dark" data-duration="5">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Terima Kasih</div>
+    <h1 style="font-size:clamp(32px,5vw,64px);">Sampai jumpa<br>di pertemuan <span class="accent">berikutnya!</span></h1>
+    <div class="closing-cta">
+      <div class="card" style="max-width:420px;">
+        <h3>Tugas Ringan</h3>
+        <p>Temukan 1 contoh nyata penerapan tren digital marketing di kesehatian sehari-harimu (screenshot/link), untuk dibahas pertemuan berikutnya.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+    <div class="modal-emoji-glyph" id="modalEmoji"></div>
+    <div class="modal-eyebrow">Jawabannya adalah</div>
+    <div class="modal-answer" id="modalAnswer"></div>
+    <div class="modal-desc" id="modalDesc"></div>
+  </div>
+</div>
+
+<script>
+  // ---------- Slide navigation ----------
+  const deck = document.getElementById('deck');
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const navDots = document.getElementById('navDots');
+  const progressLabel = document.getElementById('progressLabel');
+
+  slides.forEach((s,i)=>{
+    const b = document.createElement('button');
+    b.addEventListener('click', ()=> slides[i].scrollIntoView({behavior:'smooth'}));
+    navDots.appendChild(b);
+  });
+  const dotEls = Array.from(navDots.children);
+
+  function pad(n){ return n.toString().padStart(2,'0'); }
+
+  function updateActive(){
+    let idx = 0;
+    let minDist = Infinity;
+    slides.forEach((s,i)=>{
+      const dist = Math.abs(s.getBoundingClientRect().left);
+      if(dist < minDist){ minDist = dist; idx = i; }
+    });
+    dotEls.forEach((d,i)=> d.classList.toggle('active', i===idx));
+    progressLabel.textContent = pad(idx+1) + ' / ' + pad(slides.length);
+    if(idx !== currentSlideIdx){
+      currentSlideIdx = idx;
+      onSlideChanged(idx);
+    }
+  }
+  let currentSlideIdx = 0;
+  deck.addEventListener('scroll', ()=> requestAnimationFrame(updateActive));
+  updateActive();
+
+  document.getElementById('nextBtn').addEventListener('click', ()=>{
+    const idx = dotEls.findIndex(d=>d.classList.contains('active'));
+    const next = Math.min(idx+1, slides.length-1);
+    slides[next].scrollIntoView({behavior:'smooth'});
+  });
+  document.getElementById('prevBtn').addEventListener('click', ()=>{
+    const idx = dotEls.findIndex(d=>d.classList.contains('active'));
+    const prev = Math.max(idx-1, 0);
+    slides[prev].scrollIntoView({behavior:'smooth'});
+  });
+  window.addEventListener('keydown', (e)=>{
+    if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){ e.preventDefault(); document.getElementById('nextBtn').click(); }
+    if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){ e.preventDefault(); document.getElementById('prevBtn').click(); }
+  });
+
+  // ---------- Utility: shuffle ----------
+  function shuffleArray(arr){
+    for(let i=arr.length-1;i>0;i--){
+      const j = Math.floor(Math.random()*(i+1));
+      [arr[i],arr[j]] = [arr[j],arr[i]];
+    }
+    return arr;
+  }
+
+  // ---------- Emoji Marketing Story ----------
+  const emojiPool = [
+    { emoji:"📱🛒", answer:"Shopee", desc:"Ikon ponsel dan troli belanja menggambarkan kebiasaan belanja lewat aplikasi e-commerce di genggaman tangan." },
+    { emoji:"🐔🍟💥", answer:"KFC", desc:"Ayam, kentang goreng, dan ledakan rasa — kombinasi ikon yang identik dengan menu andalan gerai ayam goreng cepat saji ini." },
+    { emoji:"📸✨👟", answer:"Nike", desc:"Kamera, kilau, dan sepatu menggambarkan gaya konten produk sepatu yang sering tampil estetik di feed Instagram." },
+    { emoji:"🎉💳🚀", answer:"Flash Sale", desc:"Pesta diskon, transaksi cepat lewat kartu/e-wallet, dan penjualan yang meroket — ciri khas kampanye flash sale di e-commerce." },
+    { emoji:"🎵🕺📲", answer:"TikTok", desc:"Musik, joget, dan ponsel menggambarkan platform video pendek yang identik dengan tren challenge dan konten viral." },
+    { emoji:"🍔👑🍟", answer:"Burger King", desc:"Burger dan mahkota merujuk pada gerai burger dengan julukan 'raja' yang identik dengan slogan 'have it your way'." },
+    { emoji:"📦🚚💨", answer:"JNE", desc:"Kotak paket, truk, dan kecepatan menggambarkan layanan jasa ekspedisi pengiriman barang." },
+    { emoji:"🎮🕹️🏆", answer:"Mobile Legends", desc:"Kontroler game, joystick, dan trofi menggambarkan game mobile MOBA populer dengan turnamen esports besar." },
+    { emoji:"✈️🌍💺", answer:"Traveloka", desc:"Pesawat, dunia, dan kursi menggambarkan platform pemesanan tiket pesawat dan perjalanan online." },
+    { emoji:"🏍️📍💨", answer:"Gojek", desc:"Motor, penanda lokasi, dan kecepatan menggambarkan layanan ojek online dan pengantaran serba cepat." },
+    { emoji:"🍜🔥🥢", answer:"Indomie", desc:"Mi, api pedas, dan sumpit menggambarkan mi instan favorit yang identik dengan rasa pedas dan cara makan sehari-hari." },
+    { emoji:"🎬🍿📺", answer:"Netflix", desc:"Klaperboard, popcorn, dan layar menggambarkan layanan streaming film dan serial favorit di rumah." },
+  ];
+  const EMOJI_SHOW_COUNT = 4;
+  const emojiRow = document.getElementById('emojiRow');
+  document.getElementById('emojiPoolCount').textContent = emojiPool.length;
+
+  function renderEmojiCards(cards){
+    emojiRow.innerHTML = '';
+    cards.forEach(c=>{
+      const div = document.createElement('div');
+      div.className = 'emoji-card';
+      div.tabIndex = 0;
+      div.dataset.emoji = c.emoji;
+      div.dataset.answer = c.answer;
+      div.dataset.desc = c.desc;
+      div.innerHTML = `<div class="emoji-glyph">${c.emoji}</div><div class="emoji-cta">Klik jawaban</div>`;
+      const openModal = ()=>{
+        modalEmoji.textContent = c.emoji;
+        modalAnswer.textContent = c.answer;
+        modalDesc.textContent = c.desc;
+        modalOverlay.classList.add('active');
+      };
+      div.addEventListener('click', openModal);
+      div.addEventListener('keydown', (e)=>{
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openModal(); }
+      });
+      emojiRow.appendChild(div);
+    });
+    document.getElementById('emojiShownCount').textContent = cards.length;
+  }
+  function shuffleEmojiCards(){
+    const shuffled = shuffleArray([...emojiPool]);
+    renderEmojiCards(shuffled.slice(0, EMOJI_SHOW_COUNT));
+  }
+
+  // ---------- Modal jawaban ----------
+  const modalOverlay = document.getElementById('modalOverlay');
+  const modalEmoji = document.getElementById('modalEmoji');
+  const modalAnswer = document.getElementById('modalAnswer');
+  const modalDesc = document.getElementById('modalDesc');
+
+  function closeModal(){ modalOverlay.classList.remove('active'); }
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  modalOverlay.addEventListener('click', (e)=>{ if(e.target === modalOverlay) closeModal(); });
+  window.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeModal(); });
+
+  document.getElementById('shuffleEmojiBtn').addEventListener('click', shuffleEmojiCards);
+  shuffleEmojiCards();
+
+  // ---------- MINI GAME: Tebak Kata ----------
+  const terms = [
+    "SEO Specialist","Content Creator","Influencer Marketing","KPI","Engagement Rate",
+    "Social Media Specialist","SEM","Digital Marketing Analyst","Performance Ads",
+    "Content Calendar","Email Marketing","AI Marketing","Brand Awareness",
+    "Conversion Rate","Click Through Rate","Landing Page","A/B Testing",
+    "Copywriting","Google Ads","Meta Ads","Chatbot Marketing","Personalization",
+    "Viral Marketing","Key Opinion Leader","Digital Marketing Manager"
+  ];
+  let deckState = [];
+  let currentTerm = null;
+
+  function resetDeck(){
+    deckState = [...terms];
+    shuffleArray(deckState);
+    document.getElementById('deckCount').textContent = deckState.length;
+    document.getElementById('wordDisplay').innerHTML = 'Klik "Kartu Baru"<br>untuk mulai';
+  }
+  function drawCard(){
+    if(deckState.length === 0){ resetDeck(); }
+    currentTerm = deckState.pop();
+    document.getElementById('wordDisplay').textContent = currentTerm;
+    document.getElementById('deckCount').textContent = deckState.length;
+  }
+  document.getElementById('newCardBtn').addEventListener('click', drawCard);
+  document.getElementById('skipBtn').addEventListener('click', drawCard);
+  document.getElementById('shuffleBtn').addEventListener('click', resetDeck);
+  resetDeck();
+
+  // ---------- Timer ----------
+  const DURATION = 30;
+  let timeLeft = DURATION;
+  let timerInterval = null;
+  const timerCircle = document.getElementById('timerCircle');
+
+  function renderTimer(){
+    timerCircle.textContent = timeLeft;
+    timerCircle.classList.remove('warn','danger');
+    if(timeLeft <= 10 && timeLeft > 5) timerCircle.classList.add('warn');
+    if(timeLeft <= 5) timerCircle.classList.add('danger');
+  }
+  function startTimer(){
+    if(timerInterval) return;
+    timerInterval = setInterval(()=>{
+      timeLeft--;
+      if(timeLeft <= 0){
+        timeLeft = 0;
+        clearInterval(timerInterval);
+        timerInterval = null;
+      }
+      renderTimer();
+    },1000);
+  }
+  function pauseTimer(){
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  function resetTimer(){
+    pauseTimer();
+    timeLeft = DURATION;
+    renderTimer();
+  }
+  document.getElementById('startTimerBtn').addEventListener('click', startTimer);
+  document.getElementById('pauseTimerBtn').addEventListener('click', pauseTimer);
+  document.getElementById('resetTimerBtn').addEventListener('click', resetTimer);
+  renderTimer();
+
+  // ---------- Scoreboard ----------
+  const teams = [
+    { name: 'Tim A', color: '#C9F13B', score: 0 },
+    { name: 'Tim B', color: '#25A16F', score: 0 },
+    { name: 'Tim C', color: '#DBFA6F', score: 0 },
+    { name: 'Tim D', color: '#1F8A5F', score: 0 },
+  ];
+  const teamsWrap = document.getElementById('teamsWrap');
+
+  function renderTeams(){
+    teamsWrap.innerHTML = '';
+    teams.forEach((t, i)=>{
+      const row = document.createElement('div');
+      row.className = 'team-row';
+      row.innerHTML = `
+        <div class="team-name"><span class="dotcolor" style="background:${t.color}"></span>${t.name}</div>
+        <div class="score-controls">
+          <button data-i="${i}" data-op="dec">−</button>
+          <div class="score-val">${t.score}</div>
+          <button data-i="${i}" data-op="inc">+</button>
+        </div>`;
+      teamsWrap.appendChild(row);
+    });
+    teamsWrap.querySelectorAll('button').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const i = +btn.dataset.i;
+        if(btn.dataset.op === 'inc') teams[i].score++;
+        else teams[i].score = Math.max(0, teams[i].score-1);
+        renderTeams();
+      });
+    });
+  }
+  document.getElementById('resetScoreBtn').addEventListener('click', ()=>{
+    teams.forEach(t=> t.score = 0);
+    renderTeams();
+  });
+  renderTeams();
+
+  // ---------- TIMER PER SLIDE (pengingat) ----------
+  const slideTimerWidget = document.getElementById('slideTimerWidget');
+  const slideTimerDisplay = document.getElementById('slideTimerDisplay');
+  const slidePlayPauseBtn = document.getElementById('slidePlayPauseBtn');
+  let slideSecondsLeft = 0;
+  let slideDuration = 0;
+  let slideInterval = null;
+  let slideRunning = false;
+
+  function formatMMSS(totalSeconds){
+    const m = Math.floor(totalSeconds / 60);
+    const s = totalSeconds % 60;
+    return pad(m) + ':' + pad(s);
+  }
+
+  function renderSlideTimer(){
+    slideTimerDisplay.textContent = formatMMSS(slideSecondsLeft);
+    slideTimerWidget.classList.remove('slide-warn','slide-danger','slide-done');
+    if(slideSecondsLeft === 0){ slideTimerWidget.classList.add('slide-done'); }
+    else if(slideSecondsLeft <= 30){ slideTimerWidget.classList.add('slide-danger'); }
+    else if(slideSecondsLeft <= 60){ slideTimerWidget.classList.add('slide-warn'); }
+    if(slideTimerWidget.classList.contains('minimized')){
+      slideTimerToggle.textContent = '⏱ ' + formatMMSS(slideSecondsLeft);
+    }
+  }
+  function slideTick(){
+    if(slideSecondsLeft > 0){
+      slideSecondsLeft--;
+      renderSlideTimer();
+      if(slideSecondsLeft === 0){ pauseSlideTimer(); } // habis -> berhenti, tidak melakukan apa-apa lagi
+    }
+  }
+  function startSlideTimer(){
+    if(slideInterval || slideSecondsLeft <= 0) return;
+    slideInterval = setInterval(slideTick, 1000);
+    slideRunning = true;
+    slidePlayPauseBtn.textContent = '⏸';
+  }
+  function pauseSlideTimer(){
+    clearInterval(slideInterval);
+    slideInterval = null;
+    slideRunning = false;
+    slidePlayPauseBtn.textContent = '▶';
+  }
+  function resetSlideTimer(){
+    pauseSlideTimer();
+    slideSecondsLeft = slideDuration;
+    renderSlideTimer();
+  }
+  function loadSlideTimer(idx){
+    const mins = parseFloat(slides[idx].dataset.duration) || 0;
+    slideDuration = Math.round(mins * 60);
+    slideSecondsLeft = slideDuration;
+    pauseSlideTimer();
+    renderSlideTimer();
+    if(slideDuration > 0){ startSlideTimer(); } // otomatis mulai sebagai pengingat waktu slide ini
+  }
+  slidePlayPauseBtn.addEventListener('click', ()=>{ slideRunning ? pauseSlideTimer() : startSlideTimer(); });
+  document.getElementById('slideResetBtn').addEventListener('click', resetSlideTimer);
+
+  const slideTimerToggle = document.getElementById('slideTimerToggle');
+  slideTimerToggle.addEventListener('click', ()=>{
+    slideTimerWidget.classList.toggle('minimized');
+    renderSlideTimer();
+  });
+
+  function onSlideChanged(idx){ loadSlideTimer(idx); }
+
+  // ---------- TIMER TOTAL (sisa waktu keseluruhan) ----------
+  const TOTAL_MINUTES = 90;
+  const globalTimerWidget = document.getElementById('globalTimerWidget');
+  const globalTimerDisplay = document.getElementById('globalTimerDisplay');
+  const globalPlayPauseBtn = document.getElementById('globalPlayPauseBtn');
+  const globalTimerToggle = document.getElementById('globalTimerToggle');
+  let globalSecondsLeft = TOTAL_MINUTES * 60;
+  let globalInterval = null;
+  let globalRunning = false;
+
+  function renderGlobalTimer(){
+    globalTimerDisplay.textContent = formatMMSS(globalSecondsLeft);
+    globalTimerWidget.classList.remove('slide-warn','slide-danger','slide-done');
+    if(globalSecondsLeft === 0){ globalTimerWidget.classList.add('slide-done'); }
+    else if(globalSecondsLeft <= 300){ globalTimerWidget.classList.add('slide-danger'); }
+    else if(globalSecondsLeft <= 600){ globalTimerWidget.classList.add('slide-warn'); }
+    if(globalTimerWidget.classList.contains('minimized')){
+      globalTimerToggle.textContent = '⏳ ' + formatMMSS(globalSecondsLeft);
+    }
+  }
+  function globalTick(){
+    if(globalSecondsLeft > 0){
+      globalSecondsLeft--;
+      renderGlobalTimer();
+      if(globalSecondsLeft === 0){ pauseGlobalTimer(); } // habis -> berhenti begitu saja
+    }
+  }
+  function startGlobalTimer(){
+    if(globalInterval || globalSecondsLeft <= 0) return;
+    globalInterval = setInterval(globalTick, 1000);
+    globalRunning = true;
+    globalPlayPauseBtn.textContent = '⏸';
+  }
+  function pauseGlobalTimer(){
+    clearInterval(globalInterval);
+    globalInterval = null;
+    globalRunning = false;
+    globalPlayPauseBtn.textContent = '▶';
+  }
+  function resetGlobalTimer(){
+    pauseGlobalTimer();
+    globalSecondsLeft = TOTAL_MINUTES * 60;
+    renderGlobalTimer();
+  }
+  globalPlayPauseBtn.addEventListener('click', ()=>{ globalRunning ? pauseGlobalTimer() : startGlobalTimer(); });
+  document.getElementById('globalResetBtn').addEventListener('click', resetGlobalTimer);
+  globalTimerToggle.addEventListener('click', ()=>{
+    globalTimerWidget.classList.toggle('minimized');
+    renderGlobalTimer();
+  });
+  renderGlobalTimer();
+
+  // Inisialisasi timer slide pertama
+  currentSlideIdx = 0;
+  onSlideChanged(0);
+</script>
+
+</body>
+</html>

@@ -24,6 +24,8 @@
       --color-kka-glow: rgba(139, 92, 246, 0.25);
       --color-gim: #FFE500; /* Neon Yellow */
       --color-gim-glow: rgba(255, 229, 0, 0.25);
+      --color-dm: #C9F13B; /* Neon Lime */
+      --color-dm-glow: rgba(201, 241, 59, 0.25);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -77,6 +79,13 @@
       top: 40%;
       left: 45%;
       background: radial-gradient(circle, var(--color-gim) 0%, transparent 70%);
+      opacity: 0.05;
+    }
+
+    .glow-dm {
+      bottom: 20%;
+      left: 15%;
+      background: radial-gradient(circle, var(--color-dm) 0%, transparent 70%);
       opacity: 0.05;
     }
 
@@ -182,6 +191,7 @@
     .card-kik::before { background: var(--color-kik); }
     .card-kka::before { background: var(--color-kka); }
     .card-gim::before { background: var(--color-gim); }
+    .card-dm::before { background: var(--color-dm); }
 
     /* Card Hovers */
     .app-card:hover {
@@ -204,6 +214,10 @@
     .card-gim:hover {
       border-color: var(--color-gim);
       box-shadow: 0 15px 40px rgba(255, 229, 0, 0.15);
+    }
+    .card-dm:hover {
+      border-color: var(--color-dm);
+      box-shadow: 0 15px 40px rgba(201, 241, 59, 0.15);
     }
 
     .card-badge {
@@ -233,6 +247,11 @@
       background: rgba(255, 229, 0, 0.1);
       color: var(--color-gim);
       border-color: rgba(255, 229, 0, 0.2);
+    }
+    .card-dm .card-badge {
+      background: rgba(201, 241, 59, 0.1);
+      color: var(--color-dm);
+      border-color: rgba(201, 241, 59, 0.2);
     }
 
     .app-card h2 {
@@ -297,6 +316,17 @@
       box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
     }
 
+    .card-dm .btn {
+      background: var(--color-dm);
+      color: #000000;
+      box-shadow: 0 4px 14px var(--color-dm-glow);
+    }
+    .card-dm .btn:hover {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+    }
+
     footer {
       font-size: 0.85rem;
       color: rgba(255, 255, 255, 0.3);
@@ -327,6 +357,7 @@
     <div class="glow-blob glow-kik" id="glow-kik"></div>
     <div class="glow-blob glow-kka" id="glow-kka"></div>
     <div class="glow-blob glow-gim" id="glow-gim"></div>
+    <div class="glow-blob glow-dm" id="glow-dm"></div>
   </div>
 
   <div class="container">
@@ -368,6 +399,16 @@
         <a href="perancangan-game/index.html" class="btn">🌐 Masuk Portal Gim</a>
       </div>
 
+      <!-- 4. PORTAL DIGITAL MARKETING -->
+      <div class="app-card card-dm fade-in" style="animation-delay: 0.4s;" onmouseenter="focusApp('dm')" onmouseleave="resetFocus()">
+        <div>
+          <span class="card-badge">Pemasaran & Bisnis</span>
+          <h2>Portal Digital Marketing</h2>
+          <p>Digital Marketing. Pelajari evolusi marketing, klasifikasi media digital (PESO), analisis taktik brand besar & UMKM lokal, serta game kelas "Detektif Marketing".</p>
+        </div>
+        <a href="digital-marketing/index.html" class="btn">🌐 Masuk Portal Marketing</a>
+      </div>
+
     </div>
 
     <footer class="fade-in" style="animation-delay: 0.4s;">
@@ -379,6 +420,7 @@
     const blobKik = document.getElementById('glow-kik');
     const blobKka = document.getElementById('glow-kka');
     const blobGim = document.getElementById('glow-gim');
+    const blobDm = document.getElementById('glow-dm');
 
     function focusApp(app) {
       if (app === 'kik') {
@@ -386,16 +428,25 @@
         blobKik.style.transform = 'scale(1.2)';
         blobKka.style.opacity = '0.05';
         blobGim.style.opacity = '0.02';
+        blobDm.style.opacity = '0.02';
       } else if (app === 'kka') {
         blobKka.style.opacity = '0.35';
         blobKka.style.transform = 'scale(1.2)';
         blobKik.style.opacity = '0.05';
         blobGim.style.opacity = '0.02';
+        blobDm.style.opacity = '0.02';
       } else if (app === 'gim') {
         blobGim.style.opacity = '0.35';
         blobGim.style.transform = 'scale(1.2)';
         blobKik.style.opacity = '0.02';
         blobKka.style.opacity = '0.02';
+        blobDm.style.opacity = '0.02';
+      } else if (app === 'dm') {
+        blobDm.style.opacity = '0.35';
+        blobDm.style.transform = 'scale(1.2)';
+        blobKik.style.opacity = '0.02';
+        blobKka.style.opacity = '0.02';
+        blobGim.style.opacity = '0.02';
       }
     }
 
@@ -406,6 +457,8 @@
       blobKka.style.transform = 'scale(1)';
       blobGim.style.opacity = '0.05';
       blobGim.style.transform = 'scale(1)';
+      blobDm.style.opacity = '0.05';
+      blobDm.style.transform = 'scale(1)';
     }
   </script>
 </body>

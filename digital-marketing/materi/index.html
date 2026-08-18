@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Materi Pembelajaran Digital Marketing - SMK Telkom Malang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #C9F13B;
+      --primary-hover: #b0d42c;
+      --bg-dark: #050a07;
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --border-glass-focus: rgba(201, 241, 59, 0.4);
+      --text-main: #f3f4f6;
+      --text-secondary: #9ca3af;
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', sans-serif;
+      --border-radius-lg: 20px;
+      --border-radius-md: 14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 60px 20px;
+      background-image: radial-gradient(rgba(201, 241, 59, 0.04) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    header h1 span { color: var(--primary); }
+    header p {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Back portal button */
+    .back-portal {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+      transition: opacity 0.2s;
+    }
+    .back-portal:hover {
+      opacity: 0.8;
+    }
+
+    /* Materials Grid */
+    .materials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 24px;
+      margin-bottom: 50px;
+    }
+
+    .material-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--border-radius-md);
+      padding: 28px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+    .material-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-glass-focus);
+      box-shadow: 0 8px 30px rgba(201, 241, 59, 0.08);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 14px;
+    }
+    .modul-num {
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background: rgba(201, 241, 59, 0.1);
+      color: var(--primary);
+      padding: 4px 10px;
+      border-radius: 99px;
+    }
+    .material-card h2 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .material-card p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-bottom: 24px;
+      flex-grow: 1;
+    }
+
+    .card-actions {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 12px 18px;
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      text-align: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #000000;
+    }
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <a href="../index.html" class="back-portal">← Kembali Ke Portal</a>
+
+    <header>
+      <div style="font-size: 0.85rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: var(--primary); margin-bottom: 10px;">SMK Telkom Malang</div>
+      <h1>Daftar Slide <span>Presentasi Digital Marketing</span></h1>
+      <p>Pilih materi di bawah ini untuk menampilkan presentasi slide mandiri atau mengunduh berkas materi.</p>
+    </header>
+
+    <div class="materials-grid">
+      
+      <!-- Modul 1 -->
+      <div class="material-card">
+        <div>
+          <div class="card-header">
+            <span class="modul-num">Modul 01</span>
+          </div>
+          <h2>Perencanaan Digital Marketing</h2>
+          <p>Membahas dasar dan konsep perencanaan strategi pemasaran digital secara menyeluruh. Disajikan dalam format PowerPoint untuk pembelajaran teoritis mandiri.</p>
+        </div>
+        <div class="card-actions">
+          <a href="materi_1.pptx" class="btn btn-primary" download="Materi_01_Perencanaan_Digital_Marketing.pptx">📥 Unduh PowerPoint (PPTX)</a>
+        </div>
+      </div>
+
+      <!-- Modul 2 -->
+      <div class="material-card">
+        <div>
+          <div class="card-header">
+            <span class="modul-num">Modul 02</span>
+          </div>
+          <h2>Pengantar Digital Marketing</h2>
+          <p>Mengenal tren perkembangan pemasaran dari masa konvensional ke era AI, klasifikasi media digital (PESO), serta memetakan peluang karier/profesi di bidang pemasaran digital.</p>
+        </div>
+        <div class="card-actions">
+          <a href="02_Pengantar_Digital_Marketing.html" class="btn btn-primary">📺 Tampilkan Slide</a>
+        </div>
+      </div>
+
+      <!-- Modul 3 -->
+      <div class="material-card">
+        <div>
+          <div class="card-header">
+            <span class="modul-num">Modul 03</span>
+          </div>
+          <h2>Analisis Kasus Digital Marketing</h2>
+          <p>Menganalisis taktik digital marketing brand lokal/nasional, optimalisasi digital pada UMKM, dilengkapi dengan Game Kelompok Kelas "Detektif Marketing".</p>
+        </div>
+        <div class="card-actions">
+          <a href="03_Menganalisis_Penerapan_Digital_Marketing.html" class="btn btn-primary">📺 Tampilkan Slide</a>
+        </div>
+      </div>
+
+      <!-- Modul 4 -->
+      <div class="material-card">
+        <div>
+          <div class="card-header">
+            <span class="modul-num">Modul 04</span>
+          </div>
+          <h2>Etika Bisnis Digital & Netiket</h2>
+          <p>Membahas fondasi tata krama komunikasi internet (Netiket), 10 etika emas promosi media sosial, promosi WhatsApp API, serta strategi komplain pelanggan (CS Simulator).</p>
+        </div>
+        <div class="card-actions">
+          <a href="04_Etika_Bisnis_Digital_Dan_Netiket.html" class="btn btn-primary">📺 Tampilkan Slide</a>
+        </div>
+      </div>
+
+    </div>
+
+    <footer style="text-align: center; font-size: 0.85rem; color: rgba(255, 255, 255, 0.2); border-top: 1px solid var(--border-glass); padding-top: 24px;">
+      <p>© 2026 Tim Pembelajaran Digital Marketing - SMK Telkom Malang</p>
+    </footer>
+  </div>
+
+</body>
+</html>

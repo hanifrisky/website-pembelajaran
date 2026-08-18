@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menganalisis Penerapan Digital Marketing - Studi Kasus Bisnis & UMKM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest-950: #04140F; /* Hitam hutan pekat */
+    --forest-900: #08241B; /* Hijau hutan sangat gelap */
+    --forest-800: #0D3E2F; /* Hijau hutan medium */
+    --forest-700: #12543F; /* Hijau hutan terang */
+    --emerald-600: #10B981; /* Emerald terang */
+    --emerald-500: #059669; /* Emerald medium */
+    --mint-200: #A7F3D0; /* Mint terang */
+    --mint-100: #ECFDF5; /* Latar mint lembut */
+    --mint-050: #F6FDF9; /* Sangat bersih dan cerah */
+    --lime-400: #C9F13B; /* Neon lime */
+    --lime-300: #DBFA6F; /* Neon lime lembut */
+    --ink: #0A1C16; /* Teks gelap */
+    --paper: #FAFDFB; /* Latar kertas putih gading */
+    --line: rgba(4,20,15,0.08);
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Manrope', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--forest-950);
+    overflow-x: hidden;
+  }
+
+  /* ---------- Slide scaffolding ---------- */
+  .deck {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+  }
+  .slide {
+    scroll-snap-align: start;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 6vh 8vw;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .slide.dark { background: var(--forest-950); color: var(--mint-100); }
+  .slide.mid { background: var(--forest-900); color: var(--mint-100); }
+  .slide.light { background: var(--mint-100); color: var(--ink); }
+  .slide.paper { background: var(--paper); color: var(--ink); }
+
+  /* Signature dot-grid texture */
+  .slide::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(currentColor 1.2px, transparent 1.2px);
+    background-size: 32px 32px;
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  .eyebrow {
+    font-family: var(--font-body);
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-size: clamp(10px, 1.1vw, 13px);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+    opacity: 0.85;
+  }
+  .eyebrow .bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }
+  .eyebrow .bars span { display: block; width: 3px; background: currentColor; border-radius: 1px; }
+  .eyebrow .bars span:nth-child(1) { height: 40%; }
+  .eyebrow .bars span:nth-child(2) { height: 70%; }
+  .eyebrow .bars span:nth-child(3) { height: 100%; }
+
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-size: clamp(34px, 5.5vw, 76px);
+  }
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: clamp(28px, 4vw, 52px);
+    margin-bottom: 24px;
+  }
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(17px, 1.8vw, 22px);
+  }
+  p { font-size: clamp(14px, 1.25vw, 18px); line-height: 1.6; }
+  .lead { font-size: clamp(16px, 1.5vw, 21px); line-height: 1.5; max-width: 800px; opacity: 0.92; }
+
+  .accent { color: var(--lime-400); }
+  .tag {
+    display: inline-block;
+    font-family: var(--font-body); font-weight: 700; font-size: 11px; letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--lime-400);
+    color: var(--forest-950);
+  }
+  .tag.outline {
+    background: transparent;
+    border: 1.5px solid currentColor;
+    color: inherit;
+  }
+
+  /* ---------- Navigation overlays ---------- */
+  .nav {
+    position: fixed;
+    bottom: 24px; left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: row; gap: 8px;
+    z-index: 50;
+    background: rgba(4, 20, 15, 0.45);
+    padding: 10px 14px;
+    border-radius: 999px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .nav button {
+    width: 10px; height: 10px; border-radius: 50%;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    transition: all .25s ease;
+  }
+  .nav button.active { background: var(--lime-400); border-color: var(--lime-400); width: 14px; height: 10px; border-radius: 6px; }
+
+  .progress-label {
+    position: fixed; left: 26px; top: 24px;
+    font-family: var(--font-display); font-weight: 600;
+    color: rgba(255,255,255,0.8);
+    font-size: 13px; letter-spacing: 0.05em;
+    z-index: 50;
+    background: rgba(4, 20, 15, 0.45);
+    padding: 6px 12px; border-radius: 999px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .slide.light .progress-label, .slide.paper .progress-label { color: rgba(10,28,22,0.75); background: rgba(255, 255, 255, 0.6); }
+
+  .arrows {
+    position: fixed; right: 26px; top: 50%; transform: translateY(-50%); z-index: 50;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .arrows button {
+    width: 42px; height: 42px; border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(4, 20, 15, 0.72);
+    backdrop-filter: blur(6px);
+    color: white; cursor: pointer;
+    font-size: 18px; display: flex; align-items: center; justify-content: center;
+    transition: all .2s ease;
+  }
+  .arrows button:hover { background: var(--lime-400); color: var(--forest-950); border-color: var(--lime-400); transform: scale(1.05); }
+
+  /* ---------- Timers ---------- */
+  .timer-widget {
+    position: fixed;
+    top: 20px;
+    z-index: 80;
+    background: rgba(4, 20, 15, 0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 10px 12px;
+    color: white;
+    display: flex; align-items: center; gap: 10px;
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  #slideTimerWidget { left: 50%; transform: translateX(-50%); }
+  #globalTimerWidget { right: 26px; }
+
+  .timer-toggle {
+    width: 32px; height: 32px; border-radius: 50%;
+    border: none; background: rgba(255, 255, 255, 0.1);
+    color: var(--lime-400);
+    cursor: pointer; font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .timer-toggle:hover { background: var(--lime-400); color: var(--forest-950); }
+
+  .timer-body { display: flex; align-items: center; gap: 12px; }
+  .timer-widget.minimized .timer-body { display: none; }
+  .timer-widget.minimized { gap: 0; padding: 6px; }
+  .timer-widget.minimized .timer-toggle { width: auto; height: auto; padding: 8px 14px; border-radius: 999px; font-family: var(--font-display); font-weight: 700; font-size: 13px; gap: 6px; }
+
+  .timer-info { display: flex; flex-direction: column; line-height: 1.15; }
+  .timer-label {
+    font-size: 9px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .timer-display {
+    font-family: var(--font-display); font-weight: 700; font-size: 18px;
+    color: var(--mint-100);
+  }
+  .timer-widget.slide-warn .timer-display { color: #FBBF24; }
+  .timer-widget.slide-danger .timer-display { color: #F87171; }
+  .timer-widget.slide-done .timer-display { color: rgba(255, 255, 255, 0.35); }
+
+  .timer-btns { display: flex; gap: 6px; }
+  .timer-btns button {
+    width: 26px; height: 26px; border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: transparent; color: white; cursor: pointer;
+    font-size: 10px; display: flex; align-items: center; justify-content: center;
+  }
+  .timer-btns button:hover { background: var(--lime-400); color: var(--forest-950); border-color: var(--lime-400); }
+
+  /* ---------- Hero Slide ---------- */
+  .hero-num {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: clamp(80px, 14vw, 180px);
+    position: absolute; right: 6vw; top: 8vh;
+    color: rgba(255,255,255,0.03);
+    line-height: 1;
+    pointer-events: none;
+  }
+  .hero-meta {
+    margin-top: 40px;
+    display: flex; gap: 36px; flex-wrap: wrap;
+  }
+  .hero-meta div { font-size: 14px; opacity: 0.75; }
+  .hero-meta strong { display: block; font-family: var(--font-display); font-size: 20px; font-weight: 600; color: var(--lime-400); margin-bottom: 2px; }
+
+  /* ---------- Grids & Cards ---------- */
+  .grid { display: grid; gap: 20px; margin-top: 28px; }
+  .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+
+  .card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+  }
+  .slide.light .card, .slide.paper .card {
+    background: white;
+    border: 1px solid var(--line);
+    box-shadow: 0 4px 18px rgba(4,20,15,0.04);
+  }
+  .card:hover { border-color: var(--lime-400); transform: translateY(-2px); }
+  .card .num {
+    font-family: var(--font-display); font-weight: 700;
+    color: var(--emerald-600);
+    font-size: 13px; letter-spacing: 0.08em;
+  }
+  .card h3 { margin: 12px 0 8px; }
+  .card p { font-size: 14px; opacity: 0.85; }
+
+  /* ---------- Visual comparison columns ---------- */
+  .visual-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 28px;
+  }
+  .split-pane {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+  }
+  .slide.paper .split-pane {
+    background: var(--mint-100);
+    border: 1px solid var(--line);
+  }
+  .pane-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid rgba(255,255,255,0.1);
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+  }
+  .slide.paper .pane-header { border-bottom-color: var(--line); }
+  .pane-header h3 { color: var(--lime-400); font-size: 22px; }
+  .slide.paper .pane-header h3 { color: var(--forest-800); }
+  .bullet-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .bullet-list li {
+    font-size: 14.5px;
+    padding-left: 24px;
+    position: relative;
+    line-height: 1.5;
+  }
+  .bullet-list li::before {
+    content: "✓";
+    position: absolute; left: 0; top: 0;
+    color: var(--emerald-600);
+    font-weight: 700;
+  }
+
+  /* ---------- Table styling ---------- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+    font-size: 14.5px;
+  }
+  th, td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .slide.paper th, .slide.paper td { border-bottom-color: var(--line); }
+  th {
+    font-family: var(--font-display);
+    font-weight: 700;
+    background: rgba(255,255,255,0.02);
+    color: var(--lime-400);
+  }
+  .slide.paper th {
+    background: var(--mint-100);
+    color: var(--forest-950);
+  }
+  tr:hover td { background: rgba(255,255,255,0.01); }
+  .slide.paper tr:hover td { background: var(--mint-050); }
+
+  /* ---------- GAME SETUP SLIDE (EDITOR) ---------- */
+  .editor-layout {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 32px;
+    margin-top: 20px;
+    align-items: stretch;
+  }
+  .form-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .slide.light .form-card, .slide.paper .form-card { background: white; border-color: var(--line); }
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-group label {
+    font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--lime-400);
+  }
+  .slide.light .form-group label, .slide.paper .form-group label { color: var(--emerald-600); }
+  .form-group input, .form-group textarea {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: white;
+    outline: none;
+    transition: all .2s ease;
+  }
+  .slide.light .form-group input, .slide.light .form-group textarea,
+  .slide.paper .form-group input, .slide.paper .form-group textarea {
+    background: var(--mint-050);
+    border-color: var(--line);
+    color: var(--ink);
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: var(--lime-400);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .slide.light .form-group input:focus, .slide.light .form-group textarea:focus,
+  .slide.paper .form-group input:focus, .slide.paper .form-group textarea:focus {
+    border-color: var(--emerald-600);
+    background: white;
+  }
+  .form-card button {
+    font-family: var(--font-body); font-weight: 700; font-size: 14px;
+    padding: 12px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    background: var(--lime-400);
+    color: var(--forest-950);
+    transition: all .2s ease;
+    margin-top: 8px;
+  }
+  .slide.light .form-card button, .slide.paper .form-card button {
+    background: var(--forest-950);
+    color: var(--lime-400);
+  }
+  .form-card button:hover { opacity: 0.9; transform: translateY(-1px); }
+
+  .editor-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .active-deck-stats {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 18px;
+    padding: 22px;
+    margin-top: 14px;
+  }
+  .slide.light .active-deck-stats, .slide.paper .active-deck-stats { background: white; border-color: var(--line); }
+  .deck-list-preview {
+    max-height: 180px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-right: 6px;
+  }
+  .deck-list-item {
+    font-size: 12.5px;
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slide.light .deck-list-item, .slide.paper .deck-list-item { border-bottom-color: var(--line); }
+  .deck-list-item:last-child { border-bottom: none; }
+
+  /* ---------- GAME SLIDE ---------- */
+  .game-wrap {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 30px;
+    margin-top: 24px;
+    align-items: stretch;
+  }
+  .game-panel {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 20px;
+    padding: 28px;
+    border: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .slide.light .game-panel { background: white; border-color: var(--line); }
+  .card-stage {
+    background: var(--forest-950);
+    border-radius: 16px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 24px;
+    position: relative;
+    overflow-y: auto;
+  }
+  .card-stage::after {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(var(--emerald-600) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.06;
+    pointer-events: none;
+  }
+  #wordDisplay {
+    position: relative; z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+    margin: auto 0;
+  }
+  .game-clue {
+    font-size: 16.5px;
+    line-height: 1.5;
+    background: rgba(255,255,255,0.05);
+    border: 1.5px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 12px 18px;
+    width: 100%;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .game-clue.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .game-clue-label {
+    font-size: 10px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--lime-400);
+    margin-bottom: 4px;
+  }
+  
+  .game-controls { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+  .btn {
+    font-family: var(--font-body); font-weight: 700; font-size: 13.5px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    transition: transform .15s ease, opacity .15s ease;
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .btn:hover { transform: translateY(-1.5px); }
+  .btn:active { transform: translateY(0); }
+  .btn-primary { background: var(--lime-400); color: var(--forest-950); }
+  .btn-secondary { background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid rgba(255,255,255,0.15); }
+  .slide.light .btn-secondary { background: var(--mint-100); color: var(--forest-950); border-color: var(--line); }
+  .btn-ghost { background: transparent; color: inherit; border: 1.5px solid currentColor; }
+
+  .timer-row {
+    display: flex; align-items: center; gap: 16px; margin-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.06); padding-top: 16px;
+  }
+  .slide.light .timer-row { border-top-color: var(--line); }
+  .timer-circle {
+    width: 68px; height: 68px; border-radius: 50%;
+    border: 4.5px solid rgba(255,255,255,0.1);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 22px;
+    color: inherit;
+    transition: all .25s ease;
+  }
+  .timer-circle.active-play { border-color: var(--lime-400); color: var(--lime-400); }
+  .timer-circle.warn { border-color: #F59E0B; color: #F59E0B; animation: pulseSlow 1s infinite; }
+  .timer-circle.danger { border-color: #EF4444; color: #EF4444; animation: pulseFast 0.5s infinite; }
+  @keyframes pulseSlow { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+  @keyframes pulseFast { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.05); } }
+
+  .score-panel {
+    background: var(--forest-900);
+    border-radius: 20px;
+    padding: 24px;
+    color: var(--mint-100);
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .slide.light .score-panel { background: var(--forest-950); color: var(--mint-100); border: none; }
+  .score-panel h3 { color: var(--lime-400); margin-bottom: 12px; font-size: 19px; display: flex; align-items: center; gap: 8px;}
+  
+  .team-row {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .team-row:last-of-type { border-bottom: none; }
+  .team-name { font-weight: 700; font-size: 14.5px; display: flex; align-items: center; gap: 8px; }
+  .dotcolor { width: 10px; height: 10px; border-radius: 50%; }
+  .score-controls { display: flex; align-items: center; gap: 10px; }
+  .score-controls button {
+    width: 28px; height: 28px; border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.25);
+    background: transparent; color: white; cursor: pointer;
+    font-size: 15px; display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s ease;
+  }
+  .score-controls button:hover { background: var(--lime-400); color: var(--forest-950); border-color: var(--lime-400); }
+  .score-val { font-family: var(--font-display); font-weight: 700; font-size: 18px; min-width: 28px; text-align: center; }
+
+  #teamsWrap {
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 6px;
+  }
+
+  /* Custom scrollbar styling for game panels */
+  #teamsWrap::-webkit-scrollbar,
+  .card-stage::-webkit-scrollbar {
+    width: 6px;
+  }
+  #teamsWrap::-webkit-scrollbar-track,
+  .card-stage::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 99px;
+  }
+  #teamsWrap::-webkit-scrollbar-thumb,
+  .card-stage::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 99px;
+  }
+  #teamsWrap::-webkit-scrollbar-thumb:hover,
+  .card-stage::-webkit-scrollbar-thumb:hover {
+    background: var(--lime-400);
+  }
+
+  /* ---------- MODAL DIALOG ---------- */
+  .modal-overlay {
+    position: fixed; inset: 0; z-index: 300;
+    background: rgba(4, 20, 15, 0.85);
+    backdrop-filter: blur(8px);
+    display: none; align-items: center; justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal-box {
+    background: white;
+    border-radius: 24px;
+    padding: 36px;
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    animation: modalPop .25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+  }
+  @keyframes modalPop {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .modal-close {
+    position: absolute; top: 16px; right: 16px;
+    width: 32px; height: 32px; border-radius: 50%;
+    border: none; background: var(--mint-100);
+    color: var(--forest-950);
+    font-size: 14px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all .2s ease;
+  }
+  .modal-close:hover { background: var(--lime-400); transform: rotate(90deg); }
+  .modal-emoji-glyph { font-size: 58px; margin-bottom: 12px; line-height: 1; }
+  .modal-eyebrow {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--emerald-600); margin-bottom: 6px;
+  }
+  .modal-answer {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 32px; color: var(--forest-950); margin-bottom: 14px;
+  }
+  .modal-desc {
+    font-size: 14px; line-height: 1.6; color: #1F2937;
+    background: var(--mint-100);
+    padding: 16px 20px; border-radius: 12px;
+    text-align: left;
+    border-left: 4.5px solid var(--emerald-600);
+  }
+
+  /* ---------- Framework & Lists ---------- */
+  .framework-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 28px;
+  }
+  .fw-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1.5px dashed rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+  }
+  .slide.paper .fw-card {
+    background: var(--mint-050);
+    border-color: rgba(16, 185, 129, 0.2);
+  }
+  .fw-icon {
+    font-size: 28px;
+    background: var(--emerald-600);
+    color: white;
+    width: 48px; height: 48px; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .fw-card h3 { font-family: var(--font-display); font-size: 18px; color: var(--lime-400); }
+  .slide.paper .fw-card h3 { color: var(--forest-900); }
+  .fw-card ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .fw-card ul li { font-size: 12.5px; opacity: 0.85; padding-left: 14px; position: relative; }
+  .fw-card ul li::before { content: "•"; position: absolute; left: 0; color: var(--lime-400); }
+  .slide.paper .fw-card ul li::before { color: var(--emerald-600); }
+
+  .rubric-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 11px; font-weight: 700; background: var(--emerald-600); color: white;
+    padding: 4px 10px; border-radius: 999px;
+  }
+
+  /* Responsive queries */
+  @media (max-width: 860px) {
+    .grid.cols-2, .grid.cols-3, .grid.cols-4, .visual-split, .framework-grid, .editor-layout, .game-wrap { grid-template-columns: 1fr; }
+    .nav { display: none; }
+    .arrows { display: none; }
+    #globalTimerWidget { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="nav" id="navDots"></div>
+<div class="progress-label" id="progressLabel">01 / 11</div>
+<div class="arrows">
+  <button id="prevBtn" aria-label="Sebelumnya">←</button>
+  <button id="nextBtn" aria-label="Berikutnya">→</button>
+</div>
+
+<!-- SLIDE TIMER WIDGET (tengah atas) -->
+<div class="timer-widget" id="slideTimerWidget">
+  <button class="timer-toggle" id="slideTimerToggle" title="Kecilkan / Besarkan">⏱</button>
+  <div class="timer-body">
+    <div class="timer-info">
+      <div class="timer-label">Durasi Slide</div>
+      <div class="timer-display" id="slideTimerDisplay">05:00</div>
+    </div>
+    <div class="timer-btns">
+      <button id="slidePlayPauseBtn" title="Mulai / Jeda">⏸</button>
+      <button id="slideResetBtn" title="Ulangi">↺</button>
+    </div>
+  </div>
+</div>
+
+<!-- GLOBAL TIMER WIDGET (kanan atas) -->
+<div class="timer-widget" id="globalTimerWidget">
+  <button class="timer-toggle" id="globalTimerToggle" title="Kecilkan / Besarkan">⏳</button>
+  <div class="timer-body">
+    <div class="timer-info">
+      <div class="timer-label">Waktu Pertemuan</div>
+      <div class="timer-display" id="globalTimerDisplay">90:00</div>
+    </div>
+    <div class="timer-btns">
+      <button id="globalPlayPauseBtn" title="Mulai / Jeda">▶</button>
+      <button id="globalResetBtn" title="Ulangi">↺</button>
+    </div>
+  </div>
+</div>
+
+<!-- THE SLIDES DECK -->
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1: HERO -->
+  <section class="slide dark" data-duration="5">
+    <div class="hero-num">01</div>
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 02 — Analisis Kasus</div>
+    <h1>Menganalisis Penerapan<br><span class="accent">Digital Marketing</span></h1>
+    <p class="lead" style="margin-top: 22px;">Studi komparasi strategi kampanye bisnis skala besar dan optimalisasi digital pada UMKM &amp; Brand Lokal.</p>
+    <div class="hero-meta">
+      <div><strong>2 JP</strong>Alokasi Waktu</div>
+      <div><strong>90 Menit</strong>Durasi Kelas</div>
+      <div><strong>Game + 15 Kasus</strong>Aktivitas Belajar</div>
+      <div><strong>Analisis Mandiri</strong>Asesmen Akhir</div>
+    </div>
+  </section>
+
+  <!-- SLIDE 2: TUJUAN -->
+  <section class="slide light" data-duration="4">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Tujuan Pembelajaran</div>
+    <h2>Target Kompetensi Belajar</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <div class="num">TP — 01</div>
+        <h3>Evaluasi Kasus Riil</h3>
+        <p>Mengurai taktik digital marketing brand nasional dan memahami faktor-faktor pendorong viralitas kampanye mereka.</p>
+      </div>
+      <div class="card">
+        <div class="num">TP — 02</div>
+        <h3>Analisis Kritis UMKM</h3>
+        <p>Mengidentifikasi keterbatasan sumber daya UMKM lokal dan menemukan celah optimasi digital yang ramah anggaran.</p>
+      </div>
+      <div class="card">
+        <div class="num">TP — 03</div>
+        <h3>Asesmen Individu</h3>
+        <p>Mampu melakukan audit mandiri (achievement) pada bisnis lokal terpilih menggunakan kerangka kerja formal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3: GAME EDITOR -->
+  <section class="slide paper" data-duration="8">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Setup Aktivitas Kelas</div>
+    <h2>Kustomisasi Dek Permainan</h2>
+    <p class="lead" style="margin-bottom: 12px;">Tambahkan brand lokal baru di bawah ini untuk dimasukkan langsung ke dalam permainan kelas sebelum dimulai.</p>
+    <div class="editor-layout">
+      <div class="form-card">
+        <div class="grid cols-2" style="margin:0; gap:12px;">
+          <div class="form-group">
+            <label for="inputBrand">Nama Brand / UMKM</label>
+            <input type="text" id="inputBrand" placeholder="Contoh: Kedai Kopi Makmur">
+          </div>
+          <div class="form-group">
+            <label for="inputEmoji">Emoji Representatif</label>
+            <input type="text" id="inputEmoji" placeholder="Contoh: ☕🥐📍">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputClue1">Petunjuk 1 (Taktik Utama/Fakta Unik)</label>
+          <input type="text" id="inputClue1" placeholder="Misal: Menyebarkan flyer diskon via WhatsApp Group komplek sekitar">
+        </div>
+        <div class="form-group">
+          <label for="inputClue2">Petunjuk 2 (Identitas Brand)</label>
+          <input type="text" id="inputClue2" placeholder="Misal: Memasang banner lucu di Google Maps &amp; selalu membalas review bintang 5">
+        </div>
+        <div class="form-group">
+          <label for="inputClue3">Petunjuk 3 (Slogan/Ciri Khas)</label>
+          <input type="text" id="inputClue3" placeholder="Misal: Terkenal dengan slogan kopi ramah kantong di seberang stasiun">
+        </div>
+        <div class="form-group">
+          <label for="inputExplanation">Analisis Ringkas Strategi (Untuk Guru)</label>
+          <textarea id="inputExplanation" rows="2" placeholder="Jelaskan alasan taktik digital tersebut berhasil bagi brand ini..."></textarea>
+        </div>
+        <button id="addCustomBtn">➕ Tambah Kasus ke Game</button>
+      </div>
+      <div class="editor-info">
+        <div style="background: var(--mint-100); padding: 22px; border-radius: 16px; border: 1px solid var(--line);">
+          <h3 style="color: var(--forest-900);">Petunjuk Guru:</h3>
+          <ul class="bullet-list" style="margin-top: 10px; gap: 8px;">
+            <li style="font-size: 13px;">Gunakan form ini untuk menyisipkan UMKM lokal di sekitar sekolah agar lebih relevan bagi siswa.</li>
+            <li style="font-size: 13px;">Kasus baru akan digabung ke dek default (15 brand bawaan) secara instan.</li>
+            <li style="font-size: 13px;">Dek tersimpan sementara di memori peramban (tanpa reload).</li>
+          </ul>
+        </div>
+        <div class="active-deck-stats">
+          <h3 style="font-size: 15px; display: flex; justify-content: space-between;">
+            <span>Dek Aktif Saat Ini</span>
+            <span class="tag" id="deckBadge" style="font-size: 10px; padding: 4px 10px;">15 Kartu</span>
+          </h3>
+          <div class="deck-list-preview" id="deckListPreview">
+            <!-- Render preview list via JS -->
+          </div>
+        </div>
+        <div class="active-deck-stats" style="margin-top: 14px;">
+          <h3 style="font-size: 15px; color: var(--forest-900); display: flex; justify-content: space-between; align-items: center;">
+            <span>Kelola Tim Kelas</span>
+            <button id="addTeamBtn" style="border:none; background: var(--forest-950); color: var(--lime-400); padding: 4px 12px; border-radius: 999px; font-size: 11px; font-weight:700; cursor:pointer;">➕ Tambah Tim</button>
+          </h3>
+          <div id="teamEditorList" style="display: flex; flex-direction: column; gap: 8px; max-height: 140px; overflow-y: auto; padding-right: 6px; margin-top:10px;">
+            <!-- Render team inputs via JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 4: MINI GAME LIVE -->
+  <section class="slide mid" data-duration="20">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Aktivitas Interaktif Kelas</div>
+    <h2 style="margin-bottom: 10px;">Game: Detektif Marketing 🔍</h2>
+    <p class="lead" style="font-size: 14.5px;">Bagi siswa menjadi 4 tim. Guru bertindak sebagai host. Klik tombol petunjuk bertahap untuk dibacakan. Tim menebak brand sebelum waktu habis.</p>
+    <div class="game-wrap">
+      <div class="game-panel">
+        <div class="card-stage">
+          <div id="wordDisplay">
+            <div style="font-family: var(--font-display); font-size: 24px; font-weight: 700; color: var(--lime-400);">Klik "Kartu Baru" Untuk Memulai Game</div>
+            <div style="font-size: 14px; opacity: 0.7; margin-top: 8px;">Siswa bersiap dalam tim masing-masing.</div>
+          </div>
+        </div>
+        <div class="game-controls">
+          <button class="btn btn-primary" id="newCardBtn">🎴 Kartu Baru</button>
+          <button class="btn btn-secondary" id="revealClueBtn" style="display:none;">👁️ Tampilkan Petunjuk (<span id="clueIndexText">0</span>/3)</button>
+          <button class="btn btn-secondary" id="revealAnsBtn" style="display:none; background: var(--emerald-600); border-color: var(--emerald-600);">🔓 Buka Jawaban</button>
+          <button class="btn btn-ghost" id="shuffleBtn" style="color: white; border-color: rgba(255,255,255,0.25);">🔄 Reset Dek</button>
+        </div>
+        <div class="timer-row">
+          <div class="timer-circle" id="timerCircle">30</div>
+          <div class="timer-controls">
+            <button class="btn btn-secondary" id="startTimerBtn">▶ Mulai</button>
+            <button class="btn btn-ghost" id="pauseTimerBtn" style="color:white; border-color:rgba(255,255,255,0.25);">⏸ Jeda</button>
+            <button class="btn btn-ghost" id="resetTimerBtn" style="color:white; border-color:rgba(255,255,255,0.25);">↺ Reset</button>
+          </div>
+          <span style="font-size: 12.5px; opacity: 0.7; margin-left: auto;">Sisa Kartu: <strong id="deckCount">15</strong></span>
+        </div>
+      </div>
+      <div class="score-panel">
+        <h3>📊 Papan Skor Kelas</h3>
+        <div id="teamsWrap">
+          <!-- Tim A, B, C, D di-render di sini via JS -->
+        </div>
+        <div style="display: flex; gap: 8px; margin-top: 14px;">
+          <button class="btn btn-ghost" id="resetScoreBtn" style="font-size: 12px; padding: 8px 12px; color: var(--lime-300); border-color: rgba(255,255,255,0.15); width: 100%;">Reset Skor</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 5: STUDI KASUS 1 - ERIGO -->
+  <section class="slide dark" data-duration="12">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Studi Kasus 1: Brand Besar</div>
+    <h2>Erigo: Ekspansi Global Melalui Digital Hype</h2>
+    <p class="lead">Bagaimana brand fesyen lokal asal Depok bertransformasi menjadi sorotan nasional dan internasional menggunakan ekosistem digital terintegrasi.</p>
+    <div class="visual-split">
+      <div class="split-pane">
+        <div class="pane-header">
+          <h3>1. Mass Influencer Marketing</h3>
+          <span class="tag">Top-Funnel</span>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>Endorsement Masif</strong>: Mengontrak puluhan KOL dari berbagai niche secara bersamaan untuk mendominasi beranda Instagram.</li>
+          <li><strong>Kampanye Prestisius</strong>: Mengirimkan kontingen KOL papan atas ke New York Fashion Week (NYFW) untuk dipublikasikan secara masif di media sosial lokal.</li>
+          <li><strong>Multiplier Effect</strong>: Hype global menciptakan rasa bangga di kalangan konsumen lokal (nasionalisme produk).</li>
+        </ul>
+      </div>
+      <div class="split-pane">
+        <div class="pane-header">
+          <h3>2. FOMO &amp; Conversion Loop</h3>
+          <span class="tag">Bottom-Funnel</span>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>Flash Sale Berkelanjutan</strong>: Menjual koleksi terbatas dengan harga miring di platform Shopee dan TikTok Shop untuk memicu checkout cepat.</li>
+          <li><strong>Live Shopping Nonstop</strong>: Mengoperasikan live streaming 24 jam dengan diskon eksklusif penonton live guna memaksimalkan impuls buying.</li>
+          <li><strong>Integrasi Offline-Online</strong>: Menggunakan gerai pop-up store fisik sebagai tempat pembuatan konten estetik bagi pengunjung (UGC).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: STUDI KASUS 2 - KOPI KENANGAN & MIXUE -->
+  <section class="slide light" data-duration="12">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Studi Kasus 2: Brand Lokal &amp; Waralaba</div>
+    <h2>Teknologi O2O &amp; Viralitas Audio</h2>
+    <p class="lead" style="color: var(--forest-900);">Dua metode penetrasi pasar yang merevolusi model bisnis kuliner (F&amp;B) ritel modern di Indonesia.</p>
+    <div class="visual-split" style="color: var(--ink);">
+      <div class="split-pane" style="background: white; border: 1px solid var(--line);">
+        <div class="pane-header">
+          <h3 style="color: var(--emerald-600);">Kopi Kenangan (O2O App)</h3>
+          <span class="tag" style="background: var(--forest-900); color: var(--lime-300);">Digital Efficiency</span>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>Online-to-Offline (O2O)</strong>: Konsumen memesan &amp; membayar via aplikasi, lalu mengambil kopi di gerai (tanpa antrean fisik).</li>
+          <li><strong>Gamifikasi Loyalitas</strong>: Menyediakan poin berhadiah ("Kenangan Points") dan misi mingguan untuk merangsang pembelian berulang.</li>
+          <li><strong>Targeting Berbasis Lokasi</strong>: Notifikasi push otomatis berbasis GPS saat mendeteksi pengguna berada di dekat gerai mereka.</li>
+        </ul>
+      </div>
+      <div class="split-pane" style="background: white; border: 1px solid var(--line);">
+        <div class="pane-header">
+          <h3 style="color: var(--emerald-600);">Mixue (UGC &amp; Audio Meme)</h3>
+          <span class="tag" style="background: var(--forest-900); color: var(--lime-300);">Social Viral</span>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>Audio Earworm</strong>: Memakai musik tema dengan lirik sederhana berulang yang memicu fenomena "cacing telinga" di TikTok.</li>
+          <li><strong>Meme Marketing</strong>: Memanfaatkan gerakan maskot Snow King yang provokatif untuk di-remix dan dibagikan secara sukarela oleh netizen.</li>
+          <li><strong>Organic Store Mapping</strong>: Menggunakan ulasan netizen tentang 'invasi' gerai ruko kosong sebagai konten lelucon viral yang mempopulerkan ekspansi mereka.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 7: FRAMEWORK ANALISIS -->
+  <section class="slide dark" data-duration="10">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Materi Utama</div>
+    <h2>Kerangka Analisis Kampanye Digital</h2>
+    <p class="lead">4 pilar utama yang wajib dibedah saat kita menganalisis kesuksesan atau kegagalan digital marketing sebuah bisnis.</p>
+    <div class="framework-grid">
+      <div class="fw-card">
+        <div class="fw-icon">👥</div>
+        <h3>1. Audience</h3>
+        <ul>
+          <li>Siapa demografi pembeli utamanya?</li>
+          <li>Apa masalah (pain points) yang dihadapi mereka?</li>
+          <li>Bagaimana perilaku online mereka sehari-hari?</li>
+        </ul>
+      </div>
+      <div class="fw-card">
+        <div class="fw-icon">📡</div>
+        <h3>2. Channels</h3>
+        <ul>
+          <li>Saluran apa yang paling dominan digunakan?</li>
+          <li>Kenapa memilih platform tersebut dibanding lainnya?</li>
+          <li>Bagaimana alur koordinasi antar saluran?</li>
+        </ul>
+      </div>
+      <div class="fw-card">
+        <div class="fw-icon">🎨</div>
+        <h3>3. Content Strategy</h3>
+        <ul>
+          <li>Apa format konten utama (Video/Foto/Teks)?</li>
+          <li>Bagaimana nada bicara (tone of voice) yang dipakai?</li>
+          <li>Apakah kontennya edukatif, humoris, atau emosional?</li>
+        </ul>
+      </div>
+      <div class="fw-card">
+        <div class="fw-icon">📊</div>
+        <h3>4. Metrics</h3>
+        <ul>
+          <li>Bagaimana cara mengukur keberhasilannya?</li>
+          <li>Metrik konversi apa yang dikejar (Follower/Sales/Click)?</li>
+          <li>Apakah strategi menghasilkan ROI yang positif?</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: DISKUSI KELOMPOK -->
+  <section class="slide paper" data-duration="12">
+    <span class="tag">Praktik Kelompok · 12 Menit</span>
+    <h2 style="margin-top: 18px;">Audit Cepat: Bisnis Sekitar Kita</h2>
+    <p class="lead">Bersama kelompok game Anda, pilih satu UMKM lokal di dekat area sekolah/rumah. Kerjakan lembar analisis cepat berikut dalam waktu 8 menit untuk dipresentasikan singkat.</p>
+    <table style="margin-top: 28px;">
+      <thead>
+        <tr>
+          <th style="width: 25%;">Pilar Audit</th>
+          <th style="width: 40%;">Pertanyaan Kunci</th>
+          <th style="width: 35%;">Format Jawaban Ringkas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Analisis Saluran</strong></td>
+          <td>Platform apa saja yang mereka miliki (IG, TikTok, Google Maps, WA)? Mana yang paling aktif?</td>
+          <td>Tuliskan daftar akun &amp; status keaktifannya.</td>
+        </tr>
+        <tr>
+          <td><strong>Penilaian Konten</strong></td>
+          <td>Apakah konten mereka menarik dan rutin diposting? Apa tipe konten yang paling sering diunggah?</td>
+          <td>Audit visual dan keteraturan postingan.</td>
+        </tr>
+        <tr>
+          <td><strong>Rekomendasi Cepat</strong></td>
+          <td>Sebutkan 1 hal praktis yang bisa diperbaiki secara langsung dengan biaya Rp 0 (gratis).</td>
+          <td>Usulan aksi operasional sederhana.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SLIDE 9: ACHIEVEMENT / TUGAS INDIVIDU -->
+  <section class="slide light" data-duration="6">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Achievement Tugas Mandiri</div>
+    <h2>Tugas: Audit Strategi Digital Marketing UMKM (Individu)</h2>
+    <p class="lead" style="color: var(--forest-950);">Asesmen pencapaian individu. Siswa diminta melakukan analisis mendalam secara tertulis pada satu UMKM nyata.</p>
+    <div class="grid cols-2" style="margin-top: 20px;">
+      <div class="card" style="background: white; border-color: var(--line);">
+        <h3 style="color: var(--emerald-600); display: flex; align-items: center; gap: 8px;">📋 Instruksi Pengerjaan</h3>
+        <ul class="bullet-list" style="margin-top: 14px; gap: 10px;">
+          <li style="font-size: 13.5px;">Pilih 1 UMKM riil di sekitarmu (contoh: laundry, kedai jus, salon, bengkel motor).</li>
+          <li style="font-size: 13.5px;">Wawancarai singkat atau amati media sosial &amp; lokasi Google Maps bisnis mereka.</li>
+          <li style="font-size: 13.5px;">Tuliskan laporan analisis mencakup: Profil, Audit Saluran, 2 Kelemahan Utama, dan 3 Rekomendasi Aksi.</li>
+          <li style="font-size: 13.5px;">Format: PDF 1-2 Halaman / Infografis. Kumpulkan minggu depan.</li>
+        </ul>
+      </div>
+      <div class="card" style="background: white; border-color: var(--line);">
+        <h3 style="color: var(--emerald-600); display: flex; align-items: center; gap: 8px;">🎯 Rubrik Penilaian</h3>
+        <div style="margin-top: 14px; display: flex; flex-direction: column; gap: 10px;">
+          <div>
+            <span class="rubric-pill">Bobot 25%</span> <strong>Identifikasi Profil &amp; Target Pasar</strong>
+          </div>
+          <div>
+            <span class="rubric-pill">Bobot 35%</span> <strong>Kualitas Audit Saluran Saat Ini</strong>
+          </div>
+          <div>
+            <span class="rubric-pill">Bobot 30%</span> <strong>Solusi Rekomendasi yang Kreatif &amp; Logis</strong>
+          </div>
+          <div>
+            <span class="rubric-pill">Bobot 10%</span> <strong>Kerapian Struktur &amp; Penyajian Laporan</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 10: REFLEKSI -->
+  <section class="slide mid" data-duration="5">
+    <span class="tag">Refleksi Kelas · 5 Menit</span>
+    <h2 style="margin-top: 20px;">Mari Evaluasi Pemahaman Kita</h2>
+    <p class="lead">Diskusikan secara terbuka bersama kelas atau catat dalam pikiran masing-masing:</p>
+    <div class="grid cols-3" style="margin-top: 32px;">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Taktik vs Skala Bisnis</h3>
+        <p>Apakah strategi marketing brand besar seperti Gojek/Erigo bisa diterapkan mentah-mentah ke warung kecil? Kenapa?</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Hambatan Utama UMKM</h3>
+        <p>Selain modal uang, apa hambatan non-finansial terbesar yang dihadapi UMKM lokal dalam go-digital?</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Nilai Sebuah Konsistensi</h3>
+        <p>Kenapa konsistensi memposting konten lebih penting daripada kualitas estetik video yang mahal bagi UMKM?</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 11: CLOSING -->
+  <section class="slide dark" data-duration="3">
+    <div class="hero-num">11</div>
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Terima Kasih</div>
+    <h1 style="font-size: clamp(30px, 4.5vw, 60px);">Selamat Menganalisis &amp;<br>Selamat <span class="accent">Berkarya!</span></h1>
+    <div style="margin-top: 36px; display: flex; gap: 16px; flex-wrap: wrap;">
+      <div class="card" style="max-width: 460px; background: rgba(255,255,255,0.03);">
+        <h3 style="color: var(--lime-400);">Batas Pengumpulan Tugas Individu:</h3>
+        <p style="margin-top: 8px; opacity: 0.85;">Dikumpulkan dalam bentuk softcopy PDF melalui platform e-learning sekolah paling lambat 1 hari sebelum pertemuan berikutnya dimulai.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- DETEKTIF MARKETING GAME ANSWER MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+    <div class="modal-emoji-glyph" id="modalEmoji">🕵️‍♂️</div>
+    <div class="modal-eyebrow">Identitas Brand Terungkap!</div>
+    <div class="modal-answer" id="modalAnswer">Erigo</div>
+    <div class="modal-desc" id="modalDesc">Strategi marketing mereka didasarkan pada...</div>
+  </div>
+</div>
+
+<script>
+  // ---------- DATA DEFAULT 15 BISNIS ----------
+  const defaultBusinesses = [
+    {
+      name: "Erigo",
+      category: "Brand Besar",
+      emoji: "🧥🎬🍿",
+      clues: [
+        "Brand fashion lokal yang sukses meluncurkan kampanye iklan luar ruang di Time Square New York dan tampil di NYFW.",
+        "Menerapkan strategi promosi massal dengan meng-endorse ratusan influencer dari tingkat mikro hingga makro secara bersamaan.",
+        "Sangat populer dengan taktik flash sale harga miring dan diskon besar-besaran untuk menciptakan FOMO."
+      ],
+      explanation: "Erigo sukses memadukan taktik branding prestisius (NYFW) dengan taktik konversi penjualan agresif lewat live selling dan kampanye influencer berskala besar di Instagram dan TikTok."
+    },
+    {
+      name: "Mixue",
+      category: "Brand Besar",
+      emoji: "🍦🔴🎶",
+      clues: [
+        "Waralaba es krim asal China yang viral karena ekspansi toko fisik yang sangat cepat hingga ke gang-gang pemukiman kecil.",
+        "Memanfaatkan viralitas TikTok melalui lagu tema (theme song) yang sangat earworm dan diterjemahkan ke berbagai bahasa.",
+        "Menggunakan maskot lucu berbentuk boneka salju bernama 'Snow King' yang sering dibuatkan video meme atau parodi (UGC)."
+      ],
+      explanation: "Mixue memanfaatkan User Generated Content (UGC) dan viral marketing berbasis audio. Konsumen secara sukarela merekam aktivitas di toko atau menyanyikan lagu Mixue, menciptakan promosi gratis yang masif."
+    },
+    {
+      name: "Kopi Kenangan",
+      category: "Brand Besar",
+      emoji: "☕💔📱",
+      clues: [
+        "Startup kopi susu lokal yang namanya diambil dari konsep romansa masa lalu atau patah hati.",
+        "Merupakan unicorn kuliner (F&B) pertama di Asia Tenggara berkat ekspansi cepat berbasis aplikasi pemesanan.",
+        "Menggunakan strategi O2O (Online-to-Offline), memaksimalkan promosi diskon di aplikasi seluler untuk kemudian diambil langsung di gerai terdekat."
+      ],
+      explanation: "Kopi Kenangan memecahkan masalah antrean gerai kopi dengan aplikasi mobile terintegrasi. Mereka memadukan kenyamanan pemesanan digital dengan strategi retensi pelanggan berbasis loyalti poin."
+    },
+    {
+      name: "Gojek",
+      category: "Brand Besar",
+      emoji: " motorcycle🏍️📍💨",
+      clues: [
+        "Super-app transportasi lokal yang memenangkan hati konsumen melalui copywriting media sosial yang sangat relevan dengan komedi lokal.",
+        "Sering menggunakan media billboard interaktif dengan tulisan cerita panjang unik untuk dibaca pengendara saat macet.",
+        "Memanfaatkan kampanye video emosional bertajuk empati hari nasional (seperti Hari Ibu, Hari Gojek) yang menyentuh hati."
+      ],
+      explanation: "Gojek berfokus pada 'Humorous & Empathetic Localized Marketing'. Strategi konten mereka sangat adaptif terhadap fenomena sosial terkini (real-time marketing) di Twitter dan Instagram."
+    },
+    {
+      name: "Sambal Bakar Indonesia",
+      category: "UMKM / Brand Lokal",
+      emoji: "🌶️🔥📹",
+      clues: [
+        "Bisnis kuliner sambal bakar cobek yang didirikan oleh seorang konten kreator TikTok populer (Iben MA).",
+        "Promosi pertamanya dilakukan dengan membuat konten video tantangan (challenge) berhadiah kepada calon pengunjung.",
+        "Memanfaatkan taktik visualisasi pembuatan sambal bakar yang mengepul di cobek panas sebagai konten penggugah selera di media sosial."
+      ],
+      explanation: "Sambal Bakar Indonesia adalah contoh sukses 'Creator-Led Business'. Mengandalkan personal branding pendiri dan konten interaktif di TikTok, mereka sukses menciptakan antrean panjang sejak hari pertama tanpa iklan berbayar."
+    },
+    {
+      name: "Wardah",
+      category: "Brand Besar",
+      emoji: "🧕🧴✨",
+      clues: [
+        "Pelopor kosmetik bersertifikasi halal di Indonesia yang membangun loyalitas melalui edukasi nilai-nilai keagamaan dan kebersihan.",
+        "Mengelola ekosistem komunitas wanita muda yang loyal melalui program duta kampus (campus ambassador).",
+        "Menggunakan jaringan ratusan beauty influencer untuk membuat ulasan produk (review) secara konsisten di media sosial."
+      ],
+      explanation: "Wardah menerapkan Community-based Marketing dan Kredibilitas Halal. Edukasi produk yang dibalut dengan nilai pemberdayaan perempuan menciptakan ikatan emosional kuat dengan konsumen."
+    },
+    {
+      name: "Tokopedia",
+      category: "Brand Besar",
+      emoji: "🛍️💚🎶",
+      clues: [
+        "E-commerce warna hijau khas yang sangat sukses melakukan kampanye bulanan bernama 'Waktu Indonesia Belanja' (WIB).",
+        "Pernah berkolaborasi dengan grup K-Pop papan atas dunia (seperti BTS dan Blackpink) sebagai Brand Ambassador.",
+        "Menggunakan fitur gamifikasi di aplikasinya seperti menyiram tanaman virtual demi mendapatkan koin diskon belanja."
+      ],
+      explanation: "Tokopedia mengombinasikan strategi Hype Marketing (kolaborasi K-Pop) dengan Gamifikasi Aplikasi untuk mendorong keterlibatan pengguna (user engagement) secara harian."
+    },
+    {
+      name: "Eiger",
+      category: "Brand Besar",
+      emoji: "⛺⛰️🌲",
+      clues: [
+        "Brand peralatan petualangan luar ruang yang fokus kontennya adalah edukasi pelestarian alam dan keselamatan ekspedisi.",
+        "Membangun komunitas pengguna yang sangat erat lewat forum diskusi pecinta alam dan penyelenggaraan event bersama.",
+        "Pernah mengubah krisis PR akibat surat teguran ke YouTuber menjadi momentum peningkatan kedekatan (solidaritas) dengan konsumen."
+      ],
+      explanation: "Eiger mempraktikkan Value-driven & Community Marketing. Dengan konsisten mengusung kampanye gaya hidup petualang dan edukasi lingkungan, mereka berhasil mendominasi pasar outdoor lokal."
+    },
+    {
+      name: "Kopi Tuku",
+      category: "UMKM / Brand Lokal",
+      emoji: "☕🏠🤝",
+      clues: [
+        "Pionir tren Kopi Susu Gula Aren yang sukses berkembang pesat tanpa menggunakan promosi iklan berbayar secara masif.",
+        "Mengandalkan kekuatan pemasaran organik dari mulut ke mulut (Word-of-Mouth) dan ulasan pecinta kopi lokal.",
+        "Mendapatkan lonjakan popularitas luar biasa setelah gerai kecilnya di Cipete didatangi secara mendadak oleh Presiden Joko Widodo."
+      ],
+      explanation: "Kopi Tuku berfokus pada kualitas produk (Product Excellence) dan ikatan komunitas lokal. Kehadiran figur publik secara organik memperkuat kredibilitas brand di mata masyarakat luas."
+    },
+    {
+      name: "Aero Street",
+      category: "UMKM / Brand Lokal",
+      emoji: "👟🔥🤝",
+      clues: [
+        "Produsen sepatu lokal asal Klaten yang terkenal dengan slogan 'Lokal Tak Gentar' dan menjual produk berkualitas di bawah 150 ribu.",
+        "Sering merilis sepatu edisi terbatas berkolaborasi dengan karakter kartun ternama (Shinchan) atau brand makanan legendaris.",
+        "Menjual produknya hampir 100% secara digital, terutama memanfaatkan momentum Flash Sale di TikTok Shop dan Shopee."
+      ],
+      explanation: "Aero Street mengandalkan strategi Kolaborasi Terbatas (hype drops) dengan harga yang sangat terjangkau, didistribusikan langsung secara online (D2C) untuk menghemat biaya perantara."
+    },
+    {
+      name: "Dear Me Beauty",
+      category: "UMKM / Brand Lokal",
+      emoji: "💄🍬🍗",
+      clues: [
+        "Brand kosmetik lokal yang sangat sering berkolaborasi dengan produk makanan populer seperti Permen White Rabbit, Sasa, dan KFC.",
+        "Fokus pada kampanye inklusivitas kecantikan dengan menampilkan model dari berbagai warna kulit dan bentuk tubuh.",
+        "Sangat aktif menggunakan konten edukasi kandungan bahan kosmetik (ingredients marketing) di feed Instagram mereka."
+      ],
+      explanation: "Dear Me Beauty sukses dengan Cross-category Collaboration. Kolaborasi unik lintas industri (kosmetik x makanan) menciptakan rasa penasaran tinggi yang mendorong viralitas di media sosial."
+    },
+    {
+      name: "Bittersweet by Najla",
+      category: "UMKM / Brand Lokal",
+      emoji: "🍰🍫📱",
+      clues: [
+        "Pionir bisnis kue dalam kotak (dessert box) di Indonesia yang penjualannya melonjak akibat promosi ulasan makanan di media sosial.",
+        "Pemiliknya aktif berperan sebagai ikon brand di TikTok, secara konsisten membagikan video proses pembuatan kue dengan saus melimpah.",
+        "Memanfaatkan taktik 'ASMR' visual cokelat lumer yang menggoda selera untuk menarik perhatian penonton video pendek."
+      ],
+      explanation: "Bittersweet by Najla menggunakan 'Satisfying Visual Marketing' dan Personal Branding pendirinya di TikTok untuk membangun identitas produk premium yang lezat."
+    },
+    {
+      name: "Mie Gacoan",
+      category: "UMKM / Brand Lokal",
+      emoji: "🍜🔥👥",
+      clues: [
+        "Kuliner mi pedas yang terkenal dengan harga sangat murah dan antrean pembeli yang selalu mengular panjang di setiap outlet baru.",
+        "Memanfaatkan Buzz Marketing organik berupa video antrean pelanggan dan kurir ojek online yang viral di media sosial.",
+        "Menggunakan penamaan menu yang unik dan kontroversial (awalnya berbau mistis seperti Mie Setan/Iblis) untuk menarik perhatian anak muda."
+      ],
+      explanation: "Mie Gacoan menerapkan strategi harga rendah (Low-cost leadership) yang dikombinasikan dengan Buzz Marketing dari viralitas antrean panjang mereka, membuat orang penasaran untuk ikut mengantre."
+    },
+    {
+      name: "Socioolla",
+      category: "Brand Besar",
+      emoji: "🧴🌸📱",
+      clues: [
+        "Platform belanja kecantikan terkemuka dengan gerai fisik berwarna pink yang mengintegrasikan pengalaman online dan offline.",
+        "Memiliki aplikasi khusus bernama SOCO yang mengumpulkan jutaan ulasan kosmetik jujur dari pengguna secara organik.",
+        "Menerapkan konsep belanja interaktif dengan memindai kode QR produk di toko fisik untuk membaca ulasannya secara langsung di aplikasi."
+      ],
+      explanation: "Sociolla sukses menerapkan strategi Omni-channel Marketing terintegrasi, memanfaatkan kekuatan data review berbasis komunitas di aplikasi SOCO untuk memvalidasi keputusan pembelian pelanggan di toko fisik."
+    },
+    {
+      name: "Menantea",
+      category: "UMKM / Brand Lokal",
+      emoji: "🍵📐🔢",
+      clues: [
+        "Bisnis minuman teh buah kekinian yang didirikan oleh influencer edukasi matematika (Jerome Polin) dan saudaranya.",
+        "Promosi pra-rilis dilakukan dengan menebak resep rahasia teh menggunakan teka-teki matematika di Instagram.",
+        "Memanfaatkan jangkauan audiens dari kanal YouTube 'Nihongo Mantappu' milik pendiri untuk mempromosikan pembukaan cabang waralaba baru."
+      ],
+      explanation: "Menantea mempraktikkan Influencer Co-creation dan Interactive Marketing, menyelaraskan persona matematika pendiri ke dalam teka-teki interaktif pra-peluncuran yang memicu keterlibatan tinggi dari penggemar."
+    }
+  ];
+
+  // Salinan dek yang aktif dimainkan
+  let activeDeck = [...defaultBusinesses];
+  let deckState = []; // Dek permainan yang dikocok
+  let currentCard = null;
+  let currentClueStep = 0; // Langkah petunjuk yang sedang ditampilkan (0-3)
+
+  // ---------- WEB AUDIO SOUND SYNTHESIZER ----------
+  const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  
+  function playSound(type) {
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+    const osc = audioCtx.createOscillator();
+    const gainNode = audioCtx.createGain();
+    osc.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+
+    if (type === 'click') {
+      osc.frequency.setValueAtTime(600, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(150, audioCtx.currentTime + 0.1);
+      gainNode.gain.setValueAtTime(0.08, audioCtx.currentTime);
+      gainNode.gain.linearRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.1);
+    } else if (type === 'beep') {
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(800, audioCtx.currentTime);
+      gainNode.gain.setValueAtTime(0.12, audioCtx.currentTime);
+      gainNode.gain.linearRampToValueAtTime(0.01, audioCtx.currentTime + 0.15);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.15);
+    } else if (type === 'chime') {
+      // Bunyi ganda chord mayor untuk sukses
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(523.25, audioCtx.currentTime); // C5
+      osc.frequency.setValueAtTime(659.25, audioCtx.currentTime + 0.1); // E5
+      osc.frequency.setValueAtTime(783.99, audioCtx.currentTime + 0.2); // G5
+      gainNode.gain.setValueAtTime(0.15, audioCtx.currentTime);
+      gainNode.gain.linearRampToValueAtTime(0.01, audioCtx.currentTime + 0.4);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.4);
+    } else if (type === 'alarm') {
+      // Bunyi alarm darurat saat waktu habis
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(440, audioCtx.currentTime);
+      osc.frequency.linearRampToValueAtTime(880, audioCtx.currentTime + 0.25);
+      osc.frequency.linearRampToValueAtTime(440, audioCtx.currentTime + 0.5);
+      gainNode.gain.setValueAtTime(0.2, audioCtx.currentTime);
+      gainNode.gain.linearRampToValueAtTime(0.01, audioCtx.currentTime + 0.5);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.5);
+    }
+  }
+
+  // ---------- SLIDE NAVIGATION ----------
+  const deck = document.getElementById('deck');
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const navDots = document.getElementById('navDots');
+  const progressLabel = document.getElementById('progressLabel');
+
+  slides.forEach((s, i) => {
+    const btn = document.createElement('button');
+    btn.addEventListener('click', () => {
+      playSound('click');
+      slides[i].scrollIntoView({ behavior: 'smooth' });
+    });
+    navDots.appendChild(btn);
+  });
+  const dotEls = Array.from(navDots.children);
+
+  function pad(n) { return n.toString().padStart(2, '0'); }
+
+  let currentSlideIdx = 0;
+  function updateActiveSlide() {
+    let activeIdx = 0;
+    let minDist = Infinity;
+    slides.forEach((s, i) => {
+      const dist = Math.abs(s.getBoundingClientRect().left);
+      if (dist < minDist) { minDist = dist; activeIdx = i; }
+    });
+    dotEls.forEach((dot, idx) => dot.classList.toggle('active', idx === activeIdx));
+    progressLabel.textContent = pad(activeIdx + 1) + ' / ' + pad(slides.length);
+    if (activeIdx !== currentSlideIdx) {
+      currentSlideIdx = activeIdx;
+      onSlideChanged(activeIdx);
+    }
+  }
+  deck.addEventListener('scroll', () => requestAnimationFrame(updateActiveSlide));
+  updateActiveSlide();
+
+  document.getElementById('nextBtn').addEventListener('click', () => {
+    playSound('click');
+    const activeIdx = dotEls.findIndex(d => d.classList.contains('active'));
+    const nextIdx = Math.min(activeIdx + 1, slides.length - 1);
+    slides[nextIdx].scrollIntoView({ behavior: 'smooth' });
+  });
+  document.getElementById('prevBtn').addEventListener('click', () => {
+    playSound('click');
+    const activeIdx = dotEls.findIndex(d => d.classList.contains('active'));
+    const prevIdx = Math.max(activeIdx - 1, 0);
+    slides[prevIdx].scrollIntoView({ behavior: 'smooth' });
+  });
+
+  window.addEventListener('keydown', (e) => {
+    // Membantu navigasi slide standar
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) {
+      e.preventDefault();
+      document.getElementById('nextBtn').click();
+    }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) {
+      e.preventDefault();
+      document.getElementById('prevBtn').click();
+    }
+  });
+
+  // ---------- UTILITY SHUFFLE ----------
+  function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  // ---------- EDITOR: TAMBAH KASUS BARU DARI GURU ----------
+  const inputBrand = document.getElementById('inputBrand');
+  const inputEmoji = document.getElementById('inputEmoji');
+  const inputClue1 = document.getElementById('inputClue1');
+  const inputClue2 = document.getElementById('inputClue2');
+  const inputClue3 = document.getElementById('inputClue3');
+  const inputExplanation = document.getElementById('inputExplanation');
+  const deckBadge = document.getElementById('deckBadge');
+  const deckListPreview = document.getElementById('deckListPreview');
+
+  function renderDeckPreview() {
+    deckBadge.textContent = activeDeck.length + " Kartu";
+    deckListPreview.innerHTML = '';
+    // Tampilkan 6 kartu teratas, disusul scroll
+    activeDeck.forEach((b, idx) => {
+      const row = document.createElement('div');
+      row.className = 'deck-list-item';
+      row.innerHTML = `
+        <span>${b.emoji || '💼'} <strong>${b.name}</strong> <span style="opacity:0.6; font-size:11px;">(${b.category || 'Kustom'})</span></span>
+        <button style="border:none; background:transparent; color:#F87171; cursor:pointer; font-weight:700;" onclick="removeDeckItem(${idx})">Hapus</button>
+      `;
+      deckListPreview.appendChild(row);
+    });
+  }
+
+  window.removeDeckItem = function(idx) {
+    playSound('click');
+    activeDeck.splice(idx, 1);
+    renderDeckPreview();
+    updateGameCounts();
+  };
+
+  document.getElementById('addCustomBtn').addEventListener('click', () => {
+    const brandName = inputBrand.value.trim();
+    const emoji = inputEmoji.value.trim() || '🕵️‍♂️';
+    const clue1 = inputClue1.value.trim();
+    const clue2 = inputClue2.value.trim();
+    const clue3 = inputClue3.value.trim();
+    const explanation = inputExplanation.value.trim();
+
+    if (!brandName || !clue1 || !clue2 || !clue3) {
+      alert("Harap isi Nama Brand dan minimal 3 Petunjuk!");
+      return;
+    }
+
+    const newCase = {
+      name: brandName,
+      category: "Kustom",
+      emoji: emoji,
+      clues: [clue1, clue2, clue3],
+      explanation: explanation || "Brand kustom yang ditambahkan guru secara lokal."
+    };
+
+    activeDeck.unshift(newCase); // Tambah di paling atas preview
+    renderDeckPreview();
+    updateGameCounts();
+    playSound('chime');
+
+    // Reset input
+    inputBrand.value = '';
+    inputEmoji.value = '';
+    inputClue1.value = '';
+    inputClue2.value = '';
+    inputClue3.value = '';
+    inputExplanation.value = '';
+
+    // Beri efek visual sukses sementara
+    const btn = document.getElementById('addCustomBtn');
+    const oldText = btn.textContent;
+    btn.textContent = "✅ Berhasil Ditambahkan!";
+    btn.style.background = "#10B981";
+    btn.style.color = "white";
+    setTimeout(() => {
+      btn.textContent = oldText;
+      btn.style.background = "";
+      btn.style.color = "";
+    }, 2000);
+  });
+
+  renderDeckPreview();
+
+  // ---------- GAMEPLAY: DETEKTIF MARKETING ----------
+  const wordDisplay = document.getElementById('wordDisplay');
+  const revealClueBtn = document.getElementById('revealClueBtn');
+  const revealAnsBtn = document.getElementById('revealAnsBtn');
+  const deckCount = document.getElementById('deckCount');
+  const clueIndexText = document.getElementById('clueIndexText');
+
+  function updateGameCounts() {
+    deckCount.textContent = deckState.length > 0 ? deckState.length : activeDeck.length;
+  }
+
+  function resetGameDeck() {
+    playSound('click');
+    deckState = [...activeDeck];
+    shuffleArray(deckState);
+    currentCard = null;
+    currentClueStep = 0;
+    updateGameCounts();
+    wordDisplay.innerHTML = `
+      <div style="font-family: var(--font-display); font-size: 24px; font-weight: 700; color: var(--lime-400);">Dek Permainan Telah Direfresh!</div>
+      <div style="font-size: 14px; opacity: 0.7; margin-top: 8px;">Berisi total ${deckState.length} kartu. Klik "Kartu Baru" untuk mengambil kasus pertama.</div>
+    `;
+    revealClueBtn.style.display = 'none';
+    revealAnsBtn.style.display = 'none';
+    resetGameTimer();
+  }
+
+  function drawNewCard() {
+    playSound('click');
+    if (deckState.length === 0) {
+      deckState = [...activeDeck];
+      if (deckState.length === 0) {
+        alert("Dek kosong! Tambahkan bisnis di slide sebelumnya.");
+        return;
+      }
+      shuffleArray(deckState);
+    }
+    
+    currentCard = deckState.pop();
+    currentClueStep = 1; // Mulai langsung tampilkan petunjuk ke-1
+    updateGameCounts();
+    renderCluesOnStage();
+    
+    revealClueBtn.style.display = 'inline-flex';
+    revealAnsBtn.style.display = 'inline-flex';
+    resetGameTimer();
+    startGameTimer();
+  }
+
+  function renderCluesOnStage() {
+    if (!currentCard) return;
+    clueIndexText.textContent = currentClueStep;
+
+    wordDisplay.innerHTML = `
+      <div style="font-size: 13px; font-weight:800; text-transform:uppercase; letter-spacing:0.1em; color:rgba(255,255,255,0.4); margin-bottom:-10px;">Kasus Misterius: ${currentCard.emoji}</div>
+      <div class="game-clue visible">
+        <div class="game-clue-label">Petunjuk 1</div>
+        <div>${currentCard.clues[0]}</div>
+      </div>
+      <div class="game-clue ${currentClueStep >= 2 ? 'visible' : ''}">
+        <div class="game-clue-label">Petunjuk 2</div>
+        <div>${currentCard.clues[1]}</div>
+      </div>
+      <div class="game-clue ${currentClueStep >= 3 ? 'visible' : ''}">
+        <div class="game-clue-label">Petunjuk 3</div>
+        <div>${currentCard.clues[2]}</div>
+      </div>
+    `;
+  }
+
+  function revealNextClue() {
+    if (!currentCard) return;
+    playSound('beep');
+    if (currentClueStep < 3) {
+      currentClueStep++;
+      renderCluesOnStage();
+    } else {
+      alert("Semua petunjuk sudah terbuka! Waktunya menebak atau buka jawaban.");
+    }
+  }
+
+  // ---------- MODAL JAWABAN KASUS ----------
+  const modalOverlay = document.getElementById('modalOverlay');
+  const modalEmoji = document.getElementById('modalEmoji');
+  const modalAnswer = document.getElementById('modalAnswer');
+  const modalDesc = document.getElementById('modalDesc');
+
+  function openAnswerModal() {
+    if (!currentCard) return;
+    playSound('chime');
+    pauseGameTimer();
+    
+    modalEmoji.textContent = currentCard.emoji;
+    modalAnswer.textContent = currentCard.name;
+    modalDesc.innerHTML = `
+      <div style="font-size:11px; text-transform:uppercase; font-weight:800; color:var(--emerald-600); margin-bottom:6px;">Analisis Strategi Digital Marketing:</div>
+      <p style="font-size:13.5px; line-height:1.55; color:#374151;">${currentCard.explanation}</p>
+    `;
+    modalOverlay.classList.add('active');
+  }
+
+  function closeModal() {
+    playSound('click');
+    modalOverlay.classList.remove('active');
+  }
+
+  document.getElementById('revealAnsBtn').addEventListener('click', openAnswerModal);
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  modalOverlay.addEventListener('click', (e) => { if(e.target === modalOverlay) closeModal(); });
+  document.getElementById('newCardBtn').addEventListener('click', drawNewCard);
+  document.getElementById('revealClueBtn').addEventListener('click', revealNextClue);
+  document.getElementById('shuffleBtn').addEventListener('click', resetGameDeck);
+
+  // ---------- GAME TIME COUNTDOWN (30s) ----------
+  const GAME_DURATION = 30;
+  let gameTimeLeft = GAME_DURATION;
+  let gameInterval = null;
+  const timerCircle = document.getElementById('timerCircle');
+
+  function renderGameTimer() {
+    timerCircle.textContent = gameTimeLeft;
+    timerCircle.classList.remove('active-play','warn', 'danger');
+    
+    if (gameInterval) {
+      timerCircle.classList.add('active-play');
+    }
+    if (gameTimeLeft <= 12 && gameTimeLeft > 5) {
+      timerCircle.classList.add('warn');
+    } else if (gameTimeLeft <= 5) {
+      timerCircle.classList.add('danger');
+    }
+  }
+
+  function startGameTimer() {
+    if (gameInterval) return;
+    gameInterval = setInterval(() => {
+      if (gameTimeLeft > 0) {
+        gameTimeLeft--;
+        renderGameTimer();
+        if (gameTimeLeft <= 5 && gameTimeLeft > 0) {
+          playSound('beep');
+        }
+        if (gameTimeLeft === 0) {
+          playSound('alarm');
+          clearInterval(gameInterval);
+          gameInterval = null;
+          renderGameTimer();
+        }
+      }
+    }, 1000);
+    renderGameTimer();
+  }
+
+  function pauseGameTimer() {
+    clearInterval(gameInterval);
+    gameInterval = null;
+    renderGameTimer();
+  }
+
+  function resetGameTimer() {
+    pauseGameTimer();
+    gameTimeLeft = GAME_DURATION;
+    renderGameTimer();
+  }
+
+  document.getElementById('startTimerBtn').addEventListener('click', () => { playSound('click'); startGameTimer(); });
+  document.getElementById('pauseTimerBtn').addEventListener('click', () => { playSound('click'); pauseGameTimer(); });
+  document.getElementById('resetTimerBtn').addEventListener('click', () => { playSound('click'); resetGameTimer(); });
+
+  // ---------- SCOREBOARD KELAS ----------
+  let teams = [
+    { name: "Tim A", color: "#C9F13B", score: 0 },
+    { name: "Tim B", color: "#10B981", score: 0 },
+    { name: "Tim C", color: "#A7F3D0", score: 0 },
+    { name: "Tim D", color: "#DBFA6F", score: 0 }
+  ];
+  const teamsWrap = document.getElementById('teamsWrap');
+  const teamEditorList = document.getElementById('teamEditorList');
+  const addTeamBtn = document.getElementById('addTeamBtn');
+
+  function renderTeams() {
+    teamsWrap.innerHTML = '';
+    teams.forEach((t, i) => {
+      const row = document.createElement('div');
+      row.className = 'team-row';
+      row.innerHTML = `
+        <div class="team-name">
+          <span class="dotcolor" style="background:${t.color}"></span>
+          <span>${t.name}</span>
+        </div>
+        <div class="score-controls">
+          <button data-idx="${i}" data-op="dec">−</button>
+          <div class="score-val">${t.score}</div>
+          <button data-idx="${i}" data-op="inc">+</button>
+        </div>
+      `;
+      teamsWrap.appendChild(row);
+    });
+
+    teamsWrap.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        playSound('click');
+        const idx = parseInt(btn.dataset.idx);
+        const op = btn.dataset.op;
+        if (op === 'inc') {
+          teams[idx].score += 10;
+        } else {
+          teams[idx].score = Math.max(0, teams[idx].score - 10);
+        }
+        renderTeams();
+      });
+    });
+  }
+
+  function renderTeamEditor() {
+    teamEditorList.innerHTML = '';
+    teams.forEach((t, i) => {
+      const row = document.createElement('div');
+      row.style.display = 'flex';
+      row.style.alignItems = 'center';
+      row.style.gap = '8px';
+      row.style.borderBottom = '1px solid var(--line)';
+      row.style.paddingBottom = '6px';
+      row.innerHTML = `
+        <span class="dotcolor" style="background:${t.color}; flex-shrink:0;"></span>
+        <input type="text" value="${t.name}" style="background:var(--mint-050); border:1px solid var(--line); color:var(--ink); font-size:12.5px; padding:4px 8px; border-radius:6px; width:100%;" oninput="updateTeamName(${i}, this.value)">
+        <button style="border:none; background:transparent; color:#F87171; cursor:pointer; font-weight:700; font-size:12px;" onclick="removeTeamItem(${i})">Hapus</button>
+      `;
+      teamEditorList.appendChild(row);
+    });
+  }
+
+  window.updateTeamName = function(idx, val) {
+    teams[idx].name = val.trim() || `Tim ${idx+1}`;
+    renderTeams();
+  };
+
+  window.removeTeamItem = function(idx) {
+    playSound('click');
+    if (teams.length <= 1) {
+      alert("Minimal harus ada 1 tim untuk bermain!");
+      return;
+    }
+    teams.splice(idx, 1);
+    renderTeamEditor();
+    renderTeams();
+  };
+
+  addTeamBtn.addEventListener('click', () => {
+    playSound('chime');
+    const colors = ["#C9F13B", "#10B981", "#3B82F6", "#EC4899", "#F59E0B", "#EF4444", "#8B5CF6", "#06B6D4"];
+    const nextColor = colors[teams.length % colors.length];
+    const nextLetter = String.fromCharCode(65 + teams.length); // A, B, C...
+    teams.push({
+      name: `Tim ${nextLetter}`,
+      color: nextColor,
+      score: 0
+    });
+    renderTeamEditor();
+    renderTeams();
+  });
+
+  document.getElementById('resetScoreBtn').addEventListener('click', () => {
+    playSound('click');
+    teams.forEach(t => t.score = 0);
+    renderTeams();
+  });
+
+  renderTeams();
+  renderTeamEditor();
+
+  // ---------- TIMER PER SLIDE ----------
+  const slideTimerWidget = document.getElementById('slideTimerWidget');
+  const slideTimerDisplay = document.getElementById('slideTimerDisplay');
+  const slidePlayPauseBtn = document.getElementById('slidePlayPauseBtn');
+  let slideSecondsLeft = 0;
+  let slideDuration = 0;
+  let slideInterval = null;
+  let slideRunning = false;
+
+  function formatMMSS(totalSec) {
+    const m = Math.floor(totalSec / 60);
+    const s = totalSec % 60;
+    return pad(m) + ':' + pad(s);
+  }
+
+  function renderSlideTimer() {
+    slideTimerDisplay.textContent = formatMMSS(slideSecondsLeft);
+    slideTimerWidget.classList.remove('slide-warn', 'slide-danger', 'slide-done');
+    if (slideSecondsLeft === 0) {
+      slideTimerWidget.classList.add('slide-done');
+    } else if (slideSecondsLeft <= 30) {
+      slideTimerWidget.classList.add('slide-danger');
+    } else if (slideSecondsLeft <= 60) {
+      slideTimerWidget.classList.add('slide-warn');
+    }
+    if (slideTimerWidget.classList.contains('minimized')) {
+      document.getElementById('slideTimerToggle').textContent = '⏱ ' + formatMMSS(slideSecondsLeft);
+    } else {
+      document.getElementById('slideTimerToggle').textContent = '⏱';
+    }
+  }
+
+  function slideTick() {
+    if (slideSecondsLeft > 0) {
+      slideSecondsLeft--;
+      renderSlideTimer();
+      if (slideSecondsLeft === 0) {
+        playSound('alarm');
+        pauseSlideTimer();
+      }
+    }
+  }
+
+  function startSlideTimer() {
+    if (slideInterval || slideSecondsLeft <= 0) return;
+    slideInterval = setInterval(slideTick, 1000);
+    slideRunning = true;
+    slidePlayPauseBtn.textContent = '⏸';
+  }
+
+  function pauseSlideTimer() {
+    clearInterval(slideInterval);
+    slideInterval = null;
+    slideRunning = false;
+    slidePlayPauseBtn.textContent = '▶';
+  }
+
+  function resetSlideTimer() {
+    pauseSlideTimer();
+    slideSecondsLeft = slideDuration;
+    renderSlideTimer();
+  }
+
+  function loadSlideTimer(idx) {
+    const mins = parseFloat(slides[idx].dataset.duration) || 0;
+    slideDuration = Math.round(mins * 60);
+    slideSecondsLeft = slideDuration;
+    pauseSlideTimer();
+    renderSlideTimer();
+    if (slideDuration > 0) {
+      startSlideTimer();
+    }
+  }
+
+  slidePlayPauseBtn.addEventListener('click', () => {
+    playSound('click');
+    slideRunning ? pauseSlideTimer() : startSlideTimer();
+  });
+  document.getElementById('slideResetBtn').addEventListener('click', () => {
+    playSound('click');
+    resetSlideTimer();
+  });
+
+  const slideTimerToggle = document.getElementById('slideTimerToggle');
+  slideTimerToggle.addEventListener('click', () => {
+    playSound('click');
+    slideTimerWidget.classList.toggle('minimized');
+    renderSlideTimer();
+  });
+
+  function onSlideChanged(idx) {
+    loadSlideTimer(idx);
+    // Hentikan timer game jika berpindah dari slide game
+    if (idx !== 3) {
+      pauseGameTimer();
+    }
+  }
+
+  // ---------- TIMER PERTEMUAN GLOBAL ----------
+  const TOTAL_MINUTES = 90;
+  const globalTimerWidget = document.getElementById('globalTimerWidget');
+  const globalTimerDisplay = document.getElementById('globalTimerDisplay');
+  const globalPlayPauseBtn = document.getElementById('globalPlayPauseBtn');
+  const globalTimerToggle = document.getElementById('globalTimerToggle');
+  let globalSecondsLeft = TOTAL_MINUTES * 60;
+  let globalInterval = null;
+  let globalRunning = false;
+
+  function renderGlobalTimer() {
+    globalTimerDisplay.textContent = formatMMSS(globalSecondsLeft);
+    globalTimerWidget.classList.remove('slide-warn', 'slide-danger', 'slide-done');
+    if (globalSecondsLeft === 0) {
+      globalTimerWidget.classList.add('slide-done');
+    } else if (globalSecondsLeft <= 300) {
+      globalTimerWidget.classList.add('slide-danger');
+    } else if (globalSecondsLeft <= 600) {
+      globalTimerWidget.classList.add('slide-warn');
+    }
+    if (globalTimerWidget.classList.contains('minimized')) {
+      globalTimerToggle.textContent = '⏳ ' + formatMMSS(globalSecondsLeft);
+    } else {
+      globalTimerToggle.textContent = '⏳';
+    }
+  }
+
+  function globalTick() {
+    if (globalSecondsLeft > 0) {
+      globalSecondsLeft--;
+      renderGlobalTimer();
+      if (globalSecondsLeft === 0) {
+        playSound('alarm');
+        pauseGlobalTimer();
+      }
+    }
+  }
+
+  function startGlobalTimer() {
+    if (globalInterval || globalSecondsLeft <= 0) return;
+    globalInterval = setInterval(globalTick, 1000);
+    globalRunning = true;
+    globalPlayPauseBtn.textContent = '⏸';
+  }
+
+  function pauseGlobalTimer() {
+    clearInterval(globalInterval);
+    globalInterval = null;
+    globalRunning = false;
+    globalPlayPauseBtn.textContent = '▶';
+  }
+
+  function resetGlobalTimer() {
+    pauseGlobalTimer();
+    globalSecondsLeft = TOTAL_MINUTES * 60;
+    renderGlobalTimer();
+  }
+
+  globalPlayPauseBtn.addEventListener('click', () => {
+    playSound('click');
+    globalRunning ? pauseGlobalTimer() : startGlobalTimer();
+  });
+  document.getElementById('globalResetBtn').addEventListener('click', () => {
+    playSound('click');
+    resetGlobalTimer();
+  });
+  globalTimerToggle.addEventListener('click', () => {
+    playSound('click');
+    globalTimerWidget.classList.toggle('minimized');
+    renderGlobalTimer();
+  });
+
+  // Inisialisasi slide pertama
+  currentSlideIdx = 0;
+  onSlideChanged(0);
+  renderGlobalTimer();
+  updateGameCounts();
+</script>
+</body>
+</html>
