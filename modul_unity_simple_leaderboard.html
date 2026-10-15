@@ -43,6 +43,362 @@ button:focus-visible,a:focus-visible{outline:3px solid #f59e0b;outline-offset:3p
 .console-err{color:#f87171;font-weight:700}
 .console-info{color:#60a5fa}
 .console-dim{color:#9ca3af}
+
+/* Section-by-section stepper styling */
+main > section.card {
+  display: none;
+}
+main > section.card.active {
+  display: block;
+  animation: cardFadeIn 0.28s ease-out;
+}
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Stepper Bottom Navigation */
+.stepper-nav {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(21, 43, 77, 0.05);
+  position: sticky;
+  bottom: 16px;
+  z-index: 100;
+}
+.btn-stepper {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.btn-prev {
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+}
+.btn-prev:hover:not(:disabled) {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+.btn-prev:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.btn-selesai {
+  background: #16a34a;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(22, 163, 74, 0.3);
+}
+.btn-selesai:hover {
+  background: #15803d;
+  box-shadow: 0 6px 18px rgba(22, 163, 74, 0.4);
+  transform: translateY(-1px);
+}
+.btn-selanjutnya {
+  background: #2457d6;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(36, 87, 214, 0.3);
+}
+.btn-selanjutnya:hover {
+  background: #1d46b0;
+  box-shadow: 0 6px 18px rgba(36, 87, 214, 0.4);
+  transform: translateY(-1px);
+}
+.step-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.step-counter {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--ink);
+}
+.step-status {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.step-status.done {
+  color: #16a34a;
+}
+.step-status.pending {
+  color: #d97706;
+}
+
+/* Sidebar Nav links styling */
+.navlinks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.nav-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  text-decoration: none;
+  color: var(--muted);
+  transition: all 0.15s ease;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+}
+.nav-item-link:hover:not(.locked) {
+  background: var(--blue2);
+  color: var(--blue);
+}
+.nav-item-link.active {
+  background: var(--blue2);
+  color: var(--blue);
+  font-weight: 700;
+  border-left-color: var(--blue);
+}
+.nav-item-link.completed {
+  color: #166534;
+}
+.nav-item-link.locked {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.nav-status-icon {
+  font-size: 0.92rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+}
+
+/* Quiz Modal Backdrop & Dialog */
+.quiz-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(5px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: modalFadeIn 0.2s ease-out;
+}
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.quiz-modal-box {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 620px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: modalSlideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes modalSlideUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.quiz-modal-header {
+  background: linear-gradient(135deg, #142b63, #2457d6);
+  color: #ffffff;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.quiz-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 3px 10px;
+  border-radius: 99px;
+  text-transform: uppercase;
+}
+.quiz-step-pill {
+  background: #ffffff;
+  color: #142b63;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 99px;
+  flex-shrink: 0;
+}
+.quiz-modal-body {
+  padding: 24px;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+.quiz-question-text {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.quiz-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.quiz-opt-btn {
+  background: #f8faff;
+  border: 1.5px solid #dce4ef;
+  border-radius: 12px;
+  padding: 13px 16px;
+  text-align: left;
+  font-family: inherit;
+  font-size: 0.94rem;
+  color: #1e293b;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.quiz-opt-btn:hover:not(:disabled) {
+  background: #eaf0ff;
+  border-color: #2457d6;
+  transform: translateX(2px);
+}
+.quiz-opt-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #475569;
+  flex-shrink: 0;
+}
+.quiz-opt-btn.correct {
+  background: #e8f7ef !important;
+  border-color: #16794b !important;
+  color: #166534 !important;
+  font-weight: 700;
+}
+.quiz-opt-btn.correct .quiz-opt-letter {
+  background: #16794b;
+  border-color: #16794b;
+  color: #ffffff;
+}
+.quiz-opt-btn.incorrect {
+  background: #fee2e2 !important;
+  border-color: #dc2626 !important;
+  color: #991b1b !important;
+}
+.quiz-opt-btn.incorrect .quiz-opt-letter {
+  background: #dc2626;
+  border-color: #dc2626;
+  color: #ffffff;
+}
+.quiz-feedback-box {
+  margin-top: 18px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  animation: modalFadeIn 0.2s ease;
+}
+.quiz-feedback-box.success {
+  background: #e8f7ef;
+  border: 1px solid #a7f3d0;
+  color: #166534;
+}
+.quiz-feedback-box.error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+.quiz-modal-footer {
+  padding: 16px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-quiz-next {
+  background: #2457d6;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-quiz-next:hover:not(:disabled) {
+  background: #1d46b0;
+  transform: translateY(-1px);
+}
+.btn-quiz-next:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.btn-quiz-next.finish-btn {
+  background: #16a34a;
+}
+.btn-quiz-next.finish-btn:hover:not(:disabled) {
+  background: #15803d;
+}
+
+/* Toast message */
+.toast-msg {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e293b;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 99px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  z-index: 10000;
+  opacity: 0;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+.toast-msg.show {
+  opacity: 1;
+  transform: translate(-50%, -8px);
+}
+
 </style>
 </head>
 <body>
@@ -61,12 +417,21 @@ button:focus-visible,a:focus-visible{outline:3px solid #f59e0b;outline-offset:3p
 </header>
 <div class="layout">
 <nav>
-  <strong>Daftar Isi</strong>
-  <div class="navlinks">
-    <a href="#tujuan">1. Tujuan</a><a href="#konsep-api">2. Teori API</a><a href="#api">3. Latihan Console</a>
-    <a href="#ui">4. Membuat UI</a><a href="#model">5. Model JSON</a><a href="#item">6. Prefab Baris</a>
-    <a href="#manager">7. Script Manager</a><a href="#hubungkan">8. Inspector</a><a href="#uji">9. Pengujian</a>
-    <a href="#masalah">10. Troubleshooting</a>
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+    <strong style="margin:0; font-size:1.02rem;">Daftar Isi</strong>
+    <span id="nav-progress-badge" style="font-size:0.75rem; font-weight:800; background:#e0f2fe; color:#0369a1; padding:3px 8px; border-radius:99px;">0/10 Selesai</span>
+  </div>
+  
+  <div style="background:#e2e8f0; border-radius:99px; height:7px; overflow:hidden; margin-bottom:16px;">
+    <div id="sidebar-progress-bar" style="background:#16a34a; width:0%; height:100%; transition:width 0.3s ease;"></div>
+  </div>
+
+  <div class="navlinks-list" id="nav-list">
+    <!-- Populated by JavaScript -->
+  </div>
+
+  <div style="margin-top:16px; padding-top:12px; border-top:1px solid var(--line); text-align:center;">
+    <button type="button" id="btn-reset-progress" style="background:none; border:none; color:#94a3b8; font-size:0.76rem; cursor:pointer; text-decoration:underline;">↺ Reset Progres Belajar</button>
   </div>
 </nav>
 <main>
@@ -283,18 +648,39 @@ public class LatihanGetConsole : MonoBehaviour
     <b>Analisis Hasil GET:</b> Perhatikan teks JSON yang tercetak di Console! Anda dapat melihat properti <code>"status": "success"</code>, jumlah <code>"total"</code>, dan daftar array <code>"data"</code> yang memuat nama pemain, nilai, dan tanggal submit.
   </div>
 
-  <h3>D. Latihan 2: Mengirim Skor Baru Menggunakan HTTP POST (Output di Console)</h3>
-  <p>Berbeda dengan GET yang hanya meminta data, pada metode <b>POST</b> kita harus membungkus data baru yang ingin kita kirim ke server (dikenal sebagai <i>Payload / Body</i>).</p>
+  <h3>D. Latihan 2: Mengirim Skor Menggunakan HTTP POST (2 Cara: JSON vs WWWForm)</h3>
+  <p>Berbeda dengan GET yang hanya meminta data, pada metode <b>POST</b> game kita harus membungkus data baru (nama pemain & skor) untuk dikirimkan ke server. Di Unity C#, terdapat <b>dua cara utama</b> yang umum digunakan oleh game developer:</p>
 
-  <p>Alur teknis pengiriman data POST di Unity:</p>
-  <ul>
-    <li>Menyusun data dalam format string JSON: <code>{"nama": "Nama Pemain", "nilai": 900}</code>.</li>
-    <li>Mengonversi string JSON menjadi barisan byte: <code>Encoding.UTF8.GetBytes(jsonBody)</code>.</li>
-    <li>Memasang <code>UploadHandlerRaw</code> (pengirim data) dan <code>DownloadHandlerBuffer</code> (penerima respon server).</li>
-    <li>Menetapkan header: <code>request.SetRequestHeader("Content-Type", "application/json")</code> agar server mengenali tipe data yang dikirim.</li>
-  </ul>
+  <div class="concept-grid">
+    <div class="concept-card" style="border:1px solid #3b82f6;border-radius:12px;padding:16px;background:#f0f7ff">
+      <span class="badge" style="background:#2563eb;color:#fff;font-weight:700">CARA 1</span>
+      <b style="display:block;margin:6px 0 4px;color:#1e40af">Mengirim Payload JSON (application/json)</b>
+      <p style="font-size:0.88rem;color:#334155;margin:0 0 8px">Format standar industri web modern. Data disusun ke format teks JSON, dikonversi menjadi barisan byte (<code>Encoding.UTF8.GetBytes</code>), dan dikirim menggunakan <code>UploadHandlerRaw</code> dengan header <code>Content-Type: application/json</code>.</p>
+      <small style="color:#0369a1;font-weight:600">✓ Sangat fleksibel untuk data kompleks / bertingkat (array & nested object).</small>
+    </div>
+    <div class="concept-card" style="border:1px solid #10b981;border-radius:12px;padding:16px;background:#f0fdf4">
+      <span class="badge" style="background:#059669;color:#fff;font-weight:700">CARA 2</span>
+      <b style="display:block;margin:6px 0 4px;color:#065f46">Mengirim Menggunakan WWWForm (Form Data)</b>
+      <p style="font-size:0.88rem;color:#334155;margin:0 0 8px">Menggunakan class bawaan Unity <code>WWWForm</code> untuk memasukkan pasangan key-value (seperti form HTML). Dikirim menggunakan method praktis bawaan <code>UnityWebRequest.Post(url, form)</code> tanpa perlu konversi byte manual.</p>
+      <small style="color:#047857;font-weight:600">✓ Sintaks sangat ringkas, cepat, dan otomatis mengatur header form.</small>
+    </div>
+  </div>
 
-  <p>Buat file C# baru di folder <code>Assets/Scripts</code> dengan nama <b><code>LatihanPostConsole.cs</code></b>:</p>
+  <h4>Perbandingan Dua Metode POST di Unity:</h4>
+  <table>
+    <thead>
+      <tr><th>Karakteristik</th><th>Cara 1: JSON Body</th><th>Cara 2: WWWForm</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><b>Content-Type</b></td><td><code>application/json</code></td><td><code>multipart/form-data</code> / <code>application/x-www-form-urlencoded</code></td></tr>
+      <tr><td><b>Inisialisasi Request</b></td><td><code>new UnityWebRequest(url, "POST")</code></td><td><code>UnityWebRequest.Post(url, form)</code></td></tr>
+      <tr><td><b>Pengatur Upload</b></td><td><code>UploadHandlerRaw(byte[])</code> manual</td><td>Dikelola otomatis oleh Unity dari objek <code>WWWForm</code></td></tr>
+      <tr><td><b>Penambahan Data</b></td><td>Format string JSON: <code>{"nama":"Budi","nilai":900}</code></td><td>Fungsi bawaan: <code>form.AddField("nama", "Budi");</code></td></tr>
+      <tr><td><b>Kesesuaian Penggunaan</b></td><td>REST API modern, microservices, data bersarang (nested)</td><td>Form input sederhana, kompatibilitas backend PHP standar, upload file</td></tr>
+    </tbody>
+  </table>
+
+  <p>Buat file C# baru di folder <code>Assets/Scripts</code> dengan nama <b><code>LatihanPostConsole.cs</code></b>. Script ini telah dilengkapi dropdown di Inspector sehingga Anda bisa langsung mencoba dan membandingkan hasil pengiriman via <b>JSON</b> maupun <b>WWWForm</b>:</p>
 
   <pre><button class="copy" type="button">Salin</button><code>using System.Collections;
 using System.Text;
@@ -303,8 +689,18 @@ using UnityEngine.Networking;
 
 public class LatihanPostConsole : MonoBehaviour
 {
-    // Endpoint API untuk mengirim skor
-    private string url = "https://simple-api.appocket.id/simple-leaderboard";
+    public enum MetodeKirim
+    {
+        JSON,
+        WWWForm
+    }
+
+    [Header("Pilihan Metode Pengiriman")]
+    [Tooltip("Pilih cara pengiriman data: JSON atau WWWForm")]
+    public MetodeKirim metodeKirim = MetodeKirim.JSON;
+
+    [Header("Endpoint API")]
+    public string url = "https://simple-api.appocket.id/simple-leaderboard";
 
     [Header("Data Skor Baru yang Dikirim")]
     public string namaPemain = "Siswa SMK Telkom";
@@ -312,47 +708,86 @@ public class LatihanPostConsole : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("--- Memulai Latihan HTTP POST ---");
-        StartCoroutine(KirimSkorKeServer(namaPemain, skorPemain));
+        Debug.Log("--- Memulai Latihan HTTP POST (" + metodeKirim + ") ---");
+
+        if (metodeKirim == MetodeKirim.JSON)
+        {
+            StartCoroutine(KirimDenganJSON(namaPemain, skorPemain));
+        }
+        else
+        {
+            StartCoroutine(KirimDenganWWWForm(namaPemain, skorPemain));
+        }
     }
 
-    IEnumerator KirimSkorKeServer(string nama, int skor)
+    // =========================================================================
+    // CARA 1: Mengirimkan Data Menggunakan JSON (application/json)
+    // =========================================================================
+    IEnumerator KirimDenganJSON(string nama, int skor)
     {
-        Debug.Log("Menyiapkan payload POST untuk: " + nama + " (" + skor + ")");
+        Debug.Log("[POST JSON] Menyiapkan payload JSON untuk: " + nama + " (" + skor + ")");
 
-        // 1. Susun string JSON sesuai format yang diterima server
+        // 1. Susun string format JSON sesuai format yang diterima API
         string jsonPayload = "{\"nama\":\"" + nama + "\",\"nilai\":" + skor + "}";
-        Debug.Log("Payload JSON: " + jsonPayload);
+        Debug.Log("[POST JSON] Payload String: " + jsonPayload);
 
         // 2. Konversi string JSON ke byte array UTF-8
         byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonPayload);
 
-        // 3. Buat UnityWebRequest dengan method POST
+        // 3. Buat UnityWebRequest dengan UploadHandlerRaw
         using (UnityWebRequest request = new UnityWebRequest(url, "POST"))
         {
-            // Pasang pengirim (UploadHandler) dan penerima (DownloadHandler)
             request.uploadHandler = new UploadHandlerRaw(bodyRaw);
             request.downloadHandler = new DownloadHandlerBuffer();
 
             // Set Header agar server mengenali format JSON
             request.SetRequestHeader("Content-Type", "application/json");
+            request.SetRequestHeader("Accept", "application/json");
 
-            // 4. Kirim request ke server dan tunggu respon secara asinkron
+            // 4. Kirim request secara asinkron
             yield return request.SendWebRequest();
 
-            // 5. Periksa status pengiriman
-            if (request.result != UnityWebRequest.Result.Success)
-            {
-                Debug.LogError("[POST ERROR] Gagal mengirim data: " + request.error);
-                Debug.LogError("HTTP Status Code: " + request.responseCode);
-                Debug.LogError("Pesan Error Server: " + request.downloadHandler.text);
-            }
-            else
-            {
-                Debug.Log("<color=green>[POST SUKSES]</color> Skor berhasil dikirim ke database server!");
-                Debug.Log("HTTP Status Code: " + request.responseCode);
-                Debug.Log("Balasan dari Server:\n" + request.downloadHandler.text);
-            }
+            CekHasilRespon(request, "JSON");
+        }
+    }
+
+    // =========================================================================
+    // CARA 2: Mengirimkan Data Menggunakan WWWForm (multipart/form-data)
+    // =========================================================================
+    IEnumerator KirimDenganWWWForm(string nama, int skor)
+    {
+        Debug.Log("[POST WWWForm] Menyiapkan form data untuk: " + nama + " (" + skor + ")");
+
+        // 1. Buat instance WWWForm dan tambahkan pasangan key-value
+        WWWForm form = new WWWForm();
+        form.AddField("nama", nama);
+        form.AddField("nilai", skor);
+
+        // 2. Buat UnityWebRequest menggunakan helper method UnityWebRequest.Post
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            request.SetRequestHeader("Accept", "application/json");
+
+            // 3. Kirim request secara asinkron
+            yield return request.SendWebRequest();
+
+            CekHasilRespon(request, "WWWForm");
+        }
+    }
+
+    void CekHasilRespon(UnityWebRequest request, string metode)
+    {
+        if (request.result != UnityWebRequest.Result.Success)
+        {
+            Debug.LogError("[" + metode + " ERROR] Gagal mengirim data: " + request.error);
+            Debug.LogError("HTTP Status Code: " + request.responseCode);
+            Debug.LogError("Pesan Error Server: " + request.downloadHandler.text);
+        }
+        else
+        {
+            Debug.Log("<color=green>[" + metode + " SUKSES]</color> Skor berhasil dikirim ke database server!");
+            Debug.Log("HTTP Status Code: " + request.responseCode);
+            Debug.Log("Balasan dari Server:\n" + request.downloadHandler.text);
         }
     }
 }</code></pre>
@@ -361,20 +796,22 @@ public class LatihanPostConsole : MonoBehaviour
   <ol>
     <li>Nonaktifkan GameObject <code>Test_GET</code> (hilangkan centang aktif di Inspector) agar log di Console tidak bercampur.</li>
     <li>Buat GameObject kosong baru: <code>Test_POST</code>, lalu pasang script <code>LatihanPostConsole.cs</code>.</li>
-    <li>Di Inspector, Anda dapat mengubah <b>Nama Pemain</b> (misal: nama Anda sendiri) dan <b>Skor Pemain</b>.</li>
+    <li>Di Inspector, pada kolom <b>Pilihan Metode Pengiriman</b>, pilih <b>JSON</b> atau <b>WWWForm</b>.</li>
+    <li>Ubah <b>Nama Pemain</b> (misal: nama Anda sendiri) dan <b>Skor Pemain</b>.</li>
     <li>Tekan tombol <b>Play ▶</b> di Unity Editor dan perhatikan tab <b>Console</b>.</li>
+    <li>Ulangi pengujian dengan mengganti dropdown metode ke opsi lainnya untuk membuktikan kedua cara sama-sama berhasil!</li>
   </ol>
 
   <h4>Simulasi Hasil Output pada Tab Console:</h4>
   <div class="console-box">
-    <div class="console-head">🎮 UNITY CONSOLE — HTTP POST OUTPUT</div>
-    <div class="console-dim">[Console] --- Memulai Latihan HTTP POST ---</div>
-    <div class="console-info">[Console] Menyiapkan payload POST untuk: Siswa SMK Telkom (920)</div>
-    <div class="console-dim">[Console] Payload JSON: {"nama":"Siswa SMK Telkom","nilai":920}</div>
-    <div class="console-success">[Console] [POST SUKSES] Skor berhasil dikirim ke database server!</div>
+    <div class="console-head">🎮 UNITY CONSOLE — HTTP POST OUTPUT (JSON / WWWForm)</div>
+    <div class="console-dim">[Console] --- Memulai Latihan HTTP POST (JSON) ---</div>
+    <div class="console-info">[Console] [POST JSON] Menyiapkan payload JSON untuk: Siswa SMK Telkom (920)</div>
+    <div class="console-dim">[Console] [POST JSON] Payload String: {"nama":"Siswa SMK Telkom","nilai":920}</div>
+    <div class="console-success">[Console] [JSON SUKSES] Skor berhasil dikirim ke database server!</div>
     <div class="console-dim">[Console] HTTP Status Code: 200</div>
     <div class="console-log">[Console] Balasan dari Server:<br>
-    {"status":"success","message":"Data berhasil disimpan"}</div>
+    {"status":"success","message":"Data skor berhasil disimpan ke leaderboard.","data":{"id":7,"nama":"Siswa SMK Telkom","nilai":920,"rank":6}}</div>
   </div>
 
   <h3>E. Pembuktian Alur Lengkap: Kirim Skor lalu Cek di GET</h3>
@@ -502,8 +939,8 @@ public class LeaderboardItemUI : MonoBehaviour
   <p>Di Inspector prefab, hubungkan setiap field ke objek TextMeshPro yang sesuai. Method <code>SetData()</code> akan mengisi teks ketika data pemain diterima.</p>
 </section>
 <section class="card" id="manager">
-  <h2>7. Script Utama: GET, POST, dan Refresh</h2>
-  <p>Buat file <code>LeaderboardManager.cs</code>. Script ini mengunduh data, membangun baris UI, mengirim skor, dan mengambil ulang data setelah POST berhasil.</p>
+  <h2>7. Script Utama: GET, POST (JSON & WWWForm), dan Refresh</h2>
+  <p>Buat file <code>LeaderboardManager.cs</code>. Script ini mengunduh data, membangun baris UI, mendukung <b>2 cara pengiriman POST (JSON & WWWForm)</b> yang dapat dipilih melalui Inspector, serta memuat ulang data secara otomatis setelah pengiriman berhasil.</p>
   <pre><button class="copy" type="button">Salin</button><code>using System.Collections;
 using System.Text;
 using TMPro;
@@ -512,8 +949,18 @@ using UnityEngine.Networking;
 
 public class LeaderboardManager : MonoBehaviour
 {
+    public enum MetodePengiriman
+    {
+        JSON,
+        WWWForm
+    }
+
     private const string API_URL =
         "https://simple-api.appocket.id/simple-leaderboard";
+
+    [Header("Metode Pengiriman POST")]
+    [Tooltip("Pilih cara pengiriman data skor ke server: format JSON atau WWWForm")]
+    public MetodePengiriman metodeKirim = MetodePengiriman.JSON;
 
     [Header("Leaderboard UI")]
     public Transform content;
@@ -548,7 +995,7 @@ public class LeaderboardManager : MonoBehaviour
             {
                 SetStatus("Gagal mengambil data: " + request.error);
                 Debug.LogError("GET Error: " + request.error +
-                    "\\nResponse: " + request.downloadHandler.text);
+                    "\nResponse: " + request.downloadHandler.text);
                 yield break;
             }
 
@@ -625,23 +1072,35 @@ public class LeaderboardManager : MonoBehaviour
             return;
         }
 
-        StartCoroutine(PostLeaderboard(nama, nilai));
+        // Jalankan pengiriman sesuai metode yang dipilih di Inspector
+        if (metodeKirim == MetodePengiriman.JSON)
+        {
+            StartCoroutine(PostLeaderboardJSON(nama, nilai));
+        }
+        else
+        {
+            StartCoroutine(PostLeaderboardWWWForm(nama, nilai));
+        }
     }
 
-    private IEnumerator PostLeaderboard(string nama, int nilai)
+    // =========================================================================
+    // CARA 1: Mengirim Data Skor Menggunakan Format JSON (application/json)
+    // =========================================================================
+    private IEnumerator PostLeaderboardJSON(string nama, int nilai)
     {
         isProcessing = true;
-        SetStatus("Mengirim skor...");
+        SetStatus("Mengirim skor via JSON...");
 
+        // 1. Bungkus data ke class model lalu serialisasi menjadi teks JSON
         LeaderboardSubmit submitData = new LeaderboardSubmit
         {
             nama = nama,
             nilai = nilai
         };
-
         string json = JsonUtility.ToJson(submitData);
         byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
 
+        // 2. Buat UnityWebRequest dengan UploadHandlerRaw dan header JSON
         using (UnityWebRequest request = new UnityWebRequest(API_URL, "POST"))
         {
             request.uploadHandler = new UploadHandlerRaw(bodyRaw);
@@ -652,27 +1111,58 @@ public class LeaderboardManager : MonoBehaviour
 
             yield return request.SendWebRequest();
 
-            string responseBody = request.downloadHandler.text;
-            Debug.Log("POST Response: " + responseBody);
-
-            if (request.result != UnityWebRequest.Result.Success)
-            {
-                SetStatus("Gagal mengirim skor: " + request.error);
-                Debug.LogError("POST Error: " + request.error +
-                    "\\nResponse: " + responseBody);
-                isProcessing = false;
-                yield break;
-            }
-
-            SetStatus("Skor berhasil dikirim.");
-            namaInput.text = "";
-            nilaiInput.text = "";
-
-            // Ambil data terbaru dari server.
-            yield return GetLeaderboard();
+            yield return HandlePostResponse(request, "JSON");
         }
 
         isProcessing = false;
+    }
+
+    // =========================================================================
+    // CARA 2: Mengirim Data Skor Menggunakan WWWForm (multipart/form-data)
+    // =========================================================================
+    private IEnumerator PostLeaderboardWWWForm(string nama, int nilai)
+    {
+        isProcessing = true;
+        SetStatus("Mengirim skor via WWWForm...");
+
+        // 1. Buat objek WWWForm dan masukkan pasangan key-value
+        WWWForm form = new WWWForm();
+        form.AddField("nama", nama);
+        form.AddField("nilai", nilai);
+
+        // 2. Gunakan helper method UnityWebRequest.Post bawaan Unity
+        using (UnityWebRequest request = UnityWebRequest.Post(API_URL, form))
+        {
+            request.SetRequestHeader("Accept", "application/json");
+            request.timeout = 15;
+
+            yield return request.SendWebRequest();
+
+            yield return HandlePostResponse(request, "WWWForm");
+        }
+
+        isProcessing = false;
+    }
+
+    // Fungsi pemroses balasan respon server setelah POST
+    private IEnumerator HandlePostResponse(UnityWebRequest request, string metode)
+    {
+        string responseBody = request.downloadHandler != null ? request.downloadHandler.text : "";
+        Debug.Log("POST (" + metode + ") Response: " + responseBody);
+
+        if (request.result != UnityWebRequest.Result.Success)
+        {
+            SetStatus("Gagal mengirim skor: " + request.error);
+            Debug.LogError("POST Error: " + request.error + "\nResponse: " + responseBody);
+            yield break;
+        }
+
+        SetStatus("Skor berhasil dikirim (" + metode + ").");
+        namaInput.text = "";
+        nilaiInput.text = "";
+
+        // Ambil data terbaru dari server untuk merefresh baris Scroll View
+        yield return GetLeaderboard();
     }
 
     public void RefreshLeaderboard()
@@ -693,7 +1183,8 @@ public class LeaderboardManager : MonoBehaviour
   <ul>
     <li><b>GET:</b> <code>UnityWebRequest.Get(url)</code> meminta data, lalu <code>JsonUtility.FromJson</code> mengubah respons menjadi objek C#.</li>
     <li><b>Instantiate:</b> membuat satu prefab untuk setiap pemain di dalam <code>Content</code>.</li>
-    <li><b>POST:</b> <code>JsonUtility.ToJson</code> mengubah input menjadi JSON, kemudian <code>UploadHandlerRaw</code> mengirimkannya ke server.</li>
+    <li><b>POST Cara 1 (JSON):</b> <code>JsonUtility.ToJson</code> mengubah objek model ke string JSON, dikonversi ke byte array, lalu dikirim dengan <code>UploadHandlerRaw</code> dan header <code>application/json</code>.</li>
+    <li><b>POST Cara 2 (WWWForm):</b> <code>WWWForm form = new WWWForm()</code> menampung nilai dengan <code>form.AddField()</code>, lalu dikirim via helper bawaan <code>UnityWebRequest.Post(url, form)</code> secara otomatis.</li>
     <li><b>Refresh:</b> setelah POST sukses secara HTTP, coroutine GET dijalankan lagi untuk mengambil daftar terbaru.</li>
   </ul>
   <div class="callout warning"><b>Penting:</b> script menganggap respons HTTP sukses berarti server menerima data. Jika API memiliki format respons khusus untuk menolak skor, periksa isi respons itu juga sebelum menampilkan pesan berhasil. Kode ini belum membuktikan bahwa skor telah tersimpan secara permanen.</div>
@@ -705,13 +1196,14 @@ public class LeaderboardManager : MonoBehaviour
     <li>Pasang script <code>LeaderboardManager.cs</code> pada objek tersebut.</li>
     <li>Hubungkan field di Inspector sesuai tabel.</li>
   </ol>
-  <table><thead><tr><th>Field</th><th>Objek yang dihubungkan</th></tr></thead><tbody>
-  <tr><td>Content</td><td><code>Content</code> di Scroll View</td></tr>
-  <tr><td>Leaderboard Item Prefab</td><td>Prefab <code>LeaderboardItem</code></td></tr>
-  <tr><td>Limit</td><td><code>10</code> atau jumlah data yang diinginkan</td></tr>
-  <tr><td>Nama Input</td><td><code>NamaInput</code></td></tr>
-  <tr><td>Nilai Input</td><td><code>NilaiInput</code></td></tr>
-  <tr><td>Status Text</td><td><code>StatusText</code></td></tr>
+  <table><thead><tr><th>Field</th><th>Objek / Nilai yang dihubungkan</th><th>Keterangan</th></tr></thead><tbody>
+  <tr><td>Metode Kirim</td><td><b>JSON</b> atau <b>WWWForm</b></td><td>Pilih cara pengiriman data POST ke server</td></tr>
+  <tr><td>Content</td><td><code>Content</code> di Scroll View</td><td>Tempat prefab baris leaderboard dimunculkan</td></tr>
+  <tr><td>Leaderboard Item Prefab</td><td>Prefab <code>LeaderboardItem</code></td><td>Template baris tampilan data pemain</td></tr>
+  <tr><td>Limit</td><td><code>10</code></td><td>Jumlah data skor yang ingin ditampilkan</td></tr>
+  <tr><td>Nama Input</td><td><code>NamaInput</code></td><td>TMP_InputField untuk input nama</td></tr>
+  <tr><td>Nilai Input</td><td><code>NilaiInput</code></td><td>TMP_InputField untuk input skor</td></tr>
+  <tr><td>Status Text</td><td><code>StatusText</code></td><td>TMP_Text untuk pesan feedback status</td></tr>
   </tbody></table>
   <h3>Hubungkan tombol Kirim</h3>
   <ol>
@@ -727,21 +1219,33 @@ public class LeaderboardManager : MonoBehaviour
 <section class="card" id="uji">
   <h2>9. Pengujian Praktik</h2>
   <ol>
-    <li>Jalankan game. Method <code>Start()</code> otomatis meminta data leaderboard.</li>
-    <li>Pastikan data muncul sebagai baris-baris di Scroll View.</li>
-    <li>Masukkan nama <code>Rian Ardiansyah</code> dan nilai <code>920</code>.</li>
-    <li>Tekan Kirim dan periksa status serta Console.</li>
-    <li>Jika POST berhasil, daftar dimuat ulang menggunakan GET.</li>
-    <li>Tekan Refresh untuk mengambil data server lagi secara manual.</li>
+    <li>Jalankan game (Play Mode). Method <code>Start()</code> otomatis meminta data leaderboard (GET).</li>
+    <li>Pastikan data skor pemain muncul teratur sebagai baris-baris di dalam Scroll View.</li>
+    <li><b>Uji Pengiriman Skor (Cara 1 - JSON):</b>
+      <ul>
+        <li>Pada objek <code>LeaderboardManager</code> di Inspector, pastikan <b>Metode Kirim</b> diset ke <code>JSON</code>.</li>
+        <li>Ketikkan nama <code>Rian Ardiansyah</code> dan nilai <code>920</code>.</li>
+        <li>Tekan tombol <b>Kirim</b>. Periksa status dan tab Console. Pastikan log menampilkan <code>[JSON SUKSES]</code> dan data baru langsung muncul di Scroll View.</li>
+      </ul>
+    </li>
+    <li><b>Uji Pengiriman Skor (Cara 2 - WWWForm):</b>
+      <ul>
+        <li>Ganti opsi <b>Metode Kirim</b> di Inspector menjadi <code>WWWForm</code>.</li>
+        <li>Ketikkan nama <code>Siti Aminah</code> dan nilai <code>960</code>.</li>
+        <li>Tekan tombol <b>Kirim</b> lagi. Pastikan pengiriman via form-data juga sukses dan data peringkat terupdate ke posisi teratas.</li>
+      </ul>
+    </li>
+    <li>Tekan tombol <b>Refresh</b> kapan pun untuk memvalidasi pengambilan ulang data terbaru secara manual.</li>
   </ol>
   <h3>Checklist hasil praktik</h3>
   <div class="checklist">
-    <label><input type="checkbox"> Data GET berhasil dibaca dari server.</label>
-    <label><input type="checkbox"> Nama, nilai, tanggal, dan peringkat tampil di setiap baris.</label>
-    <label><input type="checkbox"> Scroll View bisa digulir ke bawah ketika data melebihi tinggi area.</label>
-    <label><input type="checkbox"> Input nama kosong ditolak oleh validasi.</label>
-    <label><input type="checkbox"> Input nilai nonangka atau negatif ditolak.</label>
-    <label><input type="checkbox"> POST berhasil dan GET berikutnya menampilkan data terbaru.</label>
+    <label><input type="checkbox"> Data GET berhasil dibaca dari server dan tampil di Scroll View.</label>
+    <label><input type="checkbox"> Nama, nilai, tanggal, dan peringkat tampil rapi di setiap baris prefab.</label>
+    <label><input type="checkbox"> Scroll View bisa digulir vertikal ke bawah dengan lancar.</label>
+    <label><input type="checkbox"> Validasi input berhasil menolak nama kosong atau nilai negatif/non-angka.</label>
+    <label><input type="checkbox"> Pengiriman skor via <b>Cara 1 (JSON Payload)</b> berhasil dan tercatat di database.</label>
+    <label><input type="checkbox"> Pengiriman skor via <b>Cara 2 (WWWForm)</b> berhasil dan tercatat di database.</label>
+    <label><input type="checkbox"> Daftar leaderboard otomatis melakukan auto-refresh menampilkan data terbaru.</label>
   </div>
 </section>
 <section class="card" id="masalah">
@@ -757,24 +1261,1066 @@ public class LeaderboardManager : MonoBehaviour
   <div class="callout success"><b>Kesimpulan:</b> dengan UnityWebRequest, model data C#, prefab UI, dan Scroll View, leaderboard dapat mengambil dan mengirim data secara dinamis tanpa membuat baris pemain satu per satu.</div>
   <p><b>Catatan keamanan:</b> endpoint pada modul ini menggunakan HTTPS dan tidak memerlukan token menurut spesifikasi yang diberikan. Untuk game produksi, validasi skor di server agar client tidak bisa mengirim skor palsu.</p>
 </section>
+
+<div class="stepper-nav" id="stepper-nav">
+  <button type="button" id="btn-prev" class="btn-stepper btn-prev">◀ Sebelumnya</button>
+  <div class="step-info">
+    <span class="step-counter" id="step-counter">Bagian 1 dari 10</span>
+    <span class="step-status" id="step-status">Belum Selesai</span>
+  </div>
+  <button type="button" id="btn-next" class="btn-stepper btn-selesai">✓ Selesai & Lanjut Kuis</button>
+</div>
+
 </main>
 </div>
 <footer>Modul Pembelajaran Unity C# • Simple Leaderboard API • Dapat dibuka secara lokal di browser</footer>
+
 <script>
-document.querySelectorAll('pre .copy').forEach(button=>{
-  button.addEventListener('click',async()=>{
-    const code=button.parentElement.querySelector('code').innerText;
-    try{
-      await navigator.clipboard.writeText(code);
-      button.textContent='Tersalin!';
-      setTimeout(()=>button.textContent='Salin',1400);
-    }catch(e){
-      const range=document.createRange();range.selectNodeContents(button.parentElement.querySelector('code'));
-      const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);
-      button.textContent='Pilih lalu salin';
+// Bank Soal Kuis (5 pertanyaan per section)
+const QUIZ_BANK = [
+  {
+    "sectionId": "tujuan",
+    "title": "Bagian 1: Tujuan Pembelajaran",
+    "questions": [
+      {
+        "q": "Protokol standar internet apa yang digunakan untuk komunikasi data antara Unity dan server pada modul ini?",
+        "options": [
+          "FTP",
+          "HTTP / HTTPS",
+          "SSH",
+          "SMTP"
+        ],
+        "answer": 1,
+        "explanation": "Modul ini memanfaatkan protokol standar HTTP/HTTPS melalui class UnityWebRequest untuk bertukar data dengan REST API."
+      },
+      {
+        "q": "Komponen UI Unity apa yang digunakan untuk menampung baris-baris leaderboard yang dapat digulir ke bawah?",
+        "options": [
+          "Dropdown",
+          "Scroll View",
+          "Toggle Group",
+          "Slider"
+        ],
+        "answer": 1,
+        "explanation": "Scroll View dengan komponen Scroll Rect memungkinkan tampilan daftar pemain yang panjang digulir (scroll) secara vertikal."
+      },
+      {
+        "q": "Format pertukaran data standar berbentuk teks ringkas yang digunakan pada modul ini adalah …",
+        "options": [
+          "XML",
+          "JSON",
+          "CSV",
+          "YAML"
+        ],
+        "answer": 1,
+        "explanation": "JSON (JavaScript Object Notation) adalah format pertukaran data standar industri yang ringan, efisien, dan mudah dibaca."
+      },
+      {
+        "q": "Class bawaan Unity dalam namespace UnityEngine.Networking yang menangani request web adalah …",
+        "options": [
+          "NetworkManager",
+          "UnityWebRequest",
+          "WebClient",
+          "SocketIO"
+        ],
+        "answer": 1,
+        "explanation": "UnityWebRequest adalah class resmi modern Unity untuk mengirim dan menerima request HTTP (GET, POST, dll)."
+      },
+      {
+        "q": "Apa yang dilakukan aplikasi game secara otomatis setelah skor baru pemain berhasil dikirim ke server (POST)?",
+        "options": [
+          "Menutup game secara paksa",
+          "Memuat ulang data terbaru dari server (Refresh GET)",
+          "Menghapus semua file prefab",
+          "Mengubah resolusi layar"
+        ],
+        "answer": 1,
+        "explanation": "Setelah skor tersimpan di server, fungsi Refresh (GET) otomatis dipanggil agar urutan skor terbaru langsung terbarui di layar."
+      }
+    ]
+  },
+  {
+    "sectionId": "konsep-api",
+    "title": "Bagian 2: Teori API & REST API",
+    "questions": [
+      {
+        "q": "Dalam analogi restoran untuk menjelaskan arsitektur REST API, peran API diibaratkan sebagai …",
+        "options": [
+          "Tamu yang memesan menu",
+          "Pelayan yang mencatat pesanan dan mengantarkan makanan",
+          "Kompor di dapur",
+          "Buku kasir restoran"
+        ],
+        "answer": 1,
+        "explanation": "Pelayan bertindak sebagai jembatan (API) yang menghubungkan pelanggan (client) dengan dapur (server & database)."
+      },
+      {
+        "q": "Karakteristik 'Stateless' pada arsitektur REST API bermakna bahwa …",
+        "options": [
+          "Server selalu menyimpan riwayat sesi game setiap pemain",
+          "Setiap request harus mandiri dan membawa seluruh data yang dibutuhkan tanpa tergantung riwayat sebelumnya",
+          "Game tidak boleh dimainkan secara offline",
+          "Server tidak memiliki basis data"
+        ],
+        "answer": 1,
+        "explanation": "Stateless berarti server memperlakukan setiap request secara independen tanpa menyimpan konteks percakapan lampau antar-request."
+      },
+      {
+        "q": "Metode HTTP manakah yang digunakan untuk meminta atau membaca data dari server tanpa mengubah isi database?",
+        "options": [
+          "POST",
+          "GET",
+          "DELETE",
+          "PUT"
+        ],
+        "answer": 1,
+        "explanation": "Metode HTTP GET digunakan untuk membaca/mengambil data (operasi Read pada prinsip CRUD)."
+      },
+      {
+        "q": "Kode status HTTP '200 OK' dari server menandakan bahwa …",
+        "options": [
+          "Request berhasil diproses dan server mengembalikan data",
+          "Alamat URL endpoint tidak ditemukan",
+          "Server mengalami error internal",
+          "Data yang dikirim client salah format"
+        ],
+        "answer": 0,
+        "explanation": "Kode status 200 OK adalah penanda standar bahwa request HTTP berhasil diproses tanpa masalah."
+      },
+      {
+        "q": "Manakah sintaks pasangan key-value JSON yang valid di bawah ini?",
+        "options": [
+          "{nama: Budi, nilai: 100}",
+          "{\"nama\": \"Budi\", \"nilai\": 100}",
+          "[nama => 'Budi', nilai => 100]",
+          "<nama>Budi</nama>"
+        ],
+        "answer": 1,
+        "explanation": "Pada format JSON standar, nama kunci (key) wajib diapit dengan tanda kutip ganda (\"key\")."
+      }
+    ]
+  },
+  {
+    "sectionId": "api",
+    "title": "Bagian 3: Latihan Console (GET & POST)",
+    "questions": [
+      {
+        "q": "Mengapa komunikasi web di Unity wajib menggunakan Coroutine (IEnumerator) dan yield return?",
+        "options": [
+          "Agar proses request berjalan di latar belakang (background) sehingga gameplay Unity tidak freeze/lag",
+          "Agar grafis game otomatis naik ke 4K",
+          "Karena bahasa C# tidak mendukung variabel teks",
+          "Supaya kuota internet gratis"
+        ],
+        "answer": 0,
+        "explanation": "Coroutine menjalankan proses asinkron di background thread sehingga frame rate game tetap berjalan lancar 60 FPS."
+      },
+      {
+        "q": "Pada pengiriman POST Cara 1 (JSON), class handler apa yang digunakan untuk membungkus byte data mentah?",
+        "options": [
+          "DownloadHandlerBuffer",
+          "UploadHandlerRaw",
+          "CertificateHandler",
+          "AudioHandler"
+        ],
+        "answer": 1,
+        "explanation": "UploadHandlerRaw membungkus array byte UTF-8 dari teks JSON untuk dikirimkan ke server."
+      },
+      {
+        "q": "Header apa yang wajib disertakan ketika mengirim request POST dengan format payload JSON?",
+        "options": [
+          "Content-Type: text/html",
+          "Content-Type: application/json",
+          "Content-Type: image/png",
+          "Content-Type: video/mp4"
+        ],
+        "answer": 1,
+        "explanation": "Header Content-Type: application/json memberi instruksi ke server bahwa data yang dikirim berformat JSON."
+      },
+      {
+        "q": "Pada pengiriman POST Cara 2 (WWWForm), method helper apa yang langsung digunakan untuk membuat request POST?",
+        "options": [
+          "UnityWebRequest.Get(url)",
+          "UnityWebRequest.Post(url, form)",
+          "UnityWebRequest.Put(url, form)",
+          "UnityWebRequest.Delete(url)"
+        ],
+        "answer": 1,
+        "explanation": "UnityWebRequest.Post(url, form) secara otomatis mengelola form boundary, uploadHandler, dan Content-Type."
+      },
+      {
+        "q": "Property dari UnityWebRequest apa yang diperiksa untuk memastikan bahwa request sukses tanpa error jaringan?",
+        "options": [
+          "request.isHttpDone",
+          "request.result == UnityWebRequest.Result.Success",
+          "request.urlLength",
+          "request.fpsRate"
+        ],
+        "answer": 1,
+        "explanation": "request.result bernilai UnityWebRequest.Result.Success menandakan koneksi dan respons HTTP berjalan normal tanpa error."
+      }
+    ]
+  },
+  {
+    "sectionId": "ui",
+    "title": "Bagian 4: Membuat UI di Unity",
+    "questions": [
+      {
+        "q": "Komponen apa yang dipasang pada Content di Scroll View agar baris-baris data otomatis tersusun rapi ke bawah?",
+        "options": [
+          "Horizontal Layout Group",
+          "Vertical Layout Group",
+          "Grid Layout Group",
+          "Canvas Group"
+        ],
+        "answer": 1,
+        "explanation": "Vertical Layout Group menata posisi setiap elemen anak secara vertikal dari atas ke bawah secara teratur."
+      },
+      {
+        "q": "Komponen apa yang membuat tinggi Content di Scroll View membesar otomatis sesuai jumlah baris data?",
+        "options": [
+          "Content Size Fitter (Vertical Fit: Preferred Size)",
+          "Aspect Ratio Fitter",
+          "Box Collider",
+          "Layout Element"
+        ],
+        "answer": 0,
+        "explanation": "Content Size Fitter dengan Vertical Fit = Preferred Size menyesuaikan tinggi container sesuai total tinggi anak-anaknya."
+      },
+      {
+        "q": "Objek utama yang menjadi wadah dasar bagi seluruh komponen antarmuka grafis (UI Canvas) di Unity adalah …",
+        "options": [
+          "EventSystem",
+          "Canvas",
+          "Main Camera",
+          "Panel"
+        ],
+        "answer": 1,
+        "explanation": "Canvas adalah area kerja tempat semua elemen UI (teks, gambar, tombol) diletakkan dan dirender."
+      },
+      {
+        "q": "Komponen apa yang terdapat pada Viewport untuk memotong tampilan baris agar tidak keluar dari batas area jendela?",
+        "options": [
+          "Rect Mask 2D",
+          "Sprite Renderer",
+          "Mesh Collider",
+          "Audio Reverb Filter"
+        ],
+        "answer": 0,
+        "explanation": "Rect Mask 2D memotong dan menyembunyikan pixel elemen anak yang keluar dari batas kotak Viewport."
+      },
+      {
+        "q": "Mengapa baris leaderboard (LeaderboardItem) perlu disimpan sebagai Prefab?",
+        "options": [
+          "Agar tidak bisa diedit lagi",
+          "Agar script dapat menggandakannya (Instantiate) sebanyak jumlah pemain yang diterima dari server",
+          "Supaya ukuran teks membesar",
+          "Agar otomatis terhubung ke internet"
+        ],
+        "answer": 1,
+        "explanation": "Prefab berfungsi sebagai template master yang dapat di-instantiate berulang kali sesuai jumlah data skor pemain."
+      }
+    ]
+  },
+  {
+    "sectionId": "model",
+    "title": "Bagian 5: Membuat Model Data JSON",
+    "questions": [
+      {
+        "q": "Atribut apa yang wajib ditulis di atas deklarasi class model C# agar bisa diproses oleh JsonUtility?",
+        "options": [
+          "[System.Serializable] atau [Serializable]",
+          "[HideInInspector]",
+          "[RequireComponent]",
+          "[ExecuteAlways]"
+        ],
+        "answer": 0,
+        "explanation": "Atribut [Serializable] menandai class C# agar dapat diserialisasi dan dideserialisasi oleh JsonUtility."
+      },
+      {
+        "q": "Jika pada JSON dari server properti bertuliskan \"nama\": \"Budi\", variabel pada class C# harus bernama …",
+        "options": [
+          "player_name",
+          "nama (harus sama persis)",
+          "name",
+          "userName"
+        ],
+        "answer": 1,
+        "explanation": "JsonUtility memetakan data berdasarkan nama variabel. Jika berbeda huruf/ejaan, nilainya tidak akan terbaca."
+      },
+      {
+        "q": "Fungsi bawaan Unity untuk mengubah teks JSON mentah dari server menjadi objek class C# adalah …",
+        "options": [
+          "JsonUtility.FromJson<T>(json)",
+          "JsonUtility.ToJson(obj)",
+          "Convert.ToInt32(json)",
+          "ToString(json)"
+        ],
+        "answer": 0,
+        "explanation": "FromJson<T>() mengonversi string JSON menjadi objek C# sesuai tipe class T yang ditentukan."
+      },
+      {
+        "q": "Fungsi bawaan Unity untuk mengubah objek C# menjadi teks format JSON adalah …",
+        "options": [
+          "JsonUtility.ToJson(object)",
+          "JsonUtility.FromJson<T>()",
+          "PlayerPrefs.GetString()",
+          "Debug.Log()"
+        ],
+        "answer": 0,
+        "explanation": "ToJson() mengubah objek C# yang serializable menjadi string berformat JSON."
+      },
+      {
+        "q": "Mengapa properti data pemain pada LeaderboardResponse dideklarasikan sebagai LeaderboardEntry[] data?",
+        "options": [
+          "Karena datanya hanya berupa satu angka",
+          "Karena server mengirimkan daftar kumpulan data pemain dalam format Array [ ... ]",
+          "Karena data bertipe gambar",
+          "Karena data tidak memiliki nama"
+        ],
+        "answer": 1,
+        "explanation": "Simbol kurung siku [] menandakan tipe Array, cocok dengan struktur JSON \"data\": [...] dari server."
+      }
+    ]
+  },
+  {
+    "sectionId": "item",
+    "title": "Bagian 6: Script Baris UI",
+    "questions": [
+      {
+        "q": "Namespace apa yang harus ditambahkan di baris paling atas script untuk mengakses TextMeshPro?",
+        "options": [
+          "using UnityEngine.UI;",
+          "using TMPro;",
+          "using System.Text;",
+          "using UnityEngine.Audio;"
+        ],
+        "answer": 1,
+        "explanation": "using TMPro; adalah namespace resmi untuk mengakses tipe data TMP_Text dan TMP_InputField."
+      },
+      {
+        "q": "Method apa yang dibuat pada LeaderboardItemUI untuk mengisi teks peringkat, nama, dan nilai ke tampilan baris?",
+        "options": [
+          "Awake()",
+          "SetData(LeaderboardEntry entry)",
+          "OnDestroy()",
+          "Update()"
+        ],
+        "answer": 1,
+        "explanation": "Method SetData menerima data satu pemain lalu memasukkannya ke masing-masing komponen teks UI."
+      },
+      {
+        "q": "Bagaimana cara memasukkan variabel angka entry.nilai ke dalam properti teks nilaiText.text?",
+        "options": [
+          "nilaiText.text = entry.nilai;",
+          "nilaiText.text = entry.nilai.ToString();",
+          "nilaiText.text = (bool)entry.nilai;",
+          "nilaiText.text = \"\";"
+        ],
+        "answer": 1,
+        "explanation": "Karena nilaiText.text bertipe string, variabel integer wajib dikonversi dengan .ToString()."
+      },
+      {
+        "q": "Di manakah komponen script LeaderboardItemUI harus dipasang?",
+        "options": [
+          "Pada GameObject root Prefab LeaderboardItem",
+          "Pada Main Camera",
+          "Pada Directional Light",
+          "Pada file scene"
+        ],
+        "answer": 0,
+        "explanation": "Script dipasang langsung pada root prefab baris agar setiap item baris yang digandakan memiliki pengontrol UI-nya sendiri."
+      },
+      {
+        "q": "Jika di Inspector prefab salah satu slot teks (misal: rankText) lupa dihubungkan, error apa yang akan muncul di Console?",
+        "options": [
+          "IndexOutOfRangeException",
+          "NullReferenceException",
+          "StackOverflowException",
+          "DivideByZeroException"
+        ],
+        "answer": 1,
+        "explanation": "NullReferenceException muncul saat kode mencoba mengakses properti dari objek referensi yang masih bernilai None (null)."
+      }
+    ]
+  },
+  {
+    "sectionId": "manager",
+    "title": "Bagian 7: Script Utama LeaderboardManager",
+    "questions": [
+      {
+        "q": "Mengapa script menghapus baris lama dengan Destroy(child.gameObject) sebelum menampilkan data baru?",
+        "options": [
+          "Untuk mereset koneksi internet",
+          "Untuk mencegah penumpukan baris lama dan duplikasi data di tampilan Scroll View",
+          "Untuk menghapus akun pengguna",
+          "Untuk menutup Canvas"
+        ],
+        "answer": 1,
+        "explanation": "Pembersihan (clearing) diperlukan agar baris lama tidak tertumpuk dengan baris baru yang diambil dari server."
+      },
+      {
+        "q": "Perintah C# apa yang digunakan untuk membuat instance baru dari prefab baris ke dalam container content?",
+        "options": [
+          "Instantiate(leaderboardItemPrefab, content)",
+          "new GameObject()",
+          "CreateInstance()",
+          "SpawnObject()"
+        ],
+        "answer": 0,
+        "explanation": "Instantiate(prefab, parentTransform) menggandakan prefab dan menempatkannya sebagai anak dari objek parent."
+      },
+      {
+        "q": "Variabel isProcessing bernilai true saat request sedang berjalan bertujuan untuk …",
+        "options": [
+          "Menghitung skor pemain",
+          "Mencegah spam klik pada tombol submit saat request sebelumnya belum selesai",
+          "Mengubah warna teks status",
+          "Mematikan game"
+        ],
+        "answer": 1,
+        "explanation": "isProcessing mencegah pengguna mengirimkan request ganda bertubi-tubi saat request sebelumnya masih diproses."
+      },
+      {
+        "q": "Pada Cara 2 (WWWForm), method apa yang digunakan untuk memasukkan nilai baru ke dalam formulir?",
+        "options": [
+          "form.AddField(\"nama\", nilai)",
+          "form.SetItem(\"nama\", nilai)",
+          "form.Put(\"nama\", nilai)",
+          "form.Append(\"nama\", nilai)"
+        ],
+        "answer": 0,
+        "explanation": "Method form.AddField(key, value) digunakan untuk mendaftarkan parameter data ke formulir WWWForm."
+      },
+      {
+        "q": "Bagaimana cara beralih antara Cara 1 (JSON) dan Cara 2 (WWWForm) pada script LeaderboardManager?",
+        "options": [
+          "Harus menulis ulang seluruh script dari awal",
+          "Cukup mengganti pilihan dropdown 'Metode Kirim' di Inspector Unity",
+          "Menghapus komponen Canvas",
+          "Menginstal plugin eksternal"
+        ],
+        "answer": 1,
+        "explanation": "Variabel enum publik metodeKirim memungkinkan pergantian metode secara instan lewat dropdown Inspector."
+      }
+    ]
+  },
+  {
+    "sectionId": "hubungkan",
+    "title": "Bagian 8: Menghubungkan Komponen di Inspector",
+    "questions": [
+      {
+        "q": "Bagian manakah pada komponen Button di Unity yang digunakan untuk mendaftarkan fungsi yang dieksekusi saat tombol diklik?",
+        "options": [
+          "Image Type",
+          "On Click ()",
+          "Transition",
+          "Target Graphic"
+        ],
+        "answer": 1,
+        "explanation": "Daftar On Click () adalah event listener bawaan Unity UI untuk memanggil method saat tombol ditekan."
+      },
+      {
+        "q": "Tipe konten (Content Type) apa yang disarankan pada NilaiInput agar pengguna hanya bisa menginput angka?",
+        "options": [
+          "Standard",
+          "Integer Number",
+          "Password",
+          "Autocorrected"
+        ],
+        "answer": 1,
+        "explanation": "Integer Number membatasi karakter input hanya berupa angka bulat, mencegah input teks yang salah."
+      },
+      {
+        "q": "Fungsi manakah dari script LeaderboardManager yang harus dihubungkan ke event On Click tombol Refresh?",
+        "options": [
+          "SubmitScore()",
+          "RefreshLeaderboard()",
+          "Start()",
+          "DisplayLeaderboard()"
+        ],
+        "answer": 1,
+        "explanation": "RefreshLeaderboard() memicu Coroutine GetLeaderboard() untuk memuat ulang daftar peringkat terkini."
+      },
+      {
+        "q": "Mengapa GameObject LeaderboardManager perlu diseret ke slot objek pada On Click Button?",
+        "options": [
+          "Agar Button mengetahui instance objek mana yang memiliki method/fungsi yang ingin dijalankan",
+          "Hanya formalitas tampilan",
+          "Supaya ukuran tombol berubah",
+          "Agar tombol mengeluarkan suara"
+        ],
+        "answer": 0,
+        "explanation": "UnityEvent memerlukan referensi ke instance GameObject tempat script komponen terpasang."
+      },
+      {
+        "q": "Objek apa yang harus dihubungkan ke slot Content pada Inspector LeaderboardManager?",
+        "options": [
+          "Objek Content yang berada di dalam Scroll View -> Viewport",
+          "Objek Canvas utama",
+          "Objek Main Camera",
+          "Objek EventSystem"
+        ],
+        "answer": 0,
+        "explanation": "Slot Content memerlukan referensi ke RectTransform container Content tempat baris-baris prefab dimunculkan."
+      }
+    ]
+  },
+  {
+    "sectionId": "uji",
+    "title": "Bagian 9: Pengujian Praktik",
+    "questions": [
+      {
+        "q": "Kapan pengambilan data leaderboard (GET) pertama kali dijalankan oleh script?",
+        "options": [
+          "Saat tombol Kirim ditekan",
+          "Otomatis saat game mulai dijalankan (di dalam method Start())",
+          "Hanya saat game over",
+          "Saat tombol keyboard ditekan"
+        ],
+        "answer": 1,
+        "explanation": "Method Start() memanggil StartCoroutine(GetLeaderboard()) sehingga data pertama kali langsung diunduh otomatis."
+      },
+      {
+        "q": "Apa reaksi script jika pemain mencoba menekan tombol Kirim dengan kolom nama yang masih kosong?",
+        "options": [
+          "Tetap mengirim data kosong ke server",
+          "Validasi menolak pengiriman dan menampilkan pesan status peringatan",
+          "Menutup aplikasi Unity",
+          "Mereset seluruh database"
+        ],
+        "answer": 1,
+        "explanation": "Validasi string.IsNullOrEmpty(nama) mendeteksi input kosong dan membatalkan pengiriman."
+      },
+      {
+        "q": "Di mana Anda dapat melihat pesan konfirmasi [JSON SUKSES] atau [WWWForm SUKSES] selama pengujian di Editor?",
+        "options": [
+          "Tab Scene",
+          "Tab Console (Ctrl + Shift + C)",
+          "Tab Game",
+          "Tab Animation"
+        ],
+        "answer": 1,
+        "explanation": "Tab Console menampilkan semua output dari Debug.Log, Debug.LogWarning, dan Debug.LogError."
+      },
+      {
+        "q": "Bagaimana cara membuktikan bahwa skor baru pemain benar-benar tersimpan di database online?",
+        "options": [
+          "Skor pemain tersebut tetap muncul di urutan leaderboard saat tombol Refresh ditekan atau scene di-restart",
+          "Monitor berkedip dua kali",
+          "Warna tombol berubah menjadi merah",
+          "Ukuran file bertambah"
+        ],
+        "answer": 0,
+        "explanation": "Jika tersimpan di database, data tersebut akan tetap muncul saat daftar ditarik ulang dari server."
+      },
+      {
+        "q": "Apakah pengiriman via Cara 1 (JSON) dan Cara 2 (WWWForm) menghasilkan data yang sama di database server?",
+        "options": [
+          "Tidak, hanya salah satu yang bisa",
+          "Ya, keduanya sama-sama berhasil menyimpan nama dan nilai ke database server",
+          "Data akan corrupt",
+          "Server akan otomatis menolak keduanya"
+        ],
+        "answer": 1,
+        "explanation": "Server backend telah dikonfigurasi untuk menerima input baik berformat payload JSON maupun form-data."
+      }
+    ]
+  },
+  {
+    "sectionId": "masalah",
+    "title": "Bagian 10: Troubleshooting & Optimasi",
+    "questions": [
+      {
+        "q": "Jika Console memunculkan error 'Cannot resolve destination host', kemungkinan terbesar penyebabnya adalah …",
+        "options": [
+          "Perangkat tidak terhubung ke internet atau alamat URL endpoint salah",
+          "Komponen Canvas terbalik",
+          "Font TextMeshPro tidak memiliki warna",
+          "Mouse tidak sengaja terlepas"
+        ],
+        "answer": 0,
+        "explanation": "Error DNS resolution menandakan koneksi internet terputus atau nama domain endpoint salah ketik."
+      },
+      {
+        "q": "Jika baris-baris leaderboard saling bertumpuk di satu posisi yang sama, komponen apa yang kemungkinan belum terpasang di Content?",
+        "options": [
+          "Vertical Layout Group",
+          "Audio Source",
+          "Rigidbody2D",
+          "Camera"
+        ],
+        "answer": 0,
+        "explanation": "Vertical Layout Group berfungsi memposisikan setiap baris secara vertikal berjarak agar tidak bertumpuk."
+      },
+      {
+        "q": "Penyebab umum error 'Gagal membaca JSON' saat menjalankan JsonUtility.FromJson adalah …",
+        "options": [
+          "Nama atau tipe variabel di class model C# tidak cocok dengan format JSON dari server",
+          "Warna background belum disetel",
+          "Jumlah tombol terlalu banyak",
+          "Nama game terlalu panjang"
+        ],
+        "answer": 0,
+        "explanation": "JsonUtility membutuhkan kesesuaian nama variabel dan tipe data dengan JSON balasan server."
+      },
+      {
+        "q": "Jika tombol Kirim ditekan namun tidak ada respon sama sekali di status maupun Console, hal pertama yang harus diperiksa adalah …",
+        "options": [
+          "Daftar event On Click() pada Button apakah sudah mengarah ke LeaderboardManager.SubmitScore()",
+          "Koneksi listrik monitor",
+          "Ukuran resolusi layar",
+          "Kecepatan kipas laptop"
+        ],
+        "answer": 0,
+        "explanation": "Jika event On Click belum dikonfigurasi dengan fungsi yang tepat, tombol tidak akan menjalankan aksi apapun."
+      },
+      {
+        "q": "Untuk sistem game online komersial, mengapa pengiriman skor dari client sebaiknya dilengkapi verifikasi/token hash di server?",
+        "options": [
+          "Supaya ukuran download game menjadi lebih kecil",
+          "Untuk mencegah pemain melakukan kecurangan (cheat) dengan mengirim skor palsu langsung ke endpoint API",
+          "Agar warna teks leaderboard lebih tajam",
+          "Supaya game bisa berjalan tanpa kuota"
+        ],
+        "answer": 1,
+        "explanation": "Enkripsi/signature hash mencegah cheater menembakkan request skor buatan secara langsung ke endpoint REST API."
+      }
+    ]
+  }
+];
+
+const SECTION_IDS = [
+  "tujuan", "konsep-api", "api", "ui", "model",
+  "item", "manager", "hubungkan", "uji", "masalah"
+];
+
+const SECTION_TITLES = [
+  "1. Tujuan",
+  "2. Teori & REST API",
+  "3. Latihan Console",
+  "4. Membuat UI",
+  "5. Model Data JSON",
+  "6. Prefab Baris UI",
+  "7. Script Manager",
+  "8. Inspector Unity",
+  "9. Pengujian Praktik",
+  "10. Troubleshooting"
+];
+
+const STORAGE_KEY = "unity_leaderboard_progress_v2";
+
+let currentSectionIndex = 0;
+let completedSections = new Set(); // indices of completed sections
+
+// Quiz state
+let activeQuizQuestions = []; // 2 randomly selected questions
+let activeQuizQuestionIndex = 0;
+let answeredCurrentCorrectly = false;
+
+// Initialize Progress from localStorage
+function loadProgress() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      const data = JSON.parse(saved);
+      if (Array.isArray(data.completed)) {
+        completedSections = new Set(data.completed);
+      }
+      if (typeof data.currentIndex === "number" && data.currentIndex >= 0 && data.currentIndex < SECTION_IDS.length) {
+        currentSectionIndex = data.currentIndex;
+      }
+    }
+  } catch (e) {
+    console.error("Gagal membaca progress:", e);
+  }
+}
+
+function saveProgress() {
+  try {
+    const data = {
+      completed: Array.from(completedSections),
+      currentIndex: currentSectionIndex
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  } catch (e) {
+    console.error("Gagal menyimpan progress:", e);
+  }
+}
+
+// Max unlocked section index (user can access any section up to maxUnlocked)
+function getMaxUnlockedIndex() {
+  for (let i = 0; i < SECTION_IDS.length; i++) {
+    if (!completedSections.has(i)) {
+      return i;
+    }
+  }
+  return SECTION_IDS.length - 1;
+}
+
+// Update Sidebar Navigation
+function renderNav() {
+  const navList = document.getElementById("nav-list");
+  if (!navList) return;
+  navList.innerHTML = "";
+
+  const maxUnlocked = getMaxUnlockedIndex();
+
+  SECTION_IDS.forEach((id, idx) => {
+    const isCompleted = completedSections.has(idx);
+    const isActive = (idx === currentSectionIndex);
+    const isLocked = (idx > maxUnlocked);
+
+    const a = document.createElement("a");
+    a.className = "nav-item-link" + (isActive ? " active" : "") + (isCompleted ? " completed" : "") + (isLocked ? " locked" : "");
+    a.href = "javascript:void(0)";
+    
+    let icon = "🔒";
+    if (isCompleted) {
+      icon = "✅";
+    } else if (isActive) {
+      icon = "📍";
+    } else if (!isLocked) {
+      icon = "🔓";
+    }
+
+    a.innerHTML = `<span>${SECTION_TITLES[idx]}</span><span class="nav-status-icon">${icon}</span>`;
+
+    a.addEventListener("click", () => {
+      if (isLocked) {
+        showToast("Bagian ini masih terkunci 🔒. Selesaikan bagian sebelumnya terlebih dahulu!");
+      } else {
+        goToSection(idx);
+      }
+    });
+
+    navList.appendChild(a);
+  });
+
+  // Update progress bar
+  const totalCompleted = completedSections.size;
+  const pct = Math.round((totalCompleted / SECTION_IDS.length) * 100);
+  const badge = document.getElementById("nav-progress-badge");
+  const bar = document.getElementById("sidebar-progress-bar");
+  if (badge) badge.textContent = `${totalCompleted}/${SECTION_IDS.length} Selesai`;
+  if (bar) bar.style.width = `${pct}%`;
+}
+
+// Update Bottom Stepper Bar
+function updateStepper() {
+  const btnPrev = document.getElementById("btn-prev");
+  const btnNext = document.getElementById("btn-next");
+  const counter = document.getElementById("step-counter");
+  const status = document.getElementById("step-status");
+
+  if (counter) {
+    counter.textContent = `Bagian ${currentSectionIndex + 1} dari ${SECTION_IDS.length}`;
+  }
+
+  if (btnPrev) {
+    btnPrev.disabled = (currentSectionIndex === 0);
+  }
+
+  const isCompleted = completedSections.has(currentSectionIndex);
+  const isLast = (currentSectionIndex === SECTION_IDS.length - 1);
+
+  if (status) {
+    if (isCompleted) {
+      status.textContent = "Sudah Selesai ✅";
+      status.className = "step-status done";
+    } else {
+      status.textContent = "Belum Selesai ⏳";
+      status.className = "step-status pending";
+    }
+  }
+
+  if (btnNext) {
+    btnNext.className = "btn-stepper";
+    if (isCompleted) {
+      if (isLast) {
+        btnNext.className += " btn-selesai";
+        btnNext.textContent = "🎉 Selesai Seluruh Modul!";
+      } else {
+        btnNext.className += " btn-selanjutnya";
+        btnNext.textContent = "Selanjutnya ▶";
+      }
+    } else {
+      btnNext.className += " btn-selesai";
+      btnNext.textContent = "✓ Selesai & Lanjut Kuis";
+    }
+  }
+}
+
+// Switch Section View
+function goToSection(index) {
+  if (index < 0 || index >= SECTION_IDS.length) return;
+
+  currentSectionIndex = index;
+  saveProgress();
+
+  // Show only active section
+  const sections = document.querySelectorAll("main > section.card");
+  sections.forEach((sec, idx) => {
+    if (idx === currentSectionIndex) {
+      sec.classList.add("active");
+    } else {
+      sec.classList.remove("active");
     }
   });
+
+  renderNav();
+  updateStepper();
+
+  // Scroll to top of main
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// Pick 2 random questions from the 5 questions for this section
+function getTwoRandomQuestions(sectionIndex) {
+  const bank = QUIZ_BANK[sectionIndex].questions;
+  // Clone & shuffle
+  const shuffled = [...bank].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, 2);
+}
+
+// Open Quiz Modal
+function openQuizModal() {
+  activeQuizQuestions = getTwoRandomQuestions(currentSectionIndex);
+  activeQuizQuestionIndex = 0;
+  answeredCurrentCorrectly = false;
+
+  const modal = document.getElementById("quiz-modal");
+  const sectionTitle = document.getElementById("quiz-section-title");
+  if (sectionTitle) {
+    sectionTitle.textContent = QUIZ_BANK[currentSectionIndex].title;
+  }
+
+  renderQuizQuestion();
+  modal.style.display = "flex";
+}
+
+function renderQuizQuestion() {
+  answeredCurrentCorrectly = false;
+  const qData = activeQuizQuestions[activeQuizQuestionIndex];
+
+  const indicator = document.getElementById("quiz-step-indicator");
+  if (indicator) {
+    indicator.textContent = `Soal ${activeQuizQuestionIndex + 1} dari 2`;
+  }
+
+  const qText = document.getElementById("quiz-question-text");
+  if (qText) {
+    qText.textContent = qData.q;
+  }
+
+  const optionsContainer = document.getElementById("quiz-options-container");
+  optionsContainer.innerHTML = "";
+
+  const feedbackBox = document.getElementById("quiz-feedback-box");
+  feedbackBox.style.display = "none";
+  feedbackBox.className = "quiz-feedback-box";
+  feedbackBox.innerHTML = "";
+
+  const btnNext = document.getElementById("btn-quiz-next");
+  btnNext.disabled = true;
+  if (activeQuizQuestionIndex === 0) {
+    btnNext.className = "btn-quiz-next";
+    btnNext.textContent = "Lanjut Soal 2 ▶";
+  } else {
+    btnNext.className = "btn-quiz-next finish-btn";
+    btnNext.textContent = "✓ Selesai & Buka Bagian Berikutnya 🎉";
+  }
+
+  const letters = ["A", "B", "C", "D"];
+
+  qData.options.forEach((optText, optIdx) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "quiz-opt-btn";
+    btn.innerHTML = `<span class="quiz-opt-letter">${letters[optIdx]}</span><span>${optText}</span>`;
+
+    btn.addEventListener("click", () => {
+      checkQuizAnswer(optIdx, btn, qData);
+    });
+
+    optionsContainer.appendChild(btn);
+  });
+}
+
+function checkQuizAnswer(selectedIdx, clickedBtn, qData) {
+  const feedbackBox = document.getElementById("quiz-feedback-box");
+  const btnNext = document.getElementById("btn-quiz-next");
+  const allButtons = document.querySelectorAll(".quiz-opt-btn");
+
+  if (selectedIdx === qData.answer) {
+    // Jawaban Benar!
+    answeredCurrentCorrectly = true;
+    allButtons.forEach(b => {
+      b.disabled = true;
+    });
+    clickedBtn.classList.add("correct");
+
+    feedbackBox.style.display = "block";
+    feedbackBox.className = "quiz-feedback-box success";
+    feedbackBox.innerHTML = `<b>🎉 Jawaban Benar!</b><br>${qData.explanation}`;
+
+    btnNext.disabled = false;
+  } else {
+    // Jawaban Salah
+    clickedBtn.classList.add("incorrect");
+    feedbackBox.style.display = "block";
+    feedbackBox.className = "quiz-feedback-box error";
+    feedbackBox.innerHTML = `<b>❌ Jawaban belum tepat.</b><br>Silakan baca kembali dan coba opsi lainnya!`;
+  }
+}
+
+function onQuizNextClicked() {
+  if (!answeredCurrentCorrectly) return;
+
+  if (activeQuizQuestionIndex === 0) {
+    // Lanjut ke soal ke-2
+    activeQuizQuestionIndex = 1;
+    renderQuizQuestion();
+  } else {
+    // Kuis kedua selesai!
+    // Tandai section ini selesai
+    completedSections.add(currentSectionIndex);
+    saveProgress();
+
+    // Tutup modal
+    const modal = document.getElementById("quiz-modal");
+    modal.style.display = "none";
+
+    showToast("🎉 Selamat! Anda telah menyelesaikan bagian ini!");
+
+    // Otomatis lanjut ke section berikutnya jika ada
+    if (currentSectionIndex < SECTION_IDS.length - 1) {
+      goToSection(currentSectionIndex + 1);
+    } else {
+      renderNav();
+      updateStepper();
+      showToast("🏆 Luar biasa! Anda telah menyelesaikan SELURUH materi modul ini!");
+    }
+  }
+}
+
+// Bottom Nav Action Click Handler
+function onNextClicked() {
+  const isCompleted = completedSections.has(currentSectionIndex);
+  const isLast = (currentSectionIndex === SECTION_IDS.length - 1);
+
+  if (isCompleted) {
+    // Jika sudah selesai, langsung lanjut ke section berikutnya tanpa kuis ulang
+    if (isLast) {
+      showToast("🏆 Anda telah menyelesaikan seluruh modul pembelajaran ini!");
+    } else {
+      goToSection(currentSectionIndex + 1);
+    }
+  } else {
+    // Jika belum selesai, buka popup kuis
+    openQuizModal();
+  }
+}
+
+function showToast(text) {
+  const toast = document.getElementById("toast-msg");
+  if (!toast) return;
+  toast.textContent = text;
+  toast.classList.add("show");
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 2500);
+}
+
+// Setup Events
+document.addEventListener("DOMContentLoaded", () => {
+  loadProgress();
+
+  // Setup buttons
+  const btnPrev = document.getElementById("btn-prev");
+  const btnNext = document.getElementById("btn-next");
+  const btnQuizNext = document.getElementById("btn-quiz-next");
+  const btnReset = document.getElementById("btn-reset-progress");
+
+  if (btnPrev) {
+    btnPrev.addEventListener("click", () => {
+      if (currentSectionIndex > 0) {
+        goToSection(currentSectionIndex - 1);
+      }
+    });
+  }
+
+  if (btnNext) {
+    btnNext.addEventListener("click", onNextClicked);
+  }
+
+  if (btnQuizNext) {
+    btnQuizNext.addEventListener("click", onQuizNextClicked);
+  }
+
+  if (btnReset) {
+    btnReset.addEventListener("click", () => {
+      if (confirm("Apakah Anda yakin ingin mereset seluruh progres belajar dan mengulang dari Bagian 1?")) {
+        localStorage.removeItem(STORAGE_KEY);
+        completedSections.clear();
+        currentSectionIndex = 0;
+        saveProgress();
+        goToSection(0);
+        showToast("Progres belajar telah direset.");
+      }
+    });
+  }
+
+  // Setup copy buttons
+  document.querySelectorAll('pre .copy').forEach(button => {
+    button.addEventListener('click', async () => {
+      const code = button.parentElement.querySelector('code').innerText;
+      try {
+        await navigator.clipboard.writeText(code);
+        button.textContent = 'Tersalin!';
+        setTimeout(() => button.textContent = 'Salin', 1400);
+      } catch (e) {
+        const range = document.createRange();
+        range.selectNodeContents(button.parentElement.querySelector('code'));
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        button.textContent = 'Pilih lalu salin';
+      }
+    });
+  });
+
+  // Initial show
+  goToSection(currentSectionIndex);
 });
 </script>
+
+
+<!-- Modal Popup Kuis Evaluasi -->
+<div id="quiz-modal" class="quiz-modal-backdrop" style="display:none;">
+  <div class="quiz-modal-box">
+    <div class="quiz-modal-header">
+      <div>
+        <span class="quiz-badge">🎯 KUIS EVALUASI BAGIAN</span>
+        <h4 id="quiz-section-title" style="margin:6px 0 0; color:#ffffff; font-size:1.12rem;">Bagian 1: Tujuan Pembelajaran</h4>
+      </div>
+      <div class="quiz-step-pill" id="quiz-step-indicator">Soal 1 dari 2</div>
+    </div>
+    
+    <div class="quiz-modal-body">
+      <div id="quiz-question-text" class="quiz-question-text">Pertanyaan akan muncul di sini...</div>
+      <div id="quiz-options-container" class="quiz-options-grid"></div>
+      
+      <div id="quiz-feedback-box" class="quiz-feedback-box" style="display:none;"></div>
+    </div>
+    
+    <div class="quiz-modal-footer">
+      <button type="button" id="btn-quiz-next" class="btn-quiz-next" disabled>Lanjut Soal 2 ▶</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast-msg" class="toast-msg">Notifikasi</div>
+
 </body>
 </html>
