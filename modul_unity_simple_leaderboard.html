@@ -794,7 +794,7 @@ public class LatihanPostJsonConsole : MonoBehaviour
         Debug.Log("Menyiapkan payload JSON untuk: " + nama + " (" + skor + ")");
 
         // 1. Susun string format JSON sesuai format API
-        string jsonPayload = "{"nama":"" + nama + "","nilai":" + skor + "}";
+        string jsonPayload = "{\"nama\":\"" + nama + "\",\"nilai\":" + skor + "}";
         Debug.Log("Payload String: " + jsonPayload);
 
         // 2. Ubah string JSON menjadi byte array UTF-8
