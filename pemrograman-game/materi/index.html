@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Materi Pembelajaran Pemrograman Gim - SMK Telkom Malang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #00F0FF;
+      --primary-hover: #00FFFF;
+      --primary-glow: rgba(0, 240, 255, 0.35);
+      --bg-dark: #050811;
+      --card-bg: rgba(14, 22, 37, 0.6);
+      --border-glass: rgba(255, 255, 255, 0.06);
+      --border-glass-focus: rgba(0, 240, 255, 0.4);
+      --text-main: #f4f4f5;
+      --text-secondary: #a1a1aa;
+      --font-display: 'Orbitron', 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', 'Inter', sans-serif;
+      --border-radius-lg: 20px;
+      --border-radius-md: 14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 60px 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Cyberpunk Grid Background */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: 
+        radial-gradient(var(--primary) 1px, transparent 1px),
+        linear-gradient(rgba(0, 240, 255, 0.02) 1px, transparent 1px);
+      background-size: 32px 32px;
+      opacity: 0.15;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      z-index: 2;
+      position: relative;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .header-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      border-radius: 4px;
+      color: var(--primary);
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 900;
+      color: #ffffff;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+
+    header h1 span { 
+      color: var(--primary); 
+      text-shadow: 0 0 20px var(--primary-glow);
+    }
+
+    header p {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Back home button */
+    .back-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      font-family: var(--font-display);
+      margin-bottom: 30px;
+      transition: opacity 0.2s;
+    }
+    .back-home:hover {
+      opacity: 0.8;
+      text-shadow: 0 0 10px var(--primary-glow);
+    }
+
+    /* Materials Grid */
+    .materials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 24px;
+      margin-bottom: 50px;
+    }
+
+    .material-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--border-radius-md);
+      padding: 28px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .material-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; width: 4px; height: 100%;
+      background: var(--primary);
+      opacity: 0.3;
+      transition: opacity 0.3s;
+    }
+
+    .material-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--primary);
+      box-shadow: 0 12px 30px rgba(0, 240, 255, 0.1);
+    }
+
+    .material-card:hover::before {
+      opacity: 1;
+    }
+
+    .material-card.locked {
+      filter: blur(3px);
+      opacity: 0.55;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .material-card.locked::before {
+      background: #71717a;
+    }
+
+    .material-card.locked:hover {
+      transform: none;
+      border-color: var(--border-glass);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .material-card.locked:hover::before {
+      opacity: 0.3;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 14px;
+    }
+
+    .modul-num {
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background: rgba(0, 240, 255, 0.12);
+      color: var(--primary);
+      padding: 4px 10px;
+      border-radius: 4px;
+      border: 1px solid rgba(0, 240, 255, 0.2);
+    }
+
+    .locked .modul-num {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-secondary);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .material-card h2 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .locked h2 {
+      color: #a1a1aa;
+    }
+
+    .material-card p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-bottom: 24px;
+      flex-grow: 1;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 10px 14px;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      text-align: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      letter-spacing: 0.03em;
+      flex-grow: 1;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #000000;
+    }
+
+    .btn-primary:hover {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-glass);
+      color: #ffffff;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-locked {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      color: #71717a;
+      pointer-events: none;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.2);
+      border-top: 1px solid var(--border-glass);
+      padding-top: 24px;
+    }
+
+    /* Animations */
+    .fade-in {
+      animation: fadeIn 0.6s ease forwards;
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <a href="../index.html" class="back-home">← KEMBALI KE PORTAL</a>
+
+    <header class="fade-in">
+      <div class="header-badge">SMK Telkom Malang</div>
+      <h1>Daftar Modul <span>Pemrograman Gim</span></h1>
+      <p>Pilih materi di bawah ini untuk menampilkan panduan praktik interaktif dan membuat game berkualitas tinggi.</p>
+    </header>
+
+    <div class="materials-grid">
+      
+      <!-- Modul 1 -->
+      <div class="material-card fade-in" style="animation-delay: 0.1s;">
+        <div>
+          <div class="card-header">
+            <span class="modul-num">MATERI 01</span>
+          </div>
+          <h2>Game Platformer 2D</h2>
+          <p>Pelajari pembuatan game platformer di Unity. Pembahasan mendalam mulai dari setup character, pergerakan horizontal, lompatan, deteksi ground check, kamera dinamis, patroli musuh, hingga visualisasi Game Over.</p>
+        </div>
+        <div class="card-actions">
+          <a href="../materi1/index.html" class="btn btn-primary">📖 Buka Modul</a>
+        </div>
+      </div>
+
+      <!-- Modul 2 -->
+      <div class="material-card fade-in" style="animation-delay: 0.2s;">
+        <div>
+          <div class="card-header">
+            <span class="modul-num">MATERI 02</span>
+          </div>
+          <h2>Game Kuis Interaktif (Canvas UI)</h2>
+          <p>Pelajari pembuatan game kuis berbasis Canvas di Unity. Mulai dari layout UI menggunakan Shape, skrip soal bertahap, arsitektur SoalManager, randomisasi soal, hingga sistem countdown timer.</p>
+        </div>
+        <div class="card-actions">
+          <a href="../materi2/index.html" class="btn btn-primary">📖 Buka Modul</a>
+        </div>
+      </div>
+
+      <!-- Modul 3 Placeholder -->
+      <div class="material-card locked fade-in" style="animation-delay: 0.3s;">
+        <div>
+          <div class="card-header">
+            <span class="modul-num">MATERI 03</span>
+          </div>
+          <h2>Inventory & Collectibles 🔒</h2>
+          <p>Membangun sistem inventaris berbasis ScriptableObject, menangani pengambilan item koin/kunci, sistem UI grid dinamis, dan mekanisme item usage.</p>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-locked">🔒 Belum Tersedia</a>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>© 2026 Tim Pembelajaran Pemrograman Gim - SMK Telkom Malang</p>
+    </footer>
+  </div>
+
+</body>
+</html>

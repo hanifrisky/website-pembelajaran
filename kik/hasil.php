@@ -681,6 +681,7 @@ usort($submissions, function($a, $b) {
               <a href="hasil_latihan.csv" id="downloadBtn" class="btn btn-secondary" download="hasil_latihan.csv">📥 Unduh Semua (CSV)</a>
               <button class="btn btn-danger" onclick="openResetModal()">⚠️ Kosongkan Database</button>
             <?php endif; ?>
+            <a href="cek_soal.php" class="btn btn-secondary">📝 Edit & Cek Bank Soal</a>
             <a href="index.html" class="btn btn-primary">🌐 Buka Portal Utama</a>
           </div>
         </div>

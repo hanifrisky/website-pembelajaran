@@ -26,6 +26,8 @@
       --color-gim-glow: rgba(255, 229, 0, 0.25);
       --color-dm: #C9F13B; /* Neon Lime */
       --color-dm-glow: rgba(201, 241, 59, 0.25);
+      --color-prg: #00F0FF; /* Neon Cyan */
+      --color-prg-glow: rgba(0, 240, 255, 0.25);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -86,6 +88,13 @@
       bottom: 20%;
       left: 15%;
       background: radial-gradient(circle, var(--color-dm) 0%, transparent 70%);
+      opacity: 0.05;
+    }
+
+    .glow-prg {
+      top: 20%;
+      right: 25%;
+      background: radial-gradient(circle, var(--color-prg) 0%, transparent 70%);
       opacity: 0.05;
     }
 
@@ -192,6 +201,7 @@
     .card-kka::before { background: var(--color-kka); }
     .card-gim::before { background: var(--color-gim); }
     .card-dm::before { background: var(--color-dm); }
+    .card-prg::before { background: var(--color-prg); }
 
     /* Card Hovers */
     .app-card:hover {
@@ -218,6 +228,10 @@
     .card-dm:hover {
       border-color: var(--color-dm);
       box-shadow: 0 15px 40px rgba(201, 241, 59, 0.15);
+    }
+    .card-prg:hover {
+      border-color: var(--color-prg);
+      box-shadow: 0 15px 40px rgba(0, 240, 255, 0.15);
     }
 
     .card-badge {
@@ -252,6 +266,11 @@
       background: rgba(201, 241, 59, 0.1);
       color: var(--color-dm);
       border-color: rgba(201, 241, 59, 0.2);
+    }
+    .card-prg .card-badge {
+      background: rgba(0, 240, 255, 0.1);
+      color: var(--color-prg);
+      border-color: rgba(0, 240, 255, 0.2);
     }
 
     .app-card h2 {
@@ -327,6 +346,17 @@
       box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
     }
 
+    .card-prg .btn {
+      background: var(--color-prg);
+      color: #000000;
+      box-shadow: 0 4px 14px var(--color-prg-glow);
+    }
+    .card-prg .btn:hover {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+    }
+
     footer {
       font-size: 0.85rem;
       color: rgba(255, 255, 255, 0.3);
@@ -358,6 +388,7 @@
     <div class="glow-blob glow-kka" id="glow-kka"></div>
     <div class="glow-blob glow-gim" id="glow-gim"></div>
     <div class="glow-blob glow-dm" id="glow-dm"></div>
+    <div class="glow-blob glow-prg" id="glow-prg"></div>
   </div>
 
   <div class="container">
@@ -409,6 +440,16 @@
         <a href="digital-marketing/index.html" class="btn">🌐 Masuk Portal Marketing</a>
       </div>
 
+      <!-- 5. PORTAL PEMROGRAMAN GIM -->
+      <div class="app-card card-prg fade-in" style="animation-delay: 0.5s;" onmouseenter="focusApp('prg')" onmouseleave="resetFocus()">
+        <div>
+          <span class="card-badge">Game Programming</span>
+          <h2>Portal Pemrograman Gim</h2>
+          <p>Unity C# & Game Development. Pelajari dasar-dasar pemrograman game menggunakan Unity, mulai dari pergerakan karakter, mekanik lompat, ground check, AI patroli musuh, hingga interaksi UI.</p>
+        </div>
+        <a href="pemrograman-game/index.html" class="btn">🌐 Masuk Portal Pemrograman</a>
+      </div>
+
     </div>
 
     <footer class="fade-in" style="animation-delay: 0.4s;">
@@ -421,6 +462,7 @@
     const blobKka = document.getElementById('glow-kka');
     const blobGim = document.getElementById('glow-gim');
     const blobDm = document.getElementById('glow-dm');
+    const blobPrg = document.getElementById('glow-prg');
 
     function focusApp(app) {
       if (app === 'kik') {
@@ -429,24 +471,35 @@
         blobKka.style.opacity = '0.05';
         blobGim.style.opacity = '0.02';
         blobDm.style.opacity = '0.02';
+        blobPrg.style.opacity = '0.02';
       } else if (app === 'kka') {
         blobKka.style.opacity = '0.35';
         blobKka.style.transform = 'scale(1.2)';
         blobKik.style.opacity = '0.05';
         blobGim.style.opacity = '0.02';
         blobDm.style.opacity = '0.02';
+        blobPrg.style.opacity = '0.02';
       } else if (app === 'gim') {
         blobGim.style.opacity = '0.35';
         blobGim.style.transform = 'scale(1.2)';
         blobKik.style.opacity = '0.02';
         blobKka.style.opacity = '0.02';
         blobDm.style.opacity = '0.02';
+        blobPrg.style.opacity = '0.02';
       } else if (app === 'dm') {
         blobDm.style.opacity = '0.35';
         blobDm.style.transform = 'scale(1.2)';
         blobKik.style.opacity = '0.02';
         blobKka.style.opacity = '0.02';
         blobGim.style.opacity = '0.02';
+        blobPrg.style.opacity = '0.02';
+      } else if (app === 'prg') {
+        blobPrg.style.opacity = '0.35';
+        blobPrg.style.transform = 'scale(1.2)';
+        blobKik.style.opacity = '0.02';
+        blobKka.style.opacity = '0.02';
+        blobGim.style.opacity = '0.02';
+        blobDm.style.opacity = '0.02';
       }
     }
 
@@ -459,6 +512,8 @@
       blobGim.style.transform = 'scale(1)';
       blobDm.style.opacity = '0.05';
       blobDm.style.transform = 'scale(1)';
+      blobPrg.style.opacity = '0.05';
+      blobPrg.style.transform = 'scale(1)';
     }
   </script>
 </body>

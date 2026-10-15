@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIFT Question Viewer - Digital Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #070d0a;
+      --panel-bg: #0e1713;
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --card-hover: rgba(255, 255, 255, 0.06);
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --primary: #C9F13B;
+      --primary-hover: #b4db2d;
+      --correct-bg: rgba(16, 185, 129, 0.14);
+      --correct-border: #10B981;
+      --correct-text: #34D399;
+      --text-main: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: radial-gradient(rgba(201, 241, 59, 0.03) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+
+    /* Top Header */
+    header {
+      background: rgba(14, 23, 19, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-glass);
+      padding: 16px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-logo {
+      width: 38px; height: 38px;
+      background: var(--primary);
+      color: #000;
+      font-family: var(--font-display);
+      font-weight: 800;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .brand-title h1 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #FFF;
+    }
+    .brand-title p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* File Name Indicator */
+    .file-name-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-glass);
+      padding: 8px 16px;
+      border-radius: 99px;
+      max-width: 300px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Main Workspace Layout */
+    .main-container {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      flex: 1;
+      height: calc(100vh - 71px);
+      overflow: hidden;
+    }
+
+    /* Left Pane: Question Viewer */
+    .viewer-pane {
+      padding: 32px 40px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Interactive Drag and Drop Box */
+    .drop-zone {
+      margin: auto;
+      text-align: center;
+      width: 100%;
+      max-width: 540px;
+      background: var(--panel-bg);
+      border: 2px dashed rgba(201, 241, 59, 0.3);
+      border-radius: 24px;
+      padding: 54px 36px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .drop-zone:hover, .drop-zone.dragover {
+      border-color: var(--primary);
+      background: rgba(201, 241, 59, 0.05);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(201, 241, 59, 0.12);
+    }
+    .drop-icon {
+      font-size: 54px;
+      margin-bottom: 18px;
+      line-height: 1;
+      transition: transform 0.2s ease;
+    }
+    .drop-zone:hover .drop-icon {
+      transform: scale(1.1);
+    }
+    .drop-zone h2 {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: #FFF;
+      margin-bottom: 10px;
+    }
+    .drop-zone p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .supported-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      background: rgba(201, 241, 59, 0.1);
+      border: 1px solid rgba(201, 241, 59, 0.2);
+      padding: 6px 14px;
+      border-radius: 99px;
+    }
+
+    #fileInput { display: none; }
+
+    /* Question Display Area */
+    .question-wrapper {
+      display: none;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .question-wrapper.active {
+      display: flex;
+    }
+
+    .q-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .q-badge {
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      background: rgba(201, 241, 59, 0.1);
+      padding: 6px 14px;
+      border-radius: 99px;
+      border: 1px solid rgba(201, 241, 59, 0.2);
+      letter-spacing: 0.05em;
+    }
+    .q-title-tag {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .q-prompt {
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: #FFFFFF;
+      font-weight: 600;
+      background: var(--panel-bg);
+      border: 1px solid var(--border-glass);
+      border-radius: 16px;
+      padding: 24px 28px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Choices List */
+    .choices-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .choice-card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--border-glass);
+      border-radius: 14px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      transition: all 0.2s ease;
+    }
+    .choice-letter {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.95rem;
+      width: 32px; height: 32px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text-muted);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .choice-text {
+      font-size: 0.95rem;
+      line-height: 1.55;
+      color: var(--text-main);
+      flex: 1;
+      padding-top: 3px;
+    }
+
+    /* Correct Choice Styling (GREEN ONLY) */
+    .choice-card.correct {
+      background: var(--correct-bg);
+      border-color: var(--correct-border);
+      box-shadow: 0 4px 20px rgba(16, 185, 129, 0.15);
+    }
+    .choice-card.correct .choice-letter {
+      background: var(--correct-border);
+      color: #000;
+    }
+    .choice-card.correct .choice-text {
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+
+    /* Navigation Controls Footer */
+    .controls-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-glass);
+    }
+    .btn-nav {
+      background: var(--panel-bg);
+      color: var(--text-main);
+      border: 1px solid var(--border-glass);
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 12px 22px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-nav:hover:not(:disabled) {
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+    .btn-nav:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    /* Right Pane: Question Navigator Grid */
+    .nav-pane {
+      background: var(--panel-bg);
+      border-left: 1px solid var(--border-glass);
+      padding: 24px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .nav-pane-header {
+      border-bottom: 1px solid var(--border-glass);
+      padding-bottom: 14px;
+    }
+    .nav-pane-header h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      color: #FFF;
+      margin-bottom: 4px;
+    }
+    .nav-pane-header p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .q-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+    .q-grid-btn {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.85rem;
+      aspect-ratio: 1;
+      border-radius: 10px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-glass);
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.15s ease;
+    }
+    .q-grid-btn:hover {
+      border-color: var(--primary);
+      color: #FFF;
+    }
+    .q-grid-btn.active {
+      background: var(--primary);
+      color: #000;
+      border-color: var(--primary);
+      box-shadow: 0 0 15px rgba(201, 241, 59, 0.3);
+    }
+
+    @media (max-width: 900px) {
+      .main-container {
+        grid-template-columns: 1fr;
+        height: auto;
+        overflow: visible;
+      }
+      .viewer-pane { padding: 20px; }
+      .nav-pane { border-left: none; border-top: 1px solid var(--border-glass); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">G</div>
+      <div class="brand-title">
+        <h1>GIFT Question Viewer</h1>
+        <p>SMK Telkom Malang — Pembelajaran Digital Marketing</p>
+      </div>
+    </div>
+
+    <div class="file-name-label" id="fileNameDisplay">Belum ada file dimuat</div>
+    <input type="file" id="fileInput" accept=".txt,.gift" onchange="handleFileSelect(event)">
+  </header>
+
+  <!-- Main Container -->
+  <div class="main-container">
+    
+    <!-- Left Pane: Question Viewer Area -->
+    <div class="viewer-pane">
+      
+      <!-- Interactive Drag & Drop Box -->
+      <div class="drop-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
+        <div class="drop-icon">📥</div>
+        <h2>Tarik & Lepas File TXT / GIFT Di Sini</h2>
+        <p>atau klik area ini untuk memilih file dari komputer Anda (Explorer)</p>
+        <span class="supported-badge">Format Didukung: .TXT / .GIFT</span>
+      </div>
+
+      <!-- Question Wrapper Area -->
+      <div class="question-wrapper" id="questionWrapper">
+        <div class="q-meta">
+          <span class="q-badge" id="qBadge">SOAL 01 DARI 50</span>
+          <span class="q-title-tag" id="qTitleTag">Modul 01</span>
+        </div>
+
+        <div class="q-prompt" id="qPrompt">
+          Prompt soal akan tampil di sini...
+        </div>
+
+        <div class="choices-list" id="choicesList">
+          <!-- Options A, B, C, D, E rendered dynamically -->
+        </div>
+
+        <!-- Lower Navigation Controls -->
+        <div class="controls-bar">
+          <button class="btn-nav" id="prevBtn" onclick="navigateQuestion(-1)">
+            ← Sebelumnya
+          </button>
+          <span style="font-size: 0.85rem; color: var(--text-muted);" id="progressText">1 / 50</span>
+          <button class="btn-nav" id="nextBtn" onclick="navigateQuestion(1)">
+            Berikutnya →
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right Pane: Question Navigator -->
+    <div class="nav-pane">
+      <div class="nav-pane-header">
+        <h3>Navigasi Soal</h3>
+        <p id="navSubtext">Pilih nomor soal untuk melompat</p>
+      </div>
+
+      <div class="q-grid" id="qGrid">
+        <!-- Buttons 1 to 50 rendered dynamically -->
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    let questionsData = [];
+    let currentIndex = 0;
+
+    // Drag and Drop Event Listeners
+    const dropZone = document.getElementById('dropZone');
+
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+      dropZone.addEventListener(eventName, preventDefaults, false);
+      document.body.addEventListener(eventName, preventDefaults, false);
+    });
+
+    function preventDefaults(e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropZone.addEventListener(eventName, () => dropZone.classList.add('dragover'), false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropZone.addEventListener(eventName, () => dropZone.classList.remove('dragover'), false);
+    });
+
+    dropZone.addEventListener('drop', handleDrop, false);
+
+    function handleDrop(e) {
+      const dt = e.dataTransfer;
+      const files = dt.files;
+
+      if (files && files.length > 0) {
+        const file = files[0];
+        document.getElementById('fileNameDisplay').textContent = file.name;
+        const reader = new FileReader();
+        reader.onload = function(evt) {
+          processContent(evt.target.result, file.name);
+        };
+        reader.readAsText(file, 'UTF-8');
+      }
+    }
+
+    // GIFT Format Parser
+    function parseGIFTText(text) {
+      const questions = [];
+      const rawBlocks = text.split(/\n\s*\n/);
+
+      for (let rawBlock of rawBlocks) {
+        let block = rawBlock.trim();
+        if (!block) continue;
+
+        const match = block.match(/^(.*?)\{(.*?)\}\s*$/s);
+        if (!match) continue;
+
+        let header = match[1].trim();
+        let body = match[2].trim();
+
+        let title = '';
+        let prompt = header;
+
+        const titleMatch = header.match(/^::(.*?)::(.*)$/s);
+        if (titleMatch) {
+          title = titleMatch[1].trim();
+          prompt = titleMatch[2].trim();
+        }
+
+        const lines = body.split(/\n/);
+        const choices = [];
+
+        for (let line of lines) {
+          line = line.trim();
+          if (!line) continue;
+
+          let isCorrect = false;
+          let textContent = line;
+
+          if (line.startsWith('=')) {
+            isCorrect = true;
+            textContent = line.substring(1).trim();
+          } else if (line.startsWith('~')) {
+            isCorrect = false;
+            textContent = line.substring(1).trim();
+          } else {
+            continue;
+          }
+
+          if (textContent.includes('#')) {
+            textContent = textContent.split('#')[0].trim();
+          }
+
+          choices.push({
+            text: textContent,
+            isCorrect: isCorrect
+          });
+        }
+
+        if (choices.length > 0) {
+          questions.push({
+            title: title || `Soal ${questions.length + 1}`,
+            prompt: prompt,
+            choices: choices
+          });
+        }
+      }
+
+      return questions;
+    }
+
+    // Handle File Selection via Explorer
+    function handleFileSelect(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      document.getElementById('fileNameDisplay').textContent = file.name;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        processContent(e.target.result, file.name);
+      };
+      reader.readAsText(file, 'UTF-8');
+    }
+
+    // Process Parsed Questions and Update UI
+    function processContent(text, sourceName) {
+      questionsData = parseGIFTText(text);
+
+      if (questionsData.length === 0) {
+        alert('Format file GIFT tidak valid atau tidak ditemukan soal!');
+        return;
+      }
+
+      currentIndex = 0;
+      document.getElementById('dropZone').style.display = 'none';
+      document.getElementById('questionWrapper').classList.add('active');
+
+      renderNavGrid();
+      renderQuestion(currentIndex);
+    }
+
+    // Render Current Question
+    function renderQuestion(index) {
+      if (index < 0 || index >= questionsData.length) return;
+
+      const q = questionsData[index];
+      const total = questionsData.length;
+
+      document.getElementById('qBadge').textContent = `SOAL ${pad(index + 1)} DARI ${pad(total)}`;
+      document.getElementById('qTitleTag').textContent = q.title;
+      document.getElementById('qPrompt').textContent = q.prompt;
+      document.getElementById('progressText').textContent = `${index + 1} / ${total}`;
+
+      // Render Choices
+      const choicesList = document.getElementById('choicesList');
+      choicesList.innerHTML = '';
+
+      const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+      q.choices.forEach((c, idx) => {
+        const card = document.createElement('div');
+        card.className = `choice-card ${c.isCorrect ? 'correct' : ''}`;
+
+        card.innerHTML = `
+          <div class="choice-letter">${letters[idx] || (idx + 1)}</div>
+          <div class="choice-text">${escapeHTML(c.text)}</div>
+        `;
+
+        choicesList.appendChild(card);
+      });
+
+      // Update Nav Buttons
+      document.getElementById('prevBtn').disabled = (index === 0);
+      document.getElementById('nextBtn').disabled = (index === total - 1);
+
+      // Highlight active grid button
+      const gridBtns = document.querySelectorAll('.q-grid-btn');
+      gridBtns.forEach((btn, i) => {
+        btn.classList.toggle('active', i === index);
+      });
+    }
+
+    // Render Navigation Grid
+    function renderNavGrid() {
+      const grid = document.getElementById('qGrid');
+      grid.innerHTML = '';
+
+      document.getElementById('navSubtext').textContent = `Total: ${questionsData.length} Soal`;
+
+      questionsData.forEach((_, idx) => {
+        const btn = document.createElement('button');
+        btn.className = `q-grid-btn ${idx === currentIndex ? 'active' : ''}`;
+        btn.textContent = idx + 1;
+        btn.onclick = () => {
+          currentIndex = idx;
+          renderQuestion(currentIndex);
+        };
+        grid.appendChild(btn);
+      });
+    }
+
+    // Navigate Next/Prev
+    function navigateQuestion(step) {
+      const newIndex = currentIndex + step;
+      if (newIndex >= 0 && newIndex < questionsData.length) {
+        currentIndex = newIndex;
+        renderQuestion(currentIndex);
+      }
+    }
+
+    // Helper functions
+    function pad(n) { return n.toString().padStart(2, '0'); }
+    function escapeHTML(str) {
+      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+  </script>
+</body>
+</html>

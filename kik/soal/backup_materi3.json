@@ -1,0 +1,1207 @@
+{
+  "materi": "Desain dan Produksi Kreatif",
+  "deskripsi": "Menerapkan metode Design Thinking (Empathize, Define, Ideate, Prototype, Test) dalam proses manufaktur kreatif dan iterasi produk minimum layak pakai (MVP).",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 2,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk layanan digital mobile. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 3,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 4,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 5,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 6,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk manufaktur pakaian berkelanjutan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 7,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 8,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk layanan digital mobile. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 9,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 10,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Empathize' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengadakan sesi wawancara mendalam dan observasi langsung terhadap aktivitas harian calon pengguna di rumah mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyebarkan kuesioner online dengan pertanyaan pilihan ganda yang tertutup agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk membuat asumsi logis sendiri berdasarkan pengalaman masa kecil tim desainer secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "3617713f"
+    },
+    {
+      "no": 11,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 12,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 13,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 14,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 15,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 16,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 17,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 18,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 19,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 20,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Define' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan 'Problem Statement' yang berpusat pada pengguna (User-Centered) berdasarkan temuan hambatan terdalam mereka demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menulis dokumen spesifikasi teknis pemrograman software setebal seratus halaman agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menghitung kisaran modal awal yang dibutuhkan untuk mendirikan pabrik fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "fa2c82a9"
+    },
+    {
+      "no": 21,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 22,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 23,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 24,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 25,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 26,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 27,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 28,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 29,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 30,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Ideate' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menggunakan metode brainstorming Crazy Eights untuk memicu ratusan ide liar inovatif tanpa sensor logika rasional demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk memilih satu ide pertama yang diusulkan oleh pimpinan studio untuk menghemat waktu rapat agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniru persis desain kemasan produk sejenis milik kompetitor terpopuler secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "26ab4a66"
+    },
+    {
+      "no": 31,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 32,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 33,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 34,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 35,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 36,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 37,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 38,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 39,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 40,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Prototype' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membuat purwarupa kertas (paper prototype) skala kecil yang murah untuk menguji fungsionalitas interaksi dasar demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membuat produk final berskala penuh dengan bahan zirah baja antikarat sejak hari pertama agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menyewa jasa pengembang software profesional luar negeri untuk menulis kode program penuh secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "54bc9180"
+    },
+    {
+      "no": 41,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 42,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk manufaktur pakaian berkelanjutan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 43,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 44,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 45,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 46,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk layanan digital mobile. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 47,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 48,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk manufaktur pakaian berkelanjutan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 49,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 50,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Test' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengamati perilaku pengguna saat berinteraksi langsung dengan purwarupa tanpa memberikan instruksi petunjuk demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk meminta pengguna mengisi formulir penilaian kepuasan tertulis setelah seminggu memakai produk agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menanyakan pertanyaan menggiring untuk membuktikan bahwa desain produk sudah sempurna secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b40c30f8"
+    },
+    {
+      "no": 51,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 52,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 53,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 54,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 55,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 56,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 57,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 58,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 59,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 60,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Lean Production' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meminimalkan pemborosan (waste) dengan memproduksi barang hanya jika ada pesanan masuk (just-in-time system) demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menimbun bahan baku mentah sebanyak-banyaknya di gudang untuk mengantisipasi kelangkaan agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mempercepat durasi kerja mesin pabrik tanpa memperhatikan standar kelayakan operasional secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "580643a2"
+    },
+    {
+      "no": 61,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 62,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk layanan digital mobile. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 63,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 64,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 65,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 66,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk manufaktur pakaian berkelanjutan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 67,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 68,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk layanan digital mobile. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 69,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 70,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Quality Control (QC)' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan titik inspeksi kelayakan produk di setiap akhir tahapan perakitan sebelum masuk ke gudang kemasan demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menyerahkan tanggung jawab pemeriksaan kualitas barang kepada kurir jasa pengiriman eksternal agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk mengabaikan retakan kecil pada produk asalkan jumlah barang yang lolos melebihi target harian secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "222a80a"
+    },
+    {
+      "no": 71,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 72,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 73,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 74,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 75,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 76,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 77,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 78,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 79,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 80,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Ethical Sourcing' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan semua bahan baku diperoleh dari mitra lokal yang menerapkan asas ramah lingkungan dan upah pekerja adil demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk membeli bahan kimia termurah dari distributor asing tanpa sertifikat keamanan kelayakan kerja agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menebang pohon di hutan lindung secara sembunyi-sembunyi demi menekan biaya produksi secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "8e66a33e"
+    },
+    {
+      "no": 81,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 82,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 83,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 84,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 85,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 86,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 87,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 88,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 89,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 90,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Eco-Friendly Packaging' untuk memproduksi produk jasa agribisnis perkotaan. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk mengganti wadah plastik sekali pakai dengan karton serat nanas yang mudah terurai di tanah dalam waktu singkat demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk melapisi kemasan produk dengan bahan foil mengkilap agar terlihat premium meskipun sulit didaur ulang agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk meniadakan kemasan sama sekali sehingga produk dikirim dalam kondisi tanpa perlindungan fisik secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "5a936b54"
+    },
+    {
+      "no": 91,
+      "question": "Studio Nusantara Food menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 92,
+      "question": "Studio Sinergi Tech menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 93,
+      "question": "Studio Lokal Mandiri menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 94,
+      "question": "Studio Karya Agung menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 95,
+      "question": "Studio Lestari Hijau menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 96,
+      "question": "Studio Batik Digital menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 97,
+      "question": "Studio Tani Jaya menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 98,
+      "question": "Studio Kreatif Studio menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk aplikasi edukasi online. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 99,
+      "question": "Studio Artha Mulia menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk kerajinan tangan daur ulang. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    },
+    {
+      "no": 100,
+      "question": "Studio Cipta Karya menerapkan metode Design Thinking pada tahap 'Minimum Viable Product (MVP)' untuk memproduksi produk kuliner tradisional. Langkah paling taktis yang harus mereka ambil adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk meluncurkan produk dengan fitur esensial dasar untuk memvalidasi minat pasar nyata dan mengumpulkan masukan awal demi memastikan produk benar-benar memecahkan masalah nyata pengguna",
+        "B": "Mengambil keputusan untuk menambahkan ribuan fitur kustom tambahan di awal produksi untuk memukau calon pembeli di pasar agar menghemat waktu pengujian pasar",
+        "C": "Memutuskan untuk menunda peluncuran produk hingga sepuluh tahun menunggu tidak ada kesalahan sistem sama sekali secara sepihak tanpa data validasi rill",
+        "D": "Meningkatkan harga jual produk agar sebanding dengan nilai prestise merek",
+        "E": "Menghapus seluruh fitur penyesuaian kustom agar proses produksi lebih seragam"
+      },
+      "answer_hash": "b4d51fff"
+    }
+  ]
+}

@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi 2: Game Kuis Interaktif Menggunakan Canvas - SMK Telkom Malang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #00F0FF;
+      --primary-hover: #00FFFF;
+      --primary-glow: rgba(0, 240, 255, 0.35);
+      --bg-dark: #050811;
+      --bg-surface: #0a0f1d;
+      --card-bg: rgba(14, 22, 37, 0.75);
+      --bg-code: #070b14;
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --border-glass-focus: rgba(0, 240, 255, 0.4);
+      --text-main: #f4f4f5;
+      --text-secondary: #a1a1aa;
+      --font-display: 'Orbitron', 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', 'Inter', sans-serif;
+      --font-code: 'JetBrains Mono', monospace;
+      --border-radius-lg: 16px;
+      --border-radius-md: 10px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Cyberpunk Grid Background */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: 
+        radial-gradient(var(--primary) 1px, transparent 1px),
+        linear-gradient(rgba(0, 240, 255, 0.02) 1px, transparent 1px);
+      background-size: 32px 32px;
+      opacity: 0.12;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Header Nav */
+    .top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(5, 8, 17, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-glass);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .nav-logo {
+      font-family: var(--font-display);
+      font-weight: 900;
+      font-size: 1.05rem;
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-logo span {
+      color: var(--primary);
+      text-shadow: 0 0 10px var(--primary-glow);
+    }
+
+    .nav-breadcrumb {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-breadcrumb a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-breadcrumb a:hover {
+      color: var(--primary);
+    }
+
+    .btn-back-hub {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+      font-family: var(--font-display);
+      font-size: 0.82rem;
+      letter-spacing: 0.05em;
+      padding: 6px 14px;
+      background: rgba(0, 240, 255, 0.08);
+      border: 1px solid rgba(0, 240, 255, 0.25);
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-back-hub:hover {
+      background: var(--primary);
+      color: #000000;
+      box-shadow: 0 0 15px var(--primary-glow);
+    }
+
+    /* Layout */
+    .layout-container {
+      display: flex;
+      width: 100%;
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 30px 24px 80px;
+      gap: 36px;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Sidebar Sticky */
+    aside.sidebar {
+      width: 290px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 80px;
+      height: calc(100vh - 100px);
+      overflow-y: auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--border-radius-lg);
+      padding: 22px;
+      backdrop-filter: blur(12px);
+    }
+
+    aside.sidebar::-webkit-scrollbar {
+      width: 5px;
+    }
+    aside.sidebar::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+    }
+
+    .toc-title {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--primary);
+      margin-bottom: 18px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-glass);
+    }
+
+    .toc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .toc-link {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.86rem;
+      display: block;
+      padding: 7px 12px;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+      line-height: 1.4;
+      border-left: 2px solid transparent;
+    }
+
+    .toc-link:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .toc-link.active {
+      color: var(--primary);
+      background: rgba(0, 240, 255, 0.08);
+      border-left-color: var(--primary);
+      font-weight: 600;
+    }
+
+    /* Content Area */
+    main.content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .module-header {
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--border-glass);
+    }
+
+    .module-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      border-radius: 4px;
+      color: var(--primary);
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .module-header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 900;
+      color: #ffffff;
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+
+    .module-header p.subtitle {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 820px;
+    }
+
+    /* Sections */
+    .module-section {
+      margin-bottom: 50px;
+      scroll-margin-top: 90px;
+    }
+
+    .module-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: #ffffff;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-num {
+      color: var(--primary);
+      font-size: 1.4rem;
+    }
+
+    .module-section p {
+      font-size: 0.98rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
+
+    /* Step Lists */
+    .step-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .step-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--border-radius-md);
+      padding: 18px 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+
+    .step-item:hover {
+      border-color: rgba(0, 240, 255, 0.3);
+    }
+
+    .step-bullet {
+      width: 28px;
+      height: 28px;
+      background: rgba(0, 240, 255, 0.15);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      color: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .step-text {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      flex: 1;
+    }
+
+    .step-text strong {
+      color: #ffffff;
+    }
+
+    .step-img {
+      display: block;
+      margin-top: 14px;
+      max-width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--border-glass);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    /* Alerts */
+    .alert-box {
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      font-size: 0.92rem;
+      line-height: 1.6;
+      display: block;
+    }
+
+    .alert-info {
+      background: rgba(0, 240, 255, 0.05);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      color: #a5f3fc;
+    }
+
+    .alert-warning {
+      background: rgba(239, 68, 68, 0.05);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      color: #fecaca;
+    }
+
+    /* Code Block styling */
+    .code-container {
+      background-color: var(--bg-code);
+      border: 1px solid var(--border-glass);
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 22px 0;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .code-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 18px;
+      background: rgba(255, 255, 255, 0.03);
+      border-bottom: 1px solid var(--border-glass);
+    }
+
+    .code-title {
+      font-family: var(--font-code);
+      font-size: 0.82rem;
+      color: var(--primary);
+      font-weight: 500;
+    }
+
+    .btn-copy {
+      background: transparent;
+      border: 1px solid var(--border-glass);
+      color: var(--text-secondary);
+      padding: 5px 12px;
+      border-radius: 5px;
+      font-size: 0.78rem;
+      font-family: var(--font-display);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-copy:hover {
+      background: rgba(0, 240, 255, 0.1);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    pre {
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-family: var(--font-code);
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: #e4e4e7;
+    }
+
+    /* Syntax Highlighting */
+    .keyword { color: #f43f5e; font-weight: 600; }
+    .type { color: #38bdf8; }
+    .method { color: #facc15; }
+    .literal { color: #c084fc; }
+    .string { color: #4ade80; }
+    .comment { color: #71717a; font-style: italic; }
+
+    code {
+      font-family: var(--font-code);
+      background: rgba(0, 240, 255, 0.08);
+      color: #38bdf8;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.88em;
+    }
+
+    kbd {
+      font-family: var(--font-code);
+      background: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      font-size: 0.82em;
+    }
+
+    /* Footer */
+    .materi-footer {
+      background: rgba(5, 8, 17, 0.9);
+      padding: 30px 40px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.3);
+      margin-top: auto;
+      z-index: 2;
+      border-top: 1px solid var(--border-glass);
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .layout-container {
+        flex-direction: column;
+        padding: 20px;
+      }
+      aside.sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        margin-bottom: 20px;
+      }
+      .toc-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="top-nav">
+    <div class="nav-left">
+      <a href="../index.html" class="nav-logo">🎮 SMK Telkom <span>Malang</span></a>
+      <div class="nav-breadcrumb">
+        <span>/</span>
+        <a href="../materi/index.html">Daftar Modul</a>
+        <span>/</span>
+        <span style="color: var(--primary);">Materi 02</span>
+      </div>
+    </div>
+    <a href="../materi/index.html" class="btn-back-hub">◀ DAFTAR MODUL</a>
+  </nav>
+
+  <!-- Layout Container -->
+  <div class="layout-container">
+    
+    <!-- Sidebar Table of Contents -->
+    <aside class="sidebar">
+      <div class="toc-title">Materi Pembelajaran</div>
+      <ul class="toc-list">
+        <li><a href="#pendahuluan" class="toc-link active">Pendahuluan</a></li>
+        <li><a href="#setup-ui" class="toc-link">1. Setup Canvas & Desain Shape</a></li>
+        <li><a href="#tahap1-manual" class="toc-link">2. Tahap 1: Soal Sederhana</a></li>
+        <li><a href="#tahap2-manager" class="toc-link">3. Tahap 2: SoalManager Terpusat</a></li>
+        <li><a href="#tahap3-feedback" class="toc-link">4. Tahap 3: Visual Feedback</a></li>
+        <li><a href="#tahap4-randomize" class="toc-link">5. Tahap 4: Sistem Randomize</a></li>
+        <li><a href="#tahap5-timer" class="toc-link">6. Tahap 5: Countdown Timer</a></li>
+        <li><a href="#tahap6-result" class="toc-link">7. Tahap 6: Layar Hasil (Result)</a></li>
+        <li><a href="#tantangan" class="toc-link">Tantangan HOTS</a></li>
+        <li><a href="#tugas-proyek" class="toc-link">Tugas Proyek Akhir</a></li>
+        <li><a href="#glosarium" class="toc-link">📖 Glosarium</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+      
+      <div class="module-header">
+        <span class="module-badge">Unity UI & C# Scripting</span>
+        <h1>Panduan Praktik:<br>Membuat Game Kuis Interaktif Menggunakan Canvas</h1>
+        <p class="subtitle">Modul praktik terstruktur berorientasi HOTS (Higher Order Thinking Skills). Pelajari arsitektur Unity Canvas, perancangan UI adaptif berbasis Shape, transisi dari skrip per soal ke arsitektur SoalManager, randomisasi soal, hingga sistem countdown timer dan visual feedback interaktif.</p>
+      </div>
+
+      <!-- Section: Pendahuluan -->
+      <section id="pendahuluan" class="module-section">
+        <h2><span class="section-num">#</span> Pendahuluan</h2>
+        <p>Dalam industri game development, kemampuan merancang antarmuka pengguna (**User Interface / UI**) dan memanipulasi alur logika data merupakan keahlian fundamental. Game bergenre kuis edukatif, trivia, maupun minigame berbasis pertanyaan di dalam game RPG membutuhkan sistem UI yang responsif, terstruktur, dan dinamis.</p>
+        <p>Di modul kedua ini, kita akan membangun sebuah game kuis interaktif di <strong>Unity Engine</strong> dengan alur belajar bertahap (*scaffolded learning*):</p>
+        <ul style="list-style: square; padding-left: 20px; font-size: 0.96rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 18px;">
+          <li><strong>Membangun UI Responsif:</strong> Memanfaatkan sistem <code>Canvas</code>, <code>RectTransform</code>, dan bentuk dasar (UI Shapes / Image) tanpa ketergantungan aset luar.</li>
+          <li><strong>Evolusi Logika Pemrograman:</strong> Memahami mengapa pembuatan skrip manual per soal mudah di awal namun tidak efisien, lalu melakukan refactoring ke pola <strong>Data-Driven Architecture</strong> menggunakan <code>SoalManager</code>.</li>
+          <li><strong>Fitur Tingkat Lanjut:</strong> Menambahkan pengacakan urutan soal (Fisher-Yates Shuffle), visual feedback (indikator benar/salah), batasan waktu mundur (Countdown Timer), serta kalkulasi skor akhir.</li>
+        </ul>
+      </section>
+
+      <!-- Section 1: Setup UI Canvas & Shapes -->
+      <section id="setup-ui" class="module-section">
+        <h2><span class="section-num">01.</span> Setup Canvas & Desain UI Menggunakan Shape</h2>
+        <p>Langkah awal adalah mengonfigurasi Canvas agar tampilan UI dapat beradaptasi secara presisi di berbagai ukuran layar monitor dan merancang elemen-elemen visual menggunakan UI Shapes (Panel, Image, dan Button).</p>
+        
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Scene Baru & Tambahkan Canvas:</strong> Buka Unity, buat Scene 2D baru bernama <code>QuizGame</code>. Di Hierarchy, klik kanan lalu pilih <strong>UI &gt; Canvas</strong>. Unity akan otomatis membuat objek <code>Canvas</code> dan <code>EventSystem</code> (komponen pengendali klik mouse / input layar sentuh).
+              <img src="img/1-1.jpg" alt="Buat Canvas & EventSystem" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Konfigurasi Canvas Scaler:</strong> Klik objek <strong>Canvas</strong> di Hierarchy. Di panel Inspector pada komponen <strong>Canvas Scaler</strong>:
+              <br>• Ganti <strong>UI Scale Mode</strong> menjadi <code>Scale With Screen Size</code>.
+              <br>• Isi <strong>Reference Resolution</strong> dengan <code>X: 1920</code> dan <code>Y: 1080</code> (Full HD).
+              <br>• Atur <strong>Match</strong> menjadi <code>0.5</code> (seimbang antara Width dan Height).
+              <img src="img/1-2.jpg" alt="Konfigurasi Canvas Scaler" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Buat Background Panel:</strong> Klik kanan objek Canvas &gt; <strong>UI &gt; Panel</strong>. Beri nama <code>BackgroundPanel</code>. Pada Inspector, pilih warna gelap kebiruan / abu-abu gelap dengan Alpha 255 (solid) agar tampilan modern.
+              <img src="img/1-3.jpg" alt="Buat Background Panel" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Buat Question Box (Wadah Pertanyaan):</strong> Klik kanan Canvas &gt; <strong>UI &gt; Image</strong>. Beri nama <code>QuestionBox</code>.
+              <br>• Atur Anchor ke <strong>Top-Center</strong>, atur Pos Y = <code>-220</code>, Width = <code>1200</code>, Height = <code>220</code>.
+              <br>• Di dalam QuestionBox, buat teks: klik kanan QuestionBox &gt; <strong>UI &gt; Text - TextMeshPro</strong>. Beri nama <code>QuestionText</code>. Atur font size = <code>36</code>, Alignment = <code>Center & Middle</code>, dan centang <code>Auto Size / Wrapping</code>.
+              <img src="img/1-4.jpg" alt="Buat Question Box" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">5</span>
+            <div class="step-text"><strong>Buat 4 Tombol Pilihan Jawaban (A, B, C, D):</strong>
+              <br>• Klik kanan Canvas &gt; <strong>UI &gt; Button - TextMeshPro</strong>. Beri nama <code>BtnJawaban_A</code>.
+              <br>• Atur Width = <code>1100</code>, Height = <code>80</code>, dan posisikan di bawah QuestionBox (misal Pos Y = <code>-400</code>).
+              <br>• Di dalam tombol, edit komponen Text (TMP) untuk menulis teks opsi jawaban.
+              <br>• Duplikasi tombol tersebut (<kbd>Ctrl + D</kbd>) sebanyak 3 kali dan beri nama <code>BtnJawaban_B</code> (Pos Y = <code>-500</code>), <code>BtnJawaban_C</code> (Pos Y = <code>-600</code>), dan <code>BtnJawaban_D</code> (Pos Y = <code>-700</code>).
+              <img src="img/1-5.jpg" alt="Buat 4 Tombol Jawaban" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">6</span>
+            <div class="step-text"><strong>Buat Header Informasi (Nomor Soal & Skor):</strong>
+              <br>• Buat TextMeshPro baru di bagian atas bernama <code>TextNomorSoal</code> (Pos Y = <code>-60</code>, isi contoh: "Soal 1 / 5").
+              <br>• Buat TextMeshPro baru di pojok kanan atas bernama <code>TextSkor</code> (isi contoh: "Skor: 0").
+              <img src="img/1-6.jpg" alt="Buat Header Info Nomor & Skor" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="alert-box alert-info">
+          <h4 style="margin: 0 0 8px; color: var(--primary); font-size: 0.95rem; font-family: var(--font-display);">💡 Tips Desain UI Shape</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Anda dapat menggunakan sprite kotak bawaan Unity (<strong>UISprite</strong> atau <strong>Square</strong>) pada komponen Image tombol, lalu mengganti <strong>Source Image</strong> dengan sprite bentuk rounded/lingkaran untuk menghasilkan tombol dengan sudut melengkung yang elegan.</p>
+        </div>
+      </section>
+
+      <!-- Section 2: Tahap 1 - Soal Sederhana (Skrip Manual) -->
+      <section id="tahap1-manual" class="module-section">
+        <h2><span class="section-num">02.</span> Tahap 1: Soal Sederhana (Skrip Manual)</h2>
+        <p>Sebagai langkah pengenalan mekanik tombol dan interaksi event, kita akan membuat satu skrip sederhana per soal. Skrip ini secara langsung memeriksa tombol mana yang merupakan jawaban benar.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Script SoalManual:</strong> Di folder <code>Assets/Scripts</code>, buat C# script baru bernama <code>SoalManual</code>.
+              <img src="img/2-1.jpg" alt="Buat Script SoalManual" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Implementasikan Kode Pemeriksaan Jawaban:</strong> Salin kode di bawah ini ke dalam script <code>SoalManual.cs</code>:
+              <img src="img/2-2.jpg" alt="Kode Script SoalManual" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">SoalManual.cs (Logika Soal Tunggal)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+<span class="keyword">using</span> TMPro;
+<span class="keyword">using</span> UnityEngine.UI;
+
+<span class="keyword">public class</span> <span class="type">SoalManual</span> : <span class="type">MonoBehaviour</span>
+{
+    [Header(<span class="string">"Kunci Jawaban"</span>)]
+    <span class="comment">// 0 = A, 1 = B, 2 = C, 3 = D</span>
+    <span class="keyword">public int</span> indexJawabanBenar = <span class="literal">1</span>; 
+
+    [Header(<span class="string">"UI Feedback"</span>)]
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textStatus; <span class="comment">// Menampilkan "Benar!" atau "Salah!"</span>
+
+    <span class="comment">// Fungsi ini dipanggil saat pemain mengklik tombol opsi jawaban</span>
+    <span class="keyword">public void</span> <span class="method">PilihJawaban</span>(<span class="keyword">int</span> indexTombol)
+    {
+        <span class="keyword">if</span> (indexTombol == indexJawabanBenar)
+        {
+            textStatus.text = <span class="string">"Jawaban BENAR! (+100 Poin)"</span>;
+            textStatus.color = <span class="type">Color</span>.green;
+            <span class="type">Debug</span>.<span class="method">Log</span>(<span class="string">"Jawaban Benar!"</span>);
+        }
+        <span class="keyword">else</span>
+        {
+            textStatus.text = <span class="string">"Jawaban SALAH! Coba lagi."</span>;
+            textStatus.color = <span class="type">Color</span>.red;
+            <span class="type">Debug</span>.<span class="method">Log</span>(<span class="string">"Jawaban Salah!"</span>);
+        }
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Hubungkan OnClick() pada Tombol di Inspector:</strong>
+              <br>• Pasang script <code>SoalManual</code> ke objek Canvas atau Empty GameObject.
+              <br>• Klik tombol <code>BtnJawaban_A</code>, lihat bagian <strong>On Click ()</strong> di Inspector, klik tombol <strong>+</strong>.
+              <br>• Drag objek ber-script <code>SoalManual</code> ke slot objek OnClick, pilih fungsi <code>SoalManual &gt; PilihJawaban (int)</code> dan isi angka <code>0</code>.
+              <br>• Lakukan hal yang sama untuk Tombol B (isi angka <code>1</code>), Tombol C (isi angka <code>2</code>), dan Tombol D (isi angka <code>3</code>).
+              <img src="img/2-3.jpg" alt="Setting OnClick di Inspector" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="alert-box alert-warning">
+          <h4 style="margin: 0 0 8px; color: #fecaca; font-size: 0.95rem; font-family: var(--font-display);">⚠️ Evaluasi Keterbatasan Tahap 1</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Pendekatan manual ini mengharuskan kita membuat scene/objek terpisah untuk setiap butir soal. Jika ada 50 soal, kita harus membuat 50 halaman UI dan menghubungkan 200 tombol satu per satu. Ini sangat tidak efisien! Oleh karena itu, kita perlu beralih ke <strong>SoalManager terpusat</strong> pada langkah berikutnya.</p>
+        </div>
+      </section>
+
+      <!-- Section 3: Tahap 2 - SoalManager Terpusat -->
+      <section id="tahap2-manager" class="module-section">
+        <h2><span class="section-num">03.</span> Tahap 2: Sistem SoalManager Terpusat (Data-Driven)</h2>
+        <p>Pada tahap ini, kita memisahkan <strong>Data Soal</strong> dari <strong>Tampilan UI</strong>. Kita hanya membutuhkan 1 template UI yang teksnya akan diganti secara otomatis dari daftar data soal di dalam script <code>QuizManager</code>.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Struktur Data Soal & Script QuizManager:</strong> Buat script baru bernama <code>QuizManager</code> di folder Scripts, lalu tuliskan kode terstruktur berikut:
+              <img src="img/3-1.jpg" alt="Buat Script QuizManager" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">QuizManager.cs (Sistem Data Soal Dinamis)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> System.Collections;
+<span class="keyword">using</span> System.Collections.Generic;
+<span class="keyword">using</span> UnityEngine;
+<span class="keyword">using</span> UnityEngine.UI;
+<span class="keyword">using</span> TMPro;
+
+<span class="comment">// Struktur data untuk menyimpan informasi satu butir soal</span>
+[<span class="type">System.Serializable</span>]
+<span class="keyword">public class</span> <span class="type">SoalData</span>
+{
+    [TextArea(<span class="literal">2</span>, <span class="literal">4</span>)]
+    <span class="keyword">public string</span> teksPertanyaan;
+    <span class="keyword">public string</span>[] pilihanJawaban = <span class="keyword">new string</span>[<span class="literal">4</span>]; <span class="comment">// 4 pilihan opsi (A, B, C, D)</span>
+    <span class="keyword">public int</span> indexJawabanBenar;                    <span class="comment">// 0: A, 1: B, 2: C, 3: D</span>
+}
+
+<span class="keyword">public class</span> <span class="type">QuizManager</span> : <span class="type">MonoBehaviour</span>
+{
+    [Header(<span class="string">"Daftar Soal Kuis"</span>)]
+    <span class="keyword">public</span> <span class="type">List</span>&lt;<span class="type">SoalData</span>&gt; daftarSoal = <span class="keyword">new</span> <span class="type">List</span>&lt;<span class="type">SoalData</span>&gt;();
+
+    [Header(<span class="string">"Komponen UI Soal"</span>)]
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textPertanyaan;
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textNomorSoal;
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textSkor;
+    <span class="keyword">public</span> <span class="type">Button</span>[] tombolJawaban;                 <span class="comment">// Array 4 tombol jawaban</span>
+
+    [Header(<span class="string">"Status Permainan"</span>)]
+    <span class="keyword">private int</span> indexSoalAktif = <span class="literal">0</span>;
+    <span class="keyword">private int</span> totalSkor = <span class="literal">0</span>;
+    <span class="keyword">private int</span> poinPerSoal = <span class="literal">20</span>;
+
+    <span class="keyword">void</span> <span class="method">Start</span>()
+    {
+        <span class="method">TampilkanSoal</span>();
+    }
+
+    <span class="keyword">public void</span> <span class="method">TampilkanSoal</span>()
+    {
+        <span class="keyword">if</span> (indexSoalAktif &lt; daftarSoal.Count)
+        {
+            <span class="type">SoalData</span> soalSekarang = daftarSoal[indexSoalAktif];
+
+            <span class="comment">// Update teks nomor dan teks pertanyaan</span>
+            textNomorSoal.text = <span class="string">$"Soal {indexSoalAktif + 1} / {daftarSoal.Count}"</span>;
+            textPertanyaan.text = soalSekarang.teksPertanyaan;
+            textSkor.text = <span class="string">$"Skor: {totalSkor}"</span>;
+
+            <span class="comment">// Update teks pada ke-4 tombol jawaban</span>
+            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="literal">0</span>; i &lt; tombolJawaban.Length; i++)
+            {
+                <span class="type">TextMeshProUGUI</span> txtBtn = tombolJawaban[i].<span class="method">GetComponentInChildren</span>&lt;<span class="type">TextMeshProUGUI</span>&gt;();
+                <span class="keyword">if</span> (txtBtn != <span class="keyword">null</span>)
+                {
+                    txtBtn.text = soalSekarang.pilihanJawaban[i];
+                }
+            }
+        }
+        <span class="keyword">else</span>
+        {
+            <span class="type">Debug</span>.<span class="method">Log</span>(<span class="string">"Semua soal telah selesai dijawab!"</span>);
+        }
+    }
+
+    <span class="keyword">public void</span> <span class="method">PilihJawaban</span>(<span class="keyword">int</span> indexDipilih)
+    {
+        <span class="keyword">if</span> (indexDipilih == daftarSoal[indexSoalAktif].indexJawabanBenar)
+        {
+            totalSkor += poinPerSoal;
+            <span class="type">Debug</span>.<span class="method">Log</span>(<span class="string">"Jawaban Benar!"</span>);
+        }
+        <span class="keyword">else</span>
+        {
+            <span class="type">Debug</span>.<span class="method">Log</span>(<span class="string">"Jawaban Salah!"</span>);
+        }
+
+        <span class="comment">// Pindah ke soal berikutnya</span>
+        indexSoalAktif++;
+        <span class="method">TampilkanSoal</span>();
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Isi Bank Soal di Panel Inspector:</strong> Klik objek yang dipasangi script <code>QuizManager</code>. Di Inspector bagian <strong>Daftar Soal</strong>, masukkan ukuran list (misal: <code>5</code>). Anda dapat mengetikkan pertanyaan, mengisi 4 opsi jawaban, dan menentukan angka <code>Index Jawaban Benar</code> (0=A, 1=B, 2=C, 3=D) secara fleksibel langsung dari Unity Editor!
+              <img src="img/3-2.jpg" alt="Isi Bank Soal di Inspector" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 4: Tahap 3 - Visual Feedback -->
+      <section id="tahap3-feedback" class="module-section">
+        <h2><span class="section-num">04.</span> Tahap 3: Interaksi Jawaban & Visual Feedback</h2>
+        <p>Agar pengalaman bermain lebih memuaskan, tombol yang dipilih pemain harus berubah warna (Hijau untuk jawaban benar, Merah untuk jawaban salah) selama 1 detik sebelum berpindah ke soal berikutnya.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Modifikasi Pemrosesan Jawaban dengan Coroutine:</strong> Buka script <code>QuizManager.cs</code> dan perbarui fungsi <code>PilihJawaban</code> menjadi alur IEnumerator:
+              <img src="img/4-1.jpg" alt="Setting Warna Feedback di Inspector" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">QuizManager.cs (Penambahan Efek Warna & Delay)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code>    [Header(<span class="string">"Warna Feedback"</span>)]
+    <span class="keyword">public</span> <span class="type">Color</span> warnaNormal = <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0.1f</span>, <span class="literal">0.15f</span>, <span class="literal">0.25f</span>, <span class="literal">1f</span>);
+    <span class="keyword">public</span> <span class="type">Color</span> warnaBenar = <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0.15f</span>, <span class="literal">0.8f</span>, <span class="literal">0.3f</span>, <span class="literal">1f</span>);
+    <span class="keyword">public</span> <span class="type">Color</span> warnaSalah = <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0.9f</span>, <span class="literal">0.2f</span>, <span class="literal">0.2f</span>, <span class="literal">1f</span>);
+
+    <span class="keyword">private bool</span> sedangMenjawab = <span class="keyword">false</span>;
+
+    <span class="keyword">public void</span> <span class="method">PilihJawaban</span>(<span class="keyword">int</span> indexDipilih)
+    {
+        <span class="keyword">if</span> (sedangMenjawab) <span class="keyword">return</span>; <span class="comment">// Cegah spam klik</span>
+        <span class="method">StartCoroutine</span>(<span class="method">ProsesJawabanRoutine</span>(indexDipilih));
+    }
+
+    <span class="keyword">private</span> <span class="type">IEnumerator</span> <span class="method">ProsesJawabanRoutine</span>(<span class="keyword">int</span> indexDipilih)
+    {
+        sedangMenjawab = <span class="keyword">true</span>;
+        <span class="keyword">int</span> indexBenar = daftarSoal[indexSoalAktif].indexJawabanBenar;
+
+        <span class="keyword">if</span> (indexDipilih == indexBenar)
+        {
+            totalSkor += poinPerSoal;
+            tombolJawaban[indexDipilih].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaBenar;
+        }
+        <span class="keyword">else</span>
+        {
+            tombolJawaban[indexDipilih].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaSalah;
+            <span class="comment">// Highlight juga tombol yang seharusnya benar agar edukatif</span>
+            tombolJawaban[indexBenar].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaBenar;
+        }
+
+        <span class="comment">// Tunggu jeda waktu 1 detik agar pemain melihat hasil jawabannya</span>
+        <span class="keyword">yield return new</span> <span class="type">WaitForSeconds</span>(<span class="literal">1.0f</span>);
+
+        <span class="comment">// Kembalikan semua tombol ke warna normal</span>
+        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="literal">0</span>; i &lt; tombolJawaban.Length; i++)
+        {
+            tombolJawaban[i].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaNormal;
+        }
+
+        sedangMenjawab = <span class="keyword">false</span>;
+        indexSoalAktif++;
+        <span class="method">TampilkanSoal</span>();
+    }</code></pre>
+        </div>
+      </section>
+
+      <!-- Section 5: Tahap 4 - Sistem Randomize -->
+      <section id="tahap4-randomize" class="module-section">
+        <h2><span class="section-num">05.</span> Tahap 4: Sistem Randomize (Pengacakan Soal)</h2>
+        <p>Jika urutan soal selalu sama, pemain akan mudah menghafal pola. Kita menerapkan algoritma <strong>Fisher-Yates Shuffle</strong> untuk mengacak urutan soal secara adil sebelum kuis dimulai.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Implementasi Algoritma Pengacakan:</strong> Tambahkan fungsi <code>AcakDaftarSoal()</code> di dalam <code>QuizManager.cs</code> dan panggil fungsi ini di dalam method <code>Start()</code> sebelum soal pertama ditampilkan.
+              <img src="img/5-1.jpg" alt="Algoritma Randomize Soal" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">Fisher-Yates Shuffle Algorithm di C#</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code>    <span class="keyword">void</span> <span class="method">Start</span>()
+    {
+        <span class="method">AcakDaftarSoal</span>();
+        <span class="method">TampilkanSoal</span>();
+    }
+
+    <span class="comment">// Algoritma Fisher-Yates untuk mengacak elemen List secara seragam (O(N))</span>
+    <span class="keyword">void</span> <span class="method">AcakDaftarSoal</span>()
+    {
+        <span class="keyword">for</span> (<span class="keyword">int</span> i = daftarSoal.Count - <span class="literal">1</span>; i &gt; <span class="literal">0</span>; i--)
+        {
+            <span class="keyword">int</span> randomIndex = <span class="type">Random</span>.<span class="method">Range</span>(<span class="literal">0</span>, i + <span class="literal">1</span>);
+            
+            <span class="comment">// Tukar posisi elemen i dengan randomIndex</span>
+            <span class="type">SoalData</span> temp = daftarSoal[i];
+            daftarSoal[i] = daftarSoal[randomIndex];
+            daftarSoal[randomIndex] = temp;
+        }
+    }</code></pre>
+        </div>
+      </section>
+
+      <!-- Section 6: Tahap 5 - Countdown Timer -->
+      <section id="tahap5-timer" class="module-section">
+        <h2><span class="section-num">06.</span> Tahap 5: Countdown Timer (Sistem Batas Waktu)</h2>
+        <p>Menambahkan batasan waktu per soal meningkatkan ketegangan dan dinamika bermain. Kita akan membuat visualisasi timer berupa bar progresif (*Filled Image*) dan teks hitung mundur.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat UI Timer Bar di Canvas:</strong>
+              <br>• Klik kanan Canvas &gt; <strong>UI &gt; Image</strong>, beri nama <code>TimerBarBackground</code> (warna abu-abu gelap).
+              <br>• Di dalamnya buat Image anak bernama <code>TimerBarFill</code> (warna Cyan terang).
+              <br>• Pada <code>TimerBarFill</code>, ganti <strong>Image Type</strong> menjadi <code>Filled</code>, <strong>Fill Method</strong> = <code>Horizontal</code>, <strong>Fill Origin</strong> = <code>Left</code>.
+              <br>• Buat TextMeshPro di samping bar bernama <code>TextTimer</code> untuk menampilkan angka detik (misal: "10s").
+              <img src="img/6-1.jpg" alt="Buat UI Timer Bar" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Integrasikan Logika Timer ke QuizManager:</strong> Tambahkan variabel timer dan kontrol waktu di <code>Update()</code>:
+              <img src="img/6-2.jpg" alt="Integrasi Timer ke Inspector" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">Logika Countdown Timer di QuizManager.cs</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code>    [Header(<span class="string">"Pengaturan Timer"</span>)]
+    <span class="keyword">public float</span> durasiPerSoal = <span class="literal">15f</span>;
+    <span class="keyword">private float</span> sisaWaktu;
+    <span class="keyword">private bool</span> timerAktif = <span class="keyword">false</span>;
+
+    <span class="keyword">public</span> <span class="type">Image</span> imageTimerBar;
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textTimer;
+
+    <span class="keyword">void</span> <span class="method">Update</span>()
+    {
+        <span class="keyword">if</span> (timerAktif && !sedangMenjawab)
+        {
+            sisaWaktu -= <span class="type">Time</span>.deltaTime;
+
+            <span class="comment">// Update UI bar & teks</span>
+            imageTimerBar.fillAmount = sisaWaktu / durasiPerSoal;
+            textTimer.text = <span class="string">$"{(int)Mathf.Ceil(sisaWaktu)}s"</span>;
+
+            <span class="comment">// Ubah warna bar menjadi merah jika sisa waktu tinggal sedikit (&lt; 4 detik)</span>
+            <span class="keyword">if</span> (sisaWaktu &lt;= <span class="literal">4f</span>)
+                imageTimerBar.color = <span class="type">Color</span>.red;
+            <span class="keyword">else</span>
+                imageTimerBar.color = <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0f</span>, <span class="literal">0.95f</span>, <span class="literal">1f</span>, <span class="literal">1f</span>);
+
+            <span class="comment">// Penanganan saat waktu habis</span>
+            <span class="keyword">if</span> (sisaWaktu &lt;= <span class="literal">0</span>)
+            {
+                timerAktif = <span class="keyword">false</span>;
+                <span class="type">Debug</span>.<span class="method">Log</span>(<span class="string">"Waktu Habis!"</span>);
+                <span class="method">StartCoroutine</span>(<span class="method">WaktuHabisRoutine</span>());
+            }
+        }
+    }
+
+    <span class="keyword">public void</span> <span class="method">ResetTimer</span>()
+    {
+        sisaWaktu = durasiPerSoal;
+        timerAktif = <span class="keyword">true</span>;
+    }
+
+    <span class="keyword">private</span> <span class="type">IEnumerator</span> <span class="method">WaktuHabisRoutine</span>()
+    {
+        sedangMenjawab = <span class="keyword">true</span>;
+        <span class="keyword">int</span> indexBenar = daftarSoal[indexSoalAktif].indexJawabanBenar;
+        tombolJawaban[indexBenar].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaBenar;
+
+        <span class="keyword">yield return new</span> <span class="type">WaitForSeconds</span>(<span class="literal">1.2f</span>);
+
+        tombolJawaban[indexBenar].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaNormal;
+        sedangMenjawab = <span class="keyword">false</span>;
+        indexSoalAktif++;
+        <span class="method">TampilkanSoal</span>();
+    }</code></pre>
+        </div>
+      </section>
+
+      <!-- Section 7: Tahap 6 - Layar Hasil (Result Screen) -->
+      <section id="tahap6-result" class="module-section">
+        <h2><span class="section-num">07.</span> Tahap 6: Layar Hasil (Result Screen)</h2>
+        <p>Saat seluruh pertanyaan selesai dijawab, sistem akan menyembunyikan panel kuis dan memunculkan <strong>Result Panel</strong> yang menampilkan rangkuman skor, persentase nilai, dan tombol navigasi.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Desain Panel Hasil di Hierarchy:</strong> Buat UI Panel bernama <code>ResultPanel</code> di dalam Canvas. Berikan judul "Kuis Selesai!", teks skor akhir, teks predikat kelulusan, tombol "Main Lagi" (Restart), dan tombol "Kembali ke Menu". Nonaktifkan panel ini secara default.
+              <img src="img/7-1.jpg" alt="Desain Result Panel" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Script Lengkap Terpadu:</strong> Berikut adalah kode utuh <code>QuizManager.cs</code> yang menggabungkan seluruh fitur dari Tahap 1 sampai Tahap 6:
+              <img src="img/7-2.jpg" alt="Setup Lengkap QuizManager di Inspector" class="step-img" onerror="handleImgError(this)">
+            </div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">QuizManager.cs (Kode Final Lengkap)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> System.Collections;
+<span class="keyword">using</span> System.Collections.Generic;
+<span class="keyword">using</span> UnityEngine;
+<span class="keyword">using</span> UnityEngine.UI;
+<span class="keyword">using</span> UnityEngine.SceneManagement;
+<span class="keyword">using</span> TMPro;
+
+[<span class="type">System.Serializable</span>]
+<span class="keyword">public class</span> <span class="type">SoalData</span>
+{
+    [TextArea(<span class="literal">2</span>, <span class="literal">4</span>)]
+    <span class="keyword">public string</span> teksPertanyaan;
+    <span class="keyword">public string</span>[] pilihanJawaban = <span class="keyword">new string</span>[<span class="literal">4</span>];
+    <span class="keyword">public int</span> indexJawabanBenar;
+}
+
+<span class="keyword">public class</span> <span class="type">QuizManager</span> : <span class="type">MonoBehaviour</span>
+{
+    [Header(<span class="string">"Bank Soal"</span>)]
+    <span class="keyword">public</span> <span class="type">List</span>&lt;<span class="type">SoalData</span>&gt; daftarSoal = <span class="keyword">new</span> <span class="type">List</span>&lt;<span class="type">SoalData</span>&gt;();
+
+    [Header(<span class="string">"Panel UI"</span>)]
+    <span class="keyword">public</span> <span class="type">GameObject</span> quizPanel;
+    <span class="keyword">public</span> <span class="type">GameObject</span> resultPanel;
+
+    [Header(<span class="string">"Elemen UI Kuis"</span>)]
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textPertanyaan;
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textNomorSoal;
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textSkor;
+    <span class="keyword">public</span> <span class="type">Button</span>[] tombolJawaban;
+
+    [Header(<span class="string">"Elemen UI Timer"</span>)]
+    <span class="keyword">public float</span> durasiPerSoal = <span class="literal">15f</span>;
+    <span class="keyword">public</span> <span class="type">Image</span> imageTimerBar;
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textTimer;
+
+    [Header(<span class="string">"Elemen UI Result"</span>)]
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textSkorAkhir;
+    <span class="keyword">public</span> <span class="type">TextMeshProUGUI</span> textFeedback;
+
+    [Header(<span class="string">"Warna Tombol Feedback"</span>)]
+    <span class="keyword">public</span> <span class="type">Color</span> warnaNormal = <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0.1f</span>, <span class="literal">0.15f</span>, <span class="literal">0.25f</span>, <span class="literal">1f</span>);
+    <span class="keyword">public</span> <span class="type">Color</span> warnaBenar = <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0.15f</span>, <span class="literal">0.8f</span>, <span class="literal">0.3f</span>, <span class="literal">1f</span>);
+    <span class="keyword">public</span> <span class="type">Color</span> warnaSalah = <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0.9f</span>, <span class="literal">0.2f</span>, <span class="literal">0.2f</span>, <span class="literal">1f</span>);
+
+    <span class="keyword">private int</span> indexSoalAktif = <span class="literal">0</span>;
+    <span class="keyword">private int</span> totalSkor = <span class="literal">0</span>;
+    <span class="keyword">private int</span> jumlahJawabanBenar = <span class="literal">0</span>;
+    <span class="keyword">private int</span> poinPerSoal = <span class="literal">20</span>;
+    <span class="keyword">private float</span> sisaWaktu;
+    <span class="keyword">private bool</span> timerAktif = <span class="keyword">false</span>;
+    <span class="keyword">private bool</span> sedangMenjawab = <span class="keyword">false</span>;
+
+    <span class="keyword">void</span> <span class="method">Start</span>()
+    {
+        quizPanel.<span class="method">SetActive</span>(<span class="literal">true</span>);
+        resultPanel.<span class="method">SetActive</span>(<span class="literal">false</span>);
+
+        <span class="method">AcakDaftarSoal</span>();
+        <span class="method">TampilkanSoal</span>();
+    }
+
+    <span class="keyword">void</span> <span class="method">Update</span>()
+    {
+        <span class="keyword">if</span> (timerAktif && !sedangMenjawab)
+        {
+            sisaWaktu -= <span class="type">Time</span>.deltaTime;
+            imageTimerBar.fillAmount = sisaWaktu / durasiPerSoal;
+            textTimer.text = <span class="string">$"{(int)Mathf.Ceil(sisaWaktu)}s"</span>;
+
+            imageTimerBar.color = (sisaWaktu &lt;= <span class="literal">4f</span>) ? <span class="type">Color</span>.red : <span class="keyword">new</span> <span class="type">Color</span>(<span class="literal">0f</span>, <span class="literal">0.95f</span>, <span class="literal">1f</span>, <span class="literal">1f</span>);
+
+            <span class="keyword">if</span> (sisaWaktu &lt;= <span class="literal">0</span>)
+            {
+                timerAktif = <span class="keyword">false</span>;
+                <span class="method">StartCoroutine</span>(<span class="method">WaktuHabisRoutine</span>());
+            }
+        }
+    }
+
+    <span class="keyword">void</span> <span class="method">AcakDaftarSoal</span>()
+    {
+        <span class="keyword">for</span> (<span class="keyword">int</span> i = daftarSoal.Count - <span class="literal">1</span>; i &gt; <span class="literal">0</span>; i--)
+        {
+            <span class="keyword">int</span> randomIndex = <span class="type">Random</span>.<span class="method">Range</span>(<span class="literal">0</span>, i + <span class="literal">1</span>);
+            <span class="type">SoalData</span> temp = daftarSoal[i];
+            daftarSoal[i] = daftarSoal[randomIndex];
+            daftarSoal[randomIndex] = temp;
+        }
+    }
+
+    <span class="keyword">public void</span> <span class="method">TampilkanSoal</span>()
+    {
+        <span class="keyword">if</span> (indexSoalAktif &lt; daftarSoal.Count)
+        {
+            <span class="type">SoalData</span> soal = daftarSoal[indexSoalAktif];
+            textNomorSoal.text = <span class="string">$"Soal {indexSoalAktif + 1} / {daftarSoal.Count}"</span>;
+            textPertanyaan.text = soal.teksPertanyaan;
+            textSkor.text = <span class="string">$"Skor: {totalSkor}"</span>;
+
+            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="literal">0</span>; i &lt; tombolJawaban.Length; i++)
+            {
+                tombolJawaban[i].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaNormal;
+                tombolJawaban[i].<span class="type">GetComponentInChildren</span>&lt;<span class="type">TextMeshProUGUI</span>&gt;().text = soal.pilihanJawaban[i];
+            }
+
+            sisaWaktu = durasiPerSoal;
+            timerAktif = <span class="keyword">true</span>;
+        }
+        <span class="keyword">else</span>
+        {
+            <span class="method">SelesaiKuis</span>();
+        }
+    }
+
+    <span class="keyword">public void</span> <span class="method">PilihJawaban</span>(<span class="keyword">int</span> indexDipilih)
+    {
+        <span class="keyword">if</span> (sedangMenjawab) <span class="keyword">return</span>;
+        <span class="method">StartCoroutine</span>(<span class="method">ProsesJawabanRoutine</span>(indexDipilih));
+    }
+
+    <span class="keyword">private</span> <span class="type">IEnumerator</span> <span class="method">ProsesJawabanRoutine</span>(<span class="keyword">int</span> indexDipilih)
+    {
+        sedangMenjawab = <span class="keyword">true</span>;
+        timerAktif = <span class="keyword">false</span>;
+
+        <span class="keyword">int</span> indexBenar = daftarSoal[indexSoalAktif].indexJawabanBenar;
+
+        <span class="keyword">if</span> (indexDipilih == indexBenar)
+        {
+            totalSkor += poinPerSoal;
+            jumlahJawabanBenar++;
+            tombolJawaban[indexDipilih].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaBenar;
+        }
+        <span class="keyword">else</span>
+        {
+            tombolJawaban[indexDipilih].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaSalah;
+            tombolJawaban[indexBenar].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaBenar;
+        }
+
+        <span class="keyword">yield return new</span> <span class="type">WaitForSeconds</span>(<span class="literal">1.0f</span>);
+
+        sedangMenjawab = <span class="keyword">false</span>;
+        indexSoalAktif++;
+        <span class="method">TampilkanSoal</span>();
+    }
+
+    <span class="keyword">private</span> <span class="type">IEnumerator</span> <span class="method">WaktuHabisRoutine</span>()
+    {
+        sedangMenjawab = <span class="keyword">true</span>;
+        <span class="keyword">int</span> indexBenar = daftarSoal[indexSoalAktif].indexJawabanBenar;
+        tombolJawaban[indexBenar].<span class="type">GetComponent</span>&lt;<span class="type">Image</span>&gt;().color = warnaBenar;
+
+        <span class="keyword">yield return new</span> <span class="type">WaitForSeconds</span>(<span class="literal">1.2f</span>);
+
+        sedangMenjawab = <span class="keyword">false</span>;
+        indexSoalAktif++;
+        <span class="method">TampilkanSoal</span>();
+    }
+
+    <span class="keyword">void</span> <span class="method">SelesaiKuis</span>()
+    {
+        timerAktif = <span class="keyword">false</span>;
+        quizPanel.<span class="method">SetActive</span>(<span class="keyword">false</span>);
+        resultPanel.<span class="method">SetActive</span>(<span class="keyword">true</span>);
+
+        textSkorAkhir.text = <span class="string">$"Skor Akhir: {totalSkor}\n(Benar: {jumlahJawabanBenar} dari {daftarSoal.Count} Soal)"</span>;
+
+        <span class="keyword">float</span> persentase = ((<span class="keyword">float</span>)jumlahJawabanBenar / daftarSoal.Count) * <span class="literal">100f</span>;
+        <span class="keyword">if</span> (persentase &gt;= <span class="literal">80f</span>)
+            textFeedback.text = <span class="string">"LUAR BIASA! Penguasaan materi Anda sangat baik!"</span>;
+        <span class="keyword">else if</span> (persentase &gt;= <span class="literal">60f</span>)
+            textFeedback.text = <span class="string">"BAGUS! Anda lulus, tingkatkan lagi latihan!"</span>;
+        <span class="keyword">else</span>
+            textFeedback.text = <span class="string">"BELAJAR LAGI! Silakan ulangi modul materi untuk hasil maksimal."</span>;
+    }
+
+    <span class="keyword">public void</span> <span class="method">UlangiKuis</span>()
+    {
+        <span class="type">SceneManager</span>.<span class="method">LoadScene</span>(<span class="type">SceneManager</span>.<span class="method">GetActiveScene</span>().buildIndex);
+    }
+
+    <span class="keyword">public void</span> <span class="method">KembaliKeMenu</span>()
+    {
+        <span class="type">SceneManager</span>.<span class="method">LoadScene</span>(<span class="string">"MainMenu"</span>);
+    }
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- Section: Tantangan Praktik Mandiri (HOTS) -->
+      <section id="tantangan" class="module-section">
+        <h2><span class="section-num">#</span> Tantangan Praktik Mandiri (HOTS)</h2>
+        <p>Setelah berhasil mengimplementasikan logika kuis di atas, tingkatkan kemampuan logika pemrograman Anda dengan menyelesaikan tantangan fitur berikut:</p>
+        
+        <div class="alert-box alert-info">
+          <h4 style="margin: 0 0 8px; color: var(--primary); font-size: 0.95rem; font-family: var(--font-display);">⭐ TANTANGAN 1: Sistem Nyawa / Lives (3 Kesempatan)</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Tambahkan sistem 3 Nyawa (Heart UI). Jika pemain menjawab salah atau kehabisan waktu, nyawa berkurang 1. Jika nyawa mencapai 0, kuis langsung berakhir (*Game Over*) tanpa harus menyelesaikan seluruh soal. <em>Clue: Tambahkan variabel integer <code>nyawa = 3</code> dan array Image ikon hati.</em></p>
+        </div>
+
+        <div class="alert-box alert-info">
+          <h4 style="margin: 0 0 8px; color: var(--primary); font-size: 0.95rem; font-family: var(--font-display);">⭐ TANTANGAN 2: Pengacakan Opsi Pilihan Jawaban (Answer Shuffling)</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Selain mengacak urutan soal, acak juga urutan 4 opsi jawaban (A, B, C, D) di setiap soal tanpa merusak indeks jawaban benar aslinya. <em>Clue: Lacak teks string jawaban yang benar, acak array pilihan, lalu cari kembali indeks baru dari string jawaban yang benar tersebut.</em></p>
+        </div>
+
+        <div class="alert-box alert-info">
+          <h4 style="margin: 0 0 8px; color: var(--primary); font-size: 0.95rem; font-family: var(--font-display);">⭐ TANTANGAN 3: Penyimpanan High Score dengan PlayerPrefs</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Simpan rekor nilai tertinggi yang pernah diraih pemain ke dalam memori lokal menggunakan <code>PlayerPrefs.SetInt("HighScore", totalSkor)</code> dan tampilkan nilai "Rekor Tertinggi" tersebut di Result Panel dan Main Menu.</p>
+        </div>
+      </section>
+
+      <!-- Section: Tugas Proyek Akhir -->
+      <section id="tugas-proyek" class="module-section">
+        <h2><span class="section-num">#</span> Tugas Proyek Akhir: Mini Game Kuis Edukasi Tematik</h2>
+        <p>Rancang dan bangun sebuah game kuis interaktif yang utuh dan siap dipublikasikan dengan memenuhi 5 ketentuan standar kualitas berikut:</p>
+
+        <div class="alert-box alert-warning" style="margin-top: 15px;">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 1: Tema & Konten Kuis Orisinal</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Tentukan 1 tema kuis edukatif (misal: "Pengetahuan Pemrograman C#", "Sejarah Game", "Jaringan Komputer", atau "Logika Algoritma") dan susun minimal <strong>10 butir soal</strong> berkualitas tinggi dengan 4 pilihan jawaban yang menantang.</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 2: Desain UI Responsif & Konsisten</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Gunakan tata letak Canvas yang rapi dengan Canvas Scaler 1920x1080. Pastikan typography TextMeshPro terbaca jelas, ukuran tombol proporsional untuk diklik, dan warna tema visual menyatu (tidak ada teks terpotong).</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 3: Sistem Randomize & Timer Aktif</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Game wajib mengacak urutan soal setiap kali dimainkan dan memiliki Countdown Timer visual per soal dengan penanganan otomatis jika waktu habis.</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 4: Audio & Visual Feedback</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Tambahkan efek suara (Sound Effects / SFX) ketika pemain mengklik tombol, saat jawaban benar (*ding*), saat jawaban salah (*buzz*), dan latar musik (BGM). Tombol wajib memberikan feedback perubahan warna sesaat sebelum pindah soal.</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 5: Struktur Scene Lengkap (Menu, Gameplay, Result)</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Game memiliki minimal 2 scene yang terhubung: Scene <code>MainMenu</code> (Judul, tombol Mulai, instruksi bermain) dan Scene <code>Gameplay</code> (Layar Kuis dan Layar Hasil Akhir yang memiliki tombol Restart & Kembali ke Menu Utama).</p>
+        </div>
+      </section>
+
+      <!-- Section: Glosarium -->
+      <section id="glosarium" class="module-section">
+        <h2><span class="section-num">📖</span> Glosarium Istilah & Fungsi Kode</h2>
+        <p>Kumpulan definisi istilah teknis, komponen Unity UI, dan fungsi C# yang digunakan dalam pembuatan game kuis ini:</p>
+
+        <h3 style="color: var(--primary); font-family: var(--font-display); margin: 24px 0 12px; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase;">🎮 Istilah Unity UI</h3>
+        <table style="width:100%; border-collapse:collapse; font-size:0.9rem; margin-bottom: 24px;">
+          <thead>
+            <tr style="background:rgba(0,240,255,0.08); border-bottom: 1px solid var(--border-glass);">
+              <th style="padding:10px 14px; text-align:left; color:var(--primary); width:25%;">Istilah</th>
+              <th style="padding:10px 14px; text-align:left; color:var(--text-secondary);">Penjelasan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Canvas</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Area akar (*root*) di mana semua komponen UI diletakkan dan dirender di atas layar game.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Canvas Scaler</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Komponen pengendali skala antarmuka agar posisi dan ukuran elemen UI otomatis menyesuaikan aspek rasio layar pemain.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>RectTransform</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Komponen pengganti Transform biasa khusus objek UI untuk mengatur posisi, ukuran, anchor, dan pivot dalam bidang 2D.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>EventSystem</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Komponen pengelola input interaktif yang mendeteksi klik kursor, hover, sentuhan layar, dan navigasi tombol keyboard/gamepad pada UI.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>TextMeshProUGUI</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Komponen perender teks berbasis Signed Distance Field (SDF) yang menghasilkan tipografi sangat tajam di berbagai resolusi.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Image (Filled)</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Mode gambar UI yang persentase tampilannya dapat dikontrol dari nilai 0.0 sampai 1.0 (sangat berguna untuk HP bar, timer bar, dan progress bar).</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 style="color: var(--primary); font-family: var(--font-display); margin: 24px 0 12px; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase;">⚙️ Fungsi & Konsep C#</h3>
+        <table style="width:100%; border-collapse:collapse; font-size:0.9rem;">
+          <thead>
+            <tr style="background:rgba(0,240,255,0.08); border-bottom: 1px solid var(--border-glass);">
+              <th style="padding:10px 14px; text-align:left; color:var(--primary); width:35%;">Fungsi / Keyword</th>
+              <th style="padding:10px 14px; text-align:left; color:var(--text-secondary);">Penjelasan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>[System.Serializable]</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Atribut C# agar sebuah class custom dapat dimunculkan, diisi, dan diedit secara visual di panel Inspector Unity.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>IEnumerator / Coroutine</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Fungsi khusus di Unity yang dapat menunda eksekusi kode selama durasi waktu tertentu menggunakan <code>yield return new WaitForSeconds(detik)</code> tanpa membekukan game.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Fisher-Yates Shuffle</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Algoritma komputasi untuk mengacak urutan elemen dalam array/list dengan kompleksitas efisien $O(N)$ dan probabilitas yang setara.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Time.deltaTime</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Waktu selisih antar frame dalam detik. Digunakan untuk mengurangi nilai timer secara halus dan independen dari fluktuasi framerate komputer.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>PlayerPrefs</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Sistem penyimpanan data lokal bawaan Unity untuk menyimpan variabel sederhana (Integer, Float, String) seperti skor tertinggi dan preferensi audio.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="materi-footer">
+    <p>© 2026 Tim Pembelajaran Pemrograman Gim - SMK Telkom Malang</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Smart Image Fallback: try .jpg -> .png -> .jpeg -> hide gracefully if not found
+    function handleImgError(img) {
+      const src = img.getAttribute('src');
+      if (src.endsWith('.jpg')) {
+        img.src = src.replace('.jpg', '.png');
+      } else if (src.endsWith('.png')) {
+        img.src = src.replace('.png', '.jpeg');
+      } else {
+        img.style.display = 'none';
+      }
+    }
+
+    // Copy code button function
+    function copyCode(button) {
+      const codeBlock = button.parentElement.nextElementSibling.querySelector('code');
+      const text = codeBlock.innerText;
+      
+      navigator.clipboard.writeText(text).then(() => {
+        const originalText = button.innerText;
+        button.innerText = "Tersalin!";
+        button.style.borderColor = "var(--primary)";
+        button.style.color = "var(--primary)";
+        
+        setTimeout(() => {
+          button.innerText = originalText;
+          button.style.borderColor = "var(--border-glass)";
+          button.style.color = "var(--text-secondary)";
+        }, 2000);
+      });
+    }
+
+    // Scrollspy Highlight Sidebar Links
+    window.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          const id = entry.target.getAttribute('id');
+          if (entry.intersectionRatio > 0) {
+            document.querySelectorAll('.toc-link').forEach(link => {
+              link.classList.remove('active');
+            });
+            const activeLink = document.querySelector(`.toc-link[href="#${id}"]`);
+            if (activeLink) {
+              activeLink.classList.add('active');
+            }
+          }
+        });
+      }, {
+        rootMargin: '-100px 0px -70% 0px'
+      });
+
+      document.querySelectorAll('main.content section, main.content div.module-header').forEach(section => {
+        if (section.id) {
+          observer.observe(section);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

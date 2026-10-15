@@ -1,0 +1,399 @@
+::Pengantar DM - Soal 01:: Sebuah bisnis ritel tradisional yang selama ini mengandalkan iklan surat kabar mengalami penurunan pembeli. Manakah langkah awal penyesuaian strategi paling tepat dalam merespons evolusi pemasaran digital saat ini? {
+= Membangun kehadiran digital secara bertahap melalui akun media sosial dan mendaftarkan lokasi toko di platform peta digital.
+~ Menghentikan seluruh kegiatan penjualan dan menutup toko fisik secara permanen tanpa mencoba saluran pemasaran baru.
+~ Menyewa papan reklame billboard terbesar di jalan tol utama meskipun biaya sewanya melebihi total modal usaha bisnis.
+~ Membeli perangkat komputer berteknologi kecerdasan buatan paling mahal tanpa melatih karyawan cara menggunakannya.
+~ Mengirimkan surat edaran fisik ke rumah-rumah warga di luar kota yang tidak memiliki akses ke toko fisik bisnis tersebut.
+}
+
+::Pengantar DM - Soal 02:: Pembeli toko kuliner modern sering mengunggah foto makanan mereka ke Instagram karena tampilan penyajian produk yang sangat estetik. Fenomena pemasaran ini tergolong dalam bentuk tren apa? {
+= User Generated Content (UGC) yang didorong oleh aspek kepuasan visual dan pengalaman konsumen (Customer Experience).
+~ Paid Search Engine Marketing (SEM) yang dikelola langsung secara berbayar oleh tim teknis pengelola situs web perusahaan.
+~ Program pemasaran afiliasi resmi yang mengikat konsumen secara hukum untuk menjual kembali produk kuliner tersebut.
+~ Pengiriman pesan promosi massal tanpa izin (spamming) yang dijalankan oleh robot otomatis di platform media sosial.
+~ Aktivitas humas tradisional yang dirancang oleh agensi periklanan internasional untuk memuat berita di koran nasional.
+}
+
+::Pengantar DM - Soal 03:: Studi Kasus Penetrasi Pasar Global: Sebuah brand fashion lokal berhasil menembus pasar internasional dengan tampil di pekan busana dunia dan memasang baliho promosi di pusat kota global. Di dalam negeri, konversi penjualan masif dicapai dengan memadukan promosi harga khusus di e-commerce dan penayangan konten serentak oleh ratusan influencer. Taktik kombinasi apakah yang diterapkan? {
+= Peluncuran kampanye promo Flash Sale harga miring di e-commerce secara simultan dipadukan dengan keterlibatan masif ratusan influencer.
+~ Menghentikan seluruh aktivitas jualan di e-commerce dan memfokuskan penjualan produk pakaian secara eksklusif di toko fisik offline.
+~ Pemberian garansi ganti rugi uang tunai seratus persen untuk seluruh pakaian yang mengalami kerusakan akibat kesalahan penggunaan konsumen.
+~ Pembagian ribuan baju secara gratis kepada masyarakat di desa-desa kecil tanpa ada kewajiban membuat konten ulasan di media sosial.
+~ Mengganti seluruh nama koleksi pakaian pakaian menjadi bahasa asing kuno abad pertengahan agar terkesan sangat berkelas dan mewah.
+}
+
+::Pengantar DM - Soal 04:: Sebuah perusahaan teknologi ingin mengoptimasi peringkat situs webnya agar selalu muncul di halaman pertama hasil pencarian organik Google saat pengguna mengetik kata kunci tertentu. Profesi spesialis manakah yang bertanggung jawab atas tugas tersebut? {
+= SEO Specialist
+~ Social Media Specialist
+~ Performance Ads Specialist
+~ Content Creator
+~ Brand Ambassador
+}
+
+::Pengantar DM - Soal 05:: Manakah dari berikut ini yang merupakan karakteristik utama dari evolusi pemasaran pada era Kecerdasan Buatan (AI) & Personalisasi dibandingkan era media sosial awal? {
+= Interaksi dan penawaran produk disesuaikan secara real-time berdasarkan analisis data perilaku spesifik tiap pengguna.
+~ Komunikasi pemasaran berlangsung secara satu arah tanpa adanya kesempatan bagi audiens untuk memberikan tanggapan balik.
+~ Pembuatan konten dilakukan secara manual oleh staf kantor tanpa bantuan perangkat lunak atau sistem komputer sama sekali.
+~ Promosi hanya dapat ditayangkan pada jam-jam tertentu saat stasiun televisi nasional sedang menyiarkan berita utama.
+~ Biaya pelaksanaan kampanye pemasaran menjadi sepenuhnya gratis untuk semua jenis bisnis tanpa ada batasan sama sekali.
+}
+
+::Pengantar DM - Soal 06:: Studi Kasus Viralitas Waralaba: Sebuah bisnis minuman dingin berkembang sangat pesat dengan membuka ribuan gerai setelah para pelanggan secara sukarela membuat video kreasi sendiri yang memperagakan jingle lagu dan parodi maskot toko di media sosial. Pendorong utama viralitas tersebut berbasis pada... {
+= Pemanfaatan User Generated Content (UGC) di TikTok melalui jingle musik yang catchy dan parodi maskot Snow King yang menghibur.
+~ Pemasangan iklan berbayar secara masif di stasiun televisi nasional yang ditayangkan setiap jam tayang utama pada malam hari.
+~ Pembagian saham perusahaan secara gratis kepada setiap pelanggan yang membeli produk es krim di gerai toko fisik perusahaan.
+~ Kebijakan pembatasan pembelian produk khusus untuk kalangan pejabat pemerintah dengan memberlakukan sistem anggota rahasia.
+~ Penggunaan teknologi robot kecerdasan buatan di dalam gerai toko untuk melayani dan meramal rasa favorit pelanggan toko.
+}
+
+::Pengantar DM - Soal 07:: Seorang Social Media Specialist bertugas mengelola akun Instagram perusahaan. Keterampilan (skillset) utama manakah yang paling krusial harus dimiliki oleh profesi tersebut? {
+= Kemampuan copywriting yang persuasif, kepekaan terhadap tren konten terkini, serta pemahaman keterlibatan audiens.
+~ Keterampilan merakit komponen perangkat keras komputer serta penguasaan bahasa pemrograman tingkat tinggi untuk server.
+~ Keahlian dalam menghitung rasio akuntansi keuangan perusahaan serta pemahaman mendalam tentang hukum perpajakan.
+~ Kemampuan mengendarai kendaraan berat untuk mendistribusikan barang fisik dari pabrik menuju ke gudang penyimpanan.
+~ Keterampilan merancang arsitektur bangunan fisik kantor serta penguasaan teknik pengelasan besi pada konstruksi gedung.
+}
+
+::Pengantar DM - Soal 08:: Manakah dari jenis tren pemasaran digital berikut yang paling mengandalkan tingkat kepercayaan audiens terhadap kredibilitas seorang figur publik atau ahli di bidang tertentu? {
+= Influencer / KOL Marketing
+~ Search Engine Optimization
+~ Email Marketing Automation
+~ Programmatic Display Ads
+~ Offline Banner Placement
+}
+
+::Pengantar DM - Soal 09:: Studi Kasus Aplikasi O2O: Sebuah jaringan kedai kopi lokal berkembang menjadi bisnis berskala besar dengan mengintegrasikan aplikasi seluler resmi untuk pemesanan produk. Keunggulan utama dari penggunaan aplikasi tersebut dalam strategi Online-to-Offline (O2O) adalah apa? {
+= Memangkas waktu antrean di gerai, mengumpulkan data perilaku beli konsumen, serta mendorong retensi melalui program loyalitas aplikasi.
+~ Mengenaik tagihan biaya langganan aplikasi bulanan yang mahal kepada konsumen saat mengunduh aplikasi di toko aplikasi seluler.
+~ Menghentikan produksi kopi di gerai fisik dan mengalihkan seluruh transaksi penjualan menjadi minuman virtual di dalam aplikasi.
+~ Menutup seluruh gerai fisik offline dan melayani pengiriman minuman kopi khusus melalui jasa pengiriman surat dokumen pos tertulis.
+~ Memberikan garansi bahwa setiap pembelian satu cangkir kopi susu akan langsung mendapatkan bonus hadiah smartphone Android terbaru.
+}
+
+::Pengantar DM - Soal 10:: Apa perbedaan peran mendasar antara seorang Content Creator dan seorang Digital Marketing Analyst dalam sebuah tim pemasaran digital? {
+= Content Creator berfokus pada produksi aset kreatif visual/narasi, sedangkan Analyst berfokus pada evaluasi data performa.
+~ Content Creator bertugas membayar biaya iklan bulanan, sedangkan Analyst bertugas membuat desain grafis untuk promosi.
+~ Content Creator bekerja untuk mengurusi pengiriman barang, sedangkan Analyst bekerja untuk membersihkan ruangan kantor.
+~ Content Creator khusus melayani pembeli di toko fisik, sedangkan Analyst khusus membalas telepon komplain dari konsumen.
+~ Content Creator bertanggung jawab atas hukum perusahaan, sedangkan Analyst bertanggung jawab atas rekrutmen staf baru.
+}
+
+::Pengantar DM - Soal 11:: Sebuah merek produk perawatan kulit (skincare) memanfaatkan chatbot berbasis kecerdasan buatan untuk merekomendasikan produk yang cocok berdasarkan jenis kulit pengguna secara otomatis di situs web. Tren digital apakah yang diterapkan? {
+= AI-based Marketing & Personalisasi
+~ Conventional Broadcast Marketing
+~ Offline Direct Sales Marketing
+~ Out-of-Home Billboard Marketing
+~ Print Media Catalog Marketing
+}
+
+::Pengantar DM - Soal 12:: Studi Kasus Creator-Led Business: Sebuah tempat kuliner lokal berhasil memicu antrean pengunjung sejak hari pertama beroperasi tanpa memasang iklan TV berbayar, melainkan mengandalkan konten video tantangan interaktif yang diunggah rutin oleh pemiliknya yang merupakan seorang pembuat konten populer. Strategi tersebut memanfaatkan keunggulan apa? {
+= Pemanfaatan personal branding pendiri di TikTok yang konsisten memproduksi konten tantangan interaktif yang memicu rasa penasaran.
+~ Pembagian uang tunai sebesar satu juta rupiah secara gratis kepada seratus pengunjung pertama yang datang makan di kedai kuliner.
+~ Menyewa seluruh stasiun TV swasta nasional untuk menyiarkan pembukaan gerai secara langsung selama dua puluh empat jam nonstop.
+~ Menggunakan bahan baku rempah cabai bakar langka yang diimpor langsung dari luar negeri dengan harga termahal di pasar dunia.
+~ Memaksa pengikut media sosial pribadi pendiri untuk datang membeli di kedai kuliner di bawah ancaman pemblokiran akun medsos.
+}
+
+::Pengantar DM - Soal 13:: Profesi spesialis manakah yang bertanggung jawab mengelola anggaran iklan berbayar skala besar pada platform Meta Ads Manager dan Google Ads untuk mengoptimalkan konversi penjualan? {
+= Performance Ads Specialist
+~ SEO Specialist
+~ Community Manager
+~ Copywriter Intern
+~ Graphic Designer
+}
+
+::Pengantar DM - Soal 14:: Manakah di antara berikut yang merupakan keuntungan utama penggunaan Email Marketing dalam strategi pemasaran digital perusahaan dibanding saluran media sosial terbuka? {
+= Memungkinkan komunikasi personal yang langsung masuk ke kotak masuk saluran pribadi milik konsumen yang sudah terdaftar.
+~ Dijamin seratus persen akan dibaca oleh semua orang di dunia tanpa peduli apakah mereka memiliki alamat email atau tidak.
+~ Tidak memerlukan pembuatan konten tulisan atau penawaran produk karena email akan terisi secara otomatis oleh sistem.
+~ Bebas dari risiko dikategorikan sebagai pesan spam meskipun dikirimkan sebanyak sejuta kali dalam sehari ke kontak acak.
+~ Dapat digunakan untuk mengirimkan produk barang fisik secara langsung keluar dari layar komputer milik konsumen.
+}
+
+::Pengantar DM - Soal 15:: Studi Kasus Community Marketing: Sebuah merek produk kecantikan mempertahankan posisi kepemimpinan pasar selama bertahun-tahun dengan membentuk program keanggotaan mahasiswa di berbagai kampus serta mengelola hubungan erat dengan para pengulas produk di media sosial. Strategi pemasaran berbasis apa yang diterapkan? {
+= Membangun ekosistem Campus Ambassador bagi mahasiswi serta mengelolanya secara berkelanjutan dengan jaringan beauty influencer.
+~ Membatasi penjualan produk kosmetik hanya pada lingkungan tempat ibadah dan melarang penjualan di toko kosmetik serta e-commerce.
+~ Menghentikan seluruh pemasaran digital di media sosial dan beralih menggunakan promosi dari rumah ke rumah warga secara offline.
+~ Mengenakan biaya sertifikasi kecantikan tambahan kepada konsumen yang ingin membeli produk kosmetik di toko fisik perusahaan.
+~ Mengubah nama identitas seluruh varian produk kosmetik setiap bulan sekali agar perusahaan kompetitor merasa bingung meniru.
+}
+
+::Pengantar DM - Soal 16:: Apa fokus utama pekerjaan seorang Digital Marketing Manager dalam suatu organisasi bisnis? {
+= Merancang strategi pemasaran digital makro, mengintegrasikan seluruh saluran, serta mengelola pencapaian target tim.
+~ Mengetik teks balasan komentar satu per satu di akun media sosial resmi perusahaan dari pagi hingga malam hari.
+~ Mengedit foto produk secara manual menggunakan perangkat lunak desain grafis untuk diunggah di situs toko online.
+~ Mengantarkan pesanan barang fisik secara langsung ke rumah konsumen menggunakan kendaraan operasional kantor pusat.
+~ Memperbaiki kerusakan kabel koneksi internet serta jaringan komputer yang ada di dalam ruangan rapat staf pemasar.
+}
+
+::Pengantar DM - Soal 17:: Mengapa strategi Content Marketing dianggap sebagai pendekatan promosi jangka panjang yang sangat bernilai bagi sebuah merek? {
+= Karena fokus membangun hubungan kepercayaan dengan memberikan edukasi dan manfaat nyata sebelum mengarahkan ke penjualan.
+~ Karena hasil konversi penjuualannya selalu terjadi secara instan dalam hitungan detik setelah konten diunggah di medsos.
+~ Karena pembuatan konten marketing tidak memerlukan waktu pemikiran dan strategi sama sekali dari tim kreator bisnis.
+~ Karena konten marketing secara otomatis menghapus konten promosi milik perusahaan pesaing dari internet secara permanen.
+~ Karena platform media sosial memberikan bayaran uang tunai bulanan kepada semua bisnis yang mengunggah konten edukasi.
+}
+
+::Pengantar DM - Soal 18:: Studi Kasus Promo Bulanan E-Commerce: Sebuah platform belanja online mengadakan program diskon rutin setiap akhir bulan dengan mengombinasikan penampilan grup musik populer favorit generasi muda dan permainan interaktif berhadiah voucher di aplikasi. Kombinasi taktik tersebut bertujuan untuk... {
+= Penggabungan kampanye Hype Marketing melalui kolaborasi grup K-Pop populer dengan fitur gamifikasi interaktif berhadiah voucher.
+~ Mematikan sistem aplikasi e-commerce pada setiap tanggal promo bulanan untuk melatih kesabaran belanja dari para pengguna internet.
+~ Mengirimkan brosur fisik cetak promosi belanja menggunakan pesawat udara di atas pemukiman warga masyarakat di daerah-daerah.
+~ Mengubah warna tampilan halaman depan aplikasi menjadi warna hitam polos tanpa ada gambar produk untuk menciptakan misteri.
+~ Mewajibkan setiap calon pembeli untuk menghafalkan seluruh nama pengurus perusahaan sebelum diizinkan bertransaksi pembayaran.
+}
+
+::Pengantar DM - Soal 19:: Profesi manakah di bawah ini yang memfasilitasi komunikasi dua arah, membangun hubungan erat, serta menjaga keharmonisan anggota dalam akun komunitas daring resmi milik merek? {
+= Community Specialist / Manager
+~ Performance Ads Specialist
+~ Database System Administrator
+~ Financial Auditor Specialist
+~ Supply Chain Logistics Manager
+}
+
+::Pengantar DM - Soal 20:: Manakah dari skenario berikut yang menunjukkan pergeseran perilaku konsumen dari era internet awal (statis) ke era media sosial interaktif? {
+= Konsumen aktif mencari ulasan pengguna lain, memberikan komentar produk, serta membuat konten pengalaman pribadi.
+~ Konsumen hanya pasif membaca teks informasi produk pada papan pengumuman tanpa bisa memberikan tanggapan balik.
+~ Konsumen menolak menggunakan perangkat smartphone dan memilih memesan barang melalui surat kabar cetak mingguan.
+~ Konsumen membayar barang belanjaan dengan emas murni karena tidak percaya pada sistem pembayaran perbankan digital.
+~ Konsumen hanya mau membeli produk apabila penjual datang langsung ke rumah mereka untuk melakukan peragaan barang.
+}
+
+::Pengantar DM - Soal 21:: Studi Kasus Value-Driven Content: Sebuah merek perlengkapan kegiatan luar ruang secara konsisten mengunggah konten video edukasi tentang pentingnya menjaga kelestarian alam dan panduan keselamatan pendakian daripada hanya memposting foto promosi jualan produk. Pendekatan ini bertujuan untuk... {
+= Menyajikan konten edukasi pelestarian lingkungan hidup dan keselamatan kegiatan alam liar yang selaras dengan nilai merek.
+~ Mengunggah iklan promosi jualan secara agresif setiap sepuluh menit sekali tanpa pernah membagikan konten nilai edukasi alam.
+~ Menyebarkan berita rekaan palsu mengenai lokasi gunung-gunung tinggi di Indonesia untuk menakut-nakuti para pendaki pemula.
+~ Mengabaikan platform media digital dan memfokuskan promosi peralatan outdoor melalui surat kabar cetak mingguan daerah.
+~ Memaksa seluruh pembeli peralatan outdoor untuk menandatangani ikrar janji bahwa tidak akan pernah membeli merek lain.
+}
+
+::Pengantar DM - Soal 22:: Seorang pebisnis muda ingin memasarkan produk jam tangan uniknya melalui strategi Short-form Video Marketing. Platform manakah yang paling relevan diprioritaskan? {
+= TikTok dan Instagram Reels
+~ LinkedIn Article Page
+~ Email Newsletter Text
+~ WhatsApp Text Broadcast
+~ Website Blog RSS Feed
+}
+
+::Pengantar DM - Soal 23:: Keterampilan analitis mendalam (Data Driven Mindset) dan pemahaman metrik seperti CPA, ROAS, serta LTV sangat dibutuhkan oleh profesi apa dalam tim digital marketing? {
+= Performance Ads Specialist & Digital Marketing Analyst
+~ Junior Graphic Designer & Illustrator
+~ Voice Over Talent & Video Actor
+~ Event Organizer Physical Staff
+~ Physical Store Security Officer
+}
+
+::Pengantar DM - Soal 24:: Studi Kasus Pemasaran Organik: Sebuah kedai kopi skala kecil mengalami lonjakan penjualan yang sangat cepat pada awal berdirinya tanpa mengalokasikan anggaran iklan berbayar, melainkan didorong oleh rasa produk yang lezat, rekomendasi antar konsumen, serta liputan tokoh publik yang berkunjung. Faktor pendorong utama lonjakan tersebut adalah... {
+= Keunggulan cita rasa produk yang konsisten (Product Excellence), rekomendasi organik mulut ke mulut, serta momentum momen kunjungan tokoh publik.
+~ Pemasangan iklan berbayar skala besar secara serentak di seluruh stasiun televisi swasta nasional selama satu tahun penuh masa promosi.
+~ Membagikan minuman kopi susu secara gratis tanpa batas jumlah kepada seluruh warga masyarakat yang melintas di depan gerai kedai.
+~ Menyebarkan konten klip klaim medis di media sosial bahwa mengonsumsi kopi susu dapat memberikan kekuatan fisik luar biasa.
+~ Penetapan harga jual minuman kopi sebesar satu juta rupiah per cangkir untuk menciptakan persepsi bahwa produk sangat mewah.
+}
+
+::Pengantar DM - Soal 25:: Apa keuntungan utama yang diperoleh merek saat bekerja sama dengan Micro-Influencer (10k-50k pengikut) dibanding Mega-Influencer (juta pengikut) dalam kampanye niche? {
+= Tingkat keterlibatan (engagement rate) yang umumnya lebih tinggi serta biaya kerja sama yang jauh lebih terjangkau.
+~ Jumlah jangkauan total penonton yang dijamin selalu seratus kali lipat lebih banyak dibanding selebritas papan atas.
+~ Pembebasan total dari biaya pajak penjualan barang yang dipromosikan oleh mikro-influencer pada platform media sosial.
+~ Kepastian bahwa seluruh pengikut mikro-influencer akan langsung mentransfer uang dalam waktu lima menit setelah promosi.
+~ Garansi bahwa produk yang dipromosikan akan langsung terdaftar dalam rekor museum sejarah nasional sebagai produk terbaik.
+}
+
+::Pengantar DM - Soal 26:: Studi Kasus Penjualan D2C: Sebuah produsen sepatu lokal menjual puluhan pasang produk edisi terbatas dalam waktu singkat dengan memanfaatkan fitur penjualan langsung (Live Selling) di platform digital tanpa melalui toko perantara. Taktik pemasaran digital apakah yang paling dominan diterapkan? {
+= Peluncuran produk kolaborasi edisi terbatas secara eksklusif dan penjualan D2C melalui momentum Flash Sale di TikTok/Shopee.
+~ Membuka ribuan toko fisik cabang di seluruh kota kecil sebelum menjual satu buah pun sepatu secara online di e-commerce.
+~ Membeli perusahaan produsen sepatu terkenal di Eropa agar nama Aero Street terdaftar sebagai produk buatan luar negeri.
+~ Menyembunyikan informasi harga sepatu dari calon konsumen sampai sepatu tiba di rumah pembeli melalui pengiriman kurir.
+~ Melarang pembeli untuk mengambil foto atau membuat video ulasan sepatu yang telah mereka beli di media sosial pribadi.
+}
+
+::Pengantar DM - Soal 27:: Manakah dari berikut ini yang merupakan contoh penerapan Search Engine Marketing (SEM) dalam memasarkan produk jas pembersih rumah? {
+= Memasang iklan berbayar di Google Search sehingga web perusahaan muncul paling atas saat orang mengetik 'jasa bersihin rumah'.
+~ Menuliskan artikel tips membersihkan rumah di koran lokal tanpa menyertakan nomor telepon atau alamat situs web bisnis.
+~ Mengirimkan pesan gambar brosur melalui fitur Bluetooth ke smartphone orang-orang yang berada di dalam gerbong kereta api.
+~ Membuat akun media sosial baru setiap kali perusahaan hendak mengunggah foto alat pembersih yang baru dibeli di toko.
+~ Mengingatkan tetangga sebelah rumah secara lisan saat sedang menyiram tanaman di halaman depan rumah pada pagi hari.
+}
+
+::Pengantar DM - Soal 28:: Studi Kasus Kolaborasi Lintas Industri: Sebuah merek produk perawatan diri meluncurkan koleksi pembersih wajah berdesain khusus yang bekerja sama dengan sebuah merek permen terkenal. Dampak strategis utama yang ingin dicapai dari kolaborasi unik lintas kategori tersebut adalah apa? {
+= Menciptakan elemen keunikan (Uniqueness) yang memicu perbincangan viral (Buzz) di media sosial serta menjangkau segmen pasar baru.
+~ Mengurangi biaya produksi bahan baku kosmetik karena memanfaatkan sisa bumbu masakan dapur dari perusahaan partner kerja sama.
+~ Memaksa konsumen kosmetik untuk membeli makanan cepat saji setiap kali mereka ingin memesan produk pelembab di toko online.
+~ Memungkinkan perusahaan kosmetik untuk mengubah izin resmi usaha menjadi jaringan restoran makanan cepat saji nasional.
+~ Menhapus kewajiban pembayaran pajak usaha karena produk hasil kolaborasi secara otomatis dikategorikan sebagai bahan pangan.
+}
+
+::Pengantar DM - Soal 29:: Apa fungsi utama dari penyusunan portofolio karya bagi seorang pelamar posisi Content Creator di industri digital marketing? {
+= Menunjukkan bukti kemampuan nyata dalam pembuatan ide, desain visual, serta penguasaan teknik penyuntingan video promosi.
+~ Membuktikan bahwa pelamar memiliki jumlah tabungan yang sangat banyak di bank sehingga tidak membutuhkan gaji bulanan.
+~ Menampilkan daftar koleksi barang-barang mewah pribadi yang dimiliki pelamar untuk mengagumkan manajer rekrutmen tim.
+~ Membuktikan bahwa pelamar pernah memenangkan pertandingan olahraga tingkat internasional saat masih duduk di sekolah dasar.
+~ Menunjukkan bahwa pelamar memiliki hubungan kerabat dekat dengan pejabat pemerintah di dinas perdagangan luar negeri.
+}
+
+::Pengantar DM - Soal 30:: Studi Kasus Satisfying Visual Content: Sebuah bisnis makanan penutup berhasil meningkatkan angka penjualan secara signifikan melalui platform video pendek dengan menayangkan video jarak dekat (close-up) yang memperlihatkan proses penuangan saus cokelat lumer disertai suara audio yang menggugah selera. Aspek daya tarik apakah yang dioptimalkan? {
+= Pemanfaatan Satisfying Visual Marketing dan audio ASMR yang menampilkan lelehan saus cokelat melimpah penggugah selera.
+~ Unggahan foto berkas dokumen laporan keuangan bisnis bulanan yang diketik rapi menggunakan mesin ketik tradisional kuno.
+~ Gambar kemasan kotak kardus kosong tanpa produk kue di dalamnya untuk melatih imajinasi visual calon konsumen saat belanja.
+~ Rekaman video situasi gudang bahan baku tepung terigu yang gelap dan sepi pada malam hari tanpa ada aktivitas produksi.
+~ Penyajian grafik diagram statistik kenaikan harga gula pasir internasional yang rumit dan sulit dipahami oleh publik.
+}
+
+::Pengantar DM - Soal 31:: Dalam evolusi media digital, konsep PESO Model membantu pemasar digital untuk melakukan apa? {
+= Memetakan dan mengintegrasikan seluruh saluran media yang dimiliki, dibeli, didapatkan, serta dibagikan dalam kampanye.
+~ Menghitung persentase keuntungan bersih yang harus dibagikan kepada pemegang saham perusahaan setiap akhir tahun anggaran.
+~ Mengatur jadwal jam kerja lembur karyawan toko agar tidak melanggar ketentuan hukum ketenagakerjaan yang berlaku publik.
+~ Memilih jenis bahan kemasan plastik yang paling ramah lingkungan untuk membungkus barang belanjaan fisik pelanggan.
+~ Menentukan daftar lagu musik yang boleh diputar di dalam ruangan toko fisik agar pengunjung merasa tenang saat belanja.
+}
+
+::Pengantar DM - Soal 32:: Studi Kasus Buzz Marketing: Sebuah kedai makanan pedas selalu dipenuhi antrean pembeli yang mengular di setiap cabang barunya. Pembeli yang mengantre sering mengunggah foto suasana antrean ke media sosial, sehingga memicu rasa penasaran masyarakat luas untuk ikut mencoba. Fenomena ini mengandalkan peran apa? {
+= Video dan foto dokumentasi antrean panjang pembeli serta pengemudi ojek online yang mengular di setiap outlet baru.
+~ Pajangan sertifikat penghargaan kuliner internasional dari ikatan koki dunia yang digantung di area meja kasir kedai.
+~ Foto bukti struk pembayaran kasir milik pembeli yang memperlihatkan potongan diskon harga seratus persen dari pemilik.
+~ Atractions tari-tarian tradisional yang dibawakan oleh staf kedai di area parkir kendaraan untuk menyambut pengunjung kedai.
+~ Rekaman audio bunyi klakson armada pengangkut bahan baku mi yang tiba di gudang penyimpanan pada waktu subuh pagi.
+}
+
+::Pengantar DM - Soal 33:: Seorang pemasar digital mengamati bahwa konten video berformat vertikal dengan durasi di bawah 60 detik mendapatkan jangkauan organik tertinggi saat ini. Fenomena tren ini dinamakan apa? {
+= Short-form Video Trend
+~ Long-form Blogging Trend
+~ Audio Podcast Broadcast Trend
+~ Text Banner Advertising Trend
+~ Print Catalog Distribution Trend
+}
+
+::Pengantar DM - Soal 34:: Studi Kasus Omni-Channel Retail: Sebuah toko ritel produk kecantikan menyediakan kode QR di samping setiap barang yang dipajang di rak toko fisiknya, sehingga pengunjung dapat memindai kode tersebut menggunakan smartphone untuk langsung membaca ulasan pembeli lain di aplikasi resmi toko. Integrasi ini merupakan contoh penerapan... {
+= Pemindaian kode QR pada produk di toko fisik untuk langsung membaca ulasan jujur dan penilaian konsumen di aplikasi SOCO.
+~ Penggunaan mesin pendeteksi kebohongan otomatis saat pembeli hendak membayar barang belanjaan mereka di meja kasir.
+~ Layanan foto Rontgen kulit gratis yang hasilnya dikirimkan melalui surat dokumen resmi pos ke alamat rumah pembeli.
+~ Kios pembayaran otomatis yang hanya menerima mata uang asing kuno sebagai alat transaksi pembayaran produk di toko.
+~ Pemasangan kamera pengawas berteknologi tinggi yang membatasi durasi belanja pembeli maksimal selama lima menit saja.
+}
+
+::Pengantar DM - Soal 35:: Profesi manakah yang bertanggung jawab meriset kata kunci pencarian, melakukan optimasi teknis halaman web, serta membangun backlink berkualitas? {
+= SEO Specialist
+~ Copywriter Intern
+~ Social Media Admin
+~ Public Relations Officer
+~ Event Director
+}
+
+::Pengantar DM - Soal 36:: Studi Kasus Promosi Interaktif Pra-Peluncuran: Sebelum resmi membuka gerainya, sebuah merek minuman teh buah mengajak para pengikut media sosialnya untuk memecahkan teka-teki logika sederhana guna menebak nama dan rasa dari produk yang akan diluncurkan. Tujuan utama dari taktik interaktif pra-peluncuran ini adalah untuk... {
+= Mengajak audiens berpartisipasi menebak resep varian minuman teh menggunakan teka-teki interaktif berkonsep matematika.
+~ Membagikan bibit tanaman teh secara gratis kepada seluruh pengikut akun media sosial untuk ditanam di halaman rumah.
+~ Mengkritik secara terbuka kualitas rasa produk minuman teh milik seluruh brand kompetitor untuk menjatuhkan lawan.
+~ Menjual buku pelajaran matematika sekolah menengah atas dengan bonus satu cangkir teh rasa buah di dalam buku.
+~ Mengosongkan seluruh isi postingan akun Instagram selama satu tahun penuh tanpa pernah memberikan informasi apa pun.
+}
+
+::Pengantar DM - Soal 37:: Mengapa sebuah merek bisnis perlu memantau tren yang sedang hangat (trending topic) di media sosial secara rutin? {
+= Memanfaatkan momen pembicaraan publik untuk membuat konten promosi yang relevan dan berpotensi mendapatkan jangkauan tinggi.
+~ Mengubah seluruh nama produk yang dijual di toko setiap hari mengikuti nama topik tren yang sedang populer di X (Twitter).
+~ Menyalahkan kompetitor yang tidak ikut serta dalam membuat konten promosi berbasis topik tren yang sedang hangat dibahas.
+~ Menhapus seluruh data pelanggan lama dari basis data perusahaan karena ingin menggantinya dengan pengikut akun tren baru.
+~ Memaksa staf pemasar untuk membuat seribu konten video promosi dalam hitungan jam tanpa memperhitungkan kualitas visual.
+}
+
+::Pengantar DM - Soal 38:: Tugas utama seorang Copywriter dalam tim pemasaran digital adalah apa? {
+= Menulis teks narasi persuasif yang mampu menarik perhatian, menyampaikan nilai produk, serta mendorong audiens bertindak.
+~ Merancang skema jaringan kabel serat optik untuk menghubungkan koneksi internet antar cabang kantor perusahaan bisnis.
+~ Mengurus perizinan surat legalitas usaha bisnis ke dinas pelayanan terpadu satu pintu di pemerintah kota setempat.
+~ Memperbaiki mesin cetak brosur kantor yang mengalami gangguan teknis saat mencetak selebaran kertas promosi produk.
+~ Memeriksa ketersediaan saldo uang tunai di brankas kantor pusat untuk membayar biaya operasional harian perusahaan.
+}
+
+::Pengantar DM - Soal 39:: Manakah di antara berikut yang merupakan contoh kelemahan utama dari saluran Paid Media (Iklan Berbayar) jika dibanding dengan Owned Media? {
+= Jangkauan promosi akan langsung terhenti seketika saat anggaran atau saldo biaya iklan yang dialokasikan telah habis.
+~ Iklan berbayar tidak dapat ditayangkan kepada pengguna smartphone yang sedang terhubung dengan jaringan internet publik.
+~ Materi visual iklan berbayar secara otomatis akan terhapus dari memori komputer milik pembuat iklan setelah diunggah.
+~ Iklan berbayar hanya diperbolehkan untuk mempromosikan produk makanan dan minuman saja sesuai aturan undang-undang.
+~ Pengguna internet yang melihat iklan berbayar diharuskan membayarkan sejumlah uang kepada pemilik platform media sosial.
+}
+
+::Pengantar DM - Soal 40:: Sebuah merek pakaian ingin membangun personalitas merek yang humoris dan dekat dengan audiens Gen-Z di X (Twitter). Pendekatan copywriting seperti apa yang tepat? {
+= Menggunakan bahasa santun bernada santai, adaptif terhadap bahasa gaul (slang), serta merespons tren pembicaraan terkini.
+~ Menuliskan surat keputusan resmi perusahaan dengan bahasa baku bahasa Indonesia tata hukum yang sangat kaku dan formal.
+~ Memborbardir kolom balasan pengguna lain dengan pesan iklan promosi otomatis berulang-ulang tanpa mempedulikan konteks.
+~ Menggunakan istilah-istilah medis teknis yang rumit sehingga audiens merasa bingung dan harus membuka kamus kedokteran.
+~ Menghapus semua postingan teks tulisan dan hanya mengunggah gambar polos berwarna putih tanpa ada keterangan apa pun.
+}
+
+::Pengantar DM - Soal 41:: Apa yang dimaksud dengan Key Opinion Leader (KOL) dalam industri digital marketing? {
+= Figur publik atau ahli yang memiliki pengaruh, kredibilitas, serta pengikut setia dalam topik niche tertentu di media digital.
+~ Staf bagian keuangan perusahaan yang bertugas mengeluarkan kuitansi pembayaran gaji untuk seluruh karyawan kantor bisnis.
+~ Petugas keamanan kantor yang mengawasi pintu masuk utama agar tidak ada orang luar yang masuk tanpa izin resmi perusahaan.
+~ Perangkat keras server komputer yang digunakan untuk menyimpan seluruh dokumen digital milik perusahaan di dalam ruangan IT.
+~ Sistem otomatisasi mesin kasir yang digunakan untuk mencatat setiap transaksi pembayaran tunai di toko fisik offline.
+}
+
+::Pengantar DM - Soal 42:: Seorang siswa ingin berkarier sebagai Digital Marketing Analyst. Keterampilan teknis (Hard Skill) manakah yang paling utama harus dikuasai? {
+= Penguasaan alat analitik data (Google Analytics, Looker Studio), pengolahan spreadsheet, serta interpretasi metrik bisnis.
+~ Keterampilan merawat tanaman hias di dalam ruangan kantor agar tetap segar dan tidak layu saat ditinggal libur akhir pekan.
+~ Keahlian menyanyikan lagu opera dengan nada tinggi untuk menghibur audiens saat acara pameran produk berlangsung offline.
+~ Keterampilan memperbaiki kebocoran atap gedung kantor pusat agar dokumen kertas perusahaan tidak basah terkena air hujan.
+~ Keahlian mengoperasikan mesin cetak spanduk kain ukuran raksasa untuk dipasang di pagar lapangan olahraga daerah.
+}
+
+::Pengantar DM - Soal 43:: Mengapa kampanye pemasaran melalui pesan WhatsApp Business API memerlukan sistem Opt-In persetujuan dari pelanggan? {
+= Menjaga privasi pelanggan serta memastikan bahwa pesan promosi yang dikirimkan tidak dianggap sebagai spam yang mengganggu.
+~ Memastikan bahwa smartphone milik pelanggan tidak akan habis daya baterainya saat menerima pesan promosi dari bisnis kita.
+~ Memberikan wewenang kepada perusahaan untuk mengambil alih akun WhatsApp pribadi milik pelanggan secara permanen tanpa izin.
+~ Memaksa pelanggan untuk membagikan pesan promosi tersebut ke sepuluh grup WhatsApp keluarga mereka dalam waktu singkat.
+~ Mengisi saldo rekening bank milik pelanggan secara otomatis setiap kali bisnis mengirimkan pesan katalog produk terbaru.
+}
+
+::Pengantar DM - Soal 44:: Dalam dunia digital marketing, tren Live Shopping (seperti di TikTok Shop / Shopee Live) menggabungkan dua elemen utama yaitu apa? {
+= Demonstrasi produk secara langsung (real-time) yang interaktif dengan kemudahan transaksi pembelian instan di dalam aplikasi.
+~ Pengiriman barang menggunakan pesawat terbang tanpa awak (drone) dengan pembayaran tunai di tempat saat barang tiba di rumah.
+~ Pembacaan berita koran cetak harian oleh penyiar radio yang disiarkan secara serentak di seluruh stasiun televisi daerah.
+~ Penjualan barang-barang kuno antik melalui sistem lelang tertulis yang pengumumannya dikirimkan melalui surat dokumen pos.
+~ Pemasangan papan iklan reklame raksasa di pinggir jalan raya yang dilengkapi dengan lampu sorot berwarna-warni pada malam hari.
+}
+
+::Pengantar DM - Soal 45:: Manakah dari berikut ini yang merupakan contoh penerapan Owned Media yang dapat dikendalikan sepenuhnya oleh perusahaan? {
+= Website resmi perusahaan
+~ Halaman ulasan Google Maps dari pembeli
+~ Artikel berita portal media massa nasional
+~ Unggahan video di akun pribadi milik konsumen
+~ Kolom komentar akun media sosial pesaing
+}
+
+::Pengantar DM - Soal 46:: Apa fungsi dari metrik Engagement Rate dalam mengevaluasi kinerja seorang Social Media Specialist? {
+= Mengukur seberapa aktif audiens berinteraksi (suka, komentar, bagikan) terhadap konten yang dipublikasikan oleh spesialis.
+~ Menghitung berapa kali spesialis tersebut terlambat datang ke kantor dalam periode waktu satu bulan masa kerja operasional.
+~ Menentukan besarnya bonus komisi penjualan barang fisik yang harus dibayarkan perusahaan kepada toko agen perantara bisnis.
+~ Mengukur daya tahan baterai laptop kantor yang digunakan oleh spesialis saat membuat desain gambar promosi produk baru.
+~ Menghitung banyaknya kertas HVS yang dihabiskan oleh spesialis untuk mencetak laporan hasil evaluasi mingguan kantor.
+}
+
+::Pengantar DM - Soal 47:: Sebuah bisnis startup ingin menguji tanggapan pasar terhadap produk barunya dengan anggaran sangat minim. Metode pemasaran digital manakah yang efisien? {
+= Membuat akun media sosial bisnis, memproduksi konten edukasi autentik, serta memanfaatkan promosi komunitas organik.
+~ Menyewa helikopter untuk menyebarkan sejuta lembar brosur kertas promosi di atas wilayah udara kota-kota besar nasional.
+~ Membayar selebritas papan atas dunia untuk menjadi bintang iklan produk di televisi internasional selama satu tahun penuh.
+~ Membeli gedung perkantoran sepuluh lantai di pusat kota untuk dijadikan markas utama tim pemasar digital perusahaan bisnis.
+~ Memasang iklan reklame videotron di seluruh perempatan jalan utama kota besar dengan kontrak durasi sepuluh tahun berjalan.
+}
+
+::Pengantar DM - Soal 48:: Manakah dari pernyataan berikut yang paling tepat menjelaskan peran Social Proof (Bukti Sosial) dalam konversi pemasaran digital? {
+= Ulasan positif dan testimoni dari pembeli lain meningkatkan kepercayaan calon konsumen baru untuk membuat keputusan membeli.
+~ Sertifikat bukti pembayaran pajak perusahaan yang dipajang di dinding ruangan kantor pusat agar pengunjung merasa kagum.
+~ Kartu tanda anggota kepolisian yang dimiliki oleh pemilik perusahaan untuk menakut-nakuti calon pembeli yang ragu bertransaksi.
+~ Jumlah kendaraan operasional kantor yang terparkir di halaman gedung perusahaan untuk menunjukkan skala bisnis yang besar.
+~ Foto bukti pembayaran gaji seluruh karyawan kantor yang diunggah ke situs web perusahaan untuk dibaca publik luas.
+}
+
+::Pengantar DM - Soal 49:: Dalam struktur organisasi tim pemasaran digital modern, posisi manakah yang bertanggung jawab merancang strategi narasi dan gaya bahasa (Brand Voice) bisnis? {
+= Lead Copywriter / Content Strategist
+~ Data Center Hardware Engineer
+~ Warehouse Logistics Coordinator
+~ Front Office Receptionist Staff
+~ Financial Tax Accounting Manager
+}
+
+::Pengantar DM - Soal 50:: Mengapa seorang pemasar digital perlu memahami dinamika perubahan algoritma platform media sosial? {
+= Agar dapat menyesuaikan strategi distribusi konten sehingga materi promosi tetap mendapatkan jangkauan dan interaksi optimal.
+~ Agar dapat meretas sistem keamanan platform media sosial dan mengambil alih dana modal periklanan milik perusahaan pesaing.
+~ Agar dapat menghentikan pengoperasian seluruh platform media sosial saat perusahaan hendak berlibur bersama di akhir tahun.
+~ Agar dapat mengubah harga jual produk di situs web perusahaan pesaing secara otomatis dari komputer kantor perusahaan.
+~ Agar dapat memaksa seluruh pemilik akun media sosial di dunia untuk secara otomatis menjadi pengikut akun bisnis perusahaan.
+}

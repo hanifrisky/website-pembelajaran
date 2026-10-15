@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Marketing &amp; Content Strategy - Modul 05</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest-950: #04140F;
+    --forest-900: #08241B;
+    --forest-800: #0D3E2F;
+    --forest-700: #12543F;
+    --emerald-600: #10B981;
+    --emerald-500: #059669;
+    --mint-200: #A7F3D0;
+    --mint-100: #ECFDF5;
+    --mint-050: #F6FDF9;
+    --lime-400: #C9F13B;
+    --lime-300: #DBFA6F;
+    --ink: #0A1C16;
+    --paper: #FAFDFB;
+    --line: rgba(4,20,15,0.08);
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Manrope', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--forest-950);
+    overflow-x: hidden;
+  }
+
+  /* ---------- Slide scaffolding ---------- */
+  .deck {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+  }
+  .slide {
+    scroll-snap-align: start;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 6vh 8vw;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .slide.dark { background: var(--forest-950); color: var(--mint-100); }
+  .slide.mid { background: var(--forest-900); color: var(--mint-100); }
+  .slide.light { background: var(--mint-100); color: var(--ink); }
+  .slide.paper { background: var(--paper); color: var(--ink); }
+
+  /* Dot-grid texture */
+  .slide::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(currentColor 1.2px, transparent 1.2px);
+    background-size: 32px 32px;
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  .eyebrow {
+    font-family: var(--font-body);
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-size: clamp(10px, 1.1vw, 13px);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+    opacity: 0.85;
+  }
+  .eyebrow .bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }
+  .eyebrow .bars span { display: block; width: 3px; background: currentColor; border-radius: 1px; }
+  .eyebrow .bars span:nth-child(1) { height: 40%; }
+  .eyebrow .bars span:nth-child(2) { height: 70%; }
+  .eyebrow .bars span:nth-child(3) { height: 100%; }
+
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-size: clamp(34px, 5.5vw, 76px);
+  }
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: clamp(28px, 4vw, 52px);
+    margin-bottom: 24px;
+  }
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(17px, 1.8vw, 22px);
+  }
+  p { font-size: clamp(14px, 1.25vw, 18px); line-height: 1.6; }
+  .lead { font-size: clamp(16px, 1.5vw, 21px); line-height: 1.5; max-width: 800px; opacity: 0.92; }
+
+  .accent { color: var(--lime-400); }
+  .tag {
+    display: inline-block;
+    font-family: var(--font-body); font-weight: 700; font-size: 11px; letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--lime-400);
+    color: var(--forest-950);
+  }
+
+  /* ---------- Navigation overlays ---------- */
+  .nav {
+    position: fixed;
+    bottom: 24px; left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: row; gap: 8px;
+    z-index: 50;
+    background: rgba(4, 20, 15, 0.45);
+    padding: 10px 14px;
+    border-radius: 999px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .nav button {
+    width: 10px; height: 10px; border-radius: 50%;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    transition: all .25s ease;
+  }
+  .nav button.active { background: var(--lime-400); border-color: var(--lime-400); width: 14px; height: 10px; border-radius: 6px; }
+
+  .progress-label {
+    position: fixed; left: 26px; top: 24px;
+    font-family: var(--font-display); font-weight: 600;
+    color: rgba(255,255,255,0.8);
+    font-size: 13px; letter-spacing: 0.05em;
+    z-index: 50;
+    background: rgba(4, 20, 15, 0.45);
+    padding: 6px 12px; border-radius: 999px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .slide.light .progress-label, .slide.paper .progress-label { color: rgba(10,28,22,0.75); background: rgba(255, 255, 255, 0.6); }
+
+  .arrows {
+    position: fixed; right: 26px; top: 50%; transform: translateY(-50%); z-index: 50;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .arrows button {
+    width: 42px; height: 42px; border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(4, 20, 15, 0.72);
+    backdrop-filter: blur(6px);
+    color: white; cursor: pointer;
+    font-size: 18px; display: flex; align-items: center; justify-content: center;
+    transition: all .2s ease;
+  }
+  .arrows button:hover { background: var(--lime-400); color: var(--forest-950); border-color: var(--lime-400); transform: scale(1.05); }
+
+  /* ---------- Timers ---------- */
+  .timer-widget {
+    position: fixed;
+    top: 20px;
+    z-index: 80;
+    background: rgba(4, 20, 15, 0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 10px 12px;
+    color: white;
+    display: flex; align-items: center; gap: 10px;
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  #slideTimerWidget { left: 50%; transform: translateX(-50%); }
+  #globalTimerWidget { right: 26px; }
+
+  .timer-toggle {
+    width: 32px; height: 32px; border-radius: 50%;
+    border: none; background: rgba(255, 255, 255, 0.1);
+    color: var(--lime-400);
+    cursor: pointer; font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .timer-toggle:hover { background: var(--lime-400); color: var(--forest-950); }
+
+  .timer-body { display: flex; align-items: center; gap: 12px; }
+  .timer-widget.minimized .timer-body { display: none; }
+  .timer-widget.minimized { gap: 0; padding: 6px; }
+  .timer-widget.minimized .timer-toggle { width: auto; height: auto; padding: 8px 14px; border-radius: 999px; font-family: var(--font-display); font-weight: 700; font-size: 13px; gap: 6px; }
+
+  .timer-info { display: flex; flex-direction: column; line-height: 1.15; }
+  .timer-label {
+    font-size: 9px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .timer-display {
+    font-family: var(--font-display); font-weight: 700; font-size: 18px;
+    color: var(--mint-100);
+  }
+  .timer-widget.slide-warn .timer-display { color: #FBBF24; }
+  .timer-widget.slide-danger .timer-display { color: #F87171; }
+  .timer-widget.slide-done .timer-display { color: rgba(255, 255, 255, 0.35); }
+
+  .timer-btns { display: flex; gap: 6px; }
+  .timer-btns button {
+    width: 26px; height: 26px; border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: transparent; color: white; cursor: pointer;
+    font-size: 10px; display: flex; align-items: center; justify-content: center;
+  }
+  .timer-btns button:hover { background: var(--lime-400); color: var(--forest-950); border-color: var(--lime-400); }
+
+  /* ---------- Hero Slide ---------- */
+  .hero-num {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: clamp(80px, 14vw, 180px);
+    position: absolute; right: 6vw; top: 8vh;
+    color: rgba(255,255,255,0.03);
+    line-height: 1;
+    pointer-events: none;
+  }
+  .hero-meta {
+    margin-top: 40px;
+    display: flex; gap: 36px; flex-wrap: wrap;
+  }
+  .hero-meta div { font-size: 14px; opacity: 0.75; }
+  .hero-meta strong { display: block; font-family: var(--font-display); font-size: 20px; font-weight: 600; color: var(--lime-400); margin-bottom: 2px; }
+
+  /* ---------- Grids & Cards ---------- */
+  .grid { display: grid; gap: 20px; margin-top: 28px; }
+  .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .grid.cols-5 { grid-template-columns: repeat(5, 1fr); }
+
+  .card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+  }
+  .slide.light .card, .slide.paper .card {
+    background: white;
+    border: 1px solid var(--line);
+    box-shadow: 0 4px 18px rgba(4,20,15,0.04);
+  }
+  .card:hover { border-color: var(--lime-400); transform: translateY(-2px); }
+  .card .num {
+    font-family: var(--font-display); font-weight: 700;
+    color: var(--emerald-600);
+    font-size: 13px; letter-spacing: 0.08em;
+  }
+  .card h3 { margin: 12px 0 8px; }
+  .card p { font-size: 13.5px; opacity: 0.85; line-height: 1.5; }
+
+  /* ---------- Scrollable horizontal list ---------- */
+  .list-scroll {
+    display: flex; gap: 18px; margin-top: 28px;
+    overflow-x: auto; padding-bottom: 12px;
+  }
+  .scroll-card {
+    min-width: 250px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 22px;
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+  .scroll-card:hover { transform: translateY(-3px); }
+  .scroll-card .icon {
+    width: 44px; height: 44px; border-radius: 12px;
+    background: var(--forest-950);
+    color: var(--lime-400);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .scroll-card h3 { font-size: 15.5px; margin-bottom: 6px; color: var(--forest-950); }
+  .scroll-card p { font-size: 12.5px; opacity: 0.8; line-height: 1.45; color: var(--ink); }
+
+  .quote-box {
+    margin-top: 30px;
+    border-left: 4.5px solid var(--lime-400);
+    padding-left: 24px;
+    max-width: 800px;
+  }
+  .quote-box blockquote {
+    font-family: var(--font-display);
+    font-size: clamp(18px, 2.2vw, 28px);
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  .quote-box cite {
+    font-size: 14px; font-style: normal; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.08em;
+  }
+
+  .scroll-frame {
+    overflow-y: auto;
+    max-height: 55vh;
+    padding-right: 12px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .scroll-frame::-webkit-scrollbar { width: 6px; }
+  .scroll-frame::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.02); border-radius: 99px; }
+  .scroll-frame::-webkit-scrollbar-thumb { background: rgba(201, 241, 59, 0.2); border-radius: 99px; }
+
+  @media (max-width: 860px) {
+    .grid.cols-2, .grid.cols-3, .grid.cols-4, .grid.cols-5 { grid-template-columns: 1fr; }
+    .nav, .arrows { display: none; }
+    #globalTimerWidget { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="nav" id="navDots"></div>
+<div class="progress-label" id="progressLabel">01 / 11</div>
+<div class="arrows">
+  <button id="prevBtn" aria-label="Sebelumnya">←</button>
+  <button id="nextBtn" aria-label="Berikutnya">→</button>
+</div>
+
+<!-- SLIDE TIMER WIDGET -->
+<div class="timer-widget" id="slideTimerWidget">
+  <button class="timer-toggle" id="slideTimerToggle" title="Kecilkan / Besarkan">⏱</button>
+  <div class="timer-body">
+    <div class="timer-info">
+      <div class="timer-label">Durasi Slide</div>
+      <div class="timer-display" id="slideTimerDisplay">05:00</div>
+    </div>
+    <div class="timer-btns">
+      <button id="slidePlayPauseBtn" title="Mulai / Jeda">⏸</button>
+      <button id="slideResetBtn" title="Ulangi">↺</button>
+    </div>
+  </div>
+</div>
+
+<!-- GLOBAL TIMER WIDGET -->
+<div class="timer-widget" id="globalTimerWidget">
+  <button class="timer-toggle" id="globalTimerToggle" title="Kecilkan / Besarkan">⏳</button>
+  <div class="timer-body">
+    <div class="timer-info">
+      <div class="timer-label">Waktu Pertemuan</div>
+      <div class="timer-display" id="globalTimerDisplay">90:00</div>
+    </div>
+    <div class="timer-btns">
+      <button id="globalPlayPauseBtn" title="Mulai / Jeda">▶</button>
+      <button id="globalResetBtn" title="Ulangi">↺</button>
+    </div>
+  </div>
+</div>
+
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1: HERO -->
+  <section class="slide dark" data-duration="5">
+    <div class="hero-num">05</div>
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Modul 05 — Strategi Konten Medsos</div>
+    <h1>Social Media Marketing<br><span class="accent">&amp; Content Strategy</span></h1>
+    <p class="lead" style="margin-top: 22px;">Menguasai pilar konten, algoritma platform modern, teknik copywriting AIDA/PAS, dan eksekusi kalender konten bisnis.</p>
+    <div class="hero-meta">
+      <div><strong>2 JP</strong>Alokasi Waktu</div>
+      <div><strong>90 Menit</strong>Durasi Belajar</div>
+      <div><strong>4 Sub Topik</strong>Algoritma, Pilar, Copywriting, &amp; Analytics</div>
+      <div><strong>Aktivitas Kelas</strong>Studi Kasus &amp; Content Calendar</div>
+    </div>
+  </section>
+
+  <!-- SLIDE 2: TUJUAN -->
+  <section class="slide light" data-duration="4">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Tujuan Pembelajaran</div>
+    <h2>Target Pembelajaran Pertemuan</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <div class="num">TP — 01</div>
+        <h3>Algoritma &amp; Karakter Medsos</h3>
+        <p>Memahami perbedaan ekosistem Instagram, TikTok, &amp; LinkedIn serta cara kerja algoritma berbasis <em>Retention Rate</em> dan <em>Hook 3 Detik</em>.</p>
+      </div>
+      <div class="card">
+        <div class="num">TP — 02</div>
+        <h3>Content Pillars &amp; Ideasi</h3>
+        <p>Merumuskan 4 Pilar Konten (<em>Educate, Entertain, Inspire, Convert</em>) untuk menciptakan variasi postingan yang sehat dan tidak membosankan.</p>
+      </div>
+      <div class="card">
+        <div class="num">TP — 03</div>
+        <h3>Copywriting &amp; Kalender Konten</h3>
+        <p>Mengaplikasikan formula penulisan persuasif AIDA &amp; PAS serta menyusun jadwal <em>Content Calendar</em> 1 minggu untuk brand UMKM.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3: EKOSISTEM PLATFORM -->
+  <section class="slide dark" data-duration="7">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 1 — Anatomi Platform</div>
+    <h2>Memahami Karakter Ekosistem Medsos</h2>
+    <p class="lead">Setiap platform media sosial memiliki demografi audiens dan perilaku konsumsi konten yang unik.</p>
+    <div class="grid cols-4" style="margin-top: 24px;">
+      <div class="card">
+        <h3>TikTok</h3>
+        <p><strong>Fokus:</strong> Entertainment First &amp; Audio Tren.<br><strong>Perilaku:</strong> Pembelian impulsif via live &amp; viralitas FYP berbasis algoritma minat.</p>
+      </div>
+      <div class="card">
+        <h3>Instagram</h3>
+        <p><strong>Fokus:</strong> Visual Estetik &amp; Hubungan Komunitas.<br><strong>Perilaku:</strong> Reels untuk penjangkauan baru, Stories untuk retensi followers.</p>
+      </div>
+      <div class="card">
+        <h3>YouTube Shorts</h3>
+        <p><strong>Fokus:</strong> Retensi Durasi Tonton.<br><strong>Perilaku:</strong> Pintu masuk utama untuk membangun pelanggan saluran panjang (Long-Form).</p>
+      </div>
+      <div class="card">
+        <h3>LinkedIn</h3>
+        <p><strong>Fokus:</strong> Profesional &amp; B2B.<br><strong>Perilaku:</strong> Artikel edukasi mendalam, studi kasus bisnis, &amp; personal branding eksekutif.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 4: ALGORITMA MODERN -->
+  <section class="slide light" data-duration="7">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 1 — Cara Kerja Algoritma</div>
+    <h2>Algoritma Pemasaran Video Pendek</h2>
+    <p class="lead">Algoritma modern tidak lagi murni mengandalkan jumlah pengikut (followers), melainkan performa kualitas konten itu sendiri.</p>
+    <div class="grid cols-3" style="margin-top: 24px;">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Hook 3 Detik (Golden Seconds)</h3>
+        <p>Elemen visual/teks di awal video yang menghentikan jari audiens agar tidak langsung melakukan <em>scrolling</em>.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Completion Rate &amp; Watch Time</h3>
+        <p>Persentase durasi penonton menyaksikan video hingga selesai. Semakin tinggi retensi, semakin luas video direkomendasikan.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Sinyal Engagement (Shares &amp; Saves)</h3>
+        <p>Jumlah tindakan membagikan (Share) dan menyimpan (Save) dipandang algoritma sebagai indikator konten bernilai tinggi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 5: CONTENT PILLARS -->
+  <section class="slide paper" data-duration="8">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 2 — Pilar Konten</div>
+    <h2>4 Pilar Utama Konten Bisnis (Content Pillars)</h2>
+    <p class="lead">Gunakan rasio ideal 80% konten bernilai (Educate/Entertain/Inspire) : 20% konten promosi (Convert).</p>
+    <div class="grid cols-4" style="margin-top: 24px;">
+      <div class="card">
+        <div class="num">PILAR 1</div>
+        <h3>Educate (Edukasi)</h3>
+        <p>Tips, tutorial, mitos vs fakta. Membangun otoritas dan kredibilitas brand di mata audiens.</p>
+      </div>
+      <div class="card">
+        <div class="num">PILAR 2</div>
+        <h3>Entertain (Hiburan)</h3>
+        <p>Meme, parodi, tren audio, BTS (Behind The Scenes). Memperluas <em>Reach</em> dan viralitas.</p>
+      </div>
+      <div class="card">
+        <div class="num">PILAR 3</div>
+        <h3>Inspire (Inspirasi)</h3>
+        <p>Storytelling pendiri, ulasan pengguna (UGC), studi kasus. Membangun ikatan emosional dan <em>Trust</em>.</p>
+      </div>
+      <div class="card">
+        <div class="num">PILAR 4</div>
+        <h3>Convert (Promosi)</h3>
+        <p>Diskon, flash sale, pameran produk, testimoni. Mendorong transaksi pembelian secara nyata.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: COPYWRITING AIDA & PAS -->
+  <section class="slide dark" data-duration="8">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 3 — Formula Copywriting</div>
+    <h2>Formula Copywriting Persuasif: AIDA &amp; PAS</h2>
+    <div class="grid cols-2" style="margin-top: 24px;">
+      <div class="card">
+        <h3>Formula AIDA (Attention - Interest - Desire - Action)</h3>
+        <p><strong>Attention:</strong> Headline pemikat perhatian.<br><strong>Interest:</strong> Menyajikan fakta/masalah relevan.<br><strong>Desire:</strong> Menunjukkan manfaat &amp; keunggulan produk.<br><strong>Action:</strong> Call to Action (CTA) yang jelas.</p>
+      </div>
+      <div class="card">
+        <h3>Formula PAS (Problem - Agitate - Solution)</h3>
+        <p><strong>Problem:</strong> Mengangkat titik nyeri (pain point) audiens.<br><strong>Agitate:</strong> Memperhebat dampak buruk jika masalah dibiarkan.<br><strong>Solution:</strong> Memperkenalkan produk sebagai solusi terbaik.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 7: ANATOMI POSTINGAN VIRAL -->
+  <section class="slide light" data-duration="7">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 3 — Struktur Konten</div>
+    <h2>Anatomi Postingan Medsos yang Konversif</h2>
+    <div class="list-scroll">
+      <div class="scroll-card"><div class="icon">01</div><h3>Visual Hook</h3><p>Gambar/video kualitas tinggi dengan teks judul besar yang memancing rasa penasaran dalam 3 detik pertama.</p></div>
+      <div class="scroll-card"><div class="icon">02</div><h3>Caption Dwell-Time</h3><p>Penulisan teks caption berparagraf pendek dengan format pembuka kalimat yang membuat audiens mengklik 'Read More'.</p></div>
+      <div class="scroll-card"><div class="icon">03</div><h3>Call to Value (CTV)</h3><p>Alih-alih sekadar "Beli Sekarang", gunakan "Klaim Voucher Diskon 30% Khusus Hari Ini!".</p></div>
+      <div class="scroll-card"><div class="icon">04</div><h3>Strategic Hashtags</h3><p>Gunakan 3-5 hashtag spesifik niche industri untuk membantu pengkategorian oleh pencarian algoritma.</p></div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: WORKFLOW PRODUKSI KONTEN -->
+  <section class="slide paper" data-duration="7">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 4 — Alur Eksekusi</div>
+    <h2>Workflow Produksi &amp; Batching Konten</h2>
+    <p class="lead">Strategi memproduksi 10-15 konten dalam satu hari kerja agar hemat waktu dan konsisten.</p>
+    <div class="grid cols-4" style="margin-top: 24px;">
+      <div class="card">
+        <div class="num">FASE 1</div>
+        <h3>Ideasi &amp; Scripting</h3>
+        <p>Riset tren, pilih pilar konten, buat outline naskah dan hook visual secara rinci.</p>
+      </div>
+      <div class="card">
+        <div class="num">FASE 2</div>
+        <h3>Batch Shooting</h3>
+        <p>Pengambilan gambar sekaligus untuk beberapa draf video dalam 1 sesi produksi.</p>
+      </div>
+      <div class="card">
+        <div class="num">FASE 3</div>
+        <h3>Editing &amp; Caption</h3>
+        <p>Penambahan teks subtitle, efek suara, music trending, dan penulisan draf caption.</p>
+      </div>
+      <div class="card">
+        <div class="num">FASE 4</div>
+        <h3>Scheduling</h3>
+        <p>Penjadwalan postingan menggunakan Meta Business Suite atau jam waktu aktif audiens.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 9: METRIKS & ANALYTICS -->
+  <section class="slide dark" data-duration="7">
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 4 — Matriks Evaliasi</div>
+    <h2>Vanity Metrics vs Actionable Metrics</h2>
+    <div class="grid cols-2" style="margin-top: 24px;">
+      <div class="card">
+        <h3>Vanity Metrics (Terlihat Bagus di Luar)</h3>
+        <p><strong>Contoh:</strong> Total Likes, Total Views, Jumlah Followers.<br><strong>Kelemahan:</strong> Tidak secara langsung membuktikan adanya pertumbuhan penjualan atau loyalitas bisnis.</p>
+      </div>
+      <div class="card">
+        <h3>Actionable Metrics (Berdampak Bisnis)</h3>
+        <p><strong>Contoh:</strong> Engagement Rate (ER), Click-Through Rate (CTR), Shares, Saves, Conversion Rate.<br><strong>Keunggulan:</strong> Mengukur efisiensi strategi dan tingkat konversi calon pembeli.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 10: CONTENT CALENDAR SAMPLE -->
+  <section class="slide light" data-duration="7">
+    <div class="eyebrow" style="color:var(--emerald-500)"><span class="bars"><span></span><span></span><span></span></span>Sub Modul 4 — Contoh Kalender Konten</div>
+    <h2>Struktur Matriks Content Calendar Mingguan</h2>
+    <div class="scroll-frame">
+      <div class="grid cols-3" style="margin-top:0;">
+        <div class="card">
+          <div class="num">SENIN — EDUCATE</div>
+          <h3>Infografis Tips</h3>
+          <p><strong>Format:</strong> Carousel Instagram<br><strong>Hook:</strong> "3 Mitos Skincare yang Bikin Wajah Makin Kusam!"<br><strong>CTA:</strong> Save postingan ini!</p>
+        </div>
+        <div class="card">
+          <div class="num">RABU — ENTERTAIN</div>
+          <h3>Reels Parodi Tren</h3>
+          <p><strong>Format:</strong> Short Video TikTok<br><strong>Hook:</strong> "Ekspektasi vs Realita Saat Flash Sale 11.11"<br><strong>CTA:</strong> Tag temen kamu yang suka khilaf!</p>
+        </div>
+        <div class="card">
+          <div class="num">JUMAT — CONVERT</div>
+          <h3>Flash Promo Weekend</h3>
+          <p><strong>Format:</strong> Single Image / Story<br><strong>Hook:</strong> "Khusus 50 Pembeli Pertama: Diskon 40%!"<br><strong>CTA:</strong> Klik link bio untuk klaim sekarang!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 11: PENUTUP & TUGAS -->
+  <section class="slide dark" data-duration="5">
+    <div class="hero-num">END</div>
+    <div class="eyebrow"><span class="bars"><span></span><span></span><span></span></span>Rangkuman &amp; Tugas Asesmen</div>
+    <h2>Rangkuman Pertemuan 05</h2>
+    <p class="lead">Konten yang sukses di era digital bukan yang paling mahal diproduksi, melainkan yang paling relevan dengan masalah audiens dan memuat <em>Hook</em> serta <em>CTA</em> yang kuat.</p>
+    <div class="grid cols-2" style="margin-top: 28px;">
+      <div class="card">
+        <h3>Tugas Individu / Kelompok</h3>
+        <p>Pilihlah 1 UMKM lokal. Buatlah <strong>Content Calendar 1 Minggu (7 Hari)</strong> dengan kombinasi 4 pilar konten serta sertakan 1 draf copywriting berformat AIDA atau PAS.</p>
+      </div>
+      <div class="card">
+        <h3>Pertemuan Berikutnya</h3>
+        <p>Modul 06 — Performance Marketing, SEO, &amp; Digital Advertising (Facebook Ads / Google Ads).</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  /* ---------- Deck Navigation Logic ---------- */
+  const deck = document.getElementById('deck');
+  const slides = document.querySelectorAll('.slide');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const navDots = document.getElementById('navDots');
+  const progressLabel = document.getElementById('progressLabel');
+
+  let currentSlideIndex = 0;
+  const totalSlides = slides.length;
+
+  // Build dots
+  slides.forEach((_, idx) => {
+    const dot = document.createElement('button');
+    dot.setAttribute('aria-label', `Slide ${idx + 1}`);
+    if (idx === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => scrollToSlide(idx));
+    navDots.appendChild(dot);
+  });
+
+  const dots = navDots.querySelectorAll('button');
+
+  function updateNav() {
+    dots.forEach((dot, idx) => dot.classList.toggle('active', idx === currentSlideIndex));
+    progressLabel.textContent = `${String(currentSlideIndex + 1).padStart(2, '0')} / ${String(totalSlides).padStart(2, '0')}`;
+    resetSlideTimer();
+  }
+
+  function scrollToSlide(index) {
+    if (index < 0) index = 0;
+    if (index >= totalSlides) index = totalSlides - 1;
+    currentSlideIndex = index;
+    slides[index].scrollIntoView({ behavior: 'smooth' });
+    updateNav();
+  }
+
+  prevBtn.addEventListener('click', () => scrollToSlide(currentSlideIndex - 1));
+  nextBtn.addEventListener('click', () => scrollToSlide(currentSlideIndex + 1));
+
+  deck.addEventListener('scroll', () => {
+    const scrollPos = deck.scrollLeft;
+    const slideWidth = window.innerWidth;
+    const index = Math.round(scrollPos / slideWidth);
+    if (index !== currentSlideIndex) {
+      currentSlideIndex = index;
+      updateNav();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') scrollToSlide(currentSlideIndex + 1);
+    if (e.key === 'ArrowLeft') scrollToSlide(currentSlideIndex - 1);
+  });
+
+  /* ---------- Timers Logic ---------- */
+  let slideTimerInterval = null;
+  let slideTimeLeft = 300; // 5 mins
+  let isSlideTimerRunning = false;
+
+  let globalTimerInterval = null;
+  let globalTimeLeft = 5400; // 90 mins
+  let isGlobalTimerRunning = false;
+
+  function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  }
+
+  function resetSlideTimer() {
+    clearInterval(slideTimerInterval);
+    const durationMin = parseInt(slides[currentSlideIndex].getAttribute('data-duration') || '5', 10);
+    slideTimeLeft = durationMin * 60;
+    document.getElementById('slideTimerDisplay').textContent = formatTime(slideTimeLeft);
+    isSlideTimerRunning = true;
+    document.getElementById('slidePlayPauseBtn').textContent = '⏸';
+    startSlideTimer();
+  }
+
+  function startSlideTimer() {
+    clearInterval(slideTimerInterval);
+    slideTimerInterval = setInterval(() => {
+      if (slideTimeLeft > 0) {
+        slideTimeLeft--;
+        document.getElementById('slideTimerDisplay').textContent = formatTime(slideTimeLeft);
+      } else {
+        clearInterval(slideTimerInterval);
+      }
+    }, 1000);
+  }
+
+  document.getElementById('slidePlayPauseBtn').addEventListener('click', () => {
+    if (isSlideTimerRunning) {
+      clearInterval(slideTimerInterval);
+      isSlideTimerRunning = false;
+      document.getElementById('slidePlayPauseBtn').textContent = '▶';
+    } else {
+      isSlideTimerRunning = true;
+      document.getElementById('slidePlayPauseBtn').textContent = '⏸';
+      startSlideTimer();
+    }
+  });
+
+  document.getElementById('slideResetBtn').addEventListener('click', resetSlideTimer);
+
+  function startGlobalTimer() {
+    clearInterval(globalTimerInterval);
+    globalTimerInterval = setInterval(() => {
+      if (globalTimeLeft > 0) {
+        globalTimeLeft--;
+        document.getElementById('globalTimerDisplay').textContent = formatTime(globalTimeLeft);
+      } else {
+        clearInterval(globalTimerInterval);
+      }
+    }, 1000);
+  }
+
+  document.getElementById('globalPlayPauseBtn').addEventListener('click', () => {
+    if (isGlobalTimerRunning) {
+      clearInterval(globalTimerInterval);
+      isGlobalTimerRunning = false;
+      document.getElementById('globalPlayPauseBtn').textContent = '▶';
+    } else {
+      isGlobalTimerRunning = true;
+      document.getElementById('globalPlayPauseBtn').textContent = '⏸';
+      startGlobalTimer();
+    }
+  });
+
+  document.getElementById('globalResetBtn').addEventListener('click', () => {
+    clearInterval(globalTimerInterval);
+    globalTimeLeft = 5400;
+    document.getElementById('globalTimerDisplay').textContent = formatTime(globalTimeLeft);
+    isGlobalTimerRunning = false;
+    document.getElementById('globalPlayPauseBtn').textContent = '▶';
+  });
+
+  // Toggle minimizers
+  document.getElementById('slideTimerToggle').addEventListener('click', () => {
+    document.getElementById('slideTimerWidget').classList.toggle('minimized');
+  });
+  document.getElementById('globalTimerToggle').addEventListener('click', () => {
+    document.getElementById('globalTimerWidget').classList.toggle('minimized');
+  });
+
+  resetSlideTimer();
+</script>
+</body>
+</html>

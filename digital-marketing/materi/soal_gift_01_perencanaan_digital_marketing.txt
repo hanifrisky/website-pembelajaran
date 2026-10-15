@@ -1,0 +1,399 @@
+::Perencanaan DM - Soal 01:: Sebuah perusahaan rintisan F&B yang baru berdiri ingin meningkatkan jangkauan merek tanpa biaya iklan awal yang besar. Manakah langkah kombinasi saluran yang paling strategis untuk mencapai efisiensi biaya tertinggi? {
+= Memaksimalkan penyajian konten kreatif di saluran owned media serta membangun keterlibatan audiens.
+~ Mengalokasikan seluruh anggaran untuk memasang iklan billboard besar di pusat kota agar langsung dilihat publik.
+~ Membeli database kontak pelanggan massal secara acak lalu mengirimkan promosi pesan spam melalui email secara gencar.
+~ Mengabaikan media digital sepenuhnya dan mengandalkan penyebaran brosur cetak di depan pusat perbelanjaan lokal.
+~ Menggunakan jasa agensi internasional berbiaya mahal untuk memproduksi kampanye iklan komersial di televisi nasional.
+}
+
+::Perencanaan DM - Soal 02:: Tim pemasaran digital bisnis fashion lokal sedang menyusun Buyer Persona untuk lini produk pakaian olahraga wanita usia 20-30 tahun. Informasi manakah yang paling relevan untuk menggambarkan aspek psikografi target audiens tersebut? {
+= Nilai gaya hidup sehat yang dianut serta motivasi untuk tampil percaya diri saat melakukan aktivitas olahraga harian.
+~ Pendapatan bulanan konsumen serta wilayah geografis tempat tinggal di kota besar atau daerah berkembang saat ini.
+~ Jenis perangkat smartphone yang digunakan konsumen beserta besarnya kuota internet bulanan yang mereka beli.
+~ Riwayat pendidikan terakhir konsumen serta jumlah anggota keluarga yang tinggal bersama dalam satu rumah tangga.
+~ Alamat rumah lengkap konsumen beserta jam keberangkatan harian menuju tempat kerja atau pusat aktivitas harian.
+}
+
+::Perencanaan DM - Soal 03:: Manakah dari skenario promosi berikut yang paling tepat diklasifikasikan sebagai penggunaan Earned Media secara murni? {
+= Seorang pembeli membagikan ulasan positif secara sukarela di media sosial setelah merasa puas dengan produk yang dibeli.
+~ Perusahaan membayar jasa mikro-influencer untuk mengunggah foto produk disertai tagar khusus yang telah ditentukan.
+~ Tim pemasaran mempublikasikan artikel edukasi mengenai manfaat produk di blog resmi yang dimiliki oleh perusahaan.
+~ Bisnis menjalankan kampanye iklan pencarian berbayar di mesin pencari Google Ads untuk meningkatkan trafik langsung.
+~ Perusahaan mengirimkan buletin diskon khusus melalui email resmi kepada basis data pelanggan yang terdaftar secara rutin.
+}
+
+::Perencanaan DM - Soal 04:: Sebuah toko online pakaian mencatat bahwa dari 10.000 pengunjung website dalam seminggu, terdapat 200 transaksi pembelian yang berhasil. Berapakah Conversion Rate dari website toko online tersebut? {
+= 2,0%
+~ 0,2%
+~ 5,0%
+~ 10,0%
+~ 20,0%
+}
+
+::Perencanaan DM - Soal 05:: Manakah langkah pertama yang harus dilakukan oleh seorang Manajer Digital Marketing saat memulai penyusunan dokumen Digital Marketing Plan? {
+= Menganalisis kondisi bisnis saat ini serta menetapkan target Indikator Kinerja Utama (KPI) yang terukur.
+~ Merancang visual grafis untuk konten media sosial serta memilih lagu tren yang akan digunakan dalam video promosi.
+~ Membeli saldo iklan berbayar di platform Meta Ads untuk langsung menguji jangkauan pasar tanpa riset terlebih dahulu.
+~ Menentukan jumlah komisi yang akan diberikan kepada influencer eksternal yang akan diajak bekerja sama pemasaran.
+~ Menyusun anggaran promosi bulanan tanpa memperhitungkan potensi pendapatan yang akan dihasilkan oleh bisnis tersebut.
+}
+
+::Perencanaan DM - Soal 06:: Sebuah kampanye iklan Meta Ads menghabiskan biaya total Rp 5.000.000 dan berhasil menghasilkan penjualan produk sebesar Rp 25.000.000. Berapakah nilai Return on Ad Spend (ROAS) dari kampanye tersebut? {
+= 5,0x (atau 500%)
+~ 0,2x (atau 20%)
+~ 2,5x (atau 250%)
+~ 10,0x (atau 1000%)
+~ 50,0x (atau 5000%)
+}
+
+::Perencanaan DM - Soal 07:: Apabila target utama bisnis pada tahap Awareness adalah menjangkau sebanyak mungkin pengguna baru, manakah Indikator Kinerja Utama (KPI) yang paling relevan untuk diukur? {
+= Total Impresi dan Reach unik dari konten promosi yang dipublikasikan di media sosial.
+~ Nilai rata-rata transaksi pembelian yang dilakukan oleh pelanggan lama pada platform e-commerce.
+~ Persentase pelanggan yang mengajukan pengembalian barang akibat ketidaksesuaian ukuran pakaian.
+~ Jumlah poin loyalitas yang ditukarkan oleh konsumen pada aplikasi keanggotaan resmi bisnis tersebut.
+~ Tingkat retensi pengguna yang kembali melakukan pembelian ulang pada bulan kedua setelah promosi berlangsung.
+}
+
+::Perencanaan DM - Soal 08:: Manakah dari kombinasi strategi berikut yang paling efektif untuk memindahkan calon pelanggan dari tahap Consideration ke tahap Conversion dalam Marketing Funnel? {
+= Menyediakan testimoni pelanggan asli, ulasan produk terverifikasi, serta penawaran diskon waktu terbatas yang menarik.
+~ Menampilkan iklan kesadaran merek secara berulang-ulang tanpa memberikan rincian harga atau informasi cara pembelian.
+~ Mengubah seluruh tampilan visual akun media sosial perusahaan menjadi serba polos tanpa ada informasi produk jelas.
+~ Mengirimkan pesan promosi tanpa izin secara massal ke semua kontak kontak umum yang tidak dikenal oleh perusahaan.
+~ Menaikkan harga jual produk secara drastis saat calon konsumen sedang melihat halaman rincian produk di website bisnis.
+}
+
+::Perencanaan DM - Soal 09:: Sebuah bisnis perangkat lunak (SaaS) ingin mengukur seberapa efisien biaya yang dikeluarkan untuk mendapatkan satu pelanggan baru. Metrik manakah yang harus dihitung? {
+= Customer Acquisition Cost (CAC)
+~ Click-Through Rate (CTR)
+~ Cost Per Mille (CPM)
+~ Organic Reach Share
+~ Page Authority Score
+}
+
+::Perencanaan DM - Soal 10:: Manakah strategi alokasi anggaran promosi yang paling bijak bagi bisnis skala kecil yang memiliki keterbatasan dana operasional di fase awal? {
+= Memfokuskan anggaran pada 1-2 saluran digital utama yang terbukti paling banyak digunakan oleh target pasar sasaran.
+~ Menyebarkan anggaran secara merata ke seluruh platform digital yang ada tanpa memperhatikan karakteristik audiens sasaran.
+~ Menyimpan seluruh anggaran pemasaran di rekening bank tanpa melakukan promosi digital sama sekali hingga bisnis besar.
+~ Mempertaruhkan 100% anggaran pada iklan selebritas papan atas dalam satu kali unggahan tanpa uji coba pemasaran awal.
+~ Mengalokasikan mayoritas biaya untuk pembuatan aplikasi mobile pribadi yang rumit dibanding memasarkan produknya.
+}
+
+::Perencanaan DM - Soal 11:: Dalam kerangka kerja PESO, platform Instagram resmi perusahaan yang berisi katalog produk tergolong ke dalam kategori saluran apa? {
+= Owned Media
+~ Paid Media
+~ Earned Media
+~ Borrowed Media
+~ Sponsored Media
+}
+
+::Perencanaan DM - Soal 12:: Sebuah akun media sosial mencatat bahwa unggahannya dilihat sebanyak 50.000 kali (impresi) dan menerima 2.500 klik pada tautan produk. Berapakah nilai Click-Through Rate (CTR) konten tersebut? {
+= 5,0%
+~ 0,5%
+~ 2,5%
+~ 10,0%
+~ 20,0%
+}
+
+::Perencanaan DM - Soal 13:: Apa konsekuensi utama jika sebuah bisnis menyusun strategi digital marketing tanpa menentukan Buyer Persona secara rinci terlebih dahulu? {
+= Pesan promosi menjadi terlalu umum sehingga gagal menarik perhatian dan minat dari kelompok pelanggan yang potensial.
+~ Biaya iklan digital secara otomatis menjadi gratis karena platform tidak dapat mendeteksi segmen audiens perusahaan.
+~ Produk perusahaan akan langsung terjual habis dalam sehari karena promosi disukai oleh seluruh lapisan masyarakat luas.
+~ Perusahaan tidak perlu lagi membayar pajak usaha karena kegiatan pemasaran dilakukan secara acak di media sosial.
+~ Jumlah pengikut di media sosial akan meningkat sepuluh kali lipat tanpa perlu memproduksi konten yang relevan.
+}
+
+::Perencanaan DM - Soal 14:: Manakah dari pernyataan berikut yang menggambarkan perbedaan utama antara Search Engine Optimization (SEO) dan Search Engine Marketing (SEM)? {
+= SEO berfokus pada optimasi hasil pencarian organik tanpa biaya klik, sedangkan SEM menggunakan iklan pencarian berbayar.
+~ SEO membutuhkan biaya per klik yang tinggi, sedangkan SEM dapat dijalankan secara gratis tanpa persiapan kata kunci.
+~ SEO hanya berlaku untuk platform media sosial, sedangkan SEM khusus digunakan untuk promosi melalui aplikasi WhatsApp.
+~ SEO menghasilkan trafik instan dalam hitungan detik, sedangkan SEM membutuhkan waktu optimasi teknis berbulan-bulan.
+~ SEO digunakan untuk mengukur kepuasan pelanggan, sedangkan SEM khusus dipakai untuk menghitung gaji tim pemasaran.
+}
+
+::Perencanaan DM - Soal 15:: Dalam siklus Marketing Funnel, tahap di mana konsumen mulai membandingkan keunggulan produk kita dengan produk pesaing dinamakan tahap apa? {
+= Consideration
+~ Awareness
+~ Retention
+~ Advocacy
+~ Conversion
+}
+
+::Perencanaan DM - Soal 16:: Sebuah kampanye pemasaran digital bertujuan untuk membangun basis pelanggan yang loyal (Loyalty & Retention). Indikator mana yang paling tepat dievaluasi? {
+= Repeat Purchase Rate dan Customer Lifetime Value (CLV) dari konsumen yang terdaftar dalam program keanggotaan.
+~ Jumlah tayangan video promosi berdurasi 3 detik pada platform TikTok tanpa adanya interaksi lanjutan dari penonton.
+~ Nilai biaya per klik (CPC) yang dibayarkan kepada Google Ads saat iklan pertama kali ditayangkan kepada audiens baru.
+~ Banyaknya pengguna internet yang memblokir akun media sosial resmi perusahaan akibat ketidakcocokan warna tampilan.
+~ Persentase calon konsumen yang meninggalkan keranjang belanja online sebelum melakukan tahap pembayaran transaksi.
+}
+
+::Perencanaan DM - Soal 17:: Seorang Digital Marketing Strategist sedang menganalisis kelemahan eksekusi promosi bulan lalu di mana CTR tinggi namun Conversion Rate sangat rendah. Diagnosis manakah yang paling akurat? {
+= Teks iklan sangat menarik perhatian tetapi informasi di Landing Page tidak relevan atau proses pembayaran terlalu rumit.
+~ Biaya iklan yang dikeluarkan terlalu sedikit sehingga platform menahan calon pembeli untuk melakukan pembayaran produk.
+~ Tampilan visual iklan terlalu jelek sehingga calon konsumen enggan menekan tombol tautan yang disediakan pada iklan.
+~ Target audiens yang dipilih terlalu sempit sehingga iklan hanya ditayangkan kepada konsumen yang sudah membeli produk.
+~ Server mesin pencari mengalami kegagalan teknis sehingga menghapus daftar pesanan yang telah dikirimkan konsumen.
+}
+
+::Perencanaan DM - Soal 18:: Apa peran utama dari penyusunan Editorial Plan (Kalender Konten) dalam perencanaan digital marketing? {
+= Menjaga konsistensi publikasi konten serta memastikan pesan promosi selaras dengan tujuan strategis perusahaan.
+~ Memastikan bahwa seluruh staf pemasaran bekerja selama 24 jam nonstop tanpa ada waktu istirahat di akhir pekan.
+~ Mengurangi biaya langganan internet kantor dengan cara menjadwalkan unggahan konten pada saat jam istirahat malam.
+~ Menggantikan peran seluruh manajer pemasar sehingga keputusan promosi diambil sepenuhnya oleh sistem otomatis.
+~ Menjamin bahwa setiap konten yang diunggah akan langsung menjadi viral di seluruh dunia tanpa perlu analisis data.
+}
+
+::Perencanaan DM - Soal 19:: Manakah dari rumusan target pemasaran digital berikut yang paling tepat dan terukur untuk dijadikan indikator keberhasilan (KPI) kampanye? {
+= Meningkatkan penjualan produk online sebesar 15% melalui saluran Meta Ads pada kuartal keempat tahun berjalan.
+~ Menjadi merek pakaian paling terkenal di seluruh dunia dan disukai oleh semua orang dalam waktu secepatnya.
+~ Mendapatkan pengikut media sosial sebanyak-banyaknya tanpa peduli apakah mereka tertarik pada produk atau tidak.
+~ Mengurangi seluruh biaya operasional pemasaran hingga menjadi nol rupiah dalam jangka waktu lima tahun ke depan.
+~ Memperbaiki tampilan situs web perusahaan agar terlihat lebih keren dan modern dibanding situs web milik kompetitor.
+}
+
+::Perencanaan DM - Soal 20:: Apabila sebuah merek kosmetik memanfaatkan influencer ternama untuk mengulas produknya di YouTube, termasuk dalam kategori media apakah strategi tersebut? {
+= Shared Media & Earned Media (atau Sponsored Shared Media)
+~ Pure Owned Media
+~ Uncontrolled Private Media
+~ Traditional Offline Media
+~ Direct Print Media
+}
+
+::Perencanaan DM - Soal 21:: Apa keuntungan utama dari melakukan segmentasi pasar secara spesifik sebelum menjalankan iklan berbayar? {
+= Menghindari pemborosan anggaran iklan karena promosi hanya ditargetkan kepada audiens yang berpotensi tinggi membeli.
+~ Menjamin bahwa biaya sewa kantor perusahaan akan mendapat potongan harga dari pemilik gedung bisnis perbelanjaan.
+~ Memungkinkan perusahaan untuk tidak lagi membuat produk fisik karena seluruh transaksi beralih ke dunia digital.
+~ Memaksa kompetitor untuk menutup usahanya karena seluruh calon pembeli telah dikuasai oleh perusahaan kita.
+~ Mengubah algoritma media sosial secara permanen agar selalu menampilkan produk perusahaan di halaman utama.
+}
+
+::Perencanaan DM - Soal 22:: Seorang pebisnis kuliner menyadari bahwa pengikut Instagram-nya banyak yang melakukan pesanan setelah melihat video pembuatan makanan yang menggugah selera. Jenis konten apakah yang paling tepat ditingkatkan? {
+= Short-form video interaktif (seperti Instagram Reels / TikTok) yang menampilkan proses dapur dan visual produk menarik.
+~ Artikel blog sepanjang 3.000 kata mengenai sejarah perkembangan rempah-rempah pada abad pertengahan di Eropa.
+~ Berkas dokumen PDF teknis yang berisi daftar tabel nilai kalori dan kimiawi lengkap dari bahan dasar masakan.
+~ Gambar grafik batang hitam putih yang menampilkan data statistik pertumbuhan ekonomi mikro nasional lima tahunan.
+~ Rekaman suara podcast berdurasi dua jam yang membahas tentang teori manajemen keuangan bisnis penerbangan.
+}
+
+::Perencanaan DM - Soal 23:: Indikator manakah yang paling akurat untuk mengukur tingkat keterlibatan (engagement rate) audiens pada sebuah unggahan media sosial? {
+= Rasio total interaksi (likes, comments, shares, saves) dibagi dengan total jangkauan atau impresi konten tersebut.
+~ Persentase jumlah karyawan kantor yang menyukai unggahan tersebut dibanding total karyawan di perusahaan pesaing.
+~ Banyaknya kata yang dituliskan oleh pembuat konten pada kolom deskripsi di bawah foto produk yang diunggah.
+~ Ukuran dimensi fisik layar smartphone yang digunakan oleh pengguna internet saat melihat unggahan tersebut.
+~ Jumlah akumulasi pengikut akun kompetitor yang tidak memberikan komentar apa pun pada unggahan perusahaan kita.
+}
+
+::Perencanaan DM - Soal 24:: Dalam menyusun anggaran digital marketing, pendekatan Bottom-up Budgeting berarti bahwa anggaran disusun berdasarkan apa? {
+= Estimasi rincian biaya aktual dari setiap aktivitas dan saluran yang dibutuhkan untuk mencapai tujuan pemasaran.
+~ Keputusan sepihak dari pemilik perusahaan yang menentukan angka bulat tanpa melihat rincian kebutuhan operasional.
+~ Alokasi sisa sisa dana kas perusahaan setelah seluruh biaya gaji dan operasional non-pemasaran dibayarkan.
+~ Persentase tetap dari biaya produksi barang yang disamakan dengan standar anggaran perusahaan di masa lalu.
+~ Meniru secara persis nominal anggaran yang dipublikasikan oleh perusahaan kompetitor utama dalam laporan tahunan.
+}
+
+::Perencanaan DM - Soal 25:: Apa alasan utama mengapa kampanye pemasaran digital perlu melakukan A/B Testing pada materi iklannya? {
+= Membandingkan performa dua variasi elemen iklan untuk menentukan opsi mana yang memberikan respons terbaik audiens.
+~ Menghabiskan sisa sisa anggaran iklan bulanan agar tidak dipotong oleh bagian keuangan pada periode berikutnya.
+~ Membingungkan calon konsumen sehingga mereka secara tidak sengaja menekan tombol pembelian produk dua kali.
+~ Memenuhi syarat formalitas dari penyedia platform iklan agar akun bisnis perusahaan tidak dikategori pasif.
+~ Membuktikan bahwa ide dari manajer pemasaran selalu lebih bagus daripada ide yang diajukan oleh staf pelaksana.
+}
+
+::Perencanaan DM - Soal 26:: Sebuah merek sepatu lokal meluncurkan sepatu edisi terbatas dan ingin menciptakan efek kelangkaan (Scarcity & FOMO). Strategi manakah yang paling pas? {
+= Mengumumkan penjualan periode singkat secara eksklusif di saluran digital dengan jumlah stok yang dibatasi ketat.
+~ Menjual sepatu tersebut secara terus-menerus di semua toko fisik tanpa ada batas waktu dan batas jumlah produksi.
+~ Memberikan diskon besar-besaran sebesar 90% sepanjang tahun tanpa pernah menghentikan masa promosi penjualan.
+~ Menyimpan seluruh sepatu di dalam gudang dan menolak untuk menjualnya kepada siapa pun yang datang membeli.
+~ Menghapus semua akun media sosial perusahaan saat produk baru diluncurkan agar konsumen mencari sendiri di toko.
+}
+
+::Perencanaan DM - Soal 27:: Tahapan teratas dalam Marketing Funnel di mana calon konsumen baru pertama kali menyadari keberadaan suatu merek disebut apa? {
+= Awareness Stage
+~ Consideration Stage
+~ Conversion Stage
+~ Loyalty Stage
+~ Advocacy Stage
+}
+
+::Perencanaan DM - Soal 28:: Seorang pemasar digital mengamati bahwa nilai Cost Per Click (CPC) iklannya semakin mahal dari hari ke hari. Tindakan evaluasi awal manakah yang paling tepat? {
+= Memeriksa Relevansi Skor materi iklan serta melakukan pembaruan visual dan penajaman segmentasi audiens target.
+~ Langsung menghentikan seluruh aktivitas bisnis perusahaan dan beralih membuka usaha baru di bidang lain.
+~ Menaikkan harga jual produk lima kali lipat agar dapat menutup pembengkakan biaya per klik yang semakin mahal.
+~ Menhubungi pihak penyedia jasa platform iklan melalui surat resmi untuk menuntut ganti rugi seluruh biaya.
+~ Memusnahkan seluruh stok barang yang ada di gudang karena menganggap produk tersebut tidak diminati pasar.
+}
+
+::Perencanaan DM - Soal 29:: Apa manfaat utama penggunaan Google Analytics bagi pengelola situs web toko online? {
+= Memantau perilaku pengunjung, asal sumber trafik, serta mengukur efektivitas konversi pada setiap halaman web.
+~ Memperbaiki secara otomatis kerusakan fisik pada komputer yang digunakan oleh staf pengelola situs web bisnis.
+~ Mengisi stok barang di gudang secara otomatis saat persediaan produk di toko online mulai menipis dipesan konsumen.
+~ Menjamin bahwa situs web perusahaan tidak akan pernah mengalami gangguan koneksi internet dari penyedia jasa.
+~ Mengubah secara otomatis tulisan di situs web pesaing agar pembeli beralih belanja ke toko online perusahaan kita.
+}
+
+::Perencanaan DM - Soal 30:: Manakah dari berikut ini yang merupakan contoh strategi Retargeting / Remarketing dalam pemasaran digital? {
+= Menampilkan iklan produk kepada pengguna internet yang sebelumnya pernah mengunjungi halaman web produk tersebut.
+~ Mengirimkan brosur promosi cetak ke alamat rumah warga yang tidak pernah menggunakan internet sama sekali.
+~ Menargetkan iklan secara acak kepada pengguna media sosial di negara lain yang tidak memahami bahasa iklan kita.
+~ Mengganti logo perusahaan setiap minggu sekali agar pengguna media sosial tidak merasa bosan melihat promosi.
+~ Mematikan koneksi internet di kantor perusahaan selama seminggu penuh untuk menguji ketahanan sistem penjualan.
+}
+
+::Perencanaan DM - Soal 31:: Dalam perencanaan pemasaran digital, apa yang dimaksud dengan istilah Unique Selling Proposition (USP)? {
+= Keunggulan dan nilai unik produk yang membedakannya secara jelas dari produk pesaing di mata konsumen.
+~ Harga jual produk yang ditetapkan setinggi mungkin untuk menunjukkan bahwa perusahaan sangat kaya dan sukses.
+~ Surat izin usaha resmi yang dikeluarkan oleh pemerintah daerah setempat untuk mengizinkan penjualan produk.
+~ Kode angka rahasia yang digunakan oleh kasir toko untuk menghitung jumlah kuitansi pembayaran dari pelanggan.
+~ Nama akun media sosial pribadi milik pendiri perusahaan yang digunakan untuk mengunggah foto liburan keluarga.
+}
+
+::Perencanaan DM - Soal 32:: Sebuah aplikasi transportasi online ingin meningkatkan retensi pengguna aktif bulanan. Strategi program digital manakah yang paling cocok? {
+= Membangun sistem poin loyalitas serta memberikan voucher diskon khusus bagi pengguna yang rutin bertransaksi.
+~ Menghapus aplikasi dari toko aplikasi seluler selama satu bulan agar pengguna merasa rindu untuk menggunakan lagi.
+~ Menarik seluruh armada kendaraan dari jalanan dan hanya melayani pemesanan melalui surat tertulis lewat pos.
+~ Mengenakan denda tambahan bagi pengguna yang membuka aplikasi transportasi online pesaing di smartphone mereka.
+~ Mengirimkan notifikasi suara sirine berbunyi keras setiap lima menit sekali ke smartphone seluruh pengguna aplikasi.
+}
+
+::Perencanaan DM - Soal 33:: Mengapa penting bagi pemasar digital untuk menghitung nilai Customer Lifetime Value (CLV)? {
+= Memahami estimasi total keuntungan yang dihasilkan oleh satu pelanggan sepanjang hubungannya dengan bisnis.
+~ Mengetahui usia maksimal calon konsumen yang diperbolehkan membeli produk pakaian yang dipasarkan perusahaan.
+~ Menghitung berapa lama waktu yang dibutuhkan oleh staf pemasaran untuk membalas satu pesan dari konsumen.
+~ Memprediksi tanggal pasti kapan komputer kantor akan mengalami kerusakan teknis sehingga perlu diganti baru.
+~ Menentukan jumlah persentase pajak penjualan yang harus dibayarkan oleh perusahaan kepada pemerintah daerah.
+}
+
+::Perencanaan DM - Soal 34:: Pemasar digital memanfaatkan alat riset kata kunci (Keyword Research Tools) pada tahap perencanaan SEO. Apa tujuan utamanya? {
+= Menemukan istilah pencarian yang sering digunakan calon konsumen serta mengukur volume pencarian dan kompetisinya.
+~ Membeli secara ilegal nama domain milik perusahaan lain tanpa sepengetahuan dari pemilik asli domain tersebut.
+~ Mempercepat kecepatan mengetik tulisan dari staf pembuat konten di kantor hingga dua kali lipat lebih cepat.
+~ Menghapus artikel buatan kompetitor yang berada di peringkat atas hasil pencarian mesin pencari Google Search.
+~ Menyembunyikan situs web perusahaan dari mesin pencari agar tidak dapat ditemukan oleh pengguna internet umum.
+}
+
+::Perencanaan DM - Soal 35:: Manakah dari faktor berikut yang paling memengaruhi nilai Relevance Score pada kampanye iklan Facebook / Meta Ads? {
+= Tingkat keterlibatan positif (klik, suka, komentar) dari audiens sasaran terhadap materi visual dan pesan iklan.
+~ Banyaknya jumlah modal uang yang disimpan oleh pemilik perusahaan di dalam rekening bank pribadi mereka.
+~ Panjang pendeknya nama perusahaan yang mendaftarkan akun iklan pada platform pengelola iklan Meta Ads Manager.
+~ Jenis merek meja dan kursi kerja yang digunakan oleh staf pemasar di dalam ruangan kantor perusahaan tempat kerja.
+~ Kecepatan angin di area lokasi pemancar jaringan seluler tempat audiens sasaran sedang berada saat melihat iklan.
+}
+
+::Perencanaan DM - Soal 36:: Sebuah bisnis kecantikan ingin menjangkau audiens Gen-Z yang menyukai konten video pendek dan autentik. Saluran manakah yang paling efisien? {
+= TikTok & Instagram Reels
+~ Koran Cetak Mingguan
+~ Radio AM Lokal
+~ Papan Reklame Jalan Tol
+~ Email Publikasi PDF
+}
+
+::Perencanaan DM - Soal 37:: Apa risikopemasaran utama jika sebuah bisnis terlalu bergantung pada akun media sosial (Owned Shared) tanpa memiliki situs web resmi (Owned Media)? {
+= Kerentanan terhadap perubahan algoritma atau kebijakan pemblokiran akun sepihak oleh pemilik platform media sosial.
+~ Biaya pembuatan konten media sosial akan secara otomatis membengkak menjadi sepuluh kali lipat dari biasanya.
+~ Konsumen tidak akan lagi bisa melakukan pembayaran transaksi dengan menggunakan uang tunai di toko fisik offline.
+~ Komputer kantor tidak lagi dapat terhubung dengan jaringan listrik saat mengunggah foto produk ke media sosial.
+~ Seluruh staf pemasar akan kehilangan kemampuan berbahasa karena komunikasi media sosial menggunakan gambar emoji.
+}
+
+::Perencanaan DM - Soal 38:: Dalam penyusunan Key Performance Indicator (KPI), penetapan target yang realistis mengandung arti bahwa indikator harus bagaimana? {
+= Realistis dan dapat dicapai berdasarkan sumber daya, anggaran, serta kapasitas operasional yang dimiliki bisnis.
+~ Ditargetkan setinggi mungkin hingga melampaui batas kemampuan akal agar karyawan merasa tertekan dan bekerja keras.
+~ Dituliskan dalam bahasa asing yang rumit agar tidak dapat dipahami oleh staf pelaksana di tingkat operasional.
+~ Selalu diubah setiap jam sekali sesuai dengan keinginan dan suasana hati dari pemilik perusahaan saat itu.
+~ Disamakan persis dengan target penjualan milik perusahaan multinasional yang memiliki modal triliunan rupiah.
+}
+
+::Perencanaan DM - Soal 39:: Sebuah toko sepatu olahraga ingin mengetahui apakah promosi melalui video influencer Instagram atau iklan Google Ads yang lebih menghasilkan penjualan. Metrik pembanding utama manakah yang harus dianalisis? {
+= Cost Per Acquisition (CPA) dan Return on Investment (ROI) dari masing-masing saluran pemasaran tersebut.
+~ Jumlah warna cat dinding yang digunakan dalam latar belakang video promosi di Instagram dan Google Ads.
+~ Banyaknya kata yang diketik oleh staf pemasar saat membuat laporan analisis pembandingan kedua saluran promosi.
+~ Kecepatan perputaran kipas angin di dalam ruangan server saat iklan ditayangkan di platform Instagram dan Google.
+~ Berat timbangan fisik dari produk sepatu yang sedang dipromosikan di saluran Instagram dan saluran Google Ads.
+}
+
+::Perencanaan DM - Soal 40:: Mengapa penyusunan pesan utama (Core Key Messaging) sangat penting sebelum memproduksi materi promosi digital? {
+= Menjamin konsistensi identitas merek serta nilai manfaat produk yang disampaikan di seluruh saluran komunikasi.
+~ Memastikan bahwa semua kata dalam iklan menggunakan huruf kapital besar agar audiens merasa kaget saat membaca.
+~ Membolehkan pembuat konten untuk menuliskan janji manis palsu yang tidak sesuai dengan kualitas produk asli.
+~ Menghemat kertas cetak kantor karena pesan promosi hanya disimpan di dalam memori komputer staf pemasar bisnis.
+~ Membiarkan setiap staf menuliskan informasi harga yang berbeda-beda di setiap akun media sosial resmi perusahaan.
+}
+
+::Perencanaan DM - Soal 41:: Seorang pemasar melihat bahwa trafik situs web bisnis sangat tinggi tetapi persentase pengguna yang segera keluar tanpa membuka halaman lain (Bounce Rate) mencapai 85%. Evaluasi awal manakah yang paling pas? {
+= Kecepatan muat halaman situs web terlalu lambat atau konten halaman utama tidak sesuai dengan harapan pengunjung.
+~ Harga sewa domain situs web terlalu murah sehingga mesin pencari sengaja mengusir pengunjung dari halaman web.
+~ Pengunjung situs web merasa terganggu karena warna situs web tidak cocok dengan warna baju yang sedang mereka pakai.
+~ Server internet penyedia jasa telah menghapus secara otomatis tombol penutup situs web dari layar layar pengunjung.
+~ Terlalu banyak pembeli yang melakukan transaksi dalam waktu bersamaan sehingga sistem menghentikan akses pembeli.
+}
+
+::Perencanaan DM - Soal 42:: Strategi penetapan harga promosi Freemium pada layanan aplikasi digital bertujuan untuk mencapai apa pada tahapan awal funnel? {
+= Mendorong akuisisi pengguna baru seluas-luasnya dengan fitur gratis sebelum melakukan konversi ke paket berbayar.
+~ Memaksa seluruh pengguna untuk langsung membayar biaya langganan yang mahal sebelum bisa mencoba aplikasi.
+~ Menutup bisnis aplikasi dalam waktu tiga bulan karena tidak mengambil keuntungan sama sekali dari pengguna gratis.
+~ Menjual data pribadi pengguna gratis kepada pihak ketiga tanpa memberikan jaminan keamanan data pengguna aplikasi.
+~ Menghentikan pengembangan fitur aplikasi baru dan fokus menjual produk makanan fisik di kantor pusat perusahaan.
+}
+
+::Perencanaan DM - Soal 43:: Apa perbedaan mendasar antara Reach dan Impression dalam laporan statistik media sosial? {
+= Reach menghitung jumlah akun unik yang melihat konten, sedangkan Impression menghitung total frekuensi konten ditampilkan.
+~ Reach menghitung jumlah uang yang dihabiskan untuk iklan, sedangkan Impression menghitung jumlah barang yang terjual.
+~ Reach khusus digunakan untuk platform email marketing, sedangkan Impression khusus dipakai dalam statistik iklan cetak.
+~ Reach mengukur tingkat kebahagiaan pembeli produk, sedangkan Impression mengukur tingkat amarah pelanggan di toko.
+~ Reach menunjukkan jumlah komputer yang rusak di kantor, sedangkan Impression menunjukkan jumlah komputer yang baru dibeli.
+}
+
+::Perencanaan DM - Soal 44:: Sebuah kampanye pemasaran email memiliki persentase Open Rate sebesar 30% dan Click-Through Rate (CTR) sebesar 2%. Tindakan optimasi manakah yang paling tepat untuk meningkatkan nilai CTR? {
+= Memperbaiki Call-to-Action (CTA) di dalam isi email agar lebih menarik dan jelas mengarahkan pembaca untuk mengklik.
+~ Mengganti judul baris subjek email dengan tulisan acak tanpa makna agar penerima email merasa bingung saat membuka.
+~ Mengirimkan email yang sama sebanyak lima puluh kali sehari ke alamat email penerima yang sama hingga diprotes.
+~ Menhapus seluruh tombol dan tautan yang ada di dalam email agar pembaca hanya fokus membaca tulisan teks saja.
+~ Menambahkan lampiran berkas file video berukuran 5 Gigabyte ke dalam setiap email yang dikirimkan ke pelanggan.
+}
+
+::Perencanaan DM - Soal 45:: Manakah dari berikut ini yang merupakan contoh penerapan Owned Media pada saluran pemasaran digital perusahaan? {
+= Situs web resmi perusahaan, blog bisnis internal, serta aplikasi seluler resmi milik bisnis tersebut.
+~ Unggahan video ulasan produk yang dibuat secara independen oleh seorang YouTuber terkenal tanpa dibayar.
+~ Iklan spanduk digital yang dipasang di portal berita online nasional melalui jaringan iklan Google Display.
+~ Komentar pujian dari pembeli yang dituliskan pada kolom komentar akun media sosial milik toko kompetitor.
+~ Brosur promosi cetak yang disebarkan oleh petugas lapangan di area parkir kendaraan pusat perbelanjaan.
+}
+
+::Perencanaan DM - Soal 46:: Apa fungsi dari pembuatan Customer Journey Map dalam perencanaan strategi digital marketing? {
+= Memetakan setiap titik interaksi (touchpoints) dan emosi konsumen mulai dari kenal merek hingga pasca pembelian.
+~ Mengetahui peta lokasi geografis lengkap dari toko-toko kelontong tradisional yang tidak memiliki akses internet.
+~ Mengatur rute perjalanan kendaraan dinas pimpinan perusahaan saat melakukan kunjungan kerja ke luar kota bisnis.
+~ Membantu staf IT kantor untuk mengganti kabel jaringan internet yang rusak di dalam ruangan rapat kantor pusat.
+~ Menghitung berapa kilometer jarak yang ditempuh oleh kurir pengirim barang dari toko menuju ke rumah pembeli.
+}
+
+::Perencanaan DM - Soal 47:: Seorang Digital Marketer ingin meningkatkan conversion rate pada halaman Landing Page. Elemen manakah yang paling krusial untuk diuji efektivitasnya? {
+= Kejelasan penawaran nilai produk (Value Proposition) serta kemudahan dan kejelasan tombol tindakan (Call to Action).
+~ Warna latar belakang paling bawah dari situs web yang tidak pernah terlihat kecuali pengunjung melakukan scroll jauh.
+~ Jenis font tulisan catatan kaki (footnote) yang berisi hak cipta legal perusahaan di bagian paling dasar web.
+~ Jumlah kata dalam dokumen syarat dan ketentuan pembelian yang ditulis menggunakan bahasa hukum yang sangat rumit.
+~ Ukuran file gambar logo transparan kecil yang terletak di sudut kanan paling atas dari halaman situs web bisnis.
+}
+
+::Perencanaan DM - Soal 48:: Manakah dari indikator berikut yang menunjukkan bahwa sebuah saluran digital marketing memiliki efisiensi Return on Investment (ROI) yang baik? {
+= Pendapatan bersih yang dihasilkan dari saluran tersebut secara signifikan lebih besar dibanding total biaya pengeluarannya.
+~ Jumlah pengikut di media sosial meningkat sangat cepat namun tidak ada satu pun yang melakukan pembelian produk bisnis.
+~ Total biaya operasional iklan digital jauh melebihi seluruh nilai omset penjualan barang yang didapatkan perusahaan.
+~ Seluruh staf pemasar merasa sangat lelah dan stres setelah mengunggah seratus konten promosi dalam sehari penuh.
+~ Jumlah komentar negatif dari konsumen di media sosial meningkat seratus persen akibat pesan promosi yang mengganggu.
+}
+
+::Perencanaan DM - Soal 49:: Dalam perencanaan digital marketing, apa yang dimaksud dengan istilah Organic Traffic? {
+= Kunjungan situs web yang datang secara alami dari hasil pencarian tanpa melalui klik pada iklan berbayar.
+~ Pembeli yang datang ke toko fisik dengan berjalan kaki tanpa menggunakan kendaraan bermotor atau angkutan umum.
+~ Jumlah buah-buahan dan sayuran organik yang dibeli oleh staf kantor untuk dikonsumsi saat jam makan siang bisnis.
+~ Pengunjung situs web yang masuk setelah diancam oleh pemilik perusahaan melalui pesan singkat di smartphone mereka.
+~ Trafik kunjungan web yang hanya terjadi saat cuaca di luar ruangan sedang hujan lebat dan angin kencang bertiup.
+}
+
+::Perencanaan DM - Soal 50:: Mengapa tahap evaluasi dan analisis data performa (Performance Review) wajib dilakukan secara berkala dalam siklus perencanaan digital marketing? {
+= Mengetahui efektivitas strategi yang berjalan serta memberikan dasar data yang valid untuk optimasi kampanye berikutnya.
+~ Mencari-cari kesalahan staf pemasar agar perusahaan memiliki alasan untuk memotong gaji bulanan mereka secara sepihak.
+~ Mengisi waktu luang manajer pemasaran di akhir bulan agar terlihat sibuk di depan pimpinan pemilik modal bisnis.
+~ Memenuhi syarat dokumen formalitas untuk dibuang ke tempat sampah tanpa perlu dibaca atau dipelajari isi datanya.
+~ Membuktikan bahwa teknologi digital tidak ada gunanya sehingga perusahaan bisa kembali ke cara pemasaran kuno.
+}

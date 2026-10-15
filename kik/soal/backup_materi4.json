@@ -1,0 +1,1207 @@
+{
+  "materi": "Pemasaran, Branding, dan Pitching",
+  "deskripsi": "Merancang identitas merek, strategi pemasaran digital (SEO/SEM), kalkulasi biaya akuisisi konsumen (CAC), serta teknik presentasi ide bisnis kilat (elevator pitch).",
+  "total_soal": 100,
+  "daftar_soal": [
+    {
+      "no": 1,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 2,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk layanan digital mobile. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 3,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 4,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 5,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 6,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk manufaktur pakaian berkelanjutan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 7,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 8,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk layanan digital mobile. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 9,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 10,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'SEO Taktis' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menulis konten edukasi bernilai tinggi yang relevan dengan kata kunci masalah pencarian calon konsumen potensial demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli jutaan backlink tiruan dari situs eksternal ilegal untuk mencurangi robot pencari agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengulang kata kunci produk sebanyak mungkin di satu halaman agar terlihat padat secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "4ea8bd2d"
+    },
+    {
+      "no": 11,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'Brand Identity' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 12,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'Brand Identity' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 13,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'Brand Identity' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 14,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'Brand Identity' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 15,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'Brand Identity' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 16,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'Brand Identity' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 17,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'Brand Identity' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 18,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'Brand Identity' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 19,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'Brand Identity' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 20,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'Brand Identity' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk merumuskan pilar nilai, kepribadian merek (brand voice), dan konsistensi visual di seluruh saluran komunikasi demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa jasa desainer logo terkenal internasional dengan biaya ratusan juta rupiah agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengganti warna logo dan gaya bahasa promosi setiap bulan agar terlihat dinamis secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "d45529a3"
+    },
+    {
+      "no": 21,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 22,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 23,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 24,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 25,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 26,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 27,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 28,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 29,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 30,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'Social Media Engagement' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menganalisis data respons komentar, rasio pembagian (share rate), dan membalas pesan masuk secara interaktif demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk membeli ribuan pengikut (followers) bot untuk mempercantik angka profil akun sosial media agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengunggah foto produk secara massal setiap satu jam sekali tanpa ada narasi konten secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "60a3bfd2"
+    },
+    {
+      "no": 31,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 32,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 33,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 34,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 35,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 36,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 37,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 38,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 39,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 40,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'Penetration Pricing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menetapkan harga awal yang sangat terjangkau untuk memikat basis massa pengguna awal di pasar yang jenuh demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menaikkan harga jual setinggi mungkin di awal untuk menutup biaya riset produksi secepatnya agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menjual produk di bawah harga pokok produksi secara permanen untuk mematikan semua toko lokal secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "dc85560d"
+    },
+    {
+      "no": 41,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 42,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk manufaktur pakaian berkelanjutan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 43,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 44,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 45,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 46,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk layanan digital mobile. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 47,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 48,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk manufaktur pakaian berkelanjutan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 49,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 50,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'CAC vs LTV' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memastikan nilai Lifetime Value (LTV) jauh lebih besar daripada Customer Acquisition Cost (CAC) demi profit jangka panjang demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk meningkatkan anggaran biaya iklan (CAC) setinggi-tingginya tanpa memedulikan retensi pengguna agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menurunkan kualitas bahan baku produk agar harga beli konsumen menjadi lebih murah secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "40a0021e"
+    },
+    {
+      "no": 51,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 52,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 53,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 54,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 55,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 56,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 57,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 58,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 59,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 60,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'Elevator Pitch' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menjelaskan masalah utama, solusi unik produk, ukuran pasar potensial, dan ajakan kerja sama dalam waktu singkat demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan slide kode pemrograman C++ yang rumit di hadapan para investor komersial agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menceritakan riwayat sejarah pendirian sekolah kejuruan secara mendetail dan lama secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "ff28a562"
+    },
+    {
+      "no": 61,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'Storytelling' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 62,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'Storytelling' untuk mempromosikan produk layanan digital mobile. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 63,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'Storytelling' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 64,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'Storytelling' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 65,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'Storytelling' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 66,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'Storytelling' untuk mempromosikan produk manufaktur pakaian berkelanjutan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 67,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'Storytelling' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 68,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'Storytelling' untuk mempromosikan produk layanan digital mobile. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 69,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'Storytelling' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 70,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'Storytelling' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menceritakan kisah perjuangan rill konsumen dalam mengatasi masalahnya menggunakan bantuan produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menampilkan daftar tabel spesifikasi angka berat dan ukuran produk secara kaku di brosur agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk membuat drama konflik palsu di media sosial untuk memicu kehebohan publik (viral marketing) secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "3c95c000"
+    },
+    {
+      "no": 71,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'PR Crisis' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 72,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'PR Crisis' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 73,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'PR Crisis' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 74,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'PR Crisis' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 75,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'PR Crisis' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 76,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'PR Crisis' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 77,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'PR Crisis' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 78,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'PR Crisis' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 79,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'PR Crisis' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 80,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'PR Crisis' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk menyampaikan permohonan maaf secara jujur, menjelaskan akar masalah teknis, dan memaparkan langkah perbaikan konkret demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menonaktifkan seluruh kolom komentar di media sosial dan menyangkal adanya kesalahan produksi agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk menuntut balik konsumen yang melaporkan kerusakan produk atas tuduhan pencemaran nama baik secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "9733cd37"
+    },
+    {
+      "no": 81,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 82,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 83,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 84,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 85,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 86,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 87,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 88,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 89,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 90,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'Market Segmentation' untuk mempromosikan produk jasa agribisnis perkotaan. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk membagi calon konsumen ke dalam kelompok perilaku spesifik (behavioral) berdasarkan kebiasaan belanja mereka demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menargetkan seluruh penduduk benua Asia sebagai calon pembeli tanpa ada filter minat khusus agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengikuti tren pasar kasual secara acak tanpa menetapkan profil persona pembeli tetap secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "e27965c3"
+    },
+    {
+      "no": 91,
+      "question": "Tim pemasaran di Nusantara Food sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 92,
+      "question": "Tim pemasaran di Sinergi Tech sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 93,
+      "question": "Tim pemasaran di Lokal Mandiri sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 94,
+      "question": "Tim pemasaran di Karya Agung sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 95,
+      "question": "Tim pemasaran di Lestari Hijau sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 96,
+      "question": "Tim pemasaran di Batik Digital sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 97,
+      "question": "Tim pemasaran di Tani Jaya sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 98,
+      "question": "Tim pemasaran di Kreatif Studio sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk aplikasi edukasi online. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 99,
+      "question": "Tim pemasaran di Artha Mulia sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk kerajinan tangan daur ulang. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    },
+    {
+      "no": 100,
+      "question": "Tim pemasaran di Cipta Karya sedang merancang strategi 'Influencer Marketing' untuk mempromosikan produk kuliner tradisional. Keputusan desain taktis yang paling tepat agar kampanye sukses adalah...",
+      "options": {
+        "A": "Melakukan tindakan untuk memilih pembuat konten mikro (micro-influencer) yang memiliki kedekatan komunitas erat dengan kategori produk Anda demi efisiensi biaya dan ketepatan sasaran promosi",
+        "B": "Memilih langkah untuk menyewa artis papan atas dengan biaya termahal meskipun bidang keahliannya tidak ada hubungan dengan produk agar terlihat memiliki performa instan di atas kertas",
+        "C": "Memutuskan untuk mengirimkan produk gratis secara acak ke jutaan alamat rumah pengguna media sosial secara sepihak tanpa data riset pemasaran",
+        "D": "Menurunkan harga jual produk di bawah modal produksi demi memenangkan kompetisi secara curang",
+        "E": "Menghapus semua saluran komunikasi digital dan fokus pada penyebaran selebaran kertas fisik"
+      },
+      "answer_hash": "2b02d87d"
+    }
+  ]
+}

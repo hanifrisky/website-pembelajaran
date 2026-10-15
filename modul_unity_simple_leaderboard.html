@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modul Unity C# — Simple Leaderboard API</title>
+<style>
+:root{--bg:#f4f7fb;--paper:#fff;--ink:#172033;--muted:#627087;--line:#dce4ef;--blue:#2457d6;--blue2:#eaf0ff;--green:#16794b;--greenbg:#e8f7ef;--code:#101827;--orange:#a85a12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:linear-gradient(125deg,#142b63,#2457d6 65%,#4784f5);color:white;padding:52px 22px 42px}
+.hero{max-width:1100px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.78rem;font-weight:800;opacity:.8}
+h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:.5rem 0 1rem;max-width:850px}
+header p{max-width:780px;color:#e1eaff;font-size:1.08rem}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.pill{border:1px solid #ffffff55;background:#ffffff14;border-radius:99px;padding:5px 12px;font-size:.85rem}
+.layout{max-width:1100px;margin:28px auto;padding:0 18px;display:grid;grid-template-columns:245px minmax(0,1fr);gap:24px}
+nav{position:sticky;top:16px;align-self:start;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px}
+nav strong{display:block;margin-bottom:10px}nav a{display:block;text-decoration:none;color:var(--muted);padding:7px 9px;border-radius:8px;font-size:.92rem}nav a:hover{background:var(--blue2);color:var(--blue)}
+main{min-width:0}.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:clamp(20px,4vw,34px);margin-bottom:22px;box-shadow:0 5px 20px #152b4d08}
+h2{font-size:1.55rem;margin:0 0 16px;line-height:1.25}h3{font-size:1.08rem;margin:24px 0 8px}p{margin:9px 0}ul,ol{padding-left:1.4rem}li{margin:5px 0}
+.callout{border-left:4px solid var(--blue);background:var(--blue2);padding:13px 16px;border-radius:0 10px 10px 0;margin:16px 0}
+.success{border-left-color:var(--green);background:var(--greenbg)}.warning{border-left-color:#d97706;background:#fff5e8}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.94rem}th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}th{background:#f0f4fa}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.91em;background:#edf1f7;padding:2px 5px;border-radius:5px;overflow-wrap:anywhere}
+pre{position:relative;background:var(--code);color:#e5edf9;padding:20px;border-radius:12px;overflow:auto;line-height:1.55;font-size:.88rem;margin:14px 0;tab-size:4}
+pre code{background:none;padding:0;color:inherit;white-space:pre}
+.copy{position:absolute;right:9px;top:9px;border:1px solid #ffffff40;background:#26364f;color:#fff;border-radius:7px;padding:5px 9px;cursor:pointer;font-size:.78rem}
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:10px;margin:20px 0}.flowbox{border:1px solid var(--line);background:#f8faff;border-radius:12px;text-align:center;padding:15px 8px}.flowbox b{display:block}.arrow{color:var(--blue);font-size:1.5rem}
+.tree{background:#f7f9fc;border:1px solid var(--line);padding:16px;border-radius:12px;font-family:ui-monospace,monospace;white-space:pre-wrap}
+.mock{background:#111d37;color:#fff;border-radius:14px;padding:18px;max-width:560px;margin:18px auto}.mock h3{margin:0 0 5px;color:#fff}.mock small{color:#b8c8e7}.entry{display:flex;align-items:center;gap:12px;background:#ffffff12;border:1px solid #ffffff16;border-radius:10px;margin-top:9px;padding:10px}.rank{width:35px;text-align:center;font-weight:800;color:#ffd66b}.entry .name{flex:1}.score{font-weight:800;color:#86efac}
+.checklist label{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line);cursor:pointer}.checklist input{margin-top:7px;accent-color:var(--blue)}
+footer{text-align:center;color:var(--muted);padding:20px 16px 40px;font-size:.9rem}
+button:focus-visible,a:focus-visible{outline:3px solid #f59e0b;outline-offset:3px}
+@media(max-width:820px){.layout{grid-template-columns:1fr}nav{position:static}nav .navlinks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px}.flow{grid-template-columns:1fr}.arrow{transform:rotate(90deg);text-align:center}}
+@media(max-width:520px){header{padding:36px 18px}.layout{padding:0 12px;margin-top:16px}.card{padding:18px}nav .navlinks{grid-template-columns:1fr}table{font-size:.85rem}th,td{padding:8px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hero">
+    <div class="eyebrow">Modul Pembelajaran Unity • C# • REST API</div>
+    <h1>Membangun Simple Leaderboard di Unity</h1>
+    <p>Belajar mengambil data peringkat dari server, menampilkannya pada Scroll View yang memanjang ke bawah, dan mengirim skor pemain baru menggunakan HTTP GET dan POST.</p>
+    <div class="pills"><span class="pill">UnityWebRequest</span><span class="pill">JSON</span><span class="pill">TextMeshPro</span><span class="pill">Scroll View</span></div>
+  </div>
+</header>
+<div class="layout">
+<nav>
+  <strong>Daftar Isi</strong>
+  <div class="navlinks">
+    <a href="#tujuan">1. Tujuan</a><a href="#api">2. API</a><a href="#ui">3. Membuat UI</a>
+    <a href="#model">4. Model JSON</a><a href="#item">5. Prefab Baris</a><a href="#manager">6. Script Manager</a>
+    <a href="#hubungkan">7. Inspector & Tombol</a><a href="#uji">8. Pengujian</a><a href="#masalah">9. Troubleshooting</a>
+  </div>
+</nav>
+<main>
+<section class="card" id="tujuan">
+  <h2>1. Tujuan Pembelajaran</h2>
+  <p>Setelah menyelesaikan modul ini, peserta didik mampu:</p>
+  <ol>
+    <li>Memahami komunikasi Unity dengan REST API.</li>
+    <li>Mengambil data leaderboard menggunakan HTTP GET.</li>
+    <li>Mengubah JSON menjadi objek C# menggunakan model class.</li>
+    <li>Membuat baris UI secara dinamis pada Scroll View vertikal.</li>
+    <li>Mengirim nama dan skor pemain menggunakan HTTP POST.</li>
+    <li>Memuat ulang leaderboard setelah skor berhasil dikirim.</li>
+  </ol>
+  <div class="callout"><b>Hasil akhir:</b> game menampilkan daftar peringkat dari server. Pemain bisa mengirim nama dan nilai, lalu memperbarui daftar dari data terbaru server.</div>
+</section>
+<section class="card" id="api">
+  <h2>2. Memahami API Leaderboard</h2>
+  <p>API yang digunakan dalam modul ini:</p>
+  <table><thead><tr><th>Fungsi</th><th>Method</th><th>Endpoint</th></tr></thead><tbody>
+  <tr><td>Mengambil data</td><td><code>GET</code></td><td><code>https://simple-api.appocket.id/simple-leaderboard?limit=10</code></td></tr>
+  <tr><td>Mengirim skor</td><td><code>POST</code></td><td><code>https://simple-api.appocket.id/simple-leaderboard</code></td></tr>
+  </tbody></table>
+  <h3>Contoh respons GET</h3>
+  <pre><button class="copy" type="button">Salin</button><code>{
+  "status": "success",
+  "total": 2,
+  "data": [
+    {
+      "rank": 1,
+      "id": 1,
+      "nama": "Budi Santoso",
+      "nilai": 950,
+      "created_at": "2026-10-15 11:19:05"
+    },
+    {
+      "rank": 2,
+      "id": 2,
+      "nama": "Siti Rahma",
+      "nilai": 880,
+      "created_at": "2026-10-15 11:19:05"
+    }
+  ]
+}</code></pre>
+  <h3>Contoh JSON yang dikirim melalui POST</h3>
+  <pre><button class="copy" type="button">Salin</button><code>{
+  "nama": "Rian Ardiansyah",
+  "nilai": 920
+}</code></pre>
+  <div class="callout warning"><b>Catatan:</b> contoh respons POST belum ditentukan pada spesifikasi yang tersedia. Script akan memeriksa keberhasilan HTTP, kemudian meminta data GET terbaru. Bila API memakai format respons atau aturan validasi khusus, sesuaikan penanganan respons dengan dokumentasi server.</div>
+  <div class="flow">
+    <div class="flowbox">🎮<b>Unity</b><small>Input pemain</small></div><div class="arrow">↔</div>
+    <div class="flowbox">🌐<b>REST API</b><small>GET / POST</small></div><div class="arrow">↔</div>
+    <div class="flowbox">🏆<b>Scroll View</b><small>Daftar peringkat</small></div>
+  </div>
+</section>
+<section class="card" id="ui">
+  <h2>3. Membuat UI di Unity</h2>
+  <h3>A. Buat objek UI</h3>
+  <ol>
+    <li>Buat <b>Canvas</b> melalui <code>GameObject → UI → Canvas</code>.</li>
+    <li>Pastikan tersedia <b>EventSystem</b>. Unity biasanya membuatnya otomatis saat UI dibuat.</li>
+    <li>Di dalam Canvas, buat <b>Scroll View</b>, dua <b>TextMeshPro Input Field</b>, dua tombol, dan satu teks status.</li>
+    <li>Tambahkan judul menggunakan TextMeshPro, misalnya “LEADERBOARD”.</li>
+  </ol>
+  <div class="tree">Canvas
+├── TitleText
+├── Scroll View
+│   └── Viewport
+│       └── Content
+├── NamaInput (TMP_InputField)
+├── NilaiInput (TMP_InputField)
+├── KirimButton
+├── RefreshButton
+└── StatusText</div>
+  <h3>B. Atur Content agar bisa scroll ke bawah</h3>
+  <p>Pilih objek <code>Content</code> di dalam Scroll View, lalu tambahkan komponen berikut:</p>
+  <ul>
+    <li><b>Vertical Layout Group</b>: Child Alignment = Upper Center; Spacing = 8; Control Child Size Width dan Height aktif; Child Force Expand Width aktif dan Height nonaktif.</li>
+    <li><b>Content Size Fitter</b>: Horizontal Fit = Unconstrained; Vertical Fit = Preferred Size.</li>
+  </ul>
+  <p>Pada objek <code>Scroll View</code>, pastikan <code>Scroll Rect</code> mengarah ke <code>Content</code>. Pada <code>Viewport</code>, gunakan <code>Rect Mask 2D</code>. Aktifkan gerakan vertikal sesuai kebutuhan.</p>
+  <h3>C. Buat prefab baris leaderboard</h3>
+  <ol>
+    <li>Buat UI Panel bernama <code>LeaderboardItem</code> dengan tinggi kira-kira 60 px.</li>
+    <li>Di dalamnya, buat empat teks TextMeshPro: <code>RankText</code>, <code>NamaText</code>, <code>NilaiText</code>, dan <code>TanggalText</code>.</li>
+    <li>Susun teks secara horizontal dengan <code>Horizontal Layout Group</code> atau atur posisi secara manual.</li>
+    <li>Seret objek dari Hierarchy ke folder <code>Assets/Prefabs</code> untuk membuat prefab.</li>
+    <li>Hapus objek sementara dari Canvas setelah prefab dibuat.</li>
+  </ol>
+  <div class="mock">
+    <h3>🏆 LEADERBOARD</h3><small>Contoh tampilan — data ilustrasi</small>
+    <div class="entry"><span class="rank">🥇</span><span class="name">Budi Santoso<br><small>Peringkat 1</small></span><span class="score">950</span></div>
+    <div class="entry"><span class="rank">🥈</span><span class="name">Siti Rahma<br><small>Peringkat 2</small></span><span class="score">880</span></div>
+    <div class="entry"><span class="rank">🥉</span><span class="name">Andi Wijaya<br><small>Peringkat 3</small></span><span class="score">820</span></div>
+  </div>
+</section>
+<section class="card" id="model">
+  <h2>4. Membuat Model Data JSON</h2>
+  <p>Buat folder <code>Assets/Scripts</code>, lalu buat file <code>LeaderboardModels.cs</code>. Class ini menyesuaikan struktur JSON dengan objek C#.</p>
+  <pre><button class="copy" type="button">Salin</button><code>using System;
+
+[Serializable]
+public class LeaderboardEntry
+{
+    public int rank;
+    public int id;
+    public string nama;
+    public int nilai;
+    public string created_at;
+}
+
+[Serializable]
+public class LeaderboardResponse
+{
+    public string status;
+    public int total;
+    public LeaderboardEntry[] data;
+}
+
+[Serializable]
+public class LeaderboardSubmit
+{
+    public string nama;
+    public int nilai;
+}</code></pre>
+  <ul>
+    <li><code>LeaderboardEntry</code>: satu baris data pemain.</li>
+    <li><code>LeaderboardResponse</code>: respons GET yang berisi status, total, dan array data.</li>
+    <li><code>LeaderboardSubmit</code>: data nama dan nilai yang akan dikirim ke server.</li>
+    <li><code>[Serializable]</code>: memungkinkan <code>JsonUtility</code> melakukan serialisasi/deserialisasi objek.</li>
+  </ul>
+  <div class="callout">Model di atas mengasumsikan <code>nilai</code> dikirim sebagai angka JSON, seperti pada contoh API. Jika server mengirimnya sebagai string, sesuaikan tipe datanya.</div>
+</section>
+<section class="card" id="item">
+  <h2>5. Script untuk Satu Baris UI</h2>
+  <p>Buat file <code>LeaderboardItemUI.cs</code>, lalu pasang pada prefab <code>LeaderboardItem</code>.</p>
+  <pre><button class="copy" type="button">Salin</button><code>using TMPro;
+using UnityEngine;
+
+public class LeaderboardItemUI : MonoBehaviour
+{
+    public TMP_Text rankText;
+    public TMP_Text namaText;
+    public TMP_Text nilaiText;
+    public TMP_Text tanggalText;
+
+    public void SetData(LeaderboardEntry entry)
+    {
+        rankText.text = "#" + entry.rank;
+        namaText.text = entry.nama;
+        nilaiText.text = entry.nilai.ToString();
+        tanggalText.text = entry.created_at;
+    }
+}</code></pre>
+  <p>Di Inspector prefab, hubungkan setiap field ke objek TextMeshPro yang sesuai. Method <code>SetData()</code> akan mengisi teks ketika data pemain diterima.</p>
+</section>
+<section class="card" id="manager">
+  <h2>6. Script Utama: GET, POST, dan Refresh</h2>
+  <p>Buat file <code>LeaderboardManager.cs</code>. Script ini mengunduh data, membangun baris UI, mengirim skor, dan mengambil ulang data setelah POST berhasil.</p>
+  <pre><button class="copy" type="button">Salin</button><code>using System.Collections;
+using System.Text;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Networking;
+
+public class LeaderboardManager : MonoBehaviour
+{
+    private const string API_URL =
+        "https://simple-api.appocket.id/simple-leaderboard";
+
+    [Header("Leaderboard UI")]
+    public Transform content;
+    public GameObject leaderboardItemPrefab;
+    public int limit = 10;
+
+    [Header("Input UI")]
+    public TMP_InputField namaInput;
+    public TMP_InputField nilaiInput;
+
+    [Header("Status UI")]
+    public TMP_Text statusText;
+
+    private bool isProcessing;
+
+    private void Start()
+    {
+        StartCoroutine(GetLeaderboard());
+    }
+
+    // GET: mengambil data leaderboard
+    public IEnumerator GetLeaderboard()
+    {
+        string url = API_URL + "?limit=" + Mathf.Max(1, limit);
+
+        using (UnityWebRequest request = UnityWebRequest.Get(url))
+        {
+            request.timeout = 15;
+            yield return request.SendWebRequest();
+
+            if (request.result != UnityWebRequest.Result.Success)
+            {
+                SetStatus("Gagal mengambil data: " + request.error);
+                Debug.LogError("GET Error: " + request.error +
+                    "\\nResponse: " + request.downloadHandler.text);
+                yield break;
+            }
+
+            string json = request.downloadHandler.text;
+            Debug.Log("GET Response: " + json);
+
+            LeaderboardResponse response;
+            try
+            {
+                response = JsonUtility.FromJson<LeaderboardResponse>(json);
+            }
+            catch (System.Exception e)
+            {
+                SetStatus("Gagal membaca JSON.");
+                Debug.LogError(e.Message);
+                yield break;
+            }
+
+            if (response == null || response.status != "success"
+                || response.data == null)
+            {
+                SetStatus("Format data leaderboard tidak valid.");
+                yield break;
+            }
+
+            DisplayLeaderboard(response.data);
+            SetStatus("Leaderboard berhasil dimuat: " +
+                response.total + " data.");
+        }
+    }
+
+    private void DisplayLeaderboard(LeaderboardEntry[] entries)
+    {
+        // Hapus baris lama agar tidak terjadi duplikasi.
+        foreach (Transform child in content)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (LeaderboardEntry entry in entries)
+        {
+            GameObject item = Instantiate(leaderboardItemPrefab, content);
+            LeaderboardItemUI itemUI = item.GetComponent<LeaderboardItemUI>();
+
+            if (itemUI != null)
+            {
+                itemUI.SetData(entry);
+            }
+            else
+            {
+                Debug.LogError("Prefab tidak memiliki LeaderboardItemUI.");
+            }
+        }
+    }
+
+    // POST: validasi input sebelum mengirim skor
+    public void SubmitScore()
+    {
+        if (isProcessing)
+            return;
+
+        string nama = namaInput.text.Trim();
+        string nilaiString = nilaiInput.text.Trim();
+
+        if (string.IsNullOrEmpty(nama))
+        {
+            SetStatus("Nama pemain harus diisi.");
+            return;
+        }
+
+        if (!int.TryParse(nilaiString, out int nilai) || nilai < 0)
+        {
+            SetStatus("Nilai harus berupa angka 0 atau lebih.");
+            return;
+        }
+
+        StartCoroutine(PostLeaderboard(nama, nilai));
+    }
+
+    private IEnumerator PostLeaderboard(string nama, int nilai)
+    {
+        isProcessing = true;
+        SetStatus("Mengirim skor...");
+
+        LeaderboardSubmit submitData = new LeaderboardSubmit
+        {
+            nama = nama,
+            nilai = nilai
+        };
+
+        string json = JsonUtility.ToJson(submitData);
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
+
+        using (UnityWebRequest request = new UnityWebRequest(API_URL, "POST"))
+        {
+            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+            request.downloadHandler = new DownloadHandlerBuffer();
+            request.SetRequestHeader("Content-Type", "application/json");
+            request.SetRequestHeader("Accept", "application/json");
+            request.timeout = 15;
+
+            yield return request.SendWebRequest();
+
+            string responseBody = request.downloadHandler.text;
+            Debug.Log("POST Response: " + responseBody);
+
+            if (request.result != UnityWebRequest.Result.Success)
+            {
+                SetStatus("Gagal mengirim skor: " + request.error);
+                Debug.LogError("POST Error: " + request.error +
+                    "\\nResponse: " + responseBody);
+                isProcessing = false;
+                yield break;
+            }
+
+            SetStatus("Skor berhasil dikirim.");
+            namaInput.text = "";
+            nilaiInput.text = "";
+
+            // Ambil data terbaru dari server.
+            yield return GetLeaderboard();
+        }
+
+        isProcessing = false;
+    }
+
+    public void RefreshLeaderboard()
+    {
+        if (!isProcessing)
+            StartCoroutine(GetLeaderboard());
+    }
+
+    private void SetStatus(string message)
+    {
+        if (statusText != null)
+            statusText.text = message;
+
+        Debug.Log(message);
+    }
+}</code></pre>
+  <h3>Bagaimana script bekerja?</h3>
+  <ul>
+    <li><b>GET:</b> <code>UnityWebRequest.Get(url)</code> meminta data, lalu <code>JsonUtility.FromJson</code> mengubah respons menjadi objek C#.</li>
+    <li><b>Instantiate:</b> membuat satu prefab untuk setiap pemain di dalam <code>Content</code>.</li>
+    <li><b>POST:</b> <code>JsonUtility.ToJson</code> mengubah input menjadi JSON, kemudian <code>UploadHandlerRaw</code> mengirimkannya ke server.</li>
+    <li><b>Refresh:</b> setelah POST sukses secara HTTP, coroutine GET dijalankan lagi untuk mengambil daftar terbaru.</li>
+  </ul>
+  <div class="callout warning"><b>Penting:</b> script menganggap respons HTTP sukses berarti server menerima data. Jika API memiliki format respons khusus untuk menolak skor, periksa isi respons itu juga sebelum menampilkan pesan berhasil. Kode ini belum membuktikan bahwa skor telah tersimpan secara permanen.</div>
+</section>
+<section class="card" id="hubungkan">
+  <h2>7. Menghubungkan Komponen di Inspector</h2>
+  <ol>
+    <li>Buat GameObject kosong bernama <code>LeaderboardManager</code>.</li>
+    <li>Pasang script <code>LeaderboardManager.cs</code> pada objek tersebut.</li>
+    <li>Hubungkan field di Inspector sesuai tabel.</li>
+  </ol>
+  <table><thead><tr><th>Field</th><th>Objek yang dihubungkan</th></tr></thead><tbody>
+  <tr><td>Content</td><td><code>Content</code> di Scroll View</td></tr>
+  <tr><td>Leaderboard Item Prefab</td><td>Prefab <code>LeaderboardItem</code></td></tr>
+  <tr><td>Limit</td><td><code>10</code> atau jumlah data yang diinginkan</td></tr>
+  <tr><td>Nama Input</td><td><code>NamaInput</code></td></tr>
+  <tr><td>Nilai Input</td><td><code>NilaiInput</code></td></tr>
+  <tr><td>Status Text</td><td><code>StatusText</code></td></tr>
+  </tbody></table>
+  <h3>Hubungkan tombol Kirim</h3>
+  <ol>
+    <li>Pilih <code>KirimButton</code> di Hierarchy.</li>
+    <li>Di komponen Button, cari bagian <b>On Click()</b>, lalu tekan tombol <code>+</code>.</li>
+    <li>Seret GameObject <code>LeaderboardManager</code> ke slot objek.</li>
+    <li>Pilih <code>LeaderboardManager → SubmitScore()</code>.</li>
+  </ol>
+  <h3>Hubungkan tombol Refresh</h3>
+  <p>Ulangi langkah di atas pada <code>RefreshButton</code>, lalu pilih <code>LeaderboardManager → RefreshLeaderboard()</code>.</p>
+  <div class="callout">Atur <code>NilaiInput</code> dengan Content Type <b>Integer Number</b>. Pastikan prefab <code>LeaderboardItem</code> memiliki script <code>LeaderboardItemUI</code> dan semua field teks sudah terhubung.</div>
+</section>
+<section class="card" id="uji">
+  <h2>8. Pengujian Praktik</h2>
+  <ol>
+    <li>Jalankan game. Method <code>Start()</code> otomatis meminta data leaderboard.</li>
+    <li>Pastikan data muncul sebagai baris-baris di Scroll View.</li>
+    <li>Masukkan nama <code>Rian Ardiansyah</code> dan nilai <code>920</code>.</li>
+    <li>Tekan Kirim dan periksa status serta Console.</li>
+    <li>Jika POST berhasil, daftar dimuat ulang menggunakan GET.</li>
+    <li>Tekan Refresh untuk mengambil data server lagi secara manual.</li>
+  </ol>
+  <h3>Checklist hasil praktik</h3>
+  <div class="checklist">
+    <label><input type="checkbox"> Data GET berhasil dibaca dari server.</label>
+    <label><input type="checkbox"> Nama, nilai, tanggal, dan peringkat tampil di setiap baris.</label>
+    <label><input type="checkbox"> Scroll View bisa digulir ke bawah ketika data melebihi tinggi area.</label>
+    <label><input type="checkbox"> Input nama kosong ditolak oleh validasi.</label>
+    <label><input type="checkbox"> Input nilai nonangka atau negatif ditolak.</label>
+    <label><input type="checkbox"> POST berhasil dan GET berikutnya menampilkan data terbaru.</label>
+  </div>
+</section>
+<section class="card" id="masalah">
+  <h2>9. Troubleshooting</h2>
+  <table><thead><tr><th>Masalah</th><th>Yang perlu diperiksa</th></tr></thead><tbody>
+  <tr><td>Data tidak muncul</td><td>Periksa URL, koneksi internet, respons server, dan Console Unity.</td></tr>
+  <tr><td>Gagal membaca JSON</td><td>Pastikan respons memiliki <code>status</code>, <code>total</code>, dan <code>data</code> sesuai contoh.</td></tr>
+  <tr><td>Baris bertumpuk</td><td>Periksa Vertical Layout Group, Content Size Fitter, dan tinggi prefab.</td></tr>
+  <tr><td>Tombol tidak bekerja</td><td>Periksa event On Click dan referensi GameObject.</td></tr>
+  <tr><td>POST gagal</td><td>Periksa HTTP status, header Content-Type, nama field JSON, dan respons server.</td></tr>
+  <tr><td>Peringkat tidak berubah</td><td>Pastikan server menyimpan data dan endpoint GET mengembalikan data terbaru.</td></tr>
+  </tbody></table>
+  <div class="callout success"><b>Kesimpulan:</b> dengan UnityWebRequest, model data C#, prefab UI, dan Scroll View, leaderboard dapat mengambil dan mengirim data secara dinamis tanpa membuat baris pemain satu per satu.</div>
+  <p><b>Catatan keamanan:</b> endpoint pada modul ini menggunakan HTTPS dan tidak memerlukan token menurut spesifikasi yang diberikan. Untuk game produksi, validasi skor di server agar client tidak bisa mengirim skor palsu.</p>
+</section>
+</main>
+</div>
+<footer>Modul Pembelajaran Unity C# • Simple Leaderboard API • Dapat dibuka secara lokal di browser</footer>
+<script>
+document.querySelectorAll('pre .copy').forEach(button=>{
+  button.addEventListener('click',async()=>{
+    const code=button.parentElement.querySelector('code').innerText;
+    try{
+      await navigator.clipboard.writeText(code);
+      button.textContent='Tersalin!';
+      setTimeout(()=>button.textContent='Salin',1400);
+    }catch(e){
+      const range=document.createRange();range.selectNodeContents(button.parentElement.querySelector('code'));
+      const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);
+      button.textContent='Pilih lalu salin';
+    }
+  });
+});
+</script>
+</body>
+</html>

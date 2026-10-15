@@ -1,0 +1,399 @@
+::Analisis DM - Soal 01:: Studi Kasus Penetrasi Pasar Global: Sebuah merek fashion lokal berhasil menarik perhatian publik internasional dengan tampil di peragaan busana New York dan memasang baliho Times Square. Di dalam negeri, momentum konversi penjualan masif dicapai melalui strategi kombinasi promosi apa? {
+= Flash sale harga miring secara agresif di e-commerce dan penggunaan ratusan influencer secara simultan di media sosial.
+~ Penjualan eksklusif hanya di toko fisik dengan melarang segala bentuk transaksi pembelian secara online di e-commerce.
+~ Pemberian garansi seumur hidup untuk semua produk pakaian tanpa memperhitungkan kelayakan kondisi barang yang rusak.
+~ Penghentian seluruh promosi di media sosial dan beralih sepenuhnya pada pemasaran dari mulut ke mulut di desa kecil.
+~ Pembagian produk secara gratis kepada seluruh penduduk kota tanpa melakukan pencatatan laporan keuangan perusahaan.
+}
+
+::Analisis DM - Soal 02:: Studi Kasus Viralitas Organik Waralaba: Sebuah waralaba minuman berkembang sangat cepat dengan ribuan gerai baru. Faktor utama pendorong viralitas digital yang diinisiasi oleh konsumen mereka di media sosial adalah apa? {
+= Pemanfaatan User Generated Content (UGC) melalui jingle lagu earworm dan parodi maskot toko yang viral di TikTok.
+~ Iklan berbayar mahal di televisi nasional yang ditayangkan setiap sepuluh menit sekali pada jam tayang utama malam hari.
+~ Pemberian saham perusahaan gratis kepada setiap pembeli yang memesan satu buah produk di gerai toko fisik perusahaan.
+~ Pembatasan penjualan hanya untuk kalangan pejabat pemerintah dengan memberlakukan sistem keanggotaan rahasia yang ketat.
+~ Penggunaan teknologi kecerdasan buatan canggih untuk meramal jenis rasa produk yang disukai oleh calon pembeli toko.
+}
+
+::Analisis DM - Soal 03:: Studi Kasus Integrasi O2O Aplikasi: Sebuah jaringan kedai kopi memanfaatkan model bisnis Online-to-Offline (O2O) melalui aplikasi seluler resminya. Apa keuntungan utama dari penerapan strategi ini bagi efisiensi operasional dan pemasaran? {
+= Memangkas antrean di gerai, mengumpulkan data perilaku transaksi, serta meningkatkan retensi via penawaran loyalti aplikasi.
+~ Memaksa pembeli untuk membayar biaya tambahan yang tinggi setiap kali mereka membuka aplikasi seluler di smartphone.
+~ Mengeliminasi kebutuhan akan bahan baku biji kopi asli karena semua transaksi dilakukan secara virtual di dalam aplikasi.
+~ Menutup seluruh gerai fisik dan mengoperasikan bisnis pemesanan kopi hanya melalui pengiriman surat dokumen pos tertulis.
+~ Menjamin bahwa tidak ada pesaing bisnis kopi lain yang boleh membuka gerai toko di wilayah kota yang sama dengan perusahaan.
+}
+
+::Analisis DM - Soal 04:: Studi Kasus Copywriting Relevan: Sebuah perusahaan aplikasi transportasi online sering kali memenangkan hati konsumen melalui gaya copywriting di media sosial dan baliho jalanan. Karakteristik utama dari pendekatan copywriting tersebut adalah apa? {
+= Penggunaan humor lokal yang relevan dengan kehidupan sehari-hari (Localized Marketing) serta nada bicara yang empatik.
+~ Penggunaan bahasa teknis pemrograman komputer yang rumit sehingga pembaca harus membuka kamus teknologi untuk paham.
+~ Menyampaikan ancaman denda uang tunai kepada pengguna jalan raya yang tidak mengunduh aplikasi di smartphone mereka.
+~ Menuliskan teks surat keputusan hukum resmi pemerintah yang sangat formal, kaku, dan serba panjang tanpa ada humor.
+~ Mengosongkan seluruh papan baliho dan hanya menyisakan latar belakang warna polos tanpa ada tulisan atau logo produk.
+}
+
+::Analisis DM - Soal 05:: Studi Kasus Creator-Led Business: Sebuah tempat kuliner yang didirikan oleh seorang pembuat konten populer mampu menciptakan antrean panjang sejak hari pertama beroperasi tanpa iklan TV berbayar. Faktor pendorong utama keberhasilan strategi tersebut adalah apa? {
+= Mengoptimalkan personal branding pendiri di TikTok serta memproduksi konten tantangan interaktif yang memicu rasa penasaran.
+~ Membagikan uang tunai sebesar satu juta rupiah kepada setiap pengunjung yang datang makan di kedai kuliner tersebut.
+~ Menyewa seluruh stasiun televisi swasta nasional untuk menyiarkan secara langsung pembukaan gerai pertama selama 24 jam.
+~ Menggunakan bahan dasar rempah-rempah langka yang diimpor langsung dari planet lain yang tidak bisa ditemukan di pasar.
+~ Memaksa pengikut media sosial pendiri untuk datang membeli di kedai di bawah ancaman pemblokiran akun media sosial.
+}
+
+::Analisis DM - Soal 06:: Studi Kasus Kredibilitas & Komunitas Merek: Sebuah merek produk perawatan kulit membangun posisi kepemimpinan pasar melalui strategi sertifikasi resmi dan Community-based Marketing. Langkah komunitas konkret manakah yang mereka jalankan? {
+= Mengelola jaringan Campus Ambassador wanita muda dan membangun edukasi ulasan produk yang konsisten via beauty influencer.
+~ Membatasi penjualan produk kosmetik hanya pada lingkungan tempat ibadah tanpa menjualnya di toko kosmetik atau e-commerce.
+~ Menolak penggunaan media digital dan mengandalkan pameran produk secara keliling dari pintu ke pintu rumah warga desa.
+~ Mengenakan denda biaya tambahan kepada konsumen yang tidak memiliki sertifikat pelatihan kecantikan tingkat profesional.
+~ Mengganti seluruh nama produk kosmetik setiap bulan sekali agar pesaing bisnis merasa bingung meniru formulasi produk.
+}
+
+::Analisis DM - Soal 07:: Studi Kasus Kampanye Promo Hype E-Commerce: Sebuah platform e-commerce rutin menggelar promo diskon bulanan yang sukses menjangkau Generasi Z. Kombinasi taktik digital apakah yang membuat kampanye ini sangat efektif? {
+= Mengombinasikan kolaborasi Hype Marketing grup musik populer dengan fitur gamifikasi berhadiah diskon di aplikasi.
+~ Mematikan situs e-commerce setiap tanggal promo bulanan untuk melatih kesabaran belanja pengguna internet Indonesia.
+~ Mengirimkan brosur kertas promosi melalui udara menggunakan helikopter di atas wilayah perkampungan warga di daerah.
+~ Mengubah seluruh tampilan visual e-commerce menjadi serba hitam tanpa foto produk untuk menciptakan suasana misterius.
+~ Mewajibkan pembeli untuk menghafalkan seluruh nama karyawan e-commerce sebelum diperbolehkan melakukan pembayaran transaksi.
+}
+
+::Analisis DM - Soal 08:: Studi Kasus Manajemen Krisis PR: Sebuah perusahaan perlengkapan luar ruang menghadapi masalah komplain ulasan dari seorang pengguna kecil di media sosial. Langkah penanganan krisis etis manakah yang mereka ambil untuk meredam krisis? {
+= Mengakui kesalahan secara terbuka, meminta maaf secara tulus, dan mengubah momentum menjadi respon kedekatan dengan audiens.
+~ Menuntut balik pengulas tersebut ke pengadilan dengan denda triliunan rupiah agar tidak ada lagi yang berani mengulas produk.
+~ Menghapus seluruh akun media sosial resmi perusahaan dan menghentikan penjualan produk peralatan outdoor secara permanen.
+~ Menyalahkan masyarakat karena tidak memahami standar dokumen teguran resmi yang dikeluarkan oleh bagian legal bisnis.
+~ Membakar seluruh stok produk peralatan outdoor yang ada di gudang pusat untuk menunjukkan bahwa perusahaan tidak peduli uang.
+}
+
+::Analisis DM - Soal 09:: Studi Kasus Pemasaran Organik Kedai Kopi: Sebuah usaha kedai kopi lokal sukses berkembang pesat tanpa promosi iklan berbayar masif pada masa awal berdirinya. Faktor organik utama apakah yang mendorong lonjakan popularitas merek ini? {
+= Kekuatan produk yang berkualitas (Product Excellence), pemasaran mulut ke mulut, serta kunjungan organik tokoh publik.
+~ Pemasangan iklan berbayar skala besar di seluruh stasiun TV swasta nasional secara serentak selama satu tahun penuh.
+~ Membagikan kopi secara gratis setiap hari kepada semua orang yang melintas di depan gerai kedai tanpa batas jumlah.
+~ Menyebar berita bohong di media sosial bahwa minum kopi susu dapat membuat seseorang bisa terbang ke angkasa luar.
+~ Mengenakan harga jual yang sangat mahal yaitu satu juta rupiah per cangkir untuk menunjukkan bahwa produk sangat mewah.
+}
+
+::Analisis DM - Soal 10:: Studi Kasus Penjualan D2C & Flash Sale: Sebuah brand sepatu lokal menjual produk berkualitas dengan harga sangat terjangkau. Taktik pemasaran digital khusus apakah yang mereka gunakan untuk menciptakan hype penjualan cepat? {
+= Peluncuran produk kolaborasi edisi terbatas secara eksklusif dan penjualan D2C melalui momentum Flash Sale di TikTok/Shopee.
+~ Membuka ribuan toko fisik cabang di seluruh kota kecil sebelum menjual satu buah pun sepatu secara online di e-commerce.
+~ Membeli perusahaan produsen sepatu terkenal di Eropa agar nama sepatu terdaftar sebagai produk buatan luar negeri.
+~ Menyembunyikan informasi harga sepatu dari calon konsumen sampai sepatu tiba di rumah pembeli melalui pengiriman kurir.
+~ Melarang pembeli untuk mengambil foto atau membuat video ulasan sepatu yang telah mereka beli di media sosial pribadi.
+}
+
+::Analisis DM - Soal 11:: Studi Kasus Kolaborasi Unik Lintas Kategori: Sebuah perusahaan kosmetik melakukan kolaborasi desain kemasan dengan merek produk makanan populer. Apa dampak strategis utama dari kolaborasi unik lintas industri ini? {
+= Menciptakan rasa penasaran yang tinggi di masyarakat, memicu pembicaraan viral di media sosial, serta meluaskan audiens pasar.
+~ Mengurangi biaya bahan baku kosmetik karena menggunakan sisa sisa bumbu dapur dari perusahaan makanan partner kerja sama.
+~ Memaksa pembeli kosmetik untuk mengonsumsi makanan cepat saji setiap kali mereka memakai produk lipstik atau pelembab wajah.
+~ Memungkinkan perusahaan kosmetik untuk mengubah izin usaha menjadi restoran makanan siap saji di seluruh gerai toko.
+~ Menghemat biaya pajak perusahaan karena produk kolaborasi dikategorikan sebagai bahan pangan pokok oleh pemerintah daerah.
+}
+
+::Analisis DM - Soal 12:: Studi Kasus Visual Content Marketing: Sebuah bisnis kue kotak makanan penutup memanfaatkan strategi konten di platform video pendek. Elemen visual spesifik apakah yang konsisten mereka tampilkan untuk menggugah minat beli? {
+= Video jarak dekat (close-up) dengan audio ASMR yang menampilkan lelehan cokelat melimpah yang disiramkan di atas kue.
+~ Foto dokumen tabel laporan keuangan bisnis bulanan yang dicetak menggunakan mesin ketik kuno berwarna hitam putih.
+~ Gambar kemasan kotak kardus kosong tanpa ada produk kue di dalamnya untuk melatih imajinasi visual dari calon pembeli.
+~ Rekaman video ruang gudang bahan baku tepung terigu yang sepi dan gelap pada malam hari tanpa ada aktivitas produksi.
+~ Grafik statistik kenaikan harga gula pasir internasional yang disajikan dalam bentuk diagram lingkaran yang rumit dipahami.
+}
+
+::Analisis DM - Soal 13:: Studi Kasus Buzz Marketing Kuliner: Sebuah usaha jaringan kedai makanan pedas menerapkan strategi harga terjangkau yang dipadukan dengan Buzz Marketing. Indikator visual organik apakah yang sering menjadi konten viral masyarakat di media sosial? {
+= Video dan foto antrean panjang pembeli serta pengemudi ojek online yang mengular di setiap pembukaan outlet baru.
+~ Foto sertifikat penghargaan internasional dari ikatan koki dunia yang dipajang di depan kasir pembayaran kedai toko.
+~ Gambar bukti struk pembayaran kasir milik pembeli yang menampilkan potongan diskon seratus persen dari pemilik bisnis.
+~ Video staf kedai yang sedang menari tarian tradisional daerah di area parkir kendaraan untuk menyambut kedatangan pembeli.
+~ Rekaman suara bunyi klakson kendaraan pengantar bahan baku mi yang tiba di gudang penyimpan pada waktu subuh pagi hari.
+}
+
+::Analisis DM - Soal 14:: Studi Kasus Integrasi Omni-Channel Retail: Sebuah ritel toko fisik kecantikan menerapkan strategi Omni-channel yang terhubung dengan aplikasi seluler resmi. Fitur teknologi apakah di toko fisik yang menghubungkan pelanggan ke ekosistem aplikasi? {
+= Pemindaian kode QR pada produk di toko fisik untuk langsung membaca ulasan jujur dan penilaian konsumen di aplikasi SOCO.
+~ Penggunaan mesin pendeteksi kebohongan otomatis saat pembeli hendak membayar barang belanjaan mereka di meja kasir.
+~ Layanan foto Rontgen kulit gratis yang hasilnya dikirimkan melalui surat dokumen resmi pos ke alamat rumah pembeli.
+~ Kios pembayaran otomatis yang hanya menerima mata uang asing kuno sebagai alat transaksi pembayaran produk di toko.
+~ Pemasangan kamera pengawas berteknologi tinggi yang membatasi durasi belanja pembeli maksimal selama lima menit saja.
+}
+
+::Analisis DM - Soal 15:: Studi Kasus Promosi Interaktif Pra-Peluncuran: Sebuah bisnis minuman kekinian memanfaatkan strategi promosi interaktif pada masa pra-peluncuran produk barunya. Aktivitas promosi interaktif spesifik apakah yang diunggah di Instagram? {
+= Mengajak audiens menebak resep rahasia varian teh buah menggunakan teka-teki dan rumus matematika yang interaktif.
+~ Membagikan bibit tanaman teh secara gratis kepada seluruh pengikut akun Instagram untuk ditanam di halaman rumah masing-masing.
+~ Mengkritik kualitas produk minuman teh milik semua brand pesaing secara terbuka di media sosial untuk menjatuhkan lawan.
+~ Menjual buku pelajaran matematika sekolah menengah atas dengan hadiah bonus satu cangkir teh rasa buah di dalam buku.
+~ Mengosongkan seluruh konten akun Instagram selama satu tahun penuh dan menolak memberikan informasi apa pun kepada audiens.
+}
+
+::Analisis DM - Soal 16:: Sebuah usaha UMKM kerajinan kulit lokal memiliki anggaran pemasaran yang sangat terbatas. Manakah kombinasi saluran digital yang paling efektif dan hemat biaya untuk mereka gunakan? {
+= Instagram Reels & TikTok untuk pamer visual pembuatan produk, dipadukan dengan WhatsApp Business & Google Maps.
+~ Memasang iklan papan reklame videotron di jalan tol utama kota dipadukan dengan pembagian brosur fisik dari rumah ke rumah.
+~ Menyewa helikopter untuk menyebarkan selebaran kertas di udara dipadukan dengan pembuatan iklan komersial di TV swasta.
+~ Membuat situs web toko online berbiaya ratusan juta rupiah tanpa mendaftarkan lokasi bisnis di platform peta digital.
+~ Mengabaikan media sosial sepenuhnya dan mengandalkan pengiriman surat dokumen promosi melalui kantor pos daerah.
+}
+
+::Analisis DM - Soal 17:: Dalam Framework Analisis 4C untuk audit digital marketing UMKM, aspek Audience memfokuskan analisis pada evaluasi hal apa? {
+= Profil target pelanggan sasaran, kesesuaian pesan promosi, serta keunikan nilai produk (Unique Selling Proposition).
+~ Jumlah staf bagian administrasi keuangan yang bekerja di kantor pusat UMKM beserta tingkat pendidikan terakhir mereka.
+~ Luas ukuran meter persegi bangunan fisik toko offline tempat UMKM memproduksi barang kerajinan yang akan dijual.
+~ Merek kendaraan pribadi yang digunakan oleh pemilik UMKM saat mendistribusikan barang pesanan ke kantor kurir pengirim.
+~ Jenis mesin cetak kuitansi pembayaran yang digunakan oleh kasir toko untuk mencetak tanda bukti pembelian produk barang.
+}
+
+::Analisis DM - Soal 18:: Seorang pemilik UMKM kedai roti bingung karena akun Instagram bisnisnya ramai komentar tetapi sedikit yang membeli. Setelah diaudit, tidak ada tautan pemesanan di bio. Komponen 4C manakah yang bermasalah? {
+= Channels & Conversion Path (Jalur transaksi pada saluran tidak jelas dan tidak menyertakan Call-to-Action).
+~ Audience (Target audiens yang membaca konten tidak memiliki uang tunai yang cukup untuk membeli produk roti).
+~ Content (Warna foto roti yang diunggah di Instagram terlalu terang sehingga menyilaukan mata pengguna internet).
+~ Metrics (Pemilik bisnis tidak membayar biaya langganan internet bulanan kepada perusahaan penyedia jasa Wi-Fi kantor).
+~ Product (Rasa roti yang dijual terlalu enak sehingga pembeli merasa takut akan menjadi ketagihan jika memesan).
+}
+
+::Analisis DM - Soal 19:: Manakah dari berikut ini yang merupakan contoh kelemahan utama dari UMKM dalam mengelola digital marketing dibanding perusahaan merek besar nasional? {
+= Keterbatasan sumber daya manusia, anggaran promosi yang minim, serta belum adanya konsistensi kalender konten.
+~ Rasa produk UMKM yang dijamin selalu lebih buruk daripada rasa produk yang diproduksi oleh pabrik besar nasional.
+~ Ketidakmampuan toko UMKM untuk menerima pembayaran uang tunai dari konsumen yang datang belanja ke toko offline.
+~ Larangan dari pemerintah daerah bagi UMKM untuk memiliki akun media sosial resmi atau situs web toko online pribadi.
+~ Kecepatan koneksi internet di kantor UMKM yang secara otomatis dibatasi oleh platform media sosial hingga sangat lambat.
+}
+
+::Analisis DM - Soal 20:: Sebuah UMKM toko pakaian bayi di kota kecil ingin menarik pembeli lokal di sekitar toko fisik mereka. Langkah optimasi digital marketing manakah yang paling cepat memicu kedatangan pembeli? {
+= Mengoptimalkan Google Business Profile (Google Maps) lengkap dengan foto produk, jam buka, dan ulasan pelanggan lokal.
+~ Memasang iklan pencarian Google Ads di negara Amerika Serikat untuk menargetkan warga asing yang sedang berlibur.
+~ Mengirimkan email promosi berbahasa Inggris ke basis data pengusaha teknologi di kawasan industri luar pulau.
+~ Membuat akun media sosial baru setiap kali toko menambah stok varian baju bayi yang baru dibeli dari pemasok.
+~ Menghapus informasi alamat toko fisik dari internet agar calon pembeli merasa penasaran dan mencari sendiri lokasinya.
+}
+
+::Analisis DM - Soal 21:: Dalam mengevaluasi aspek Content pada audit UMKM, indikator manakah yang menunjukkan bahwa kualitas konten media sosial UMKM tersebut sudah baik? {
+= Konten menyajikan pesan yang jelas, visual yang rapi dan konsisten, serta memberikan nilai edukasi/hiburan bagi audiens.
+~ Gambar produk diunggah sebanyak seratus kali dalam sehari dengan menggunakan foto polos tanpa narasi teks keterangan.
+~ Konten hanya berisi teks tulisan promosi diskon besar-besaran tanpa pernah menampilkan foto atau video wujud produk asli.
+~ Seluruh foto produk diambil di ruangan yang gelap gulita tanpa penerangan cahaya lampu agar terlihat sangat misterius.
+~ Narasi tulisan di bawah foto produk menggunakan istilah hukum bisnis yang panjang dan sulit dipahami oleh masyarakat umum.
+}
+
+::Analisis DM - Soal 22:: Mengapa strategi Personal Branding pemilik bisnis sangat efektif diterapkan pada pemasaran digital UMKM kelas mikro? {
+= Membangun rasa percaya (trust) konsumen secara lebih cepat melalui pendekatan kemanusiaan dan keautentikan cerita pendiri.
+~ Membebaskan pemilik UMKM dari kewajiban membayar biaya pengiriman barang pesanan kepada perusahaan jasa kurir logistik.
+~ Memungkinkan pemilik UMKM untuk tidak perlu lagi membuat produk fisik karena konsumen membeli nama pemilik bisnis.
+~ Memaksa platform media sosial untuk memberikan centang biru verifikasi secara gratis kepada akun pribadi pemilik toko.
+~ Mengubah seluruh pengikut akun media sosial pribadi pemilik menjadi karyawan toko yang bekerja tanpa diberi gaji.
+}
+
+::Analisis DM - Soal 23:: Seorang mahasiswa melakukan audit pada UMKM usaha jasa laundry sepatu. Ia menemukan bahwa tempat laundry selalu sepi saat awal minggu. Rekomendasi taktis hemat biaya manakah yang paling pas? {
+= Membuat promo diskon khusus 'Awal Minggu Bersih' yang diumumkan lewat Instagram Stories dan Status WhatsApp Business.
+~ Menyewa gedung gelanggang olahraga untuk dijadikan tempat pencucian sepatu baru yang dilengkapi mesin pencuci canggih.
+~ Menghentikan operasional laundry sepatu pada awal minggu dan hanya membuka jasa pencucian pada hari Minggu sore hari.
+~ Menaikkan tarif harga cuci sepatu menjadi dua kali lipat pada hari Senin agar pendapatan toko meningkat secara cepat.
+~ Membagikan brosur cetak di tengah hutan kota pada malam hari saat tidak ada warga masyarakat yang sedang beraktivitas.
+}
+
+::Analisis DM - Soal 24:: Dalam tugas asesmen individu audit UMKM, indikator penilaian Kelayakan Rekomendasi Solusi berbobot 30%. Kriteria utama solusi yang bernilai tinggi adalah yang bagaimana? {
+= Solusi bersifat konkret, logis, hemat biaya (budget-friendly), serta mudah dieksekusi secara nyata oleh pemilik UMKM.
+~ Solusi membutuhkan modal investasi miliaran rupiah untuk membeli peralatan teknologi tercanggih dari luar negeri.
+~ Solusi menyarankan pemilik UMKM untuk mengganti seluruh produk usaha yang dijual dengan jenis usaha yang serba baru.
+~ Solusi dituliskan dalam bentuk puisi roman sepanjang lima puluh bait tanpa memberikan langkah teknis pelaksanaan promosi.
+~ Solusi menyarankan UMKM untuk merekrut seratus orang staf pemasar baru tanpa memperhitungkan kemampuan kas usaha.
+}
+
+::Analisis DM - Soal 25:: Apa keuntungan bagi UMKM kuliner lokal jika mereka berhasil mendorong pembeli puas untuk memberikan ulasan (review) bintang lima di Google Maps? {
+= Meningkatkan peringkat keterlihatan pada hasil pencarian lokal (Local SEO) serta membangun kredibilitas bagi pembeli baru.
+~ Pihak Google akan secara otomatis menransfer uang tunai hadiah setiap kali ada konsumen yang menuliskan ulasan di peta.
+~ Pemilik kedai kuliner tidak perlu lagi memasak makanan karena ulasan bintang lima akan mengenyangkan perut calon pembeli.
+~ Pemerintah daerah akan membebaskan toko dari seluruh tagihan biaya listrik dan air bersih bulanan secara permanen.
+~ Akun Google Maps toko akan berubah secara otomatis menjadi situs toko online yang dapat menjual barang di luar negeri.
+}
+
+::Analisis DM - Soal 26:: Studi Kasus Penjualan Langsung Live Selling: Sebuah bisnis fashion lokal sukses menjual puluhan ribu produk pakaian saat sesi Live Selling berlangsung. Fenomena ini menunjukkan pentingnya elemen strategi digital marketing apa? {
+= Penggabungan interaksi langsung (real-time), harga penawaran promosi khusus, serta dorongan konversi instan di platform.
+~ Pembatasan durasi promosi live hanya selama satu detik agar pembeli tidak sempat melihat wujud pakaian yang dijual.
+~ Larangan bagi penonton live untuk mengajukan pertanyaan mengenai ukuran dan bahan pakaian yang sedang dipagakan host.
+~ Penggunaan narator live yang berbicara menggunakan bahasa kuno abad pertengahan agar penonton merasa kebingungan.
+~ Mengaitkan transaksi penjualan live dengan sistem pembayaran kredit bank jangka panjang selama tiga puluh tahun berjalan.
+}
+
+::Analisis DM - Soal 27:: Sebuah UMKM toko kue kering ingin meningkatkan penjualan menjelang hari raya. Langkah pemanfaatan fitur WhatsApp Business manakah yang paling efektif? {
+= Membuat Katalog Produk lengkap di profil WhatsApp serta mengirimkan broadcast penawaran terbatas ke daftar pelanggan opt-in.
+~ Mengirimkan foto katalog kue kering secara acak ke sejuta nomor smartphone tidak dikenal yang dibeli dari internet.
+~ Mengubah foto profil WhatsApp Business menjadi gambar polos tanpa tulisan dan mematikan fitur centang biru penerimaan pesan.
+~ Membuat grup WhatsApp umum dan memasukkan ribuan nomor kontak orang asing tanpa meminta izin terlebih dahulu kepada mereka.
+~ Menhapus aplikasi WhatsApp Business dari smartphone dan beralih menggunakan pengiriman pesan singkat SMS berbayar.
+}
+
+::Analisis DM - Soal 28:: Studi Kasus Dampak Buzz Marketing: Mengapa taktik Buzz Marketing dari fenomena antrean panjang pada bisnis kuliner lokal dapat bekerja sangat efektif di era media sosial? {
+= Antrean panjang menjadi bukti sosial (Social Proof) yang memicu rasa penasaran audiens internet untuk ikut mencoba (FOMO).
+~ Antrean panjang membuat harga produk secara otomatis menjadi semakin murah setiap kali barisan antrean bertambah panjang.
+~ Pembeli yang mengantre dijamin akan mendapatkan hadiah mobil mewah dari pemilik kedai setelah mereka selesai makan.
+~ Pembeli mengantre karena diarahkan oleh petugas kepolisian setempat untuk mengisi waktu luang di sore hari kerja.
+~ Antrean panjang membuktikan bahwa staf kasir toko tidak bisa menghitung uang transaksi pembayaran dari pembeli produk.
+}
+
+::Analisis DM - Soal 29:: Dalam audit aspek Metrics pada saluran digital UMKM, indikator apa yang paling menunjukkan efisiensi dari penggunaan iklan berbayar skala kecil? {
+= Nilai Cost Per Lead (CPL) atau Cost Per Acquisition (CPA) yang rendah dibanding dengan rata-rata keuntungan per transaksi.
+~ Total jumlah pengikut di akun media sosial yang bertambah banyak dari akun-akun palsu yang tidak aktif di internet.
+~ Banyaknya gambar foto iklan yang disimpan di dalam memori smartphone milik staf pemasar tanpa pernah diunggah di medsos.
+~ Kecepatan staf pemasar dalam menghabiskan seluruh modal anggaran iklan dalam waktu lima menit pertama penayangan.
+~ Jumlah kata dalam deskripsi iklan yang ditulis menggunakan berbagai jenis bahasa asing dari seluruh penjuru dunia.
+}
+
+::Analisis DM - Soal 30:: Studi Kasus Emotional Branding: Sebuah kedai kopi lokal mengaitkan nama-nama produknya dengan emosi dan perasaan pengalaman pribadi konsumen. Taktik tersebut tergolong dalam strategi branding apa? {
+= Emotional Branding yang membangun ikatan perasaan serta keunikan daya tarik memori pada benak konsumen sasaran.
+~ Rational Technical Branding yang mengedepankan rincian rumus molekul kimiawi dari cairan kopi yang disajikan toko.
+~ Legal Compliance Branding yang mengutamakan pemasangan nomor izin edar dinas kesehatan pada bagian depan cangkir kopi.
+~ B2B Corporate Branding yang memfokuskan penjualan produk kopi khusus untuk perusahaan penyedia jasa pesawat terbang.
+~ Discount Sales Branding yang menjual kopi tanpa mengambil keuntungan sama sekali dari setiap transaksi pembayaran.
+}
+
+::Analisis DM - Soal 31:: Sebuah UMKM kedai kopi lokal ingin menerapkan strategi User Generated Content (UGC) di toko fisiknya. Ide fasilitas toko manakah yang paling mendukung strategi ini? {
+= Menyediakan sudut foto yang estetis (Instagrammable spot) disertai pencahayaan baik dan papan tagar merek yang jelas.
+~ Melarang pengunjung untuk membawa dan menyalakan kamera smartphone saat mereka sedang berada di dalam gerai kedai kopi.
+~ Mengenakan biaya denda yang tinggi kepada pengunjung yang mengunggah foto makanan atau minuman toko ke media sosial.
+~ Mematikan seluruh lampu penerangan di dalam ruangan kedai kopi agar foto yang diambil pengunjung terlihat gelap.
+~ Menempelkan stiker peringatan di setiap meja yang melarang pengunjung menyebutkan nama kedai kopi di media sosial.
+}
+
+::Analisis DM - Soal 32:: Studi Kasus Kendala Kolaborasi UMKM: Mengapa strategi Cross-category Collaboration antara merek kosmetik dan perusahaan makanan relatif jarang dilakukan oleh usaha skala mikro (UMKM awal)? {
+= Membutuhkan negosiasi hukum lisensi merek yang rumit, modal produksi besar, serta kesetaraan skala ekosistem bisnis.
+~ Karena pemerintah melarang keras usaha UMKM untuk bekerja sama dengan perusahaan makanan siap saji dari luar negeri.
+~ Karena produk kosmetik akan secara otomatis berubah rasa menjadi rasa makanan jika digabungkan dalam satu kemasan.
+~ Karena konsumen UMKM tidak suka membeli produk yang memiliki desain kemasan visual yang unik dan berbeda dari biasanya.
+~ Karena platform media sosial akan memblokir secara otomatis akun bisnis yang mengunggah foto produk hasil kolaborasi.
+}
+
+::Analisis DM - Soal 33:: Dalam audit UMKM, jika ditemukan bahwa tingkat kunjungan profil Instagram tinggi tetapi jumlah pesan DM yang masuk sangat rendah, masalah utama terletak pada elemen apa? {
+= Ketidakjelasan panduan tindakan (Call to Action) atau pesan penawaran di profil tidak cukup kuat memicu tindakan.
+~ Kuantitas daya listrik yang dialirkan oleh perusahaan PLN ke dalam gedung kantor pusat usaha UMKM tersebut.
+~ Kecepatan pergerakan jari tangan staf kasir toko saat mengetik alamat situs web perusahaan di dalam browser internet.
+~ Jenis merek mesin cuci pakaian yang digunakan oleh pemilik toko untuk membersihkan baju seragam kerja staf toko.
+~ Jumlah halaman kertas laporan keuangan yang dijilid oleh staf administrasi di dalam ruangan kantor operasional.
+}
+
+::Analisis DM - Soal 34:: Studi Kasus Visual Appetite Appeal: Taktik bisnis kuliner makanan penutup yang menampilkan proses pembuatan kue dengan saus melimpah di platform video pendek tergolong efektif karena memanfaatkan aspek apa? {
+= Visual Appetite Appeal (Daya tarik visual penggugah selera) yang memicu keinginan impulsif audiens untuk mencicipi.
+~ Rekomendasi teknis dari ahli gizi internasional mengenai kadar serat makanan yang terkandung di dalam kotak kue.
+~ Keputusan hukum dari mahkamah peradilan yang mewajibkan seluruh warga masyarakat untuk mengonsumsi kue manis.
+~ Harga promo kue yang dijual dengan harga satu rupiah per kotak untuk seluruh pembeli yang memesan lewat aplikasi.
+~ Garansi bahwa mengonsumsi kue dessert box dapat menyembuhkan berbagai jenis penyakit fisik dalam waktu singkat.
+}
+
+::Analisis DM - Soal 35:: Manakah dari berikut ini yang merupakan contoh usulan solusi promosi Budget-friendly bagi UMKM jasa perbaikan komputer lokal? {
+= Membuat konten video edukasi tips merawat laptop di TikTok/Reels serta mengoptimalkan Google Business Profile toko.
+~ Mengontrak artis sinetron terkenal untuk menjadi bintang iklan promosi jasa perbaikan laptop di stasiun TV nasional.
+~ Membeli seratus unit komputer baru untuk dibagikan secara gratis kepada orang-orang yang lewat di depan toko perbaikan.
+~ Memasang iklan reklame raksasa di pusat kota New York untuk menarik perhatian pemilik komputer di luar negeri.
+~ Menghentikan penggunaan media internet dan hanya mengandalkan teriakan suara dari staf toko di pinggir jalan raya.
+}
+
+::Analisis DM - Soal 36:: Studi Kasus Gamifikasi Aplikasi: Apa keuntungan utama dari penerapan fitur Gamifikasi seperti permainan menyiram tanaman virtual atau mengumpulkan poin harian pada aplikasi e-commerce? {
+= Meningkatkan keterlibatan harian pengguna (Daily Active Users) serta membangun kebiasaan membuka aplikasi secara rutin.
+~ Mengurangi beban biaya langganan server komputer yang harus dibayarkan oleh perusahaan pengelola e-commerce setiap bulan.
+~ Memaksa pengguna smartphone untuk menanam tanaman bunga asli di halaman rumah mereka sebelum bisa belanja produk online.
+~ Membebankan biaya tagihan air bersih bulanan milik kantor e-commerce kepada akun rekening pribadi milik para pembeli.
+~ Mengubah seluruh barang belanjaan fisik yang dipesan konsumen menjadi tanaman bunga hias virtual di dalam aplikasi.
+}
+
+::Analisis DM - Soal 37:: Seorang mahasiswa yang mengaudit toko baju lokal menemukan bahwa foto-foto produk di katalog online terlihat buram dan diambil dengan latar belakang yang berantakan. Rekomendasi perbaikan terbaik adalah apa? {
+= Membuat panduan foto produk (Photoshoot Guideline) sederhana menggunakan pencahayaan alami matahari dan latar polos.
+~ Menyewa studio foto profesional terbaik di luar negeri dengan membawa seluruh produk baju menggunakan pesawat terbang.
+~ Menghapus semua foto produk dari katalog online dan menggantinya dengan sketsa gambar tangan menggunakan pensil warna.
+~ Menaikkan harga baju lima kali lipat agar toko memiliki modal untuk membeli kamera fotografi termahal di dunia.
+~ Mengabaikan kualitas foto produk dan fokus mengirimkan pesan promosi spam ke ribuan grup WhatsApp setiap hari.
+}
+
+::Analisis DM - Soal 38:: Studi Kasus Model Bisnis D2C: Keunggulan utama dari taktik pemasaran Direct-to-Consumer (D2C) yang diterapkan oleh produsen barang lokal langsung ke pembeli online adalah apa? {
+= Memangkas rantai distribusi perantara sehingga perusahaan dapat menawarkan harga jual produk yang jauh lebih murah.
+~ Memaksa pembeli untuk datang langsung mengambil barang pesanan ke pabrik pembuatan barang di kota lokasi pabrik.
+~ Menghilangkan seluruh proses pemeriksaan kualitas barang (Quality Control) sehingga produk cepat dikirim ke pembeli.
+~ Membebaskan perusahaan dari kewajiban membayar biaya pengemasan barang kardus saat dikirimkan via kurir logistik.
+~ Menjamin bahwa seluruh transaksi pembayaran produk hanya dapat dilakukan dengan menggunakan sistem barter barang antik.
+}
+
+::Analisis DM - Soal 39:: Dalam analisis Framework 4C, mengapa penting bagi sebuah UMKM untuk memantau metrik Customer Retention Rate daripada hanya fokus pada New Customer Acquisition? {
+= Biaya untuk mempertahankan pelanggan lama jauh lebih murah dan mereka cenderung melakukan transaksi repeat order lebih besar.
+~ Pelanggan lama tidak perlu lagi dikirimkan barang belanjaannya karena mereka sudah percaya pada kualitas produk toko.
+~ Pelanggan baru selalu membawa masalah hukum bisnis yang rumit bagi perusahaan dibanding pelanggan yang sudah dikenal.
+~ Platform media sosial akan menutup akun bisnis yang terlalu banyak menambah pelanggan baru dalam waktu satu bulan.
+~ Pelanggan lama akan secara otomatis membayar tagihan sewa gedung kantor UMKM setiap kali mereka bertransaksi lagi.
+}
+
+::Analisis DM - Soal 40:: Studi Kasus Content-Driven Value Marketing: Sebuah bisnis perlengkapan kegiatan luar ruang memfokuskan konten media sosialnya pada edukasi pelestarian alam dan panduan keselamatan ekspedisi. Pendekatan tersebut tergolong dalam konsep pemasaran apa? {
+= Content-driven Value Marketing yang menyelaraskan nilai identitas merek dengan minat dasar dari komunitas audiensnya.
+~ Hard-selling Aggressive Marketing yang memborbardir audiens dengan ajakan membeli produk secara paksa di setiap postingan.
+~ Unrelated Random Marketing yang mempublikasikan konten cerita rekaan ilmiah tanpa ada hubungannya dengan produk outdoor.
+~ Deceptive False Marketing yang menyebarkan informasi palsu mengenai lokasi gunung-gunung tinggi di wilayah negara.
+~ Secret Hidden Marketing yang menyembunyikan wujud produk peralatan outdoor agar tidak diketahui oleh pengguna internet.
+}
+
+::Analisis DM - Soal 41:: Studi Kasus Fondasi Produk Unggul: Kasus sukses pertumbuhan organik sebuah toko kopi lokal membuktikan bahwa dalam digital marketing, aspek manakah yang menjadi fondasi paling dasar sebelum promosi viral terjadi? {
+= Kualitas produk yang unggul (Product Excellence) serta konsistensi rasa yang menciptakan kepuasan organik pelanggan.
+~ Besarnya nilai modal anggaran iklan berbayar yang dihabiskan pada platform Google Ads dan Facebook Ads di masa awal.
+~ Penggunaan jasa agensi periklanan internasional untuk merancang logo dan warna identitas merek kedai kopi toko.
+~ Jumlah staf pemasar digital yang bekerja selama dua puluh empat jam nonstop untuk mengunggah foto di media sosial.
+~ Kelengkapan surat izin perdagangan luar negeri yang dimiliki oleh pemilik kedai kopi sebelum membuka gerai fisik pertama.
+}
+
+::Analisis DM - Soal 42:: Seorang pemilik UMKM jasa perbaikan sepatu di kota Malang ingin meningkatkan ulasan positif di Google Maps. Langkah etis manakah yang paling pas diterapkan? {
+= Memberikan kartu ucapan terima kasih disertai kode QR ulasan Google Maps dan penawaran diskon kecil untuk layanan berikutnya.
+~ Membeli ribuan ulasan bintang lima palsu dari akun-akun robot di internet untuk memanipulasi penilaian di peta digital.
+~ Memaksa setiap pelanggan yang datang untuk memberikan ulasan bintang lima di tempat sebelum sepatu mereka dikembalikan.
+~ Menuliskan ulasan buruk pada akun Google Maps milik seluruh toko perbaikan sepatu kompetitor untuk menjatuhkan lawan.
+~ Menawarkan uang tunai sebesar satu juta rupiah kepada siapa saja yang mau memberikan ulasan bintang lima tanpa perlu cuci.
+}
+
+::Analisis DM - Soal 43:: Mengapa penggunaan Micro-influencer lokal sering kali lebih disarankan untuk UMKM daerah dibanding menyewa Macro-influencer nasional? {
+= Basis pengikut micro-influencer lokal lebih relevan secara geografis, memiliki kepercayaan tinggi, dan biayanya terjangkau.
+~ Micro-influencer lokal dijamin akan mempromosikan produk secara gratis tanpa perlu diberikan imbalan uang atau barang.
+~ Macro-influencer nasional dilarang oleh undang-undang untuk mempromosikan produk-produk yang diproduksi oleh usaha UMKM.
+~ Pengikut macro-influencer nasional tidak memiliki perangkat smartphone untuk melihat postingan promosi di media sosial.
+~ Micro-influencer lokal memiliki kemampuan untuk mengantarkan barang pesanan secara langsung ke rumah seluruh pembeli.
+}
+
+::Analisis DM - Soal 44:: Dalam kerangka kerja Audience, Channels, Content, Metrics, jika sebuah UMKM salah menentukan target Audience, apa dampak domino yang paling mungkin terjadi? {
+= Konten dan saluran promosi yang dipilih menjadi tidak relevan sehingga biaya pemasaran terbuang tanpa menghasilkan konversi.
+~ Produk barang yang ada di gudang penyimpanan akan secara otomatis mengalami kerusakan fisik dalam waktu satu hari.
+~ Platform media sosial akan secara otomatis menghapus seluruh foto dan video produk yang pernah diunggah oleh UMKM.
+~ Pemilik UMKM akan kehilangan hak milik atas merek usaha dan harus menyerahkan bisnisnya kepada perusahaan kompetitor.
+~ Seluruh staf pemasar akan secara otomatis lupa cara mengoperasikan perangkat komputer dan smartphone di kantor.
+}
+
+::Analisis DM - Soal 45:: Studi Kasus Organic Viral Marketing: Fenomena viralnya antrean pengunjung toko fisik yang secara sukarela direkam dan diunggah oleh para pembeli di platform video pendek tergolong dalam jenis dampak pemasaran apa? {
+= Organic Viral Marketing yang dipicu oleh pengalaman konsumen yang unik serta fenomena partisipasi media sosial.
+~ Paid Influencer Marketing yang dirancang oleh tim agensi periklanan dengan membayar seluruh pembeli yang mengantre.
+~ Offline Direct Sales Marketing yang mengandalkan penjualan dari rumah ke rumah menggunakan armada bus perusahaan.
+~ Corporate Public Relations Marketing yang dimuat pada kolom artikel utama surat kabar cetak nasional berbayar.
+~ Government Sponsored Marketing yang dibiayai penuh oleh dana anggaran pendapatan dan belanja daerah pemerintah kota.
+}
+
+::Analisis DM - Soal 46:: Apa risikopemasaran utama jika sebuah bisnis UMKM hanya mengandalkan promosi Flash Sale harga miring secara terus-menerus tanpa membangun Brand Equity? {
+= Merusak persepsi kualitas produk, menipiskan margin keuntungan, serta menciptakan pelanggan yang hanya berorientasi diskon.
+~ Memaksa platform e-commerce untuk menutup toko online UMKM secara permanen karena menjual barang dengan harga murah.
+~ Menyebabkan jumlah pengikut di akun media sosial bisnis berkurang hingga menjadi nol dalam waktu satu minggu berjalan.
+~ Meningkatkan biaya produksi barang di pabrik menjadi sepuluh kali lipat lebih mahal daripada biaya produksi normal.
+~ Memuat nama pemilik UMKM dalam daftar pencarian orang yang dilarang melakukan kegiatan perdagangan di pasar fisik.
+}
+
+::Analisis DM - Soal 47:: Dalam audit UMKM, indikator keberhasilan dari optimasi saluran WhatsApp Business bagi toko baju lokal adalah apa? {
+= Tingkat kecepatan respons pesan (Response Time), penggunaan fitur Balasan Otomatis, serta rasio konversi chat ke transaksi.
+~ Banyaknya jumlah grup WhatsApp keluarga yang dimiliki oleh pemilik toko baju di dalam smartphone pribadinya.
+~ Ukuran dimensi fisik memori penyimpanan internal smartphone yang digunakan oleh admin pengelola WhatsApp Business.
+~ Banyaknya stiker gambar animasi lucu yang dikirimkan oleh admin kepada pelanggan saat membalas pesan pertanyaan.
+~ Jumlah kontak nomor telepon orang asing yang disimpan di dalam memori smartphone tanpa pernah disapa lewat chat.
+}
+
+::Analisis DM - Soal 48:: Studi Kasus Creator-Led Business: Mengapa kampanye promosi Creator-Led Business pada kedai makanan yang didirikan oleh influencer populer sulit ditiru secara persis oleh UMKM yang tidak memiliki pendiri seorang konten kreator populer? {
+= Keterikatan audiens (Audience Trust & Reach) sudah terbangun bertahun-tahun pada personal branding kreator secara organik.
+~ Karena pemerintah melarang usaha UMKM biasa untuk menjual produk makanan yang menggunakan bahan dasar rempah bakar.
+~ Karena biaya pembuatan makanan membutuhkan peralatan dapur canggih yang hanya dimiliki oleh para konten kreator.
+~ Karena platform video pendek akan memblokir video promosi jika diunggah oleh akun bisnis yang tidak bercentang biru.
+~ Karena masyarakat tidak mau membeli produk makanan kecuali jika diolah langsung di depan kamera oleh pembuat video.
+}
+
+::Analisis DM - Soal 49:: Usulan solusi audit UMKM yang bernilai tinggi dalam asesmen harus memenuhi prinsip efisiensi biaya. Contoh rekomendasi yang TIDAK efisien biaya bagi UMKM adalah apa? {
+= Membayar agensi periklanan besar untuk memproduksi video iklan komersial skala TV dengan anggaran ratusan juta rupiah.
+~ Mengoptimalkan penggunaan fitur gratis Google Business Profile agar toko muncul di pencarian peta digital lokal.
+~ Membuat kalender konten mingguan untuk mengunggah video tutorial penggunaan produk secara konsisten di Instagram Reels.
+~ Mengajak pelanggan yang puas untuk memberikan ulasan jujur di media sosial dengan imbalan voucher potongan harga kecil.
+~ Merapikan tampilan tata letak foto katalog produk di feeds Instagram agar terlihat lebih estetis dan profesional.
+}
+
+::Analisis DM - Soal 50:: Tujuan akhir dari kegiatan analisis kasus bisnis dan audit digital marketing UMKM bagi peserta didik adalah agar mereka memiliki kemampuan apa? {
+= Berpikir kritis dalam mendiagnosis masalah pemasaran digital serta mampu merumuskan solusi strategis yang tepat guna.
+~ Menghafalkan seluruh nama pemilik dan jumlah karyawan dari sepuluh perusahaan merek besar nasional di Indonesia.
+~ Menyalahkan pemilik usaha UMKM kecil yang belum menguasai penggunaan teknologi digital dalam mengelola bisnisnya.
+~ Membuktikan bahwa strategi pemasaran digital merek besar selalu bisa diterapkan secara persis pada usaha skala mikro.
+~ Mengambil alih kepemilikan akun media sosial resmi milik toko-toko UMKM lokal yang ada di sekitar lingkungan rumah.
+}

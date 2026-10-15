@@ -1,0 +1,399 @@
+::M05_Q01:: Mengapa rentang waktu 3 detik pertama (golden seconds) sangat krusial dalam pembuatan video pendek di TikTok dan Instagram Reels? {
+  =Untuk menahan perhatian penonton agar tidak langsung melakukan scrolling dan meningkatkan retention rate video
+  ~Untuk memastikan penonton langsung membeli produk pada detik pertama video
+  ~Agar algoritma secara otomatis memberikan verifikasi centang biru pada akun
+  ~Untuk mengurangi penggunaan kuota internet penonton saat menonton video
+  ~Karena durasi maksimal video pendek hanyalah 3 detik
+}
+
+::M05_Q02:: Manakah dari pernyataan berikut yang paling tepat mendeskripsikan pilar konten "Educate" dalam strategi digital marketing? {
+  =Konten yang memberikan informasi bernilai, tips, tutorial, atau pengetahuan baru untuk menyelesaikan masalah audiens
+  ~Konten yang berisi ajakan diskon flash sale untuk memicu pembelian impulsif
+  ~Konten humor parodi dan meme yang dibuat hanya untuk mencari likes semata
+  ~Konten wawancara testimoni pelanggan yang memuji keunggulan produk secara eksplisit
+  ~Konten ucapan selamat hari raya agama yang diunggah secara rutin di media sosial
+}
+
+::M05_Q03:: Pada formula copywriting AIDA, huruf "A" pertama merupakan singkatan dari... {
+  =Attention (Menarik perhatian awal pembaca/penonton)
+  ~Action (Mengajak pembaca melakukan transaksi langsung)
+  ~Awareness (Memperkenalkan nama perusahaan secara mendalam)
+  ~Authority (Menunjukkan sertifikasi dan kredibilitas bisnis)
+  ~Algorithm (Mengoptimalkan kata kunci pencarian media sosial)
+}
+
+::M05_Q04:: Tahapan "Agitate" dalam formula copywriting PAS (Problem - Agitate - Solution) bertujuan untuk... {
+  =Memeperjelas dan memperhebat rasa tidak nyaman atau dampak buruk jika masalah audiens tidak segera diatasi
+  ~Langsung menawarkan harga promo termurah sebelum menjelaskan masalah produk
+  ~Meminta audiens membagikan postingan ke 5 grup chat media sosial
+  ~Meminta maaf atas kesalahan layanan pelanggan yang pernah terjadi sebelumnya
+  ~Menjelaskan sejarah berdirinya perusahaan secara terperinci dari awal
+}
+
+::M05_Q05:: Manakah dari berikut ini yang termasuk ke dalam kategori "Vanity Metrics" di media sosial yang kurang mencerminkan dampak bisnis langsung? {
+  =Jumlah akumulasi total Likes dan Followers tanpa ada interaksi atau konversi penjualan
+  ~Conversion Rate (Persentase penonton yang melakukan pembelian produk)
+  ~Click-Through Rate (CTR) link produk pada bio media sosial
+  ~Jumlah pesan pribadi (DM) tanya jawab prospek pelanggan potensial
+  ~Return on Ad Spend (ROAS) dari kampanye iklan berbayar
+}
+
+::M05_Q06:: Sebuah brand skincare memposting video tutorial cara mengatasi jerawat batu dalam 3 langkah mudah. Jenis pilar konten apakah ini? {
+  =Educate (Edukasi)
+  ~Entertain (Hiburan)
+  ~Inspire (Inspirasi)
+  ~Convert (Promosi/Penjualan)
+  ~Transaction (Transaksi)
+}
+
+::M05_Q07:: Apa tujuan utama dari pilar konten "Entertain" (Hiburan) dalam strategi pemasaran media sosial? {
+  =Memperluas jangkauan (reach), meningkatkan viralitas, dan membangun kedekatan emosional yang relabel dengan audiens
+  ~Memaksa audiens langsung mentransfer uang ke rekening bisnis
+  ~Memberikan penjelasan teknis mengenai komposisi bahan kimia produk
+  ~Mengisi kuota posting harian tanpa perlu memikirkan kualitas ide konten
+  ~Mengurangi biaya operasional produksi video pemasaran
+}
+
+::M05_Q08:: Dalam algoritma rekomendasi TikTok (For You Page / FYP), faktor manakah yang paling berbobot tinggi dalam menentukan sebuah video akan disebarkan ke lebih banyak audiens? {
+  =Completion Rate (Persentase penonton yang menonton video hingga selesai) dan Reel Shares
+  ~Jumlah total hashtag yang dituliskan di caption postingan (minimal 30 hashtag)
+  ~Banyaknya jumlah postingan yang diunggah akun dalam kurun waktu 1 jam
+  ~Jumlah pengikut (followers) akun pada saat video pertama kali diunggah
+  ~Ukuran kapasitas memori file video yang diunggah ke server
+}
+
+::M05_Q09:: Formula copywriting PAS sangat cocok digunakan untuk produk atau jasa yang... {
+  =Memiliki solusi nyata atas masalah atau keluhan spesifik yang sangat mengganggu calon pembeli
+  ~Hanya mengandalkan estetika desain visual tanpa memerlukan penjelasan fungsi
+  ~Sudah terkenal di seluruh dunia dan tidak membutuhkan promosi apapun
+  ~Dijual secara lelang rahasia tanpa adanya target pembeli yang jelas
+  ~Merupakan produk barang bekas (secondhand) yang tidak bergaransi
+}
+
+::M05_Q10:: Manakah struktur urutan yang paling tepat dari pilar konten "Convert" saat memanfaatkan formula AIDA? {
+  =Attention (Hook) -> Interest (Masalah) -> Desire (Solusi/Manfaat Produk) -> Action (Call to Action)
+  ~Action -> Desire -> Interest -> Attention
+  ~Interest -> Action -> Attention -> Desire
+  ~Desire -> Attention -> Action -> Interest
+  ~Attention -> Action -> Desire -> Interest
+}
+
+::M05_Q11:: Apa keunggulan utama dari strategi "Batch Production" dalam pembuatan konten media sosial? {
+  =Efisiensi waktu dan konsistensi, karena banyak konten dibuat sekaligus dalam satu sesi pengambilan gambar
+  ~Menjamin setiap konten yang dibuat pasti viral dan ditonton jutaan orang
+  ~Menghilangkan kebutuhan akan caption dan hashtag pada setiap postingan
+  ~Menurunkan kualitas visual konten agar terlihat lebih alami dan tidak dibuat-buat
+  ~Mengabaikan pilar konten dan langsung mengunggah konten secara acak
+}
+
+::M05_Q12:: Pernyataan manakah yang menggambarkan peran Call to Action (CTA) yang efektif di akhir caption media sosial? {
+  =Instruksi yang spesifik, tegas, dan mudah dilakukan seperti "Klik link di bio untuk klaim voucher diskon!"
+  ~Kalimat panjang yang membingungkan dengan 5 opsi tindakan berbeda sekaligus
+  ~Teks rahasia yang tidak dapat dibaca oleh audiens umum
+  ~Pertanyaan umum seperti "Apakah Anda senang hari ini?" tanpa relevansi produk
+  ~Pesan peringatan agar audiens tidak membagikan postingan tersebut
+}
+
+::M05_Q13:: Platform media sosial mana yang paling berfokus pada konten profesional, artikel mendalam, B2B networking, dan thought leadership? {
+  =LinkedIn
+  ~TikTok
+  ~Pinterest
+  ~Snapchat
+  ~Instagram Threads
+}
+
+::M05_Q14:: Sebuah bisnis kedai kopi mengunggah cerita perjuangan sang pemilik membangun usaha dari modal 500 ribu hingga memiliki 10 cabang. Konten ini masuk dalam pilar... {
+  =Inspire (Inspirasi)
+  ~Educate (Edukasi)
+  ~Convert (Promosi)
+  ~Transaction (Transaksi)
+  ~Technical (Teknis)
+}
+
+::M05_Q15:: Apa yang dimaksud dengan User Generated Content (UGC) dalam pemasaran media sosial? {
+  =Konten autentik yang dibuat dan diunggah secara sukarela oleh konsumen/pelanggan yang mengulas produk
+  ~Konten yang diproduksi oleh tim agensi periklanan profesional berbiaya tinggi
+  ~Konten yang dihasilkan secara otomatis oleh robot kecerdasan buatan tanpa campur tangan manusia
+  ~Konten promosi resmi yang dipublikasikan oleh pemilik perusahaan di website utama
+  ~Konten berisi syarat dan ketentuan lisensi hak cipta produk
+}
+
+::M05_Q16:: Mengapa penambahan subtitle (teks terjemahan/caption visual) sangat dianjurkan pada video Reels atau TikTok? {
+  =Banyak pengguna menonton video di media sosial tanpa mengaktifkan suara (mute mode)
+  ~Agar ukuran file video menjadi jauh lebih kecil saat diunggah
+  ~Untuk mengelabui algoritma agar tidak memblokir musik berhak cipta
+  ~Karena algoritma media sosial mengharuskan setiap video memuat minimal 500 kata
+  ~Agar penonton tidak perlu melihat wajah kreator konten di layar
+}
+
+::M05_Q17:: Indikator utama untuk mengukur Engagement Rate (ER) pada sebuah postingan media sosial adalah... {
+  =Persentase total interaksi (Likes, Comments, Shares, Saves) dibagi dengan Total Reach atau Impression
+  ~Total jumlah pengikut akun dikurangi jumlah akun yang di-follow
+  ~Kecepatan koneksi internet yang digunakan saat mengunggah postingan
+  ~Persentase keuntungan bersih yang diperoleh setelah memposting konten
+  ~Jumlah total hashtag yang terindeks di pencarian media sosial
+}
+
+::M05_Q18:: Apa perbedaan utama antara "Reach" dan "Impression" dalam analisis matriks media sosial? {
+  =Reach adalah jumlah akun unik yang melihat konten, sedangkan Impression adalah total berapa kali konten ditayangkan
+  ~Reach menghitung jumlah transaksi, sedangkan Impression menghitung jumlah klik link
+  ~Reach khusus untuk video Reels, sedangkan Impression khusus untuk foto Carousel
+  ~Reach berfokus pada pengguna desktop, sedangkan Impression berfokus pada pengguna HP
+  ~Tidak ada perbedaan, keduanya memiliki arti yang persis sama
+}
+
+::M05_Q19:: Dalam formula copywriting AIDA, tahapan "Desire" ditandai dengan... {
+  =Membangun hasrat calon pembeli dengan menonjolkan manfaat spesifik, bukti sosial, atau keunggulan unik produk
+  ~Mengucapkan salam pembuka dan memperkenalkan alamat domisili toko
+  ~Memberikan ancaman bahwa produk akan habis dalam waktu 3 detik
+  ~Menanyakan nomor rekening bank milik calon pembeli
+  ~Menuliskan daftar kata kunci pencarian terbanyak di Google
+}
+
+::M05_Q20:: Konten berupa meme lucu yang mengaitkan kebiasaan lupa mematikan kompor dengan produk pemadam api portabel termasuk kombinasi pilar... {
+  =Entertain & Educate
+  ~Convert & Transaction
+  ~Inspire & Authority
+  ~Corporate & Official
+  ~Informative & Institutional
+}
+
+::M05_Q21:: Apa fungsi utama dari "Content Calendar" (Kalender Perencanaan Konten)? {
+  =Menjadwalkan, mengatur pilar konten, memetakan aset visual, dan menjaga konsistensi publikasi secara terstruktur
+  ~Menghitung gaji bulanan tim pembuat konten secara otomatis
+  ~Menghapus postingan lama yang tidak mendapatkan banyak jumlah likes
+  ~Mengatur kecepatan koneksi wifi di kantor operasional digital marketing
+  ~Membuat halaman website e-commerce tanpa menggunakan pengodean HTML
+}
+
+::M05_Q22:: Manakah dari jenis kalimat berikut yang paling memenuhi kriteria "Visual Hook" yang kuat di awal video media sosial? {
+  ="Jangan beli produk ini sebelum kamu tahu 3 rahasia tersembunyi ini!"
+  ~"Selamat pagi teman-teman semua, perkenalkan nama saya Budi dari perusahaan X."
+  ~"Pada kesempatan kali ini saya akan membacakan slide presentasi bab 5."
+  ~"Halo guys, maaf ya kalau kualitas video ini agak jelek dan suaranya kurang jelas."
+  ~"Ini adalah video ujicoba kamera handphone baru saya."
+}
+
+::M05_Q23:: Apakah yang dimaksud dengan strategi "Micro-Influencer Marketing"? {
+  =Bekerjasama dengan kreator konten ber-followers 1.000 - 50.000 yang memiliki keterikatan (engagement) tinggi dan audiens ceruk (niche)
+  ~Menggunakan jasa selebriti papan atas dengan tarif ratusan juta per satu kali posting
+  ~Membuat akun palsu sebanyak-banyaknya untuk menyukai postingan sendiri
+  ~Meminta seluruh anggota keluarga untuk membagikan jualan di grup WhatsApp
+  ~Menggunakan iklan baliho besar di jalan protokol kota-kota besar
+}
+
+::M05_Q24:: Pada Instagram, fitur manakah yang paling efektif digunakan untuk membagikan konten promosi harian yang interaktif (polling, kuis, Q&A) dan hilang dalam 24 jam? {
+  =Instagram Stories
+  =Instagram Feed Post
+  ~Instagram Guide
+  ~Instagram IGTV (Legacy)
+  ~Instagram Broadcast Channel
+}
+
+::M05_Q25:: Kalimat: "Kulit kusam bikin kamu kurang percaya diri saat presentasi di depan bos?" dalam copywriting PAS termasuk ke dalam bagian... {
+  =Problem (Mengangkat masalah/nyeri calon pembeli)
+  ~Solution (Menawarkan jawaban produk)
+  ~Agitate (Memperparah kondisi masalah)
+  ~Action (Mengajak melakukan transaksi)
+  ~Authority (Menunjukkan sertifikasi medis)
+}
+
+::M05_Q26:: Apa dampak buruk jika sebuah akun bisnis media sosial hanya mengunggah konten pilar "Convert" (Hard Selling) secara terus menerus setiap hari? {
+  =Audiens merasa jenuh dan risih, sehingga tingkat unfollow meningkat dan engagement rate menurun tajam
+  ~Algoritma akan secara otomatis memberikan pendanaan modal usaha gratis
+  ~Jumlah pengikut akan melonjak tinggi secara drastis dalam kurun waktu 24 jam
+  ~Akun akan langsung mendapatkan sertifikat verifikasi dari pemilik platform
+  ~Biaya pembuatan konten akan menjadi nol rupiah
+}
+
+::M05_Q27:: Dalam pembuatan konten video Reels/TikTok, teknik "Pattern Interrupt" digunakan untuk... {
+  =Mengubah transisi visual/suara secara tiba-tiba agar perhatian penonton tidak bosan dan tetap terfokus
+  ~Mematikan jaringan internet saat proses editing video berlangsung
+  ~Menghapus suara latar belakang video dan menggantinya dengan sunyi total
+  ~Mengganti judul video menjadi bahasa asing tanpa terjemahan
+  ~Mengunggah video yang sama berulang kali dalam kurun waktu 5 menit
+}
+
+::M05_Q28:: Manakah dari berikut ini yang merupakan contoh penerapan "Social Proof" (Bukti Sosial) pada draf copywriting? {
+  ="Sudah lebih dari 15.000 wanita di Indonesia membuktikan kulit lebih cerah dalam 14 hari!"
+  ~"Produk ini dibuat di pabrik yang luasnya 2 hektar di kawasan industri."
+  ~"Saya adalah pemilik usaha ini yang lulusan perguruan tinggi ternama."
+  ~"Diskon ini berlaku khusus untuk pembeli yang lahir di bulan Agustus."
+  ~"Kami tidak menerima pengembalian barang jika kemasan sudah dibuka."
+}
+
+::M05_Q29:: Apa keunggulan format postingan Carousel (multi-slide foto/grafis) di Instagram dibandingkan postingan single photo? {
+  =Memiliki dwell time (durasi melihat) lebih lama dan memberikan kesempatan swipe kedua jika pengguna belum menyukai slide pertama
+  ~Pasti secara otomatis masuk ke halaman utama surat kabar nasional
+  ~Tidak memerlukan teks caption sama sekali karena gambar sudah lengkap
+  ~Bisa diunggah tanpa membutuhkan koneksi internet
+  ~Dapat menyimpan file dokumen spreadsheet di dalamnya
+}
+
+::M05_Q30:: Mengapa penting untuk membatasi penggunaan Hashtag (#) yang relevan dan spesifik (niche hashtag) dibandingkan hashtag yang terlalu umum (seperti #viral atau #fyp)? {
+  =Hashtag spesifik membantu algoritma mengkategorikan konten ke target audiens yang benar-benar tertarik
+  ~Hashtag umum akan membuat akun bisnis langsung diblokir secara permanen
+  ~Hashtag spesifik menjamin produk pasti laku terjual dalam 1 jam
+  ~Hashtag umum membutuhkan biaya bayar pajak tambahan ke platform
+  ~Tidak ada perbedaan antara hashtag spesifik dan hashtag umum
+}
+
+::M05_Q31:: Kalimat: "Jangan sampai kehabisan! Stok terbatas tersisa 5 paket terakhir khusus hari ini!" memanfaatkan prinsip psikologi pemasaran yaitu... {
+  =Scarcity & Urgency (Kelangkaan dan Keterbatasan Waktu)
+  ~Reciprocity (Timbal balik apresiasi)
+  ~Authority (Otoritas keahlian)
+  ~Liking (Rasa suka emosional)
+  ~Consistency (Konsistensi perilaku)
+}
+
+::M05_Q32:: Apa fungsi dari fitur "Save" (Simpan) pada postingan Instagram terhadap penilaian algoritma? {
+  =Menandakan konten memiliki nilai guna tinggi (high value) sehingga algoritma akan memperluas jangkauan rekomendasi konten
+  ~Menghapus postingan tersebut dari galeri HP pemilik akun
+  ~Mengirimkan invoice tagihan otomatis ke pengguna yang menyimpan
+  ~Membuat postingan tidak bisa lagi dilihat oleh pengguna lain
+  ~Mengubah format foto menjadi dokumen PDF secara otomatis
+}
+
+::M05_Q33:: Dalam workflow pembuatan konten digital, aktivitas manakah yang masuk dalam tahap "Pre-Production" (Pra-Produksi)? {
+  =Riset ide, penentuan pilar konten, pembuatan script/storyboard, dan penyiapan properti
+  ~Pengambilan gambar (shooting) dan perekaman suara vokalis
+  ~Editing warna video (color grading) dan penambahan efek suara
+  ~Menganalisis matriks engagement rate setelah video diunggah 3 hari
+  ~Balas membalas komentar penonton di kolom diskusi media sosial
+}
+
+::M05_Q34:: Apa yang dimaksud dengan "Content Curation" dalam media sosial? {
+  =Mengumpulkan, menyaring, merangkum, dan membagikan ulang informasi bernilai dari sumber terpercaya dengan sudut pandang brand
+  ~Mencuri ide karya orang lain tanpa mencantumkan sumber asli secara ilegal
+  ~Menghapus semua komentar kritis pembeli di kolom komentar postingan
+  ~Menjual data kontak pengikut media sosial ke pihak ketiga
+  ~Membuat foto produk palsu yang berbeda jauh dengan bentuk aslinya
+}
+
+::M05_Q35:: Sebuah brand pakaian pria membagikan infografis "Panduan Memilih Warna Kemeja Sesuai Warna Kulit". Konten ini paling tepat dipublikasikan pada platform... {
+  =Instagram Carousel & Pinterest
+  ~TikTok Audio Only
+  ~WhatsApp Call Group
+  ~Google Search Console
+  ~Spotify Podcast Banner
+}
+
+::M05_Q36:: Istilah "Click-Through Rate" (CTR) dalam kampanye iklan atau link bio media sosial mengukur... {
+  =Persentase audiens yang mengklik tautan setelah melihat tampilan promosi
+  ~Jumlah uang yang harus dibayarkan setiap kali foto di-like pembaca
+  ~Jumlah total komentar spam yang berhasil dihindari oleh filter sistem
+  ~Waktu yang dibutuhkan penonton untuk mengunduh aplikasi seluler
+  ~Persentase pengembalian barang cacat dari pembeli e-commerce
+}
+
+::M05_Q37:: Kalimat mana di bawah ini yang menggunakan teknik "AIDA - Interest" dengan menyajikan fakta yang mengejutkan? {
+  ="Tahukah kamu bahwa 80% kerusakan kulit dini disebabkan oleh paparan sinar UV tanpa sunscreen?"
+  ~"Beli sekarang juga diskon 50% hanya di Tokopedia!"
+  ~"Klik link di bio sebelum promo berakhir malam ini!"
+  ~"Kami menjual moisturizer kemasan botol isi 50ml."
+  ~"Hubungi nomor WhatsApp di bawah ini untuk pemesanan."
+}
+
+::M05_Q38:: Apa alasan utama mengapa akun bisnis perlu melakukan "Auditing Content" secara berkala tiap bulan? {
+  =Untuk mengetahui jenis konten dan format mana yang paling efektif mendatangkan interaksi serta konversi penjualan
+  ~Agar memori penyimpanan server platform media sosial tidak penuh
+  ~Untuk mengganti nama akun media sosial menjadi nama brand lain
+  ~Karena diwajibkan oleh undang-undang kepolisian lalu lintas digital
+  ~Agar tim konten tidak perlu bekerja lagi di bulan berikutnya
+}
+
+::M05_Q39:: Dalam penulisan caption media sosial, penggunaan paragraf pendek dan jeda baris (white space) bertujuan untuk... {
+  =Meningkatkan readability (kemudahan dibaca) agar audiens tidak lelah membaca teks yang terlalu rapat
+  ~Membuat jumlah kata dalam caption bertambah menjadi dua kali lipat
+  ~Mengelabui sistem algoritma pencarian kata kunci media sosial
+  ~Menyembunyikan kesalahan ejaan tata bahasa Indonesia yang salah
+  ~Memastikan caption tidak dapat disalin (copy-paste) oleh akun lain
+}
+
+::M05_Q40:: Manakah dari berikut ini yang merupakan keuntungan dari memanfaatkan fitur "Instagram Broadcast Channel"? {
+  =Dapat mengirimkan pesan dan pembaruan eksklusif secara langsung ke pengikut paling setia tanpa terhalang algoritma feed
+  ~Bisa memaksa semua pengikut untuk menyukai postingan terbaru secara otomatis
+  ~Menghilangkan biaya produksi pembuatan konten foto dan video
+  ~Membuat akun bisnis terhubung langsung dengan rekening bank pengikut
+  ~Dapat digunakan untuk melakukan panggilan video ke 1 juta orang sekaligus
+}
+
+::M05_Q41:: Strategi "Cross-Posting" konten dari TikTok ke Instagram Reels tanpa menghilangkan watermark logo TikTok dapat berdampak... {
+  =Penurunan jangkauan (reach) oleh algoritma Instagram Reels karena mendeteksi watermark platform kompetitor
+  ~Peningkatan jangkauan otomatis sebesar 500% oleh sistem Instagram
+  ~Pemberian bonus uang tunai secara langsung dari pihak Meta
+  ~Penerbitan akun ke koran cetak nasional secara cuma-cuma
+  ~Tidak ada dampak apapun terhadap performa penyebaran konten
+}
+
+::M05_Q42:: Apakah yang dimaksud dengan "Evergreen Content"? {
+  =Konten yang nilainya tetap relevan, dicari, dan bermanfaat bagi audiens dalam jangka waktu lama tanpa terpengaruh tren sesaat
+  ~Konten yang membahas berita duka cita dan bencana alam terkini
+  ~Konten yang khusus dipublikasikan pada hari perayaan Hari Lingkungan Hidup
+  ~Konten berdurasi 1 detik yang berwarna hijau di seluruh layar
+  ~Konten iklan produk yang sudah kadaluarsa dan tidak dijual lagi
+}
+
+::M05_Q43:: Sebuah toko sepatu lokal membuat video parodi perbandingan "Sepatu Mahal VS Sepatu Lokal". Jenis pilar konten ini memadukan... {
+  =Entertain & Convert
+  ~Educate & Administrative
+  ~Inspire & Institutional
+  ~Corporate & Financial
+  ~Security & Privacy
+}
+
+::M05_Q44:: Apa peran utama dari "Call to Value" dibandingkan sekadar "Call to Action" biasa? {
+  =Menekankan manfaat nyata yang akan didapat konsumen ketika melakukan tindakan (misal: "Dapatkan e-book gratis kelola keuanganmu sekarang!")
+  ~Menyebutkan nominal harga modal pembuatan produk secara transparan
+  ~Meminta konsumen memberikan penilaian rating 5 bintang tanpa syarat
+  ~Memaksa konsumen membagikan password akun pribadi mereka
+  ~Menghapus tautan pembelian dari halaman bio media sosial
+}
+
+::M05_Q45:: Manakah pilar konten yang paling efektif untuk membina rasa percaya (trust) calon pelanggan yang masih ragu terhadap kualitas brand baru? {
+  =Inspire (Testimoni UGC & Behind The Scenes proses produksi yang transparan)
+  ~Entertain (Meme kocak tanpa menyentuh topik produk)
+  ~Hard Selling Convert (Bombardir iklan diskon 90% berturut-turut)
+  ~Administrative (Postingan foto dokumen surat ijin usaha)
+  ~Technical (Kodingan dasar pembuatan website toko)
+}
+
+::M05_Q46:: Pada analisis matriks media sosial, apa arti dari "Conversion Rate"? {
+  =Persentase pengunjung atau audiens yang melakukan tindakan bisnis yang diinginkan (seperti membeli produk atau mendaftar form)
+  ~Persentase orang yang mematikan video sebelum detik ke-3
+  ~Jumlah total akun yang memblokir akun media sosial bisnis
+  ~Kecepatan mengunduh video Reels dari aplikasi pihak ketiga
+  ~Persentase perubahan nama pengikut di media sosial
+}
+
+::M05_Q47:: Dalam membuat perencanaan kalender konten, berapa proporsi ideal yang disarankan antara konten edukasi/hiburan (Value) dengan konten jualan langsung (Promote)? {
+  =80% Konten Value (Educate, Entertain, Inspire) : 20% Konten Promote (Convert)
+  ~10% Konten Value : 90% Konten Promote
+  ~100% Konten Promote tanpa konten Value
+  ~50% Konten Jualan : 50% Konten Kosong
+  ~0% Konten Value : 100% Konten Berita Politik
+}
+
+::M05_Q48:: Apa keunggulan dari memanfaatkan "Trending Audio" pada pembuatan konten Instagram Reels atau TikTok? {
+  =Algoritma cenderung mendorong video yang menggunakan audio populer ke halaman eksplorasi penonton yang lebih luas
+  ~Membuat harga produk otomatis menjadi lebih murah di pasaran
+  ~Menghilangkan kebutuhan akan kualitas rekaman pencahayaan video
+  ~Menjamin tidak akan pernah ada komentar negatif dari penonton
+  ~Membuat durasi video secara otomatis menjadi tepat 1 jam
+}
+
+::M05_Q49:: Mengapa aspek "Tone of Voice" (Gaya Bahasa Brand) sangat penting dirumuskan sebelum membuat konten media sosial? {
+  =Agar komunikasi brand memiliki kepribadian konsisten yang mudah dikenali dan sesuai dengan karakter target audiens
+  ~Untuk memastikan semua kalimat menggunakan bahasa asing yang rumit
+  ~Agar tim penulis caption tidak perlu lagi menggunakan tanda baca
+  ~Karena diwajibkan oleh pihak pemilik platform media sosial
+  ~Guna menaikkan harga jual produk menjadi sepuluh kali lipat
+}
+
+::M05_Q50:: Langkah awal manakah yang paling tepat dilakukan jika sebuah konten media sosial yang diunggah mengalami penurunan interaksi (low engagement)? {
+  =Melakukan evaluasi matriks, menganalisis hook 3 detik & relevansi pesan, serta mencoba A/B testing format konten baru
+  ~Langsung menghapus akun bisnis dan membuat akun baru dari nol
+  ~Marah-marah dan menyalahkan audiens di kolom komentar postingan
+  ~Membeli ribuan followers pasif dari penyedia jasa ilegal
+  ~Berhenti membuat konten media sosial selamanya
+}

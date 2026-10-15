@@ -1,0 +1,399 @@
+::Etika DM - Soal 01:: Seorang pengguna media sosial emosi dan mengetikkan kata-kata kasar di kolom komentar toko online karena pesanan barangnya terlambat sehari. Pelanggaran prinsip Netiket Virginia Shea manakah yang paling utama terjadi? {
+= Prinsip 1 (Ingat Manusia) dan Prinsip 2 (Terapkan Standar Perilaku Kehidupan Nyata di Internet).
+~ Prinsip 6 (Berbagi Pengetahuan) dan Prinsip 9 (Jangan Menyelewengkan Kekuasaan Organisasi Bisnis).
+~ Prinsip 4 (Hargai Waktu dan Bandwidth) dan Prinsip 8 (Hormati Privasi Informasi Orang Lain).
+~ Prinsip 7 (Jaga Perdebatan Tetap Terkontrol) dan Prinsip 10 (Jadilah Orang Yang Pemaaf).
+~ Prinsip 3 (Bisa Menempatkan Diri) dan Prinsip 5 (Tampil Baik Melalui Kualitas Tulisan Teks).
+}
+
+::Etika DM - Soal 02:: Sebuah akun bisnis fashion membagikan foto pribadi seorang pembeli tanpa izin tertulis untuk dijadikan materi iklan promosi. Tindakan ini melanggar etika promosi bisnis dalam aspek apa? {
+= Menghargai Privasi Pengguna dan Perlindungan Data Pribadi Konsumen.
+~ Kualitas Konten yang Menarik dan Berharga Bagi Para Pembaca.
+~ Kecepatan Respons terhadap Komentar dan Pesan dari Pelanggan.
+~ Pembatasan Frekuensi Posting Konten Promosi agar Tidak Spamming.
+~ Mematuhi Aturan Hak Cipta dan Penggunaan Aset Visual Gambar Asli.
+}
+
+::Etika DM - Soal 03:: Seorang pelanggan marah di Twitter karena paket produk kosmetik dari toko online sampai dalam keadaan pecah. Manakah langkah pertama yang paling etis dan profesional dilakukan oleh Admin CS? {
+= Membalas tweet dengan empati, meminta maaf atas ketidaknyamanan, lalu mengarahkan ke DM untuk penggantian barang.
+~ Menghapus tweet komplain tersebut secara cepat dan memblokir akun Twitter pelanggan agar tidak dibaca oleh publik.
+~ Membalas tweet dengan nada defensif bahwa kerusakan paket merupakan kesalahan seratus persen dari pihak kurir logistik.
+~ Menyuruh pelanggan untuk menerima nasib karena barang yang sudah dibeli tidak dapat dikembalikan dengan alasan apa pun.
+~ Mengabaikan tweet komplain pelanggan tersebut sampai ada pembeli lain yang ikut memberikan komentar negatif di medsos.
+}
+
+::Etika DM - Soal 04:: Dalam panduan etika promosi via WhatsApp Business API, mengapa perusahaan wajib mendapatkan persetujuan Opt-In tertulis dari pelanggan sebelum mengirimkan pesan promosi? {
+= Menjamin bahwa pesan promosi dikirimkan atas izin penerima sehingga tidak mengganggu privasi dan tidak dianggap spam.
+~ Memastikan bahwa nomor smartphone milik pelanggan tidak akan pernah mengalami pemblokiran dari pihak penyedia operator.
+~ Membebaskan perusahaan dari kewajiban membayar biaya pulsa atau kuota internet saat mengirimkan pesan katalog produk.
+~ Memberikan wewenang penuh kepada perusahaan untuk mengakses seluruh foto dan dokumen pribadi yang ada di HP pelanggan.
+~ Memaksa pelanggan untuk membeli semua produk yang ada di dalam pesan promosi dalam waktu maksimal dua puluh empat jam.
+}
+
+::Etika DM - Soal 05:: Komunitas internasional manakah yang merancang standar dasar tata krama dan arsitektur pengoperasian internet yang menjadi rujukan utama definisi Netiket? {
+= The Internet Engineering Task Force (IETF)
+~ The World Trade Organization (WTO)
+~ The International Red Cross (ICRC)
+~ The World Health Organization (WHO)
+~ The Federal Bureau of Investigation (FBI)
+}
+
+::Etika DM - Soal 06:: Sebuah merek bisnis kecantikan menggunakan judul video clickbait yang menyesatkan seperti 'Produk Ini Bisa Mengubah Wajah dalam 1 Detik!'. Pelanggaran etika promosi apakah yang dilakukan merek tersebut? {
+= Kebenaran & Transparansi serta Menghindari Sensasi/Provokasi Murahan.
+~ Menghormati Hak Cipta dan Atribusi Karya Visual Milik Orang Lain.
+~ Pengisian Formulir Pengumpulan Data Prospek Pelanggan yang Sah.
+~ Pengaturan Waktu Pengiriman Pesan Promosi pada Jam Kerja Sopan.
+~ Pengalihan Diskusi Komplain Pelanggan ke Saluran Komunikasi Privat.
+}
+
+::Etika DM - Soal 07:: Menurut Virginia Shea, apa yang dimaksud dengan Prinsip Netiket 'Tampil Baik di Internet' (Make Yourself Look Good Online)? {
+= Menulis dengan ejaan rapi (no typo), menyampaikan pendapat secara jelas, serta berbahasa ramah dan sopan.
+~ Mengedit foto profil diri menggunakan filter kecantikan berlebihan agar terlihat seperti selebritas papan atas.
+~ Memamerkan kekayaan dan koleksi barang-barang mewah di media sosial untuk menunjukkan status sosial yang tinggi.
+~ Menggunakan kata-kata asing yang rumit di setiap kalimat agar terlihat sebagai orang yang sangat berpendidikan tinggi.
+~ Menolak untuk berkomunikasi dengan pengguna internet yang tidak memiliki jumlah pengikut minimal sepuluh ribu orang.
+}
+
+::Etika DM - Soal 08:: Mengapa penggunaan balasan otomatis yang sangat kaku (template robot) kurang etis digunakan saat merespons komplain pelanggan yang sedang marah di media sosial? {
+= Konsumen merasa tidak dihargai (less respect) dan menganggap bisnis tidak berempati terhadap masalah mereka.
+~ Pemilik platform media sosial akan mengenakan denda uang tunai kepada akun bisnis yang menggunakan pesan otomatis.
+~ Pesan otomatis akan secara otomatis mengubah seluruh kata dalam postingan pembeli menjadi huruf kapital besar.
+~ Komputer toko online akan mengalami kerusakan sistem operasi jika mengirimkan pesan otomatis lebih dari lima kali.
+~ Pembeli akan secara otomatis kehilangan hak hukum untuk menuntut ganti rugi atas produk yang rusak saat pengiriman.
+}
+
+::Etika DM - Soal 09:: Sebuah akun toko online mengunggah konten promosi sebanyak 50 kali dalam satu jam di Instagram hingga memenuhi linimasa pengikutnya. Tindakan ini melanggar etika promosi bisnis dalam hal apa? {
+= Anti-Spamming (Menjaga frekuensi postingan agar tidak mengganggu audiens).
+~ Menghormati Privasi dan Kebijakan Pengelolaan Data Pribadi Pengguna.
+~ Transparansi Informasi Afiliasi dan Penjelasan Ulasan Produk Asli.
+~ Menyediakan Opsi Kontak Helpdesk Bantuan Pelanggan yang Mudah Dihubungi.
+~ Penggunaan Bahasa Indonesia Baku Sesuai dengan Kaidah Tata Hukum Negara.
+}
+
+::Etika DM - Soal 10:: Apa konsekuensi utama jika seorang Customer Service membalas komplain pelanggan yang bernada marah di media sosial dengan kata-kata defensif dan emosional? {
+= Memicu eskalasi krisis PR (Public Relations), merusak reputasi merek, serta memicu reaksi negatif publik luas.
+~ Pelanggan yang marah akan secara otomatis memaafkan kesalahan toko dan langsung membeli produk lain dalam jumlah banyak.
+~ Pihak kepolisian akan langsung menutup bisnis toko online pesaing karena dianggap memicu persaingan tidak sehat.
+~ Jumlah pengikut akun media sosial bisnis akan meningkat seratus kali lipat dari pengguna yang menyukai perdebatan.
+~ Pengelola platform media sosial akan memberikan penghargaan akun bisnis terbaik kepada toko online tersebut.
+}
+
+::Etika DM - Soal 11:: Manakah dari berikut ini yang merupakan contoh penerapan Prinsip Netiket 'Hargai Waktu dan Bandwidth Orang Lain'? {
+= Mengirimkan pesan atau email yang efisien, ringkas, langsung pada inti masalah, serta tidak mengirimkan berkas berukuran raksasa tanpa izin.
+~ Membalas pesan chat dari pelanggan pada jam tiga pagi agar terlihat bahwa toko online bekerja selama dua puluh empat jam nonstop.
+~ Mengirimkan foto katalog produk berukuran lima Gigabyte ke grup WhatsApp umum setiap sepuluh menit sekali sepanjang hari.
+~ Mengabaikan pesan pertanyaan dari pembeli selama satu bulan penuh untuk melatih kesabaran pembeli dalam menunggu balasan.
+~ Memaksa penerima email untuk membaca seluruh dokumen profil perusahaan sepanjang seratus halaman sebelum membalas pesan.
+}
+
+::Etika DM - Soal 12:: Dalam penanganan komplain digital, mengapa penting bagi bisnis untuk memindahkan diskusi keluhan dari kolom komentar publik ke saluran komunikasi privat (DM / WhatsApp)? {
+= Menjaga keleluasaan diskusi, melindungi data pribadi sensitif pelanggan, serta mencegah krisis PR di ruang publik.
+~ Memungkinkan admin CS untuk mencaci maki pelanggan tanpa ada orang lain yang mengetahui perbuatan kasar tersebut.
+~ Memaksa pelanggan untuk membayar biaya langganan tambahan jika ingin mendapatkan solusi atas masalah produk mereka.
+~ Menghapus secara otomatis jejak pesanan barang dari basis data toko sehingga perusahaan tidak perlu mengganti rugi.
+~ Membuktikan kepada publik bahwa toko online tidak pernah menerima satu pun komplain dari konsumen yang membeli barang.
+}
+
+::Etika DM - Soal 13:: Sebuah bisnis kosmetik mengambil foto hasil karya makeup milik MUA lain lalu mengunggahnya di akun sendiri tanpa mencantumkan sumber atribusi dan mengklaim sebagai karyanya. Tindakan ini melanggar etika apa? {
+= Menghormati Hak Cipta & Karya Orang Lain (Plagiarisme Digital).
+~ Sistem Opt-In dan Persetujuan Tertulis Pengiriman Pesan Promosi.
+~ Pengaturan Frekuensi Pengiriman Pesan Katalog Produk Bulanan.
+~ Pengalihan Diskusi Komplain Pelanggan ke Saluran Komunikasi Privat.
+~ Pembatasan Waktu Pengiriman Pesan Promosi pada Jam Kerja Sopan.
+}
+
+::Etika DM - Soal 14:: Apa yang dimaksud dengan prinsip Think Before You Post (Tandai Sebelum Berbagi) dalam literasi digital? {
+= Evaluasi diri sebelum mengunggah konten untuk memastikan informasi bermanfaat, akurat, dan tidak menyakiti pihak lain.
+~ Keharusan untuk merenung selama lima jam di depan layar komputer sebelum diperbolehkan menekan tombol kirim pesan chat.
+~ Kewajiban untuk meminta tanda tangan persetujuan dari pejabat lurah setempat sebelum mengunggah foto produk di Instagram.
+~ Memastikan bahwa foto yang akan diunggah sudah diubah warnanya menjadi warna hijau kesukaan pemilik toko online bisnis.
+~ Memikirkan cara paling cepat untuk meretas akun media sosial milik pesaing sebelum membuat unggahan promosi baru.
+}
+
+::Etika DM - Soal 15:: Dalam etika promosi WhatsApp Business API, mengirimkan pesan katalog promosi pada jam 11 malam tergolong tidak etis karena melanggar panduan apa? {
+= Waktu Pengiriman yang Tepat (Mengganggu waktu istirahat pelanggan di luar jam kerja sopan).
+~ Sistem Opt-In dan Persetujuan Tertulis Penerimaan Pesan Promosi Bisnis.
+~ Penyediaan Opsi Kontak Bantuan Helpdesk yang Mudah Dihubungi Pelanggan.
+~ Kualitas dan Nilai Isi Pesan yang Mengedepankan Informasi Produk Edukatif.
+~ Menghormati Hak Cipta dan Aset Visual Gambar yang Digunakan dalam Pesan.
+}
+
+::Etika DM - Soal 16:: Seorang admin media sosial menggunakan akun bisnis bercentang biru untuk menyerang dan mempermalukan seorang pengguna kecil di kolom komentar. Tindakan ini melanggar Prinsip Netiket Virginia Shea nomor berapa? {
+= Prinsip 9 (Jangan Menyelewengkan Kekuasaan / Abuse of Power).
+~ Prinsip 6 (Berbagi Pengetahuan dan Informasi Bermanfaat).
+~ Prinsip 4 (Hargai Waktu dan Bandwidth Pengguna Internet Lain).
+~ Prinsip 10 (Jadilah Orang Yang Pemaaf terhadap Kesalahan Minor).
+~ Prinsip 5 (Tampil Baik Melalui Kualitas Tulisan Teks di Internet).
+}
+
+::Etika DM - Soal 17:: Langkah ke-7 dalam strategi penanganan komplain etis adalah Follow Up (Tindak Lanjut). Mengapa langkah ini sangat penting dilakukan setelah solusi diberikan kepada konsumen? {
+= Memastikan masalah benar-benar tuntas, konsumen puas dengan solusi, serta mengevaluasi internal agar masalah tak terulang.
+~ Meminta konsumen untuk membayar biaya tambahan atas jasa layanan respons cepat yang telah diberikan oleh admin CS.
+~ Memaksa konsumen untuk menghapus seluruh akun media sosial pribadinya sebagai syarat penyelesaian komplain produk.
+~ Membuktikan bahwa konsumen yang mengajukan komplain sebenarnya bersalah dan harus meminta maaf kepada toko online.
+~ Menagih kembali barang pengganti yang telah dikirimkan agar toko tidak mengalami kerugian finansial akibat komplain.
+}
+
+::Etika DM - Soal 18:: Mengapa tindakan menyebarkan klaim palsu mengenai khasiat kesehatan suatu produk herbal di media sosial tergolong pelanggaran etika berat? {
+= Mengabaikan Kebenaran & Transparansi serta berisiko membahayakan keselamatan dan kesehatan fisik konsumen.
+~ Menyebabkan biaya langganan internet di kantor perusahaan menjadi lebih mahal dari tarif normal yang ditetapkan.
+~ Memaksa pengelola platform media sosial untuk menghapus seluruh fitur kamera dari smartphone milik calon pembeli.
+~ Menyebabkan seluruh staf bagian keuangan perusahaan mengalami kesulitan dalam menghitung uang gaji bulanan karyawan.
+~ Membatasi jumlah barang yang boleh dibeli oleh konsumen di toko online maksimal satu buah saja untuk setiap akun.
+}
+
+::Etika DM - Soal 19:: Menurut Virginia Shea pada Prinsip 10 Netiket (Jadilah Pemaaf), bagaimana sikap yang etis saat melihat pengguna baru (newbie) melakukan kesalahan minor ejaan atau etiket di internet? {
+= Memaklumi kesalahan tersebut dan memberikan petunjuk atau bimbingan secara sopan tanpa menyerang di depan umum.
+~ Membalas postingan pengguna baru tersebut dengan kata-kata kasar dan ejekan agar mereka merasa malu di depan umum.
+~ Melaporkan akun pengguna baru tersebut ke pihak kepolisian atas tuduhan kejahatan perusakan bahasa nasional.
+~ Mengajak seluruh pengikut media sosial untuk melakukan perundungan siber (cyberbullying) massal kepada pengguna baru.
+~ Memblokir koneksi internet di seluruh wilayah tempat tinggal pengguna baru tersebut agar mereka tidak bisa online lagi.
+}
+
+::Etika DM - Soal 20:: Skenario CS Simulator: Pelanggan tereror WhatsApp karena komplainnya tidak dibalas dalam 24 jam. Balasan pesan CS manakah yang paling memenuhi etika komplain? {
+= 'Mohon maaf atas keterlambatan respon kami. Terima kasih atas kesabaran Bapak/Ibu, mari kami bantu selesaikan kendalanya.'
+~ 'Harap bersabar ya! Admin kami juga punya kehidupan pribadi dan tidak bisa membalas chat Anda setiap menit sekali!'
+~ 'Chat Anda tenggelam karena banyak pembeli lain yang lebih penting. Silakan kirim ulang pesan Anda besok pagi saja.'
+~ 'Salah sendiri kenapa tidak menelpon langsung ke nomor kantor kami jika masalah pesanan Anda dianggap sangat mendesak.'
+~ 'Kami tidak menerima komplain dari pembeli yang terus-menerus mengirimkan pesan chat berulang-ulang di WhatsApp.'
+}
+
+::Etika DM - Soal 21:: Apa yang dimaksud dengan istilah Flaming dalam dunia komunikasi internet yang dilarang pada Prinsip 7 Netiket? {
+= Berkomunikasi dengan nada emosional penuh amarah, kata-kata kasar, serta memanas-manasi perdebatan di ruang publik.
+~ Mengirimkan pesan gambar nyala api gratis kepada teman di media sosial saat merayakan hari ulang tahun mereka.
+~ Menggunakan filter visual efek cahaya di kamera smartphone saat mengunggah foto makanan di akun Instagram pribadi.
+~ Mengunduh berkas dokumen buletin resmi perusahaan dari internet pada saat cuaca di luar ruangan sedang panas.
+~ Menyalakan lampu penerangan tambahan di dalam ruangan kantor agar layar layar komputer terlihat lebih terang jelas.
+}
+
+::Etika DM - Soal 22:: Sebuah toko online mengumpulkan nomor WhatsApp pembeli yang pernah belanja di toko fisik tanpa meminta izin, lalu memasukkannya ke dalam grup promosi. Pelanggaran etika apakah yang terjadi? {
+= Pelanggaran Sistem Opt-In, Pengabaian Hak Privasi Pengguna, dan Praktik Promosi Spamming.
+~ Pengabaian Aturan Hak Cipta dan Penggunaan Aset GambarVisual Milik Orang Lain.
+~ Pelanggaran Kebijakan Penetapan Tarif Harga Jual Maksimal Produk Barang Usaha.
+~ Ketidaksesuaian Waktu Pengiriman Pesan Katalog Produk dengan Jam Kerja Kantor.
+~ Penggunaan Bahasa Indonesia Baku yang Tidak Sesuai dengan Kaidah Bahasa Nasional.
+}
+
+::Etika DM - Soal 23:: Mengapa penting bagi sebuah merek bisnis untuk memiliki kebijakan privasi (Privacy Policy) yang transparan dan mudah diakses di situs web resminya? {
+= Memberikan kepastian kepada konsumen mengenai bagaimana data pribadi mereka dikumpulkan, disimpan, dan dilindungi aman.
+~ Memenuhi formalitas hukum agar toko online tidak perlu memberikan barang pesanan kepada pembeli yang sudah mentransfer.
+~ Memungkinkan toko online untuk menjual data nomor kartu kredit pembeli kepada pihak ketiga demi menambah keuntungan.
+~ Memaksa pengunjung situs web untuk membayar biaya masuk setiap kali mereka hendak membaca katalog produk di web.
+~ Menghapus seluruh kewajiban toko online untuk merespons keluhan konsumen yang mengalami kerusakan barang pesanan.
+}
+
+::Etika DM - Soal 24:: Dalam Prinsip 3 Netiket (Bisa Menempatkan Diri), apa yang harus dilakukan seseorang saat baru bergabung dalam sebuah grup diskusi daring baru? {
+= Mengamati budaya, gaya bahasa, dan aturan grup terlebih dahulu (lurking) sebelum aktif berpartisipasi dalam percakapan.
+~ Memborbardir grup dengan promosi jualan produk pribadi tanpa menyapa atau membaca aturan yang berlaku di dalam grup.
+~ Meminta seluruh anggota grup untuk mengganti nama akun mereka sesuai dengan keinginan dan standar pribadi kita.
+~ Mengkritik gaya bahasa semua anggota grup dan menyalahkan pengelola grup karena tidak menerapkan aturan yang ketat.
+~ Menghapus seluruh pesan chat lama milik anggota grup lain agar layar percakapan bersih dan hanya berisi pesan kita.
+}
+
+::Etika DM - Soal 25:: Skenario CS Simulator: Pelanggan menuduh promo diskon 70% di Instagram adalah clickbait palsu karena stok langsung habis. Balasan CS manakah yang transparan dan etis? {
+= 'Halo Kak, mohon maaf atas kekecewaannya. Promo 70% berlaku terbatas untuk 50 pembeli pertama dan stok telah habis terpesan.'
+~ 'Promo itu asli ya! Kalau Kakak tidak kebagian stok berarti Kakak kurang cepat jempolnya, jangan menyalahkan kami!'
+~ 'Terserah Kakak mau bilang apa, yang penting produk kami sudah laku keras dipesan oleh ribuan pembeli lainnya!'
+~ 'Jika Kakak tidak punya uang untuk membeli dengan harga normal, tidak perlu menuduh promo kami sebagai penipuan!'
+~ 'Kami sengaja membatasi stok promo agar pembeli merasa kesal dan beralih membeli produk lain yang harganya mahal.'
+}
+
+::Etika DM - Soal 26:: Langkah ke-4 dalam strategi penanganan komplain etis adalah Tunjukkan Pengakuan dan Empati. Mengapa menyampaikan permintaan maaf atas ketidaknyamanan itu krusial meski kesalahan berasal dari kurir? {
+= Meredakan amarah konsumen, menunjukkan tanggung jawab merek, serta membuka jalan untuk komunikasi solusi yang dingin.
+~ Membuktikan bahwa toko online mengakui secara hukum bahwa seluruh karyawan kantor siap dihukum penjara atas kesalahan kurir.
+~ Memaksa pihak perusahaan kurir pengirim barang untuk menyerahkan seluruh aset kendaraan operasional kepada toko kita.
+~ Memungkinkan toko online untuk meminta uang ganti rugi tambahan kepada konsumen atas waktu CS yang terbuang membalas chat.
+~ Menghapus kewajiban toko online untuk melacak keberadaan paket barang pesanan konsumen yang hilang di perjalanan kurir.
+}
+
+::Etika DM - Soal 27:: Mengapa penggunaan Clickbait kontroversial di media sosial dianggap sebagai praktik promosi yang tidak etis bagi keberlanjutan bisnis jangka panjang? {
+= Merusak kepercayaan konsumen, merendahkan citra nilai merek (Brand Equity), serta memicu kekecewaan audiens.
+~ Memaksa platform media sosial untuk menghapus seluruh rekening bank milik perusahaan dari sistem pembayaran digital.
+~ Menyebabkan biaya produksi barang fisik di gudang penyimpanan meningkat dua kali lipat lebih mahal dari biaya normal.
+~ Mengurangi kecepatan koneksi internet kantor sehingga staf pemasar tidak bisa mengunggah foto promosi baru di medsos.
+~ Membebaskan pembeli dari kewajiban membayarkan uang pembelian barang saat barang belanjaan tiba di rumah mereka.
+}
+
+::Etika DM - Soal 28:: Dalam Prinsip 8 Netiket Virginia Shea (Hormati Privasi Orang Lain), tindakan manakah di bawah ini yang dikategorikan sebagai pelanggaran privasi tingkat berat (Doxing)? {
+= Menyebarkan alamat rumah, nomor telepon pribadi, serta dokumen identitas seseorang ke media sosial tanpa izin demi menyerang.
+~ Mengirimkan kartu ucapan selamat ulang tahun kepada teman sekelas melalui pesan percakapan pribadi di aplikasi WhatsApp.
+~ Menampilkan foto katalog produk baju terbaru di situs web toko online yang dapat diakses secara umum oleh publik.
+~ Mengunggah foto pemandangan alam di akun Instagram pribadi dengan mencantumkan lokasi taman kota tempat foto diambil.
+~ Menuliskan nama panggilan favorit teman pada kolom komentar di bawah postingan foto liburan bersama di media sosial.
+}
+
+::Etika DM - Soal 29:: Sebuah perusahaan e-commerce mengalami kebocoran data pengguna akibat peretasan sistem. Sikap etis dan transparan manakah yang wajib dilakukan oleh manajemen perusahaan? {
+= Mengumumkan insiden secara resmi kepada pengguna, memohon maaf, serta menjelaskan langkah pengamanan akun yang diambil.
+~ Menyembunyikan kabar kebocoran data dari publik dan berpura-pura bahwa tidak ada gangguan sistem yang terjadi pada e-commerce.
+~ Menyalahkan para pengguna e-commerce karena tidak mengganti kata sandi akun mereka setiap lima menit sekali secara rutin.
+~ Menghapus situs e-commerce secara mendadak dan melarikan seluruh dana deposit milik pengguna yang tersimpan di aplikasi.
+~ Mengirimkan email palsu kepada pengguna yang menyatakan bahwa data yang bocor hanyalah milik pengguna yang sudah meninggal.
+}
+
+::Etika DM - Soal 30:: Mengapa pebisnis online dilarang keras membeli Followers palsu atau menggunakan bot interaksi di akun media sosial resmi mereka? {
+= Memanipulasi kredibilitas merek secara tidak jujur, merusak analitik akun, serta melanggar panduan komunitas platform.
+~ Memaksa pengelola platform media sosial untuk mengenakan tarif pajak penjualan yang lebih tinggi kepada pemilik toko online.
+~ Menyebabkan seluruh foto produk yang diunggah di akun media sosial akan berubah warna menjadi warna hitam polos secara otomatis.
+~ Membebaskan akun bisnis dari seluruh kewajiban membayar biaya iklan berbayar saat menjalankan kampanye di media sosial.
+~ Mengubah secara otomatis lokasi fisik toko online menjadi terdaftar di wilayah negara lain yang tidak memiliki jaringan internet.
+}
+
+::Etika DM - Soal 31:: Dalam penanganan komplain, apa yang dimaksud dengan sikap Pendengar yang Baik pada Langkah ke-3 Strategi Komplain? {
+= Menyimak seluruh detail kronologi keluhan konsumen secara utuh tanpa memotong perbincangan atau membuat asumsi sepihak.
+~ Mendengarkan rekaman suara komplain konsumen menggunakan pengeras suara volume maksimal di depan seluruh staf kantor.
+~ Menghafalkan setiap kata yang diucapkan oleh konsumen lalu menyanyikannya kembali di depan media saat jumpa pers resmi.
+~ Menyetujui seluruh tuntutan ganti rugi konsumen termasuk tuntutan yang tidak masuk akal tanpa melakukan verifikasi bukti.
+~ Merekam suara konsumen yang sedang marah untuk dijadikan bahan nada dering smartphone milik seluruh karyawan perusahaan bisnis.
+}
+
+::Etika DM - Soal 32:: Sebuah kedai kopi mengunggah video kamera CCTVs yang memperlihatkan seorang pengunjung tanpa menyamarkan wajah untuk dijadikan konten candaan di TikTok. Tindakan ini melanggar etika dalam aspek apa? {
+= Pelanggaran Privasi Pengguna dan Eksploitasi Hak Cipta Gambar Pribadi Tanpa Izin (Consensual Privacy).
+~ Ketidaksesuaian Waktu Pengiriman Pesan Promosi Katalog Produk dengan Jam Kerja Efektif Kantor.
+~ Pengabaian Sistem Opt-In pada Pengiriman Pesan Promosi Menggunakan Aplikasi WhatsApp Business API.
+~ Pelanggaran Kebijakan Transparansi Harga Jual Produk Makanan yang Ditetapkan Pemerintah Daerah.
+~ Ketidaklengkapan Berkas Formulir Pengumpulan Data Prospek Pelanggan yang Sah di Situs Web Bisnis.
+}
+
+::Etika DM - Soal 33:: Prinsip Netiket Virginia Shea nomor 5 menyatakan 'Tampil Baik di Internet'. Dalam konteks komunikasi Customer Service tulisan, hal ini berarti CS dilarang melakukan apa? {
+= Menggunakan huruf kapital semua (CAPSLOCK), huruf berantakan penuh typo, serta gaya bahasa cetus/singkat tanpa kehangatan.
+~ Membalas pesan chat dari konsumen menggunakan Bahasa Indonesia baku yang baik dan benar sesuai dengan kaidah EYD.
+~ Menyertakan sapaan nama konsumen secara ramah pada bagian awal pesan balasan chat dukungan pelanggan di medsos.
+~ Memberikan ucapan terima kasih atas kesabaran konsumen yang telah menunggu balasan pesan dari tim bantuan toko online.
+~ Menggunakan format paragraf yang rapi dan mudah dibaca saat memberikan rincian langkah-langkah penyelesaian masalah produk.
+}
+
+::Etika DM - Soal 34:: Mengapa dalam etika promosi bisnis, penggunaan ulasan pembeli (Testimoni) buatan sendiri atau testimoni palsu tergolong tindakan penipuan? {
+= Menyesatkan calon pembeli dengan bukti sosial (Social Proof) palsu yang melanggar prinsip Kebenaran & Transparansi.
+~ Menyebabkan biaya langganan aplikasi e-commerce menjadi lebih tinggi daripada biaya langganan toko online standar.
+~ Memaksa pembeli yang membaca testimoni palsu untuk memberikan uang komisi tambahan kepada pembuat tulisan ulasan.
+~ Mengubah wujud fisik barang yang dikirimkan kepada pembeli menjadi barang yang berbeda dari gambar katalog produk.
+~ Menyebabkan akun media sosial resmi perusahaan akan secara otomatis kehilangan centang biru verifikasi dari platform.
+}
+
+::Etika DM - Soal 35:: Skenario CS Simulator: Pelanggan menerima paket yang salah isi barang. Langkah solusi konkret manakah pada Langkah ke-5 Penanganan Komplain yang paling tepat dan adil? {
+= Mengirimkan barang yang benar hari itu juga tanpa biaya kirim tambahan dan memberikan label retur gratis untuk barang salah.
+~ Menyuruh pelanggan untuk menyimpan barang yang salah tersebut dan membeli kembali barang yang benar dengan harga normal.
+~ Meminta pelanggan untuk datang langsung ke gudang pusat perusahaan di luar pulau jika ingin menukarkan barang yang salah.
+~ Mengenakan denda biaya administrasi penukaran barang sebesar lima puluh persen dari total harga barang kepada pelanggan.
+~ Mengirimkan barang yang salah kedua kalinya kepada pelanggan untuk menguji apakah pelanggan memperhatikan isi paket barang.
+}
+
+::Etika DM - Soal 36:: Menurut Prinsip 4 Netiket (Hargai Waktu dan Bandwidth Orang Lain), mengapa pengirim pesan email bisnis dilarang menyertakan lampiran berkas (attachment) berukuran besar tanpa konfirmasi awal? {
+= Memenuhi kuota penyimpanan email penerima, membuang kuota internet, serta berpotensi gagal terunggah dengan baik.
+~ Memaksa komputer penerima email untuk mengunduh seluruh isi basis data situs web milik perusahaan penyedia email.
+~ Menyebabkan warna tampilan layar monitor komputer milik penerima email berubah menjadi warna gelap secara otomatis.
+~ Menghapus seluruh pesan email yang ada di dalam kotak masuk email milik penerima secara permanen tanpa sisa.
+~ Menyebabkan penerima email diharuskan membayar biaya pajak penerimaan dokumen kepada pemerintah daerah setempat.
+}
+
+::Etika DM - Soal 37:: Mengapa sebuah merek bisnis dilarang menggunakan lagu berhak cipta (Copyrighted Music) dalam video iklan iklannya di media sosial tanpa lisensi resmi? {
+= Melanggar Etika Hak Cipta, berisiko terkena sanksi takedown akun oleh platform, serta dapat dituntut secara hukum pidana/perdata.
+~ Memaksa pemilik lagu untuk secara otomatis menjadi penyanyi iklan komersial dari produk yang dipromosikan perusahaan bisnis.
+~ Menyebabkan suara lagu dalam video iklan akan terdengar seperti suara rekaman klakson kendaraan yang bising dan bising.
+~ Membebaskan perusahaan dari kewajiban membayar biaya penayangan iklan berbayar kepada pengelola platform media sosial.
+~ Mengubah seluruh kata dalam lirik lagu menjadi kata-kata promosi diskon produk secara otomatis saat video ditayangkan.
+}
+
+::Etika DM - Soal 38:: Dalam penanganan komplain, apa konsekuensi negatif jika seorang admin toko online sengaja menghapus komentar komplain keluhan dari konsumen di Instagram? {
+= Memicu kemarahan konsumen yang lebih besar, memicu dugaan penipuan publik, serta mendorong penyebaran isu di platform lain.
+~ Menghilangkan seluruh masalah produk secara permanen sehingga konsumen tidak lagi menuntut penggantian barang pesanan.
+~ Menghemat saldo kas tunai perusahaan karena toko online tidak perlu lagi membiayai pengiriman barang pengganti produk.
+~ Memaksa pihak Instagram untuk menaikkan jangkauan organik akun bisnis toko online tersebut hingga sepuluh kali lipat.
+~ Membuktikan kepada seluruh pengikut akun media sosial bahwa toko online tersebut merupakan toko yang paling sempurna.
+}
+
+::Etika DM - Soal 39:: Apa yang harus dilakukan oleh sebuah merek bisnis saat melakukan kesalahan unggahan konten yang keliru atau menyinggung di media sosial? {
+= Menghapus konten dengan cepat, menerbitkan pernyataan maaf terbuka yang jujur, serta menjelaskan langkah evaluasi internal.
+~ Menyalahkan staf magang di depan publik dan mengancam akan memenjarakan staf tersebut agar perusahaan terlihat bersih.
+~ Berpura-pura bahwa akun media sosial perusahaan sedang diretas oleh pihak luar yang tidak bertanggung jawab atas unggahan.
+~ Menghapus seluruh akun media sosial resmi milik perusahaan dan mengganti nama merek usaha dengan nama yang serba baru.
+~ Membalas komentar netizen yang mengkritik dengan kata-kata ejekan kasar untuk membuktikan bahwa perusahaan tidak takut.
+}
+
+::Etika DM - Soal 40:: Dalam etika promosi WhatsApp Business API, mengapa penyediaan tombol opsi Unsubscribe atau instruksi pembatalan pesan promosi sangat disarankan? {
+= Menghormati hak kendali pengguna atas kotak masuknya serta menjaga reputasi merek dari predikat pengganggu (Spammer).
+~ Memaksa pengguna smartphone untuk keluar dari seluruh grup WhatsApp keluarga yang mereka miliki di dalam aplikasi.
+~ Membebaskan perusahaan dari kewajiban menyediakan layanan bantuan customer service bagi pembeli yang memesan barang.
+~ Memungkinkan perusahaan untuk mengambil alih daftar nomor kontak smartphone milik pengguna yang menekan tombol keluar.
+~ Menjamin bahwa seluruh pengguna yang keluar dari daftar promosi akan secara otomatis kehilangan akses jaringan internet.
+}
+
+::Etika DM - Soal 41:: Skenario CS Simulator: Seorang pelanggan mengajukan komplain di Facebook mengenai keterlambatan pengiriman selama tiga hari. Manakah sikap CS yang paling mencerminkan Prinsip 2 Netiket (Standar Dunia Nyata)? {
+= Membalas dengan bahasa santun dan empati sebagaimana kita menyapa dan melayani pelanggan yang datang langsung ke toko fisik.
+~ Membalas dengan tulisan singkat 'Sabar!' karena menganggap interaksi media sosial tidak memerlukan sopan santun dunia nyata.
+~ Mengabaikan pesan komplain di Facebook karena menganggap transaksi penjualan online tidak memiliki ikatan hukum resmi.
+~ Memblokir akun Facebook pelanggan agar pelanggan tidak bisa lagi menuliskan komentar di halaman resmi toko online kita.
+~ Mengirimkan pesan gambar meme ejekan kepada pelanggan untuk menunjukkan bahwa keterlambatan barang adalah hal yang lucu.
+}
+
+::Etika DM - Soal 42:: Mengapa tindakan menyebarkan data pribadi konsumen (seperti nomor telepon atau alamat rumah) pada unggahan bukti tangkapan layar di media sosial tergolong pelanggaran etika berat? {
+= Melanggar Undang-Undang Perlindungan Data Pribadi (UU PDP), membahayakan keamanan konsumen, serta merusak kepercayaan bisnis.
+~ Menyebabkan biaya cetak kuitansi pembayaran toko online menjadi lebih mahal daripada tarif cetak dokumen standar.
+~ Memaksa konsumen untuk mengganti nomor telepon pribadi mereka dengan nomor baru di kantor cabang penyedia operator.
+~ Membebaskan konsumen dari kewajiban membayar tagihan harga barang belanjaan yang telah dikirimkan oleh kurir logistik.
+~ Menyebabkan akun media sosial resmi toko online akan secara otomatis mendapatkan kiriman produk gratis dari pembeli.
+}
+
+::Etika DM - Soal 43:: Dalam etika promosi media sosial, apa yang dimaksud dengan istilah Affiliate Marketing Disclosure yang wajib dicantumkan oleh seorang pembuat konten? {
+= Pernyataan transparan kepada audiens bahwa pembuat konten akan menerima komisi finansial jika audiens membeli lewat tautannya.
+~ Dokumen ikrar janji setia pembuat konten untuk tidak pernah membeli atau menggunakan produk buatan perusahaan kompetitor.
+~ Sertifikat kelulusan uji materi pemasaran digital yang dikeluarkan oleh dinas pendidikan dan kebudayaan pemerintah kota.
+~ Surat kuasa legal dari pembuat konten yang memberikan hak penuh kepada perusahaan untuk mengambil seluruh gaji bulanannya.
+~ Pernyataan tertulis yang menyatakan bahwa pembuat konten tidak bertanggung jawab jika produk yang dipromosikan rusak.
+}
+
+::Etika DM - Soal 44:: Langkah ke-8 dalam strategi penanganan komplain etis adalah Jadikan Keluhan sebagai Pembelajaran Berharga. Apa wujud nyata dari pelaksanaan langkah ini dalam operasional bisnis? {
+= Memperbaiki Standar Operasional Prosedur (SOP), merawat kualitas produk, serta memberikan pelatihan ulang bagi tim CS.
+~ Mengumpulkan seluruh dokumen komplain pelanggan di dalam ruangan arsip lalu membakarnya agar tidak ada jejak kesalahan.
+~ Mengenakan denda pemotongan gaji kepada staf CS yang menerima komplain dari pelanggan tanpa mendengarkan kronologi masalah.
+~ Menolak untuk melayani kembali pembeli yang pernah mengajukan komplain masalah produk di masa lalu agar toko tetap tenang.
+~ Menaikkan harga jual seluruh produk barang usaha agar toko online memiliki dana cadangan jika terjadi komplain lagi.
+}
+
+::Etika DM - Soal 45:: Menurut Prinsip 6 Netiket Virginia Shea (Berbagi Pengetahuan), bagaimana sikap terbaik seorang profesional digital marketing di ruang komunitas daring? {
+= Membagikan wawasan, tips, dan ilmu bermanfaat secara terbuka untuk membantu kemajuan dan literasi anggota komunitas lain.
+~ Menyimpan seluruh pengetahuan pemasaran untuk diri sendiri dan menolak menjawab pertanyaan dari anggota komunitas lain.
+~ Mengenakan tarif biaya konsultasi yang mahal setiap kali ada anggota komunitas yang mengajukan pertanyaan sederhana di grup.
+~ Menyebarkan informasi teknik pemasaran yang salah agar anggota komunitas lain mengalami kegagalan dalam mengelola bisnis.
+~ Memamerkan seluruh piagam penghargaan pribadi di grup diskusi untuk membuktikan bahwa anggota lain tidak ada apa-apa.
+}
+
+::Etika DM - Soal 46:: Mengapa dalam penanganan komplain pelanggan, CS dilarang keras menyalahkan pihak ketiga (seperti pihak kurir pengiriman) secara berlebihan di depan konsumen? {
+= Merusak citra keunggulan layanan merek, terkesan lepas tangan dari tanggung jawab transaksi, serta tidak menyelesaikan masalah.
+~ Memaksa pihak perusahaan kurir untuk menghentikan seluruh layanan pengiriman barang ke wilayah daerah toko online kita.
+~ Menyebabkan barang pesanan konsumen yang sedang berada di perjalanan kurir akan secara otomatis kembali ke gudang pusat.
+~ Membebaskan toko online dari kewajiban mengganti barang pesanan konsumen yang rusak atau hilang di perjalanan pengiriman.
+~ Memaksa konsumen untuk pergi sendiri mengambil barang pesanan mereka di kantor pusat penyedia jasa kurir pengiriman.
+}
+
+::Etika DM - Soal 47:: Sebuah toko online pakaian menggunakan foto model berbadan kurus tinggi tetapi mengirimkan baju dengan potongan ukuran yang sangat berbeda tanpa keterangan penjelasan di katalog. Etika apakah yang dilanggar? {
+= Kebenaran & Transparansi Informasi Produk (Menyesatkan harapan pembeli terhadap wujud asli dan ukuran produk barang).
+~ Waktu Pengiriman Pesan Promosi Katalog Produk yang Tidak Sesuai dengan Jam Kerja SOP Kantor Pusat Perusahaan.
+~ Pengalihan Diskusi Komplain Pelanggan dari Kolom Komentar Ruang Publik ke Saluran Komunikasi Chat Privat.
+~ Penyediaan Opsi Kontak Bantuan Helpdesk Pelanggan yang Mudah Dihubungi oleh Konsumen di Situs Web Bisnis.
+~ Penggunaan Kode QR Pemindaian Ulasan Produk pada Kemasan Pembungkus Barang yang Dikirimkan via Kurir Logistik.
+}
+
+::Etika DM - Soal 48:: Mengapa aksi Cyberbullying atau merisak orang lain di media sosial tergolong tindakan yang sangat bertentangan dengan seluruh nilai dasar Netiket? {
+= Menyerang harkat kemanusiaan, melukai emosi psikologis korban, serta merusak iklim keharmonisan interaksi ruang digital.
+~ Menyebabkan pemilik platform media sosial harus membayar tagihan biaya listrik server yang lebih besar dari biasanya.
+~ Memaksa seluruh pengguna internet untuk mematikan perangkat smartphone mereka selama dua puluh empat jam penuh harian.
+~ Mengurangi kecepatan transfer data koneksi internet di seluruh jaringan kabel serat optik antar pulau nasional.
+~ Membebankan biaya tagihan pulsa tambahan kepada seluruh pengikut akun media sosial yang membaca tulisan risakan.
+}
+
+::Etika DM - Soal 49:: Skenario CS Simulator: Seorang pelanggan meluapkan amarah di DM Instagram karena salah memilih ukuran sepatu saat memesan sendiri di web. Tindakan empati manakah yang etis dilakukan oleh admin CS? {
+= Membantu proses penukaran ukuran sepatu dengan sopan dan menjelaskan prosedur retur barang dengan jelas dan ramah.
+~ Menyalahkan pembeli karena tidak teliti saat membaca tabel ukuran di web dan menolak memberikan bantuan penukaran.
+~ Memblokir akun Instagram pembeli agar pembeli tidak bisa lagi mengirimkan pesan chat bantuan ke akun bisnis toko.
+~ Mengenakan biaya denda penukaran barang sebesar dua kali lipat dari harga sepatu untuk memberi pelajaran kepada pembeli.
+~ Menyuruh pembeli untuk menjual sendiri sepatu kekecilan tersebut kepada teman atau tetangganya tanpa melibatkan toko.
+}
+
+::Etika DM - Soal 50:: Manakah dari kesimpulan berikut yang paling tepat menggambarkan hubungan antara penerapan Etika Bisnis Digital / Netiket dengan keberlanjutan bisnis di era digital? {
+= Penerapan etika dan netiket secara konsisten membangun kepercayaan (trust), loyalitas pelanggan, serta reputasi merek yang kuat.
+~ Penerapan etika bisnis hanya membuang-buang waktu operasional dan menghambat pencapaian omset keuntungan perusahaan.
+~ Penerapan netiket hanya berlaku untuk perusahaan besar nasional dan tidak memiliki pengaruh pada usaha bisnis skala UMKM.
+~ Etika bisnis digital dapat diabaikan sepenuhnya selama perusahaan memiliki modal anggaran iklan berbayar yang sangat besar.
+~ Netiket di internet dibuat khusus untuk melarang masyarakat melakukan transaksi jual beli produk secara online di e-commerce.
+}

@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modul 1: Pembuatan Game Platformer di Unity - SMK Telkom Malang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #00F0FF;
+      --primary-hover: #00FFFF;
+      --primary-glow: rgba(0, 240, 255, 0.35);
+      --bg-dark: #050811;
+      --bg-card: rgba(14, 22, 37, 0.65);
+      --bg-code: #0b111e;
+      --border-glass: rgba(255, 255, 255, 0.06);
+      --border-focus: rgba(0, 240, 255, 0.3);
+      --text-main: #f4f4f5;
+      --text-secondary: #a1a1aa;
+      --font-display: 'Orbitron', 'Space Grotesk', sans-serif;
+      --font-body: 'Manrope', sans-serif;
+      --font-mono: 'Fira Code', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Cyberpunk Grid Background */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: 
+        radial-gradient(var(--primary) 1px, transparent 1px),
+        linear-gradient(rgba(0, 240, 255, 0.015) 1px, transparent 1px);
+      background-size: 40px 40px;
+      opacity: 0.12;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Top navigation bar */
+    nav.top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(5, 8, 17, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-glass);
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-logo {
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-logo span {
+      color: var(--primary);
+    }
+
+    .btn-back-hub {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-family: var(--font-display);
+      font-weight: 700;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-back-hub:hover {
+      color: var(--primary);
+    }
+
+    /* Layout Wrapper */
+    .layout-container {
+      display: flex;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 40px;
+      gap: 40px;
+      z-index: 2;
+      position: relative;
+      flex-grow: 1;
+    }
+
+    /* Table of Contents (Sidebar) */
+    aside.sidebar {
+      width: 320px;
+      position: sticky;
+      top: 100px;
+      height: calc(100vh - 140px);
+      overflow-y: auto;
+      padding-right: 15px;
+    }
+
+    aside.sidebar::-webkit-scrollbar {
+      width: 4px;
+    }
+    aside.sidebar::-webkit-scrollbar-thumb {
+      background: var(--border-glass);
+      border-radius: 4px;
+    }
+
+    .toc-title {
+      font-family: var(--font-display);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 240, 255, 0.2);
+    }
+
+    .toc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .toc-link {
+      display: block;
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      padding: 8px 12px;
+      border-left: 2px solid transparent;
+      transition: all 0.2s ease;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .toc-link:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.02);
+      border-left-color: rgba(0, 240, 255, 0.4);
+    }
+
+    .toc-link.active {
+      color: var(--primary);
+      background: rgba(0, 240, 255, 0.05);
+      border-left-color: var(--primary);
+      font-weight: 600;
+      text-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+    }
+
+    /* Main Content Area */
+    main.content {
+      flex-grow: 1;
+      max-width: 950px;
+    }
+
+    /* Header block inside Content */
+    .module-header {
+      margin-bottom: 40px;
+      text-align: left;
+    }
+
+    .module-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      background: rgba(0, 240, 255, 0.1);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      color: var(--primary);
+      border-radius: 4px;
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 15px;
+    }
+
+    .module-header h1 {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: #ffffff;
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+
+    .module-header p.subtitle {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* Sections */
+    section.module-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-glass);
+      border-radius: 16px;
+      padding: 35px;
+      margin-bottom: 35px;
+      backdrop-filter: blur(8px);
+      transition: border-color 0.3s;
+    }
+
+    section.module-section:hover {
+      border-color: var(--border-focus);
+    }
+
+    section.module-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      color: #ffffff;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid var(--border-glass);
+      padding-bottom: 12px;
+    }
+
+    section.module-section h2 span.section-num {
+      color: var(--primary);
+      font-weight: 900;
+    }
+
+    section.module-section p {
+      font-size: 0.98rem;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+    }
+
+    section.module-section p strong {
+      color: #ffffff;
+    }
+
+    /* Sub-steps and Alerts */
+    .step-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .step-item {
+      display: flex;
+      gap: 15px;
+      align-items: flex-start;
+    }
+
+    .step-bullet {
+      background: rgba(0, 240, 255, 0.1);
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .step-text {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+
+    .step-text strong {
+      color: #ffffff;
+    }
+
+    /* Alerts */
+    .alert-box {
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      display: block;
+    }
+
+    .alert-info {
+      background: rgba(0, 240, 255, 0.05);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      color: #a5f3fc;
+    }
+
+    .alert-warning {
+      background: rgba(239, 68, 68, 0.05);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      color: #fecaca;
+    }
+
+    /* Code Block styling */
+    .code-container {
+      background-color: var(--bg-code);
+      border: 1px solid var(--border-glass);
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .code-header {
+      background: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid var(--border-glass);
+      padding: 10px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .code-title {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    .btn-copy {
+      background: transparent;
+      border: 1px solid var(--border-glass);
+      color: var(--text-secondary);
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-copy:hover {
+      background: rgba(0, 240, 255, 0.1);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .code-container pre {
+      margin: 0;
+      padding: 16px;
+      overflow-x: auto;
+    }
+
+    .code-container code {
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    /* Syntax Highlighting overrides (simple) */
+    .keyword { color: #f43f5e; } /* using UnityEngine, public class, etc */
+    .type { color: #38bdf8; }    /* Rigidbody2D, Vector2, etc */
+    .method { color: #facc15; }  /* Start, Update, GetAxis, GetKeyDown */
+    .comment { color: #64748b; font-style: italic; }
+    .string { color: #10b981; }  /* "Horizontal", "Jump" */
+    .literal { color: #a855f7; } /* 7f, 2f, true, false */
+
+    .step-img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid var(--border-glass);
+      border-radius: 8px;
+      margin-top: 12px;
+      margin-bottom: 8px;
+      display: block;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Footer styling */
+    footer.materi-footer {
+      border-top: 1px solid var(--border-glass);
+      background: rgba(5, 8, 17, 0.9);
+      padding: 30px 40px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.3);
+      margin-top: auto;
+      z-index: 2;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 1024px) {
+      .layout-container {
+        flex-direction: column;
+        padding: 20px;
+      }
+      aside.sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        margin-bottom: 20px;
+      }
+      .toc-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="top-nav">
+    <a href="../index.html" class="nav-logo">🎮 SMK Telkom <span>Malang</span></a>
+    <a href="../index.html" class="btn-back-hub">◀ KEMBALI KE BERANDA PORTAL</a>
+  </nav>
+
+  <!-- Layout Container -->
+  <div class="layout-container">
+    
+    <!-- Sidebar Table of Contents -->
+    <aside class="sidebar">
+      <div class="toc-title">Materi Pembelajaran</div>
+      <ul class="toc-list">
+        <li><a href="#pendahuluan" class="toc-link active">Pendahuluan</a></li>
+        <li><a href="#setup-player" class="toc-link">1. Setup Player & Platform</a></li>
+        <li><a href="#movement" class="toc-link">2. Horizontal Movement</a></li>
+        <li><a href="#jumping" class="toc-link">3. Mekanik Lompat</a></li>
+        <li><a href="#groundcheck" class="toc-link">4. Ground Check (1x Jump)</a></li>
+        <li><a href="#camera" class="toc-link">5. Pergerakan Kamera</a></li>
+        <li><a href="#patrol" class="toc-link">6. AI Patroli Musuh</a></li>
+        <li><a href="#interaction" class="toc-link">7. Interaksi & Lose UI</a></li>
+        <li><a href="#winlose" class="toc-link">8. Sistem Win & Lose Canvas</a></li>
+        <li><a href="#change-art" class="toc-link">9. Mengganti Art Asset</a></li>
+        <li><a href="#tantangan" class="toc-link">Tantangan HOTS</a></li>
+        <li><a href="#tugas-proyek" class="toc-link">Tugas Proyek Akhir</a></li>
+        <li><a href="#glosarium" class="toc-link">📖 Glosarium</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+      
+      <div class="module-header">
+        <span class="module-badge">Unity 2D Game Development</span>
+        <h1>Panduan Praktik:<br>Membuat Game Platformer 2D</h1>
+        <p class="subtitle">Modul praktik terstruktur berorientasi HOTS (Higher Order Thinking Skills). Pelajari langkah-langkah logika fundamental game platformer, mulai dari kontrol pergerakan karakter hingga implementasi AI musuh dan UI interaktif.</p>
+      </div>
+
+      <!-- Section: Pendahuluan -->
+      <section id="pendahuluan" class="module-section">
+        <h2><span class="section-num">#</span> Pendahuluan</h2>
+        <p>Game bergenre <strong>Platformer</strong> adalah genre game di mana pemain mengendalikan karakter untuk melompati platform, menghindari rintangan, dan mengalahkan musuh di dalam level permainan. Logika dasar dalam game platformer menjadi pondasi krusial bagi developer dalam memahami interaksi fisika, penanganan input player, serta kecerdasan buatan (AI) sederhana.</p>
+        <p>Dalam modul ini, kita akan menggunakan <strong>Unity Game Engine (2D Mode)</strong> dan scripting <strong>C#</strong> untuk merealisasikan mekanik-mekanik esensial game platformer secara terperinci.</p>
+      </section>
+
+      <!-- Section 1: Setup -->
+      <section id="setup-player" class="module-section">
+        <h2><span class="section-num">01.</span> Setup Player & Platform</h2>
+        <p>Langkah awal adalah mempersiapkan objek game dan komponen fisika di Unity agar objek dapat dipengaruhi gravitasi dan memiliki volume batas tabrakan (collision).</p>
+        
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Scene Baru:</strong> Jalankan program Unity, lalu buat scene 2D baru dan buka scene tersebut.
+              <img src="img/image39.png" alt="Buat Scene Baru" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Buat Game Object Player:</strong> Di panel Hierarchy, klik kanan, pilih <strong>2D Object &gt; Sprites &gt; Square</strong>. Beri nama objek ini <code>Player</code> atau <code>Character</code>. Ganti warnanya di komponen Sprite Renderer agar terlihat kontras.
+              <img src="img/image26.png" alt="Buat Player Square" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Tambahkan Rigidbody 2D:</strong> Klik objek Player, di panel Inspector klik <strong>Add Component</strong>, cari dan tambahkan <strong>Rigidbody 2D</strong>. Komponen ini memberikan sifat fisik (seperti masa dan gravitasi) pada objek.
+              <img src="img/image2.png" alt="Tambahkan Rigidbody 2D" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Tambahkan Box Collider 2D:</strong> Masih di objek Player, klik <strong>Add Component</strong> lalu pasang <strong>Box Collider 2D</strong> agar player dapat menabrak objek lain secara fisik.
+              <img src="img/image6.png" alt="Tambahkan Box Collider 2D" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">5</span>
+            <div class="step-text"><strong>Buat Objek Platform:</strong> Klik kanan di Hierarchy, buat objek <strong>Square</strong> baru dan beri nama <code>Platform</code>. Gunakan <strong>Move Tool</strong> (tombol <code>W</code>) untuk menyeretnya ke bawah Player, lalu gunakan <strong>Rect Tool</strong> (tombol <code>T</code>) untuk memperlebar platform tersebut agar menjadi pijakan jalan.
+              <img src="img/image34.png" alt="Buat Platform" class="step-img">
+              <img src="img/image25.png" alt="Posisikan Platform ke Bawah" class="step-img">
+              <img src="img/image32.png" alt="Perpanjang Platform" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">6</span>
+            <div class="step-text"><strong>Tambahkan Box Collider 2D ke Platform:</strong> Agar Player tidak jatuh menembus platform, klik objek Platform, klik <strong>Add Component</strong> lalu tambahkan <strong>Box Collider 2D</strong>.
+              <img src="img/image7.png" alt="Tambahkan Box Collider ke Platform" class="step-img">
+            </div>
+          </li>
+        </ul>
+
+        <div class="alert-box alert-info">
+          <h4 style="margin: 0 0 8px; color: var(--primary); font-size: 0.95rem; font-family: var(--font-display);">💡 Tips Efisiensi</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Pada komponen <strong>Rigidbody 2D</strong> milik Player, buka sub-menu <strong>Constraints</strong> lalu centang opsi <strong>Freeze Rotation Z</strong>. Hal ini mencegah karakter Anda terguling (berputar miring) saat menabrak ujung sudut platform.</p>
+        </div>
+      </section>
+
+      <!-- Section 2: Horizontal Movement -->
+      <section id="movement" class="module-section">
+        <h2><span class="section-num">02.</span> Pergerakan Karakter (Horizontal Movement)</h2>
+        <p>Untuk mengendalikan pergerakan karakter ke kiri dan ke kanan, kita akan membuat skrip C# yang membaca input keyboard dan memanipulasi kecepatan (velocity) Rigidbody 2D.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Folder Script:</strong> Di panel <strong>Project</strong> (biasanya di bagian bawah layar Unity), klik kanan area kosong di dalam folder <code>Assets</code>, pilih <strong>Create &gt; Folder</strong>, dan namai folder tersebut <code>Scripts</code>. Merapikan file ke dalam folder adalah kebiasaan coding profesional agar proyek tidak berantakan.
+              <img src="img/image38.png" alt="Buat Folder Scripts" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Buat Script Baru:</strong> Klik ganda masuk ke folder <code>Scripts</code> yang baru dibuat. Klik kanan area kosong, pilih <strong>Create &gt; C# Script</strong>. Unity akan membuat file baru, segera ketik nama <code>CharacterMovement</code> (tanpa spasi) lalu tekan <kbd>Enter</kbd> untuk mengonfirmasi. <em>Perhatian: penamaan script harus persis sama dengan nama class di dalamnya — tidak boleh ada spasi atau karakter khusus.</em>
+              <img src="img/image24.png" alt="Buat C# Script CharacterMovement" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Implementasikan Kode Pergerakan:</strong> Klik <strong>ganda</strong> file <code>CharacterMovement</code> di panel Project untuk membukanya di editor kode (Visual Studio atau VS Code). Hapus semua isi template bawaan Unity, lalu salin dan tempelkan seluruh kode di bawah ini. Kode ini bertugas membaca tombol keyboard dan menggerakkan player ke kiri/kanan secara fisika.</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">CharacterMovement.cs (Bagian 1 - Pergerakan Horizontal)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+
+<span class="keyword">public class</span> <span class="type">CharacterMovement</span> : <span class="type">MonoBehaviour</span>
+{
+    [Header(<span class="string">"Komponen Fisika"</span>)]
+    <span class="keyword">public</span> <span class="type">Rigidbody2D</span> rb;         <span class="comment">// Referensi ke komponen Rigidbody2D karakter</span>
+
+    [Header(<span class="string">"Parameter Pergerakan"</span>)]
+    <span class="keyword">public float</span> horizontal;         <span class="comment">// Menyimpan nilai input horizontal (-1, 0, atau 1)</span>
+    <span class="keyword">public float</span> speed = <span class="literal">7f</span>;         <span class="comment">// Kecepatan gerak horizontal karakter</span>
+
+    <span class="keyword">void</span> <span class="method">Start</span>()
+    {
+        <span class="comment">// Blokir rotasi karakter agar tidak terbalik akibat tabrakan fisik</span>
+        rb.constraints = <span class="type">RigidbodyConstraints2D</span>.FreezeRotation;
+    }
+
+    <span class="keyword">void</span> <span class="method">Update</span>()
+    {
+        <span class="comment">// Membaca input keyboard: tekan kiri → -1, tidak ada → 0, tekan kanan → 1</span>
+        horizontal = <span class="type">Input</span>.<span class="method">GetAxisRaw</span>(<span class="string">"Horizontal"</span>);
+    }
+
+    <span class="keyword">private void</span> <span class="method">FixedUpdate</span>()
+    {
+        <span class="comment">// Menerapkan kecepatan ke Rigidbody2D (dipanggil bersamaan engine fisika)</span>
+        rb.linearVelocity = <span class="keyword">new</span> <span class="type">Vector2</span>(horizontal * speed, rb.linearVelocity.y);
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Hubungkan Script ke Objek Player:</strong> Kembali ke Unity (simpan dulu kode Anda di editor). Di panel Project, temukan file <code>CharacterMovement</code>, kemudian <strong>drag and drop</strong> (klik, tahan, dan seret) file tersebut ke atas objek <strong>Player</strong> di panel Hierarchy. Jika berhasil, komponen script akan muncul di bagian bawah Inspector saat Player dipilih.
+              <img src="img/image13.png" alt="Pasang Script ke Player" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">5</span>
+            <div class="step-text"><strong>Hubungkan Komponen Rigidbody ke Slot Script:</strong> Pilih objek <strong>Player</strong> di Hierarchy. Di panel Inspector, temukan komponen <strong>CharacterMovement</strong>. Di sana ada kolom variabel bernama <strong>Rb</strong> yang masih kosong. Sekarang, drag komponen <strong>Rigidbody 2D</strong> (dari Inspector Player itu sendiri) ke dalam kolom <strong>Rb</strong> tersebut. Ini menghubungkan script Anda dengan komponen fisika Player.
+              <img src="img/image10.png" alt="Hubungkan Rb Step 1" class="step-img">
+              <img src="img/image11.png" alt="Hubungkan Rb Step 2" class="step-img">
+            </div>
+          </li>
+        </ul>
+
+        <div class="alert-box alert-info">
+          <h4 style="margin: 0 0 8px; color: var(--primary); font-size: 0.95rem; font-family: var(--font-display);">⚙️ Perhatian Terkait Update Unity Terbaru</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Mulai Unity versi terbaru, properti <code>velocity</code> pada Rigidbody2D direkomendasikan ditulis sebagai <code>linearVelocity</code> untuk penanganan kecepatan linear yang lebih teroptimasi. Kode di atas telah menggunakan sintaksis modern ini.</p>
+        </div>
+      </section>
+
+      <!-- Section 3: Jumping -->
+      <section id="jumping" class="module-section">
+        <h2><span class="section-num">03.</span> Mekanik Lompat (Jumping)</h2>
+        <p>Mekanik lompat diimplementasikan dengan menambahkan dorongan instan ke atas pada koordinat sumbu Y kecepatan linear (vertical velocity) saat pemain menekan tombol lompat.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Tambahkan Variabel Kekuatan Lompat:</strong> Buka kembali script <code>CharacterMovement.cs</code> di editor kode. Di dalam bagian deklarasi variabel (sebelum method <code>Start()</code>), tambahkan baris baru: <code>public float jumpForce = 7f;</code>. Variabel ini dapat diubah nilainya langsung dari Inspector Unity tanpa harus mengedit kode lagi — ini adalah praktik "tweakable variable" yang sangat berguna saat playtest.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Deteksi Input Lompat & Terapkan Dorongan:</strong> Di dalam method <code>Update()</code>, tambahkan blok kondisi <code>if</code> untuk mendeteksi tombol <kbd>Space</kbd>. Gunakan <code>Input.GetKeyDown(KeyCode.Space)</code> — fungsi ini hanya mendeteksi momen pertama tombol ditekan (satu frame), bukan saat ditahan. Ketika terdeteksi, set komponen Y dari <code>linearVelocity</code> menjadi nilai <code>jumpForce</code> untuk menciptakan dorongan ke atas secara instan.</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">CharacterMovement.cs (Bagian 2 - Ditambahkan Jump)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+
+<span class="keyword">public class</span> <span class="type">CharacterMovement</span> : <span class="type">MonoBehaviour</span>
+{
+    <span class="keyword">public</span> <span class="type">Rigidbody2D</span> rb;
+    <span class="keyword">public float</span> horizontal;
+    <span class="keyword">public float</span> speed = <span class="literal">7f</span>;
+    <span class="keyword">public float</span> jumpForce = <span class="literal">7f</span>; <span class="comment">// Variabel kekuatan dorongan lompat</span>
+
+    <span class="keyword">void</span> <span class="method">Start</span>() {}
+
+    <span class="keyword">void</span> <span class="method">Update</span>()
+    {
+        horizontal = <span class="type">Input</span>.<span class="method">GetAxisRaw</span>(<span class="string">"Horizontal"</span>);
+
+        <span class="comment">// Jika tombol Space ditekan, berikan dorongan ke atas</span>
+        <span class="keyword">if</span> (<span class="type">Input</span>.<span class="method">GetKeyDown</span>(<span class="type">KeyCode</span>.Space))
+        {
+            rb.linearVelocity = <span class="keyword">new</span> <span class="type">Vector2</span>(rb.linearVelocity.x, jumpForce);
+        }
+    }
+
+    <span class="keyword">private void</span> <span class="method">FixedUpdate</span>()
+    {
+        rb.linearVelocity = <span class="keyword">new</span> <span class="type">Vector2</span>(horizontal * speed, rb.linearVelocity.y);
+    }
+}</code></pre>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h4 style="margin: 0 0 8px; color: #fecaca; font-size: 0.95rem; font-family: var(--font-display);">⚠️ Masalah Desain (Bug)</h4>
+          <p style="margin: 0; color: var(--text-secondary); line-height: 1.6;">Jalankan game dan tekan tombol Space terus-menerus. Player akan terus melompat tanpa batas di udara (double/triple jump tak terbatas). Untuk mengatasinya, kita memerlukan sistem pendeteksi tanah (Ground Check).</p>
+        </div>
+      </section>
+
+      <!-- Section 4: Ground Check -->
+      <section id="groundcheck" class="module-section">
+        <h2><span class="section-num">04.</span> Ground Check (Lompat Terbatas 1 Kali)</h2>
+        <p>Agar Player hanya dapat melompat saat menyentuh permukaan tanah/platform, kita akan mendeteksi tumbukan area kaki Player dengan Layer khusus menggunakan fungsi <code>Physics2D.OverlapCircle</code>.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Game Object GroundCheck:</strong> Di panel Hierarchy, klik kanan pada objek <strong>Player</strong>, lalu pilih <strong>Create Empty</strong>. Beri nama game object anak ini <code>GroundCheck</code>. Posisikan objek kosong ini tepat berada di bagian bawah/kaki Player.
+              <img src="img/image30.png" alt="Buat Empty Game Object" class="step-img">
+              <img src="img/image21.png" alt="Rename GroundCheck" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Buat Layer Ground:</strong> Klik objek <strong>Platform</strong> di Hierarchy. Di pojok kanan atas panel Inspector, klik menu drop-down <strong>Layer</strong> lalu pilih <strong>Add Layer...</strong>. Ketik nama layer baru pada kolom indeks kosong, misalnya <code>Ground</code>. Setelah didefinisikan, pastikan Anda kembali mengklik objek Platform lalu atur layernya menjadi <code>Ground</code>.
+              <img src="img/image42.png" alt="Add Layer" class="step-img">
+              <img src="img/image41.png" alt="Tulis Layer Ground" class="step-img">
+              <img src="img/image27.png" alt="Set Platform ke Layer Ground" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Perbarui Script CharacterMovement:</strong> Buka script dan modifikasi kodenya menjadi seperti berikut:</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">CharacterMovement.cs (Kode Lengkap dengan Ground Check)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+
+<span class="keyword">public class</span> <span class="type">CharacterMovement</span> : <span class="type">MonoBehaviour</span>
+{
+    [Header("Pergerakan")]
+    <span class="keyword">public</span> <span class="type">Rigidbody2D</span> rb;
+    <span class="keyword">public float</span> horizontal;
+    <span class="keyword">public float</span> speed = <span class="literal">7f</span>;
+    <span class="keyword">public float</span> jumpForce = <span class="literal">7f</span>;
+
+    [Header("Deteksi Tanah")]
+    <span class="keyword">public</span> <span class="type">Transform</span> groundCheck;     <span class="comment">// Referensi posisi objek GroundCheck</span>
+    <span class="keyword">public bool</span> isGrounded = <span class="literal">true</span>;    <span class="comment">// Status apakah menyentuh tanah</span>
+    <span class="keyword">public float</span> radiusCheck = <span class="literal">0.2f</span>;  <span class="comment">// Radius lingkaran pendeteksi</span>
+    <span class="keyword">public</span> <span class="type">LayerMask</span> groundLayer;     <span class="comment">// Menyimpan layer target deteksi (Ground)</span>
+
+    <span class="keyword">void</span> <span class="method">Start</span>() {}
+
+    <span class="keyword">void</span> <span class="method">Update</span>()
+    {
+        horizontal = <span class="type">Input</span>.<span class="method">GetAxisRaw</span>(<span class="string">"Horizontal"</span>);
+
+        <span class="comment">// Memeriksa apakah area lingkaran groundCheck bersentuhan dengan groundLayer</span>
+        isGrounded = <span class="type">Physics2D</span>.<span class="method">OverlapCircle</span>(groundCheck.position, radiusCheck, groundLayer);
+
+        <span class="comment">// Syarat lompat: tombol ditekan DAN player sedang menyentuh tanah</span>
+        <span class="keyword">if</span> (<span class="type">Input</span>.<span class="method">GetKeyDown</span>(<span class="type">KeyCode</span>.Space) && isGrounded)
+        {
+            rb.linearVelocity = <span class="keyword">new</span> <span class="type">Vector2</span>(rb.linearVelocity.x, jumpForce);
+        }
+    }
+
+    <span class="keyword">private void</span> <span class="method">FixedUpdate</span>()
+    {
+        rb.linearVelocity = <span class="keyword">new</span> <span class="type">Vector2</span>(horizontal * speed, rb.linearVelocity.y);
+    }
+
+    <span class="comment">// Menggambar visualisasi lingkaran check di Scene editor</span>
+    <span class="keyword">private void</span> <span class="method">OnDrawGizmos</span>()
+    {
+        <span class="keyword">if</span> (groundCheck != <span class="keyword">null</span>)
+        {
+            <span class="type">Gizmos</span>.color = <span class="type">Color</span>.green;
+            <span class="type">Gizmos</span>.<span class="method">DrawWireSphere</span>(groundCheck.position, radiusCheck);
+        }
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Hubungkan Parameter di Inspector:</strong> Pilih Player di Hierarchy. Di script <strong>Character Movement</strong> di Inspector:
+              <br>• Tarik game object anak <strong>GroundCheck</strong> ke dalam slot variabel <code>Ground Check</code>.
+              <br>• Pilih opsi menu drop-down <code>Ground Layer</code> lalu centang layer <code>Ground</code>.
+              <br>• Atur <code>Radius Check</code> (misal: <code>0.2</code>). Anda dapat melihat visualisasi lingkaran berwarna hijau di panel Scene. Pastikan posisinya menyentuh permukaan bawah Player.
+              <img src="img/image12.png" alt="Tarik GroundCheck ke Script" class="step-img">
+              <img src="img/image35.png" alt="Set Ground Layer ke Ground" class="step-img">
+              <img src="img/image23.png" alt="Gizmos Lingkaran Hijau Ground Check" class="step-img">
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 5: Camera Follow -->
+      <section id="camera" class="module-section">
+        <h2><span class="section-num">05.</span> Pergerakan Kamera (Camera Follow)</h2>
+        <p>Agar arena petualangan terasa luas, kamera harus mengikuti pergerakan Player secara horizontal maupun vertikal dengan pergerakan yang halus (smoothing interpolation).</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Script Kamera:</strong> Di folder Scripts, buat script C# baru dan beri nama <code>CameraMovement</code>.
+              <img src="img/image1.png" alt="Buat Script CameraMovement" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Ketikkan Logic Kamera:</strong> Buka script kamera tersebut lalu pasang kode penanganan interpolasi linier (Lerp) di bawah ini:</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">CameraMovement.cs</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+
+<span class="keyword">public class</span> <span class="type">CameraMovement</span> : <span class="type">MonoBehaviour</span>
+{
+    <span class="keyword">public</span> <span class="type">Transform</span> target;       <span class="comment">// Target yang diikuti (Player)</span>
+    <span class="keyword">public float</span> smoothSpeed = <span class="literal">5f</span>;  <span class="comment">// Kecepatan transisi kamera</span>
+    <span class="keyword">public</span> <span class="type">Vector3</span> offset;         <span class="comment">// Selisih jarak kamera dengan player</span>
+
+    <span class="comment">// LateUpdate dipanggil setelah semua kalkulasi Update selesai (terbaik untuk kamera)</span>
+    <span class="keyword">void</span> <span class="method">LateUpdate</span>()
+    {
+        <span class="keyword">if</span> (target == <span class="keyword">null</span>) <span class="keyword">return</span>;
+
+        <span class="comment">// Tentukan posisi ideal target ditambah dengan offset</span>
+        <span class="type">Vector3</span> desiredPosition = target.position + offset;
+
+        <span class="comment">// Mempertahankan sumbu Z asli kamera agar objek 2D tidak terpotong kamera</span>
+        desiredPosition.z = transform.position.z;
+
+        <span class="comment">// Lakukan interpolasi pergerakan halus dari posisi sekarang ke posisi ideal</span>
+        transform.position = <span class="type">Vector3</span>.<span class="method">Lerp</span>(transform.position, desiredPosition, smoothSpeed * <span class="type">Time</span>.deltaTime);
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Setup di Unity:</strong> Tarik script <code>CameraMovement</code> dan lepaskan di objek <strong>Main Camera</strong> di panel Hierarchy.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Input Referensi Target:</strong> Klik Main Camera di Hierarchy. Drag objek <strong>Player</strong> ke dalam kolom variabel <code>Target</code> pada script kamera. Atur nilai Offset (misal: Y = <code>1</code>, Z = <code>-10</code>) untuk memberikan perspektif yang baik.
+              <img src="img/image43.png" alt="Tarik Player ke Target Kamera" class="step-img">
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 6: AI Patrol -->
+      <section id="patrol" class="module-section">
+        <h2><span class="section-num">06.</span> AI Patroli Musuh (Enemy Patrol)</h2>
+        <p>Membuat objek musuh bergerak otomatis bolak-balik antara dua titik batas patroli (Point A dan Point B) serta membalikkan arah hadap sprite secara otomatis.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Game Object Musuh:</strong> Klik kanan di Hierarchy, pilih <strong>2D Object &gt; Sprites &gt; Square</strong>. Beri nama <code>Enemy</code>. Ubah warna Spritenya menjadi merah menyala di komponen Sprite Renderer agar terlihat berbahaya. Tempatkan di area platform yang agak jauh dari Player.
+              <img src="img/image15.png" alt="Buat Game Object Enemy" class="step-img">
+              <img src="img/image29.png" alt="Klik Color Box" class="step-img">
+              <img src="img/image3.png" alt="Pilih Warna Merah" class="step-img">
+              <img src="img/image8.png" alt="Posisikan Enemy" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Buat Titik Batas Patroli:</strong> Klik kanan di Hierarchy, buat 2 objek kosong (Create Empty) dan beri nama masing-masing <code>PointA</code> dan <code>PointB</code>. Beri ikon label khusus agar Anda dapat memantau posisinya di panel Scene secara visual. Geser Point A ke sisi batas kiri patroli, dan Point B ke sisi batas kanan patroli.
+              <img src="img/image28.png" alt="Buat Point A" class="step-img">
+              <img src="img/image22.png" alt="Buat Point B" class="step-img">
+              <img src="img/image33.png" alt="Ganti Ikon Label" class="step-img">
+              <img src="img/image20.png" alt="Posisikan Titik Seberang" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Buat Script Patroli Musuh:</strong> Buat script C# baru bernama <code>EnemyPatrol</code> di folder Scripts, lalu tuliskan logika patroli berikut:</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">EnemyPatrol.cs (Logic Pergerakan & Flipping)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+
+<span class="keyword">public class</span> <span class="type">EnemyPatrol</span> : <span class="type">MonoBehaviour</span>
+{
+    [Header("Titik Patroli")]
+    <span class="keyword">public</span> <span class="type">Transform</span> pointA;
+    <span class="keyword">public</span> <span class="type">Transform</span> pointB;
+    <span class="keyword">public float</span> speed = <span class="literal">2f</span>;
+
+    <span class="keyword">private</span> <span class="type">Transform</span> targetPoint;
+
+    <span class="keyword">void</span> <span class="method">Start</span>()
+    {
+        <span class="comment">// Memulai rute dengan berjalan ke titik B</span>
+        targetPoint = pointB;
+    }
+
+    <span class="keyword">void</span> <span class="method">Update</span>()
+    {
+        <span class="keyword">if</span> (pointA == <span class="keyword">null</span> || pointB == <span class="keyword">null</span>) <span class="keyword">return</span>;
+
+        <span class="comment">// Bergerak mendekati targetPoint tujuan</span>
+        transform.position = <span class="type">Vector2</span>.<span class="method">MoveTowards</span>(
+            transform.position,
+            targetPoint.position,
+            speed * <span class="type">Time</span>.deltaTime
+        );
+
+        <span class="comment">// Jika posisi musuh sudah dekat dengan titik tujuan</span>
+        <span class="keyword">if</span> (<span class="type">Vector2</span>.<span class="method">Distance</span>(transform.position, targetPoint.position) &lt; <span class="literal">0.1f</span>)
+        {
+            <span class="comment">// Ubah target tujuan (jika tadinya ke A, ganti ke B, dan sebaliknya)</span>
+            targetPoint = (targetPoint == pointA) ? pointB : pointA;
+
+            <span class="comment">// Balik arah visual Sprite musuh</span>
+            <span class="method">Flip</span>();
+        }
+    }
+
+    <span class="keyword">void</span> <span class="method">Flip</span>()
+    {
+        <span class="comment">// Membalik skala sumbu X agar arah sprite berbalik arah</span>
+        <span class="type">Vector3</span> scale = transform.localScale;
+        scale.x *= -<span class="literal">1</span>;
+        transform.localScale = scale;
+    }
+
+    <span class="comment">// Menampilkan visualisasi garis patroli berwarna merah di Scene view</span>
+    <span class="keyword">private void</span> <span class="method">OnDrawGizmos</span>()
+    {
+        <span class="keyword">if</span> (pointA != <span class="keyword">null</span> && pointB != <span class="keyword">null</span>)
+        {
+            <span class="type">Gizmos</span>.color = <span class="type">Color</span>.red;
+            <span class="type">Gizmos</span>.<span class="method">DrawLine</span>(pointA.position, pointB.position);
+
+            <span class="type">Gizmos</span>.color = <span class="type">Color</span>.green;
+            <span class="type">Gizmos</span>.<span class="method">DrawWireSphere</span>(pointA.position, <span class="literal">0.15f</span>);
+            <span class="type">Gizmos</span>.<span class="method">DrawWireSphere</span>(pointB.position, <span class="literal">0.15f</span>);
+        }
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Hubungkan Referensi Inspector:</strong> Pasang script <code>EnemyPatrol</code> di objek <strong>Enemy</strong>. Tarik objek <strong>PointA</strong> dan <strong>PointB</strong> dari Hierarchy ke dalam slot variabel script musuh yang bersangkutan di Inspector. Jalankan game untuk melihat musuh berjalan mondar-mandir otomatis.
+              <img src="img/image9.png" alt="Pasang Script ke Enemy" class="step-img">
+              <img src="img/image40.png" alt="Tarik Point A dan B ke Inspector" class="step-img">
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 7: Interaction -->
+      <section id="interaction" class="module-section">
+        <h2><span class="section-num">07.</span> Interaksi & Lose UI</h2>
+        <p>Mendeteksi tabrakan antara Player dan Musuh menggunakan trigger collider. Ketika tertabrak, layar game akan memunculkan tulisan UI "Game Over".</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat UI Text:</strong> Klik kanan di Hierarchy, pilih <strong>UI &gt; Text - TextMeshPro</strong>. Jika muncul dialog impor TextMeshPro, klik <strong>Import TMP Essentials</strong> lalu tutup jika sudah selesai.
+              <img src="img/image14.png" alt="Buat UI TextMeshPro" class="step-img">
+              <img src="img/image31.png" alt="Klik Import TMP Essentials" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Desain Game Over Text:</strong> Beri nama game object teks ini <code>GameOverText</code>. Atur resolusi game di panel Game tab menjadi <strong>Full HD (1920x1080)</strong>. Pada komponen Rect Transform teks:
+              <br>• Klik ikon anchor kotak di pojok kiri atas, tahan tombol <code>Alt + Shift</code> lalu klik kotak penuh (Stretch-stretch) di pojok kanan bawah agar teks mencakup area layar.
+              <br>• Ubah isi teks menjadi "GAME OVER". Atur ukuran font, ketebalan (Bold), ganti warna menjadi merah, serta posisikan perataan di tengah (center alignment).
+              <img src="img/image4.png" alt="Atur Full HD" class="step-img">
+              <img src="img/image19.png" alt="Tulis Game Over" class="step-img">
+              <img src="img/image16.png" alt="Atur Rect Stretch Fullscreen" class="step-img">
+              <img src="img/image18.png" alt="Ubah Isi Text" class="step-img">
+              <img src="img/image17.png" alt="Pengaturan Font Text" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Sembunyikan Awal (Deactive):</strong> Nonaktifkan (uncheck) game object <code>GameOverText</code> di bagian atas panel Inspector agar teks tersembunyi saat game dimulai.
+              <img src="img/image36.png" alt="Matikan Centang Game Over Text" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Setting Collider Musuh:</strong> Tambahkan <strong>Box Collider 2D</strong> ke objek <strong>Enemy</strong>. Pastikan Anda mencentang parameter <strong>Is Trigger</strong>. Parameter ini mengubah collider menjadi sensor area sentuh tanpa memantulkan fisik player.
+              <img src="img/image37.png" alt="Tambahkan Box Collider ke Enemy" class="step-img">
+              <img src="img/image5.png" alt="Centang Is Trigger" class="step-img">
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">5</span>
+            <div class="step-text"><strong>Beri Tag Player:</strong> Klik objek <strong>Player</strong> di Hierarchy. Pastikan di Inspector bagian atas, bagian <strong>Tag</strong> sudah diset menjadi <code>Player</code> (ini adalah tag default Unity).</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">6</span>
+            <div class="step-text"><strong>Perbarui Kode EnemyPatrol:</strong> Modifikasi script <code>EnemyPatrol</code> dengan menambahkan sensor deteksi trigger berikut:</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">EnemyPatrol.cs (Kode Lengkap dengan Deteksi Tabrakan)</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+
+<span class="keyword">public class</span> <span class="type">EnemyPatrol</span> : <span class="type">MonoBehaviour</span>
+{
+    [Header("Titik Patroli")]
+    <span class="keyword">public</span> <span class="type">Transform</span> pointA;
+    <span class="keyword">public</span> <span class="type">Transform</span> pointB;
+    <span class="keyword">public float</span> speed = <span class="literal">2f</span>;
+
+    <span class="keyword">private</span> <span class="type">Transform</span> targetPoint;
+
+    [Header("Interaksi UI")]
+    <span class="keyword">public</span> <span class="type">GameObject</span> TextLabel; <span class="comment">// Kolom referensi GameOverText / Panel Lose</span>
+
+    <span class="keyword">void</span> <span class="method">Start</span>()
+    {
+        targetPoint = pointB;
+    }
+
+    <span class="keyword">void</span> <span class="method">Update</span>()
+    {
+        <span class="keyword">if</span> (pointA == <span class="keyword">null</span> || pointB == <span class="keyword">null</span>) <span class="keyword">return</span>;
+
+        transform.position = <span class="type">Vector2</span>.<span class="method">MoveTowards</span>(
+            transform.position,
+            targetPoint.position,
+            speed * <span class="type">Time</span>.deltaTime
+        );
+
+        <span class="keyword">if</span> (<span class="type">Vector2</span>.<span class="method">Distance</span>(transform.position, targetPoint.position) &lt; <span class="literal">0.1f</span>)
+        {
+            targetPoint = (targetPoint == pointA) ? pointB : pointA;
+            <span class="method">Flip</span>();
+        }
+    }
+
+    <span class="keyword">void</span> <span class="method">Flip</span>()
+    {
+        <span class="type">Vector3</span> scale = transform.localScale;
+        scale.x *= -<span class="literal">1</span>;
+        transform.localScale = scale;
+    }
+
+    <span class="keyword">private void</span> <span class="method">OnDrawGizmos</span>()
+    {
+        <span class="keyword">if</span> (pointA != <span class="keyword">null</span> && pointB != <span class="keyword">null</span>)
+        {
+            <span class="type">Gizmos</span>.color = <span class="type">Color</span>.red;
+            <span class="type">Gizmos</span>.<span class="method">DrawLine</span>(pointA.position, pointB.position);
+            <span class="type">Gizmos</span>.color = <span class="type">Color</span>.green;
+            <span class="type">Gizmos</span>.<span class="method">DrawWireSphere</span>(pointA.position, <span class="literal">0.15f</span>);
+            <span class="type">Gizmos</span>.<span class="method">DrawWireSphere</span>(pointB.position, <span class="literal">0.15f</span>);
+        }
+    }
+
+    <span class="comment">// Terpanggil otomatis ketika collider objek ber-tag 'Player' memasuki area trigger musuh</span>
+    <span class="keyword">private void</span> <span class="method">OnTriggerEnter2D</span>(<span class="type">Collider2D</span> collision)
+    {
+        <span class="keyword">if</span> (collision.<span class="method">CompareTag</span>(<span class="string">"Player"</span>))
+        {
+            <span class="comment">// Aktifkan panel / teks GameOver</span>
+            <span class="keyword">if</span> (TextLabel != <span class="keyword">null</span>)
+            {
+                TextLabel.<span class="method">SetActive</span>(<span class="literal">true</span>);
+            }
+        }
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">7</span>
+            <div class="step-text"><strong>Hubungkan UI Text ke Musuh:</strong> Klik objek <strong>Enemy</strong>. Pada script <code>EnemyPatrol</code> di Inspector, drag game object <strong>GameOverText</strong> yang sudah dibuat sebelumnya ke kolom variabel <strong>Text Label</strong>. Jalankan game, tabrakan Player ke Musuh, layar akan memunculkan tulisan "GAME OVER".
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 8: Win & Lose Canvas System -->
+      <section id="winlose" class="module-section">
+        <h2><span class="section-num">08.</span> Sistem Win & Lose Canvas</h2>
+        <p>Agar game memiliki alur kompetitif, kita membutuhkan kondisi akhir permainan: <strong>Menang (Win Condition)</strong> saat menyelesaikan rintangan dan mencapai tujuan, serta <strong>Kalah (Lose Condition)</strong> berupa UI Panel yang menyediakan tombol interaktif untuk mengulangi permainan.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Buat Game Object Win Trigger (Finish Portal):</strong> Buat objek <strong>2D Object &gt; Sprites &gt; Square</strong> (misal diberi nama <code>WinPortal</code>) berbentuk bendera atau pintu di ujung kanan level. Tambahkan <strong>Box Collider 2D</strong>, dan centang opsi <strong>Is Trigger</strong>.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Buat Win & Lose UI Panel:</strong> Buat UI Canvas baru (klik kanan &gt; <strong>UI &gt; Canvas</strong>). Di dalam Canvas, buat dua UI Panel berbeda:
+              <br>• <strong>WinPanel:</strong> Berisi background transparan berwarna biru/hijau, teks "YOU WIN!" atau "VICTORY", serta tombol "Next Level" dan "Main Menu".
+              <br>• <strong>LosePanel:</strong> Berisi background transparan berwarna merah/hitam gelap, teks "GAME OVER", serta tombol "Restart" dan "Main Menu".
+              <br><em>Nonaktifkan (deactive) kedua panel tersebut secara default di Hierarchy.</em>
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Buat Script Manager Penanganan Level:</strong> Buat script C# bernama <code>GameLevelManager</code> untuk menangani scene reloading dan navigasi tombol:</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">GameLevelManager.cs</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+<span class="keyword">using</span> UnityEngine.SceneManagement; <span class="comment">// Dibutuhkan untuk memuat scene</span>
+
+<span class="keyword">public class</span> <span class="type">GameLevelManager</span> : <span class="type">MonoBehaviour</span>
+{
+    <span class="comment">// Memuat ulang level saat ini (Kalah / Restart)</span>
+    <span class="keyword">public void</span> <span class="method">RestartLevel</span>()
+    {
+        <span class="type">SceneManager</span>.<span class="method">LoadScene</span>(<span class="type">SceneManager</span>.<span class="method">GetActiveScene</span>().name);
+    }
+
+    <span class="comment">// Memuat Scene berikutnya berdasarkan Build Index (Menang / Next Level)</span>
+    <span class="keyword">public void</span> <span class="method">NextLevel</span>()
+    {
+        <span class="keyword">int</span> nextSceneIndex = <span class="type">SceneManager</span>.<span class="method">GetActiveScene</span>().buildIndex + <span class="literal">1</span>;
+        <span class="keyword">if</span> (nextSceneIndex < <span class="type">SceneManager</span>.sceneCountInBuildSettings)
+        {
+            <span class="type">SceneManager</span>.<span class="method">LoadScene</span>(nextSceneIndex);
+        }
+        <span class="keyword">else</span>
+        {
+            <span class="comment">// Kembali ke Menu Utama jika level habis</span>
+            <span class="type">SceneManager</span>.<span class="method">LoadScene</span>(<span class="string">"MainMenu"</span>);
+        }
+    }
+
+    <span class="comment">// Kembali ke Menu Utama</span>
+    <span class="keyword">public void</span> <span class="method">LoadMainMenu</span>()
+    {
+        <span class="type">SceneManager</span>.<span class="method">LoadScene</span>(<span class="string">"MainMenu"</span>);
+    }
+}</code></pre>
+        </div>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Hubungkan Fungsi Tombol:</strong> Buat Empty Game Object bernama <code>LevelManager</code> di Scene, tempelkan script <code>GameLevelManager</code>. Klik masing-masing tombol UI di Hierarchy (misal tombol Restart), geser objek <code>LevelManager</code> ke slot event <strong>On Click ()</strong> di Inspector, lalu pilih fungsi <code>GameLevelManager &gt; RestartLevel</code>. Lakukan hal serupa untuk tombol lainnya.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">5</span>
+            <div class="step-text"><strong>Buat Script Pemicu Kemenangan (WinTrigger):</strong> Buat script C# baru bernama <code>WinTrigger</code> dan tempelkan di objek <code>WinPortal</code>:</div>
+          </li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-title">WinTrigger.cs</span>
+            <button class="btn-copy" onclick="copyCode(this)">Salin Kode</button>
+          </div>
+          <pre><code><span class="keyword">using</span> UnityEngine;
+
+<span class="keyword">public class</span> <span class="type">WinTrigger</span> : <span class="type">MonoBehaviour</span>
+{
+    <span class="keyword">public</span> <span class="type">GameObject</span> winPanel; <span class="comment">// Hubungkan WinPanel di Inspector</span>
+
+    <span class="keyword">private void</span> <span class="method">OnTriggerEnter2D</span>(<span class="type">Collider2D</span> collision)
+    {
+        <span class="comment">// Mengecek apakah yang menyentuh sensor portal adalah Player</span>
+        <span class="keyword">if</span> (collision.<span class="method">CompareTag</span>(<span class="string">"Player"</span>))
+        {
+            <span class="keyword">if</span> (winPanel != <span class="keyword">null</span>)
+            {
+                winPanel.<span class="method">SetActive</span>(<span class="literal">true</span>); <span class="comment">// Tampilkan layar kemenangan</span>
+            }
+
+            <span class="comment">// Nonaktifkan pergerakan Player agar diam saat menang</span>
+            <span class="type">CharacterMovement</span> movement = collision.<span class="method">GetComponent</span>&lt;<span class="type">CharacterMovement</span>&gt;();
+            <span class="keyword">if</span> (movement != <span class="keyword">null</span>) movement.enabled = <span class="literal">false</span>;
+
+            <span class="type">Rigidbody2D</span> rb = collision.<span class="method">GetComponent</span>&lt;<span class="type">Rigidbody2D</span>&gt;();
+            <span class="keyword">if</span> (rb != <span class="keyword">null</span>) rb.linearVelocity = <span class="type">Vector2</span>.zero;
+        }
+    }
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- Section 9: Mengganti Art Asset -->
+      <section id="change-art" class="module-section">
+        <h2><span class="section-num">09.</span> Mengganti Art Asset</h2>
+        <p>Agar visual game terlihat lebih profesional dan estetis, kita harus mengganti objek-objek geometri dasar (Square/kotak putih) bawaan Unity dengan Asset Gambar 2D (Sprites) buatan sendiri atau yang diunduh dari internet.</p>
+
+        <ul class="step-list">
+          <li class="step-item">
+            <span class="step-bullet">1</span>
+            <div class="step-text"><strong>Import Asset Gambar ke Unity:</strong> Buat folder bernama <code>Sprites</code> di panel Project. Drag & drop berkas gambar (format <code>.png</code>) dari komputer Anda ke dalam folder Sprites tersebut.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">2</span>
+            <div class="step-text"><strong>Atur Konfigurasi Sprite:</strong> Klik file gambar asset di panel Project, lalu lihat bagian Inspector:
+              <br>• <strong>Texture Type:</strong> Atur menjadi <code>Sprite (2D and UI)</code>.
+              <br>• <strong>Sprite Mode:</strong> Pilih <code>Single</code> (jika hanya ada 1 gambar di berkas) atau <code>Multiple</code> (jika berupa sprite-sheet/kumpulan gambar karakter yang disatukan dalam satu file).
+              <br>• <strong>Pixels Per Unit (PPU):</strong> Mengatur seberapa besar ukuran gambar di workspace game. Semakin besar nilai PPU, sprite akan tampil semakin kecil dan padat. Angka standar adalah <code>100</code> atau <code>16</code>/<code>32</code> untuk gaya seni Pixel Art.
+              <br>• Klik tombol **Apply** di bagian bawah.
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">3</span>
+            <div class="step-text"><strong>Memotong Sprite Sheet (Slicing):</strong> Jika memilih opsi <code>Multiple</code>, klik tombol <strong>Sprite Editor</strong>. Pada jendela baru yang muncul, klik drop-down **Slice**, pilih type **Automatic** atau **Grid By Cell Size** (sesuai resolusi grid gambar), klik **Slice**, lalu klik **Apply** di kanan atas jendela Editor. Gambar akan terpotong secara individu.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">4</span>
+            <div class="step-text"><strong>Mengganti Visual Karakter (Player/Enemy):</strong> Klik objek <code>Player</code> atau <code>Enemy</code> di panel Hierarchy. Di panel Inspector, cari komponen <strong>Sprite Renderer</strong>. Seret sprite gambar karakter baru yang telah dipotong ke dalam kolom parameter <strong>Sprite</strong>. Visual kotak putih bawaan akan otomatis berganti dengan gambar baru.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">5</span>
+            <div class="step-text"><strong>Menyesuaikan Collider dengan Gambar Baru:</strong> Gambar kustom sering kali memiliki lekukan unik. Jika Anda masih menggunakan Box Collider 2D bawaan, batas tabrakan mungkin tidak pas:
+              <br>• Anda dapat menghapus Box Collider 2D (Klik kanan judul komponen &gt; **Remove Component**).
+              <br>• Tambahkan <strong>Capsule Collider 2D</strong> (sangat direkomendasikan untuk bentuk tubuh karakter tegak) atau <strong>Polygon Collider 2D</strong> (yang otomatis membentuk lekukan rumit sesuai outline pixel sprite).
+              <br>• Sesuaikan parameter **Size** dan **Offset** collider agar pas menyelimuti bagian vital karakter.
+            </div>
+          </li>
+          <li class="step-item">
+            <span class="step-bullet">6</span>
+            <div class="step-text"><strong>Membuat Latar Belakang (Background Tiling):</strong> Untuk memasang background langit/arena yang berulang (seamless):
+              <br>• Tarik sprite background ke panel Hierarchy.
+              <br>• Di komponen Sprite Renderer background, ganti parameter <strong>Draw Mode</strong> dari <code>Simple</code> menjadi <code>Tiled</code>.
+              <br>• Atur ukuran Width & Height di parameter Size. Visual background akan memanjang seperti ubin tanpa pecah.
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 10: Tantangan HOTS -->
+      <section id="tantangan" class="module-section">
+        <h2><span class="section-num">#</span> Tantangan Praktik Mandiri (HOTS)</h2>
+        <p>Setelah berhasil mengimplementasikan logika dasar di atas, uji kreativitas dan pemahaman logika pemrograman Anda dengan menyelesaikan tantangan modifikasi kode berikut:</p>
+        
+        <div class="alert-box alert-info" style="display: block;">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; margin-bottom: 10px; color: var(--primary);">⭐ TANTANGAN 1: Implementasi Double Jump</h3>
+          <p style="margin-bottom: 0;">Modifikasi script <code>CharacterMovement.cs</code> agar Player dapat melompat maksimal <strong>dua kali</strong> di udara sebelum kembali menyentuh tanah. <em>Clue: Tambahkan variabel integer <code>jumpCount</code> untuk melacak sisa lompatan player.</em></p>
+        </div>
+
+        <div class="alert-box alert-info" style="display: block;">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; margin-bottom: 10px; color: var(--primary);">⭐ TANTANGAN 2: Better Gravity Jump (Fisika Lebih Responsif)</h3>
+          <p style="margin-bottom: 0;">Ketika melompat, lompatan terasa melayang kurang responsif. Modifikasi physics gravitasi player dengan menaikkan <code>gravityScale</code> di Rigidbody2D secara dinamis saat Player berada dalam posisi jatuh bebas (fall). <em>Clue: Cek jika <code>rb.linearVelocity.y < 0</code> di Update.</em></p>
+        </div>
+
+        <div class="alert-box alert-info" style="display: block;">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; margin-bottom: 10px; color: var(--primary);">⭐ TANTANGAN 3: Koin / Collectible Star & UI Score</h3>
+          <p style="margin-bottom: 0;">Tambahkan objek bintang/koin bersensor trigger. Jika disentuh Player, objek akan hancur (<code>Destroy(gameObject)</code>) dan menambah nilai skor yang ditampilkan di layar menggunakan Canvas Text. <em>Clue: Gunakan variabel statis atau Manager UI.</em></p>
+        </div>
+      </section>
+
+      <!-- Section 11: Tugas Proyek Akhir -->
+      <section id="tugas-proyek" class="module-section">
+        <h2><span class="section-num">#</span> Tugas Proyek Akhir: Mini Game Platformer</h2>
+        <p>Untuk menguji penguasaan materi secara menyeluruh, Anda ditugaskan untuk merancang dan merakit sebuah game 2D Platformer utuh berstandar publikasi dengan ketentuan kriteria kelayakan berikut:</p>
+
+        <div class="alert-box alert-warning" style="margin-top: 15px;">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 1: Pembentukan UI Menu Utama</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Buat Scene baru bernama <code>MainMenu</code> yang memiliki judul game yang menarik, tombol "Play/Mulai", tombol "Level Select", dan tombol "Quit/Keluar".</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 2: Menu Seleksi Level</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Sediakan layar navigasi yang membolehkan pemain memilih level yang ingin dimainkan secara bebas (Level 1, Level 2, atau Level 3).</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 3: Desain 3 Level Game</h3>
+          <p style="margin: 0 0 10px; line-height: 1.6; color: var(--text-main);">Buat 3 scene level dengan tingkat kesulitan yang meningkat secara bertahap:</p>
+          <p style="margin: 0 0 6px; padding-left: 12px; line-height: 1.5; color: var(--text-secondary);">• <strong>Level 1:</strong> Pengenalan mekanik pergerakan dasar, melompati platform diam, tanpa musuh.</p>
+          <p style="margin: 0 0 6px; padding-left: 12px; line-height: 1.5; color: var(--text-secondary);">• <strong>Level 2:</strong> Pengenalan musuh patroli, platform melayang dengan jarak yang membutuhkan presisi lompatan.</p>
+          <p style="margin: 0; padding-left: 12px; line-height: 1.5; color: var(--text-secondary);">• <strong>Level 3:</strong> Kombinasi rintangan mematikan (musuh bergerak cepat, jurang duri, dan platform bergerak/licin).</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 4: Ganti Art Asset Keseluruhan</h3>
+          <p style="margin: 0; line-height: 1.6; color: var(--text-main);">Semua visual dalam game wajib diganti menggunakan Sprite Art 2D kustom (tidak boleh menggunakan kubus putih bawaan Unity). Ini mencakup Player, musuh, pijakan platform, background, dan portal finish.</p>
+        </div>
+
+        <div class="alert-box alert-warning">
+          <h3 style="font-family: var(--font-display); font-size: 1.05rem; color: #fecaca; margin-bottom: 8px;">📋 KETENTUAN 5: Sistem Menang & Kalah Terintegrasi</h3>
+          <p style="margin: 0 0 8px; line-height: 1.6; color: var(--text-main);">Hubungkan sistem kondisi menang dan kalah game secara teratur:</p>
+          <p style="margin: 0 0 6px; padding-left: 12px; line-height: 1.5; color: var(--text-secondary);">• Jika Player berhasil menyentuh portal akhir di Level 3, tampilkan layar/panel <strong>Kemenangan Akhir (Victory Screen)</strong> yang mengucapkan selamat dan opsi tombol kembali ke Main Menu.</p>
+          <p style="margin: 0; padding-left: 12px; line-height: 1.5; color: var(--text-secondary);">• Jika Player menyentuh musuh atau jatuh ke jurang di level mana pun, tampilkan layar/panel <strong>Kekalahan (Lose Screen)</strong> dengan tombol "Restart" untuk memuat ulang scene itu saja.</p>
+        </div>
+      </section>
+
+      <!-- Section: Glosarium -->
+      <section id="glosarium" class="module-section">
+        <h2><span class="section-num">📖</span> Glosarium Istilah & Fungsi Kode</h2>
+        <p>Kumpulan definisi istilah teknis, komponen Unity, dan fungsi C# yang digunakan dalam modul ini. Jadikan ini sebagai referensi cepat saat Anda menemukan kata-kata asing.</p>
+
+        <h3 style="color: var(--primary); font-family: var(--font-display); margin: 24px 0 12px; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase;">🎮 Istilah Unity Engine</h3>
+        <table style="width:100%; border-collapse:collapse; font-size:0.9rem; margin-bottom: 24px;">
+          <thead>
+            <tr style="background:rgba(0,240,255,0.08); border-bottom: 1px solid var(--border-glass);">
+              <th style="padding:10px 14px; text-align:left; color:var(--primary); width:25%;">Istilah</th>
+              <th style="padding:10px 14px; text-align:left; color:var(--text-secondary);">Penjelasan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Scene</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Layar atau "dunia" dalam game. Satu game bisa memiliki banyak scene, misalnya scene MainMenu, Level1, Level2, dsb.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Game Object</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Segala benda yang ada di dalam scene Unity — karakter, platform, kamera, lampu, dll. Semua adalah Game Object.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Component</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Modul kemampuan yang ditambahkan ke Game Object. Contoh: <strong>Rigidbody 2D</strong> memberi fisika, <strong>Box Collider 2D</strong> memberi batasan tabrakan.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Hierarchy</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Panel di sebelah kiri Unity yang menampilkan daftar semua Game Object yang ada di scene saat ini.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Inspector</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Panel di sebelah kanan Unity yang menampilkan semua komponen dan properti dari Game Object yang sedang dipilih.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Project Panel</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Panel di bagian bawah Unity yang berfungsi seperti File Explorer — menampilkan semua aset (gambar, script, audio, dsb.) dalam proyek.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Rigidbody 2D</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Komponen fisika yang membuat objek dipengaruhi gravitasi dan gaya luar. Tanpa ini, objek tidak akan jatuh atau bergerak secara realistis.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Box Collider 2D</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Komponen yang menambahkan batas "kotak tidak kasatmata" pada objek. Digunakan agar dua objek tidak saling menembus saat bertabrakan.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Is Trigger</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Opsi pada Collider. Jika dicentang, collider berfungsi sebagai <em>sensor area sentuh</em> (tidak memantulkan fisik). Digunakan untuk mendeteksi apakah dua objek bersinggungan.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Sprite</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Gambar 2D yang digunakan sebagai visual objek dalam game. Bisa berupa karakter, background, tile platform, atau ikon UI.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Prefab</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Template Game Object yang dapat digunakan berulang kali. Jika satu Prefab diubah, semua instansinya di scene akan ikut berubah secara otomatis.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Layer</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Label pengelompok objek. Berguna untuk mengatur aturan tabrakan fisika — misalnya: Player hanya bisa berinteraksi dengan Layer "Ground" dan "Enemy".</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Tag</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Label identitas pada Game Object. Digunakan untuk mengidentifikasi objek dalam kode, misalnya <code>CompareTag("Player")</code> untuk mengecek apakah objek yang menyentuh adalah Player.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Canvas</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Objek khusus tempat semua elemen UI (tombol, teks, panel) diletakkan. Canvas selalu di-render di atas elemen game biasa.</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 14px;"><code>TextMeshPro</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Sistem teks premium bawaan Unity yang menghasilkan teks tajam dan dapat dikustomisasi secara detail (ukuran, warna, outline, bayangan).</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 style="color: var(--primary); font-family: var(--font-display); margin: 24px 0 12px; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase;">⚙️ Fungsi & Method C# yang Digunakan</h3>
+        <table style="width:100%; border-collapse:collapse; font-size:0.9rem; margin-bottom: 24px;">
+          <thead>
+            <tr style="background:rgba(0,240,255,0.08); border-bottom: 1px solid var(--border-glass);">
+              <th style="padding:10px 14px; text-align:left; color:var(--primary); width:35%;">Fungsi / Method</th>
+              <th style="padding:10px 14px; text-align:left; color:var(--text-secondary);">Penjelasan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>void Start()</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Dipanggil satu kali saat objek pertama kali aktif. Digunakan untuk inisialisasi awal (mengatur nilai default variabel, dll).</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>void Update()</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Dipanggil setiap frame (60x per detik pada game 60fps). Digunakan untuk logika yang bergantung pada input dan waktu nyata.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>void FixedUpdate()</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Dipanggil pada interval waktu tetap (default 50x per detik), beriringan dengan engine fisika. <strong>Selalu gunakan ini untuk memanipulasi Rigidbody</strong>, bukan <code>Update()</code>.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>void LateUpdate()</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Dipanggil setiap frame, tetapi setelah semua <code>Update()</code> selesai. Ideal untuk kamera agar posisinya selalu mengikuti posisi akhir player per frame.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Input.GetAxisRaw("Horizontal")</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Membaca input sumbu horizontal dari tombol A/D atau panah kiri/kanan. Mengembalikan nilai <code>-1</code> (kiri), <code>0</code> (diam), atau <code>1</code> (kanan) tanpa smoothing.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Input.GetKeyDown(KeyCode.Space)</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Mengembalikan <code>true</code> hanya pada satu frame pertama saat tombol Space ditekan. Berbeda dengan <code>GetKey</code> yang bernilai <code>true</code> selama tombol ditahan.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>rb.linearVelocity</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Properti pada Rigidbody2D yang menyimpan kecepatan linear objek dalam format <code>Vector2(x, y)</code>. Mengubah nilai ini langsung menggerakkan objek tanpa delay fisika.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Physics2D.OverlapCircle()</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Fungsi pengecekan tabrakan berbentuk lingkaran. Mengembalikan <code>true</code> jika ada collider dari layer tertentu yang bersinggungan dengan area lingkaran yang didefinisikan.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Vector2.MoveTowards()</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Memindahkan posisi A menuju posisi B dengan kecepatan maksimum tertentu per frame. Digunakan pada AI patroli musuh agar gerakannya bertahap dan tidak langsung "teleport".</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Vector3.Lerp(a, b, t)</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Interpolasi linear antara dua titik (a ke b) dengan faktor <code>t</code> (0 = posisi a, 1 = posisi b). Digunakan pada kamera untuk menciptakan gerakan mengikuti player yang halus dan tidak kaku.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>gameObject.SetActive(bool)</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Mengaktifkan (<code>true</code>) atau menonaktifkan (<code>false</code>) sebuah Game Object dari dalam kode. Digunakan untuk menampilkan/menyembunyikan UI panel Game Over atau Win.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>Destroy(gameObject)</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Menghapus permanen sebuah Game Object dari scene saat runtime. Biasa digunakan untuk menghancurkan objek koin/collectible setelah diambil player.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>OnTriggerEnter2D(Collider2D c)</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Method yang dipanggil otomatis oleh Unity ketika sebuah collider ber-<strong>Is Trigger</strong> dimasuki oleh collider objek lain. Tidak ada gaya fisik yang dihasilkan.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><code>SceneManager.LoadScene()</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Memuat scene berdasarkan nama atau nomor indeksnya. Digunakan untuk berpindah antar scene (Main Menu → Level 1 → Level 2, dsb.).</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 14px;"><code>Time.deltaTime</code></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Waktu (dalam detik) yang berlalu sejak frame terakhir. Digunakan untuk membuat pergerakan konsisten di semua kecepatan komputer — kalikan kecepatan dengan ini agar tidak bergantung pada framerate.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 style="color: var(--primary); font-family: var(--font-display); margin: 24px 0 12px; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase;">💡 Konsep Pemrograman Game</h3>
+        <table style="width:100%; border-collapse:collapse; font-size:0.9rem;">
+          <thead>
+            <tr style="background:rgba(0,240,255,0.08); border-bottom: 1px solid var(--border-glass);">
+              <th style="padding:10px 14px; text-align:left; color:var(--primary); width:25%;">Konsep</th>
+              <th style="padding:10px 14px; text-align:left; color:var(--text-secondary);">Penjelasan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><strong>Velocity</strong></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Kecepatan gerak objek dengan arah (vektor). Contoh: velocity <code>(3, 0)</code> berarti bergerak ke kanan dengan kecepatan 3 unit per detik. Sumbu X = horizontal, sumbu Y = vertikal.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><strong>Gravity Scale</strong></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Pengali gravitasi pada Rigidbody2D. Nilai <code>1</code> = gravitasi normal. Nilai <code>2</code> = gravitasi dua kali lipat (jatuh lebih cepat). Nilai <code>0</code> = tidak dipengaruhi gravitasi.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><strong>Ground Check</strong></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Teknik memeriksa apakah kaki player menyentuh tanah/platform dengan memancarkan area deteksi (circle/ray) di bawah player dan mengecek apakah ada objek layer "Ground" yang tersentuh.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><strong>Patrol AI</strong></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Pola kecerdasan buatan sederhana di mana musuh bergerak bolak-balik antara dua titik (Point A dan Point B) secara otomatis tanpa memerlukan input pemain.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><strong>Drag and Drop (Inspector)</strong></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Cara menghubungkan referensi objek ke variabel <code>public</code> dalam script di Unity, dengan cara menyeret Game Object dari Hierarchy atau Project Panel ke kolom variabel di Inspector.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:10px 14px;"><strong>Win/Lose Condition</strong></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Kondisi akhir permainan. <em>Win Condition</em>: pemain berhasil mencapai tujuan (menyentuh portal finish). <em>Lose Condition</em>: pemain gagal (menyentuh musuh, jatuh ke jurang).</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 14px;"><strong>Sprite Slicing</strong></td>
+              <td style="padding:10px 14px; color:var(--text-main);">Proses memotong sebuah gambar spritesheet (kumpulan banyak gambar dalam satu file) menjadi sprite-sprite individual menggunakan Sprite Editor di Unity, lalu digunakan satu per satu pada objek game.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="materi-footer">
+    <p>© 2026 Tim Pembelajaran Pemrograman Gim - SMK Telkom Malang</p>
+  </footer>
+
+  <!-- Script for Smooth Scroll highlighting & Copy Code -->
+  <script>
+    // Copy code button function
+    function copyCode(button) {
+      const codeBlock = button.parentElement.nextElementSibling.querySelector('code');
+      const text = codeBlock.innerText;
+      
+      navigator.clipboard.writeText(text).then(() => {
+        const originalText = button.innerText;
+        button.innerText = "Tersalin!";
+        button.style.borderColor = "var(--primary)";
+        button.style.color = "var(--primary)";
+        
+        setTimeout(() => {
+          button.innerText = originalText;
+          button.style.borderColor = "var(--border-glass)";
+          button.style.color = "var(--text-secondary)";
+        }, 2000);
+      });
+    }
+
+    // Scrollspy Highlight Sidebar Links
+    window.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          const id = entry.target.getAttribute('id');
+          if (entry.intersectionRatio > 0) {
+            document.querySelectorAll('.toc-link').forEach(link => {
+              link.classList.remove('active');
+            });
+            const activeLink = document.querySelector(`.toc-link[href="#${id}"]`);
+            if (activeLink) {
+              activeLink.classList.add('active');
+            }
+          }
+        });
+      }, {
+        rootMargin: '-100px 0px -70% 0px'
+      });
+
+      // Track all sections that have an id and are inside the main content
+      document.querySelectorAll('main.content section, main.content div.module-header').forEach(section => {
+        if (section.id) {
+          observer.observe(section);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
