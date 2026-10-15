@@ -1324,10 +1324,10 @@ const QUIZ_BANK = [
       {
         "q": "Protokol standar internet apa yang digunakan untuk komunikasi data antara Unity dan server pada modul ini?",
         "options": [
-          "FTP",
-          "HTTP / HTTPS",
-          "SSH",
-          "SMTP"
+          "Protokol FTP",
+          "Protokol HTTP",
+          "Protokol SMTP",
+          "Protokol SSH"
         ],
         "answer": 1,
         "explanation": "Modul ini memanfaatkan protokol standar HTTP/HTTPS melalui class UnityWebRequest untuk bertukar data dengan REST API."
@@ -1335,10 +1335,10 @@ const QUIZ_BANK = [
       {
         "q": "Komponen UI Unity apa yang digunakan untuk menampung baris-baris leaderboard yang dapat digulir ke bawah?",
         "options": [
-          "Dropdown",
+          "Dropdown List",
           "Scroll View",
           "Toggle Group",
-          "Slider"
+          "Slider Area"
         ],
         "answer": 1,
         "explanation": "Scroll View dengan komponen Scroll Rect memungkinkan tampilan daftar pemain yang panjang digulir (scroll) secara vertikal."
@@ -1346,10 +1346,10 @@ const QUIZ_BANK = [
       {
         "q": "Format pertukaran data standar berbentuk teks ringkas yang digunakan pada modul ini adalah …",
         "options": [
-          "XML",
-          "JSON",
-          "CSV",
-          "YAML"
+          "Format XML",
+          "Format JSON",
+          "Format YAML",
+          "Format CSV"
         ],
         "answer": 1,
         "explanation": "JSON (JavaScript Object Notation) adalah format pertukaran data standar industri yang ringan, efisien, dan mudah dibaca."
@@ -1359,8 +1359,8 @@ const QUIZ_BANK = [
         "options": [
           "NetworkManager",
           "UnityWebRequest",
-          "WebClient",
-          "SocketIO"
+          "SocketIOClient",
+          "HttpWebHandler"
         ],
         "answer": 1,
         "explanation": "UnityWebRequest adalah class resmi modern Unity untuk mengirim dan menerima request HTTP (GET, POST, dll)."
@@ -1368,10 +1368,10 @@ const QUIZ_BANK = [
       {
         "q": "Apa yang dilakukan aplikasi game secara otomatis setelah skor baru pemain berhasil dikirim ke server (POST)?",
         "options": [
-          "Menutup game secara paksa",
-          "Memuat ulang data terbaru dari server (Refresh GET)",
-          "Menghapus semua file prefab",
-          "Mengubah resolusi layar"
+          "Menutup jendela aplikasi game secara paksa",
+          "Memuat ulang data terbaru via request GET",
+          "Menghapus semua file prefab pada project",
+          "Mengubah resolusi layar monitor komputer"
         ],
         "answer": 1,
         "explanation": "Setelah skor tersimpan di server, fungsi Refresh (GET) otomatis dipanggil agar urutan skor terbaru langsung terbarui di layar."
@@ -1385,10 +1385,10 @@ const QUIZ_BANK = [
       {
         "q": "Dalam analogi restoran untuk menjelaskan arsitektur REST API, peran API diibaratkan sebagai …",
         "options": [
-          "Tamu yang memesan menu",
-          "Pelayan yang mencatat pesanan dan mengantarkan makanan",
-          "Kompor di dapur",
-          "Buku kasir restoran"
+          "Tamu yang memesan menu makanan di meja",
+          "Pelayan penghubung tamu dengan dapur",
+          "Koki yang mengolah bahan makanan dapur",
+          "Kasir yang mencatat laporan keuangan"
         ],
         "answer": 1,
         "explanation": "Pelayan bertindak sebagai jembatan (API) yang menghubungkan pelanggan (client) dengan dapur (server & database)."
@@ -1396,10 +1396,10 @@ const QUIZ_BANK = [
       {
         "q": "Karakteristik 'Stateless' pada arsitektur REST API bermakna bahwa …",
         "options": [
-          "Server selalu menyimpan riwayat sesi game setiap pemain",
-          "Setiap request harus mandiri dan membawa seluruh data yang dibutuhkan tanpa tergantung riwayat sebelumnya",
-          "Game tidak boleh dimainkan secara offline",
-          "Server tidak memiliki basis data"
+          "Server selalu menyimpan seluruh riwayat sesi percakapan",
+          "Setiap request harus mandiri tanpa bergantung data lalu",
+          "Game Unity tidak diizinkan mengirimkan request berulang",
+          "Database server otomatis menghapus data pemain nonaktif"
         ],
         "answer": 1,
         "explanation": "Stateless berarti server memperlakukan setiap request secara independen tanpa menyimpan konteks percakapan lampau antar-request."
@@ -1407,10 +1407,10 @@ const QUIZ_BANK = [
       {
         "q": "Metode HTTP manakah yang digunakan untuk meminta atau membaca data dari server tanpa mengubah isi database?",
         "options": [
-          "POST",
-          "GET",
-          "DELETE",
-          "PUT"
+          "Metode POST",
+          "Metode GET",
+          "Metode PUT",
+          "Metode DEL"
         ],
         "answer": 1,
         "explanation": "Metode HTTP GET digunakan untuk membaca/mengambil data (operasi Read pada prinsip CRUD)."
@@ -1418,10 +1418,10 @@ const QUIZ_BANK = [
       {
         "q": "Kode status HTTP '200 OK' dari server menandakan bahwa …",
         "options": [
-          "Request berhasil diproses dan server mengembalikan data",
-          "Alamat URL endpoint tidak ditemukan",
-          "Server mengalami error internal",
-          "Data yang dikirim client salah format"
+          "Request berhasil diproses tanpa adanya kesalahan server",
+          "Alamat URL endpoint tujuan tidak ditemukan dalam server",
+          "Terjadi gangguan fatal pada sistem pemrosesan database",
+          "Format struktur data yang dikirimkan client tidak valid"
         ],
         "answer": 0,
         "explanation": "Kode status 200 OK adalah penanda standar bahwa request HTTP berhasil diproses tanpa masalah."
@@ -1429,10 +1429,10 @@ const QUIZ_BANK = [
       {
         "q": "Manakah sintaks pasangan key-value JSON yang valid di bawah ini?",
         "options": [
-          "{nama: Budi, nilai: 100}",
-          "{\"nama\": \"Budi\", \"nilai\": 100}",
-          "[nama => 'Budi', nilai => 100]",
-          "<nama>Budi</nama>"
+          "{'nama': 'Budi', 'skor': 100}",
+          "{\"nama\": \"Budi\", \"skor\": 100}",
+          "[nama => 'Budi', skor => 100]",
+          "<nama>Budi</nama><skor>100</>"
         ],
         "answer": 1,
         "explanation": "Pada format JSON standar, nama kunci (key) wajib diapit dengan tanda kutip ganda (\"key\")."
@@ -1446,10 +1446,10 @@ const QUIZ_BANK = [
       {
         "q": "Mengapa komunikasi web di Unity wajib menggunakan Coroutine (IEnumerator) dan yield return?",
         "options": [
-          "Supaya proses request berjalan asinkron di background sehingga game tidak freeze/lag",
-          "Supaya grafis game menjadi 3D",
-          "Karena C# tidak mendukung variabel string",
-          "Supaya kuota internet gratis"
+          "Agar request berjalan di background tanpa membuat frame game membeku",
+          "Agar performa rendering visual grafis game otomatis naik menjadi 4K",
+          "Karena compiler C# Unity melarang deklarasi variabel bertipe string",
+          "Supaya penggunaan kuota data internet saat bermain game menjadi nol"
         ],
         "answer": 0,
         "explanation": "Coroutine menjalankan proses asinkron di background thread sehingga frame rate game tetap berjalan lancar 60 FPS."
@@ -1457,10 +1457,10 @@ const QUIZ_BANK = [
       {
         "q": "Method helper statis apa dari UnityWebRequest yang digunakan khusus untuk meminta data GET dari server?",
         "options": [
-          "UnityWebRequest.Post()",
+          "UnityWebRequest.Post(url)",
           "UnityWebRequest.Get(url)",
-          "UnityWebRequest.Put()",
-          "UnityWebRequest.Delete()"
+          "UnityWebRequest.Put(url)",
+          "UnityWebRequest.Set(url)"
         ],
         "answer": 1,
         "explanation": "UnityWebRequest.Get(url) adalah method bawaan untuk membuat request HTTP GET secara praktis."
@@ -1469,9 +1469,9 @@ const QUIZ_BANK = [
         "q": "Properti apa pada UnityWebRequest yang digunakan untuk membaca teks balasan JSON yang diterima dari server?",
         "options": [
           "request.downloadHandler.text",
-          "request.uploadHandler.data",
-          "request.urlText",
-          "request.consoleLog"
+          "request.uploadHandler.stream",
+          "request.responseMessage.data",
+          "request.networkConsole.debug"
         ],
         "answer": 0,
         "explanation": "DownloadHandler bertugas menampung data unduhan dari server, dan properti .text mengembalikan string teksnya."
@@ -1479,10 +1479,10 @@ const QUIZ_BANK = [
       {
         "q": "Status code HTTP berapakah yang menandakan bahwa request GET berhasil dan server mengembalikan data?",
         "options": [
-          "404 Not Found",
-          "200 OK",
-          "500 Server Error",
-          "400 Bad Request"
+          "Status 404 (Not Found)",
+          "Status 200 (Success OK)",
+          "Status 500 (Fatal Error)",
+          "Status 400 (Bad Request)"
         ],
         "answer": 1,
         "explanation": "HTTP 200 OK menandakan permintaan data sukses diterima dan diproses oleh server."
@@ -1490,10 +1490,10 @@ const QUIZ_BANK = [
       {
         "q": "Apa fungsi keyword 'using (UnityWebRequest request = ...)' dalam script C# Unity?",
         "options": [
-          "Untuk mencegah file script terhapus",
-          "Untuk memastikan memori dan koneksi request dibersihkan (Dispose) secara otomatis setelah selesai",
-          "Untuk mempercepat koneksi internet",
-          "Untuk menampilkan UI di layar"
+          "Mencegah file script terhapus dari folder project Assets",
+          "Memastikan resource memori request dibersihkan otomatis",
+          "Meningkatkan kecepatan koneksi bandwidth secara otomatis",
+          "Menampilkan jendela notifikasi popup UI di layar game"
         ],
         "answer": 1,
         "explanation": "Blok using menjamin method Dispose() otomatis dipanggil guna membersihkan resource memori native setelah request selesai."
@@ -1507,10 +1507,10 @@ const QUIZ_BANK = [
       {
         "q": "Class helper bawaan Unity apa yang digunakan untuk mengemas data form HTML (key-value) untuk dikirim ke server?",
         "options": [
-          "WWWForm",
-          "JsonUtility",
-          "NetworkClient",
-          "FormBuilder"
+          "Class WWWForm",
+          "Class FormData",
+          "Class HttpPost",
+          "Class WebField"
         ],
         "answer": 0,
         "explanation": "WWWForm adalah class resmi bawaan Unity untuk mengemas parameter form data multipart/form-data."
@@ -1518,10 +1518,10 @@ const QUIZ_BANK = [
       {
         "q": "Method apa pada class WWWForm yang digunakan untuk memasukkan pasangan kunci dan nilai?",
         "options": [
-          "form.AddField(\"key\", value)",
-          "form.Push(\"key\", value)",
-          "form.Insert(\"key\", value)",
-          "form.SetData(\"key\", value)"
+          "form.AddField(\"kunci\", nilai)",
+          "form.InsertKey(\"kunci\", nilai)",
+          "form.AttachVal(\"kunci\", nilai)",
+          "form.AppendRow(\"kunci\", nilai)"
         ],
         "answer": 0,
         "explanation": "Method form.AddField(fieldName, value) digunakan untuk menambahkan field teks maupun angka ke form."
@@ -1530,20 +1530,20 @@ const QUIZ_BANK = [
         "q": "Method bawaan UnityWebRequest apa yang secara otomatis mengelola data dari objek WWWForm saat dikirimkan?",
         "options": [
           "UnityWebRequest.Post(url, form)",
-          "UnityWebRequest.Get(url)",
-          "UnityWebRequest.SendForm(url)",
-          "UnityWebRequest.Upload(form)"
+          "UnityWebRequest.Send(url, form)",
+          "UnityWebRequest.Push(url, form)",
+          "UnityWebRequest.Sync(url, form)"
         ],
         "answer": 0,
         "explanation": "UnityWebRequest.Post(url, form) secara otomatis mengatur UploadHandler, boundary, dan Content-Type."
       },
       {
-        "q": "Tipe Content-Type apa yang secara otomatis diatur oleh Unity saat mengirim data menggunakan WWWForm?",
+        "q": "Tipe header Content-Type apa yang secara otomatis disiapkan oleh Unity saat mengirim data menggunakan WWWForm?",
         "options": [
-          "application/json",
-          "multipart/form-data / application/x-www-form-urlencoded",
-          "text/plain",
-          "image/png"
+          "Content-Type: application/json; charset=utf-8",
+          "Content-Type: multipart/form-data; boundary=...",
+          "Content-Type: text/plain; format=flowed; en...",
+          "Content-Type: application/octet-stream; bin=1"
         ],
         "answer": 1,
         "explanation": "Unity otomatis membungkus form sebagai form-data standar web tanpa perlu kita atur manual."
@@ -1551,10 +1551,10 @@ const QUIZ_BANK = [
       {
         "q": "Apa keunggulan utama menggunakan WWWForm dibandingkan menyusun payload JSON manual untuk form input sederhana?",
         "options": [
-          "Tidak memerlukan konversi byte array manual dan otomatis kompatibel dengan variabel POST backend (seperti $_POST di PHP)",
-          "Grafis game meningkat drastis",
-          "Tidak memerlukan koneksi internet",
-          "Dapat dijalankan tanpa Unity"
+          "Otomatis mengatur header dan langsung dikenali backend",
+          "Mampu meningkatkan frame rate grafik game menjadi 120 FPS",
+          "Dapat beroperasi normal tanpa memerlukan jaringan internet",
+          "Menghapus kebutuhan kompilasi kode program di Unity Editor"
         ],
         "answer": 0,
         "explanation": "WWWForm sangat praktis untuk form sederhana karena tidak butuh serialisasi byte dan langsung dikenali backend web standar."
@@ -1569,9 +1569,9 @@ const QUIZ_BANK = [
         "q": "Header apa yang wajib disetel secara manual pada request agar server mengetahui bahwa payload yang dikirim berformat JSON?",
         "options": [
           "request.SetRequestHeader(\"Content-Type\", \"application/json\")",
-          "request.SetRequestHeader(\"Accept\", \"text/html\")",
-          "request.SetRequestHeader(\"Type\", \"binary\")",
-          "request.SetRequestHeader(\"Format\", \"xml\")"
+          "request.SetRequestHeader(\"Content-Type\", \"multipart/form-data\")",
+          "request.SetRequestHeader(\"Content-Type\", \"text/plain-stream\")",
+          "request.SetRequestHeader(\"Content-Type\", \"application/x-www\")"
         ],
         "answer": 0,
         "explanation": "Header Content-Type: application/json memberitahu server bahwa isi body request adalah teks terstruktur JSON."
@@ -1579,10 +1579,10 @@ const QUIZ_BANK = [
       {
         "q": "Fungsi dari 'Encoding.UTF8.GetBytes(jsonPayload)' dalam pengiriman POST JSON adalah …",
         "options": [
-          "Mengonversi teks string JSON menjadi barisan byte biner UTF-8 agar dapat ditransmisikan lewat jaringan",
-          "Menghapus karakter spasi",
-          "Mengacak password pemain",
-          "Menyimpan data ke PlayerPrefs"
+          "Mengubah teks JSON menjadi deretan byte biner jaringan",
+          "Mengenkripsi kata sandi rahasia menggunakan hash SHA256",
+          "Menghapus seluruh karakter spasi kosong di dalam string",
+          "Menyimpan data string ke dalam penyimpanan PlayerPrefs"
         ],
         "answer": 0,
         "explanation": "Jaringan internet mentransmisikan data biner, sehingga string JSON harus diubah ke bentuk byte array UTF-8."
@@ -1591,9 +1591,9 @@ const QUIZ_BANK = [
         "q": "Handler pengirim apa yang dipasang pada request untuk mengirimkan barisan byte data mentah (raw bytes) ke server?",
         "options": [
           "UploadHandlerRaw",
-          "DownloadHandlerBuffer",
-          "CertificateHandler",
-          "AudioClipHandler"
+          "UploadBufferData",
+          "DownloadHandlerB",
+          "NetworkStreamRaw"
         ],
         "answer": 0,
         "explanation": "UploadHandlerRaw digunakan untuk mengirim payload raw byte array seperti JSON string ke server."
@@ -1601,10 +1601,10 @@ const QUIZ_BANK = [
       {
         "q": "Mengapa format pengiriman JSON sangat populer dan banyak digunakan pada arsitektur REST API modern?",
         "options": [
-          "Karena sangat fleksibel untuk struktur data yang kompleks, bertingkat (nested object), dan kumpulan data (array)",
-          "Karena ukuran teksnya selalu berwarna biru",
-          "Karena hanya bisa dibaca oleh komputer super",
-          "Karena tidak memerlukan server backend"
+          "Mendukung representasi data kompleks, bertingkat, dan array",
+          "Membuat ukuran file kompilasi game Unity menjadi lebih hemat",
+          "Memungkinkan komunikasi server tanpa perlu protokol jaringan",
+          "Menyediakan fitur rendering grafik antarmuka secara otomatis"
         ],
         "answer": 0,
         "explanation": "Format JSON adalah standar baku REST API modern karena kemampuannya memodelkan hierarki data kompleks."
@@ -1612,10 +1612,10 @@ const QUIZ_BANK = [
       {
         "q": "Setelah pengujian POST JSON berhasil dengan status 200, bagaimana cara membuktikan bahwa skor baru tersebut tersimpan di server?",
         "options": [
-          "Menjalankan kembali script LatihanGetConsole untuk memeriksa apakah nama dan skor baru muncul di daftar peringkat",
-          "Mematikan monitor komputer",
-          "Menghapus folder Assets",
-          "Mengubah nama scene"
+          "Menjalankan script GET untuk memverifikasi data baru muncul",
+          "Memeriksa penurunan konsumsi daya baterai perangkat laptop",
+          "Menghapus aset gambar prefab dari dalam folder project game",
+          "Menutup Unity Editor lalu menyalakan ulang komputer kerja"
         ],
         "answer": 0,
         "explanation": "Validasi dua arah dilakukan dengan memanggil GET kembali untuk membuktikan skor baru telah tersimpan di database online."
@@ -1631,8 +1631,8 @@ const QUIZ_BANK = [
         "options": [
           "Horizontal Layout Group",
           "Vertical Layout Group",
-          "Grid Layout Group",
-          "Canvas Group"
+          "Grid Layout Container",
+          "Canvas Scaler Manager"
         ],
         "answer": 1,
         "explanation": "Vertical Layout Group menata posisi setiap elemen anak secara vertikal dari atas ke bawah secara teratur."
@@ -1640,10 +1640,10 @@ const QUIZ_BANK = [
       {
         "q": "Komponen apa yang membuat tinggi Content di Scroll View membesar otomatis sesuai jumlah baris data?",
         "options": [
-          "Content Size Fitter (Vertical Fit: Preferred Size)",
-          "Aspect Ratio Fitter",
-          "Box Collider",
-          "Layout Element"
+          "Content Size Fitter (Vertical Fit: Preferred)",
+          "Aspect Ratio Fitter (Aspect Mode: Fit Parent)",
+          "Layout Element (Preferred Height: Auto Resize)",
+          "Scroll Rect (Movement Type: Elastic Drag Area)"
         ],
         "answer": 0,
         "explanation": "Content Size Fitter dengan Vertical Fit = Preferred Size menyesuaikan tinggi container sesuai total tinggi anak-anaknya."
@@ -1652,9 +1652,9 @@ const QUIZ_BANK = [
         "q": "Objek utama yang menjadi wadah dasar bagi seluruh komponen antarmuka grafis (UI Canvas) di Unity adalah …",
         "options": [
           "EventSystem",
-          "Canvas",
+          "Canvas UI",
           "Main Camera",
-          "Panel"
+          "Panel View"
         ],
         "answer": 1,
         "explanation": "Canvas adalah area kerja tempat semua elemen UI (teks, gambar, tombol) diletakkan dan dirender."
@@ -1663,9 +1663,9 @@ const QUIZ_BANK = [
         "q": "Komponen apa yang terdapat pada Viewport untuk memotong tampilan baris agar tidak keluar dari batas area jendela?",
         "options": [
           "Rect Mask 2D",
-          "Sprite Renderer",
-          "Mesh Collider",
-          "Audio Reverb Filter"
+          "Box Mask Pro",
+          "Canvas Group",
+          "Mesh Clipper"
         ],
         "answer": 0,
         "explanation": "Rect Mask 2D memotong dan menyembunyikan pixel elemen anak yang keluar dari batas kotak Viewport."
@@ -1673,10 +1673,10 @@ const QUIZ_BANK = [
       {
         "q": "Mengapa baris leaderboard (LeaderboardItem) perlu disimpan sebagai Prefab?",
         "options": [
-          "Agar tidak bisa diedit lagi",
-          "Agar script dapat menggandakannya (Instantiate) sebanyak jumlah pemain yang diterima dari server",
-          "Supaya ukuran teks membesar",
-          "Agar otomatis terhubung ke internet"
+          "Agar tidak dapat dimodifikasi lagi setelah dibuat di editor",
+          "Agar script dapat menduplikasi baris sesuai jumlah data API",
+          "Supaya komponen visual teks otomatis membesar saat dirender",
+          "Agar baris langsung tersimpan ke dalam penyimpanan cloud DB"
         ],
         "answer": 1,
         "explanation": "Prefab berfungsi sebagai template master yang dapat di-instantiate berulang kali sesuai jumlah data skor pemain."
@@ -1690,10 +1690,10 @@ const QUIZ_BANK = [
       {
         "q": "Atribut apa yang wajib ditulis di atas deklarasi class model C# agar bisa diproses oleh JsonUtility?",
         "options": [
-          "[System.Serializable] atau [Serializable]",
-          "[HideInInspector]",
-          "[RequireComponent]",
-          "[ExecuteAlways]"
+          "[System.Serializable]",
+          "[RequireComponentAPI]",
+          "[ExecuteInEditModeUI]",
+          "[DisallowMultipleApp]"
         ],
         "answer": 0,
         "explanation": "Atribut [Serializable] menandai class C# agar dapat diserialisasi dan dideserialisasi oleh JsonUtility."
@@ -1701,10 +1701,10 @@ const QUIZ_BANK = [
       {
         "q": "Jika pada JSON dari server properti bertuliskan \"nama\": \"Budi\", variabel pada class C# harus bernama …",
         "options": [
-          "player_name",
-          "nama (harus sama persis)",
-          "name",
-          "userName"
+          "Variabel: public string player_name;",
+          "Variabel: public string nama;",
+          "Variabel: public string userName;",
+          "Variabel: public string namaUser;"
         ],
         "answer": 1,
         "explanation": "JsonUtility memetakan data berdasarkan nama variabel. Jika berbeda huruf/ejaan, nilainya tidak akan terbaca."
@@ -1713,9 +1713,9 @@ const QUIZ_BANK = [
         "q": "Fungsi bawaan Unity untuk mengubah teks JSON mentah dari server menjadi objek class C# adalah …",
         "options": [
           "JsonUtility.FromJson<T>(json)",
-          "JsonUtility.ToJson(obj)",
-          "Convert.ToInt32(json)",
-          "ToString(json)"
+          "JsonUtility.ToJsonString(obj)",
+          "Convert.ToClassObject(string)",
+          "PlayerPrefs.SetJsonData(json)"
         ],
         "answer": 0,
         "explanation": "FromJson<T>() mengonversi string JSON menjadi objek C# sesuai tipe class T yang ditentukan."
@@ -1723,10 +1723,10 @@ const QUIZ_BANK = [
       {
         "q": "Fungsi bawaan Unity untuk mengubah objek C# menjadi teks format JSON adalah …",
         "options": [
-          "JsonUtility.ToJson(object)",
-          "JsonUtility.FromJson<T>()",
-          "PlayerPrefs.GetString()",
-          "Debug.Log()"
+          "JsonUtility.ToJson(objectData)",
+          "JsonUtility.Parse(objectData)",
+          "Convert.ToStringFormat(object)",
+          "Debug.LogObjectToJson(object)"
         ],
         "answer": 0,
         "explanation": "ToJson() mengubah objek C# yang serializable menjadi string berformat JSON."
@@ -1734,10 +1734,10 @@ const QUIZ_BANK = [
       {
         "q": "Mengapa properti data pemain pada LeaderboardResponse dideklarasikan sebagai LeaderboardEntry[] data?",
         "options": [
-          "Karena datanya hanya berupa satu angka",
-          "Karena server mengirimkan daftar kumpulan data pemain dalam format Array [ ... ]",
-          "Karena data bertipe gambar",
-          "Karena data tidak memiliki nama"
+          "Karena data yang dikirimkan oleh server hanya berupa satu angka",
+          "Karena server mengirimkan daftar kumpulan data pemain tipe array",
+          "Karena data tersebut merepresentasikan aset tekstur gambar grafis",
+          "Karena compiler C# melarang penggunaan format koleksi tipe list"
         ],
         "answer": 1,
         "explanation": "Simbol kurung siku [] menandakan tipe Array, cocok dengan struktur JSON \"data\": [...] dari server."
@@ -1751,10 +1751,10 @@ const QUIZ_BANK = [
       {
         "q": "Namespace apa yang harus ditambahkan di baris paling atas script untuk mengakses TextMeshPro?",
         "options": [
-          "using UnityEngine.UI;",
-          "using TMPro;",
-          "using System.Text;",
-          "using UnityEngine.Audio;"
+          "using UnityEngine.UIElements;",
+          "using TMPro; // TextMeshPro",
+          "using System.Text.Encoding;",
+          "using UnityEngine.Networking;"
         ],
         "answer": 1,
         "explanation": "using TMPro; adalah namespace resmi untuk mengakses tipe data TMP_Text dan TMP_InputField."
@@ -1762,10 +1762,10 @@ const QUIZ_BANK = [
       {
         "q": "Method apa yang dibuat pada LeaderboardItemUI untuk mengisi teks peringkat, nama, dan nilai ke tampilan baris?",
         "options": [
-          "Awake()",
-          "SetData(LeaderboardEntry entry)",
-          "OnDestroy()",
-          "Update()"
+          "public void AwakeUI(Entry data)",
+          "public void SetData(Entry data)",
+          "public void Update(Entry data)",
+          "public void Render(Entry data)"
         ],
         "answer": 1,
         "explanation": "Method SetData menerima data satu pemain lalu memasukkannya ke masing-masing komponen teks UI."
@@ -1773,10 +1773,10 @@ const QUIZ_BANK = [
       {
         "q": "Bagaimana cara memasukkan variabel angka entry.nilai ke dalam properti teks nilaiText.text?",
         "options": [
-          "nilaiText.text = entry.nilai;",
+          "nilaiText.text = entry.nilai.ToText();",
           "nilaiText.text = entry.nilai.ToString();",
-          "nilaiText.text = (bool)entry.nilai;",
-          "nilaiText.text = \"\";"
+          "nilaiText.text = (string)entry.nilai;",
+          "nilaiText.text = Convert.ToChar(nilai);"
         ],
         "answer": 1,
         "explanation": "Karena nilaiText.text bertipe string, variabel integer wajib dikonversi dengan .ToString()."
@@ -1785,9 +1785,9 @@ const QUIZ_BANK = [
         "q": "Di manakah komponen script LeaderboardItemUI harus dipasang?",
         "options": [
           "Pada GameObject root Prefab LeaderboardItem",
-          "Pada Main Camera",
-          "Pada Directional Light",
-          "Pada file scene"
+          "Pada Main Camera yang berada di dalam Scene",
+          "Pada EventSystem pengatur navigasi kontrol",
+          "Pada Directional Light pencahayaan ruangan"
         ],
         "answer": 0,
         "explanation": "Script dipasang langsung pada root prefab baris agar setiap item baris yang digandakan memiliki pengontrol UI-nya sendiri."
@@ -1812,10 +1812,10 @@ const QUIZ_BANK = [
       {
         "q": "Mengapa script menghapus baris lama dengan Destroy(child.gameObject) sebelum menampilkan data baru?",
         "options": [
-          "Untuk mereset koneksi internet",
-          "Untuk mencegah penumpukan baris lama dan duplikasi data di tampilan Scroll View",
-          "Untuk menghapus akun pengguna",
-          "Untuk menutup Canvas"
+          "Untuk menghentikan koneksi internet sementara waktu",
+          "Mencegah duplikasi dan penumpukan baris lama di UI",
+          "Menghapus riwayat akun pemain dari database server",
+          "Menonaktifkan komponen Scroll Rect secara otomatis"
         ],
         "answer": 1,
         "explanation": "Pembersihan (clearing) diperlukan agar baris lama tidak tertumpuk dengan baris baru yang diambil dari server."
@@ -1823,10 +1823,10 @@ const QUIZ_BANK = [
       {
         "q": "Perintah C# apa yang digunakan untuk membuat instance baru dari prefab baris ke dalam container content?",
         "options": [
-          "Instantiate(leaderboardItemPrefab, content)",
-          "new GameObject()",
-          "CreateInstance()",
-          "SpawnObject()"
+          "Instantiate(prefabItem, content)",
+          "GameObject.Create(prefabItem, c)",
+          "content.AddNewPrefab(prefabItem)",
+          "Transform.SpawnNode(prefab, con)"
         ],
         "answer": 0,
         "explanation": "Instantiate(prefab, parentTransform) menggandakan prefab dan menempatkannya sebagai anak dari objek parent."
@@ -1834,10 +1834,10 @@ const QUIZ_BANK = [
       {
         "q": "Variabel isProcessing bernilai true saat request sedang berjalan bertujuan untuk …",
         "options": [
-          "Menghitung skor pemain",
-          "Mencegah spam klik pada tombol submit saat request sebelumnya belum selesai",
-          "Mengubah warna teks status",
-          "Mematikan game"
+          "Menghitung total perolehan skor pemain di dalam game",
+          "Mencegah spam klik tombol submit saat request jalan",
+          "Mengubah warna teks notifikasi status menjadi kuning",
+          "Menghentikan musik latar belakang saat proses loading"
         ],
         "answer": 1,
         "explanation": "isProcessing mencegah pengguna mengirimkan request ganda bertubi-tubi saat request sebelumnya masih diproses."
@@ -1846,9 +1846,9 @@ const QUIZ_BANK = [
         "q": "Pada Cara 2 (WWWForm), method apa yang digunakan untuk memasukkan nilai baru ke dalam formulir?",
         "options": [
           "form.AddField(\"nama\", nilai)",
-          "form.SetItem(\"nama\", nilai)",
-          "form.Put(\"nama\", nilai)",
-          "form.Append(\"nama\", nilai)"
+          "form.SetProperty(\"nama\", n)",
+          "form.InsertEntry(\"nama\", n)",
+          "form.AppendParam(\"nama\", n)"
         ],
         "answer": 0,
         "explanation": "Method form.AddField(key, value) digunakan untuk mendaftarkan parameter data ke formulir WWWForm."
@@ -1856,10 +1856,10 @@ const QUIZ_BANK = [
       {
         "q": "Bagaimana cara beralih antara Cara 1 (JSON) dan Cara 2 (WWWForm) pada script LeaderboardManager?",
         "options": [
-          "Harus menulis ulang seluruh script dari awal",
-          "Cukup mengganti pilihan dropdown 'Metode Kirim' di Inspector Unity",
-          "Menghapus komponen Canvas",
-          "Menginstal plugin eksternal"
+          "Wajib mengedit dan menulis ulang kode program C#",
+          "Cukup mengganti pilihan opsi dropdown Inspector",
+          "Menghapus komponen Canvas UI dari jendela scene",
+          "Menginstal paket plugin pihak ketiga dari GitHub"
         ],
         "answer": 1,
         "explanation": "Variabel enum publik metodeKirim memungkinkan pergantian metode secara instan lewat dropdown Inspector."
@@ -1873,21 +1873,21 @@ const QUIZ_BANK = [
       {
         "q": "Bagian manakah pada komponen Button di Unity yang digunakan untuk mendaftarkan fungsi yang dieksekusi saat tombol diklik?",
         "options": [
-          "Image Type",
-          "On Click ()",
-          "Transition",
-          "Target Graphic"
+          "List Event On Click ()",
+          "Properti Transition UI",
+          "Pilihan Navigation Map",
+          "Pengaturan Target Image"
         ],
-        "answer": 1,
-        "explanation": "Daftar On Click () adalah event listener bawaan Unity UI untuk memanggil method saat tombol ditekan."
+        "answer": 0,
+        "explanation": "List On Click () adalah event listener bawaan Unity UI untuk memanggil method saat tombol ditekan."
       },
       {
         "q": "Tipe konten (Content Type) apa yang disarankan pada NilaiInput agar pengguna hanya bisa menginput angka?",
         "options": [
-          "Standard",
-          "Integer Number",
-          "Password",
-          "Autocorrected"
+          "Content Type: Standard",
+          "Content Type: Integer",
+          "Content Type: Password",
+          "Content Type: Autocor"
         ],
         "answer": 1,
         "explanation": "Integer Number membatasi karakter input hanya berupa angka bulat, mencegah input teks yang salah."
@@ -1895,10 +1895,10 @@ const QUIZ_BANK = [
       {
         "q": "Fungsi manakah dari script LeaderboardManager yang harus dihubungkan ke event On Click tombol Refresh?",
         "options": [
-          "SubmitScore()",
-          "RefreshLeaderboard()",
-          "Start()",
-          "DisplayLeaderboard()"
+          "LeaderboardManager.SubmitScore()",
+          "LeaderboardManager.RefreshList()",
+          "LeaderboardManager.DisplayData()",
+          "LeaderboardManager.ClearScroll()"
         ],
         "answer": 1,
         "explanation": "RefreshLeaderboard() memicu Coroutine GetLeaderboard() untuk memuat ulang daftar peringkat terkini."
@@ -1906,10 +1906,10 @@ const QUIZ_BANK = [
       {
         "q": "Mengapa GameObject LeaderboardManager perlu diseret ke slot objek pada On Click Button?",
         "options": [
-          "Agar Button mengetahui instance objek mana yang memiliki method/fungsi yang ingin dijalankan",
-          "Hanya formalitas tampilan",
-          "Supaya ukuran tombol berubah",
-          "Agar tombol mengeluarkan suara"
+          "Agar Button memiliki referensi objek tempat fungsi berada",
+          "Hanya sebagai pelengkap tampilan visual komponen di editor",
+          "Supaya dimensi ukuran tombol membesar saat kursor melintas",
+          "Untuk memicu efek animasi transisi warna tombol secara acak"
         ],
         "answer": 0,
         "explanation": "UnityEvent memerlukan referensi ke instance GameObject tempat script komponen terpasang."
@@ -1917,10 +1917,10 @@ const QUIZ_BANK = [
       {
         "q": "Objek apa yang harus dihubungkan ke slot Content pada Inspector LeaderboardManager?",
         "options": [
-          "Objek Content yang berada di dalam Scroll View -> Viewport",
-          "Objek Canvas utama",
-          "Objek Main Camera",
-          "Objek EventSystem"
+          "Objek Content yang berada di dalam Scroll View Viewport",
+          "Objek root Canvas yang menaungi seluruh komponen sistem",
+          "Objek Main Camera yang merender pemandangan game dunia",
+          "Objek EventSystem yang mengendalikan input kontrol mouse"
         ],
         "answer": 0,
         "explanation": "Slot Content memerlukan referensi ke RectTransform container Content tempat baris-baris prefab dimunculkan."
@@ -1934,10 +1934,10 @@ const QUIZ_BANK = [
       {
         "q": "Kapan pengambilan data leaderboard (GET) pertama kali dijalankan oleh script?",
         "options": [
-          "Saat tombol Kirim ditekan",
-          "Otomatis saat game mulai dijalankan (di dalam method Start())",
-          "Hanya saat game over",
-          "Saat tombol keyboard ditekan"
+          "Saat pemain menekan tombol submit kirim skor",
+          "Saat game mulai berjalan pada method Start()",
+          "Hanya ketika kondisi karakter pemain game over",
+          "Saat pemain menekan tombol spasi pada keyboard"
         ],
         "answer": 1,
         "explanation": "Method Start() memanggil StartCoroutine(GetLeaderboard()) sehingga data pertama kali langsung diunduh otomatis."
@@ -1945,10 +1945,10 @@ const QUIZ_BANK = [
       {
         "q": "Apa reaksi script jika pemain mencoba menekan tombol Kirim dengan kolom nama yang masih kosong?",
         "options": [
-          "Tetap mengirim data kosong ke server",
-          "Validasi menolak pengiriman dan menampilkan pesan status peringatan",
-          "Menutup aplikasi Unity",
-          "Mereset seluruh database"
+          "Tetap mengirim data string kosong menuju server backend",
+          "Validasi menolak kirim dan memberi status nama wajib isi",
+          "Aplikasi Unity langsung menutup secara paksa dan crash",
+          "Mengisi kolom nama secara otomatis dengan karakter acak"
         ],
         "answer": 1,
         "explanation": "Validasi string.IsNullOrEmpty(nama) mendeteksi input kosong dan membatalkan pengiriman."
@@ -1956,10 +1956,10 @@ const QUIZ_BANK = [
       {
         "q": "Di mana Anda dapat melihat pesan konfirmasi [JSON SUKSES] atau [WWWForm SUKSES] selama pengujian di Editor?",
         "options": [
-          "Tab Scene",
-          "Tab Console (Ctrl + Shift + C)",
-          "Tab Game",
-          "Tab Animation"
+          "Panel Scene Editor",
+          "Tab Console Unity",
+          "Tab Game Viewport",
+          "Tab Animator Node"
         ],
         "answer": 1,
         "explanation": "Tab Console menampilkan semua output dari Debug.Log, Debug.LogWarning, dan Debug.LogError."
@@ -1967,10 +1967,10 @@ const QUIZ_BANK = [
       {
         "q": "Bagaimana cara membuktikan bahwa skor baru pemain benar-benar tersimpan di database online?",
         "options": [
-          "Skor pemain tersebut tetap muncul di urutan leaderboard saat tombol Refresh ditekan atau scene di-restart",
-          "Monitor berkedip dua kali",
-          "Warna tombol berubah menjadi merah",
-          "Ukuran file bertambah"
+          "Skor tetap tampil saat tombol refresh ditekan ulang",
+          "Layar monitor berkedip dua kali sebagai tanda sukses",
+          "Warna background canvas berganti menjadi hijau muda",
+          "Ukuran file executable build game bertambah drastis"
         ],
         "answer": 0,
         "explanation": "Jika tersimpan di database, data tersebut akan tetap muncul saat daftar ditarik ulang dari server."
@@ -1978,10 +1978,10 @@ const QUIZ_BANK = [
       {
         "q": "Apakah pengiriman via Cara 1 (JSON) dan Cara 2 (WWWForm) menghasilkan data yang sama di database server?",
         "options": [
-          "Tidak, hanya salah satu yang bisa",
-          "Ya, keduanya sama-sama berhasil menyimpan nama dan nilai ke database server",
-          "Data akan corrupt",
-          "Server akan otomatis menolak keduanya"
+          "Tidak, hanya metode JSON saja yang didukung oleh server",
+          "Ya, keduanya sama-sama berhasil menyimpan nama dan nilai",
+          "Tidak, data form-data otomatis ditolak firewall server",
+          "Hanya bekerja jika game dijalankan pada platform mobile"
         ],
         "answer": 1,
         "explanation": "Server backend telah dikonfigurasi untuk menerima input baik berformat payload JSON maupun form-data."
@@ -1995,10 +1995,10 @@ const QUIZ_BANK = [
       {
         "q": "Jika Console memunculkan error 'Cannot resolve destination host', kemungkinan terbesar penyebabnya adalah …",
         "options": [
-          "Perangkat tidak terhubung ke internet atau alamat URL endpoint salah",
-          "Komponen Canvas terbalik",
-          "Font TextMeshPro tidak memiliki warna",
-          "Mouse tidak sengaja terlepas"
+          "Perangkat terputus dari internet atau alamat URL salah",
+          "Komponen RectTransform pada Canvas posisinya terbalik",
+          "Asset font TextMeshPro belum di-generate oleh editor",
+          "Perangkat mouse komputer terlepas dari konektor laptop"
         ],
         "answer": 0,
         "explanation": "Error DNS resolution menandakan koneksi internet terputus atau nama domain endpoint salah ketik."
@@ -2007,9 +2007,9 @@ const QUIZ_BANK = [
         "q": "Jika baris-baris leaderboard saling bertumpuk di satu posisi yang sama, komponen apa yang kemungkinan belum terpasang di Content?",
         "options": [
           "Vertical Layout Group",
-          "Audio Source",
-          "Rigidbody2D",
-          "Camera"
+          "Audio Listener Player",
+          "Rigidbody2D Component",
+          "Directional Light Sun"
         ],
         "answer": 0,
         "explanation": "Vertical Layout Group berfungsi memposisikan setiap baris secara vertikal berjarak agar tidak bertumpuk."
@@ -2017,10 +2017,10 @@ const QUIZ_BANK = [
       {
         "q": "Penyebab umum error 'Gagal membaca JSON' saat menjalankan JsonUtility.FromJson adalah …",
         "options": [
-          "Nama atau tipe variabel di class model C# tidak cocok dengan format JSON dari server",
-          "Warna background belum disetel",
-          "Jumlah tombol terlalu banyak",
-          "Nama game terlalu panjang"
+          "Nama atau tipe variabel model C# tidak cocok dengan JSON",
+          "Warna background Scroll View belum disetel dengan presisi",
+          "Jumlah baris komponen tombol di Canvas UI melebihi batas",
+          "Resolusi layar monitor komputer pengembang terlalu tinggi"
         ],
         "answer": 0,
         "explanation": "JsonUtility membutuhkan kesesuaian nama variabel dan tipe data dengan JSON balasan server."
@@ -2028,10 +2028,10 @@ const QUIZ_BANK = [
       {
         "q": "Jika tombol Kirim ditekan namun tidak ada respon sama sekali di status maupun Console, hal pertama yang harus diperiksa adalah …",
         "options": [
-          "Daftar event On Click() pada Button apakah sudah mengarah ke LeaderboardManager.SubmitScore()",
-          "Koneksi listrik monitor",
-          "Ukuran resolusi layar",
-          "Kecepatan kipas laptop"
+          "Daftar event On Click Button belum ditautkan ke fungsi",
+          "Kabel daya adaptor monitor komputer mengalami kelonggaran",
+          "Kecepatan putaran kipas pendingin laptop terlalu lambat",
+          "Kapasitas media penyimpanan harddisk internal penuh 100%"
         ],
         "answer": 0,
         "explanation": "Jika event On Click belum dikonfigurasi dengan fungsi yang tepat, tombol tidak akan menjalankan aksi apapun."
@@ -2039,10 +2039,10 @@ const QUIZ_BANK = [
       {
         "q": "Untuk sistem game online komersial, mengapa pengiriman skor dari client sebaiknya dilengkapi verifikasi/token hash di server?",
         "options": [
-          "Supaya ukuran download game menjadi lebih kecil",
-          "Untuk mencegah pemain melakukan kecurangan (cheat) dengan mengirim skor palsu langsung ke endpoint API",
-          "Agar warna teks leaderboard lebih tajam",
-          "Supaya game bisa berjalan tanpa kuota"
+          "Mempercepat durasi unduh instalasi game di toko aplikasi",
+          "Mencegah pemain curang mengirimkan skor palsu ke endpoint",
+          "Meningkatkan ketajaman warna font teks pada antarmuka UI",
+          "Mengizinkan game dimainkan secara multiplayer tanpa kuota"
         ],
         "answer": 1,
         "explanation": "Enkripsi/signature hash mencegah cheater menembakkan request skor buatan secara langsung ke endpoint REST API."
