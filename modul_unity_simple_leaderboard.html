@@ -793,8 +793,9 @@ public class LatihanPostJsonConsole : MonoBehaviour
     {
         Debug.Log("Menyiapkan payload JSON untuk: " + nama + " (" + skor + ")");
 
-        // 1. Susun string format JSON sesuai format API
-        string jsonPayload = "{\"nama\":\"" + nama + "\",\"nilai\":" + skor + "}";
+        // 1. Susun string format JSON sesuai format API (Gunakan String Interpolation $)
+        // Catatan: Tanda {{ dan }} meng-escape kurung kurawal JSON, sedangkan \" meng-escape tanda petik JSON
+        string jsonPayload = $"{{\"nama\":\"{nama}\",\"nilai\":{skor}}}";
         Debug.Log("Payload String: " + jsonPayload);
 
         // 2. Ubah string JSON menjadi byte array UTF-8
@@ -824,12 +825,30 @@ public class LatihanPostJsonConsole : MonoBehaviour
             {
                 Debug.Log("<color=green>[JSON SUKSES]</color> Skor berhasil disimpan ke database server!");
                 Debug.Log("HTTP Status Code: " + request.responseCode);
-                Debug.Log("Balasan dari Server:
-" + request.downloadHandler.text);
+                Debug.Log("Balasan dari Server:\n" + request.downloadHandler.text);
             }
         }
     }
 }</code></pre>
+
+  <div class="callout warning" style="margin: 18px 0;">
+    <b>⚠️ Tips Sintaks C# — Mengapa Terjadi Error pada Format JSON String?</b>
+    <p style="margin:6px 0;">Kesalahan paling umum yang sering dialami siswa saat merangkai string JSON secara manual di C# adalah lupa melakukan <i>escaping</i> tanda petik dua, misalnya menulis:</p>
+    <div style="background:#fee2e2; border-left:4px solid #ef4444; padding:8px 12px; font-family:monospace; font-size:0.9rem; color:#991b1b; border-radius:4px; margin:6px 0;">
+      string jsonPayload = "{"nama":"" + nama + "","nilai":" + skor + "}"; // ❌ ERROR: CS1002 / CS1525
+    </div>
+    <p style="margin:6px 0;"><b>Penyebab Error:</b> Di C#, tanda petik dua (<code>"</code>) adalah penanda awal dan penutup teks literal. Ketika Anda menulis <code>"{"nama"</code>, C# menganggap string pertama sudah selesai di tanda petik kedua. Kata <code>nama</code> berikutnya dianggap variabel di luar teks tanpa tanda operator yang valid, sehingga compiler menolak kode tersebut.</p>
+    <p style="margin:6px 0;"><b>Dua Cara Penulisan yang Benar:</b></p>
+    <ul style="margin:4px 0; padding-left:1.2rem;">
+      <li><b>Cara 1 (Sangat Direkomendasikan - Modern Interpolation):</b><br>
+        <code>string jsonPayload = $"{{\"nama\":\"{nama}\",\"nilai\":{skor}}}";</code><br>
+        <i>(Tanda <code>{{</code> dan <code>}}</code> dipakai untuk mencetak simbol <code>{</code> dan <code>}</code> milik JSON, sedangkan <code>\"</code> dipakai untuk mencetak tanda petik dua).</i>
+      </li>
+      <li style="margin-top:8px;"><b>Cara 2 (Concatenation Biasa dengan Escape <code>\"</code>):</b><br>
+        <code>string jsonPayload = "{\"nama\":\"" + nama + "\",\"nilai\":" + skor + "}";</code>
+      </li>
+    </ul>
+  </div>
 
   <h4>Langkah Pengujian Latihan POST JSON di Unity:</h4>
   <ol>
@@ -2246,11 +2265,41 @@ function goToSection(index) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-// Pick 2 random questions from the 5 questions for this section
+// Algoritma Fisher-Yates untuk mengacak susunan array secara merata
+function shuffleArray(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// Memilih 2 soal acak dari 5 soal di bank materi, serta mengacak urutan opsi jawabannya (A, B, C, D)
 function getTwoRandomQuestions(sectionIndex) {
   const bank = QUIZ_BANK[sectionIndex].questions;
-  const shuffled = [...bank].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, 2);
+  // 1. Acak urutan 5 soal di bank menggunakan Fisher-Yates
+  const shuffledBank = shuffleArray(bank);
+  const selectedQuestions = shuffledBank.slice(0, 2);
+
+  // 2. Acak urutan opsi jawaban (A, B, C, D) untuk setiap soal yang terpilih
+  return selectedQuestions.map(item => {
+    // Array indeks opsi [0, 1, 2, 3]
+    const indices = item.options.map((_, idx) => idx);
+    const shuffledIndices = shuffleArray(indices);
+
+    // Tata ulang teks opsi jawaban berdasarkan indeks acak baru
+    const shuffledOptions = shuffledIndices.map(idx => item.options[idx]);
+    // Temukan letak baru kunci jawaban yang benar
+    const newCorrectAnswerIdx = shuffledIndices.indexOf(item.answer);
+
+    return {
+      q: item.q,
+      options: shuffledOptions,
+      answer: newCorrectAnswerIdx,
+      explanation: item.explanation
+    };
+  });
 }
 
 // Open Quiz Modal
@@ -2424,17 +2473,18 @@ function renderQuizResult() {
     footerEl.innerHTML = `
       <div style="display:flex; justify-content:space-between; width:100%; gap:10px;">
         <button type="button" class="btn-stepper btn-prev" id="btn-result-close">Tutup & Pelajari Materi</button>
-        <button type="button" class="btn-quiz-next" style="background:#d97706;" id="btn-result-retry">↺ Coba Kuis Lagi</button>
+        <button type="button" class="btn-quiz-next" style="background:#d97706;" id="btn-result-retry">↺ Coba Kuis Lagi (Acak Ulang)</button>
       </div>
     `;
     document.getElementById("btn-result-close").addEventListener("click", () => {
       const modal = document.getElementById("quiz-modal");
       modal.style.display = "none";
-      showToast("Pelajari kembali materi di atas sebelum mengulang kuis.");
+      showToast("Pelajari kembali materi di atas. Saat kuis diulang, soal & opsi akan diacak kembali.");
     });
 
     document.getElementById("btn-result-retry").addEventListener("click", () => {
       openQuizModal();
+      showToast("🎲 Soal dan pilihan jawaban baru telah diacak ulang!");
     });
   }
 }
